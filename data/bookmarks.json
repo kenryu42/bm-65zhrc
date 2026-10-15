@@ -15,5 +15,22 @@
       "Keep only comments that must exist, such as browser-quirk explanations.",
       "pstack's /no-comments skill finds useless comments and plans refactor vs. delete."
     ]
+  },
+  {
+    "id": "2110546960767992105",
+    "url": "https://x.com/exrhizo/status/2110546960767992105",
+    "author": {
+      "name": "Alex Warren",
+      "handle": "exrhizo"
+    },
+    "posted_at": "2026-10-15T01:43:02.000Z",
+    "topic": "models-releases",
+    "text": "New @typesafeai Jev capabilities!\n \nSome decision models can ask questions about images but can they ask questions with images?\n\n🧵 How to get the most out of the new Jev launch",
+    "summary": "Announces new capabilities in Jev from @typesafeai, framed around decision models that don't just answer questions about images but can ask questions using images. Opens a thread on getting the most out of the launch.",
+    "key_points": [
+      "New Jev launch from @typesafeai.",
+      "Pitch: models that can ask questions with images, not just about them.",
+      "The thread walks through how to use the new capabilities."
+    ]
   }
 ]
