@@ -24,7 +24,8 @@
         "title": "pstack for Grok Bot",
         "url": "https://x.ai/bot/plugin/9717366"
       }
-    ]
+    ],
+    "media": []
   },
   {
     "id": "2110546960767992105",
@@ -47,6 +48,24 @@
       "Jev is trained to pick up subtle visual associations, not only literal labels."
     ],
     "action": "Put reused images in Jev state and keep question-local ones in the question.",
-    "links": []
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HUomLUcbkAAk3OA.jpg",
+        "alt": "Jev launch graphic asking questions with images"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HUonL8TbEAALGvt.jpg",
+        "alt": "Jev answering tarot-style visual association questions"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HUopFWPbgAAQ1i4.jpg",
+        "alt": "Diagram of putting reused images in state vs the question"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HUopm_EaEAAwgeY.jpg",
+        "alt": "Jev unpacking a multi-step lemon pH strip question"
+      }
+    ]
   }
 ]
