@@ -37,15 +37,16 @@
     "saved_at": "2026-10-15T11:33:07+09:00",
     "topic": "models-releases",
     "shelf_life": "evergreen",
-    "tldr": "Jev decision models can now ask questions using images",
-    "summary": "Announces new capabilities in Jev from @typesafeai, framed around decision models that don't just answer questions about images but can ask questions using images. Opens a thread on getting the most out of the launch.",
-    "text": "New @typesafeai Jev capabilities!\n \nSome decision models can ask questions about images but can they ask questions with images?\n\n🧵 How to get the most out of the new Jev launch",
+    "tldr": "Jev injects image tokens so models can ask with images",
+    "summary": "TypeSafe's Jev launch shows decision models that ask questions with images by replacing asset references with raw image tokens at inference. The thread covers vibe-sensitive visual reasoning (e.g. tarot), token-efficient image placement in state vs the question, and decomposing multi-step visual tasks.",
+    "text": "New @typesafeai Jev capabilities!\n \nSome decision models can ask questions about images but can they ask questions with images?\n\n🧵 How to get the most out of the new Jev launch https://t.co/kXIg0M9jqo\n\nJev gets vibes, it is trained to pick up on subtle signals.\n\nJev knows the tarot is a visual language of associations.\n\nThe 3rd question is especially interesting, each `asset reference` is replaced at inference time with the raw image tokens. The model doesn't see the word https://t.co/uvfphw0Zst\n\nBecause the TypeSafe's system injects the images with a string replace, it is important to tune your questions and state for token efficiency. If you reuse an image you can put it in the state, but if it's question local, keep it there.\n\nMore token efficiency, more intelligence https://t.co/ZYaZbceO3U\n\nHere I am proud of Jev, it unpacks:\n\n- What is the last item?\n- What does it mean to map onto the strip\n- What PH is a `lemon`\n- Where is that PH on the strip\n\nWe recommend decomposing questions because each step adds difficulty - Nice job little buddy! https://t.co/ui5m50Osca\n\nHat's off to our  designer at @typesafeai  (they prefer to create behind the scenes)!\n\nFast turnaround with the whole team <3",
     "key_points": [
-      "New Jev launch from @typesafeai.",
-      "Pitch: models that can ask questions with images, not just about them.",
-      "The thread walks through how to use the new capabilities."
+      "Asset references are swapped for raw image tokens at inference, so the model never sees the placeholder word.",
+      "Put reused images in state; keep one-off images in the question for token efficiency.",
+      "Decompose hard visual questions into steps; each step adds difficulty.",
+      "Jev is trained to pick up subtle visual associations, not only literal labels."
     ],
-    "action": "Try asking a Jev decision model a question that includes an image, not only about one.",
+    "action": "Put reused images in Jev state and keep question-local ones in the question.",
     "links": []
   }
 ]
