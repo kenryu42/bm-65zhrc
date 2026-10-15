@@ -7,9 +7,11 @@
       "handle": "poteto"
     },
     "posted_at": "2026-10-13T23:24:10.000Z",
+    "saved_at": "2026-10-15T11:21:40+09:00",
     "topic": "ai-agents",
-    "text": "ban and delete most if not all code comments! agents love copying what already exists. a seemingly harmless comment explaining some temporary workaround is one of the worst viruses you can have in your codebase... you can use pstack's /no-comments skill as a weedkiller.",
+    "tldr": "Stale workaround comments spread because coding agents copy them",
     "summary": "Argues you should delete most code comments, because coding agents copy existing workaround comments and spread hacks through the codebase. Suggests pstack's /no-comments skill to prune useless ones.",
+    "text": "ban and delete most if not all code comments!\n\nagents love copying what already exists. a seemingly harmless comment explaining some temporary workaround is one of the worst viruses you can have in your codebase. like a weed it'll spread quickly as a tool for agents to quickly get their job done. before you know it, your codebase is overrun with hacks and stale comments. just one more workaround bro \n\nyou can use pstack's /no-comments skill as a weedkiller. it'll seek out useless comments while keeping the ones that actually should exist (like explaining a browser quirk), and figure out how to solve them on a first principles basis\n\nhere's a prompt you can try asking @bot:\n\ncreate a project agent that uses /poteto-mode to spawn a /swarm to use /no-comments and identify useless code comments we can prune in my repo. come back with a high level plan of which of these workarounds would be best solved by refactoring and which we can straight up delete\n\nhttps://t.co/nqeRdY62ee",
     "key_points": [
       "Agents imitate existing code, so stale workaround comments spread like weeds.",
       "Keep only comments that must exist, such as browser-quirk explanations.",
@@ -24,9 +26,11 @@
       "handle": "exrhizo"
     },
     "posted_at": "2026-10-15T01:43:02.000Z",
+    "saved_at": "2026-10-15T11:33:07+09:00",
     "topic": "models-releases",
-    "text": "New @typesafeai Jev capabilities!\n \nSome decision models can ask questions about images but can they ask questions with images?\n\n🧵 How to get the most out of the new Jev launch",
+    "tldr": "Jev decision models can now ask questions using images",
     "summary": "Announces new capabilities in Jev from @typesafeai, framed around decision models that don't just answer questions about images but can ask questions using images. Opens a thread on getting the most out of the launch.",
+    "text": "New @typesafeai Jev capabilities!\n \nSome decision models can ask questions about images but can they ask questions with images?\n\n🧵 How to get the most out of the new Jev launch",
     "key_points": [
       "New Jev launch from @typesafeai.",
       "Pitch: models that can ask questions with images, not just about them.",
