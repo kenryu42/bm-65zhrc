@@ -41,7 +41,7 @@ export function feedConfig({
   const label = topic === null ? null : TOPIC_LABELS[topic];
   const self = new URL(topic === null ? "rss.xml" : `rss/${topic}.xml`, page);
   return {
-    title: label === null ? "Bookmarks" : `Bookmarks: ${label}`,
+    title: label === null ? "Grok Digest" : `Grok Digest: ${label}`,
     description: label === null ? "Posts saved from X." : `Posts saved from X in ${label}.`,
     site: page.href,
     items: bookmarks

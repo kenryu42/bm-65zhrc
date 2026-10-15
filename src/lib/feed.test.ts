@@ -37,7 +37,7 @@ const config = feedConfig({
 
 describe("feedConfig", () => {
   it("limits a topic feed to that topic and escapes the post", () => {
-    expect(config.title).toBe("Bookmarks: Design");
+    expect(config.title).toBe("Grok Digest: Design");
     expect(config.items.map((item) => item.title)).toEqual(["A summary."]);
     const [item] = config.items;
     expect(item?.link).toBe("https://example.github.io/x-bookmarks/#b-1");

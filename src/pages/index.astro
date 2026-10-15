@@ -12,11 +12,11 @@ const feedHref = `${base}rss.xml`;
 const designFeedHref = `${base}rss/design.xml`;
 ---
 
-<Layout title="X bookmarks" description="Posts saved from X, summarized and sorted by topic." feedHref={feedHref}>
+<Layout title="Grok Digest" description="Posts saved from X, summarized and sorted by topic." feedHref={feedHref}>
   <div class="mx-auto flex min-h-dvh max-w-2xl flex-col px-4 sm:px-6">
     <header class="flex items-start justify-between gap-4 pt-10 pb-8 sm:pt-16">
       <div class="flex flex-col gap-2">
-        <h1 class="font-heading text-4xl font-semibold tracking-tight text-balance sm:text-5xl">Bookmarks</h1>
+        <h1 class="font-heading text-4xl font-semibold tracking-tight text-balance sm:text-5xl">Grok Digest</h1>
         <p class="text-pretty text-muted-foreground">Posts saved from X, summarized and sorted by topic.</p>
       </div>
       <ThemeToggle client:load />
@@ -49,6 +49,7 @@ const designFeedHref = `${base}rss/design.xml`;
         .
       </p>
       <p>This page is unlisted, not private. Anyone with the link can see it.</p>
+      <p class="text-xs">Unofficial. Summaries created with Grok.</p>
     </footer>
   </div>
 </Layout>
