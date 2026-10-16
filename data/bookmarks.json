@@ -52,19 +52,23 @@
     "media": [
       {
         "url": "https://pbs.twimg.com/media/HUomLUcbkAAk3OA.jpg",
-        "alt": "Jev launch graphic asking questions with images"
+        "alt": "Jev launch graphic asking questions with images",
+        "link": "https://t.co/kXIg0M9jqo"
       },
       {
         "url": "https://pbs.twimg.com/media/HUonL8TbEAALGvt.jpg",
-        "alt": "Jev answering tarot-style visual association questions"
+        "alt": "Jev answering tarot-style visual association questions",
+        "link": "https://t.co/uvfphw0Zst"
       },
       {
         "url": "https://pbs.twimg.com/media/HUopFWPbgAAQ1i4.jpg",
-        "alt": "Diagram of putting reused images in state vs the question"
+        "alt": "Diagram of putting reused images in state vs the question",
+        "link": "https://t.co/ZYaZbceO3U"
       },
       {
         "url": "https://pbs.twimg.com/media/HUopm_EaEAAwgeY.jpg",
-        "alt": "Jev unpacking a multi-step lemon pH strip question"
+        "alt": "Jev unpacking a multi-step lemon pH strip question",
+        "link": "https://t.co/ui5m50Osca"
       }
     ]
   }
