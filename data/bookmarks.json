@@ -71,5 +71,39 @@
         "link": "https://t.co/ui5m50Osca"
       }
     ]
+  },
+  {
+    "id": "2111133080526495985",
+    "url": "https://x.com/poteto/status/2111133080526495985",
+    "author": {
+      "name": "lauren",
+      "handle": "poteto"
+    },
+    "posted_at": "2026-10-16T16:32:04.000Z",
+    "saved_at": "2026-10-17T03:24:38+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Make agent work trustworthy by fixing the codebase before adding rules",
+    "summary": "Lays out an inverse pyramid for trusting coding agents: put most effort into codebase design, then static analysis, then prose rules, and least into human review. The post invites readers to hand it to their bot or agent, and ends with a pstack prompt for a Project that studies your past feedback and proposes a more agent-friendly rearchitecture.",
+    "text": "how do you trust your agents' work more? copy this post/link and give it to your @bot or agent!\n\n1. codebase improvements: this is just good software engineering - better architecture, stronger types and invariants, clear boundaries. agents love to copy what exists and take the shortest path, so make the easy thing the right thing. categorically eliminate problems through code and you won't need to think about it again.\n2. static analysis: lint rules, tests, CI, verification (eg TLA+). very token efficient ways to catch issues ahead of time.\n3. prose: comments, rules, AGENTS.md, skills - anything that can't be enforced and requires agent judgment. use it minimally, but do use /create-verification-skill.\n4. human review: the hardest to scale. at the rate agents land code, it's pretty much impossible to thoroughly review every PR, so spend that effort on the highest leverage point, designing an environment where agents do the right thing by default.\n\nthis forms an inverse pyramid: you want most of your effort at the top, least at the bottom. codebase improvements are deterministic, making it more token efficient, and lets you sleep more soundly at night.\n\ninstall https://t.co/u9xIlN3eN0 and create a new Project:\n1. look through my slack/chat messages and code review comments where i've given feedback on PRs, code, architecture\n2. use /recall on my past transcripts to learn how i steer agents\n3. /poteto-mode use /correct and /architect on past commits to find the most common pitfalls agents fall into, then propose a plan to rearchitect the code i own so it's more agent friendly. answer open questions with prototyping rather than defer to me, and back the plan with real data. \n4. before you begin, use /sharpen + /in-your-own-words and confirm this prompt with me",
+    "key_points": [
+      "Agents copy what exists and take the shortest path, so make the easy path the correct one in code.",
+      "Lint rules, tests, CI and formal verification catch problems cheaply before review.",
+      "Keep prose rules like AGENTS.md and skills minimal, for judgment calls code can't enforce.",
+      "Human review doesn't scale with agent output, so spend it on designing the environment."
+    ],
+    "action": "Install pstack and start a Project that runs /recall, /correct and /architect on your history to propose an agent-friendly rearchitecture, confirmed first with /sharpen.",
+    "links": [
+      {
+        "title": "pstack plugin in the cursor/plugins repo",
+        "url": "https://github.com/cursor/plugins/tree/main/pstack"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HUw_sHsboAARf-5.jpg",
+        "alt": "Inverse pyramid titled whenever you correct your agent: codebase, static analysis, prose, human review"
+      }
+    ]
   }
 ]
