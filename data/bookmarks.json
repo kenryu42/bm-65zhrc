@@ -105,5 +105,34 @@
         "alt": "Inverse pyramid titled whenever you correct your agent: codebase, static analysis, prose, human review"
       }
     ]
+  },
+  {
+    "id": "2111168901723906176",
+    "url": "https://x.com/ClaudeDevs/status/2111168901723906176",
+    "author": {
+      "name": "ClaudeDevs",
+      "handle": "ClaudeDevs"
+    },
+    "posted_at": "2026-10-16T18:54:24.000Z",
+    "saved_at": "2026-10-17T07:56:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "How the Claude Code team reviews code at agent-scale volume",
+    "summary": "With Claude writing about 90% of Claude Code's code, the team moved most review to layered automated checks and risk-tiered human approval, doubling merged PRs from June to September while the revert share fell over 40%. The linked post explains each layer and how other teams can adopt it.",
+    "text": "Claude writes about 90% of Claude Code's code.\n\nFrom June to September, merged PRs more than doubled while the share reverted fell by more than 40%.\n\nWe wrote about how we changed code review to get there, and how to adopt it:\n\nhttps://t.co/9sZe64g3mb",
+    "key_points": [
+      "Review runs continuously before a PR exists: the agent must show test or build output, then a fresh-context subagent reviews the diff.",
+      "AI findings are verified by other agents voting before posting, and every finding must be fixed or resolved with a reason.",
+      "Human approvals scale by risk tier set from the change, not the author, and a bot approval never replaces a required human.",
+      "Cap review rounds and switch to diff-only re-review, since agent reviewers otherwise keep re-finding old bugs."
+    ],
+    "action": "Add a short REVIEW.md to one repo listing what failure looks like there, then run /code-review locally before your next PR.",
+    "links": [
+      {
+        "title": "How the Claude Code team does code review",
+        "url": "https://claude.dev/blog/solving-code-review-at-anthropic/"
+      }
+    ],
+    "media": []
   }
 ]
