@@ -22,7 +22,8 @@
     "links": [
       {
         "title": "pstack for Grok Bot",
-        "url": "https://x.ai/bot/plugin/9717366"
+        "url": "https://x.ai/bot/plugin/9717366",
+        "short": "https://t.co/nqeRdY62ee"
       }
     ],
     "media": []
@@ -96,7 +97,8 @@
     "links": [
       {
         "title": "pstack plugin in the cursor/plugins repo",
-        "url": "https://github.com/cursor/plugins/tree/main/pstack"
+        "url": "https://github.com/cursor/plugins/tree/main/pstack",
+        "short": "https://t.co/u9xIlN3eN0"
       }
     ],
     "media": [
@@ -131,7 +133,8 @@
       {
         "title": "How the Claude Code team does code review",
         "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-        "image": "https://pbs.twimg.com/news_img/2110911050824773632/ChuZ3oR7?format=png&name=orig"
+        "image": "https://pbs.twimg.com/news_img/2110911050824773632/ChuZ3oR7?format=png&name=orig",
+        "short": "https://t.co/9sZe64g3mb"
       }
     ],
     "media": []
