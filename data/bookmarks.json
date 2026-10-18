@@ -232,5 +232,44 @@
         "alt": "Flowchart titled Is your work AI-verifiable, branching into verifiable work, building an AI judge, or you as the judge"
       }
     ]
+  },
+  {
+    "id": "2111839048230666590",
+    "url": "https://x.com/Aprilzz423/status/2111839048230666590",
+    "author": {
+      "name": "April",
+      "handle": "Aprilzz423"
+    },
+    "posted_at": "2026-10-18T15:17:19.000Z",
+    "saved_at": "2026-10-19T02:15:12+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Free Claude skill that draws interactive hand-inked isometric objects",
+    "summary": "April released Colorfigures, a free, open-source Claude skill: describe an everyday object and Claude draws it as a hand-inked isometric figure with working buttons, or labels its parts to explain how it works. A demo site has 26 figures so far.",
+    "text": "Many asked me how to make these, so I turned it into a skill~\n\nColorfigures: Describe an everyday object, and Claude draws it hand-inked and isometric, with buttons that actually work.\n\nYou can also ask how something works and the skill will label the parts to explain how each part does its job.\n\nFree and open source 👇\n\nSkill: https://t.co/ztZ5Craul4\nDemo: https://t.co/A5DWaKHtkW\n\nDemo currently has 26 figures and I am adding more! Have fun",
+    "key_points": [
+      "Describe an everyday object and Claude draws it hand-inked and isometric, with buttons that actually work.",
+      "Ask how something works and the skill labels each part to explain its job.",
+      "The skill is free and open source, and the demo site shows 26 example figures."
+    ],
+    "action": "Install the Colorfigures skill in Claude and ask it to draw an interactive figure of an object you use daily, like a coffee maker.",
+    "links": [
+      {
+        "title": "Colorfigures skill · April Zhu",
+        "url": "https://april-zhu.com/colorfigures",
+        "short": "https://t.co/ztZ5Craul4"
+      },
+      {
+        "title": "Colorfigures demo · April Zhu",
+        "url": "https://april-zhu.com/colorfigures-demo",
+        "short": "https://t.co/A5DWaKHtkW"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2111838984855072769/img/fK5zt3cWtQGSoC2U.jpg",
+        "alt": "Video poster of hand-drawn isometric Colorfigures objects"
+      }
+    ]
   }
 ]
