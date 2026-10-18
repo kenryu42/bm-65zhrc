@@ -169,5 +169,39 @@
       }
     ],
     "media": []
+  },
+  {
+    "id": "2111604705340326393",
+    "url": "https://x.com/addyosmani/status/2111604705340326393",
+    "author": {
+      "name": "Addy Osmani",
+      "handle": "addyosmani"
+    },
+    "posted_at": "2026-10-17T23:46:08.000Z",
+    "saved_at": "2026-10-18T14:44:27+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Replace line-by-line code review with layered automated verification for agents",
+    "summary": "Argues that when agents write code faster than humans can review it, the bottleneck becomes proving it works, so review should evolve into a multi-layered verification system. It points to the Claude Code team, where Claude writes 90%+ of the code, as proof that heavy investment in verification keeps speed without losing stability.",
+    "text": "Give your agent a way to verify its work. This can dramatically improve the quality of output.\n\nWith this process in place, Claude Code was able to write 90%+ of its code itself. When generating software at a faster rate than you can review it, the bottleneck shifts to proving that it works. @bcherny and team invested enough in verification, we've been able to move fast while maintaining stability.\n\nCode reviews aren't going away, but you need to think of it differently. One human reading through line-by-line is no longer going to work as a gate, it needs to evolve into a multi-layered verification system, built with fast deterministic feedback loops for your agents. \n\nThis is where e2e tests, feature maps (as @poteto has been advocating), property tests and multi-agent adversarial reviews come in. These all provide opportunities to catch errors early and fix them before things get out of hand.\n\nYou don't have enough eyeballs for the amount of code being written so your focus needs to be on product intent, risk assessment and evaluating evidence rather than reviewing code. Delegate the code checking work to your automated tests, scale your approvals based on risk, and turn your test failures into living evaluations. This approach helps maintain speed without losing reliability.\n\nLet the agents do what they do best and let you focus on what makes you irreplaceable: judgement, direction, and ownership. We tried to capture how we handle code review and verification in this writeup. Hopefully it's helpful.",
+    "key_points": [
+      "Giving agents a way to verify their own work sharply improves output quality.",
+      "A single human reading line by line can't gate agent-speed code; build fast deterministic feedback loops instead.",
+      "Layer e2e tests, feature maps, property tests and multi-agent adversarial reviews to catch errors early.",
+      "Humans should focus on product intent, risk assessment and evidence, scaling approvals by risk."
+    ],
+    "action": "Add one fast verification layer to an agent-heavy repo, such as e2e tests or a feature map, and have the agent run it before every handoff.",
+    "links": [
+      {
+        "title": "Quoted post: Claude writes about 90% of Claude Code",
+        "url": "https://x.com/ClaudeDevs/status/2111168901723906176"
+      },
+      {
+        "title": "How the Claude Code team does code review",
+        "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+        "image": "https://pbs.twimg.com/news_img/2110911050824773632/ChuZ3oR7?format=png&name=orig"
+      }
+    ],
+    "media": []
   }
 ]
