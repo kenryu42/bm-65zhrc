@@ -271,5 +271,73 @@
         "alt": "Video poster of hand-drawn isometric Colorfigures objects"
       }
     ]
+  },
+  {
+    "id": "2023779299367809063",
+    "url": "https://x.com/thedankoe/status/2023779299367809063",
+    "author": {
+      "name": "DAN KOE",
+      "handle": "thedankoe"
+    },
+    "posted_at": "2026-02-17T15:19:19.000Z",
+    "saved_at": "2026-10-19T02:17:43+09:00",
+    "topic": "other",
+    "shelf_life": "evergreen",
+    "tldr": "A four-quadrant map for developing mind, body, spirit, and vocation",
+    "summary": "Dan Koe's X article lays out Human 3.0, a self-development model that maps your life across four quadrants (Mind, Body, Spirit, Vocation), each with three levels of consciousness, three phases of change, and traits you build to level up. He argues most models cover only one domain, and this one aims to show where you're stuck and which problem to solve next.",
+    "text": "https://t.co/CdLm1xoOAb",
+    "key_points": [
+      "The four quadrants, adapted from Ken Wilber's AQAL model, are Mind, Body, Spirit, and Vocation, and a problem in one is rarely solved by working on another.",
+      "Each quadrant has three levels (Conformist, Individualist, Synthesist), and you move up through Dissonance, Uncertainty, and Discovery phases.",
+      "Progress needs knowledge, experience, and skill together; knowing without practice leads to False Transformation, where you only imitate the next level.",
+      "Channels, obsessive rabbit holes of learning or building, are the fastest way through a Dissonance phase to the next level."
+    ],
+    "action": "Paste Dan Koe's Human 3.0 self-discovery prompt into an AI chat to map your four quadrants, find your Metatype, and name your core problem.",
+    "links": [
+      {
+        "title": "Human 3.0 – A Map To Reach The Top 1%",
+        "url": "https://x.com/i/article/2023439310499033089",
+        "image": "https://pbs.twimg.com/media/HBUzlGwbcAUboWU.jpg",
+        "short": "https://t.co/CdLm1xoOAb"
+      },
+      {
+        "title": "A complete knowledge base of Human 3.0",
+        "url": "https://letters.thedankoe.com/p/a-complete-knowledge-base-of-human"
+      },
+      {
+        "title": "Prompt: Human 3.0 self-discovery",
+        "url": "https://letters.thedankoe.com/p/prompt-human-30-self-discovery-and"
+      },
+      {
+        "title": "Dan Koe's newsletter signup",
+        "url": "https://letters.thedankoe.com/"
+      },
+      {
+        "title": "IQ bell curve midwit meme explained",
+        "url": "https://knowyourmeme.com/memes/iq-bell-curve-midwit"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HBS0hdea8AA3BNH.jpg",
+        "alt": "Human 3.0 map with Mind, Body, Spirit, and Vocation quadrants and three colored levels"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HBS0p4jaAAAlVJq.jpg",
+        "alt": "Diagram of the Dissonance, Uncertainty, and Discovery phases within each level"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HBS0t9sbcAUW8wX.jpg",
+        "alt": "Diagram of the Knowledge, Experience, and Skill traits"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HBS0x6abcAUYi4G.jpg",
+        "alt": "Diagram of Channels as dotted paths leading to the next level"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HBS03csaQAAS2XG.jpg",
+        "alt": "Example map of archetypes across quadrants giving the Metatype The Outlier at Human 2.0"
+      }
+    ]
   }
 ]
