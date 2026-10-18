@@ -138,5 +138,36 @@
       }
     ],
     "media": []
+  },
+  {
+    "id": "2110023283169247623",
+    "url": "https://x.com/felixrieseberg/status/2110023283169247623",
+    "author": {
+      "name": "Felix Rieseberg",
+      "handle": "felixrieseberg"
+    },
+    "posted_at": "2026-10-13T15:02:07.000Z",
+    "saved_at": "2026-10-18T14:27:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "A practical tutorial on being more ambitious with AI models",
+    "summary": "Felix Rieseberg, an eng lead on Claude, turns the vague advice to be more ambitious with AI into a tutorial with four kinds of ambition and concrete prompts for each. It matters because it shows how to move models from small tasks to outcomes, expert-level depth, and cross-field ideas.",
+    "text": "Hi, I'm Felix. I'm an eng lead working on Claude. I love watching people take flight and do things they never thought possible.\n\nWe often describe that as \"being more ambitious\" when using AI, which is tricky advice to follow. I wrote a tutorial:\n\nhttps://t.co/vNPPs5FWm8",
+    "key_points": [
+      "Altitude: ask for the goal beyond the task, like keeping apps crash-free instead of fixing one crash.",
+      "Depth: insist on the tools real experts use, set unreasonable targets, and check results with an outside judge, not the model itself.",
+      "Range: pull in other fields, for example by describing the work as verbs instead of nouns.",
+      "Higher-level workflows often need setup first, such as giving the model crash reports and machines to verify fixes."
+    ],
+    "action": "Before your next big prompt, ask the model what a top professional would do differently, which raw data and methods they'd use, then rewrite the prompt.",
+    "links": [
+      {
+        "title": "How to be more ambitious: A tutorial for humans with models",
+        "url": "https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/",
+        "image": "https://pbs.twimg.com/news_img/2110023283827683328/phka42_2?format=jpg&name=orig",
+        "short": "https://t.co/vNPPs5FWm8"
+      }
+    ],
+    "media": []
   }
 ]
