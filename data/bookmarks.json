@@ -203,5 +203,34 @@
       }
     ],
     "media": []
+  },
+  {
+    "id": "2111469315220443345",
+    "url": "https://x.com/leeknowlton/status/2111469315220443345",
+    "author": {
+      "name": "Lee Knowlton",
+      "handle": "leeknowlton"
+    },
+    "posted_at": "2026-10-17T14:48:08.000Z",
+    "saved_at": "2026-10-19T01:58:17+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Split work by whether AI can verify it, then adjust how you work",
+    "summary": "Lee Knowlton argues that how you use AI should depend on whether AI can check its own output: verifiable work can be handed off at scale, borderline work needs an AI judge backed by evals, and unverifiable work still needs your focused attention. A flowchart lays out the decision.",
+    "text": "notes on using AI productively:\n\n- you can separate most work into two buckets: AI-verifiable and not. how you should work depends on which bucket your work falls into\n\n- \"verifiable\" boils down to whether AI can independently tell (verify) if work that it completes is good or not.\n\n- if your work is verifiable, design a verifier or system of verifiers and \"let 'er rip.\" use as much AI as you can and get out of the way. you're not the bottleneck anymore, so no marginal attention is required as tasks scale.\n\n- if it might be verifiable, you can try building an AI judge. but you need evals to test the judge's competence. @hammer_mt is my go-to on how to do this well. if you can get your judge good enough, you have verifiable work. back to throwing as much ai at your work as you can\n\n- sometimes a good judge is easy to build, sometimes it's so hard that you may as well not bother.\n\n- if your work can't be verified by an AI, that leaves you or someone else as the judge. treat it like the olden days but with AI help. one or two tasks at a time, avoid context switching, protect your focus\n\n- sometimes, there are verifiable sub-tasks within larger pieces of work. The same process re: judgment and eval-building applies to these sub-tasks. The more you can automate these away, the more you can focus on the pieces that you're uniquely suited for.",
+    "key_points": [
+      "If AI can verify the result, build verifiers and let it run at scale without your attention.",
+      "If it might be verifiable, build an AI judge and test it with evals before trusting it.",
+      "If only a human can judge, work the old way with AI help: one or two tasks, no context switching.",
+      "Pull verifiable sub-tasks out of larger work and automate them so you focus on what only you can do."
+    ],
+    "action": "List your current tasks and mark each as AI-verifiable, maybe, or not, then build a verifier or eval for one maybe task.",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HU1nxXaaIAAssE1.png",
+        "alt": "Flowchart titled Is your work AI-verifiable, branching into verifiable work, building an AI judge, or you as the judge"
+      }
+    ]
   }
 ]
