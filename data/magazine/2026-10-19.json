@@ -3,7 +3,10 @@
   "title": "When agents outrun the reviewers",
   "subtitle": "A week of arguments for moving trust out of code review and into the system around it",
   "editor_note": "Agents now write code faster than anyone can read it, and four of this week's six saves ask what to do about that. Lauren starts with the comments agents copy and ends with a pyramid for the whole codebase, the Claude Code team shows the layered checks it runs at 90% agent-written code, and Addy Osmani names the shift: review becomes verification. Felix Rieseberg asks for bigger goals, and Jev's thread shows models that reason with pictures.",
-  "theme": { "palette": "ocean", "fonts": "serif" },
+  "theme": {
+    "palette": "ocean",
+    "fonts": "serif"
+  },
   "sections": [
     {
       "type": "cover-story",
@@ -33,9 +36,21 @@
       "type": "timeline",
       "headline": "How the review debate built up",
       "items": [
-        { "bookmark": "2110149626133438732", "label": "The symptom", "note": "One stale workaround comment, copied by agents, spreads hacks across a repo." },
-        { "bookmark": "2111133080526495985", "label": "The fix", "note": "Fix the code and the checks first, so prose rules and review have less to catch." },
-        { "bookmark": "2111168901723906176", "label": "The proof", "note": "Layered automated review doubled merged PRs while the revert share fell over 40%." }
+        {
+          "bookmark": "2110149626133438732",
+          "label": "The symptom",
+          "note": "One stale workaround comment, copied by agents, spreads hacks across a repo."
+        },
+        {
+          "bookmark": "2111133080526495985",
+          "label": "The fix",
+          "note": "Fix the code and the checks first, so prose rules and review have less to catch."
+        },
+        {
+          "bookmark": "2111168901723906176",
+          "label": "The proof",
+          "note": "Layered automated review doubled merged PRs while the revert share fell over 40%."
+        }
       ],
       "variant": "vertical"
     },
@@ -53,28 +68,33 @@
       "variant": "note",
       "span": "half"
     },
-    { "type": "topic-divider", "topic": "ai-agents", "label": "Aim higher", "variant": "rule" },
+    {
+      "type": "topic-divider",
+      "topic": "ai-agents",
+      "label": "Aim higher",
+      "variant": "rule"
+    },
     {
       "type": "feature",
       "bookmark": "2110023283169247623",
       "headline": "Four ways to ask a model for more",
       "deck": "Altitude, depth, range and setup turn vague advice to be ambitious into prompts you can use.",
-      "variant": "aside",
-      "span": "half"
+      "variant": "aside"
     },
     {
-      "type": "sidebar-box",
-      "bookmark": "2110023283169247623",
-      "headline": "Before your next big prompt",
-      "variant": "callout",
-      "span": "half"
+      "type": "topic-divider",
+      "topic": "models-releases",
+      "label": "Also this week",
+      "variant": "band"
     },
-    { "type": "topic-divider", "topic": "models-releases", "label": "Also this week", "variant": "band" },
     {
       "type": "photo-spread",
       "headline": "Models that ask with pictures",
       "items": [
-        { "bookmark": "2110546960767992105", "caption": "Jev swaps asset references for raw image tokens, so a model can reason over the pictures themselves." }
+        {
+          "bookmark": "2110546960767992105",
+          "caption": "Jev swaps asset references for raw image tokens, so a model can reason over the pictures themselves."
+        }
       ],
       "variant": "grid"
     }
