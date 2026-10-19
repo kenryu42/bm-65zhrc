@@ -353,7 +353,7 @@
     "shelf_life": "evergreen",
     "tldr": "Show-me skill summarizes PR changes as compact pseudocode",
     "summary": "Ben Holmes recommends dexhorthy's /show-me skill for short, token-efficient pseudo-code overviews of code changes that drop cleanly into PR descriptions. He notes it is composable, so you can drill into a specific piece like InboxView.",
-    "text": "Late to the party here, but @dexhorthy's /show-me skill is awesome.\n\nIt gives a short, token-efficient overview of the changes in a pseudo-code format. Quick to generate and easily embedded in a PR description.\n\nIt's composable too. Want more on InboxView? /show-me the InboxView. https://t.co/X6fnWvhK43 https://t.co/GEVQtWRqCv",
+    "text": "Late to the party here, but @dexhorthy's /show-me skill is awesome.\n\nIt gives a short, token-efficient overview of the changes in a pseudo-code format. Quick to generate and easily embedded in a PR description.\n\nIt's composable too. Want more on InboxView? /show-me the InboxView. Want more on the preview batching mechanism? /show-me the preview cache",
     "key_points": [
       "/show-me turns a change set into a compact pseudo-code overview suited for PR descriptions.",
       "It stays token-efficient and can be narrowed to one component or area when you ask.",
@@ -363,15 +363,13 @@
     "links": [
       {
         "title": "/show-me: compact visuals for coding agents",
-        "url": "https://x.com/dexhorthy/status/2087569590268391897",
-        "short": "https://t.co/GEVQtWRqCv"
+        "url": "https://x.com/dexhorthy/status/2087569590268391897"
       }
     ],
     "media": [
       {
         "url": "https://pbs.twimg.com/media/HU7qKDHX0AAwxl6.jpg",
-        "alt": "A PR summary for a new inbox view beside the sidebar folder tree. The inbox lists every Markdown File and HTML App, newest modified first, grouped by date like Apple Notes. Each row shows the note's first two lines and its folder. A component-tree diff adds a folders/inbox toggle, ⌘⇧E and ⌘⇧I shortcuts, InboxView, memoized InboxRows, and LiveText for the open note. A second block shows previews loading from the main process in batches of 200, reading the first 4 KB of each file. Only changed rows re-render.",
-        "link": "https://t.co/X6fnWvhK43"
+        "alt": "A PR summary for a new inbox view beside the sidebar folder tree. The inbox lists every Markdown File and HTML App, newest modified first, grouped by date like Apple Notes. Each row shows the note's first two lines and its folder. A component-tree diff adds a folders/inbox toggle, ⌘⇧E and ⌘⇧I shortcuts, InboxView, memoized InboxRows, and LiveText for the open note. A second block shows previews loading from the main process in batches of 200, reading the first 4 KB of each file. Only changed rows re-render."
       }
     ]
   },
