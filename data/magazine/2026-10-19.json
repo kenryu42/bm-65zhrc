@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-19",
+  "title": "Trust, but verify the agents",
+  "subtitle": "A week of arguments that code review can't keep up, and what replaces it",
+  "editor_note": "Most of this week's saves circle one problem: agents now write code faster than people can read it. Lauren, the Claude Code team and Addy Osmani each answer it the same way, by moving trust out of human review and into the codebase, the tests and automated checks. Felix Rieseberg pushes from the other side, asking for bigger goals, and Jev shows models that reason with images.",
+  "theme": { "palette": "forest", "fonts": "serif-sans" },
+  "sections": [
+    {
+      "type": "cover-story",
+      "bookmark": "2111133080526495985",
+      "kicker": "Cover story",
+      "headline": "Fix the codebase before you write another rule",
+      "deck": "An inverse pyramid for trusting agent work: most effort on design and types, least on human review.",
+      "variant": "split"
+    },
+    {
+      "type": "pull-quote",
+      "bookmark": "2110149626133438732",
+      "quote": "a seemingly harmless comment explaining some temporary workaround is one of the worst viruses you can have in your codebase.",
+      "variant": "centered",
+      "emphasis": "loud"
+    },
+    {
+      "type": "feature",
+      "bookmark": "2111604705340326393",
+      "headline": "Code review becomes a verification system",
+      "deck": "When agents outpace reviewers, the bottleneck moves from reading code to proving it works.",
+      "variant": "drop-cap",
+      "span": "half"
+    },
+    { "type": "sidebar-box", "bookmark": "2110023283169247623", "headline": "Try this before your next prompt", "variant": "callout", "span": "half" },
+    {
+      "type": "compare",
+      "headline": "Two routes to trustworthy agent code",
+      "items": [
+        { "bookmark": "2111168901723906176", "label": "Layer the checks", "note": "Keep shipping fast and let tests, subagents and risk tiers catch what humans can't read." },
+        { "bookmark": "2111133080526495985", "label": "Fix the codebase", "note": "Make the easy path the right one, so there is less for any review to catch." }
+      ],
+      "verdict": "They agree more than they differ: both spend human attention on designing the system, not on reading every line.",
+      "variant": "versus"
+    },
+    {
+      "type": "timeline",
+      "headline": "How the review debate unfolded",
+      "items": [
+        { "bookmark": "2110149626133438732", "label": "The problem", "note": "Agents copy stale workaround comments, so hacks spread." },
+        { "bookmark": "2111168901723906176", "label": "The data", "note": "Twice the merged PRs, 40% fewer reverts after automating review." },
+        { "bookmark": "2111604705340326393", "label": "The takeaway", "note": "Review turns into layered verification, with humans judging risk." }
+      ],
+      "variant": "vertical",
+      "span": "half"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "Worth your time",
+      "items": [
+        { "bookmark": "2110023283169247623", "headline": "Four kinds of ambition with AI", "note": "Altitude, depth, range and setup, each with prompts you can copy." },
+        { "bookmark": "2110546960767992105", "headline": "Where to put images in a prompt", "note": "Reused images go in state; one-off images stay in the question." }
+      ],
+      "variant": "large",
+      "span": "half"
+    },
+    { "type": "topic-divider", "topic": "models-releases", "label": "Also this week", "variant": "band" },
+    {
+      "type": "photo-spread",
+      "headline": "Models that ask with images",
+      "items": [
+        { "bookmark": "2110546960767992105", "caption": "TypeSafe's Jev swaps asset references for raw image tokens at inference." }
+      ],
+      "variant": "mosaic"
+    }
+  ]
+}
