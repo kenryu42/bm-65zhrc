@@ -1,20 +1,17 @@
 {
   "date": "2026-10-19",
-  "title": "When agents outrun the reviewers",
-  "subtitle": "A week of arguments for moving trust out of code review and into the system around it",
-  "editor_note": "Agents now write code faster than anyone can read it, and four of this week's six saves ask what to do about that. Lauren starts with the comments agents copy and ends with a pyramid for the whole codebase, the Claude Code team shows the layered checks it runs at 90% agent-written code, and Addy Osmani names the shift: review becomes verification. Felix Rieseberg asks for bigger goals, and Jev's thread shows models that reason with pictures.",
-  "theme": {
-    "palette": "ocean",
-    "fonts": "serif"
-  },
+  "title": "Let the machines check the work",
+  "subtitle": "Eleven saves on verifying what agents write, the skills that help, and where your own attention should go",
+  "editor_note": "This week's saves keep landing on one question: if agents write the code, who checks it? Lee Knowlton sorts work by whether AI can verify it, Addy Osmani and the Claude Code team turn review into layered checks, and Lauren starts with the comments agents copy. Then come the tools, from Ben Holmes's pseudocode PR summaries to April's hand-inked figures, and the people side: Felix Rieseberg and Dan Koe on aiming higher, and swyx on the engineers everyone is hiring.",
+  "theme": { "palette": "ocean", "fonts": "serif" },
   "sections": [
     {
       "type": "cover-story",
-      "bookmark": "2111133080526495985",
+      "bookmark": "2111469315220443345",
       "kicker": "Cover story",
-      "headline": "Build a codebase your agents can't get wrong",
-      "deck": "An inverse pyramid for trusting agent work: most effort on architecture and types, least on reading pull requests.",
-      "variant": "stacked"
+      "headline": "Sort your work by whether AI can check it",
+      "deck": "Verifiable work goes to agents at scale, borderline work gets an AI judge and evals, and the rest still needs you.",
+      "variant": "split"
     },
     {
       "type": "feature",
@@ -36,21 +33,9 @@
       "type": "timeline",
       "headline": "How the review debate built up",
       "items": [
-        {
-          "bookmark": "2110149626133438732",
-          "label": "The symptom",
-          "note": "One stale workaround comment, copied by agents, spreads hacks across a repo."
-        },
-        {
-          "bookmark": "2111133080526495985",
-          "label": "The fix",
-          "note": "Fix the code and the checks first, so prose rules and review have less to catch."
-        },
-        {
-          "bookmark": "2111168901723906176",
-          "label": "The proof",
-          "note": "Layered automated review doubled merged PRs while the revert share fell over 40%."
-        }
+        { "bookmark": "2110149626133438732", "label": "The symptom", "note": "One stale workaround comment, copied by agents, spreads hacks across a repo." },
+        { "bookmark": "2111133080526495985", "label": "The fix", "note": "Fix the code and the checks first, so prose rules and review have less to catch." },
+        { "bookmark": "2111168901723906176", "label": "The proof", "note": "Layered automated review doubled merged PRs while the revert share fell over 40%." }
       ],
       "variant": "vertical"
     },
@@ -68,12 +53,18 @@
       "variant": "note",
       "span": "half"
     },
+    { "type": "topic-divider", "topic": "dev-tools", "label": "Skills worth installing", "variant": "band" },
     {
-      "type": "topic-divider",
-      "topic": "ai-agents",
-      "label": "Aim higher",
-      "variant": "rule"
+      "type": "numbered-list",
+      "headline": "Three skills to try this week",
+      "items": [
+        { "bookmark": "2111883582373257218", "headline": "/show-me turns a PR into compact pseudocode", "note": "A quick overview for reviewers, and a cheap one in tokens." },
+        { "bookmark": "2111133080526495985", "headline": "pstack proposes an agent-friendly rearchitecture", "note": "It mines your past feedback for the mistakes agents keep making." },
+        { "bookmark": "2111839048230666590", "headline": "Colorfigures draws objects you can click", "note": "Hand-inked isometric figures with working buttons, free and open source." }
+      ],
+      "variant": "large"
     },
+    { "type": "topic-divider", "topic": "other", "label": "Aim higher", "variant": "rule" },
     {
       "type": "feature",
       "bookmark": "2110023283169247623",
@@ -82,21 +73,40 @@
       "variant": "aside"
     },
     {
-      "type": "topic-divider",
-      "topic": "models-releases",
-      "label": "Also this week",
-      "variant": "band"
+      "type": "compare",
+      "headline": "Two maps for leveling up",
+      "items": [
+        { "bookmark": "2110023283169247623", "label": "Ambition with AI", "note": "Push the model toward outcomes, expert depth and ideas from other fields." },
+        { "bookmark": "2023779299367809063", "label": "Human 3.0", "note": "Map mind, body, spirit and vocation to find the one problem holding you back." }
+      ],
+      "verdict": "One raises what you ask of the model, the other what you ask of yourself; both start by naming the next level.",
+      "variant": "versus"
     },
     {
+      "type": "feature",
+      "bookmark": "2112073533794971941",
+      "headline": "The engineers everyone wants now",
+      "deck": "Wiring up RAG is common; building the data systems underneath it is rare.",
+      "variant": "standard",
+      "span": "half"
+    },
+    {
+      "type": "sidebar-box",
+      "bookmark": "2112073533794971941",
+      "headline": "Show your work",
+      "variant": "callout",
+      "span": "half"
+    },
+    { "type": "topic-divider", "topic": "design", "label": "In pictures", "variant": "band" },
+    {
       "type": "photo-spread",
-      "headline": "Models that ask with pictures",
+      "headline": "The week in pictures",
       "items": [
-        {
-          "bookmark": "2110546960767992105",
-          "caption": "Jev swaps asset references for raw image tokens, so a model can reason over the pictures themselves."
-        }
+        { "bookmark": "2110546960767992105", "caption": "Jev swaps asset references for raw image tokens, so a model can reason over the pictures themselves." },
+        { "bookmark": "2111839048230666590", "caption": "Colorfigures: describe an everyday object and Claude inks it, buttons and all." },
+        { "bookmark": "2023779299367809063", "caption": "Dan Koe's Human 3.0 diagrams: four quadrants, three levels, three phases." }
       ],
-      "variant": "grid"
+      "variant": "mosaic"
     }
   ]
 }
