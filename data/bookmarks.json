@@ -386,21 +386,20 @@
     "saved_at": "2026-10-19T17:12:00+09:00",
     "topic": "ai-agents",
     "shelf_life": "evergreen",
-    "tldr": "Data-intensive systems engineers are in far higher demand than RAG builders",
-    "summary": "swyx argues that engineers who build data-intensive systems, like vector databases and search engines at billion-scale, are in much higher demand than typical \"RAG guy\" AI engineers. He says the gap is the starkest he has seen in his career.",
-    "text": "Data engineers > AI engineers\n\nthere's a big difference between a \"RAG guy\" and a \"Data Intensive Applications\" person like in this screenshot and there's never been a starker difference in demand in my entire career in tech (aka post search engine wars)\n\nif your blog / github is https://t.co/Z3a5Dscnkj",
+    "tldr": "Data-intensive systems engineers are in far higher demand than RAG builders, and swyx is hiring them",
+    "summary": "swyx argues that engineers who build data-intensive systems, like billion-scale vector databases, object stores and search engines, are in much higher demand than typical \"RAG guy\" AI engineers, the starkest gap he has seen in his career. He is hiring people whose blog or GitHub shows that kind of work, preferably in SF with relocation and visa support, via jobs@latent.space.",
+    "text": "Data engineers > AI engineers\n\nthere's a big difference between a \"RAG guy\" and a \"Data Intensive Applications\" person like in this screenshot and there's never been a starker difference in demand in my entire career in tech (aka post search engine wars)\n\nif your blog / github is full of stuff like this, I have a fantastic mission/job for you (SF preferred, can relocate u, visas ok)\n\n(if you can name who's blog this is without even checking, you definitely are in the community. bonus points if you know where he ended up also without looking)\n\njobs@latent.space and the team will reach out if you fit",
     "key_points": [
       "Wiring up RAG is a commodity skill; building the data systems underneath it is scarce.",
       "Portfolios showing billion-scale vector search, object stores, and custom search engines signal top demand.",
-      "Depth in data-intensive application design (the DDIA skill set) now outranks generic AI engineering."
+      "swyx is hiring for this profile: SF preferred, relocation and visas offered, apply at jobs@latent.space."
     ],
     "action": "Write up one data-intensive project you've built, with scale numbers and tradeoffs, and pin it on your blog or GitHub.",
     "links": [],
     "media": [
       {
         "url": "https://pbs.twimg.com/media/HU-TvtrbgAEPd5J.jpg",
-        "alt": "An engineer's homepage listing posts on building a billion-vector database, DiskANN, an object store, and a web search engine",
-        "link": "https://t.co/Z3a5Dscnkj"
+        "alt": "An engineer's homepage listing posts on building a billion-vector database, DiskANN, an object store, and a web search engine"
       }
     ]
   }
