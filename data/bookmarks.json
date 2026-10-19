@@ -400,5 +400,36 @@
         "alt": "An engineer's homepage listing posts on building a billion-vector database, DiskANN, an object store, and a web search engine"
       }
     ]
+  },
+  {
+    "id": "2112129349071831259",
+    "url": "https://x.com/xuxuanzhou/status/2112129349071831259",
+    "author": {
+      "name": "绪轩",
+      "handle": "xuxuanzhou"
+    },
+    "posted_at": "2026-10-19T10:30:52.000Z",
+    "saved_at": "2026-10-20T01:31:59+09:00",
+    "topic": "startups-business",
+    "shelf_life": "evergreen",
+    "tldr": "A trending-keyword AI video site made $5,480 in 72 hours",
+    "summary": "绪轩 (xuxuanzhou) shares a write-up of a one-person site built around a fresh TikTok meme keyword (Bulin 47 AI rap videos) that made $5,480 in its first 72 hours with no ads or backlinks, crediting @gefei55’s new-keyword method. The linked article covers finding the keyword on TikTok via Claude Code and Google Trends, a sleepless first night fixing bugs, conversion data, and reusable lessons such as selling per video instead of subscriptions.",
+    "text": "国庆在外面玩，眼看着群里一个个晒单，回来赶紧上了个站，72 小时出了 $5,480 😂\n怎么找的词、第一夜怎么熬夜修 bug，都写下来了。感谢 @gefei55 飞哥带路。 https://t.co/p9Y3K5hHuM",
+    "key_points": [
+      "Being early on a brand-new search term wins: the meme peaked in about 4 days and 85% of revenue came in the first 72 hours.",
+      "A ready template with payments, credits, login and analytics let the site ship after about 5 hours of coding.",
+      "Sell one-off credit packs, not subscriptions; $9.99 single videos made up 92% of orders.",
+      "Limits and auto-fail checks the AI added on its own blocked paying users, so review them before launch."
+    ],
+    "action": "Keep a ready site template with payments, credits, login and analytics so you can launch on a rising TikTok search term within hours.",
+    "links": [
+      {
+        "title": "没投流、没买外链，一个新词站 72 小时 $5,480：从买域名到出单的完整复盘",
+        "url": "https://x.com/i/article/2112091586947678208",
+        "image": "https://pbs.twimg.com/media/HU-tHk1a8AE0hkG.jpg",
+        "short": "https://t.co/p9Y3K5hHuM"
+      }
+    ],
+    "media": []
   }
 ]
