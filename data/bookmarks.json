@@ -374,5 +374,34 @@
         "link": "https://t.co/X6fnWvhK43"
       }
     ]
+  },
+  {
+    "id": "2112073533794971941",
+    "url": "https://x.com/swyx/status/2112073533794971941",
+    "author": {
+      "name": "swyx",
+      "handle": "swyx"
+    },
+    "posted_at": "2026-10-19T06:49:05.000Z",
+    "saved_at": "2026-10-19T17:12:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Data-intensive systems engineers are in far higher demand than RAG builders",
+    "summary": "swyx argues that engineers who build data-intensive systems, like vector databases and search engines at billion-scale, are in much higher demand than typical \"RAG guy\" AI engineers. He says the gap is the starkest he has seen in his career.",
+    "text": "Data engineers > AI engineers\n\nthere's a big difference between a \"RAG guy\" and a \"Data Intensive Applications\" person like in this screenshot and there's never been a starker difference in demand in my entire career in tech (aka post search engine wars)\n\nif your blog / github is https://t.co/Z3a5Dscnkj",
+    "key_points": [
+      "Wiring up RAG is a commodity skill; building the data systems underneath it is scarce.",
+      "Portfolios showing billion-scale vector search, object stores, and custom search engines signal top demand.",
+      "Depth in data-intensive application design (the DDIA skill set) now outranks generic AI engineering."
+    ],
+    "action": "Write up one data-intensive project you've built, with scale numbers and tradeoffs, and pin it on your blog or GitHub.",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HU-TvtrbgAEPd5J.jpg",
+        "alt": "An engineer's homepage listing posts on building a billion-vector database, DiskANN, an object store, and a web search engine",
+        "link": "https://t.co/Z3a5Dscnkj"
+      }
+    ]
   }
 ]
