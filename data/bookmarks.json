@@ -454,5 +454,42 @@
     "action": "Schedule a nightly agent run with the prompt: audit my development work in the last 24h, identify bottlenecks that slowed down my velocity, and propose improvements.",
     "links": [],
     "media": []
+  },
+  {
+    "id": "2112476496283775135",
+    "url": "https://x.com/deepseek_ai/status/2112476496283775135",
+    "author": {
+      "name": "DeepSeek",
+      "handle": "deepseek_ai"
+    },
+    "posted_at": "2026-10-20T09:30:19.000Z",
+    "saved_at": "2026-10-20T19:51:23+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "DeepSeek open-sources DeepInfer, its production inference framework",
+    "summary": "DeepSeek open-sourced DeepInfer, the in-house inference framework that serves DeepSeek-V4.1-Flash, with optimized kernels, distributed inference, speculative decoding, SWA Bounded Replay and structured outputs. It also released deepseek-recipe, its production token encoding and decoding component, so community deployments match official DeepSeek API behavior.",
+    "text": "🚀 Introducing DeepInfer, our in-house inference framework, now fully open source!\n\nPowering DeepSeek-V4.1-Flash at scale with high throughput and low latency. We’re sharing our production stack to help the community lower compute costs, reduce energy use, and make AI more affordable.\n\n🔗 https://t.co/JGAik1kgk0\n\n1/4\n\n⚡ Inside DeepInfer\n\n🔹 High-performance kernels & optimized inference engine\n🔹 Distributed inference & speculative decoding\n🔹 SWA Bounded Replay & structured outputs\n\nInference code for future DeepSeek models and ongoing optimizations will land here too.\n\n2/4\n\n🛠️ Also open-sourcing deepseek-recipe\n\nOur production token encoding & decoding component, aligned with the processing logic behind the official DeepSeek API to bring the same API behavior to community deployments.\n\n🔗 https://t.co/axrjKr1cD5\n\n3/4\n\n🌍 Open models. Open kernels. Open inference.\n\nFrom private deployments to public clouds, we’ll keep working with the community to make large-scale inference more efficient.\n\nExplore the code, contribute, and build with us!\n\n4/4",
+    "key_points": [
+      "DeepInfer is the production stack behind DeepSeek-V4.1-Flash, now fully open source.",
+      "It ships optimized kernels, distributed inference, speculative decoding, SWA Bounded Replay and structured outputs.",
+      "Inference code for future DeepSeek models will land in the same repo.",
+      "deepseek-recipe reproduces the official API’s token encoding and decoding for self-hosted deployments."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "GitHub - deepseek-ai/DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+        "url": "https://github.com/deepseek-ai/DeepInfer",
+        "image": "https://pbs.twimg.com/card_img/2112468664037625856/NL9rjvaa?format=jpg&name=800x419",
+        "short": "https://t.co/JGAik1kgk0"
+      },
+      {
+        "title": "GitHub - deepseek-ai/deepseek-recipe",
+        "url": "https://github.com/deepseek-ai/deepseek-recipe",
+        "image": "https://pbs.twimg.com/news_img/2111434961790095360/u5RQTncB?format=jpg&name=orig",
+        "short": "https://t.co/axrjKr1cD5"
+      }
+    ],
+    "media": []
   }
 ]
