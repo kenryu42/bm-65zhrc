@@ -431,5 +431,28 @@
       }
     ],
     "media": []
+  },
+  {
+    "id": "2112245086725841047",
+    "url": "https://x.com/kunchenguid/status/2112245086725841047",
+    "author": {
+      "name": "Kun Chen",
+      "handle": "kunchenguid"
+    },
+    "posted_at": "2026-10-19T18:10:46.000Z",
+    "saved_at": "2026-10-20T09:09:33+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "A nightly agent prompt that audits your last day of dev work",
+    "summary": "Kun Chen shares a loop he runs every day at 3am: an agent audits his last 24 hours of development work, finds the bottlenecks that slowed him down, and proposes fixes. He says it makes his workflow smoother day after day.",
+    "text": "sharing a very high value loop i run everyday at 3am\n\n\"audit my development work in the last 24h, identify bottlenecks that slowed down my velocity, and propose improvements\"\n\nit feels great to see your work gets smoother every day",
+    "key_points": [
+      "Schedule a daily agent run while you sleep to review the previous 24 hours of work.",
+      "Ask it to name specific bottlenecks that slowed your velocity, not just summarize.",
+      "Have it propose concrete improvements so your workflow compounds day by day."
+    ],
+    "action": "Schedule a nightly agent run with the prompt: audit my development work in the last 24h, identify bottlenecks that slowed down my velocity, and propose improvements.",
+    "links": [],
+    "media": []
   }
 ]
