@@ -576,5 +576,626 @@
         "link": "https://t.co/e2ot2XmzIJ"
       }
     ]
+  },
+  {
+    "id": "2112592553749176652",
+    "url": "https://x.com/TheHackersNews/status/2112592553749176652",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-10-20T17:11:29.000Z",
+    "saved_at": "2026-10-21T08:26:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Eight eMudhra intermediate CA keys compromised; browsers block them",
+    "summary": "The Hacker News reports that private keys for eight eMudhra intermediate certificate authorities were compromised; Chrome and Firefox blocked the affected certificates within hours, and Go, NSS and other software shipped fixes.",
+    "text": "‼️ BREAKING: 8 Private keys belonging to eMudhra intermediate certificate authorities (CA) have been compromised.\n\nChrome and Firefox blocked the affected certificates within hours. Go, NSS, and other software have issued fixes.\n\nFull details - https://t.co/oCW68M1wxg",
+    "key_points": [
+      "An intermediate CA key can mint certificates that browsers trust for any site.",
+      "Chrome and Firefox distrusted the affected intermediates within hours.",
+      "Go, NSS and other trust stores shipped fixes."
+    ],
+    "action": "Update Go toolchains and NSS-based software, and check any pinned or bundled CA stores in your containers.",
+    "links": [
+      {
+        "title": "The Hacker News: Eight eMudhra CA keys compromised",
+        "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
+        "short": "https://t.co/oCW68M1wxg",
+        "image": "https://pbs.twimg.com/card_img/2112592448514080768/qbUpaYvx?format=jpg&name=800x419"
+      },
+      {
+        "title": "Mozilla Security Blog: eMudhra intermediates",
+        "url": "https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/"
+      },
+      {
+        "title": "eMudhra: Certificate security incident",
+        "url": "https://emudhra.com/en/post/certificate-security-incident"
+      },
+      {
+        "title": "Ars Technica: 8 compromised TLS certs",
+        "url": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/",
+        "image": "https://pbs.twimg.com/card_img/2110508495980089344/318VFVK-?format=jpg&name=800x419"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2112610990202507582",
+    "url": "https://x.com/typescript/status/2112610990202507582",
+    "author": {
+      "name": "TypeScript",
+      "handle": "typescript"
+    },
+    "posted_at": "2026-10-20T18:24:45.000Z",
+    "saved_at": "2026-10-21T08:26:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "TypeScript 7.1 Beta adds a preview API and content mappers",
+    "summary": "The TypeScript team released TypeScript 7.1 Beta with a preview API, content mapper support, new features and optimizations, and asks for feedback.",
+    "text": "TypeScript 7.1 Beta is now available! Now with a preview API, content mapper support, new features, and some great optimizations. Give it a try and give us some feedback! https://t.co/kBX6lDBo18",
+    "key_points": [
+      "7.1 builds on the native TypeScript 7 compiler.",
+      "A preview API opens it to tool authors."
+    ],
+    "action": "Install the 7.1 beta in one repo and compare type-check time with 7.0.",
+    "links": [
+      {
+        "title": "Announcing TypeScript 7.1 Beta",
+        "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-1-beta/",
+        "short": "https://t.co/kBX6lDBo18",
+        "image": "https://pbs.twimg.com/card_img/2112603148418158593/tZE2bk69?format=png&name=600x314"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2112653833382027729",
+    "url": "https://x.com/vercel/status/2112653833382027729",
+    "author": {
+      "name": "Vercel",
+      "handle": "vercel"
+    },
+    "posted_at": "2026-10-20T21:14:59.000Z",
+    "saved_at": "2026-10-21T08:26:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "durable-harness keeps coding agent sessions alive across crashes",
+    "summary": "Vercel introduced durable-harness, which runs Pi, OpenCode, Codex, Claude Code or your own harness durably on Vercel, Postgres or a laptop, so agent sessions resume after failures and can run for hours or longer.",
+    "text": "Introducing 𝚍𝚞𝚛𝚊𝚋𝚕𝚎-𝚑𝚊𝚛𝚗𝚎𝚜𝚜. Run Pi, OpenCode, Codex, Claude Code, eve, fx, or your own harness durably on Vercel.\n\nWith 𝚍𝚞𝚛𝚊𝚋𝚕𝚎-𝚑𝚊𝚛𝚗𝚎𝚜𝚜, agents automatically resume work after failures and run for hours, days, or months. https://t.co/XkqmULA2ng",
+    "key_points": [
+      "Durability is moving from each agent into a shared layer under any harness.",
+      "It works with Postgres or locally, not only on Vercel."
+    ],
+    "action": "Read the durable-harness post and wrap one long-running agent job you already have.",
+    "links": [
+      {
+        "title": "Vercel: Making every harness durable",
+        "url": "https://vercel.com/blog/making-every-harness-durable",
+        "short": "https://t.co/XkqmULA2ng",
+        "image": "https://pbs.twimg.com/card_img/2112645392664027136/6XoTVpmd?format=png&name=800x419"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2112652518505218249",
+    "url": "https://x.com/BleepinComputer/status/2112652518505218249",
+    "author": {
+      "name": "BleepingComputer",
+      "handle": "BleepinComputer"
+    },
+    "posted_at": "2026-10-20T21:09:46.000Z",
+    "saved_at": "2026-10-21T08:26:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "PHP schedules emergency fixes for two critical flaws after a leak",
+    "summary": "BleepingComputer reports PHP is warning admins of emergency updates for two critical flaws rated CVSS 9.2; watchTowr rates them 10.0 as RCE affecting PHP 5 through 8, and details reportedly leaked before disclosure. No known exploitation in the wild.",
+    "text": "🚨 BREAKING: PHP is warning admins to prepare for emergency security updates tomorrow to fix two critical vulnerabilities rated CVSS 9.2.\n\nHowever, security researchers at @watchtowrcyber rate the flaws CVSS 10.0 and say they are RCE vulnerabilities affecting PHP 5 through 8.\n\nInformation about the vulnerabilities has reportedly leaked ahead of disclosure.\n\nNo known exploitation in the wild.\n\n🔗 https://t.co/ZkCeLGaiAc\nhttps://t.co/ZkCeLGaiAc",
+    "key_points": [
+      "PHP rates the flaws CVSS 9.2; watchTowr says 10.0 and remote code execution.",
+      "Details reportedly leaked ahead of the embargo.",
+      "No exploitation in the wild was known at the time."
+    ],
+    "action": "Plan PHP updates for any server or container you run today, including old PHP 5 and 7 images.",
+    "links": [
+      {
+        "title": "BleepingComputer: PHP warns of two critical flaws",
+        "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
+        "short": "https://t.co/ZkCeLGaiAc",
+        "image": "https://pbs.twimg.com/card_img/2111415462332436480/1UmjwfHH?format=jpg&name=800x419"
+      },
+      {
+        "title": "PHP: News archive 2026",
+        "url": "https://www.php.net/archive/2026.php"
+      },
+      {
+        "title": "watchTowr: PHP vulnerability FAQ",
+        "url": "https://watchtowr.com/intelligence/php-cve-2026-109618-faq/"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2112486747032457726",
+    "url": "https://x.com/CloudflareRadar/status/2112486747032457726",
+    "author": {
+      "name": "Cloudflare Radar",
+      "handle": "CloudflareRadar"
+    },
+    "posted_at": "2026-10-20T10:11:03.000Z",
+    "saved_at": "2026-10-21T08:26:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Google Cloud London region saw sharp rise in connection failures",
+    "summary": "Cloudflare Radar reported a sharp rise in connection failures in Google Cloud's europe-west2 (London) region from 06:00 UTC on October 20; other posts that day linked outages at Revolut and UK banks to it.",
+    "text": "🚨 Google Cloud's europe-west2 (London) region has seen a sharp rise in connection failures since 06:00 UTC on Oct 20. #Internet \n\nFollow the latest on Cloudflare Radar: https://t.co/RfdnS8yObY https://t.co/XCYAq7iMUt",
+    "key_points": [
+      "Radar's cloud observatory shows failures per region from outside the provider.",
+      "A single region can take down services that look unrelated."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Cloudflare Radar: Google Cloud europe-west2",
+        "url": "https://radar.cloudflare.com/cloud-observatory/google/europe-west2?dateStart=2026-10-19&dateEnd=2026-10-20",
+        "short": "https://t.co/RfdnS8yObY"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVEPTPDXwAAkZ-K.jpg?name=orig",
+        "link": "https://t.co/XCYAq7iMUt"
+      }
+    ]
+  },
+  {
+    "id": "2112625575403700493",
+    "url": "https://x.com/charliermarsh/status/2112625575403700493",
+    "author": {
+      "name": "Charlie Marsh",
+      "handle": "charliermarsh"
+    },
+    "posted_at": "2026-10-20T19:22:42.000Z",
+    "saved_at": "2026-10-21T08:26:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "uv check installs ty and type-checks a project with no setup",
+    "summary": "Astral shipped an experimental uv and ty integration: uv check installs the ty type checker, syncs dependencies and type-checks the project without configuration.",
+    "text": "We've shipped an experimental uv-ty integration.\n\n`uv check` will install ty, sync your dependencies, and type check your project, without any additional configuration.\n\nhttps://t.co/Z87pNKpWjg https://t.co/uUDVDKHxY5",
+    "key_points": [
+      "One command replaces installing a checker and pointing it at the venv."
+    ],
+    "action": "Run uv check on a Python project and compare it with your current mypy or pyright run.",
+    "links": [
+      {
+        "title": "Astral: uv and ty integration",
+        "url": "https://astral.sh/blog/uv-ty-integration",
+        "short": "https://t.co/Z87pNKpWjg"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2112623598246494208/img/g5l0JKlwM1M3G0I9.jpg",
+        "link": "https://t.co/uUDVDKHxY5"
+      }
+    ]
+  },
+  {
+    "id": "2112554682467913909",
+    "url": "https://x.com/IntCyberDigest/status/2112554682467913909",
+    "author": {
+      "name": "International Cyber Digest",
+      "handle": "IntCyberDigest"
+    },
+    "posted_at": "2026-10-20T14:41:00.000Z",
+    "saved_at": "2026-10-21T08:26:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Ransomware affiliates left their Claude and Kimi agent logs exposed",
+    "summary": "International Cyber Digest, citing SOCRadar, says ransomware affiliates of INC and The Gentlemen left more than 8,000 AI messages on an open server, from sessions using Claude and Kimi, plus 46 INC encryptor builds; they got past refusals by framing tasks as authorized red-teaming.",
+    "text": "🚨 BREAKING: AI-enabled ransomware hackers using Claude left their logs on an open server.\n\nSOCRadar found 8k+ AI messages from INC and The Gentlemen affiliates using Claude and Kimi, plus 46 INC encryptor builds.\n\nTo fight refusals, they authorized it by calling it red-teaming. https://t.co/MkVc1hw1yo",
+    "key_points": [
+      "Operators ran a coding agent with frontier models to build and run intrusions.",
+      "Refusals were bypassed by calling the work an authorized red team assessment.",
+      "The evidence comes from the operators' own exposed logs."
+    ],
+    "action": "Read SOCRadar's report and check whether your own agent guards would flag a fake red-team authorization.",
+    "links": [
+      {
+        "title": "SOCRadar: Ransomware groups' AI infrastructure",
+        "url": "https://socradar.io/blog/inc-gentlemen-ransomware-ai-infrastructure/"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVE_o2_XQAAQAZz.jpg?name=orig",
+        "alt": "SOCRadar screenshot of exposed AI session logs",
+        "link": "https://t.co/MkVc1hw1yo"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVE_uMGWwAAA-S1.jpg?name=orig",
+        "alt": "SOCRadar screenshot of encryptor builds"
+      }
+    ]
+  },
+  {
+    "id": "2112673213486416203",
+    "url": "https://x.com/kbhaskar_95/status/2112673213486416203",
+    "author": {
+      "name": "Karthik Bhaskar",
+      "handle": "kbhaskar_95"
+    },
+    "posted_at": "2026-10-20T22:32:00.000Z",
+    "saved_at": "2026-10-21T08:26:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Two skills for one job: models follow one and drop the other",
+    "summary": "SkillClash tested 7 models from 4B to GPT-4.1: rules were followed 93-99% with one skill alone but 61-62% next to a same-job skill, a priority line did not help, and ending both files with one example that follows both cut takeover to 1-15%.",
+    "text": "load two skills for the same job and the model mostly follows one and drops the other - even rules that conflict with nothing\n\nSkillClash, 7 models from 4B to GPT-4.1: rules followed 93-99% with one skill alone, 61-62% next to a same-job skill. a priority line doesnt help\n\nthe main cause is the worked examples. ending both files with one example that follows both skills cut takeover to 1-15% on the 6 models tested - so the example acts like the real spec, not the rule list\n\ndo you check installed skills for overlap?\n\nhttps://t.co/jpAv6u3BZa",
+    "key_points": [
+      "Worked examples act as the real spec, more than the rule list.",
+      "Overlapping skills silently override each other.",
+      "One shared example covering both skills mostly fixes it."
+    ],
+    "action": "List your installed agent skills, find two that cover the same job, and give them one shared closing example.",
+    "links": [
+      {
+        "title": "arXiv: SkillClash",
+        "url": "https://arxiv.org/abs/2610.25064",
+        "short": "https://t.co/jpAv6u3BZa"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVF0juiXIAEtSlw.png?name=orig",
+        "alt": "SkillClash results chart"
+      }
+    ]
+  },
+  {
+    "id": "2112588120558338261",
+    "url": "https://x.com/zeddotdev/status/2112588120558338261",
+    "author": {
+      "name": "Zed",
+      "handle": "zeddotdev"
+    },
+    "posted_at": "2026-10-20T16:53:52.000Z",
+    "saved_at": "2026-10-21T08:26:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Zed picked weighted BM25 over LLMs and embeddings for MCP tool search",
+    "summary": "Zed says it tested 25 approaches to MCP tool search, including decision models, LLMs and embeddings, with 150 queries against 536 tools, and chose weighted BM25 with a few normalization rules: fast, local, with no model or API calls.",
+    "text": "We tested 25 approaches to MCP tool search, including decision models, LLMs, and embeddings. Our benchmark runs 150 search queries against 536 tools.\n\nWe settled on weighted BM25 with a few normalization rules. Fast, local, no model or API calls. https://t.co/CfITC8lZRl",
+    "key_points": [
+      "Tool metadata is short and full of distinctive names, which suits lexical search.",
+      "Weighting stops common verbs like create or list from dominating."
+    ],
+    "action": "If your agent loads many MCP tools, try a BM25 index over names and descriptions before reaching for embeddings.",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVFqeECWUAEkxv9.png?name=orig",
+        "alt": "Zed benchmark chart of MCP tool search approaches",
+        "link": "https://t.co/CfITC8lZRl"
+      }
+    ]
+  },
+  {
+    "id": "2112487740969472025",
+    "url": "https://x.com/ReutersJapan/status/2112487740969472025",
+    "author": {
+      "name": "ロイター",
+      "handle": "ReutersJapan"
+    },
+    "posted_at": "2026-10-20T10:15:00.000Z",
+    "saved_at": "2026-10-21T08:26:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "中国語の短い指示でAIエージェント群が1200超のサイトに侵入試行",
+    "summary": "ロイターによると、研究者が監視したハッカーの1人は100字未満の中国語の指示だけでAIエージェント群を日米加豪のECサイトに投入し、1200超のサイトへの侵入を試み、成功例では脆弱性特定に約23時間かかった。",
+    "text": "研究者が監視したハッカーのうち最も活発だったのは、中国語を使う1人だったという。この人物は9月25日以降、米国、カナダ、オーストラリア、日本の電子商取引（ＥＣ）サイトにＡＩエージェント群を投入。指示は極めて簡潔で、好みの侵入戦術を100字未満の中国語で概略的に記すのみだった。\nこのＡＩエージェントは先週末までに、1200超のウェブサイトへの侵入を試みていた。侵入に成功した事例では、脆弱性を突き止めるための作業に23時間程度を要した。\n\nアングル：「手を下さない」ハッカー、わずかな指示でＡＩがサイバー攻撃　100社超に被害 https://t.co/U1fWuQ0toc",
+    "key_points": [
+      "指示は侵入戦術を短く記すだけで、作業はAIが担った。",
+      "日本のECサイトも標的に含まれる。",
+      "被害は100社超とされる。"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "ロイター：「手を下さない」ハッカー",
+        "url": "https://reut.rs/4i3157i",
+        "short": "https://t.co/U1fWuQ0toc",
+        "image": "https://pbs.twimg.com/card_img/2112410032276983809/8AX5vCOj?format=jpg&name=800x419"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2112514182885363863",
+    "url": "https://x.com/asahi/status/2112514182885363863",
+    "author": {
+      "name": "朝日新聞(asahi shimbun）",
+      "handle": "asahi"
+    },
+    "posted_at": "2026-10-20T12:00:04.000Z",
+    "saved_at": "2026-10-21T08:26:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "岩井コスモ証券、サイバー攻撃で顧客の意図しない注文が約定",
+    "summary": "朝日新聞によると、岩井コスモ証券は売買管理システムへのサイバー攻撃で顧客の意図しない売買注文が7口座分発注され、うち5口座で約定したと発表した。",
+    "text": "岩井コスモ証券にサイバー攻撃　顧客の意図しない売買注文、成立も https://t.co/h4SNv5hMM7\n \n岩井コスモ証券（大阪市）は20日、同社の売買管理システムがサイバー攻撃を受け、顧客の意図しない売買注文が発注されたことを確認したと発表した。発注は7口座分で、うち5口座で約定されたという。",
+    "key_points": [
+      "攻撃は情報流出ではなく、実際の売買につながった。",
+      "財務相は10月9日に金融機関へ注意喚起していた。"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "朝日新聞：岩井コスモ証券にサイバー攻撃",
+        "url": "https://www.asahi.com/articles/ASVBN3PZLVBNDIFI022M.html?ref=tw_asahi",
+        "short": "https://t.co/h4SNv5hMM7",
+        "image": "https://pbs.twimg.com/card_img/2112535184746962944/0e5hfftO?format=jpg&name=800x419"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2112673719478784464",
+    "url": "https://x.com/QuantaMagazine/status/2112673719478784464",
+    "author": {
+      "name": "Quanta Magazine",
+      "handle": "QuantaMagazine"
+    },
+    "posted_at": "2026-10-20T22:34:00.000Z",
+    "saved_at": "2026-10-21T08:26:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "Lichtman calls OpenAI's quasi-Riemann proof the biggest AI-for-math result yet",
+    "summary": "Quanta Magazine reports on OpenAI's new proof of the quasi-Riemann hypothesis, which Stanford's Jared Duker Lichtman calls the most significant AI-for-math achievement so far, by quite a margin.",
+    "text": "OpenAI’s new proof of the quasi-Riemann hypothesis is, as Jared Duker Lichtman of Stanford University put it, “the most significant AI-for-math achievement so far, by quite a margin.”\nhttps://t.co/TYcUFB8eWo",
+    "key_points": [
+      "Mathematicians are now judging AI results by checking and rebuilding them."
+    ],
+    "action": "Read Quanta's piece on what happens now that an AI proof has landed.",
+    "links": [
+      {
+        "title": "Quanta: AI proved the quasi-Riemann hypothesis",
+        "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
+        "short": "https://t.co/TYcUFB8eWo",
+        "image": "https://pbs.twimg.com/card_img/2112208684965036032/nGqyrldW?format=jpg&name=800x419"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2112593736467165368",
+    "url": "https://x.com/newscientist/status/2112593736467165368",
+    "author": {
+      "name": "New Scientist",
+      "handle": "newscientist"
+    },
+    "posted_at": "2026-10-20T17:16:11.000Z",
+    "saved_at": "2026-10-21T08:26:00+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "A thousand mathematicians pledge not to use AI in their research",
+    "summary": "New Scientist reports a growing backlash against how AI companies tackle mathematical problems, with about a thousand mathematicians pledging to avoid AI in their research.",
+    "text": "There is a growing backlash against the way AI companies have gone about tackling mathematical problems – and now some mathematicians are opting to avoid AI altogether https://t.co/kp1RNcbezL https://t.co/jexPz2NYdl",
+    "key_points": [
+      "The pledge reacts to AI companies' methods as much as to the tools."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "New Scientist: Mathematicians pledge to shun AI",
+        "url": "https://www.newscientist.com/article/2593621-a-thousand-human-mathematicians-pledge-to-shun-ai-in-their-research/?utm_term=Autofeed&utm_campaign=echobox&utm_medium=social&utm_source=Twitter#Echobox=1792508646",
+        "short": "https://t.co/kp1RNcbezL"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVFwys7WAAADu3V.jpg?name=orig",
+        "alt": "Illustration for New Scientist's article",
+        "link": "https://t.co/jexPz2NYdl"
+      }
+    ]
+  },
+  {
+    "id": "2112580926651904379",
+    "url": "https://x.com/exnx/status/2112580926651904379",
+    "author": {
+      "name": "Eric Nguyen",
+      "handle": "exnx"
+    },
+    "posted_at": "2026-10-20T16:25:17.000Z",
+    "saved_at": "2026-10-21T08:26:00+09:00",
+    "topic": "health",
+    "shelf_life": "news",
+    "tldr": "AI-designed bacteriophages given to a patient under compassionate use",
+    "summary": "Radical Numerics introduced Omnii-1, a genome language model, and says it designed the first AI-generated bacteriophages given to a human patient with an antibiotic-resistant infection under compassionate use; the NYT covered it.",
+    "text": "Introducing Omnii-1, our most powerful genome language model, and a major step toward general biological intelligence\n\nIn a world first, Omnii-1 designed the first AI-generated bacteriophages to be administered to a human patient with an antibiotic-resistant infection under compassionate use\n\nRead more from @carlzimmer in @NYTimes: https://t.co/AZXRu7oX7S\n\nHow Omnii-1 designed the phage: https://t.co/SoyZSQPUMb\n\nExplore Omnii-1 and eight distinct applications, from cancer vaccines to biodefense https://t.co/NytTh6PEsH",
+    "key_points": [
+      "Phages are viruses that kill specific bacteria, an old idea revived against resistant infections.",
+      "This is one compassionate-use case, not a trial."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "The New York Times: AI-designed virus",
+        "url": "https://www.nytimes.com/2026/10/20/science/ai-virus-bacteria-radical-numerics.html",
+        "short": "https://t.co/AZXRu7oX7S"
+      },
+      {
+        "title": "Radical Numerics: How Omnii-1 designed the phage",
+        "url": "https://www.radicalnumerics.ai/blog/omnii-phage",
+        "short": "https://t.co/SoyZSQPUMb"
+      },
+      {
+        "title": "Radical Numerics: Omnii-1",
+        "url": "https://www.radicalnumerics.ai/blog/omnii-1",
+        "short": "https://t.co/NytTh6PEsH"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2112578540013330432/img/iIkujuAjkAiQkxwh.jpg",
+        "alt": "Omnii-1 announcement video"
+      }
+    ]
+  },
+  {
+    "id": "2112517950653469110",
+    "url": "https://x.com/BIS_org/status/2112517950653469110",
+    "author": {
+      "name": "Bank for International Settlements",
+      "handle": "BIS_org"
+    },
+    "posted_at": "2026-10-20T12:15:02.000Z",
+    "saved_at": "2026-10-21T08:26:00+09:00",
+    "topic": "economics",
+    "shelf_life": "evergreen",
+    "tldr": "Bank liquidity rules may have pushed lending to private credit",
+    "summary": "A BIS Working Paper finds that regions more exposed to banks constrained by the Liquidity Coverage Ratio saw stronger private credit growth, with effects comparable to capital regulation.",
+    "text": "Did bank liquidity regulation spur private credit? A new BIS Working Paper finds regions more exposed to Liquidity Coverage Ratio-constrained banks saw stronger private credit growth, with effects comparable to capital regulation #LCR #LiquidityRisk.\nhttps://t.co/KKxN0eT2XZ https://t.co/fzZK3HuCMQ",
+    "key_points": [
+      "Rules that make banks safer can move lending outside banks.",
+      "The effect is about as large as that of capital rules."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "BIS Working Paper",
+        "url": "https://bit.ly/4BjTwC8",
+        "short": "https://t.co/KKxN0eT2XZ"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVEr4ZvW8AA4xxW.jpg?name=orig",
+        "alt": "BIS chart on private credit growth",
+        "link": "https://t.co/fzZK3HuCMQ"
+      }
+    ]
+  },
+  {
+    "id": "2112673178686214423",
+    "url": "https://x.com/nikkei/status/2112673178686214423",
+    "author": {
+      "name": "日本経済新聞 電子版（日経電子版）",
+      "handle": "nikkei"
+    },
+    "posted_at": "2026-10-20T22:31:52.000Z",
+    "saved_at": "2026-10-21T08:26:00+09:00",
+    "topic": "economics",
+    "shelf_life": "news",
+    "tldr": "銀行の貸し出し余力が細り、企業融資ファンドが相次ぎ誕生",
+    "summary": "日経によると、M&A増加で資金需要が高まる一方、預金が増えず銀行の貸し出し余力は乏しく、ポラリスの最大級1000億円をはじめ企業融資の専門ファンドが相次いで立ち上がっている。",
+    "text": "銀行貸し出しに迫る限界　ファンドが企業融資、ポラリス最大級1000億円\nhttps://t.co/NvB17FTFHB\n\nM&amp;A増加で資金需要は高まる一方、預金が増えず銀行の貸し出し余力は乏しい状況です。資金供給の担い手として、企業融資の専門ファンドが相次ぎ立ち上がっています。",
+    "key_points": [
+      "日本でもプライベートクレジットが銀行の代わりを担い始めた。"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "日本経済新聞：銀行貸し出しに迫る限界",
+        "url": "https://www.nikkei.com/article/DGXZQOUB137AD0T11C26A0000000/?n_cid=SNSTW005&n_tw=1792506476",
+        "short": "https://t.co/NvB17FTFHB",
+        "image": "https://pbs.twimg.com/card_img/2112470847944351744/4yVqt218?format=jpg&name=800x419"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2112542475588104395",
+    "url": "https://x.com/MerriamWebster/status/2112542475588104395",
+    "author": {
+      "name": "Merriam-Webster",
+      "handle": "MerriamWebster"
+    },
+    "posted_at": "2026-10-20T13:52:29.000Z",
+    "saved_at": "2026-10-21T08:26:00+09:00",
+    "topic": "culture",
+    "shelf_life": "evergreen",
+    "tldr": "Merriam-Webster added the pronoun thon in 1934, and it flopped",
+    "summary": "Merriam-Webster notes that in 1934 it added thon, short for that one, as a gender-neutral pronoun for a single third person; it did not catch on.",
+    "text": "In 1934, we added a gender-neutral pronoun for a single third person. \n\n‘Thon’ was short for “that one.”\n\nIt didn’t catch on. https://t.co/dWCLJGRrf8",
+    "key_points": [
+      "The search for a singular gender-neutral pronoun is about a century old."
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVFBgJbXYAATWcT.jpg?name=orig",
+        "alt": "Dictionary entry: thon, pronoun, a proposed genderless noun of the third person",
+        "link": "https://t.co/dWCLJGRrf8"
+      }
+    ]
+  },
+  {
+    "id": "2112680340779151769",
+    "url": "https://x.com/gigazine/status/2112680340779151769",
+    "author": {
+      "name": "GIGAZINE(ギガジン)",
+      "handle": "gigazine"
+    },
+    "posted_at": "2026-10-20T23:00:19.000Z",
+    "saved_at": "2026-10-21T08:26:00+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "131 Hittite tablets found in Turkey describe a 3,400-year-old epidemic",
+    "summary": "GIGAZINE covers 131 Hittite clay tablets excavated at Kayalıpınar in Turkey, from King Tudhaliya II's reign about 3,400 years ago, which record an epidemic and military logistics.",
+    "text": "ヒッタイト王国の粘土板文書131枚がトルコで発掘される、3400年前の流行病や当時の兵站などが明らかに https://t.co/1cZBQBtyAV",
+    "key_points": [
+      "The royal archive now holds 184 tablets and fragments.",
+      "Letters record a fever that hit children and generals asking for chariots."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "HeritageDaily: Hittite royal archive",
+        "url": "https://www.heritagedaily.com/2026/10/184-cuneiform-tablets-discovered-in-hittite-royal-archive/159533"
+      },
+      {
+        "title": "Hürriyet Daily News: Tudhaliya II tablets",
+        "url": "https://www.hurriyetdailynews.com/cuneiform-tablets-from-hittite-king-unearthed-227946"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVG_kxcWgAA7U_M.jpg?name=orig",
+        "alt": "Hittite clay tablets",
+        "link": "https://t.co/1cZBQBtyAV"
+      }
+    ]
+  },
+  {
+    "id": "2112627433039929712",
+    "url": "https://x.com/SmithsonianMag/status/2112627433039929712",
+    "author": {
+      "name": "Smithsonian Magazine",
+      "handle": "SmithsonianMag"
+    },
+    "posted_at": "2026-10-20T19:30:05.000Z",
+    "saved_at": "2026-10-21T08:26:00+09:00",
+    "topic": "other",
+    "shelf_life": "evergreen",
+    "tldr": "A Labrador wins an award for sniffing out invasive sea vomit",
+    "summary": "Smithsonian Magazine reports that a black Labrador from the Scottish Highlands won an award for detecting the carpet sea squirt, an invasive marine creature nicknamed sea vomit that threatens waters around Britain and Ireland.",
+    "text": "A black Labrador from the Scottish Highlands just fetched an award for her ability to sniff out “sea vomit,” a colloquial name for the carpet sea squirt, an invasive marine creature threatening the waters along Britain and Ireland, among other places. https://t.co/mjkayHBSZt",
+    "key_points": [
+      "Detection dogs are being trained on marine invasive species."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Smithsonian Magazine",
+        "url": "https://bit.ly/4BoJYpt",
+        "short": "https://t.co/mjkayHBSZt",
+        "image": "https://pbs.twimg.com/card_img/2112591618792415232/8XSygUFd?format=jpg&name=800x419"
+      }
+    ],
+    "media": []
   }
 ]

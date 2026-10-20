@@ -1,65 +1,64 @@
 {
   "date": "2026-10-21",
-  "title": "Machines find, people check",
-  "subtitle": "Free AI bug scans for open source, an outside audit of Anthropic's risk report, and an AI-born proof that mathematicians keep shrinking",
-  "editor_note": "The day's pattern: a machine turns something up, and the real work is people checking it. Anthropic's models now scan open source for vulnerabilities, but every finding needs a maintainer. METR checked Anthropic's own safety claims and found the method weaker than the verdict. An AI-generated argument about Siegel zeros went from nine pages to three as mathematicians rebuilt it. And a Reuters data story on heat storms drew a sharp statistical rebuttal within hours. This is the first issue built from a morning scan as well as your saves.",
+  "title": "Even the attackers leave the door open",
+  "subtitle": "Eight stolen certificate keys, a PHP fix that leaked early, and ransomware crews whose AI agent logs sat on an open server",
+  "editor_note": "Today's thread is open doors. Eight eMudhra intermediate keys that browsers trusted for any site were compromised, and Chrome and Firefox had to shut them out within hours. PHP is rushing out fixes because details leaked before the embargo. Then the twist: ransomware affiliates who ran Claude and Kimi through a coding agent left their own session logs on an open server, and that is how SOCRadar learned they beat refusals by calling the work red-teaming. In Japan, a broker saw fraudulent trades go through. Further out, the open door is a good thing: mathematicians argue over an AI proof, a bank rule pushes credit somewhere new, and a 3,400-year-old archive opens up. This edition replaces the 02:00 JST draft with a full morning scan.",
   "theme": {
-    "palette": "plum",
-    "fonts": "sans-serif"
+    "palette": "newsprint",
+    "fonts": "mono-serif",
+    "accent": "#c2410c"
   },
   "sections": [
     {
       "type": "cover-story",
-      "scan": "2112299602510749992",
+      "scan": "2112592553749176652",
       "kicker": "Cover story",
-      "headline": "Anthropic will scan your open source project for bugs, free",
-      "deck": "OSS Scanner points Anthropic's strongest models at critical repositories on a schedule. Each finding arrives with a proof-of-concept, and often a patch.",
-      "variant": "split",
-      "why": "You ship open source agent-safety tools; this is free red-teaming, and a preview of the bug-report volume maintainers will face.",
-      "source_label": "Anthropic"
+      "headline": "Eight keys that could vouch for any website were stolen",
+      "deck": "Compromised eMudhra intermediate CA keys sent Chrome, Firefox, Go and NSS into same-day fixes. Chrome found no rogue certificates in CT logs.",
+      "variant": "stacked",
+      "why": "Your agents and containers trust bundled CA stores; the fix only reaches you when you update them.",
+      "source_label": "The Hacker News"
     },
     {
       "type": "corner",
       "corner": "brief",
-      "deck": "What moved in your world since Monday."
+      "deck": "What moved in your stack overnight."
     },
     {
       "type": "brief-grid",
-      "headline": "Releases and launches",
+      "headline": "Patches, betas and one bad region",
       "columns": 3,
       "variant": "cards",
       "items": [
         {
-          "scan": "2112531443591020965",
-          "headline": "TypeScript compiler ported to Rust: up to 8x faster",
-          "note": "Built with the TypeScript team, runs in WASM, and is headed for the Oxc toolchain.",
-          "source_label": "VoidZero"
+          "scan": "2112652518505218249",
+          "headline": "PHP readies emergency fixes for two critical flaws",
+          "note": "PHP says CVSS 9.2; watchTowr says 10.0 and RCE across PHP 5 to 8. Details leaked early; no known exploitation yet.",
+          "source_label": "BleepingComputer"
         },
         {
-          "scan": "2112310345863930168",
-          "headline": "OpenAI aims its models at COBOL and Fortran",
-          "note": "Legacy migration becomes a named target, not a side effect of general coding skill.",
-          "source_label": "OpenAI"
+          "scan": "2112486747032457726",
+          "headline": "Google Cloud's London region spiked in connection failures",
+          "note": "Cloudflare Radar saw it from outside from 06:00 UTC; posts tied Revolut and UK bank outages to it.",
+          "source_label": "Cloudflare Radar"
         },
         {
-          "scan": "2112574615318876178",
-          "headline": "Mistral's Voxtral 3 ships a full voice agent stack",
-          "note": "Transcribe, a reasoning model with tools, and speech streamed as one pipeline.",
-          "source_label": "Mistral AI"
+          "scan": "2112610990202507582",
+          "headline": "TypeScript 7.1 Beta adds a preview API",
+          "note": "The native compiler gets content mappers and a preview API for tool authors.",
+          "source_label": "TypeScript"
         },
         {
-          "scan": "2112247046082363821",
-          "headline": "Vercel open-sources v0's crash-durable artifact builder",
-          "note": "The durability layer for long agent runs is now free plumbing.",
+          "scan": "2112653833382027729",
+          "headline": "durable-harness lets any coding agent survive a crash",
+          "note": "Pi, OpenCode, Codex or Claude Code sessions resume after failures, on Vercel, Postgres or a laptop.",
           "source_label": "Vercel"
         },
         {
-          "scan": "2112565702552940794",
-          "headline": "ChatGPT team tasks run your weekly status report",
-          "note": "Shared recurring jobs that teammates can steer, the same shape as your nightly agent loops.",
-          "tags": [
-            "unverified"
-          ]
+          "scan": "2112625575403700493",
+          "headline": "uv check: type-check a Python project in one command",
+          "note": "Experimental: installs ty, syncs dependencies and checks the project with no config.",
+          "source_label": "Astral"
         }
       ]
     },
@@ -70,17 +69,18 @@
     },
     {
       "type": "feature",
-      "scan": "2112562150313283595",
-      "headline": "METR checks Anthropic's safety math and finds the method weaker than the verdict",
-      "deck": "It agrees catastrophic misalignment risk is low today, but doubts the report would notice if risk rose, and asks for end-to-end red-teaming of the monitors.",
+      "scan": "2112554682467913909",
+      "headline": "Ransomware crews ran AI agents, then left the logs open",
+      "deck": "SOCRadar found 8,000+ messages from INC and The Gentlemen affiliates using Claude and Kimi, plus 46 encryptor builds. The claims rest on the operators' own exposed records.",
       "span": "half",
-      "why": "The same gap shows up in agent guards: passing your own benchmark is not evidence the monitor catches what matters.",
-      "source_label": "METR"
+      "variant": "drop-cap",
+      "why": "You build agent safety tools; a fake red-team authorization is exactly the prompt your guards should catch.",
+      "source_label": "SOCRadar via Intl Cyber Digest"
     },
     {
       "type": "pull-quote",
-      "scan": "2112562150313283595",
-      "quote": "We’re not confident that if risk were higher, the methodology in the report would reliably identify this.",
+      "scan": "2112554682467913909",
+      "quote": "To fight refusals, they authorized it by calling it red-teaming.",
       "span": "half",
       "variant": "bar"
     },
@@ -91,7 +91,7 @@
     },
     {
       "type": "numbered-list",
-      "headline": "Three saves: a fast site, a 3am audit, an open inference stack",
+      "headline": "Three saves: a fast site, a nightly audit, an open inference stack",
       "variant": "large",
       "items": [
         {
@@ -104,7 +104,7 @@
         },
         {
           "bookmark": "2112476496283775135",
-          "note": "DeepSeek's own production inference engine is now open source, so the serving tricks behind its low prices are public."
+          "note": "DeepSeek's production inference engine is now open source, so the serving tricks behind its low prices are public."
         }
       ]
     },
@@ -117,31 +117,31 @@
     {
       "type": "corner",
       "corner": "field-notes",
-      "deck": "Arguments from people building agents."
+      "deck": "Findings from people building agents."
     },
     {
       "type": "numbered-list",
-      "headline": "What agent PRs and injection evals hide",
+      "headline": "Skills that collide, and search that needs no model",
       "variant": "compact",
       "items": [
         {
-          "scan": "2112538272601616551",
-          "headline": "Agent-written PRs often lose to the maintainer's own prompt",
-          "note": "OpenCode's Dax says outside PRs come from unknown models and weaker tooling.",
-          "why": "A useful rule for your own repos: ask contributors which model and environment produced a PR.",
-          "tags": [
-            "unverified"
-          ]
-        },
-        {
-          "scan": "2112509710263886025",
-          "headline": "Small agents ignore prompt injections more than they refuse them",
-          "note": "Across 33,000 runs, a system prompt change moved attack success from 0.2% to 43%.",
-          "why": "If cc-safety-net reports only attack success, a lucky ignore looks like a defense.",
+          "scan": "2112673213486416203",
+          "headline": "Load two skills for one job and the model drops one",
+          "note": "Rule-following fell from 93-99% to 61-62%. One shared closing example cut takeover to 1-15%.",
+          "why": "Check your own skill folders for overlap; the worked example is the real spec.",
           "tags": [
             "new-voice"
           ],
-          "source_label": "arXiv preprint"
+          "source_label": "arXiv"
+        },
+        {
+          "scan": "2112588120558338261",
+          "headline": "Zed tried 25 ways to search MCP tools and chose BM25",
+          "note": "150 queries, 536 tools; weighted BM25 won on speed with no model or API calls.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Zed"
         }
       ]
     },
@@ -149,64 +149,64 @@
       "type": "corner",
       "corner": "japan-desk",
       "label": "日本から",
-      "deck": "今週はクラウドとAIツールの不正アクセスが続いた。"
+      "deck": "AIが攻撃の手足になり、証券口座では実際に売買が成立した。"
     },
     {
       "type": "brief-grid",
-      "headline": "相次ぐ不正アクセス",
+      "headline": "攻撃は自動化し、被害は実害に",
       "columns": 2,
       "variant": "plain",
       "items": [
         {
-          "scan": "2112565957222908382",
-          "headline": "PingCAPが不正アクセスを公表、TiDB Cloud本体への侵入は否定",
-          "note": "ハッカー集団は10.6TBの窃取を主張。公式発表と主張の差に注意。",
-          "source_label": "PingCAP Japan"
+          "scan": "2112487740969472025",
+          "headline": "100字未満の中国語の指示で、AIが1200超のサイトに侵入を試みた",
+          "note": "日本のECサイトも標的。成功例では脆弱性の特定に約23時間かかった。",
+          "source_label": "ロイター"
         },
         {
-          "scan": "2111625097031389493",
-          "headline": "OpenCodeの旧ConsoleでAPIキー流出のおそれ",
-          "note": "Console利用者の1.4%が対象。外部AIのキーを預けていたなら作り直しを。",
-          "tags": [
-            "unverified"
-          ],
-          "source_label": "セキュリティ対策Lab"
+          "scan": "2112514182885363863",
+          "headline": "岩井コスモ証券、攻撃で意図しない注文が5口座で約定",
+          "note": "7口座で不正な発注。財務相は10月9日に金融機関へ注意喚起していた。",
+          "source_label": "朝日新聞"
         }
       ]
     },
     {
       "type": "corner",
       "corner": "adjacent",
-      "deck": "One step out: mathematics meets machine-made arguments."
+      "deck": "One step out: machines in mathematics and medicine."
     },
     {
-      "type": "timeline",
-      "headline": "An AI-born proof about Siegel zeros keeps shrinking",
-      "variant": "vertical",
-      "emphasis": "loud",
+      "type": "compare",
+      "headline": "An AI proof lands, and some mathematicians step back",
+      "variant": "versus",
+      "verdict": "Both are true at once: the strongest AI result in mathematics so far, and a pledge to keep AI out of research. The dispute is about method and credit, not whether the proof checks.",
       "items": [
         {
-          "scan": "2111630556094230942",
-          "label": "Five pages",
-          "note": "Lichtman compares it to Bannister's four-minute mile: once done, others follow.",
-          "tags": [
-            "unverified",
-            "new-voice"
-          ]
+          "scan": "2112673719478784464",
+          "label": "Quanta Magazine",
+          "note": "Lichtman calls OpenAI's quasi-Riemann proof the most significant AI-for-math result yet."
         },
         {
-          "scan": "2111718523378499586",
-          "label": "Green's version",
-          "note": "Ben Green's self-contained, elementary write-up, linked as a preprint.",
-          "source_label": "Preprint"
-        },
+          "scan": "2112593736467165368",
+          "label": "New Scientist",
+          "note": "About a thousand mathematicians pledge to avoid AI in their own research."
+        }
+      ]
+    },
+    {
+      "type": "photo-spread",
+      "headline": "An AI-designed virus treats one patient",
+      "variant": "grid",
+      "items": [
         {
-          "scan": "2112245476414353919",
-          "label": "Three pages",
-          "note": "A century-old obstacle in prime number theory, now close to an exercise.",
+          "scan": "2112580926651904379",
+          "caption": "Omnii-1, a genome model, designed bacteria-killing phages given under compassionate use. One case, the company's own account, covered by the NYT.",
+          "why": "Same pattern as code agents: a model proposes, and clinicians decide whether to trust it.",
           "tags": [
             "unverified"
-          ]
+          ],
+          "source_label": "Radical Numerics"
         }
       ]
     },
@@ -217,22 +217,22 @@
     },
     {
       "type": "compare",
-      "headline": "Are planet-sized heat storms new?",
-      "variant": "versus",
-      "verdict": "Both agree the world is hotter. They disagree on whether heat storms are a new kind of event or the expected result of a shifted average. Read the method before the headline.",
+      "headline": "When banks pull back, who lends?",
+      "variant": "cards",
+      "verdict": "The BIS paper finds that safer-bank liquidity rules moved lending outside banks; Nikkei shows the same shift starting in Japan as deposits stall.",
       "items": [
         {
-          "scan": "2112487787283022144",
-          "label": "Reuters",
-          "note": "Supersized heat waves have gone from rare to constant, a new phenomenon.",
+          "scan": "2112517950653469110",
+          "label": "BIS",
+          "note": "Regions with more LCR-constrained banks saw stronger private credit growth.",
           "tags": [
             "new-to-you"
           ]
         },
         {
-          "scan": "2112585016962424929",
-          "label": "Ryan Maue",
-          "note": "Remove the warming trend and the 100x rise is just the bell curve moving.",
+          "scan": "2112673178686214423",
+          "label": "日経",
+          "note": "預金が伸びず、企業融資ファンドが1000億円規模で立ち上がる。",
           "tags": [
             "new-to-you"
           ]
@@ -241,28 +241,28 @@
     },
     {
       "type": "brief-grid",
-      "headline": "Far from the terminal",
+      "headline": "Old words, older archives",
       "columns": 2,
       "variant": "cards",
       "items": [
         {
-          "scan": "2112570433568432434",
-          "headline": "Three galaxies with no dark matter, lined up by one ancient crash",
-          "why": "Galaxies that break the rule are how astronomers test what dark matter is.",
+          "scan": "2112680340779151769",
+          "headline": "131 Hittite tablets describe an epidemic 3,400 years ago",
+          "why": "A royal archive of 184 tablets records a fever that struck children and generals begging for chariots.",
           "tags": [
             "new-to-you"
           ],
-          "source_label": "Quanta Magazine"
+          "source_label": "GIGAZINE"
         },
         {
-          "scan": "2112575522664255926",
-          "headline": "France finally repeals the Code noir, 178 years after abolition",
-          "why": "Laws can outlive the thing they governed; this vote closes a legal record left open since 1848.",
+          "scan": "2112542475588104395",
+          "headline": "In 1934 a dictionary added 'thon', a pronoun that never caught on",
+          "why": "The search for a singular gender-neutral pronoun is about a century old.",
           "tags": [
             "new-to-you",
             "unverified"
           ],
-          "source_label": "AFP (translated)"
+          "source_label": "Merriam-Webster"
         }
       ]
     },
@@ -272,11 +272,11 @@
     },
     {
       "type": "closer",
-      "scan": "2112548743916503145",
-      "headline": "Punctuation, sold separately",
-      "note": "In 1797 Timothy Dexter printed a book with no punctuation, then added a page of marks so readers could pepper and salt as they please.",
-      "variant": "photo",
-      "source_label": "The Public Domain Review"
+      "scan": "2112627433039929712",
+      "headline": "A good dog finds the sea vomit",
+      "note": "A black Labrador from the Scottish Highlands won an award for sniffing out the carpet sea squirt, an invasive species, along British waters.",
+      "variant": "text",
+      "source_label": "Smithsonian Magazine"
     }
   ]
 }
