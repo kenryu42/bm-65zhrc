@@ -1,0 +1,282 @@
+{
+  "date": "2026-10-21",
+  "title": "Machines find, people check",
+  "subtitle": "Free AI bug scans for open source, an outside audit of Anthropic's risk report, and an AI-born proof that mathematicians keep shrinking",
+  "editor_note": "The day's pattern: a machine turns something up, and the real work is people checking it. Anthropic's models now scan open source for vulnerabilities, but every finding needs a maintainer. METR checked Anthropic's own safety claims and found the method weaker than the verdict. An AI-generated argument about Siegel zeros went from nine pages to three as mathematicians rebuilt it. And a Reuters data story on heat storms drew a sharp statistical rebuttal within hours. This is the first issue built from a morning scan as well as your saves.",
+  "theme": {
+    "palette": "plum",
+    "fonts": "sans-serif"
+  },
+  "sections": [
+    {
+      "type": "cover-story",
+      "scan": "2112299602510749992",
+      "kicker": "Cover story",
+      "headline": "Anthropic will scan your open source project for bugs, free",
+      "deck": "OSS Scanner points Anthropic's strongest models at critical repositories on a schedule. Each finding arrives with a proof-of-concept, and often a patch.",
+      "variant": "split",
+      "why": "You ship open source agent-safety tools; this is free red-teaming, and a preview of the bug-report volume maintainers will face.",
+      "source_label": "Anthropic"
+    },
+    {
+      "type": "corner",
+      "corner": "brief",
+      "deck": "What moved in your world since Monday."
+    },
+    {
+      "type": "brief-grid",
+      "headline": "Releases and launches",
+      "columns": 3,
+      "variant": "cards",
+      "items": [
+        {
+          "scan": "2112531443591020965",
+          "headline": "TypeScript compiler ported to Rust: up to 8x faster",
+          "note": "Built with the TypeScript team, runs in WASM, and is headed for the Oxc toolchain.",
+          "source_label": "VoidZero"
+        },
+        {
+          "scan": "2112310345863930168",
+          "headline": "OpenAI aims its models at COBOL and Fortran",
+          "note": "Legacy migration becomes a named target, not a side effect of general coding skill.",
+          "source_label": "OpenAI"
+        },
+        {
+          "scan": "2112574615318876178",
+          "headline": "Mistral's Voxtral 3 ships a full voice agent stack",
+          "note": "Transcribe, a reasoning model with tools, and speech streamed as one pipeline.",
+          "source_label": "Mistral AI"
+        },
+        {
+          "scan": "2112247046082363821",
+          "headline": "Vercel open-sources v0's crash-durable artifact builder",
+          "note": "The durability layer for long agent runs is now free plumbing.",
+          "source_label": "Vercel"
+        },
+        {
+          "scan": "2112565702552940794",
+          "headline": "ChatGPT team tasks run your weekly status report",
+          "note": "Shared recurring jobs that teammates can steer, the same shape as your nightly agent loops.",
+          "tags": [
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "lead",
+      "deck": "The one to read in full."
+    },
+    {
+      "type": "feature",
+      "scan": "2112562150313283595",
+      "headline": "METR checks Anthropic's safety math and finds the method weaker than the verdict",
+      "deck": "It agrees catastrophic misalignment risk is low today, but doubts the report would notice if risk rose, and asks for end-to-end red-teaming of the monitors.",
+      "span": "half",
+      "why": "The same gap shows up in agent guards: passing your own benchmark is not evidence the monitor catches what matters.",
+      "source_label": "METR"
+    },
+    {
+      "type": "pull-quote",
+      "scan": "2112562150313283595",
+      "quote": "We’re not confident that if risk were higher, the methodology in the report would reliably identify this.",
+      "span": "half",
+      "variant": "bar"
+    },
+    {
+      "type": "corner",
+      "corner": "your-saves",
+      "deck": "Everything you saved since the last issue."
+    },
+    {
+      "type": "numbered-list",
+      "headline": "Three saves: a fast site, a 3am audit, an open inference stack",
+      "variant": "large",
+      "items": [
+        {
+          "bookmark": "2112129349071831259",
+          "note": "The speed play: ship a template site onto a trending keyword before anyone else."
+        },
+        {
+          "bookmark": "2112245086725841047",
+          "note": "A loop worth stealing: let an agent audit yesterday's work every night and propose fixes."
+        },
+        {
+          "bookmark": "2112476496283775135",
+          "note": "DeepSeek's own production inference engine is now open source, so the serving tricks behind its low prices are public."
+        }
+      ]
+    },
+    {
+      "type": "sidebar-box",
+      "bookmark": "2112245086725841047",
+      "headline": "Try tonight",
+      "variant": "callout"
+    },
+    {
+      "type": "corner",
+      "corner": "field-notes",
+      "deck": "Arguments from people building agents."
+    },
+    {
+      "type": "numbered-list",
+      "headline": "What agent PRs and injection evals hide",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2112538272601616551",
+          "headline": "Agent-written PRs often lose to the maintainer's own prompt",
+          "note": "OpenCode's Dax says outside PRs come from unknown models and weaker tooling.",
+          "why": "A useful rule for your own repos: ask contributors which model and environment produced a PR.",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2112509710263886025",
+          "headline": "Small agents ignore prompt injections more than they refuse them",
+          "note": "Across 33,000 runs, a system prompt change moved attack success from 0.2% to 43%.",
+          "why": "If cc-safety-net reports only attack success, a lucky ignore looks like a defense.",
+          "tags": [
+            "new-voice"
+          ],
+          "source_label": "arXiv preprint"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "japan-desk",
+      "label": "日本から",
+      "deck": "今週はクラウドとAIツールの不正アクセスが続いた。"
+    },
+    {
+      "type": "brief-grid",
+      "headline": "相次ぐ不正アクセス",
+      "columns": 2,
+      "variant": "plain",
+      "items": [
+        {
+          "scan": "2112565957222908382",
+          "headline": "PingCAPが不正アクセスを公表、TiDB Cloud本体への侵入は否定",
+          "note": "ハッカー集団は10.6TBの窃取を主張。公式発表と主張の差に注意。",
+          "source_label": "PingCAP Japan"
+        },
+        {
+          "scan": "2111625097031389493",
+          "headline": "OpenCodeの旧ConsoleでAPIキー流出のおそれ",
+          "note": "Console利用者の1.4%が対象。外部AIのキーを預けていたなら作り直しを。",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "セキュリティ対策Lab"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "adjacent",
+      "deck": "One step out: mathematics meets machine-made arguments."
+    },
+    {
+      "type": "timeline",
+      "headline": "An AI-born proof about Siegel zeros keeps shrinking",
+      "variant": "vertical",
+      "emphasis": "loud",
+      "items": [
+        {
+          "scan": "2111630556094230942",
+          "label": "Five pages",
+          "note": "Lichtman compares it to Bannister's four-minute mile: once done, others follow.",
+          "tags": [
+            "unverified",
+            "new-voice"
+          ]
+        },
+        {
+          "scan": "2111718523378499586",
+          "label": "Green's version",
+          "note": "Ben Green's self-contained, elementary write-up, linked as a preprint.",
+          "source_label": "Preprint"
+        },
+        {
+          "scan": "2112245476414353919",
+          "label": "Three pages",
+          "note": "A century-old obstacle in prime number theory, now close to an exercise.",
+          "tags": [
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "open-window",
+      "deck": "Worth knowing, whatever you work on."
+    },
+    {
+      "type": "compare",
+      "headline": "Are planet-sized heat storms new?",
+      "variant": "versus",
+      "verdict": "Both agree the world is hotter. They disagree on whether heat storms are a new kind of event or the expected result of a shifted average. Read the method before the headline.",
+      "items": [
+        {
+          "scan": "2112487787283022144",
+          "label": "Reuters",
+          "note": "Supersized heat waves have gone from rare to constant, a new phenomenon.",
+          "tags": [
+            "new-to-you"
+          ]
+        },
+        {
+          "scan": "2112585016962424929",
+          "label": "Ryan Maue",
+          "note": "Remove the warming trend and the 100x rise is just the bell curve moving.",
+          "tags": [
+            "new-to-you"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "brief-grid",
+      "headline": "Far from the terminal",
+      "columns": 2,
+      "variant": "cards",
+      "items": [
+        {
+          "scan": "2112570433568432434",
+          "headline": "Three galaxies with no dark matter, lined up by one ancient crash",
+          "why": "Galaxies that break the rule are how astronomers test what dark matter is.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "Quanta Magazine"
+        },
+        {
+          "scan": "2112575522664255926",
+          "headline": "France finally repeals the Code noir, 178 years after abolition",
+          "why": "Laws can outlive the thing they governed; this vote closes a legal record left open since 1848.",
+          "tags": [
+            "new-to-you",
+            "unverified"
+          ],
+          "source_label": "AFP (translated)"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "kicker"
+    },
+    {
+      "type": "closer",
+      "scan": "2112548743916503145",
+      "headline": "Punctuation, sold separately",
+      "note": "In 1797 Timothy Dexter printed a book with no punctuation, then added a page of marks so readers could pepper and salt as they please.",
+      "variant": "photo",
+      "source_label": "The Public Domain Review"
+    }
+  ]
+}

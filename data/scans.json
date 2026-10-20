@@ -1,0 +1,580 @@
+[
+  {
+    "id": "2112299602510749992",
+    "url": "https://x.com/ClaudeDevs/status/2112299602510749992",
+    "author": {
+      "name": "ClaudeDevs",
+      "handle": "ClaudeDevs"
+    },
+    "posted_at": "2026-10-19T21:47:24.000Z",
+    "saved_at": "2026-10-21T02:05:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Anthropic offers free periodic AI vulnerability scans for critical open source",
+    "summary": "Anthropic's OSS Scanner runs its strongest models over opted-in open source repositories on a schedule, and each finding comes with a proof-of-concept and, where possible, a patch.",
+    "text": "We launched OSS Scanner, which gives critical open source projects free, periodic vulnerability scans from our strongest models.\n\nEach finding includes a proof-of-concept, and a patch where possible.\n\nhttps://t.co/aonfpNG3WO",
+    "key_points": [
+      "Scans are free and opt-in for critical open source projects.",
+      "Every finding ships with a proof-of-concept, and a patch when one is possible."
+    ],
+    "action": "Check whether a repo you maintain qualifies and apply for OSS Scanner on the Anthropic red team page.",
+    "links": [
+      {
+        "title": "OSS Scanner (Anthropic Frontier Red Team)",
+        "url": "https://red.anthropic.com/oss-scanner/",
+        "image": "https://pbs.twimg.com/card_img/2112330388194594816/7d8EBprW?format=png&name=800x419",
+        "short": "https://t.co/aonfpNG3WO"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2112310345863930168",
+    "url": "https://x.com/OpenAI/status/2112310345863930168",
+    "author": {
+      "name": "OpenAI",
+      "handle": "OpenAI"
+    },
+    "posted_at": "2026-10-19T22:30:05.000Z",
+    "saved_at": "2026-10-21T02:05:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "OpenAI models get better at COBOL, Fortran and Visual Basic",
+    "summary": "OpenAI says its latest models are stronger at building and migrating software in low-resource languages such as COBOL, Fortran and Visual Basic, and asks enterprise teams which legacy languages to tackle next.",
+    "text": "Our latest model advances bring stronger capabilities for building and migrating software in low-resource programming languages such as COBOL, Fortran, and Visual Basic.\n\nThese languages power software that banks, governments, and businesses depend on. Progress here means understanding decades of business logic and helping developers modernize those systems while preserving what works.\n\nWe’re building these capabilities around the challenges developers and enterprise customers bring us. If your team is working on these systems, tell us which languages and workflows we should tackle next.\n\nhttps://t.co/2TbnkQixJ1",
+    "key_points": [
+      "Legacy languages with little training data are now an explicit target.",
+      "The pitch is modernizing decades of business logic while keeping what works."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "OpenAI: Low-resource programming languages",
+        "url": "https://openai.com/index/low-resource-programming-languages/",
+        "short": "https://t.co/2TbnkQixJ1"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2112309796745682944/img/uV5UTO10mMmVfiun.jpg",
+        "alt": "Video poster for OpenAI's legacy-language announcement"
+      }
+    ]
+  },
+  {
+    "id": "2112574615318876178",
+    "url": "https://x.com/MistralAI/status/2112574615318876178",
+    "author": {
+      "name": "Mistral AI",
+      "handle": "MistralAI"
+    },
+    "posted_at": "2026-10-20T16:00:12.000Z",
+    "saved_at": "2026-10-21T02:05:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "Voxtral 3 brings Mistral speech models and a voice agent SDK",
+    "summary": "Mistral released Voxtral 3 transcription and text-to-speech models, a voice agents API, professional voice cloning from up to 30 minutes of audio, and a LiveKit-based SDK that chains listening, reasoning with tools, and speaking.",
+    "text": "Introducing Voxtral 3: state-of-the-art Transcribe and Speech models powering Mistral’s new voice agents API. 🧵 https://t.co/YA9HNVfq0u\n\nVoxtral Small Transcribe 3 is state-of-the-art in multilingual transcription, diarization and context-biasing. \n\nIt detects when someone has finished speaking so agents can respond without delay. https://t.co/ULxCXinOXF\n\nVoxtral Mini TTS 3 achieves state-of-the-art expressiveness in 35+ languages and 50+ dialects. \n\nImplicit instruction-following reads emotion, pace, and emphasis from the conversation.\n\nWith explicit instruction-following, tags like [emotion=sad][pace=slow] set them line by line. https://t.co/tFYchU6vo0\n\nWith Pro Voice, we’re also rolling out professional voice adaptation. \n\nRecord up to 30 minutes of audio to replicate your voice with extreme fidelity across every supported language. https://t.co/myTWFyVaUK\n\nVoxtral 3 also introduces a voice agent SDK, built on LiveKit. \n\nTranscribe listens, a reasoning model thinks and calls tools, and Speech replies, streamed as one pipeline for natural, intelligent conversation.\n\nMore here: https://t.co/gm9wrCpiaj",
+    "key_points": [
+      "Voxtral Small Transcribe 3 handles multilingual transcription, diarization and end-of-turn detection.",
+      "Voxtral Mini TTS 3 takes inline tags such as [emotion=sad][pace=slow].",
+      "The SDK streams transcribe, a reasoning model with tools, and speech as one pipeline."
+    ],
+    "action": "Try the Voxtral 3 voice agent SDK for a small tool-calling voice assistant prototype.",
+    "links": [
+      {
+        "title": "Mistral AI: Voxtral 3",
+        "url": "https://mistral.ai/news/voxtral-3",
+        "image": "https://pbs.twimg.com/news_img/2112574708323381248/4zB7MYYn?format=jpg&name=150x150",
+        "short": "https://t.co/gm9wrCpiaj"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2112572094693220352/img/jKD0R5NWaGjhvRcX.jpg",
+        "alt": "Voxtral 3 launch video",
+        "link": "https://t.co/YA9HNVfq0u"
+      },
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2112569579796885504/img/Fvc45NNY8A1C5nKr.jpg",
+        "alt": "Voxtral Small Transcribe 3 demo",
+        "link": "https://t.co/ULxCXinOXF"
+      },
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2112569668296683523/img/ARVc16k6Wcbf9ppf.jpg",
+        "alt": "Voxtral Mini TTS 3 demo",
+        "link": "https://t.co/tFYchU6vo0"
+      },
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2112569758902054912/img/DEnu3FJW3J43K0tm.jpg",
+        "alt": "Pro Voice adaptation demo",
+        "link": "https://t.co/myTWFyVaUK"
+      }
+    ]
+  },
+  {
+    "id": "2112531443591020965",
+    "url": "https://x.com/voidzerodev/status/2112531443591020965",
+    "author": {
+      "name": "VoidZero",
+      "handle": "voidzerodev"
+    },
+    "posted_at": "2026-10-20T13:08:39.000Z",
+    "saved_at": "2026-10-21T02:05:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "tsrs ports the TypeScript compiler to Rust, up to 8x faster",
+    "summary": "VoidZero announced tsrs, a Rust port of the TypeScript compiler built with the TypeScript team, claiming up to 8x the speed of TS 7.0 with about 70% less memory and a WASM build that runs in browsers and Workers.",
+    "text": "Introducing tsrs: a Rust port of the TypeScript compiler 🦀\n\nWe are not forking TypeScript!\n\n◆ In close collaborating with the TypeScript team\n◆ Up to 8x faster than TS 7.0 & ~70% less memory\n◆ Runs in WASM, so it works in your browser & on Workers\n◆ Soon part of the Oxc toolchain\n\nnpx tsrs\n\nhttps://t.co/qmmxF3YnQy",
+    "key_points": [
+      "It is a port, not a fork, done with the TypeScript team.",
+      "It runs in WASM and will join the Oxc toolchain."
+    ],
+    "action": "Run npx tsrs on one project and compare its type-check time with your current tsc.",
+    "links": [
+      {
+        "title": "Cloudflare: Introducing tsrs, a port of TypeScript to Rust",
+        "url": "https://blog.cloudflare.com/typescript-rust-port",
+        "image": "https://pbs.twimg.com/card_img/2112531228813627392/EDo6tKmq?format=jpg&name=800x419",
+        "short": "https://t.co/qmmxF3YnQy"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2112247046082363821",
+    "url": "https://x.com/rauchg/status/2112247046082363821",
+    "author": {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg"
+    },
+    "posted_at": "2026-10-19T18:18:34.000Z",
+    "saved_at": "2026-10-21T02:05:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "Vercel open-sources a fast, crash-durable HTML artifact builder on libfx",
+    "summary": "Guillermo Rauch says Vercel open-sourced the HTML artifact builder behind v0, built on libfx so the agent survives server crashes, flaky model calls and function time limits.",
+    "text": "We open sourced a *really fast* HTML artifact builder. It's powered by libfx, making the agent durable.\n\nBuilding the low-level plumbing for v0 to survive server crashes, flaky LLMs, function limits was a huge pain.\n\nNow it's easy, free, and OSS: https://t.co/aUP1vKeIsP.\n\nPS: I built this floating container in a few minutes… it's delightful, and it's just HTML!",
+    "key_points": [
+      "Durability for long agent runs was the hard part of building v0.",
+      "The builder is free and open source."
+    ],
+    "action": "Open fx0.vercel.dev and see how libfx keeps an agent run alive across a crash.",
+    "links": [
+      {
+        "title": "fx0: HTML artifact builder on libfx",
+        "url": "https://fx0.vercel.dev/",
+        "short": "https://t.co/aUP1vKeIsP"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2112245358327959552/img/geVQoIKVi3Ivh-qd.jpg",
+        "alt": "Demo of a floating container built in HTML"
+      }
+    ]
+  },
+  {
+    "id": "2112565702552940794",
+    "url": "https://x.com/OpenAIDevs/status/2112565702552940794",
+    "author": {
+      "name": "OpenAI Developers",
+      "handle": "OpenAIDevs"
+    },
+    "posted_at": "2026-10-20T15:24:47.000Z",
+    "saved_at": "2026-10-21T02:05:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "ChatGPT team tasks automate recurring engineering updates",
+    "summary": "OpenAI added team tasks to ChatGPT: recurring jobs such as a Friday summary of what shipped and what is blocked, whose results teammates can review and redirect.",
+    "text": "You can now automate recurring engineering work with team tasks in ChatGPT, like pulling together what shipped and what’s blocked every Friday.\n\nYour teammates can review the results and change what the next update covers, so you don’t have to maintain it on your own. https://t.co/RaWUEOl2gQ",
+    "key_points": [
+      "Tasks are shared, so teammates can change what the next run covers."
+    ],
+    "action": "Set up one weekly team task that summarizes shipped and blocked work.",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVFW82pXEAATBsd.jpg?name=orig",
+        "alt": "ChatGPT team tasks screen",
+        "link": "https://t.co/RaWUEOl2gQ"
+      }
+    ]
+  },
+  {
+    "id": "2112562150313283595",
+    "url": "https://x.com/METR_Evals/status/2112562150313283595",
+    "author": {
+      "name": "METR",
+      "handle": "METR_Evals"
+    },
+    "posted_at": "2026-10-20T15:10:40.000Z",
+    "saved_at": "2026-10-21T02:05:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "METR agrees misalignment risk is low but doubts Anthropic's method",
+    "summary": "In a thread, METR reports its review of the misalignment section of Anthropic's August 2026 Risk Report: it agrees catastrophic risk from covered models is low, but doubts the report's methods would catch higher risk, calls its covert-capability benchmarks too narrow, and asks for end-to-end red-teaming of Anthropic's monitors.",
+    "text": "We reviewed a nonpublic version of the “Misalignment in high-stakes settings” section in Anthropic’s Aug 2026 Risk Report. We agree that risk of catastrophic harm from covered models’ misalignment is low. However, we note several significant disagreements with their analysis.\n\nThis was a fairly lightweight review based only on Anthropic’s internal report, not embedded access; Anthropic had the right to veto publication or redact anything, but did not redact anything from our review. We expect future engagements to be governed by different terms.\n\nOur view: We’re not confident that if risk were higher, the methodology in the report would reliably identify this.\n\nWe view risk as “low” mainly because we don’t expect covered models to have the capability to make potentially catastrophic actions hard to reverse or hide them from serious investigation efforts.\n\nWe think the report's covert capability benchmarks are too narrow and a poor proxy for evading Anthropic's real monitors.\n\nFor example, Anthropic’s offline monitors would have missed Mythos 5’s supply chain attack during recent cyber incidents, despite Anthropic arguing that Mythos 5 is “unlikely to have strong covert capabilities.”\n\nAdditionally, recent incidents undermine several of the report's arguments: we think the social engineering performed by Mythos 5 in a recent UK AISI report is probably well-described as “unknown severe context-dependent misalignment,” which the risk report argues is “unlikely”.\n\nhttps://t.co/M94cGKVbdn\n\nThis casts doubt on any lines of evidence used to argue that incidents of this kind are unlikely. Many of these lines of evidence (including alignment training, alignment assessments, and monitoring) are important for ruling out other threat models.\n\nWe also reviewed information Anthropic redacted from the public risk report.\n\nWe think some of this redacted material should be made public, especially a footnote containing “examples of historical concerning model behavior and [the] monitoring pipeline’s responsiveness to them.”\n\nSeeing the private information in this footnote increased our worry about risks from what Anthropic refers to as “Broad/diffuse sandbagging on safety-relevant R&amp;D” and “Targeted undermining of safety-relevant R&amp;D” from models covered by the report.\n\nAnthropic requested that we provide recommendations as part of our risk report review. We gave two:\n\n(1) We think end-to-end red-teaming of Anthropic’s monitoring systems would provide much better evidence about their effectiveness.\n\n(2) We think Anthropic should, for future reports, consider risks from AI systems undermining safety-relevant decisions at Anthropic.\n\nRead our full risk report review here: https://t.co/rkZp8q4kHQ",
+    "key_points": [
+      "Low risk rests mainly on models lacking the ability to hide or make hard-to-reverse catastrophic actions.",
+      "Recent incidents, including Mythos 5's social engineering and a supply chain attack offline monitors would have missed, undercut parts of the report.",
+      "METR recommends end-to-end red-teaming of monitoring and publishing a redacted footnote on past concerning behavior."
+    ],
+    "action": "Read METR's full review and list which of your own agent safeguards you have actually red-teamed end to end.",
+    "links": [
+      {
+        "title": "METR: Review of Anthropic's August 2026 Risk Report",
+        "url": "https://metr.org/blog/2026-10-20-misalignment-risk-report-august-2026-review/",
+        "image": "https://pbs.twimg.com/news_img/2112562165966364672/_Tn68DwT?format=png&name=150x150",
+        "short": "https://t.co/rkZp8q4kHQ"
+      },
+      {
+        "title": "UK AISI post on Mythos 5 social engineering",
+        "url": "https://x.com/AISecurityInst/status/2084746202579386632",
+        "short": "https://t.co/M94cGKVbdn"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2112538272601616551",
+    "url": "https://x.com/thdxr/status/2112538272601616551",
+    "author": {
+      "name": "dax",
+      "handle": "thdxr"
+    },
+    "posted_at": "2026-10-20T13:35:47.000Z",
+    "saved_at": "2026-10-21T02:05:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Agent-written open source PRs often lose to the maintainers' own prompt",
+    "summary": "OpenCode's Dax says outside pull requests now come from unknown models with weaker tooling than the team's internal setup, so they are usually worse than just running the prompt themselves; they matter mostly for environments the team cannot recreate.",
+    "text": "a weird thing about OSS pull requests these days is we don't know what model was used for it and our internal setup provides better tools to the agent\n\nso they're almost always worse than sending the prompt ourselves\n\nit's mostly useful for environments we cannot recreate",
+    "key_points": [
+      "A PR's value shifts from the code to the environment it was tested in."
+    ],
+    "action": "In your repo's contributing guide, ask agent-written PRs to state the model used and the environment it was tested in.",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2112509710263886025",
+    "url": "https://x.com/kbhaskar_95/status/2112509710263886025",
+    "author": {
+      "name": "Karthik Bhaskar",
+      "handle": "kbhaskar_95"
+    },
+    "posted_at": "2026-10-20T11:42:18.000Z",
+    "saved_at": "2026-10-21T02:05:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Small agents ignore prompt injections more than they refuse them",
+    "summary": "Across 33,000 trajectories of 11 open-weight agents, most failed prompt-injection attacks were ignored rather than refused, a system prompt change moved InjecAgent success from 0.2% to 43%, and 21.7% of safe AgentDojo runs never finished the task.",
+    "text": "a low prompt-injection success rate on small agents is often luck, not a defense\n\n33,000 trajectories, 11 open-weight agents (2-14B), InjecAgent + AgentDojo\nmost failed attacks were ignored (76-80%), not refused (17-18%)\nsame weights, only the system prompt changed - InjecAgent ASR went from 0.2% to 43%\nand in 21.7% of AgentDojo episodes the agent stayed safe but didnt finish the task\n\nevals should say how attacks fail and whether the task got done\n\nhttps://t.co/LGbxgmzeuG\n\n#AIAgents",
+    "key_points": [
+      "A low attack success rate can be luck rather than a defense.",
+      "Evals should report how attacks fail and whether the task got done."
+    ],
+    "action": "When you evaluate an agent guard, log ignored versus refused attacks and task completion, not just attack success rate.",
+    "links": [
+      {
+        "title": "arXiv: Ignored, Not Refused (prompt injection in small agents)",
+        "url": "https://arxiv.org/abs/2610.23254",
+        "short": "https://t.co/LGbxgmzeuG"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVEkYtWWkAAftOG.jpg?name=orig",
+        "alt": "Chart of ignored versus refused prompt-injection attacks"
+      }
+    ]
+  },
+  {
+    "id": "2112565957222908382",
+    "url": "https://x.com/PingCAP_Japan/status/2112565957222908382",
+    "author": {
+      "name": "PingCAP Japan",
+      "handle": "PingCAP_Japan"
+    },
+    "posted_at": "2026-10-20T15:25:48.000Z",
+    "saved_at": "2026-10-21T02:05:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "PingCAPが不正アクセスを公表、TiDB Cloudへの侵入は確認されず",
+    "summary": "PingCAP Japanは第三者による不正アクセスを確認したと公表し謝罪した。同社と外部調査機関の調査では、TiDB Cloudへの不正アクセスやクレジットカード情報の流出は確認されていないとしている。",
+    "text": "【不正アクセスによる情報漏洩に関するお詫びとご報告】\nPingCAPにおいて第三者による不正アクセスが確認されたため、現在調査および必要な対応を進めております。\n関係者の皆様には多大なご迷惑とご心配をおかけし、深くお詫び申し上げます。\n弊社、外部調査機関ともにTiDB Cloudを調査した結果、TiDB Cloud への不正アクセス、クレジットカード情報の流出は確認されておりません。\n\n経緯および詳細につきましては、下記Webサイトにて随時報告いたします。\nhttps://t.co/Hu97075A5N",
+    "key_points": [
+      "ハッカー集団は10.6TBの窃取を主張しているが、公式はTiDB Cloud本体への侵入を否定している。",
+      "詳細は公式のセキュリティ更新ページで随時報告される。"
+    ],
+    "action": "TiDB Cloudを使っているなら公式のセキュリティ更新ページを確認し、念のためAPIキーを再発行する。",
+    "links": [
+      {
+        "title": "PingCAP: 2026年10月のセキュリティ更新",
+        "url": "https://pingcap.co.jp/trust-hub/security/security-update-october-2026/",
+        "image": "https://pbs.twimg.com/card_img/2112026297170038784/FSFyaIFk?format=jpg&name=800x419",
+        "short": "https://t.co/Hu97075A5N"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2111625097031389493",
+    "url": "https://x.com/securityLab_jp/status/2111625097031389493",
+    "author": {
+      "name": "セキュリティ対策Lab",
+      "handle": "securityLab_jp"
+    },
+    "posted_at": "2026-10-18T01:07:09.000Z",
+    "saved_at": "2026-10-21T02:05:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "OpenCodeに不正アクセス、Console利用者の1.4%でAPIキー流出のおそれ",
+    "summary": "OpenCodeの旧Consoleが「大規模な蒸留攻撃」に関連する不正アクセスを受け、連携していたOpenAIやAnthropicなどのAPIキーが利用者の1.4%で流出した可能性があると報じられた。",
+    "text": "OpenCodeに不正アクセスのよるサイバー攻撃、Console利用者の1.4%に影響―OpenAI・AnthropicなどのAPIキー流出のおそれ \n https://t.co/xKuJmeWVzv \n\n#セキュリティ対策Lab #security #securitynews #セキュリティ #セキュリティニュース #ainews",
+    "key_points": [
+      "狙われたのは廃止予定の旧システムだった。",
+      "外部AIサービスのキーを預けていた利用者が対象。"
+    ],
+    "action": "OpenCode Consoleに外部のAPIキーを登録していたなら、そのキーを今すぐ失効させて作り直す。",
+    "links": [
+      {
+        "title": "セキュリティ対策Lab: OpenCode Console APIキー流出",
+        "url": "https://rocket-boys.co.jp/security-measures-lab/opencode-console-api-key-breach-distillation-attack/",
+        "image": "https://pbs.twimg.com/card_img/2111625098105167872/KV3_8ja8?format=png&name=420x420_2",
+        "short": "https://t.co/xKuJmeWVzv"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2111630556094230942",
+    "url": "https://x.com/jdlichtman/status/2111630556094230942",
+    "author": {
+      "name": "Jared Duker Lichtman",
+      "handle": "jdlichtman"
+    },
+    "posted_at": "2026-10-18T01:28:51.000Z",
+    "saved_at": "2026-10-21T02:05:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "A five-page proof that Siegel zeros do not exist",
+    "summary": "Mathematician Jared Duker Lichtman compares the new short proofs that Siegel zeros do not exist to Roger Bannister's four-minute mile: once one proof appeared, others rushed in.",
+    "text": "We now have a 5 page proof of no Siegel zeros:\n\nIt's like Roger Bannister breaking the 4 minute mile! After Roger, several runners realized it was possible, and broke 4 minutes as well.\n\nHere, Siegel zeros was a infamous challenge for over a century, but now the new proofs are rushing in...",
+    "key_points": [
+      "Siegel zeros had resisted proof for over a century.",
+      "Several independent, shorter proofs followed the first one."
+    ],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2111718523378499586",
+    "url": "https://x.com/thomasfbloom/status/2111718523378499586",
+    "author": {
+      "name": "Thomas Bloom",
+      "handle": "thomasfbloom"
+    },
+    "posted_at": "2026-10-18T07:18:24.000Z",
+    "saved_at": "2026-10-21T02:05:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "Ben Green writes a self-contained five-page proof of no Siegel zeros",
+    "summary": "Thomas Bloom points to Ben Green's version of the proof that Siegel zeros do not exist: five pages using self-contained elementary arguments.",
+    "text": "Ben Green has written a very nice version of the proof that no Siegel zeros exist - only 5 pages, and self-contained elementary arguments: \n\nhttps://t.co/xA58jkRWWV",
+    "key_points": [
+      "Green's write-up uses elementary, self-contained arguments."
+    ],
+    "action": "Read Ben Green's five-page preprint if you want to see the argument end to end.",
+    "links": [
+      {
+        "title": "Ben Green: preprint 2610.00311 (PDF)",
+        "url": "https://hexagonmath.org/pdf/2610.00311v1",
+        "short": "https://t.co/xA58jkRWWV"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2112245476414353919",
+    "url": "https://x.com/jdlichtman/status/2112245476414353919",
+    "author": {
+      "name": "Jared Duker Lichtman",
+      "handle": "jdlichtman"
+    },
+    "posted_at": "2026-10-19T18:12:19.000Z",
+    "saved_at": "2026-10-21T02:05:00+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "The Siegel zeros proof shrinks to three pages",
+    "summary": "Lichtman reports that the proof that Siegel zeros do not exist is now down to three pages, quoting a reaction that a Fields-medal-level open problem has become close to an exercise.",
+    "text": "No Siegel zeros proved in 3 pages",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2112487787283022144",
+    "url": "https://x.com/Reuters/status/2112487787283022144",
+    "author": {
+      "name": "Reuters",
+      "handle": "Reuters"
+    },
+    "posted_at": "2026-10-20T10:15:11.000Z",
+    "saved_at": "2026-10-21T02:05:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "Reuters maps the rise of planet-spanning heat storms",
+    "summary": "A Reuters data investigation says supersized heat waves, which it calls heat storms, used to be rare but now swarm the planet each year and upend life worldwide.",
+    "text": "Supersized heat waves used to be rare. No longer. A Reuters data-driven examination of global temperatures reveals the emergence of what we call heat storms. They now swarm the planet, upending life around the world. https://t.co/6oOP6jpKYz https://t.co/qbRQbRRPXQ",
+    "key_points": [
+      "Reuters defines heat storms as heat events covering a large share of the globe at once.",
+      "It reports they have grown from rare to constant over recent decades."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Reuters Investigates: Heat storms",
+        "url": "https://www.reuters.com/investigates/section/heatstorms/",
+        "short": "https://t.co/6oOP6jpKYz"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2112485856137064448/img/tW8ikZnAfzbhCgJW.jpg",
+        "alt": "Animated map of heat storms spreading over the globe",
+        "link": "https://t.co/qbRQbRRPXQ"
+      }
+    ],
+    "pick": true
+  },
+  {
+    "id": "2112585016962424929",
+    "url": "https://x.com/RyanWeather/status/2112585016962424929",
+    "author": {
+      "name": "Ryan Maue",
+      "handle": "RyanWeather"
+    },
+    "posted_at": "2026-10-20T16:41:32.000Z",
+    "saved_at": "2026-10-21T02:05:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "A meteorologist says heat storms are just a shifted bell curve",
+    "summary": "Ryan Maue praises Reuters' graphics and data but argues the interpretation is wrong: once the long-term warming trend is removed, the shift of the mean fully explains the reported 100x rise, so there is no new class of heat storms.",
+    "text": "Reuters \"heat storm\" analysis has beautiful graphics and sound data analysis, but everything after that is fatally flawed including the interpretation.  It's entirely wrong.  \n\nThere is no new class of \"heat storms\" swarming the planet.  Indeed, after performing the correct analysis (removing the long-term warming trend), it's found that the shift of the mean of the distribution entirely explains the massive 100x increase reported by Reuters.\n\nA narrow bell curve moves past its own tail especially over the oceans where one standard deviation is small.\n\nThis is a well known issue in climate science extreme events literature, and is foundational to attribution science, too.  \n\nExplanation and further data analysis at Celsius Earth:\nhttps://t.co/AC6M6Koh4O",
+    "key_points": [
+      "A narrow distribution that shifts right crosses its own tail fast, especially over oceans.",
+      "This is a known issue in extreme-event and attribution research."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Celsius Earth: Heat storms analysis",
+        "url": "https://celsius.earth/heat-storms",
+        "short": "https://t.co/AC6M6Koh4O"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVFn6A8XIAEzdcE.jpg?name=orig",
+        "alt": "Chart of heat storm counts with and without the warming trend"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVFoBQLWEAArEQ0.jpg?name=orig",
+        "alt": "Distribution of temperature anomalies shifting over time"
+      }
+    ]
+  },
+  {
+    "id": "2112570433568432434",
+    "url": "https://x.com/QuantaMagazine/status/2112570433568432434",
+    "author": {
+      "name": "Quanta Magazine",
+      "handle": "QuantaMagazine"
+    },
+    "posted_at": "2026-10-20T15:43:35.000Z",
+    "saved_at": "2026-10-21T02:05:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "Three galaxies without dark matter may share one ancient collision",
+    "summary": "Quanta reports on three ghostly galaxies that, unlike almost all others, lack dark matter; astronomers think one powerful ancient collision lined them up and stripped it away.",
+    "text": "Almost all galaxies are dominated by dark matter — that is, except for three ‘ghostly’ galaxies. Astronomers theorize that a powerful ancient collision aligned them into an eerie line and left them without dark matter. Get the full story on The Quanta Podcast: https://t.co/tqwL1a75oR",
+    "key_points": [
+      "Almost every galaxy is dominated by dark matter, which makes these three a test case."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "The Quanta Podcast: Ghostly galaxies and dark matter",
+        "url": "https://podcasts.apple.com/us/podcast/ghostly-galaxies-and-the-mystery-of-dark-matter/id1021340531?i=1000797239690",
+        "image": "https://pbs.twimg.com/card_img/2112570435338424320/ZXBPvy09?format=jpg&name=420x420_2",
+        "short": "https://t.co/tqwL1a75oR"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2112575522664255926",
+    "url": "https://x.com/afpfr/status/2112575522664255926",
+    "author": {
+      "name": "Agence France-Presse",
+      "handle": "afpfr"
+    },
+    "posted_at": "2026-10-20T16:03:49.000Z",
+    "saved_at": "2026-10-21T02:05:00+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "France formally repeals the Code noir, 178 years after abolition",
+    "summary": "AFP reports that France's Parliament, with a final Senate vote on Tuesday, approved the symbolic repeal of the Code noir and the main texts that governed slavery in French colonies, nearly two centuries after slavery was abolished in 1848.",
+    "text": "English translation: 🇫🇷 Nearly two centuries after slavery was abolished in France in 1848, Parliament on Tuesday, with a final Senate vote, approved the symbolic repeal of the \"Code noir\" and the main texts that governed slavery in the French colonies ⤵️\n\nOriginal (French): 🇫🇷 Près de deux siècles après l'abolition de l'esclavage en France, en 1848, le Parlement a entériné mardi, par un ultime vote du Sénat, l'abrogation symbolique du \"Code noir\" et des principaux textes ayant encadré l'esclavage dans les colonies françaises ⤵️ https://t.co/PHSQwTaYlG",
+    "key_points": [
+      "The 1685 Code noir and related colonial slavery laws were never formally repealed until now.",
+      "The vote is symbolic: slavery itself was abolished in 1848."
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVFgPgBXoAA3uvW.jpg?name=orig",
+        "alt": "The French Senate during the vote",
+        "link": "https://t.co/PHSQwTaYlG"
+      }
+    ]
+  },
+  {
+    "id": "2112548743916503145",
+    "url": "https://x.com/PublicDomainRev/status/2112548743916503145",
+    "author": {
+      "name": "The Public Domain Review",
+      "handle": "PublicDomainRev"
+    },
+    "posted_at": "2026-10-20T14:17:24.000Z",
+    "saved_at": "2026-10-21T02:05:00+09:00",
+    "topic": "culture",
+    "shelf_life": "evergreen",
+    "tldr": "A 1797 book with no punctuation, and a page of it to add yourself",
+    "summary": "The Public Domain Review recalls Timothy Dexter's A Pickle for the Knowing Ones (1797), written without punctuation; after complaints, later editions added a page of punctuation marks so readers could pepper and salt as they please.",
+    "text": "After complaints about Timothy Dexter's A Pickle for the Knowing Ones (1797) being entirely devoid of punctuation, in future editions the eccentric businessman supplied a supplemental page so that people “may peper and solt as they please”: https://t.co/i6JTyrcxgS https://t.co/e2ot2XmzIJ",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "The Public Domain Review: A Pickle for the Knowing Ones",
+        "url": "https://publicdomainreview.org/collection/dexter-pickle",
+        "short": "https://t.co/i6JTyrcxgS"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVFH40hXUAAEo0t.jpg?name=orig",
+        "alt": "A page filled only with punctuation marks from Dexter's book",
+        "link": "https://t.co/e2ot2XmzIJ"
+      }
+    ]
+  }
+]
