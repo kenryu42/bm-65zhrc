@@ -491,5 +491,110 @@
       }
     ],
     "media": []
+  },
+  {
+    "id": "2112736749281759566",
+    "url": "https://x.com/poteto/status/2112736749281759566",
+    "author": {
+      "name": "lauren",
+      "handle": "poteto"
+    },
+    "posted_at": "2026-10-21T02:44:28.000Z",
+    "saved_at": "2026-10-22T08:24:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "Have your agent draw a statechart, then prove it with TLA+",
+    "summary": "lauren (poteto) suggests asking a coding agent to draw a statechart of a user flow, then using a formal-verification skill generated with pstack's /create-formal-verification-skill to check it with something like TLA+. The point is twofold: you understand the code and the intended user flow better, and you catch bugs users would otherwise hit. The quoted post introduces the pstack v0.15.27 meta-skill, which builds a verification suite (TLA+ for state machines and concurrency, kani for Rust) and says it already found several bugs.",
+    "text": "there's something really cool about asking your agent to draw a statechart (hypothetical example in this image), then using the /create-formal-verification-skill you made with pstack to find bugs through something like TLA+. you can both understand your code better and how the user flow should work, and fix issues users would otherwise see https://t.co/20K5pzAiny",
+    "key_points": [
+      "Ask the agent for a statechart of the flow first; it doubles as documentation of how the user flow should work.",
+      "Then run a formal check (TLA+ or similar) built by pstack's /create-formal-verification-skill to find states the code mishandles.",
+      "The quoted pstack v0.15.27 post says the beta meta-skill already found several bugs in her team's code."
+    ],
+    "action": "Pick one stateful flow in your own tool (for example a review loop), ask your agent for its statechart, then for a small TLA+ spec of it, and see which transitions it cannot justify.",
+    "links": [
+      {
+        "title": "pstack v0.15.27: /create-formal-verification-skill (quoted post)",
+        "url": "https://x.com/poteto/status/2111926622278521253",
+        "short": "https://t.co/20K5pzAiny"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVHyOOYa4AA9MlZ.jpg",
+        "alt": "Hypothetical statechart drawn by an agent"
+      }
+    ]
+  },
+  {
+    "id": "2112551261749047333",
+    "url": "https://x.com/AmpCode/status/2112551261749047333",
+    "author": {
+      "name": "Amp",
+      "handle": "AmpCode"
+    },
+    "posted_at": "2026-10-20T14:27:24.000Z",
+    "saved_at": "2026-10-22T08:24:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "evergreen",
+    "tldr": "How the 21-person Amp team ships without pull requests or reviews",
+    "summary": "Amp says its team is 21 people with one meeting a week, no quarterly goals, no pull requests, no mandatory code review and no titles except one \"dictator\", shipping about a hundred releases a day, fixing bugs in minutes and often killing features. Quinn Slack (@sqs) and Thorsten Ball explain how it works in episode 6 of season 2 of the Raising an Agent podcast, on YouTube and Spotify.",
+    "text": "21 people, a single meeting a week, no quarterly goals, no pull requests, no mandatory code review, no titles (except one dictator), a hundred releases a day, bugs fixed in minutes, famous for killing features.\n\n@sqs and @thorstenball on how the Amp team works: https://t.co/BTXBCPAXep\n\nYou can also watch it on YouTube: https://t.co/tkb0rsfVZX\n\nOr listen to it on Spotify: https://t.co/hC6cKMau4r\n\nIf you want to listen to all of them: https://t.co/NxaedG7D6o",
+    "key_points": [
+      "21 people, one weekly meeting, no quarterly goals and no titles apart from one decision-maker.",
+      "No pull requests and no mandatory code review, yet about a hundred releases a day.",
+      "Bugs are fixed in minutes, and the team is known for removing features.",
+      "Full conversation: Raising an Agent S2E6, \"The Company of the Future\"."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Raising an Agent - The Company of the Future (Season 2, Episode 6)",
+        "url": "https://youtu.be/deiLxNZH_DM",
+        "short": "https://t.co/tkb0rsfVZX",
+        "image": "https://pbs.twimg.com/card_img/2112541578464268288/ds9hz8UR?format=jpg&name=800x419"
+      },
+      {
+        "title": "Raising an Agent on Spotify",
+        "url": "https://open.spotify.com/show/1AL44JiuDAszIPDnLNzBIu",
+        "short": "https://t.co/hC6cKMau4r"
+      },
+      {
+        "title": "Amp podcast: all episodes",
+        "url": "https://ampcode.com/podcast",
+        "short": "https://t.co/NxaedG7D6o"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2112540059295731712/img/4QyId-YPc0aCg9Lo.jpg",
+        "link": "https://t.co/BTXBCPAXep",
+        "alt": "Video: Quinn Slack and Thorsten Ball on how the Amp team works"
+      }
+    ]
+  },
+  {
+    "id": "2112661310009729098",
+    "url": "https://x.com/intentplex/status/2112661310009729098",
+    "author": {
+      "name": "Wyong · 产品增长",
+      "handle": "intentplex"
+    },
+    "posted_at": "2026-10-20T21:44:42.000Z",
+    "saved_at": "2026-10-22T08:24:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "只测用户能感知的行为：150个GPT用例抓到15个bug",
+    "summary": "作者说，公司一位有10年经验的DevOps花两个月给一个二十多万行的webapp生成了5000多个单元测试，只发现几个无关痛痒的bug；而且单元测试依赖实现，每次改代码都要删掉重生成，开发怨声载道。他接手后定下原则：只测用户能感知到的东西，不基于内部实现写测试，并写了一个通用测试技能，只让GPT生成150个用例就抓到15个bug。结论：一般产品不必再写单元测试，多人长期vibe coding的产品核心功能可能能用，但用户可见的边角bug率很高，需要专门的测试工作流。",
+    "text": "我们之前招的10年经验DevOps，也会自动化测试。花了2个月，给我们公司一个只有二十多万行的webapp产品，生成了5000多个单元测试。只查出来几不痛不痒的bug。\n因为单元测试依赖于实现，每次开发们改代码，都要花几十分钟，删除老的单元测试，重新生成新的单元测试，怨声载道。\n这个DevOps离职以后，我不让老板再招人，我自己接手这个自动化测试。我定了一个原则，测试用例只测用户能感知到的东西，绝对不基于任何内部实现写测试。我还写了一个通用测试技能，只让GPT生成150个测试用例，就抓到了15个bug。\n我的结论是：一般的产品不要再写单元测试。多人长时间vibe coding出来的东西，可能核心功能能用，但是用户可见的边边角角的bug率非常高，如果没有专门的工作流去测试，很难发现。",
+    "key_points": [
+      "5000多个基于实现的单元测试只找到几个小bug，还拖慢每次改动。",
+      "原则：测试用例只覆盖用户可感知的行为，不依赖内部实现。",
+      "一个通用测试技能让GPT生成150个用例，抓到15个bug。",
+      "作者认为vibe coding产品的风险集中在用户可见的边角情况。"
+    ],
+    "action": "",
+    "links": [],
+    "media": []
   }
 ]

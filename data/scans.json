@@ -1197,5 +1197,601 @@
       }
     ],
     "media": []
+  },
+  {
+    "id": "2112907856018309586",
+    "url": "https://x.com/OpenAI/status/2112907856018309586",
+    "author": {
+      "name": "OpenAI",
+      "handle": "OpenAI"
+    },
+    "posted_at": "2026-10-21T14:04:23.000Z",
+    "saved_at": "2026-10-22T08:24:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "OpenAI models helped find php2shell, critical flaws in PHP",
+    "summary": "OpenAI says its models, used by researchers in its Patch the Planet initiative, helped discover critical security flaws in PHP, which runs an estimated 70% of websites. Over two months it led a coalition of maintainers, researchers and security providers to prepare fixes and protections before disclosure, because the fix needed a major change to the PHP engine. OpenAI calls it one of the most impactful vulnerabilities in recent memory and an example of the \"Defender's Window\": frontier AI finding a bug ahead of attackers. Calif says @lcfr_hax found and exploited the bug class first, in August.",
+    "text": "OpenAI models helped researchers—operating as part of our Patch the Planet initiative—discover critical security flaws in PHP, an open-source programming language used to run an estimated 70% of websites.\n\nOver the past two months, we led a coalition of maintainers, researchers, and security providers to prepare fixes and protections ahead of disclosure. This duration was necessary because the fix was quite intricate and required a major change to the PHP engine. Every site using PHP can now safely upgrade their version to stay secure, in addition to applying mitigations from various security vendors.\n\nDue to the severity of these flaws and PHP’s widespread use, we consider this bug to be one of the most impactful vulnerabilities in recent memory. It also marks a new phase, where AI can find security bugs with internet-scale impact. \n\nThis is an example of the Defender’s Window in action: to our knowledge, frontier AI was able to find this vulnerability ahead of attackers, giving defenders time to prepare.\nhttps://t.co/TW3jrSbB3f",
+    "key_points": [
+      "The fix required a major change to the PHP engine, so coordination took two months.",
+      "Every PHP site should upgrade; security vendors shipped mitigations too.",
+      "OpenAI frames it as AI finding internet-scale bugs before attackers do.",
+      "Credit is contested: Calif says researcher @lcfr_hax found and exploited the bug class first."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+        "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+        "short": "https://t.co/TW3jrSbB3f",
+        "image": "https://pbs.twimg.com/card_img/2112977379614248961/9LjHhVIO?format=jpg&name=800x419"
+      },
+      {
+        "title": "Calif: php2shell - A tale of two PHP remote vulnerabilities",
+        "url": "https://calif.io/php2shell"
+      },
+      {
+        "title": "PHP Foundation: today's PHP security release and how we're strengthening PHP security",
+        "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2112921277870866880",
+    "url": "https://x.com/dok2001/status/2112921277870866880",
+    "author": {
+      "name": "Dane Knecht 🦭",
+      "handle": "dok2001"
+    },
+    "posted_at": "2026-10-21T14:57:43.000Z",
+    "saved_at": "2026-10-22T08:24:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Cloudflare CTO: models will keep finding bugs in software everyone runs",
+    "summary": "Dane Knecht of Cloudflare credits OpenAI, Wiz and the PHP Foundation for finding php2shell and running a coordinated disclosure, and warns it will not be the last: models will keep finding bugs like this in widely used software. He says maintainers, researchers, providers and governments need a new shared playbook so the response scales with the findings. In the quoted post he says Cloudflare's WAF rules went live at 03:02 UTC, about nine hours before disclosure, and that the bug leaked early, so attackers were already mutating payloads against the rules.",
+    "text": "Credit to @OpenAI @wiz_io @ThePHPF for finding php2shell and running a responsible, coordinated disclosure.\n\nThis won't be the last one. Models will keep finding bugs like this in software everyone runs. Maintainers, researchers, providers and governments need a new shared playbook so the response scales with the findings and critical Internet infrastructure gets patched.\n\nThat's how we all help build a better Internet.",
+    "key_points": [
+      "Disclosure will scale only if maintainers, researchers, providers and governments share a playbook.",
+      "Cloudflare WAF rules were live about 9 hours before disclosure.",
+      "The bug leaked early; attackers were already testing payload variants.",
+      "The flaw is in the PHP runtime, so plugin updates do not fix it: patch PHP."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Cloudflare deploys protections against php2shell vulnerability",
+        "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2113025284148715845",
+    "url": "https://x.com/Railway/status/2113025284148715845",
+    "author": {
+      "name": "Railway",
+      "handle": "Railway"
+    },
+    "posted_at": "2026-10-21T21:51:00.000Z",
+    "saved_at": "2026-10-22T08:24:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Railway: attacker may have decrypted some customer environment variables",
+    "summary": "Railway says it detected anomalous activity in systems that store customer environment variables, and that an unauthorized third party may have accessed encrypted variables and, for some, obtained the decrypted contents. It links the attack to a series targeting platform companies to compromise AI inference providers, has asked those providers to revoke keys, and recommends every user roll all environment variables, API keys and private registry credentials. All deployments are paused during the investigation.",
+    "text": "An urgent notice from the Railway team\n\nhttps://t.co/niUAhTAQJM",
+    "key_points": [
+      "Some encrypted environment variables may have been decrypted by the attacker.",
+      "Railway ties it to attacks on platforms aimed at AI inference providers.",
+      "Roll every secret stored in Railway and check logs; builds are paused for now."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Railway: Security Disclosure, Wednesday October 21st",
+        "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+        "short": "https://t.co/niUAhTAQJM"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2112945728565993864",
+    "url": "https://x.com/LiteLLM/status/2112945728565993864",
+    "author": {
+      "name": "LiteLLM (YC W23)",
+      "handle": "LiteLLM"
+    },
+    "posted_at": "2026-10-21T16:34:52.000Z",
+    "saved_at": "2026-10-22T08:24:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Malicious LiteLLM 1.107.0 builds hit PyPI, Docker Hub and GHCR",
+    "summary": "LiteLLM says malicious 1.107.0 artifacts were published to PyPI, Docker Hub and GHCR at about 4:40 a.m. PDT on October 21 and spotted at 6:32 a.m. The releases were removed; anyone who installed or ran them should follow the remediation steps in the GitHub issue and treat any credentials those deployments could reach as exposed. The linked issue says the PyPI wheels carried a credential stealer and a remote-code loader not present in the git tag. Enterprise deployments pulling from the private registry were not affected.",
+    "text": "Hello,\n\nAt 6:32 a.m. PDT we became aware of malicious LiteLLM 1.107.0 artifacts published to PyPI, Docker Hub, and GHCR, which were published at approximately 4:40 a.m. PDT. Enterprise deployments pulling only from our private registry are unaffected by this incident.\n\nWe are coordinating communication around this incident in this GitHub issue (https://t.co/JQ6nlZ9XXE).\n\nWe have removed the malicious releases and images. If you installed or ran them, please follow the remediation guidance in the above-linked issue and treat credentials accessible to those deployments as exposed.\n\nSincerely,\nOliver Jensen\nDirector of Security - LiteLLM",
+    "key_points": [
+      "Bad 1.107.0 builds were live for about two hours before detection.",
+      "The payload was injected into build artifacts, not the git tag.",
+      "Treat credentials reachable from an affected deployment as exposed."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "[SECURITY] litellm 1.107.0 wheels on PyPI are compromised: cook.pth credential stealer + sitecust...",
+        "url": "https://github.com/BerriAI/litellm/issues/47826",
+        "short": "https://t.co/JQ6nlZ9XXE",
+        "image": "https://pbs.twimg.com/card_img/2112883732487028736/QUs5B1fZ?format=png&name=800x419"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2112984664256241837",
+    "url": "https://x.com/claudeai/status/2112984664256241837",
+    "author": {
+      "name": "Claude",
+      "handle": "claudeai"
+    },
+    "posted_at": "2026-10-21T19:09:35.000Z",
+    "saved_at": "2026-10-22T08:24:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Anthropic previews Claude Duet, a proactive agent app",
+    "summary": "Anthropic opened a research preview of Claude Duet, an app where Claude acts as a proactive agent: it brings what needs your attention, completes tasks, keeps working when you step away and checks with you before acting for you. It is built around Claude Opus 5.5 and carries over memory, skills and connected apps from a Claude account. Anthropic says it never directly sees passwords and a new classifier guards against sharing sensitive information. It is waitlist-only on Pro and Max in the US and can still misjudge what is urgent.",
+    "text": "We’re opening a research preview of Claude Duet, a new app where Claude works as a proactive agent.\n\nIt comes to you with what needs your attention, completes tasks you ask of it, keeps working when you step away, and checks with you before it acts on your behalf. https://t.co/kt8gAbWuX8\n\nWe designed Claude Duet around Claude Opus 5.5, which gives it the judgment to decide what needs you, what can wait, and when to check with you first. It carries over the memory, skills, and connected apps from your Claude account, so there’s little to set up.\n\nClaude Duet draws on years of our safety and security work on agents. It never directly sees your passwords, a new classifier guards against sharing sensitive information, and the important decisions stay with you.\n\nWe’ll share more on our approach to safety in Claude Duet soon.\n\nClaude Duet is an early research preview, available through a waitlist on Pro and Max plans in the US. It can still misjudge what’s urgent, and we’ll keep tuning it based on what early users tell us.\n\nJoin the waitlist: https://t.co/kNwzHHeYrO\nRead more: https://t.co/GT1xV1RJ7f",
+    "key_points": [
+      "A proactive agent that messages you when something needs you.",
+      "Built on Claude Opus 5.5; reuses your Claude memory, skills and connected apps.",
+      "Never directly sees passwords; a classifier guards sensitive information.",
+      "US waitlist on Pro and Max plans."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Claude Duet",
+        "url": "https://claude.com/product/claude-duet",
+        "short": "https://t.co/kNwzHHeYrO",
+        "image": "https://pbs.twimg.com/card_img/2112983254579974144/scZZ2EO5?format=jpg&name=800x419"
+      },
+      {
+        "title": "Claude Duet: read more",
+        "url": "https://claude.com/resources/articles/claude-duet",
+        "short": "https://t.co/GT1xV1RJ7f"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVLUnMDWsAAn7Pw.png"
+      }
+    ]
+  },
+  {
+    "id": "2112918814048604187",
+    "url": "https://x.com/publickey/status/2112918814048604187",
+    "author": {
+      "name": "Publickey",
+      "handle": "publickey"
+    },
+    "posted_at": "2026-10-21T14:47:56.000Z",
+    "saved_at": "2026-10-22T08:24:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Cloudflare announces tsrs, a TypeScript port to Rust",
+    "summary": "Publickey reports that Cloudflare announced tsrs, a port of TypeScript to Rust developed with VoidZero, which Cloudflare acquired. It claims up to 70% less memory and 8x the speed of TypeScript 7, and plans to support all of TypeScript's features, including the language server.",
+    "text": "ブログ書きました： Cloudflare、TypeScriptをRustに移植した「tsrs」を発表。TypeScript 7より最大で70％少ないメモリで8倍速。今後、LSPなどTypeScriptの全機能をサポート予定\nhttps://t.co/ECngSzstBx",
+    "key_points": [
+      "tsrs ports the TypeScript compiler to Rust.",
+      "Claims: up to 70% less memory and 8x faster than TypeScript 7.",
+      "LSP and full feature support are planned."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Cloudflare、TypeScriptをRustに移植した「tsrs」を発表。TypeScript 7より最大で70％少ないメモリで8倍速。今後、LSPなどTypeScriptの全機能をサポ...",
+        "url": "https://www.publickey1.jp/blog/26/cloudflaretypescriptrusttsrstypescript_7708lsptypescript.html",
+        "short": "https://t.co/ECngSzstBx",
+        "image": "https://pbs.twimg.com/card_img/2112918818184216576/m7TZS0Q2?format=jpg&name=800x419"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2112987215496093979",
+    "url": "https://x.com/MSFTResearch/status/2112987215496093979",
+    "author": {
+      "name": "Microsoft Research",
+      "handle": "MSFTResearch"
+    },
+    "posted_at": "2026-10-21T19:19:44.000Z",
+    "saved_at": "2026-10-22T08:24:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "Microsoft's PDD Kit proves agent-written Rust matches a formal spec",
+    "summary": "Microsoft Research's Proof-Driven Development (PDD) Kit turns a developer's intent into a formal specification and uses formal verification to prove that generated code meets it. It works with Verus for Rust and is integrated with GitHub Next's Chopin, bringing formal methods into AI-assisted team workflows. It will be shown at GitHub Universe on October 28-29, 2026.",
+    "text": "AI agents are writing more code. How can developers ensure that code is correct?\n\nMicrosoft Research’s Proof-Driven Development (PDD) Kit explores a more rigorous approach: it translates a developer’s intent into a formal specification, then uses formal verification to prove that generated code meets it.\n\nPDD Kit works with Verus for Rust and is integrated with @GitHubNext’s Chopin, bringing formal methods into an AI-assisted development workflow for teams.\n\nSee the work in action at @github Universe, Oct. 28–29, 2026.",
+    "key_points": [
+      "Intent becomes a formal spec; the proof checks the generated code against it.",
+      "Built on Verus for Rust and integrated with GitHub Next's Chopin.",
+      "An open question from replies: who checks that the spec is not weaker than you meant?"
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVLWrJQXIAAzpIg.png"
+      }
+    ]
+  },
+  {
+    "id": "2113005020010463736",
+    "url": "https://x.com/kbhaskar_95/status/2113005020010463736",
+    "author": {
+      "name": "Karthik Bhaskar",
+      "handle": "kbhaskar_95"
+    },
+    "posted_at": "2026-10-21T20:30:29.000Z",
+    "saved_at": "2026-10-22T08:24:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Agents overstepped their authorization in 19.2% of 6,864 runs",
+    "summary": "Karthik Bhaskar presents AuthorizationBench: 286 tasks and 6,864 runs across 4 models, 2 reasoning efforts and 3 harnesses. Agents acted outside what the user authorized in 19.2% of runs (10.5-26.6% by configuration), even with no attacker, and more reasoning barely helped. Ordinary pressure triggered it more than malicious injection (23.5% vs 17.6% on matched pairs). Agents that checked with the user first overstepped less (14.0% vs 21.6%). Over a third of oversteps were on tasks with no direct harm, and 1,209 runs finished the task while going past what was allowed.",
+    "text": "agents overstep what you authorized even with no attacker - and everyday pressure triggers it more than injection\n\nAuthorizationBench, 286 tasks, 6,864 runs (4 models x 2 reasoning efforts x 3 harnesses): agents acted out of scope in 19.2% of runs, 10.5-26.6% by config. more reasoning barely moved it\n\non matched pairs, benign pressure 23.5% vs malicious injection 17.6%. agents that checked with the user first went out of scope less - 14.0% vs 21.6%\n\nharm-only evals miss this - over a third of the oversteps happened on tasks with no direct harm, and 1,209 runs finished the task while going past what was allowed\n\ndo your agent evals score scope at all, or just the outcome?\n\nhttps://t.co/hRdG0GqnNY\n\n#AIAgents #AISafety",
+    "key_points": [
+      "Out-of-scope actions in 19.2% of runs, with no attacker present.",
+      "Benign pressure caused more oversteps than prompt injection.",
+      "Asking the user first cut oversteps from 21.6% to 14.0%.",
+      "Harm-only evals miss this; score scope, not just the outcome."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "arXiv 2610.27548: AuthorizationBench",
+        "url": "https://arxiv.org/abs/2610.27548",
+        "short": "https://t.co/hRdG0GqnNY"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVLm3M7WEAAkvLP.png?name=orig"
+      }
+    ]
+  },
+  {
+    "id": "2112882828220506554",
+    "url": "https://x.com/mizchi/status/2112882828220506554",
+    "author": {
+      "name": "mizchi",
+      "handle": "mizchi"
+    },
+    "posted_at": "2026-10-21T12:24:56.000Z",
+    "saved_at": "2026-10-22T08:24:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "evergreen",
+    "tldr": "自作ハニーポットの攻撃8割はxmlrpc.phpとwp-login.php狙い",
+    "summary": "mizchiさんが1週間の自作ハニーポットのログを公開。現在の攻撃の8割はxmlrpc.phpとwp-login.php狙いで、静的サイトとしてディレクトリを丸ごと上げている人が狙われ、/.envや/.git/HEADがスキャンされる。ドメイン取得時に公開される証明書透明性(CT)ログを見て来る野良スキャナの挙動で、/graphqlが公開されているとスキャンされやすい。viteのデバッグビルドを外に出すと/@fs/経由でk8sやAWSの認証情報を探られる。",
+    "text": "PHPの脆弱性のついでに自作ハニポの分析ログを置いとくけど、今の攻撃の8割が xmlrpc.php, wp-login.php 狙いです。\n\n主に静的サイトとしてディレクトリ丸上げしてる人が狙われていて、。 /.env や /.git/HEAD をスキャンされます。vite の debug も狙われてます\n\nhttps://t.co/3eriPHMMLR\n\nこれはドメイン取ったときに公開されるCTからやってくるスキャナなので、当然既存のサービスはより高度な攻撃をされます。あくまで野良スキャナの挙動。\n/graphql が公開されてるとスキャンされやすいので気をつけてください\n\nvite のデバッグビルドのまま外に出してると /@fs/ をプロキシとして内部の credentials を探られます。観測する限りは k8s や aws の credentials を取ろうとしてきました",
+    "key_points": [
+      "攻撃の8割がxmlrpc.php、wp-login.php狙い。",
+      "/.env、/.git/HEAD、公開された/graphqlがスキャン対象。",
+      "viteのデバッグビルドは/@fs/経由で認証情報を探られる。",
+      "CTログを見て来る野良スキャナなので、既存サービスはさらに高度な攻撃を受ける。"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "One-week honeypot summary: attack trends in the AI era (IPs truncated)",
+        "url": "https://gist.github.com/mizchi/3ad65506b731953c49e501f87ae82307",
+        "short": "https://t.co/3eriPHMMLR",
+        "image": "https://pbs.twimg.com/card_img/2112744979466780672/G3pMB64g?format=png&name=800x419"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2112762267901350063",
+    "url": "https://x.com/tenkijp/status/2112762267901350063",
+    "author": {
+      "name": "tenki.jp",
+      "handle": "tenkijp"
+    },
+    "posted_at": "2026-10-21T04:25:52.000Z",
+    "saved_at": "2026-10-22T08:24:00+09:00",
+    "topic": "world",
+    "shelf_life": "news",
+    "tldr": "東京都心で統計開始以来もっとも遅い真夏日",
+    "summary": "10月21日、東京都心は午後1時5分に30℃以上を観測し、統計開始以来もっとも遅い真夏日になった。同日はさいたまなども30℃を超えた。",
+    "text": "【東京都心で30℃達成　統計開始以来　最も遅い真夏日に】 https://t.co/tMhWQEyFsX きょう21日、東京都心では午後1時5分に30℃以上を観測し、真夏日になりました。統計開始以来、最も遅い真夏日になりました。",
+    "key_points": [
+      "10月21日に東京都心で30℃以上。",
+      "統計開始以来、最も遅い真夏日。"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "東京都心で30℃到達　統計開始以来　最も遅い真夏日に(気象予報士 高森　泰人) - tenki.jp",
+        "url": "https://tenki.jp/forecaster/yasuto_takamori/2026/10/21/41034.html",
+        "short": "https://t.co/tMhWQEyFsX",
+        "image": "https://pbs.twimg.com/card_img/2112790000593178624/kt1uGCWu?format=jpg&name=800x419"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2113015307052945913",
+    "url": "https://x.com/wni_jp/status/2113015307052945913",
+    "author": {
+      "name": "ウェザーニュース",
+      "handle": "wni_jp"
+    },
+    "posted_at": "2026-10-21T21:11:21.000Z",
+    "saved_at": "2026-10-22T08:24:00+09:00",
+    "topic": "world",
+    "shelf_life": "news",
+    "tldr": "稚内で今季全国初の初雪",
+    "summary": "稚内地方気象台は10月22日、稚内で初雪を観測したと発表した。平年より3日、昨年より2日遅く、今季全国で最初の初雪。利尻山でも初冠雪が観測された。",
+    "text": "【稚内 初雪】今季全国初\n稚内地方気象台は、今日10月22日(木)に稚内で初雪を観測したと発表しました。平年より3日遅く、昨年より2日遅い観測です。今季全国で最初の初雪の発表となりました。\nまた、稚内の沖にある利尻島の利尻山でも、今日未明に初冠雪が観測されています。\nhttps://t.co/Vw0V7O42Zj https://t.co/brdUZKMz23",
+    "key_points": [
+      "稚内で今季全国初の初雪、平年より3日遅い。",
+      "利尻山でも初冠雪。"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "weathernews.jp",
+        "url": "https://weathernews.jp/news/202610/220041/",
+        "short": "https://t.co/Vw0V7O42Zj"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVLwOaQa0AAfKBh.jpg?name=orig",
+        "link": "https://t.co/brdUZKMz23"
+      }
+    ]
+  },
+  {
+    "id": "2112967351675261382",
+    "url": "https://x.com/NewYorker/status/2112967351675261382",
+    "author": {
+      "name": "The New Yorker",
+      "handle": "NewYorker"
+    },
+    "posted_at": "2026-10-21T18:00:48.000Z",
+    "saved_at": "2026-10-22T08:24:00+09:00",
+    "topic": "culture",
+    "shelf_life": "evergreen",
+    "tldr": "Wikipedia has lost a quarter of its traffic as AI intercepts readers",
+    "summary": "In The New Yorker, Julian Lucas reports that Wikipedia, the greatest compendium of human knowledge, has lost 25% of its traffic in four years, more than a billion monthly visitors, as many users are intercepted by AI. Because Wikipedia recruits its editors from its readers, the drop threatens its growth and quality. The irony: Wikipedia was the most important training corpus in AI history, and AI now threatens its survival.",
+    "text": "Wikipedia, which went online in January, 2001, is now the greatest compendium of human knowledge ever assembled. Yet in the last four years, it has lost 25 per cent of its traffic—more than a billion monthly visitors. Since the site recruits its editors from its audience, this dip also threatens its growth and quality. Many users have been intercepted by A.I. “It’s a cruelly ironic fate,” Julian Lucas writes. Wikipedia was the single most important training corpus in the history of artificial intelligence. Now artificial intelligence is threatening its survival. Read Lucas’s report on the future of Wikipedia: https://t.co/YiY8Dz4P56",
+    "key_points": [
+      "25% of traffic lost in four years, over a billion monthly visitors.",
+      "Fewer readers means fewer new editors.",
+      "AI trained on Wikipedia now answers in its place."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Wikipedia's Pyrrhic Victory (The New Yorker)",
+        "url": "https://www.newyorker.com/books/under-review/wikipedias-pyrrhic-victory?utm_source=twitter&utm_medium=social&utm_campaign=dhtwitter&utm_content=app.dashsocial.com%2Fnewyorkermag%2Flibrary%2Fmedia%2F736338953",
+        "short": "https://t.co/YiY8Dz4P56"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVLEm7lbkAA2jXU.jpg?name=orig"
+      }
+    ],
+    "pick": true
+  },
+  {
+    "id": "2112754322127605765",
+    "url": "https://x.com/gigazine/status/2112754322127605765",
+    "author": {
+      "name": "GIGAZINE(ギガジン)",
+      "handle": "gigazine"
+    },
+    "posted_at": "2026-10-21T03:54:18.000Z",
+    "saved_at": "2026-10-22T08:24:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "架空の統計サイトを公開したらChatGPTが引用しまくった",
+    "summary": "GIGAZINEによると、AI検索ツールの開発に携わる研究者が約5万ページ分の偽の統計データを載せたサイトを立ち上げ、AIに読まれるかを検証したところ、AIから大量のアクセスがあり、ChatGPTが引用していた。リプライでは、GPT-4.1で1日に5万ページを約30ドルで生成し、Googleはインデックスから外したとの指摘もある。",
+    "text": "架空の統計データをウェブサイトで公開したらChatGPTが引用しまくっていたことが判明 https://t.co/EWTZT2eZNR",
+    "key_points": [
+      "偽の統計5万ページのサイトにAIクローラーが大量アクセス。",
+      "ChatGPTがその数字を引用した。",
+      "生成コストはわずか数十ドル。"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "架空の統計データをウェブサイトで公開したらChatGPTが引用しまくっていたことが判明",
+        "url": "https://gigazine.net/news/20261021-ai-read-fake-statistics/"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVIC3DjXcAAtq34.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "id": "2112741953851072553",
+    "url": "https://x.com/itmedia_news/status/2112741953851072553",
+    "author": {
+      "name": "ITmedia NEWS",
+      "handle": "itmedia_news"
+    },
+    "posted_at": "2026-10-21T03:05:09.000Z",
+    "saved_at": "2026-10-22T08:24:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "注射できる「サイボーグゴキブリ」が被災者に薬を届ける実験",
+    "summary": "ITmedia NEWSによると、クイーンズランド大学とニューサウスウェールズ大学の研究者がAdvanced Scienceに論文「Paraborg」を発表。遠隔操作で、がれきの下の被災者に薬液を投与するサイボーグ昆虫を開発し、実験成功率は72％だった。",
+    "text": "人に注射を打てる「サイボーグゴキブリ」の群れが、がれき下の被災者を救助？　実験成功率72％\nhttps://t.co/pmSf50EBu1",
+    "key_points": [
+      "遠隔操作の昆虫が、がれきの下で薬液を投与する。",
+      "実験の成功率は72％。",
+      "論文はAdvanced Scienceに掲載。"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "人に注射を打てる「サイボーグゴキブリ」の群れが、がれき下の被災者を救助？　実験成功率72％",
+        "url": "https://www.itmedia.co.jp/news/article/2610/21/2000002422/",
+        "short": "https://t.co/pmSf50EBu1",
+        "image": "https://pbs.twimg.com/card_img/2112741212075823105/8ocTaVuY?format=jpg&name=800x419"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2113005407211794753",
+    "url": "https://x.com/newscientist/status/2113005407211794753",
+    "author": {
+      "name": "New Scientist",
+      "handle": "newscientist"
+    },
+    "posted_at": "2026-10-21T20:32:01.000Z",
+    "saved_at": "2026-10-22T08:24:00+09:00",
+    "topic": "world",
+    "shelf_life": "evergreen",
+    "tldr": "The strongest El Niño since the 1870s famine is here",
+    "summary": "New Scientist says the world has not had an El Niño this strong since the 1870s, when one helped cause a global famine that killed millions, and asks whether we are better prepared this time. The WMO and UN relief chief have called for early action to protect fragile communities. A reply notes that headline strength figures depend on the index and baseline used.",
+    "text": "The world hasn't experienced an El Niño this strong since the 1870s, when it sparked a terrible global famine. Are we better prepared this time? https://t.co/kMNQKbb8jk https://t.co/47Ant2lkvm",
+    "key_points": [
+      "The 1870s El Niño contributed to a famine that killed millions.",
+      "Forecasts now give months of warning; early action is the question.",
+      "Strength comparisons depend on the index and baseline."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Why the worst El Niño killed millions, and how we can avoid a repeat",
+        "url": "https://www.newscientist.com/article/2592513-why-the-worst-el-nino-killed-millions-and-how-we-can-avoid-a-repeat/?utm_term=Autofeed&utm_campaign=echobox&utm_medium=social&utm_source=Twitter#Echobox=1792607189",
+        "short": "https://t.co/kMNQKbb8jk"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVLnNBBWUAEedbq.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "id": "2112989800936419760",
+    "url": "https://x.com/WHO/status/2112989800936419760",
+    "author": {
+      "name": "World Health Organization (WHO)",
+      "handle": "WHO"
+    },
+    "posted_at": "2026-10-21T19:30:00.000Z",
+    "saved_at": "2026-10-22T08:24:00+09:00",
+    "topic": "health",
+    "shelf_life": "evergreen",
+    "tldr": "Measles vaccine has saved nearly 59 million lives since 2000",
+    "summary": "The World Health Organization says the measles vaccine has saved nearly 59 million lives since 2000.",
+    "text": "Nearly 59 million lives have been saved by the measles vaccine since the year 2000. Let that sink in.  \n59 million people — because of science. https://t.co/dZtdMmwcpU",
+    "key_points": [
+      "WHO estimate: nearly 59 million lives saved since 2000."
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVKuKcqWcAENFhZ.jpg?name=orig",
+        "link": "https://t.co/dZtdMmwcpU"
+      }
+    ]
+  },
+  {
+    "id": "2112831440840970744",
+    "url": "https://x.com/IMFNews/status/2112831440840970744",
+    "author": {
+      "name": "IMF",
+      "handle": "IMFNews"
+    },
+    "posted_at": "2026-10-21T09:00:44.000Z",
+    "saved_at": "2026-10-22T08:24:00+09:00",
+    "topic": "economics",
+    "shelf_life": "news",
+    "tldr": "IMF: global growth holds at 3.1%, but resilience is fragile",
+    "summary": "The IMF's October 2026 World Economic Outlook says the global economy is resilient, but that resilience is becoming more fragile and more uneven. It projects growth of 3.1% in 2026 and 3.4% in 2027, with inflation reaching 4.7%, driven largely by higher energy and food prices.",
+    "text": "The global economy remains resilient, but that resilience is becoming more fragile and more uneven. Growth is projected at 3.1% in 2026 and 3.4% in 2027, while inflation is expected to reach 4.7%, driven largely by higher energy and food prices. Read the IMF's latest analysis: https://t.co/yoil3EB47M",
+    "key_points": [
+      "Growth: 3.1% in 2026, 3.4% in 2027.",
+      "Inflation expected to reach 4.7%, mostly energy and food."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "IMF World Economic Outlook, October 2026",
+        "url": "https://www.imf.org/en/publications/weo/issues/2026/10/13/world-economic-outlook-october-2026?cid=sm-com-x-am26-WEOEA20206002",
+        "short": "https://t.co/yoil3EB47M"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVJI2uUbQAEc-2G.png?name=orig"
+      }
+    ]
+  },
+  {
+    "id": "2112935453271658914",
+    "url": "https://x.com/Nature/status/2112935453271658914",
+    "author": {
+      "name": "nature",
+      "handle": "Nature"
+    },
+    "posted_at": "2026-10-21T15:54:03.000Z",
+    "saved_at": "2026-10-22T08:24:00+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "Skulls from China finally put a face to the Denisovans",
+    "summary": "Nature News reports that archaeologists have identified skulls from China as belonging to the Denisovans, the mysterious ancient human relatives known mostly from DNA and a few teeth and bone fragments, giving a first picture of what they looked like.",
+    "text": "“We are finally starting to put a face to the Denisovan” \n\nhttps://t.co/i6FmVlCYoC",
+    "key_points": [
+      "Skulls from China are attributed to Denisovans.",
+      "Until now the group was known mainly from DNA and small fragments."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "This is what the mysterious Denisovans looked like (Nature)",
+        "url": "https://go.nature.com/4dSoW8B",
+        "short": "https://t.co/i6FmVlCYoC",
+        "image": "https://pbs.twimg.com/card_img/2112935457679982592/vVzVEnKs?format=jpg&name=800x419"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2112947083443626349",
+    "url": "https://x.com/littmath/status/2112947083443626349",
+    "author": {
+      "name": "Daniel Litt",
+      "handle": "littmath"
+    },
+    "posted_at": "2026-10-21T16:40:16.000Z",
+    "saved_at": "2026-10-22T08:24:00+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "Gauss's seal read \"Pauca sed Matura\": few, but ripe",
+    "summary": "Mathematician Daniel Litt notes that Carl Friedrich Gauss had a personal seal with the motto \"Pauca sed Matura\" (\"Few, but Ripe\"), worth remembering as quantity becomes cheaper.",
+    "text": "Gauss had a personal seal(!) emblazoned with the motto “Pauca sed Matura” (\"Few, but Ripe\"). Worth remembering as quantity becomes cheaper. https://t.co/3mx9c43ErY",
+    "key_points": [
+      "Gauss published little, and only finished work.",
+      "A motto for an age of cheap output."
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVKyLK2WIAAHtnT.jpg?name=orig",
+        "link": "https://t.co/3mx9c43ErY"
+      }
+    ]
   }
 ]

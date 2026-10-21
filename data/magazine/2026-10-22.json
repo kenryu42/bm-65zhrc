@@ -1,0 +1,265 @@
+{
+  "date": "2026-10-22",
+  "title": "Found by machines, fixed by people",
+  "subtitle": "AI found a bug in the language behind most websites; people spent two months fixing it, and still raced a leak",
+  "editor_note": "Today's idea: machines are getting very good at finding what is wrong, and the slow part is now human. OpenAI's models helped surface php2shell, a pair of PHP flaws that took two months of coordinated work to fix, and Cloudflare's CTO says it will not be the last. Who found it first is already disputed, and the PHP Foundation says one distributor broke the embargo. The same day, a platform and a popular AI library were breached, which is the other side of the same coin. Your three saves are all about checking work: a statechart proved with TLA+, tests only for what users see, and a team that ships without code review. Field notes add a proof kit and a benchmark on agents that overstep. Japan had its latest midsummer day and its first snow on the same day. Further out: where AI gets its facts, a record El Niño, and Gauss on doing less.",
+  "theme": {
+    "palette": "classic",
+    "fonts": "serif-sans",
+    "accent": "#0f766e"
+  },
+  "sections": [
+    {
+      "type": "cover-story",
+      "scan": "2112907856018309586",
+      "kicker": "Cover story",
+      "headline": "An AI found a hole in the language behind 70% of websites",
+      "deck": "OpenAI says its models helped find php2shell. The fix needed a change to the PHP engine and two months of quiet coordination. Patch PHP itself; plugin updates do not fix it.",
+      "variant": "stacked",
+      "why": "Any PHP host you run or depend on needs the new runtime, not just new plugins.",
+      "source_label": "OpenAI"
+    },
+    {
+      "type": "corner",
+      "corner": "brief",
+      "deck": "What moved in your stack overnight."
+    },
+    {
+      "type": "brief-grid",
+      "headline": "Two breaches, a new agent and a faster compiler",
+      "columns": 2,
+      "variant": "cards",
+      "items": [
+        {
+          "scan": "2113025284148715845",
+          "headline": "Railway: some customer secrets may have been decrypted",
+          "note": "Roll every environment variable and registry credential. Builds are paused; Railway links it to attacks aimed at AI inference providers.",
+          "source_label": "Railway"
+        },
+        {
+          "scan": "2112945728565993864",
+          "headline": "LiteLLM 1.107.0 builds shipped a credential stealer",
+          "note": "Live on PyPI, Docker Hub and GHCR for about two hours. Treat any key those deployments could read as exposed.",
+          "source_label": "LiteLLM"
+        },
+        {
+          "scan": "2112984664256241837",
+          "headline": "Claude Duet: an agent that comes to you first",
+          "note": "Research preview on Opus 5.5 that keeps working while you are away and asks before acting. US waitlist, Pro and Max.",
+          "source_label": "Anthropic"
+        },
+        {
+          "scan": "2112918814048604187",
+          "headline": "Cloudflare、TypeScriptをRustに移植した「tsrs」を発表",
+          "note": "TypeScript 7よりメモリ最大70％減、8倍速とうたう。LSPを含む全機能に対応予定。",
+          "source_label": "Publickey"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "lead",
+      "deck": "The one to read in full."
+    },
+    {
+      "type": "feature",
+      "scan": "2112921277870866880",
+      "headline": "This won't be the last one",
+      "deck": "Cloudflare's CTO says its WAF rules were live nine hours before disclosure, but the bug leaked and attackers were already testing variants. Calif says @lcfr_hax found it first; the PHP Foundation says Chainguard broke the embargo.",
+      "span": "half",
+      "variant": "drop-cap",
+      "why": "If models find bugs faster than maintainers can ship fixes, your patch speed is the new bottleneck.",
+      "source_label": "Dane Knecht, Cloudflare"
+    },
+    {
+      "type": "pull-quote",
+      "scan": "2112921277870866880",
+      "quote": "This won't be the last one. Models will keep finding bugs like this in software everyone runs.",
+      "span": "half",
+      "variant": "bar"
+    },
+    {
+      "type": "corner",
+      "corner": "your-saves",
+      "deck": "Everything you saved since the last issue."
+    },
+    {
+      "type": "numbered-list",
+      "headline": "Three saves on checking work you didn't write",
+      "variant": "large",
+      "items": [
+        {
+          "bookmark": "2112736749281759566",
+          "note": "Draw the statechart first, then let a TLA+ check find the paths users would hit."
+        },
+        {
+          "bookmark": "2112661310009729098",
+          "note": "只测用户能感知的行为：150个用例找到15个bug，5000个单元测试却几乎没有。"
+        },
+        {
+          "bookmark": "2112551261749047333",
+          "note": "The opposite bet: no reviews, a hundred releases a day, and bugs fixed in minutes."
+        }
+      ]
+    },
+    {
+      "type": "sidebar-box",
+      "bookmark": "2112736749281759566",
+      "headline": "Try tonight",
+      "variant": "callout"
+    },
+    {
+      "type": "corner",
+      "corner": "field-notes",
+      "deck": "Findings from people building agents."
+    },
+    {
+      "type": "numbered-list",
+      "headline": "Proofs for agent code, and agents that overstep",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2112987215496093979",
+          "headline": "Microsoft's PDD Kit proves agent code meets a formal spec",
+          "note": "Intent becomes a spec, and Verus proves Rust code against it. Integrated with GitHub Next's Chopin.",
+          "why": "Same idea as your statechart save, packaged for teams.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Microsoft Research"
+        },
+        {
+          "scan": "2113005020010463736",
+          "headline": "Agents went out of scope in 19.2% of runs, no attacker needed",
+          "note": "Everyday pressure did it more than injection; asking the user first cut it to 14.0%.",
+          "why": "A scope check is a natural rule for your safety-net tools.",
+          "tags": [
+            "new-voice"
+          ],
+          "source_label": "arXiv"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "japan-desk",
+      "label": "日本から",
+      "deck": "PHPの穴を狙うスキャナが走り、天気は夏と冬が同じ日に来た。秋田では子吉川にレベル5の氾濫特別警報も出た。"
+    },
+    {
+      "type": "feature",
+      "scan": "2112882828220506554",
+      "headline": "ハニーポットに来る攻撃の8割はWordPress狙い",
+      "deck": "静的サイトの丸上げで/.envや/.git/HEADが探られ、viteのデバッグビルドは/@fs/経由で認証情報を狙われる。",
+      "variant": "standard",
+      "why": "デモやプレビューを公開する前に、/.envと/@fs/が見えないか確認を。",
+      "source_label": "mizchi"
+    },
+    {
+      "type": "compare",
+      "headline": "同じ日に、真夏日と初雪",
+      "variant": "cards",
+      "verdict": "東京は統計開始以来最も遅い真夏日、稚内は今季全国初の初雪。日本の南北の幅がよく見えた一日。",
+      "items": [
+        {
+          "scan": "2112762267901350063",
+          "label": "tenki.jp",
+          "note": "10月21日、東京都心で30℃。さいたまも真夏日に。"
+        },
+        {
+          "scan": "2113015307052945913",
+          "label": "ウェザーニュース",
+          "note": "10月22日、稚内で初雪。平年より3日遅い。"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "adjacent",
+      "deck": "One step out: where AI gets its facts."
+    },
+    {
+      "type": "compare",
+      "headline": "AI reads the web, and the web it reads is thinning",
+      "variant": "versus",
+      "verdict": "Wikipedia loses readers, and editors, to AI answers, while a fake statistics site got quoted by ChatGPT within days. Fewer people checking sources means it matters more which sources the models take.",
+      "items": [
+        {
+          "scan": "2112967351675261382",
+          "label": "The New Yorker",
+          "note": "Wikipedia lost 25% of its traffic in four years."
+        },
+        {
+          "scan": "2112754322127605765",
+          "label": "GIGAZINE",
+          "note": "5万ページの偽統計サイトをChatGPTが引用。"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "open-window",
+      "deck": "Worth knowing, whatever you work on."
+    },
+    {
+      "type": "brief-grid",
+      "headline": "A record El Niño, 59 million lives, and an ancient face",
+      "columns": 2,
+      "variant": "cards",
+      "items": [
+        {
+          "scan": "2113005407211794753",
+          "headline": "The strongest El Niño since the famine of the 1870s",
+          "why": "That El Niño helped cause a famine that killed millions. This time there are months of warning; the question is acting early.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "New Scientist"
+        },
+        {
+          "scan": "2112989800936419760",
+          "headline": "Measles vaccines have saved nearly 59 million lives since 2000",
+          "why": "One of the largest public-health gains of the century, by WHO's estimate.",
+          "tags": [
+            "new-to-you",
+            "unverified"
+          ],
+          "source_label": "WHO"
+        },
+        {
+          "scan": "2112831440840970744",
+          "headline": "IMF: the world economy holds up, but more fragile and uneven",
+          "why": "Growth of 3.1% in 2026 with inflation rising to 4.7%, mostly from energy and food prices.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "IMF"
+        },
+        {
+          "scan": "2112935453271658914",
+          "headline": "Skulls from China put a face to the Denisovans",
+          "why": "A human cousin known mostly from DNA now has a face.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "Nature"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "kicker"
+    },
+    {
+      "type": "closer",
+      "scan": "2112947083443626349",
+      "headline": "Few, but ripe",
+      "note": "Gauss's personal seal read \"Pauca sed Matura\". Daniel Litt: worth remembering as quantity becomes cheaper.",
+      "variant": "photo",
+      "tags": [
+        "unverified"
+      ],
+      "source_label": "Daniel Litt"
+    }
+  ]
+}
