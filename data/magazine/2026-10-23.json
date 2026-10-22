@@ -1,0 +1,278 @@
+{
+  "date": "2026-10-23",
+  "title": "Show me the proof",
+  "subtitle": "Claude proved 100+ libraries free of whole bug classes, and auditors went inside a lab to test its watchers: trust is turning into evidence",
+  "editor_note": "Today's idea: after a week of breaches, the answer is shifting from \"trust us\" to \"here is the proof.\" Anthropic and Theorem used Claude to formally verify security properties in over a hundred open-source libraries, and Theorem now offers it free to maintainers. The lead goes further: METR and Redwood researchers spent three weeks inside OpenAI testing the monitors that watch its agents, and found a gap after context compaction. Your save asks what CTOs should decide now that AI keeps finding bugs. Field notes add Vercel's push to kill static keys, fake errors that steer an AI operator, and a striking task-length claim. Japan desk sets an AI-run attack beside an 11.7-million-account leak. Further out: the first living-culture 人間国宝, a 70 cm dinosaur footprint, Finland's spent-fuel vault, a new virus in humans, and papers Nature turned down.",
+  "theme": {
+    "palette": "newsprint",
+    "fonts": "mono-serif",
+    "accent": "#b45309"
+  },
+  "sections": [
+    {
+      "type": "cover-story",
+      "scan": "2113390212911083894",
+      "kicker": "Cover story",
+      "headline": "Claude proved over 100 open-source libraries free of whole classes of bugs",
+      "deck": "With Theorem, Anthropic's red team turned formal verification from a months-long expert job into weeks of AI work across real codebases. Theorem now offers it free to open-source projects.",
+      "variant": "split",
+      "why": "Proofs scale where audits do not; a dependency you rely on may qualify for free verification.",
+      "source_label": "Anthropic"
+    },
+    {
+      "type": "corner",
+      "corner": "brief",
+      "deck": "What moved in your tools and stack overnight."
+    },
+    {
+      "type": "brief-grid",
+      "headline": "Skills get a neutral home, Claude goes auto, Arc says goodbye",
+      "columns": 2,
+      "variant": "cards",
+      "items": [
+        {
+          "scan": "2113328526413996100",
+          "headline": "Agent Skills joins MCP at the Agentic AI Foundation",
+          "note": "Your skills keep working; OpenAI, Google, Microsoft, Pi and OpenCode now share the steering committee.",
+          "source_label": "Claude Devs"
+        },
+        {
+          "scan": "2113360845409583307",
+          "headline": "Claude apps run in auto mode by default next week",
+          "note": "A classifier blocks risky actions instead of asking at every step; manual is one switch away.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Claude"
+        },
+        {
+          "scan": "2113050053724221732",
+          "headline": "Node.js Brotli RCE hits 22, 24 and 26",
+          "note": "Upgrade Node now; platform WAF rules only buy time.",
+          "source_label": "Vercel"
+        },
+        {
+          "scan": "2113315655512731872",
+          "headline": "Two unpatched CVSS 9.0 RCEs in Linux KSMBD",
+          "note": "Disclosed before a kernel fix; turn off the in-kernel SMB server if you run it.",
+          "source_label": "The Hacker News"
+        },
+        {
+          "scan": "2113301454597640570",
+          "headline": "Arc shuts down on December 22",
+          "note": "The team says keeping a browser secure in the AI era is too much for two; data moves to Dia.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "The Browser Company"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "lead",
+      "deck": "The one to read in full."
+    },
+    {
+      "type": "feature",
+      "scan": "2113290966933389390",
+      "headline": "Auditors inside the lab: METR tested the monitors watching OpenAI's agents",
+      "deck": "Three weeks on site with real access found a blind spot after context compaction, and a transparency problem with redactions.",
+      "span": "half",
+      "variant": "standard",
+      "emphasis": "loud",
+      "why": "If you run agents with monitors, check what they never see: compaction, retries and anything outside the log.",
+      "source_label": "METR"
+    },
+    {
+      "type": "pull-quote",
+      "scan": "2113290966933389390",
+      "quote": "actions taken before compaction events were never seen by the internal misalignment monitors",
+      "span": "half",
+      "variant": "centered"
+    },
+    {
+      "type": "corner",
+      "corner": "your-saves",
+      "deck": "What you kept since the last issue."
+    },
+    {
+      "type": "feature",
+      "bookmark": "2113072184335991292",
+      "headline": "PHP脆弱性の「後」に、CTOとCISOが今決めること",
+      "deck": "AIによる脆弱性発見で年末まで高負荷が続く前提で、時間と予算、予防停止、レガシーの作り直しを決める。",
+      "span": "half",
+      "variant": "drop-cap",
+      "why": "今日のカバーと同じ問い：見つかり続けるバグに、組織としてどう備えるか。",
+      "source_label": "米内 (GMO Flatt Security)"
+    },
+    {
+      "type": "sidebar-box",
+      "bookmark": "2113072184335991292",
+      "headline": "今週やること",
+      "span": "half",
+      "variant": "callout"
+    },
+    {
+      "type": "corner",
+      "corner": "field-notes",
+      "deck": "Threads worth your time from the scan."
+    },
+    {
+      "type": "numbered-list",
+      "headline": "Kill static keys, distrust your error logs, and a bold chart",
+      "variant": "large",
+      "items": [
+        {
+          "scan": "2113399539227136084",
+          "headline": "Rauch: make OIDC the new TLS and retire static credentials",
+          "note": "Vercel found only 8.4% of 1,000+ SaaS vendors support secure auth; a stolen short-lived key is worth far less.",
+          "why": "Your CI and agents probably hold long-lived keys right now.",
+          "source_label": "Vercel"
+        },
+        {
+          "scan": "2113293165788889553",
+          "headline": "偽エラーを大量に送るとAI運用者を誘導できる",
+          "note": "エラーログは攻撃者が書ける入力。AIに運用を任せるなら、ログも信頼できない入力として扱う。",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "mizchi"
+        },
+        {
+          "scan": "2113323645284344215",
+          "headline": "Mollick: AI went from 4 minutes to 17 weeks of human work",
+          "note": "The 17-week figure comes from one study and about $241 in tokens; a striking claim to check before quoting.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "One Useful Thing"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "japan-desk",
+      "label": "日本から",
+      "deck": "日本で報じられたセキュリティの二つの顔。"
+    },
+    {
+      "type": "compare",
+      "headline": "AIで速くなった攻撃と、桁が増えた漏えい",
+      "variant": "versus",
+      "verdict": "ARTEXは既に権限を持つアプリを悪用し、CAPCOM IDは1177万件。どちらも静的な資格情報と権限の見直しが要る。",
+      "items": [
+        {
+          "scan": "2113371831558422546",
+          "label": "NHK",
+          "note": "マイクロソフトは、中国系集団Storm-0940がエージェント型AIのARTEXで数百組織への攻撃を自動化したと分析。"
+        },
+        {
+          "scan": "2113183583859016104",
+          "label": "ASCII",
+          "note": "カプコンのCAPCOM IDで1177万4247件が漏えい、196件でパスワードが不正変更された。"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "adjacent",
+      "deck": "One step out: research in medicine."
+    },
+    {
+      "type": "feature",
+      "scan": "2113329721769660498",
+      "headline": "Three AI agents nearly doubled doctors' diagnostic accuracy, in Science",
+      "deck": "Sequential diagnosis on 300+ NEJM puzzles and 300+ ER cases, at lower cost. The caveats are in how the cases were chosen.",
+      "variant": "aside",
+      "tags": [
+        "unverified"
+      ],
+      "why": "The same agent pattern as coding: plan, order the next test, revise. Read the ER results before the headline.",
+      "source_label": "Science via Eric Topol"
+    },
+    {
+      "type": "corner",
+      "corner": "open-window",
+      "deck": "Worth knowing, whatever you work on."
+    },
+    {
+      "type": "brief-grid",
+      "headline": "A living-culture 人間国宝, a dinosaur's step and a vault for 100,000 years",
+      "columns": 3,
+      "variant": "plain",
+      "items": [
+        {
+          "scan": "2113247749588357163",
+          "headline": "立花、吟醸造り、京料理が初の「生活文化」人間国宝に",
+          "note": "人間国宝の対象が、暮らしの中のわざに初めて広がった。",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "NHK"
+        },
+        {
+          "scan": "2113356379423474142",
+          "headline": "Clear Shadows (1867): Edo's Pictionary in silhouette",
+          "note": "Club members drew around a subject without drawing it; Ochiai Yoshiiku kept the score in shadows.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "The Public Domain Review"
+        },
+        {
+          "scan": "2113189138593874102",
+          "headline": "南相馬でジュラ紀国内最大、長さ70cmの恐竜足跡",
+          "note": "約1億6000万年前の地層から10点以上。竜脚類の後ろ脚とみられる。",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "南相馬市博物館"
+        },
+        {
+          "scan": "2113227543637844454",
+          "headline": "Finland licenses the world's first spent-fuel final repository",
+          "note": "Over 40 years of work for a vault meant to hold spent nuclear fuel in bedrock for millennia.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "Posiva"
+        },
+        {
+          "scan": "2113338155088961899",
+          "headline": "France reports the first human case of Shamonda virus",
+          "note": "A livestock virus carried by biting insects, also seen in Japanese cattle; WHO is monitoring.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "WHO"
+        },
+        {
+          "scan": "2113382427745792495",
+          "headline": "The Weierstrass function: no breaks, no tangents, anywhere",
+          "note": "The 1872 monster that broke intuitive calculus now helps model random motion and risk.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "Quanta Magazine"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "kicker",
+      "deck": "One to end on."
+    },
+    {
+      "type": "closer",
+      "scan": "2113218246795018666",
+      "headline": "Nature said no to Fermi, Krebs and the first MRI",
+      "note": "Peer review is a proof process too, and sometimes it fails the right way round.",
+      "variant": "text",
+      "tags": [
+        "unverified"
+      ],
+      "source_label": "Fermat's Library"
+    }
+  ]
+}

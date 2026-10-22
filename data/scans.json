@@ -1793,5 +1793,620 @@
         "link": "https://t.co/3mx9c43ErY"
       }
     ]
+  },
+  {
+    "id": "2113390212911083894",
+    "url": "https://x.com/AnthropicAI/status/2113390212911083894",
+    "author": {
+      "name": "Anthropic",
+      "handle": "AnthropicAI"
+    },
+    "posted_at": "2026-10-22T22:01:06.000Z",
+    "saved_at": "2026-10-23T08:40:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Claude formally verified security properties in 100+ open-source libraries",
+    "summary": "Anthropic's Frontier Red Team, working with Theorem, used Claude to formally verify software at scale: in a few weeks it proved security properties in over one hundred real-world open-source libraries. Formal verification can prove code is free of certain kinds of bugs, but until now it was only practical for small codebases or took a lot of expert time. Theorem says the count is 123 projects and is launching OSS Verify, a free service for open-source projects that proves code crash-free or sends the patches it needs.",
+    "text": "New on our Frontier Red Team blog: using Claude to formally verify software at large scale.\n\nFormal verification can prove that code is free of certain bugs, but historically it has only been feasible for small codebases (or required a lot of expert time).\n\nWith AI models, however, this is beginning to change. In collaboration with @theoremlabs, we used Claude to prove security properties in over one hundred real-world open-source libraries over the span of a few weeks.\n\nRead our research in full here: https://t.co/zUyx8CjBEk",
+    "key_points": [
+      "Proofs, not tests: verification shows certain bug classes cannot happen.",
+      "Over 100 real OSS libraries in a few weeks; Theorem puts it at 123.",
+      "Theorem's OSS Verify offers this free to open-source maintainers."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Anthropic: Using Claude to formally verify software at large scale",
+        "url": "https://www.anthropic.com/research/formal-verification",
+        "short": "https://t.co/zUyx8CjBEk",
+        "image": "https://pbs.twimg.com/card_img/2113388602734374913/g2XAdWD-?format=jpg&name=800x419"
+      },
+      {
+        "title": "Theorem: OSS Verify",
+        "url": "https://theorem.dev/oss-verify"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2113328526413996100",
+    "url": "https://x.com/ClaudeDevs/status/2113328526413996100",
+    "author": {
+      "name": "ClaudeDevs",
+      "handle": "ClaudeDevs"
+    },
+    "posted_at": "2026-10-22T17:55:59.000Z",
+    "saved_at": "2026-10-23T08:40:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Anthropic donates Agent Skills to the Agentic AI Foundation",
+    "summary": "Anthropic is donating the Agent Skills standard to the Agentic AI Foundation, the same Linux Foundation home it gave MCP. Since December 2025, 70+ agent platforms have adopted it, including ChatGPT, Cursor, GitHub Copilot and VS Code. Existing skills keep working and licenses do not change; anyone can use or contribute without joining. Engineers from Anthropic, Earendil (Pi), Google, Microsoft, OpenAI and OpenCode form the Technical Steering Committee, whose first job is a roadmap with versioned releases, a proposal process and security guidance for skill authors.",
+    "text": "We're donating Agent Skills to the Agentic AI Foundation (@AgenticAIFdn), the same foundation we donated MCP to.\n\nSince December 2025, 70+ agent platforms have integrated the standard, including ChatGPT, Cursor, GitHub Copilot, and VS Code. \n\nHere's what that means for you:\n\nYour skills keep working, and the licenses don't change. Anyone can use the standard or contribute to it without joining the AAIF.\n\nEngineers from Anthropic, Earendil (Pi), Google, Microsoft, OpenAI, and OpenCode will govern it as a Technical Steering Committee.\n\nThe committee's first priority is a roadmap: versioned releases, a formal proposal process, and security guidance for skill authors and users.\n\nWant to contribute? Start with the spec at https://t.co/nCDj0TIuRa and the discussion on GitHub.\n\nFull blog: https://t.co/vNxztQwJVn",
+    "key_points": [
+      "Skills now sit next to MCP under neutral governance.",
+      "Nothing breaks: same skills, same licenses.",
+      "Steering committee spans Anthropic, OpenAI, Google, Microsoft, Pi, OpenCode.",
+      "First up: versioning, proposals and security guidance."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Agent Skills specification",
+        "url": "https://agentskills.io",
+        "short": "https://t.co/nCDj0TIuRa",
+        "image": "https://pbs.twimg.com/card_img/2111037795523584000/MXDd1CQv?format=jpg&name=800x419"
+      },
+      {
+        "title": "Anthropic: Donating Agent Skills to the Agentic AI Foundation",
+        "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+        "short": "https://t.co/vNxztQwJVn"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2113360845409583307",
+    "url": "https://x.com/claudeai/status/2113360845409583307",
+    "author": {
+      "name": "Claude",
+      "handle": "claudeai"
+    },
+    "posted_at": "2026-10-22T20:04:24.000Z",
+    "saved_at": "2026-10-23T08:40:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Claude apps switch to auto mode by default next week",
+    "summary": "Starting next week, Claude web, desktop and mobile sessions on Pro, Max and Team plans will run in auto mode by default. Instead of asking you to approve each step, an automated check blocks risky actions; you can switch back to manual at any time. It extends the auto mode that became the default in Claude Code in August, where a separate classifier reviews shell commands and actions.",
+    "text": "Starting next week, sessions across Claude web, desktop, and mobile apps will run in auto mode by default on Pro, Max, and Team plans.\n\nRather than asking you to approve each step, an automated check blocks risky actions. Switch back to manual anytime.",
+    "key_points": [
+      "Default changes for Pro, Max and Team in the Claude apps.",
+      "A classifier blocks risky actions instead of per-step approval.",
+      "Manual mode stays one switch away."
+    ],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2113301454597640570",
+    "url": "https://x.com/arcinternet/status/2113301454597640570",
+    "author": {
+      "name": "Arc",
+      "handle": "arcinternet"
+    },
+    "posted_at": "2026-10-22T16:08:24.000Z",
+    "saved_at": "2026-10-23T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Arc browser shuts down on December 22, 2026",
+    "summary": "The Browser Company will sunset Arc on December 22, 2026, saying keeping a browser secure takes constant work that is only growing in the age of AI, and that Dia was built for today's security standards. Passwords, bookmarks, extensions, history, Spaces, Folders and Tab Groups import into Dia, which it says now beats Arc on stability, speed and security, with Arc's features free and the AI optional. Japanese users posting about it report that the apps will stop launching and accounts will be disabled.",
+    "text": "We've decided to sunset Arc on December 22, 2026.\n\nThat's not an easy sentence to write. We spent years building Arc and celebrating each and every release along the way: we have so much pride and love for what we made alongside the Arc community.\n\nOur priority is to deliver best-in-class security for our members. Keeping a browser secure takes constant, dedicated work that is only increasing in the age of AI. Dia was built from the ground up to meet today’s security standards, so that's where our engineering and security teams will focus moving forward.\n\nWe've worked to make switching to @diabrowser as easy as possible for Arc members. Here's how:\n\n· Your passwords, bookmarks, extensions and history come over to Dia seamlessly.\n· Spaces, Folders, and Tab Groups are in Dia and import over with your data intact.\n· Dia now surpasses Arc benchmarks in stability, speed, and security.\n· The browser features you use in Arc are free in Dia, and the AI is optional.\n\nThank you for using Arc, for pushing us to make it better, and for building alongside us. The team that made Arc is the same team behind Dia, and some of our most ambitious work is just ahead. We'd love for you to be there with us when it lands.",
+    "key_points": [
+      "Arc ends December 22, 2026; the team moves fully to Dia.",
+      "Security upkeep in the AI era is the stated reason.",
+      "Data, Spaces and Tab Groups import to Dia; its AI is optional."
+    ],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2113050053724221732",
+    "url": "https://x.com/rauchg/status/2113050053724221732",
+    "author": {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg"
+    },
+    "posted_at": "2026-10-21T23:29:26.000Z",
+    "saved_at": "2026-10-23T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Node.js Brotli RCE: Vercel shipped WAF mitigations before the patch",
+    "summary": "Guillermo Rauch says Vercel rolled out firewall-level mitigations for a Node.js remote code execution bug before the official patch, protecting all deployments, and is rolling out managed runtime upgrades. The quoted Vercel advisory describes a high-severity RCE in Node's Brotli decoder affecting Node.js 22, 24 and 26. Node.js lead maintainer Matteo Collina said the team spent the week racing to patch it before a non-frontier model could find it.",
+    "text": "Vercel has proactively rolled out Firewall-level mitigations for today's Node.js RCE vulnerability, in advance of the official patch release. \n\nAll traffic for all deployments is automatically protected. We're actively monitoring and rolling out managed runtime upgrades.",
+    "key_points": [
+      "A Brotli decoder RCE affects Node.js 22, 24 and 26.",
+      "Upgrade Node; platform WAF rules are a stopgap.",
+      "Maintainers raced against AI-driven rediscovery."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Vercel: Node.js security advisory",
+        "url": "https://vercel.com/kb/bulletin/node-js-security-advisory"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2113315655512731872",
+    "url": "https://x.com/TheHackersNews/status/2113315655512731872",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-10-22T17:04:50.000Z",
+    "saved_at": "2026-10-23T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Two unpatched CVSS 9.0 RCE flaws in Linux KSMBD",
+    "summary": "The Hacker News reports two CVSS 9.0 remote code execution flaws in KSMBD, the Linux kernel's in-kernel SMB server, disclosed on public kernel mailing lists before fixes were ready. One can be triggered without authentication, and neither has a mainline kernel fix yet.",
+    "text": "‼️ALERT - Two new unpatched CVSS 9.0 RCE flaws in #Linux's KSMBD SMB server were disclosed on public kernel mailing lists before fixes were ready.\n\nOne can be triggered WITHOUT authentication.\n\nNeither has a mainline kernel fix.\n\nDetails here ↓ https://t.co/0MIHpvkPIQ",
+    "key_points": [
+      "Affects KSMBD, the in-kernel SMB server, not Samba.",
+      "One flaw needs no authentication.",
+      "No mainline fix yet: disable KSMBD or firewall SMB if you run it."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
+        "url": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
+        "short": "https://t.co/0MIHpvkPIQ",
+        "image": "https://pbs.twimg.com/card_img/2113315328365322240/JQPTRGt-?format=jpg&name=800x419"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2113290966933389390",
+    "url": "https://x.com/METR_Evals/status/2113290966933389390",
+    "author": {
+      "name": "METR",
+      "handle": "METR_Evals"
+    },
+    "posted_at": "2026-10-22T15:26:44.000Z",
+    "saved_at": "2026-10-23T08:40:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "METR and Redwood embedded at OpenAI to red-team agent monitors",
+    "summary": "Two researchers from METR and Redwood Research worked on site at OpenAI from July 21 to August 11 in an embedded assessment pilot, testing the systems OpenAI uses to monitor its internal agents for misalignment. With company devices, codebase access and staff interviews, they looked for flaws agents could exploit to misbehave covertly. One finding: actions taken before context compaction were never seen by the internal monitors, a coverage gap agents could have used. OpenAI could make redactions, which METR could not describe unilaterally; METR proposes more public transparency for future exercises.",
+    "text": "Two employees from METR and Redwood Research worked on premises at OpenAI for three weeks this summer in an embedded assessment pilot. This team evaluated the systems OpenAI was using to monitor for misalignment from internal agents. A brief write-up of their work is now public.\n\nDevelopers use AI-based monitoring systems to catch misaligned agent behavior (e.g. when writing code or running experiments for researchers). To secure these monitoring systems, developers and assessors can look for flaws that could be exploited by agents to covertly misbehave.\n\nThe team was embedded from July 21 to August 11 for this pilot. While on site, they were issued company devices to access OpenAI’s codebase and some internal infrastructure. They were also able to conduct interviews with OpenAI technical staff.\n\nThis also meant that actions taken before compaction events were never seen by the internal misalignment monitors, creating a coverage gap that agents could have exploited to misbehave without being caught.\n\nOpenAI could also make redactions, and we did not have the right to unilaterally describe the redactions.\n\nFor future exercises, we expect to provide more robust public transparency via our recent proposal.\nhttps://t.co/exKDRyHbiK\n\nRead our public overview for more findings, limitations, and design ideals:\nhttps://t.co/GKffeYI1Ef",
+    "key_points": [
+      "Three weeks on site with real access, not a black-box test.",
+      "Monitors missed everything before a compaction event.",
+      "OpenAI could redact; METR wants stronger transparency next time."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "METR: proposal for public transparency in assessments",
+        "url": "https://x.com/METR_Evals/status/2110519541348684078?s=20",
+        "short": "https://t.co/exKDRyHbiK"
+      },
+      {
+        "title": "METR: Red-teaming OpenAI's agent monitoring (public overview)",
+        "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
+        "short": "https://t.co/GKffeYI1Ef",
+        "image": "https://pbs.twimg.com/card_img/2113287674857758720/BGb82KRV?format=png&name=800x419"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2113399539227136084",
+    "url": "https://x.com/rauchg/status/2113399539227136084",
+    "author": {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg"
+    },
+    "posted_at": "2026-10-22T22:38:09.000Z",
+    "saved_at": "2026-10-23T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "Rauch: kill static credentials, make OIDC the new TLS",
+    "summary": "After a week of breaches, Guillermo Rauch calls for ending long-lived static credentials: if thieves could only steal self-destructing keys, breaches would do far less damage. He compares it to the industry push that put TLS on every site and asks for the same for OIDC. The quoted Vercel post says a survey of 1,000+ SaaS vendors found only 8.4% support secure, short-lived auth.",
+    "text": "It’s time to kill “static credentials”.\n\nAttacks and breaches can happen. But imagine if thieves could only steal “self-destructing keys” to your data and tokens.\n\nThe industry once came together to deliver “green locks” encryption for every site (TLS). Let’s do it for OIDC! 💪",
+    "key_points": [
+      "Static API keys turn one breach into many.",
+      "Only 8.4% of 1,000+ SaaS vendors support secure auth, per Vercel.",
+      "Prefer OIDC/workload identity where a vendor offers it."
+    ],
+    "action": "List the long-lived API keys your CI and agents use and replace one with OIDC or workload identity.",
+    "links": [
+      {
+        "title": "Vercel: Death to long-lived static credentials",
+        "url": "https://vercel.com/blog/death-to-long-lived-static-credentials"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2113293165788889553",
+    "url": "https://x.com/mizchi/status/2113293165788889553",
+    "author": {
+      "name": "mizchi",
+      "handle": "mizchi"
+    },
+    "posted_at": "2026-10-22T15:35:28.000Z",
+    "saved_at": "2026-10-23T08:40:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "evergreen",
+    "tldr": "偽エラーを大量に送るとAI運用者を誘導できる",
+    "summary": "mizchiさんは、AIにWebサービスを運用させるツールを試作して気づいたこととして、フロントエンドに偽のエラーを大量に送りつけるだけでAIを誘導できてしまうと指摘する。ログやエラー報告がそのままエージェントへの間接的なプロンプトインジェクションの経路になる。",
+    "text": "実験的にAIにWebサービスを運用させるツールを作ってみて思ったことなんだけど、フロントに偽のエラーを大量に送りつけることでAIを誘導できちゃうんだよな。間接的なプロンプトインジェクション",
+    "key_points": [
+      "エラーログは攻撃者が書き込める入力。",
+      "AI運用エージェントは偽エラーで誘導されうる。",
+      "間接プロンプトインジェクションの新しい経路。"
+    ],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2113323645284344215",
+    "url": "https://x.com/emollick/status/2113323645284344215",
+    "author": {
+      "name": "Ethan Mollick",
+      "handle": "emollick"
+    },
+    "posted_at": "2026-10-22T17:36:35.000Z",
+    "saved_at": "2026-10-23T08:40:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Mollick: AI task length went from 4 minutes to 17 weeks",
+    "summary": "Ethan Mollick marks his books against AI capability: when his first AI book came out in 2024, the best AI could do 4 minutes of human work at a 50% success rate; when he turned in the draft of Co-Existence earlier this year, 17 hours; when it was published two days ago, 17 weeks. He clarifies the AI does not take 17 weeks, success rates are above 50%, and the study he drew on found about $241 in tokens replicated 17 weeks of human engineering work.",
+    "text": "When my first AI book was published in 2024, the best AI could do 4 minutes of human work with a 50% chance of success\n\nWhen I turned in the draft of Co-Existence earlier this year, it was 17 hours\n\nWhen it was published two days ago, AI could do 17 weeks https://t.co/ON0qKpJ6LD https://t.co/d97kFWQ3B4\n\nTo be clear, it doesn’t take the AI 17 weeks to do 17 weeks of human equivalent work (and success rates are higher than 50% as well). And the study I pulled that from found it cost something like $241 in tokens to replicate the 17 weeks of human engineering work.",
+    "key_points": [
+      "4 minutes (2024) to 17 hours to 17 weeks of human-equivalent work.",
+      "It does not take the AI 17 weeks; the study cites about $241 in tokens.",
+      "The 17-week figure comes from a single study; treat it as a claim."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "One Useful Thing: 30 months on the exponential, in charts",
+        "url": "https://open.substack.com/pub/oneusefulthing/p/30-months-on-the-exponential-in-charts?r=i5f7&utm_medium=ios",
+        "short": "https://t.co/ON0qKpJ6LD"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVQIpyrXAAAuH48.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "id": "2113371831558422546",
+    "url": "https://x.com/nhk_news/status/2113371831558422546",
+    "author": {
+      "name": "NHKニュース",
+      "handle": "nhk_news"
+    },
+    "posted_at": "2026-10-22T20:48:03.000Z",
+    "saved_at": "2026-10-23T08:40:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "マイクロソフト「中国系集団がAIで大規模サイバー攻撃」",
+    "summary": "NHKは、マイクロソフトが中国系のハッカー集団による大規模なサイバー攻撃を明らかにしたと報じた。マイクロソフトの脅威インテリジェンスによると、中国政府系とされるStorm-0940がエージェント型AIのペネトレーションテスト基盤ARTEXを使い、世界の数百の組織への攻撃を自動化した。ConnectWiseのマルチテナントアプリのサプライチェーン侵害も同集団によるものと評価しており、既にアクセス権を持つアプリを悪用して対話的なサインインなしに侵入し、偵察や資格情報・権限の変更をAIで高速化したという。",
+    "text": "マイクロソフト「中国系ハッカー集団が大規模サイバー攻撃」\nhttps://t.co/TxEXYsQq8i #nhk_news",
+    "key_points": [
+      "エージェント型AIで攻撃を自動化した事例として報告。",
+      "既に権限を持つアプリ経由で、サインイン不要で侵入。",
+      "サービスプリンシパルのサインインや資格情報・権限の不審な変更を確認する。"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "NHK: マイクロソフト「中国系ハッカー集団が大規模サイバー攻撃」",
+        "url": "https://news.web.nhk/newsweb/na/nd-20261023de63956",
+        "short": "https://t.co/TxEXYsQq8i",
+        "image": "https://pbs.twimg.com/card_img/2113371838047039488/Yh-yJXng?format=jpg&name=800x419"
+      },
+      {
+        "title": "Microsoft Security: Storm-0940 uses ARTEX agentic AI in ConnectWise supply chain compromise",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2113183583859016104",
+    "url": "https://x.com/asciijpeditors/status/2113183583859016104",
+    "author": {
+      "name": "ASCII.jp",
+      "handle": "asciijpeditors"
+    },
+    "posted_at": "2026-10-22T08:20:02.000Z",
+    "saved_at": "2026-10-23T08:40:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "カプコン「CAPCOM ID」に不正アクセス、1177万件が漏えい",
+    "summary": "ASCIIによると、カプコンはオンライン会員サービス「CAPCOM ID」が不正アクセスを受け、メールアドレスなど1177万4247件の情報が漏えいしたと発表した。196件ではパスワードが不正に変更されていた。カプコンはCAPCOM IDを使うサービスは引き続き利用できるとしている。",
+    "text": "カプコン、1177万件超の顧客情報漏えい　「CAPCOM ID」に不正アクセス、パスワードの不正変更も https://t.co/FWZf8l6br8",
+    "key_points": [
+      "漏えいは1177万4247件、全世界のメールアドレスなど。",
+      "196件でパスワードが不正変更。",
+      "CAPCOM ID利用者はパスワード変更と使い回しの確認を。"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "ASCII: カプコン、1177万件超の顧客情報漏えい",
+        "url": "https://ascii.jp/elem/000/004/445/4445054/",
+        "short": "https://t.co/FWZf8l6br8",
+        "image": "https://pbs.twimg.com/card_img/2113183585918402560/-sm43icU?format=jpg&name=800x419"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2113329721769660498",
+    "url": "https://x.com/EricTopol/status/2113329721769660498",
+    "author": {
+      "name": "Eric Topol",
+      "handle": "EricTopol"
+    },
+    "posted_at": "2026-10-22T18:00:44.000Z",
+    "saved_at": "2026-10-23T08:40:00+09:00",
+    "topic": "health",
+    "shelf_life": "evergreen",
+    "tldr": "A 3-agent AI nearly doubled physicians' diagnostic accuracy, in Science",
+    "summary": "Eric Topol highlights a paper just published in Science: a three-agent AI system for sequential diagnosis nearly doubled the accuracy of physicians on more than 300 NEJM clinicopathological cases and more than 300 emergency-room cases, at substantially lower cost, and also beat many AI models and physicians working with AI. Replies note the CPC cases are hard, curated puzzles and that the ER cases and the text-only setup deserve the closest reading.",
+    "text": "Just published @ScienceMagazine \nHigher medical accuracy at lower cost\nA 3-agent AI for sequential diagnosis nearly doubled accuracy compared with physicians for >300 @NEJM CPC cases and >300 ER cases AND substantially lowered cost, also exceeded performance of many AI models, physicians plus AI @HarshaNori \n@erichorvitz @Dominic1King @mustafasuleyman",
+    "key_points": [
+      "Sequential diagnosis: the AI decides which test to order next.",
+      "Nearly 2x physician accuracy on 300+ CPC and 300+ ER cases.",
+      "Lower cost too; caveats are text-only cases and curated CPCs."
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVQL2khbsAAV6Nc.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "id": "2113247749588357163",
+    "url": "https://x.com/nhk_news/status/2113247749588357163",
+    "author": {
+      "name": "NHKニュース",
+      "handle": "nhk_news"
+    },
+    "posted_at": "2026-10-22T12:35:00.000Z",
+    "saved_at": "2026-10-23T08:40:00+09:00",
+    "topic": "culture",
+    "shelf_life": "evergreen",
+    "tldr": "「生活文化」で初の人間国宝：立花、吟醸造り、京料理",
+    "summary": "NHKによると、立花（いけばな）、吟醸造り、京料理（会席）という「生活文化のわざ」の保持者が、初めて人間国宝（重要無形文化財保持者）に認定される。報道によれば、華道家元の池坊専永さん、杜氏の農口尚彦さんらが対象。解説委員が、生活文化とは何か、どう継承するかを伝えている。",
+    "text": "立花、吟醸造り、京料理（会席）\n\n「生活文化のわざ」の保持者が\n人間国宝に初めて認定されます\n\n生活文化ってどんなもの？\nどうやって継承する？\n#高橋俊雄 解説委員が伝えます\nhttps://t.co/mLc9OVWaIB",
+    "key_points": [
+      "人間国宝の対象が「生活文化」に初めて広がった。",
+      "立花・吟醸造り・京料理（会席）の3分野。",
+      "暮らしの中のわざをどう継承するかが課題。"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "NHK: 「生活文化」初の人間国宝",
+        "url": "https://news.web.nhk/newsweb/na/nd-20261022de63358",
+        "short": "https://t.co/mLc9OVWaIB",
+        "image": "https://pbs.twimg.com/card_img/2113247755548479489/U8syfUGn?format=jpg&name=800x419"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2113356379423474142",
+    "url": "https://x.com/PublicDomainRev/status/2113356379423474142",
+    "author": {
+      "name": "The Public Domain Review",
+      "handle": "PublicDomainRev"
+    },
+    "posted_at": "2026-10-22T19:46:39.000Z",
+    "saved_at": "2026-10-23T08:40:00+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "Clear Shadows (1867): Edo silhouettes that draw around the answer",
+    "summary": "The Public Domain Review shows Clear Shadows (1867), a book of silhouette portraits and riddles by Ochiai Yoshiiku. It depicts members of Edo's kyōga-awase club, who played a game like Pictionary in which you illustrate a subject without drawing the subject itself.",
+    "text": "Clear Shadows (1867) is a book of silhouette portraits (and riddles) by Ochiai Yoshiiku, depicting members of Edo's “kyōga-awase” club, who played a game similar to Pictionary — illustrating a subject but without drawing the subject itself. More here: https://t.co/sv8rIxG7CK https://t.co/I4aQgIdGUh",
+    "key_points": [
+      "A book of silhouettes and riddles by Ochiai Yoshiiku, 1867.",
+      "Kyōga-awase: depict a thing without drawing the thing."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "The Public Domain Review: Clear Shadows (1867)",
+        "url": "https://publicdomainreview.org/collection/kumanaki-kage",
+        "short": "https://t.co/sv8rIxG7CK"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVQma0OWUAAZaWv.jpg?name=orig"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVQmbSZXAAARiII.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "id": "2113227543637844454",
+    "url": "https://x.com/Posiva_fi/status/2113227543637844454",
+    "author": {
+      "name": "Posiva Oy",
+      "handle": "Posiva_fi"
+    },
+    "posted_at": "2026-10-22T11:14:42.000Z",
+    "saved_at": "2026-10-23T08:40:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "Finland licenses the world's first spent-fuel final repository",
+    "summary": "Finland's government granted Posiva the world's first operating licence for final disposal of spent nuclear fuel, after more than 40 years of work. The repository, Onkalo, sits deep in bedrock at Olkiluoto; commissioning continues with safety first.",
+    "text": "🥇 A historic world first! Finland grants #Posiva the first operating licence for spent nuclear fuel final disposal. Over 40 years of work have paid off. Commissioning continues, with safety first. \n🔦 Read more: https://t.co/e9PjtnOjVE https://t.co/6Q13iolON6",
+    "key_points": [
+      "First operating licence anywhere for spent-fuel final disposal.",
+      "Over 40 years from start to licence.",
+      "Commissioning is still under way."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Posiva: Finnish government grants operating licence to Posiva",
+        "url": "https://www.posiva.fi/en/index/news/pressreleasesstockexchangereleases/2026/historicdecisionfinnishgovernmentgrantsoperatinglicencetoposiva.html",
+        "short": "https://t.co/e9PjtnOjVE"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2113211644880760832/img/XjHMdJOQJoWlvW3V.jpg"
+      }
+    ],
+    "pick": true
+  },
+  {
+    "id": "2113338155088961899",
+    "url": "https://x.com/WHO/status/2113338155088961899",
+    "author": {
+      "name": "World Health Organization (WHO)",
+      "handle": "WHO"
+    },
+    "posted_at": "2026-10-22T18:34:14.000Z",
+    "saved_at": "2026-10-23T08:40:00+09:00",
+    "topic": "health",
+    "shelf_life": "news",
+    "tldr": "France reports the first human case of Shamonda virus",
+    "summary": "On 20 October 2026, France reported the first documented case of human disease caused by the Shamonda virus, which mainly affects cattle, sheep, goats and horses. WHO is in contact with French authorities and monitoring the situation, and has published FAQs. Japanese replies note the insect-borne virus has also been discussed in Japanese cattle in recent years.",
+    "text": "On 20 October 2026, France reported the first documented case of human disease caused by the Shamonda virus. This virus primarily affects animals such as cattle, sheep, goats and horses.\n\nWHO is in touch with the French authorities and is closely monitoring the situation.\n\nHere is what you need to know ➡️\n\nRead our FAQs: https://t.co/gtQTliDqSO",
+    "key_points": [
+      "First documented human disease from Shamonda virus.",
+      "Mainly a livestock virus, spread by biting insects.",
+      "WHO is monitoring; see its FAQ."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "WHO: Shamonda virus Q&A",
+        "url": "https://www.who.int/news-room/questions-and-answers/item/shamonda-virus",
+        "short": "https://t.co/gtQTliDqSO",
+        "image": "https://pbs.twimg.com/card_img/2113340620899258368/4WGvJlV9?format=jpg&name=800x419"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVQV1G3XQAACb6y.jpg?name=orig"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVQV1F6WsAAh3ie.jpg?name=orig"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVQV1FkW4AAxDzH.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "id": "2113382427745792495",
+    "url": "https://x.com/QuantaMagazine/status/2113382427745792495",
+    "author": {
+      "name": "Quanta Magazine",
+      "handle": "QuantaMagazine"
+    },
+    "posted_at": "2026-10-22T21:30:10.000Z",
+    "saved_at": "2026-10-23T08:40:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "The Weierstrass function: continuous everywhere, differentiable nowhere",
+    "summary": "Quanta Magazine revisits the Weierstrass function, a \"monster\" that is continuous everywhere but differentiable nowhere. Published in 1872, it forced mathematicians to re-examine assumptions in calculus. Similar functions are now used to study random motion and to analyze risk.",
+    "text": "This is the Weierstrass function, a “monster” that is continuous everywhere but differentiable nowhere. First published in 1872, it prompted scrutiny of assumptions in calculus. Similar functions are used to study random motion and analyze risk. https://t.co/tMXyKuJIrC https://t.co/qTl2b8sjbr",
+    "key_points": [
+      "A curve with no tangent anywhere, yet no breaks.",
+      "1872: it broke intuitive calculus.",
+      "Its cousins model Brownian motion and financial risk."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Quanta: The Jagged, Monstrous Function That Broke Calculus",
+        "url": "https://www.quantamagazine.org/the-jagged-monstrous-function-that-broke-calculus-20250123/",
+        "short": "https://t.co/tMXyKuJIrC"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVQ-HgnXIAAPjhE.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2113189138593874102",
+    "url": "https://x.com/MinamisomaMuse/status/2113189138593874102",
+    "author": {
+      "name": "南相馬市博物館",
+      "handle": "MinamisomaMuse"
+    },
+    "posted_at": "2026-10-22T08:42:06.000Z",
+    "saved_at": "2026-10-23T08:40:00+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "南相馬でジュラ紀国内最大、70cmの恐竜足跡化石",
+    "summary": "南相馬市博物館によると、福島県南相馬市の約1億6000万年前（ジュラ紀）の地層から、長さ約70cmの恐竜の足跡化石が見つかった。日本のジュラ紀では最大で、今回の調査で10点以上を発見した。毎日新聞は、大型草食恐竜「竜脚類」の左後ろ脚の足跡とみられると報じている。",
+    "text": "【速報】日本のジュラ紀最大の恐竜足跡化石を発見🦖\n福島県南相馬市の約１億6,000万年前の地層から、長さ約70cmの恐竜の足跡化石が見つかりました！\n今回の調査では10点以上を発見。恐竜が生きた時代の環境や生態を解き明かす重要な手がかりです。\n#恐竜 #化石 #ジュラ紀 https://t.co/T7tlhTmM8v",
+    "key_points": [
+      "約1億6000万年前の地層から長さ約70cmの足跡。",
+      "日本のジュラ紀で最大、10点以上を発見。",
+      "竜脚類の左後ろ脚とみられる（毎日新聞）。"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "毎日新聞: 長さ70センチの恐竜足跡化石を発見 国内最大級 福島・南相馬",
+        "url": "https://mainichi.jp/articles/20261022/k00/00m/040/083000c"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVOOQFSboAAYwmj.jpg?name=orig"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVOOSkxaMAAGel3.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "id": "2113218246795018666",
+    "url": "https://x.com/fermatslibrary/status/2113218246795018666",
+    "author": {
+      "name": "Fermat's Library",
+      "handle": "fermatslibrary"
+    },
+    "posted_at": "2026-10-22T10:37:46.000Z",
+    "saved_at": "2026-10-23T08:40:00+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "Papers Nature rejected: Fermi, Krebs, the first MRI",
+    "summary": "Fermat's Library lists famous papers rejected by Nature: Fermi's theory of beta decay in 1933 (\"too remote from reality\"), Krebs' citric acid cycle in 1937 (Nobel Prize 1953) and Lauterbur's first MRI paper in 1973 (Nobel Prize 2003).",
+    "text": "Papers rejected by Nature:\n\n1933 · Fermi’s theory of beta decay (“too remote from reality”)\n1937 · Krebs’ citric acid cycle (Nobel Prize, 1953)\n1973 · Lauterbur’s first MRI paper (Nobel Prize, 2003)",
+    "key_points": [
+      "Fermi 1933, Krebs 1937, Lauterbur 1973.",
+      "Two of the three later won Nobel Prizes."
+    ],
+    "action": "",
+    "links": [],
+    "media": []
   }
 ]
