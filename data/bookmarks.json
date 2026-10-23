@@ -620,5 +620,32 @@
     "action": "自社サービスごとに、重大脆弱性の際に予防停止できるか、止められない場合のWAF・監視体制があるかを一覧にする。",
     "links": [],
     "media": []
+  },
+  {
+    "id": "2113653117614993737",
+    "url": "https://x.com/BHolmesDev/status/2113653117614993737",
+    "author": {
+      "name": "Ben Holmes",
+      "handle": "BHolmesDev"
+    },
+    "posted_at": "2026-10-23T15:25:47.000Z",
+    "saved_at": "2026-10-24T08:27:09+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Ask agents for diagrams, recordings and specs, not PR summaries",
+    "summary": "Ben Holmes argues that asking agents for text summaries of a pull request wastes what they can do. Better artifacts: architecture diagrams that explain the change visually (ASCII, Mermaid, HTML or animated walkthroughs; /show-me is a starting point), screen recordings that verify the change end to end, which most harnesses can now make with Chrome DevTools or computer use, and planning documents checked in as code when humans were in the loop. A product spec with the purpose and expected user flow both guides the agent toward better recorded verification and helps reviewers reading someone else's work. He notes Warp Factories links all artifacts from an agent session and can auto-edit the videos.",
+    "text": "Stop asking agents for text summaries of a PR. They're capable of so much more:\n\n- Architecture diagrams to visually explain the change. Could be ascii, mermaid, HTML, or animated walkthroughs. /show-me is a great starting point.\n- Screen recordings verifying the change end-to-end. Most harnesses can do this now with Chrome DevTools or computer use. Warp Factories will auto-edit video and highlight cursor clicks as well.\n- Planning documents when humans were in the loop, checked in as code. This is optional, but a product spec explaining the purpose and expected user flow will a) guide the agent to better screen recording verification, and b) help the reviewer when looking at another engineer's work.\n\nWarp Factories shows all artifacts connected to an agent session to make these easy to find.",
+    "key_points": [
+      "Diagrams explain the change faster than prose.",
+      "A screen recording is end-to-end proof the change works.",
+      "Check in a short spec: it guides the agent and the reviewer."
+    ],
+    "action": "On your next agent PR, ask for a Mermaid diagram of the change and a screen recording of the user flow instead of a summary.",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2113652145673187328/img/OzO-NuYxoNtHilXF.jpg"
+      }
+    ]
   }
 ]
