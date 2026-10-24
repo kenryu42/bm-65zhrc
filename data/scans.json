@@ -3060,5 +3060,654 @@
     "action": "",
     "links": [],
     "media": []
+  },
+  {
+    "id": "2113766354386084338",
+    "url": "https://x.com/OpenAI/status/2113766354386084338",
+    "author": {
+      "name": "OpenAI",
+      "handle": "OpenAI"
+    },
+    "posted_at": "2026-10-23T22:55:45.000Z",
+    "saved_at": "2026-10-25T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "OpenAI red team finds unauthenticated RCE in Brotli",
+    "summary": "OpenAI says its red-teaming of its own training environment also turned up an unauthenticated remote code execution flaw in Brotli, the compression library built into Node.js, Bun, Envoy and much else. Malicious compressed data is enough: an unpatched server that accepts compressed input can be taken over by a client, and an unpatched client such as \"curl --compressed\" by a server. The root cause was fixed in Brotli's source in February, but nobody knew it was a security bug and no release followed, so downstream software kept shipping the old code. OpenAI disclosed to Brotli, Node.js and other projects; Brotli cut new releases and published a CVE (CVE-2026-111497, rated 9.2 in reports). Every product that vendors Brotli has to take the update, and then its users do.",
+    "text": "During this red-teaming exercise, we also found a vulnerability that allows for unauthenticated remote code execution in Brotli, a widely-deployed compression library included in many pieces of software such as Node.js, Bun, and Envoy.\n\nThe flaw could let an attacker run their own code on affected systems by sending or replying with malicious compressed data, without any need to create a user account. That is, an unpatched server that accepts compressed input could be taken over by a malicious client, and an unpatched client that accepts compressed input (such as “curl --compressed”) could be taken over by a malicious server.\n\nThis root cause issue was actually fixed in the Brotli source code in February, but it wasn’t known at the time that it gave rise to a security vulnerability and there was no more recent release of Brotli. Since Brotli is built into other software, any software which includes this library needs to take the update too, followed by the users of that software. We disclosed the vulnerability to Brotli and other downstream projects such as Node.js, which released or are currently releasing security updates, and Brotli cut new release versions and published a CVE.\n\nMore details on the patch and mitigations below:\nhttps://t.co/Y1Y72aHxrW",
+    "key_points": [
+      "Malicious compressed input can run code on servers and on clients.",
+      "The fix sat unreleased in Brotli source since February.",
+      "Every project that bundles Brotli must ship the update, then users must install it."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Patch the Planet: Brotli patch and mitigations",
+        "url": "https://patchtheplanet.org/brotli",
+        "short": "https://t.co/Y1Y72aHxrW"
+      },
+      {
+        "title": "OpenAI: securing the training environment (thread)",
+        "url": "https://twitter.com/OpenAI/status/2113718797505036665"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2113844051938054167",
+    "url": "https://x.com/trq212/status/2113844051938054167",
+    "author": {
+      "name": "Thariq",
+      "handle": "trq212"
+    },
+    "posted_at": "2026-10-24T04:04:29.000Z",
+    "saved_at": "2026-10-25T08:40:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Thariq leaves Anthropic after a year on Claude Code",
+    "summary": "Thariq, one of the best-known faces of Claude Code, says he has left Anthropic after more than a year working on it. He praises his colleagues and the \"race to the top\" mission, says he is taking a break before something new, and points people to @addyosmani, @lydiahallie, @_catwu, @ClaudeDevs and @bcherny for Claude Code news. Reports on X say Anthony Morris, who built Claude Code on desktop, left the same day; neither cited a disagreement.",
+    "text": "I’ve left Anthropic after more than a year of working on Claude Code and seeing it scale larger than I ever imagined.\n\nI have really loved working at Ant and believe deeply in the mission, and most of all, the idea of a race to the top.\n\nThe idea that if we work hard and responsibly, we can raise the bar and inspire others to great outcomes. And if we all push each other to be better, things can be radically good. I will carry the spirit of this with me forever.\n\nMy colleagues at Anthropic are the most talented, thoughtful, competent, and earnest people I have ever met. I am glad they are at the wheel and trust them deeply.\n\nTo the community on X, thank you for everything. You’ve made this the most fun (and sometimes stressful) job I’ve ever had.\n\nFor me, it is time for a bit of a break before diving into something new.\n\nIf you want more excellent Claude Code content, you should follow @addyosmani , @lydiahallie, @_catwu, @ClaudeDevs  and of course @bcherny who started it all.",
+    "key_points": [
+      "He is taking a break before a new project.",
+      "Follow @bcherny, @_catwu, @lydiahallie, @ClaudeDevs and @addyosmani for Claude Code news."
+    ],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2114122274467102926",
+    "url": "https://x.com/a16z/status/2114122274467102926",
+    "author": {
+      "name": "a16z",
+      "handle": "a16z"
+    },
+    "posted_at": "2026-10-24T22:30:03.000Z",
+    "saved_at": "2026-10-25T08:40:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "OpenRouter tokens up 27x; open weights now 72%",
+    "summary": "a16z's Charts of the Week: token demand on OpenRouter is up about 27x since last November, from about 6T to about 165T tokens a week, and open-weight models now handle about 72% of those tokens, up from about 28%. a16z offers it as one explanation for rising GPU rental prices.",
+    "text": "One answer to what's driving GPU rental prices:\n\nToken demand on OpenRouter is up ~27x since last November, from ~6T/week to ~165T/week\n\nOpen-weight models now handle ~72% of those tokens, up from ~28% last November\n\nCharts of the Week: https://t.co/BKHzpgt05x https://t.co/SaM56HJRBr https://t.co/nnirRPd43h",
+    "key_points": [
+      "~6T to ~165T tokens a week on OpenRouter in under a year.",
+      "Open-weight share rose from ~28% to ~72%.",
+      "One driver of higher GPU rental prices, says a16z."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "a16z: Charts of the Week",
+        "url": "https://www.a16z.news/p/charts-of-the-week-attention-is-all",
+        "short": "https://t.co/BKHzpgt05x"
+      },
+      {
+        "title": "Quoted post (a16z)",
+        "url": "https://twitter.com/64844802/status/2113986385908842870",
+        "short": "https://t.co/nnirRPd43h"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVbfALrbcAAgWhd.jpg",
+        "link": "https://t.co/SaM56HJRBr"
+      }
+    ]
+  },
+  {
+    "id": "2114080932693193033",
+    "url": "https://x.com/Techmeme/status/2114080932693193033",
+    "author": {
+      "name": "Techmeme",
+      "handle": "Techmeme"
+    },
+    "posted_at": "2026-10-24T19:45:46.000Z",
+    "saved_at": "2026-10-25T08:40:00+09:00",
+    "topic": "economics",
+    "shelf_life": "news",
+    "tldr": "Report: Replit moves most AI spend to OpenAI",
+    "summary": "Techmeme relays The Information: Replit recently moved most of its AI spend from Anthropic to OpenAI, which gave it 30% or more off in a deal worth over $100M a year, after Anthropic ended its discount. Single-source report.",
+    "text": "Source: Replit recently moved most AI spend from Anthropic to OpenAI, which gave 30%+ off in a deal worth $100M+/year, after Anthropic discontinued its discount (The Information)\n\n(Visit Techmeme dot com for the link and full context!)",
+    "key_points": [
+      "30%+ discount in a $100M+/year deal, per The Information.",
+      "Followed Anthropic ending its discount."
+    ],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2113850811251827075",
+    "url": "https://x.com/MaxForAI/status/2113850811251827075",
+    "author": {
+      "name": "Max For AI",
+      "handle": "MaxForAI"
+    },
+    "posted_at": "2026-10-24T04:31:21.000Z",
+    "saved_at": "2026-10-25T08:40:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "763B DeepSeek在12GB显卡上本地运行",
+    "summary": "ISTA DASLab发布了DeepSeek-V4.1-Flash-1017的GSQ-RCO量化版本，最低1.75bit；据称2bit版本在AIME25、GPQA-Diamond和LiveCodeBench v6上与原模型成绩一致。配合开源推理引擎Strata，763B模型可以在12GB显存的消费级显卡上运行：RTX 5070 12GB加64GB内存约每秒5个token，RTX 3060 12GB加46GB内存约6～9个token。代价是需要大量系统内存和至少239GB存储，权重大部分放在内存和SSD上按需读取，跑复杂Agent任务仍然吃力。",
+    "text": "卧槽？？763B参数的DeepSeek，居然已经能在12GB显存的消费级显卡上本地运行了。\n\n奥地利ISTA的DASLab团队发布了DeepSeek-V4.1-Flash-1017的GSQ-RCO量化版本，最低压缩到1.75bit，2bit版本在AIME25、GPQA-Diamond和LiveCodeBench v6三项测试中，甚至取得了和原始模型完全一致的成绩。\n\n他们还与开源推理引擎Strata合作，把这套763B模型放到了消费级显卡上。\n\n根据Strata公布的实测数据：\n\nRTX 5070 12GB搭配64GB内存，每秒大约生成5个token；RTX 3060 12GB搭配46GB内存，可以达到6～9个token。\n\n当然，代价是你还需要大量系统内存，以及至少239GB的模型存储空间。因为模型的大部分权重依然要放在内存和SSD上，按需读取。\n\n这速度算不上快，运行复杂Agent任务仍然很吃力。\n\n但一张12GB显卡、几十GB内存，加上一块大容量SSD，就能在本地启动763B的模型，这已经挺有意思了。\n\n现在连这种规模的模型，本地部署都开始进入消费级硬件能够尝试的范围了。\n\n推理工程和量化算法的发展，确实在不断降低运行大模型的门槛。\n\nStrata已经开源，有兴趣的可以研究一下：\n\nhttps://t.co/cxFunoquuV",
+    "key_points": [
+      "1.75bit量化，2bit版本据称成绩与原模型一致。",
+      "12GB显卡约5～9 token/秒，需要大内存和239GB以上存储。",
+      "Strata推理引擎已开源。"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "GitHub: Strata inference engine",
+        "url": "https://github.com/Niko1221/Strata",
+        "short": "https://t.co/cxFunoquuV"
+      },
+      {
+        "title": "Quoted post (@mhelcig)",
+        "url": "https://twitter.com/mhelcig/status/2113769988813144118"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVXoGomaUAAoDRg.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2113818188416942586",
+    "url": "https://x.com/MLBear2/status/2113818188416942586",
+    "author": {
+      "name": "ML_Bear",
+      "handle": "MLBear2"
+    },
+    "posted_at": "2026-10-24T02:21:43.000Z",
+    "saved_at": "2026-10-25T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Kaggle、NotebooksでのR言語サポートを終了",
+    "summary": "KaggleがNotebooks機能でのR言語のサポートを終了すると発表した。データサイエンスの入口としてRが使われていた時代からの移り変わりを感じる、という投稿。",
+    "text": "Kaggle が Notebooks 機能での R 言語のサポートを終了するとのこと。僕がデータサイエンスやり始めの頃は R言語触ったりすることもあったなぁ。時代の移り変わりを感じた😇\n\nhttps://t.co/yKqyaSFzPC",
+    "key_points": [
+      "Kaggle NotebooksでRが使えなくなる。",
+      "Python一強の流れがさらに進む。"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Kaggle: product announcement on R in Notebooks",
+        "url": "https://www.kaggle.com/discussions/product-announcements/751525",
+        "short": "https://t.co/yKqyaSFzPC"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2113951301059113271",
+    "url": "https://x.com/TheHackersNews/status/2113951301059113271",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-10-24T11:10:40.000Z",
+    "saved_at": "2026-10-25T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "LiteLLM breach traced to a master key never revoked",
+    "summary": "LiteLLM has published the root cause of its October supply chain attack, The Hacker News reports. A master key leaked on GitHub in May was never revoked. Attackers used it to get into LiteLLM's Agent Platform, stole a GitHub owner token from there, and used that to publish the malicious PyPI release in October.",
+    "text": "🚨 LiteLLM reveals the root cause of its supply chain attack.\n\nA master key leaked on GitHub in May was never revoked, allowing attackers to access its Agent Platform, steal a GitHub owner token, and publish a malicious PyPI release in October.\n\nRead: https://t.co/KfE5QuX1Zs",
+    "key_points": [
+      "A key leaked in May still worked in October.",
+      "Agent Platform access led to a GitHub owner token.",
+      "The owner token let attackers publish to PyPI."
+    ],
+    "action": "Search your repos and CI logs for leaked keys, then rotate every key that ever appeared, even if it seems unused.",
+    "links": [
+      {
+        "title": "The Hacker News: Leaked LiteLLM master key let attackers publish malicious release",
+        "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+        "short": "https://t.co/KfE5QuX1Zs"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2113916077923303786",
+    "url": "https://x.com/TheHackersNews/status/2113916077923303786",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-10-24T08:50:42.000Z",
+    "saved_at": "2026-10-25T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Brotli flaw reaches Bun, Python, Envoy and Istio",
+    "summary": "The Hacker News says the Brotli memory-corruption flaw behind the Node.js RCE (CVE-2026-111497) goes well beyond Node.js: Bun, Python Brotli packages, Envoy, Istio and other widely used software are affected by the same bug.",
+    "text": "‼️ Alert -  Critical Brotli flaw behind #Node2Shell RCE goes far beyond Node.js.\n\nBun, Python Brotli packages, Envoy, Istio and other widely used software are also affected by the same CVE-2026-111497 memory-corruption vulnerability.\n\nRead full details ↓ https://t.co/Znn8SGEdBu",
+    "key_points": [
+      "Same CVE across Bun, Python packages, Envoy and Istio.",
+      "Node.js was only the first patch."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "The Hacker News: Brotli decoder flaw behind Node.js RCE",
+        "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+        "short": "https://t.co/Znn8SGEdBu"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2113915351553712545",
+    "url": "https://x.com/GergelyOrosz/status/2113915351553712545",
+    "author": {
+      "name": "Gergely Orosz",
+      "handle": "GergelyOrosz"
+    },
+    "posted_at": "2026-10-24T08:47:49.000Z",
+    "saved_at": "2026-10-25T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Orosz predicts Chrome and Mozilla will drop eMudhra",
+    "summary": "Gergely Orosz predicts Chrome and Mozilla will remove eMudhra as a G1 root, ending its life as a trusted certificate authority. He says eMudhra was given 24 hours on October 20 to explain the mis-signed certificate, did not, asked for more time, and now blames \"investors/customers\". A prediction, not an announcement.",
+    "text": "Calling it now: Chrome and Mozilla will remove eMudhra as a G1 root, nulling them as a CA.\n\nOn 20 Oct, eMudhra had 24 hours to give an explanation of what exactly happened with the mis-signed certificate. They did not; asked for more time; and now blame “investors/customers” 🤡 https://t.co/QcAqbC9Ghl",
+    "key_points": [
+      "eMudhra missed the 24-hour deadline to explain itself.",
+      "Orosz expects removal as a G1 root."
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVYizjFXYAEU3l9.jpg",
+        "link": "https://t.co/QcAqbC9Ghl"
+      }
+    ]
+  },
+  {
+    "id": "2113919839735844959",
+    "url": "https://x.com/TheHackersNews/status/2113919839735844959",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-10-24T09:05:39.000Z",
+    "saved_at": "2026-10-25T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Researchers pushed 2M updates to kill Popcorn Time updater",
+    "summary": "Researchers pushed more than 2 million remote updates to disable a forgotten Popcorn Time updater that could have fed a botnet, The Hacker News reports. The flaw let anyone who controlled its update domain deliver code that ran with SYSTEM or root privileges.",
+    "text": "🚨 Researchers pushed over 2 million remote updates to disable a forgotten Popcorn Time updater that could have fueled a botnet.\n\nThe flaw let anyone controlling its update domain deliver code with SYSTEM or root privileges.\n\nHow they pulled it off ↓ https://t.co/4fegRwXc90",
+    "key_points": [
+      "Whoever held the update domain could run code as SYSTEM or root.",
+      "Researchers used that same channel to switch it off."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "The Hacker News: Researchers push over 2 million updates",
+        "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+        "short": "https://t.co/4fegRwXc90"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2113971461178487266",
+    "url": "https://x.com/mattn_jp/status/2113971461178487266",
+    "author": {
+      "name": "mattn",
+      "handle": "mattn_jp"
+    },
+    "posted_at": "2026-10-24T12:30:46.000Z",
+    "saved_at": "2026-10-25T08:40:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "evergreen",
+    "tldr": "AIに「バグが無くなるまで直して」は終わらない",
+    "summary": "mattnさんの6連投。AIは速くて賢いが、バグを全て取り除くことはできない。「バグが無くなるまで繰り返して」と指示しても、AIの探し方は直近の修正に典型的な間違いがないかを見るだけで、コンテキストに限りがあるためコード全体は推測で補ってしまう。さらに根本的には、バグとは仕様と実装のズレであり、仕様はコードに書かれていないことが多いので、AIが見つけられるのはnullチェック漏れや境界値のような汎用的なバグにとどまる。修正が別の前提を壊し、直しては壊すループに入ることもある。答えは昔から同じで、仕様を言葉にして残し、テストで期待する振る舞いを固定し、お金・データ・セキュリティや取り返しのつかない箇所だけは人間が読んで判断すること。",
+    "text": "AI を過信しすぎるのは怖い。AI で完璧なプログラムが書けると信じるのも怖い。確かに AI は人間よりも賢いし速い。でもバグを全て取り除く事はできない。\n\n本当？と思う人は、適当なサイズのリポジトリで「バグを探して修正して。バグが無くなるまで繰り返して」と指示してみるといい。そして、バグが全て無くならない事に気付くはず。\nなぜならバグの探し方が「直近で修正したコードの中で良くある間違いが含まれてないか」という物でしかないからだ。\n\nじゃぁ、ちゃんと全てのソースの中を見てバグが無いか確認する様に指示を出せば？と思うかもしれない。しかしそれもうまく行かない。なぜなら AI は一度に全てのコードを頭に入れておく事ができないからだ。コンテキストには限りがある。だから AI はファイルを部分的に読み、残りは「たぶんこうなっているだろう」と推測で補う。その推測が当たっている間はいいが、外れた瞬間に、存在しない前提の上でコードを「正しい」と判断してしまう。\n\nそしてもっと根本的な問題がある。バグとは「仕様と実装のズレ」だという事。ソースコードに書かれているのは実装だけで、仕様はどこにも書かれていない事が多い。仕様は作った人の頭の中や、過去の議論や、ユーザーの期待の中にある。AI はコードを読んで「このコードは何をしているか」は分かっても、「このコードは本来何をすべきだったか」は分からない。だから単純な指示で AI が見つけられるのは、null チェック漏れや境界値の間違いといった、どんなプログラムでも共通して起こる種類のバグだけになる。\n本当に厄介な、そのプログラム固有のバグは見つけるのは大変なのだ。\n\nさらに言えば、修正そのものが新しいバグを生む場合がある。AI はバグを直す時、周辺のコードだけを見て辻褄を合わせがち。その修正が別の場所の前提を壊していても、なかなか気付けない。「バグが無くなるまで繰り返して」と指示すると、直しては壊し、壊しては直すというループに入り、いつまで経っても終わらない事もある。繰り返すうちにコードは複雑になり、気付けば人間が読めない物になっているかもしれない。\n\nじゃぁどうすればいいのかというと、答えは昔から変わっていない。仕様を言葉にして残す事。テストを書いて、期待する振る舞いをコードとして固定する事。そして最後は大事な箇所は人間が読んで判断する事。全部を読む必要はない。AI が書いたコードを一行残らず読んでいたら、AI を使う意味が無くなってしまう。でもせめて、人間の判断が必要になる箇所は読む。仕様の解釈が分かれそうな所、お金やデータやセキュリティに関わる所、一度壊れたら取り返しがつかない所。そういう場所だけは、AI に任せきりにせず自分の目で確かめる。AI はこれらを速く進める為の強力な道具にはなるが、責任を肩代わりしてくれる存在ではないのでなおさらですね。",
+    "key_points": [
+      "AIはコンテキストに入らない部分を推測で補う。",
+      "バグは仕様と実装のズレで、仕様はコードに無いことが多い。",
+      "仕様を書き、テストで固定し、重要箇所は人間が読む。"
+    ],
+    "action": "AIに任せる前に、仕様を文章で残し、期待する振る舞いをテストで固定する。お金・データ・セキュリティの箇所だけは自分で読む。",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2114085525254746228",
+    "url": "https://x.com/MalwareBibleJP/status/2114085525254746228",
+    "author": {
+      "name": "📕「マルウエアの教科書」著者 | 吉川孝志 | 増補改訂版🌟発売中",
+      "handle": "MalwareBibleJP"
+    },
+    "posted_at": "2026-10-24T20:04:01.000Z",
+    "saved_at": "2026-10-25T08:40:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "GMOの能動的サイバー防御要請、識者「ハードル高い」",
+    "summary": "GMOインターネットグループは10月24日、不正アクセスを受けて政府に能動的サイバー防御の適用を緊急要請した。日経によると、慶応大学と笹川平和財団の専門家は、制度が想定するアクセス無害化とは異なり、攻撃を受けた企業が政府に「無害化」を依頼する形になっていると指摘。政府が手の内を明かせば措置の実効性が失われるとの見方もあり、適用はハードルが高いという。読売によると、政府関係者も「求めに応じ発動を決める制度ではない」としている。",
+    "text": "GMOの能動的サイバー防御要請、識者は「ハードル高い」｜GMOインターネットグループが10月24日に政府へ能動的サイバー防御の適用を緊急要請したことについて、サイバー安全保障に詳しい慶応大学と笹川平和財団の専門家が見解を示した。GMOの要請は能動的サイバー防御の制度が想定するアクセス無害化とは異なり、攻撃を受けた企業が政府に「無害化」を依頼する形になっていると指摘。政府が手の内を明かせば措置の実効性が失われるとの見方も示しており、識者からは今回の要請への適用はハードルが高いとの声が出ている。\n\n能動的サイバー防御、GMOが政府に要請 識者「ハードル高い」\nhttps://t.co/pkCCleXP1e\n\n公式：https://t.co/fElrae0DEZ",
+    "key_points": [
+      "被害企業の側から政府に発動を求めた形。",
+      "制度は企業の要請で発動するものではない。",
+      "政府が手の内を明かすと効果が失われる。"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "日経: 能動的サイバー防御、GMOが政府に要請 識者「ハードル高い」",
+        "url": "https://www.nikkei.com/article/DGXZQOUA2425P0U6A021C2000000/",
+        "short": "https://t.co/pkCCleXP1e"
+      },
+      {
+        "title": "GMOインターネットグループ: 公式発表",
+        "url": "https://group.gmo/info/alert/20261024/",
+        "short": "https://t.co/fElrae0DEZ"
+      },
+      {
+        "title": "読売新聞: 政府関係者「求めに応じ発動決める制度ではない」",
+        "url": "https://www.yomiuri.co.jp/politics/20261024-GYT1T00257/"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2113436886672998903",
+    "url": "https://x.com/edotokyomuseum/status/2113436886672998903",
+    "author": {
+      "name": "江戸東京博物館",
+      "handle": "edotokyomuseum"
+    },
+    "posted_at": "2026-10-23T01:06:34.000Z",
+    "saved_at": "2026-10-25T08:40:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "江戸東京博物館、予防措置で公式サイトを一時停止",
+    "summary": "江戸東京博物館は10月23日、不正アクセス等防止の観点から予防措置として公式サイトの公開を一時停止した。博物館は通常どおり開館しており、Webチケットは外部の販売サイトで買える。東京都美術館も同様に「あくまで予防的措置」として公式サイトを止めている。PHP脆弱性をめぐる一連の停止の一つとみられるが、館は理由を明示していない。",
+    "text": "2026年10月23日現在、江戸東京博物館では不正アクセス等防止の観点から、予防措置として公式サイトの公開を一時停止しておりますが、博物館は通常通り開館しております。WEBチケットのご購入については下記URLよりお願いいたします。\nhttps://t.co/v84Xr2dZ0m",
+    "key_points": [
+      "被害ではなく予防としてサイトを止めた。",
+      "館は開いており、チケットは外部サイトで販売。"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "webket: 江戸東京博物館 Webチケット",
+        "url": "https://webket.jp/pc/ticket/index?fc=00259&ac=0001",
+        "short": "https://t.co/v84Xr2dZ0m"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2113642076978184278",
+    "url": "https://x.com/CNRS/status/2113642076978184278",
+    "author": {
+      "name": "CNRS 🌍",
+      "handle": "CNRS"
+    },
+    "posted_at": "2026-10-23T14:41:55.000Z",
+    "saved_at": "2026-10-25T08:40:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "Nobel physicist Claude Cohen-Tannoudji has died",
+    "summary": "The CNRS announced with great sadness the death of Claude Cohen-Tannoudji, a leading figure in atomic physics and quantum optics. He received the CNRS gold medal in 1996 and the Nobel Prize in Physics in 1997, shared for developing methods to cool and trap atoms with laser light.",
+    "text": "English translation: [TRIBUTE] The CNRS has learned with great sadness of the death of Claude Cohen-Tannoudji. A major figure in atomic physics and quantum optics worldwide, he received the CNRS gold medal in 1996 and the Nobel Prize in Physics in 1997.\n\nOriginal (French): [HOMMAGE] Le CNRS a appris avec une grande tristesse le décès de Claude Cohen-Tannoudji. Grande figure de la physique atomique et de l’optique quantique mondiales, il a reçu la médaille d’or du CNRS en 1996 et le prix Nobel de physique en 1997.\n👉 https://t.co/d8RxY3JCNj https://t.co/dSYHS8uarh",
+    "key_points": [
+      "A founder of laser cooling and trapping of atoms.",
+      "CNRS gold medal 1996, Nobel Prize in Physics 1997."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "CNRS Physique: Hommage au physicien Claude Cohen-Tannoudji",
+        "url": "https://www.inp.cnrs.fr/fr/cnrsinfo/hommage-au-physicien-claude-cohen-tannoudji",
+        "short": "https://t.co/d8RxY3JCNj"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVUpYBdXgAAa1os.jpg",
+        "link": "https://t.co/dSYHS8uarh"
+      }
+    ]
+  },
+  {
+    "id": "2113776971603689874",
+    "url": "https://x.com/NASA/status/2113776971603689874",
+    "author": {
+      "name": "NASA",
+      "handle": "NASA"
+    },
+    "posted_at": "2026-10-23T23:37:56.000Z",
+    "saved_at": "2026-10-25T08:40:00+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "Artemis III will test in Earth orbit; Moon landing moves to IV",
+    "summary": "NASA says Artemis III will now send four astronauts to low Earth orbit next year to test the systems needed for lunar landings, including Orion and two lunar landers, and that Artemis IV will be the first Artemis mission on the lunar surface, targeted for 2028 according to NASA's press secretary.",
+    "text": "We are not slowing down. 🚀\n\nOur Artemis III mission will send four astronauts to low Earth orbit next year to test critical systems needed for future lunar landings https://t.co/G5CkHbQhFR and we’re accelerating efforts to ensure the success of Artemis IV, the first Artemis mission on the lunar surface https://t.co/zEDKEcLpXY.",
+    "key_points": [
+      "2027: Artemis III, a crewed test in low Earth orbit.",
+      "2028: Artemis IV, the first Artemis Moon landing."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "NASA: Artemis III mission to test future Moon lander operations",
+        "url": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
+        "short": "https://t.co/G5CkHbQhFR"
+      },
+      {
+        "title": "NASA: Partners accelerate lander development for 2028 Moon missions",
+        "url": "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/",
+        "short": "https://t.co/zEDKEcLpXY"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVWk812WIAAg_hz.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2113240268476477711",
+    "url": "https://x.com/IUCN/status/2113240268476477711",
+    "author": {
+      "name": "IUCN",
+      "handle": "IUCN"
+    },
+    "posted_at": "2026-10-22T12:05:16.000Z",
+    "saved_at": "2026-10-25T08:40:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "96% of shallow coral reef ecosystems Critically Endangered",
+    "summary": "The first global assessment of coral reefs under the IUCN Red List of Ecosystems, launched at COP17 in Armenia, finds that nearly all assessed shallow-water reef ecosystems face a high risk of collapse within 50 years, with 96% Critically Endangered. IUCN says heat stress from climate change is the single most consistent threat, but reefs in most parts of the world are not yet lost.",
+    "text": "BREAKING NEWS: Nearly all assessed shallow-water coral reef ecosystems face a high risk of collapse within 50 years, with 96% Critically Endangered.  \n\nFirst global coral reefs assessment under the IUCN Red List of Ecosystems, launched at #COP17Armenia. @redlisteco https://t.co/kF6CKzeQGI",
+    "key_points": [
+      "First global reef assessment on the Red List of Ecosystems.",
+      "96% of assessed shallow reefs are Critically Endangered.",
+      "Heat stress is the most consistent threat; most reefs are not yet lost."
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVO801IW8AAj1TB.jpg",
+        "link": "https://t.co/kF6CKzeQGI"
+      }
+    ]
+  },
+  {
+    "id": "2113801214907560098",
+    "url": "https://x.com/Math_files/status/2113801214907560098",
+    "author": {
+      "name": "Math Files",
+      "handle": "Math_files"
+    },
+    "posted_at": "2026-10-24T01:14:16.000Z",
+    "saved_at": "2026-10-25T08:40:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "Rényi's parking constant: a full street a quarter empty",
+    "summary": "Let identical cars park at random along a long unmarked curb, each choosing uniformly among spots where it fits, and nobody ever moves. Eventually every gap is too short for another car. As the street grows, the occupied share approaches 0.7475979203…, Rényi's parking constant, so about 25.24% of the curb stays empty yet unusable: the space is broken into pieces too small to help.",
+    "text": "A street can run out of parking space while more than a quarter of its length is empty. \n\nImagine identical cars parking along a long, unmarked curb, each choosing uniformly at random among positions where it fits. Nobody moves afterward. Eventually, every remaining gap is too short for another car. \n\nIn this mathematical model, the average occupied fraction approaches 0.7475979203… as the street grows longer. About 25.24% remains empty, yet completely unusable. \n\nThis is Rényi’s parking constant. The space never disappeared. It broke into pieces too small to help.",
+    "key_points": [
+      "Random parking fills only about 74.76% of the curb.",
+      "The rest is gaps shorter than a car."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "MathWorld: Rényi's Parking Constants",
+        "url": "https://mathworld.wolfram.com/RenyisParkingConstants.html"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVW6__pbgAAp_XQ.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2113998221420687463",
+    "url": "https://x.com/PublicDomainRev/status/2113998221420687463",
+    "author": {
+      "name": "The Public Domain Review",
+      "handle": "PublicDomainRev"
+    },
+    "posted_at": "2026-10-24T14:17:06.000Z",
+    "saved_at": "2026-10-25T08:40:00+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "Vesalius explained the body with winepresses and spinning tops",
+    "summary": "The Public Domain Review marks the anniversary of anatomist Andreas Vesalius's death in 1564 with an essay by Marri Lynn on the everyday images he used to explain the body: city streets, a winepress, pulleys, spinning tops, a ray fish and curdled milk.",
+    "text": "City streets, a winepress, pulleys, spinning tops, a ray fish, curdled milk: some of the  images used by anatomist Andreas Vesalius (who died #onthisday in 1564) to explain the workings of the human body. Marri Lynn explores: https://t.co/1yKGCU0J6Y #OTD https://t.co/WGUbyYpgx4",
+    "key_points": [
+      "Vesalius taught anatomy through familiar machines and objects.",
+      "He died on this day in 1564."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "The Public Domain Review: Vesalius and the body metaphor",
+        "url": "https://publicdomainreview.org/essay/vesalius-and-the-body-metaphor",
+        "short": "https://t.co/1yKGCU0J6Y"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVZuLM3WMAA4Uor.jpg",
+        "link": "https://t.co/WGUbyYpgx4"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVZuLddXAAEg4XH.jpg",
+        "link": "https://t.co/WGUbyYpgx4"
+      }
+    ]
+  },
+  {
+    "id": "2114050556717060328",
+    "url": "https://x.com/archaeologymag/status/2114050556717060328",
+    "author": {
+      "name": "Archaeology Magazine",
+      "handle": "archaeologymag"
+    },
+    "posted_at": "2026-10-24T17:45:04.000Z",
+    "saved_at": "2026-10-25T08:40:00+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "A scribe's 3,000-year-old letter to his dead wife's coffin",
+    "summary": "Archaeology Magazine: the Egyptian scribe Butehamun believed his dead wife's spirit was haunting him, so more than 3,000 years ago he wrote a letter to her coffin addressing her ghost and insisting he had done nothing wrong. Letters to the dead were a way to reason with spirits blamed for misfortune.",
+    "text": "An Egyptian scribe named Butehamun believed that he was haunted by his dead wife’s spirit. He wrote a letter to her coffin to address her ghost, more than 3,000 years ago, insisting he had done nothing wrong. But … was that 100% true?\n\nhttps://t.co/cPCZ3PeePA https://t.co/rTG6EhvGKp",
+    "key_points": [
+      "Egyptians wrote letters to the dead to settle grievances.",
+      "Butehamun addressed his to his wife's coffin."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Archaeology Magazine: The world of Egyptian demons",
+        "url": "https://archaeology.org/issues/may-june-2022/collection/egypt-demons-ancestors/the-world-of-egyptian-demons/",
+        "short": "https://t.co/cPCZ3PeePA"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVadxS0WYAEPExm.jpg",
+        "alt": "Coffin and letter (📸 Artokoloro/Alamy; © 2000 Musée du Louvre/Georges Poncet)",
+        "link": "https://t.co/rTG6EhvGKp"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVadxaQWEAAiotQ.jpg",
+        "alt": "Coffin and letter (📸 Artokoloro/Alamy; © 2000 Musée du Louvre/Georges Poncet)",
+        "link": "https://t.co/rTG6EhvGKp"
+      }
+    ]
+  },
+  {
+    "id": "2114021709057831092",
+    "url": "https://x.com/extremetemps/status/2114021709057831092",
+    "author": {
+      "name": "Extreme Temperatures Around The World",
+      "handle": "extremetemps"
+    },
+    "posted_at": "2026-10-24T15:50:26.000Z",
+    "saved_at": "2026-10-25T08:40:00+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "Southern Africa breaks all-time heat records: 46°C",
+    "summary": "Weather-records tracker Maximiliano Herrera reports historic heat in southern Africa: 46°C in Mozambique, 45 in Malawi, 44 in Zambia and Zimbabwe and 43 in Botswana, with hundreds of records broken, including all-time highs such as 44.0°C at Mfuwe, Zambia and 42.0°C at Kasane, Botswana. He expects record heat on and off for weeks. Figures are his compilation, not yet official.",
+    "text": "ABSOLUTELY HISTORIC\n46C in Mozambique,45 in Malawi,44 in Zambia and Zimbabwe,43 Botwana\nHundreds of records smashed\n\nMore all time records\nZAMBIA\n44.0 Mfuwe\n42.0 Livingstone\n40.0 Isoka\n40.0 Mpika\nBOTSWANA\n42.0 Kasane\n\nRecord heat will continue on and off for weeks with more 45C! https://t.co/59mfFwqdxx",
+    "key_points": [
+      "Hundreds of records broken across five countries.",
+      "More 45°C days expected for weeks."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Earlier post by @extremetemps",
+        "url": "https://twitter.com/extremetemps/status/2113342188805673252",
+        "short": "https://t.co/59mfFwqdxx"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2113861569658654810",
+    "url": "https://x.com/Math_files/status/2113861569658654810",
+    "author": {
+      "name": "Math Files",
+      "handle": "Math_files"
+    },
+    "posted_at": "2026-10-24T05:14:06.000Z",
+    "saved_at": "2026-10-25T08:40:00+09:00",
+    "topic": "culture",
+    "shelf_life": "evergreen",
+    "tldr": "10/24/26: the last Pythagorean date this century",
+    "summary": "October 24, 2026, written 10/24/26 or 24/10/26, makes a right triangle: 10² + 24² = 26². With month at most 12 and day at most 31, only 12 dates this century satisfy month² + day² = (year)², and this was the last. The next is March 4, 2105 (3² + 4² = 5²), more than 78 years away.",
+    "text": "Today, the calendar makes a right triangle, for the last time this century.\n\nThis Saturday is October 24, 2026.\n\nWrite it as 10/24/26 or 24/10/26, and the same beautiful relationship appears:\n\n10² + 24² = 26²\n100 + 576 = 676\n\nBut here’s what makes today special.\n\nThere are infinitely many Pythagorean triples. Only a handful fit our calendar.\n\nUsing the rule\n\nmonth² + day² = (last two digits of the year)²,\n\nthe month cannot exceed 12, and the day cannot exceed 31. Those small limits leave exactly 12 qualifying dates in this century.\n\nToday is the last.\n\nThe next will be March 4, 2105:\n\n3² + 4² = 5²\n\nThat is a wait of more than 78 years.\n\nAn infinite family of triangles. Just twelve appearances on a century’s calendar.\n\nHappy Pythagorean Triple Day.",
+    "key_points": [
+      "Only 12 Pythagorean dates fit this century's calendar.",
+      "The next is 3/4/05, in 2105."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Wikipedia: Pythagorean triple",
+        "url": "https://en.wikipedia.org/wiki/Pythagorean_triple"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVXx5DHaIAAOZy3.jpg"
+      }
+    ]
   }
 ]

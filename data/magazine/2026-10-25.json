@@ -1,0 +1,259 @@
+{
+  "date": "2026-10-25",
+  "title": "The plumbing everyone trusts",
+  "subtitle": "A compression library anyone could exploit, a LiteLLM key nobody revoked, a CA that missed its deadline, and why an AI can't fix bugs until none are left",
+  "editor_note": "Today's idea: the plumbing everyone trusts and almost nobody checks. OpenAI's red team found that malicious compressed data can run code through Brotli, the decoder inside Node.js, Bun, Envoy and curl. The fix had sat unreleased in the source since February. The lead is the same lesson about keys: LiteLLM's breach traced back to a master key that leaked in May and still worked in October. Field notes follow Brotli beyond Node.js and an Indian CA heading for the exit, and close with researchers who pushed 2 million updates to switch off a dead updater. Japan desk has mattn on why \"fix it until there are no bugs\" never finishes, GMO asking the government for active cyber defense, and museums taking their sites offline as a precaution. Further out: a Nobel physicist's death, a new Artemis plan, the coral reef Red List, a parking constant, Vesalius, a letter to a coffin and a heatwave. The issue ends on yesterday's Pythagorean date.",
+  "theme": {
+    "palette": "sunset",
+    "fonts": "sans-serif",
+    "accent": "#be123c"
+  },
+  "sections": [
+    {
+      "type": "cover-story",
+      "scan": "2113766354386084338",
+      "kicker": "Cover story",
+      "headline": "Malicious compressed data could run code through Brotli, the decoder inside Node.js, Bun and Envoy",
+      "deck": "OpenAI's red team found an unauthenticated RCE that hits servers and clients like curl --compressed. The root cause was fixed in February, but no release followed until now.",
+      "variant": "stacked",
+      "why": "Update Node.js, Bun, Envoy and anything else that bundles Brotli, and check what your containers vendor.",
+      "source_label": "OpenAI"
+    },
+    {
+      "type": "corner",
+      "corner": "brief",
+      "deck": "What moved in models and tools overnight."
+    },
+    {
+      "type": "brief-grid",
+      "headline": "A Claude Code exit, open weights at 72%, and DeepSeek on a 12GB card",
+      "columns": 3,
+      "variant": "plain",
+      "items": [
+        {
+          "scan": "2113844051938054167",
+          "headline": "Thariq leaves Anthropic after a year on Claude Code",
+          "note": "He is taking a break first. Reports say Anthony Morris, who built Claude Code desktop, left the same day.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Thariq"
+        },
+        {
+          "scan": "2114122274467102926",
+          "headline": "OpenRouter tokens up 27x; open-weight share now ~72%",
+          "note": "From ~6T to ~165T tokens a week since last November. a16z ties it to rising GPU rental prices.",
+          "source_label": "a16z"
+        },
+        {
+          "scan": "2114080932693193033",
+          "headline": "Replit reportedly moves most AI spend to OpenAI",
+          "note": "30%+ off in a $100M+/year deal after Anthropic ended its discount, per The Information.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Techmeme / The Information"
+        },
+        {
+          "scan": "2113850811251827075",
+          "headline": "763B DeepSeek V4.1 Flash在12GB显卡上运行",
+          "note": "1.75bit量化加开源引擎Strata，约每秒5～9个token，但需要大内存和239GB以上存储。成绩为发布方数据。",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "MaxForAI"
+        },
+        {
+          "scan": "2113818188416942586",
+          "headline": "Kaggle、NotebooksでのR言語サポートを終了",
+          "note": "Kaggle公式の発表。Python一強の流れがさらに進む。",
+          "source_label": "Kaggle"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "lead",
+      "deck": "The one to read in full."
+    },
+    {
+      "type": "feature",
+      "scan": "2113951301059113271",
+      "headline": "LiteLLM's breach began with a master key leaked in May and never revoked",
+      "deck": "The key opened LiteLLM's Agent Platform. From there attackers took a GitHub owner token and published a malicious PyPI release in October.",
+      "span": "full",
+      "variant": "aside",
+      "emphasis": "loud",
+      "why": "A leaked key stays dangerous until you rotate it. Search your repos and CI logs today.",
+      "source_label": "The Hacker News"
+    },
+    {
+      "type": "pull-quote",
+      "scan": "2113951301059113271",
+      "quote": "A master key leaked on GitHub in May was never revoked",
+      "variant": "bar"
+    },
+    {
+      "type": "corner",
+      "corner": "field-notes",
+      "deck": "More trusted plumbing, from the scan."
+    },
+    {
+      "type": "numbered-list",
+      "headline": "Brotli beyond Node, a CA that missed its deadline, and a dead updater",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2113916077923303786",
+          "headline": "The Brotli CVE also hits Bun, Python packages, Envoy and Istio",
+          "note": "CVE-2026-111497 is a memory-corruption bug in the decoder, so every bundled copy needs the patch.",
+          "why": "Check your lockfiles and base images, not just Node.",
+          "source_label": "The Hacker News"
+        },
+        {
+          "scan": "2113915351553712545",
+          "headline": "Orosz expects Chrome and Mozilla to drop eMudhra as a root CA",
+          "note": "He says eMudhra got 24 hours on Oct 20 to explain a mis-signed certificate and missed the deadline. A prediction, not a decision.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Gergely Orosz"
+        },
+        {
+          "scan": "2113919839735844959",
+          "headline": "Researchers pushed 2M updates to switch off Popcorn Time's updater",
+          "note": "Whoever held its update domain could run code as SYSTEM or root, so researchers used that same channel to turn it off.",
+          "source_label": "The Hacker News"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "japan-desk",
+      "label": "日本から",
+      "deck": "AIに直させる限界と、止めて守る判断。"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "「バグが無くなるまで」は終わらない、GMOの要請、止まる公式サイト",
+      "variant": "large",
+      "items": [
+        {
+          "scan": "2113971461178487266",
+          "headline": "AIに「バグが無くなるまで直して」は終わらない",
+          "note": "バグは仕様と実装のズレで、仕様はコードに書かれていないことが多い。仕様を書き、テストで固定し、お金・データ・セキュリティは人が読む。",
+          "why": "今日の表紙と同じ話。信頼の前に、確かめる仕組みを。",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "mattn"
+        },
+        {
+          "scan": "2114085525254746228",
+          "headline": "GMO、政府に能動的サイバー防御を要請。識者「ハードル高い」",
+          "note": "日経によると、被害企業から政府に発動を求める形は制度の想定と異なる。読売によると、政府関係者も「求めに応じ発動を決める制度ではない」と話す。",
+          "source_label": "日経 / 読売"
+        },
+        {
+          "scan": "2113436886672998903",
+          "headline": "江戸東京博物館、予防措置で公式サイトを一時停止",
+          "note": "館は通常どおり開館し、チケットは外部サイトで販売。東京都美術館も「あくまで予防的措置」としてサイトを止めた。",
+          "source_label": "江戸東京博物館"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "adjacent",
+      "deck": "One step out: science and space."
+    },
+    {
+      "type": "photo-spread",
+      "headline": "A laser-cooling pioneer, Artemis reshuffled, and the reefs",
+      "variant": "mosaic",
+      "items": [
+        {
+          "scan": "2113642076978184278",
+          "caption": "Claude Cohen-Tannoudji has died. A founder of cooling and trapping atoms with laser light, he won the 1997 Nobel Prize in Physics. Translated from French.",
+          "source_label": "CNRS"
+        },
+        {
+          "scan": "2113776971603689874",
+          "caption": "Artemis III becomes a crewed test of Orion and two landers in low Earth orbit in 2027. Artemis IV, targeted for 2028, will be the first landing.",
+          "source_label": "NASA"
+        },
+        {
+          "scan": "2113240268476477711",
+          "caption": "In the first global Red List of Ecosystems assessment of coral reefs, 96% of assessed shallow-water reef ecosystems are Critically Endangered.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "IUCN"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "open-window",
+      "deck": "Worth knowing, whatever you work on."
+    },
+    {
+      "type": "brief-grid",
+      "headline": "A parking constant, Vesalius's machines, a letter to a coffin, and 46°C",
+      "columns": 2,
+      "variant": "cards",
+      "items": [
+        {
+          "scan": "2113801214907560098",
+          "headline": "Random parking leaves about 25% of the curb empty",
+          "note": "Rényi's parking constant, 0.7475979…: once every gap is shorter than a car, a quarter of the street is empty but no one can use it.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "Math Files / MathWorld"
+        },
+        {
+          "scan": "2113998221420687463",
+          "headline": "Vesalius explained the body with winepresses and spinning tops",
+          "note": "He died on this day in 1564. An essay on the everyday machines and objects he used to explain anatomy.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "The Public Domain Review"
+        },
+        {
+          "scan": "2114050556717060328",
+          "headline": "A 3,000-year-old letter to a dead wife's coffin",
+          "note": "The scribe Butehamun wrote to his wife's ghost, insisting he had done her no wrong. Egyptians wrote letters to the dead to settle grievances.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "Archaeology Magazine"
+        },
+        {
+          "scan": "2114021709057831092",
+          "headline": "Southern Africa sets all-time heat records, up to 46°C",
+          "note": "Mozambique hit 46°C and Malawi 45°C, with hundreds of station records broken. These are one tracker's compiled figures, not yet official.",
+          "tags": [
+            "new-to-you",
+            "unverified"
+          ],
+          "source_label": "Maximiliano Herrera"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "kicker",
+      "deck": "One to end on."
+    },
+    {
+      "type": "closer",
+      "scan": "2113861569658654810",
+      "headline": "Yesterday, 10/24/26, was the last Pythagorean date this century",
+      "note": "10² + 24² = 26². Only 12 dates fit this century's calendar, and the next is March 4, 2105.",
+      "variant": "photo",
+      "source_label": "Math Files"
+    }
+  ]
+}
