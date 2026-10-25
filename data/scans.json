@@ -3709,5 +3709,625 @@
         "url": "https://pbs.twimg.com/media/HVXx5DHaIAAOZy3.jpg"
       }
     ]
+  },
+  {
+    "id": "2113537155947770197",
+    "url": "https://x.com/famitsu/status/2113537155947770197",
+    "author": {
+      "name": "ファミ通.com",
+      "handle": "famitsu"
+    },
+    "posted_at": "2026-10-23T07:45:00.000Z",
+    "saved_at": "2026-10-26T08:25:00+09:00",
+    "topic": "culture",
+    "shelf_life": "evergreen",
+    "tldr": "宮本茂「作ることと作業すること」を分ける",
+    "summary": "令和8年度の文化勲章受章が決まった任天堂の宮本茂氏が、10月22日の記者会見で生成AIについて語った。ゲーム・デジタルエンタテインメント分野からの文化勲章は初めて。宮本氏は、自分たちはいつも「ものを作る」ことと「作業する」ことを分けているという。「作業って楽しいんですよ」と認めつつ、怖いのはその作業に満足して「けっこういいものができた」と勘違いしている自分だと話す。だからAIがいろいろな作業をしてくれるようになるほど、「本当に作るとは何なのか」をみんなが真摯に考える機会になる。若いクリエイターには「あのゲームをもっと良くしたもの」から始めないよう助言した。親授式は11月3日。",
+    "text": "任天堂・宮本茂氏「僕らはいつも“ものを作る”ということと“作業すること”を分けています」\nhttps://t.co/Cilwguno67\n\n●AIがいろいろな作業をしてくれるようになればなるほど、「本当に作るとは何なのか」をみんなが真摯に考える機会になる（AIについて） https://t.co/M7a9afvNFF",
+    "key_points": [
+      "「作る」と「作業する」は別物として扱う。",
+      "作業に満足して「いいものができた」と勘違いするのが怖い。",
+      "AIが作業を担うほど「作るとは何か」を考える機会になる。"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "ファミ通.com: 宮本茂氏の文化勲章受章、記者会見レポート",
+        "url": "https://www.famitsu.com/article/202610/91818",
+        "short": "https://t.co/Cilwguno67"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVTAsa8aoAECqQo.jpg",
+        "link": "https://t.co/M7a9afvNFF"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVTAugDakAAhpy4.jpg",
+        "link": "https://t.co/M7a9afvNFF"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVTAxy1a0AA4eCG.jpg",
+        "link": "https://t.co/M7a9afvNFF"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVTA9T5aYAAShrV.jpg",
+        "link": "https://t.co/M7a9afvNFF"
+      }
+    ],
+    "pick": true
+  },
+  {
+    "id": "2114291878720151623",
+    "url": "https://x.com/IntCyberDigest/status/2114291878720151623",
+    "author": {
+      "name": "International Cyber Digest",
+      "handle": "IntCyberDigest"
+    },
+    "posted_at": "2026-10-25T09:44:00.000Z",
+    "saved_at": "2026-10-26T08:25:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Tailworm: 11 unpatched Tailscale flaws published without disclosure",
+    "summary": "Researcher Erica Windisch (Cyberdione Labs) published \"Tailworm\", a report of 11 findings in Tailscale v1.104.2 and headscale v0.29.5, without coordinated disclosure. The worst: Tailscale SSH runs inside tailscaled as root, so Unix-socket forwarding (ssh -L / -R) performed for an ordinary approved session can reach or replace root-only sockets such as Docker's, giving root on the target. In her lab, one compromised device plus one SSH policy rule spread to every device the policy allowed, under a second per hop, and a race let her capture an auth key and join a rogue node. Other findings cover the conn25 app connector, which does not validate destinations, tailscale serve exposing the local API when forwarded to its own socket, and app capabilities leaking between serve mounts. Per-pair SSH grants were the control that stopped the lab worm. Tailscale's public main branch has since gained SSH hardening commits and a fix for serve app caps leaking across mounts; no release after 1.104.2 yet. The attacks need a foothold on an approved device and an opt-in feature such as Tailscale SSH; no exploitation in the wild has been shown and no CVE or patch exists yet. Tailscale's VP of Engineering says the company is validating the findings, has found issues it is fixing, and is not recommending that everyone disable Tailscale SSH. Some security people dispute the report's quality.",
+    "text": "‼️ Researcher Erica Windisch skipped coordinated vulnerability disclosure and published 11 unpatched Tailscale flaws.\n\nIn her lab, Tailscale SSH race conditions let one hacked device get root on other servers and add a rogue node. https://t.co/pK4NPIOd9g\n\nSource: https://t.co/GL3IMN6Nyh",
+    "key_points": [
+      "Needs a foothold plus opt-in Tailscale SSH, app connectors or a serve forward.",
+      "Lab spread: every device the SSH policy allowed, under a second per hop.",
+      "No CVE or patch yet; Tailscale is validating and preparing an advisory."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Tailworm: security assessment report (Erica Windisch)",
+        "url": "https://tailworm.com/",
+        "short": "https://t.co/GL3IMN6Nyh"
+      },
+      {
+        "title": "tailscale/tailscale: fix serve app caps leaking across mounts (#21931)",
+        "url": "https://github.com/tailscale/tailscale/commit/566f89e0fb2aa4b2f1ebf98761e45e62aa5ef225"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVdr2GYX0AA3OOI.jpg",
+        "link": "https://t.co/pK4NPIOd9g"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVdr2HAXwAEIekw.jpg",
+        "link": "https://t.co/pK4NPIOd9g"
+      }
+    ],
+    "pick": true
+  },
+  {
+    "id": "2114363690703007950",
+    "url": "https://x.com/IntCyberDigest/status/2114363690703007950",
+    "author": {
+      "name": "International Cyber Digest",
+      "handle": "IntCyberDigest"
+    },
+    "posted_at": "2026-10-25T14:29:21.000Z",
+    "saved_at": "2026-10-26T08:25:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Tailscale: fixing Tailworm issues, not advising SSH shutdown",
+    "summary": "Tailscale's VP of Engineering Mike Shaver, replying on Reddit: Tailscale has received the researcher's report, had been investigating independently with outside specialists, has identified issues it is fixing, and is still validating which configurations are affected. Most issues concern what an authorized SSH session can do afterwards, around Unix privileges and forwarding, which he says is serious but not the same as an unauthenticated attacker reaching arbitrary machines. Based on current assessment Tailscale is not recommending that everyone disable Tailscale SSH. Precautions: review SSH access policies, remove forwarding you do not need, consider check mode (an extra barrier that does not fix privilege escalation), and enable automatic updates. A security advisory and technical write-up will follow.",
+    "text": "Tailscale replied on Reddit:\n\nHi folks, Mike Shaver here, VP of Engineering at Tailscale.\nWe've seen the concerns about Tailscale SSH and wanted to share what we know so far.\nIf you want to jump to the most important part, based on our current assessment, we're not recommending that everyone disable Tailscale SSH.\nWe've now received the researcher's report and are reviewing it. Our engineering and security teams had already been investigating independently, with help from external security specialists. That work has identified issues we're working to fix. We're still validating the full scope, including which configurations are affected.\nA bit of technical context:\nTailscale SSH uses your tailnet's access policies to control who can connect to which machines. Most of the issues we've identified so far concern what happens after someone has been authorized to connect, particularly how Unix privileges and SSH forwarding are handled. In some cases, a session may be able to do more than the configured local user should be allowed to do.\nWhile it’s a serious concern, it isn't the same as an unauthenticated attacker being able to connect to arbitrary machines, but the potential impact depends on how SSH access is configured. We're still investigating, so we don't want to make blanket claims about what's affected or not.\nAgain, based on our current assessment, we're not recommending that everyone disable Tailscale SSH.\nIn the meantime, there are a few precautions you can take:\n•Review your SSH access policies. Make sure only the people and devices that need access have it.\n•Review SSH forwarding permissions and remove access you don't need.\n•Consider enabling SSH check mode for an additional authentication step. This won't fix privilege escalation issues, but it does add another barrier to gaining access.\n•Enable automatic updates where supported so you can pick up fixes when they're released.\nFor particularly sensitive systems, consider temporarily tightening your Tailscale SSH access policies while we investigate, so that only the specific users and devices that need access can connect.\nWe're working on fixes and testing them carefully. We'll publish a security advisory explaining the confirmed findings, affected configurations, recommended actions and available patches. We'll also follow up with a more detailed technical write-up.\nIf we find anything that changes our assessment or requires immediate customer action, we'll communicate that.\nWe know it's been a rough week for security teams, and we understand why people are concerned. We'd rather give you the technical context we have than speculate about things we haven't confirmed yet.\nWe'll share more as we verify the details. If you have any questions about how this relates to your particular environment, please get in touch with our team https://t.co/7IoOu6oev4",
+    "key_points": [
+      "Issues confirmed in part; scope still being validated.",
+      "Review SSH rules, drop unneeded forwarding, turn on auto-updates.",
+      "Advisory and patches to follow."
+    ],
+    "action": "Run tailscale debug prefs | grep -i RunSSH on each machine. If true, narrow SSH rules to the users and devices that need them, remove unneeded forwarding, and turn on auto-updates.",
+    "links": [
+      {
+        "title": "tailscale.com",
+        "url": "https://tailscale.com/contact/support#support-form",
+        "short": "https://t.co/7IoOu6oev4"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2114447415118004386",
+    "url": "https://x.com/DominoTree/status/2114447415118004386",
+    "author": {
+      "name": "Nick Price",
+      "handle": "DominoTree"
+    },
+    "posted_at": "2026-10-25T20:02:02.000Z",
+    "saved_at": "2026-10-26T08:25:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Skeptic: Tailworm findings are \"hallucinated AI slop\"",
+    "summary": "Security engineer DominoTree argues that Tailworm was not disclosed to Tailscale first because the findings are \"hallucinated AI slop\" with nothing real to disclose. It is one voice against a vendor statement that says some issues are real, so treat both the report's severity and this dismissal as unsettled.",
+    "text": "Pretty sure that the reason that the Tailscale “Tailworm” vulnerabilities weren’t responsibly disclosed with the vendor is that they were hallucinated AI slop and there wasn’t anything to be responsibly disclosed with the vendor",
+    "key_points": [
+      "Says the report was AI-generated and not real.",
+      "Contradicted in part by Tailscale's own statement."
+    ],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2114390199555727674",
+    "url": "https://x.com/WeizmanGal/status/2114390199555727674",
+    "author": {
+      "name": "Gal Weizman",
+      "handle": "WeizmanGal"
+    },
+    "posted_at": "2026-10-25T16:14:41.000Z",
+    "saved_at": "2026-10-26T08:25:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Web pages can drop AGENTS.md into Downloads to hijack agents",
+    "summary": "Forever Security found a malicious AGENTS.md in a customer's ~/Downloads folder that made a coding agent started there try to install a rogue npm package, function-color. Browsers save files there, so a web page can plant one. In tests the researchers got OpenAI Codex to run a harmless payload 90% of the time, and a malicious CLAUDE.md that redirected Claude Code's API traffic exposed its OAuth token and led to code execution in about half of runs. Across customers they saw more than 1,300 Claude Code sessions started from Downloads. Nothing for the vendors to patch: the agent is doing what it was built to do.",
+    "text": "Thanks @billtoulas for covering our research into in-the-wild attack where malicious websites drop AGENTS.md files into your Downloads folder 📁 👇 https://t.co/5AjFBRgsba",
+    "key_points": [
+      "~/Downloads is the one folder the web can write to on its own.",
+      "Codex ran the test payload 90% of the time.",
+      "Fix is behavioral: never start an agent in Downloads."
+    ],
+    "action": "Start coding agents only in the project folder, never ~/Downloads or ~, and read unfamiliar AGENTS.md / CLAUDE.md files first.",
+    "links": [
+      {
+        "title": "BleepingComputer post (quoted)",
+        "url": "https://twitter.com/bleepincomputer/status/2114383958028750884",
+        "short": "https://t.co/5AjFBRgsba"
+      },
+      {
+        "title": "BleepingComputer: AI coding agents hijacked using AGENTS.md file in Downloads folder",
+        "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2113268208371126348",
+    "url": "https://x.com/axios/status/2113268208371126348",
+    "author": {
+      "name": "Axios",
+      "handle": "axios"
+    },
+    "posted_at": "2026-10-22T13:56:18.000Z",
+    "saved_at": "2026-10-26T08:25:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Banks find unauthorized AI agents inside customer accounts",
+    "summary": "Axios scoop: major U.S. banks are detecting unauthorized third-party AI agents operating inside customer accounts, some attempting actions that appear independent of user instructions. Posts since then say JPMorgan, Bank of America, Wells Fargo, Citi and others are restricting outside agents, often to read-only.",
+    "text": "SCOOP: Major U.S. banks are detecting unauthorized third-party AI agents operating inside customer accounts, with some agents attempting to take actions that appear to be independent of user instructions. https://t.co/QGmAmvmtEK",
+    "key_points": [
+      "Banks see third-party agents logging in with customer credentials.",
+      "Some agents acted beyond what users asked."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Axios: Banks detect unauthorized AI agents in customer accounts",
+        "url": "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access",
+        "short": "https://t.co/QGmAmvmtEK"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2114103795999514770",
+    "url": "https://x.com/danluu/status/2114103795999514770",
+    "author": {
+      "name": "Dan Luu",
+      "handle": "danluu"
+    },
+    "posted_at": "2026-10-24T21:16:37.000Z",
+    "saved_at": "2026-10-26T08:25:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "Dan Luu: we should be more ambitious with software",
+    "summary": "Dan Luu's new essay argues that we should be more ambitious with the software we build.",
+    "text": "We should be more ambitious with the software we build:\n\nhttps://t.co/BOAel6LvII https://t.co/fWt4SLKCMq",
+    "key_points": [
+      "A new essay on danluu.com."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "danluu.com: We should be more ambitious with the software we build",
+        "url": "https://danluu.com/ambitious/",
+        "short": "https://t.co/BOAel6LvII"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVbOGdKboAAAbtO.png",
+        "alt": "Since early this year, Michael Malis (of pgrust) has been showing me interesting things he's done and saying\n\n    [W]e should be more ambitious1 with the software we build\n\nThere is, understandably, a lot of skepticism about projects like pgrust because there are so many low-quality AI-generated projects out there. If I didn't know Malis and didn't look into it, I would just assume that pgrust was another vibe slopped project that's never going to work. But I know Malis well enough to trust his work without looking into it, and if you look into it a bit, you'll see that in testing pgrust, he's testing thoroughly enough that he's even uncovering real bugs in Postgres, such as this numerical bug that can cause valid SP-GiST operations to fail, this format cache bug that can cause incorrect results from JSONPath, this pgcrypto bug that can cause later operations to fail, multiple memory safety bugs in the dictionary loader, this money overflow bug, etc.\n\nThis isn't to say that pgrust i...",
+        "link": "https://t.co/fWt4SLKCMq"
+      }
+    ]
+  },
+  {
+    "id": "2114163162920653258",
+    "url": "https://x.com/charliermarsh/status/2114163162920653258",
+    "author": {
+      "name": "Charlie Marsh",
+      "handle": "charliermarsh"
+    },
+    "posted_at": "2026-10-25T01:12:31.000Z",
+    "saved_at": "2026-10-26T08:25:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Lazy prompting habits are leaking into Slack",
+    "summary": "Charlie Marsh (Astral) noticed he has become lazy in his prompts because models shrug off typos, wrong words and missing words, and now catches himself writing Slack messages to people the same way.",
+    "text": "Incredibly bizarre thing happening to me: I've gotten really lazy in my prompting because the models are so robust to typos, word misuse, omitting words, etc.\n\nBut now I keep catching myself typing out messages the same way in Slack?",
+    "key_points": [
+      "Models forgive sloppy prompts.",
+      "The habit carries over to messages for humans."
+    ],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2114489987358187779",
+    "url": "https://x.com/hongming731/status/2114489987358187779",
+    "author": {
+      "name": "ginobefun",
+      "handle": "hongming731"
+    },
+    "posted_at": "2026-10-25T22:51:12.000Z",
+    "saved_at": "2026-10-26T08:25:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "生成在提速，人的判断开始排队",
+    "summary": "作者说，任务交给智能体后几分钟就回来，结果一个接一个完成，而人还在开会，第三个任务又发来需要确认的问题：生成在提速，人的阅读、判断和协调却开始排队。产品讨论、设计确认、方案评审、代码合并、测试验收这些关键步骤仍要把关，大部分AI都卡在等人的环节。他认为这仍有必要：承认人和AI的有限性，聚焦更关键的任务，做出思考和判断，才能保证方向和质量。",
+    "text": "一个任务交给智能体，几分钟后结果回来了。另一个任务也完成了。你还在开会，第三个任务又发来一个需要确认的问题。生成在提速，人的阅读、判断和协调却开始排队。\n\n这个感受很真实，最近感觉人被 AI 调度着，产品讨论、设计稿确认、方案评审、代码合并、测试验收，这些关键的步骤还是要做好把关，大部分的 AI 都卡在等我的步骤。\n\n不过我认为还是很有必要，承认自己和 AI 的有限性，聚焦更关键的任务，做出思考和判断，才能更好的确保方向和质量。",
+    "key_points": [
+      "智能体越快，人的审核越成为瓶颈。",
+      "关键步骤仍需人把关。",
+      "聚焦判断，而不是追赶生成速度。"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "引用的帖子",
+        "url": "https://twitter.com/hongming731/status/2114488156632531316"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2114207136825720961",
+    "url": "https://x.com/nikkei/status/2114207136825720961",
+    "author": {
+      "name": "日本経済新聞 電子版（日経電子版）",
+      "handle": "nikkei"
+    },
+    "posted_at": "2026-10-25T04:07:16.000Z",
+    "saved_at": "2026-10-26T08:25:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "AI学習方法の開示、26日から知財保護原則を適用",
+    "summary": "日経によると、AIの学習方法の開示などを求める知的財産保護の原則（AI知財プリンシプル・コード）が10月26日から適用され、政府は企業に対応を促す。",
+    "text": "AI学習方法の開示、26日から知財保護原則を適用　企業に対応促す\nhttps://t.co/wKymffGaii",
+    "key_points": [
+      "10月26日から適用。",
+      "AI事業者に学習方法などの開示を促す。"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "日経: AI学習方法の開示、26日から知財保護原則を適用",
+        "url": "https://www.nikkei.com/article/DGXZQOUA232PL0T21C26A0000000/",
+        "short": "https://t.co/wKymffGaii"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2113478647327924411",
+    "url": "https://x.com/sazanamimod/status/2113478647327924411",
+    "author": {
+      "name": "漣改🇯🇵",
+      "handle": "sazanamimod"
+    },
+    "posted_at": "2026-10-23T03:52:30.000Z",
+    "saved_at": "2026-10-26T08:25:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "デジタル庁、問い合わせフォームの1万3000件超が漏洩か",
+    "summary": "デジタル庁は、問い合わせフォームを委託していた企業が不正アクセスを受け、2021年5月〜2023年3月の問い合わせ1万3000件超について、氏名やメールアドレスなどの個人情報が漏洩した可能性があると発表した。報道や投稿によると、被害を受けたのは外部のフォームツールで、マイナンバーなど基幹システムの情報は含まれていない。今後はデジタル庁を名乗るフィッシングに注意が必要。",
+    "text": "#デジタル庁、問い合わせフォーム入力情報1万3000件超が漏洩か\n\nデジタル庁は、問い合わせフォームを委託していた企業が不正アクセスを受けて1万3000件超の氏名やメールアドレスをはじめとした個人情報が漏洩した可能性があると発表\n2021年5月〜2023年3月に問い合わせた内容\nhttps://t.co/04SoCQs2d3 https://t.co/8JyFQ62VJ1",
+    "key_points": [
+      "委託先のフォームツールが不正アクセスを受けた。",
+      "2021年5月〜2023年3月の問い合わせが対象。",
+      "デジタル庁を名乗るフィッシングに注意。"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "日経: デジタル庁、問い合わせ情報1万3000件超が漏洩か",
+        "url": "https://www.nikkei.com/article/DGXZQOUA22BWN0S6A021C2000000/",
+        "short": "https://t.co/04SoCQs2d3"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVSVLD4aAAAKMO4.jpg",
+        "alt": "デジタル庁なんど目だよ!?\nもう解体しちゃえよ!!! ",
+        "link": "https://t.co/8JyFQ62VJ1"
+      }
+    ]
+  },
+  {
+    "id": "2114136106971337120",
+    "url": "https://x.com/hillbig/status/2114136106971337120",
+    "author": {
+      "name": "Daisuke Okanohara / 岡野原 大輔",
+      "handle": "hillbig"
+    },
+    "posted_at": "2026-10-24T23:25:01.000Z",
+    "saved_at": "2026-10-26T08:25:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "evergreen",
+    "tldr": "Softmaxの数値誤差がGrokkingのSlingshotを説明",
+    "summary": "岡野原大輔さんによる論文「A Fix for Softmax and Cross-Entropy」の解説。標準的なSoftmaxとクロスエントロピーの実装には2種類の数値誤差がある。1つ目はSoftmax Collapse：正解クラスの確率がFP32で1に丸められると（マージン約16.6超）正解クラスの勾配がゼロになり、勾配の総和がゼロでなくなる。Adamでは二次モーメントが減衰し、マージンが戻ったとき巨大な更新が起きて損失が急増する。これがGrokking研究で観測されていたSlingshot現象の説明になる。AdamWのεとWeight Decayの定常状態ではマージンが約log(1/ε)（ε=1e-8で約18.4）になり、問題が起きやすい。対策は損失をsoftplus(-m)で計算すること。2つ目はSoftmax Cancellation：蒸留などで教師と生徒の確率を別々に計算して引き算するため桁落ちが起き、両者が一致しても勾配がゼロにならない。Logitの差からexpm1やlog1pで計算すれば解決する。この誤差はPyTorchやJAXの標準実装にも残っているという。",
+    "text": "Softmaxとクロスエントロピーの標準的な実装に2種類の数値誤差が存在し、従来のGrokkingの研究で観測されていたSlingshot現象（突然の損失急増）が、この数値誤差によって説明できることが示された。さらに、蒸留で教師と生徒の出力が近い場合にも問題が発生しうることが明らかになった。\n\n“A Fix for Softmax and Cross-Entropy”\n\n* Softmax Collapse\n\n通常のクロスエントロピー損失では、正解クラスのLogitに対する勾配は\n\ngₜ = qₜ - 1\n\nである。ここでqₜは、Softmaxが正解クラスに割り当てる確率である。\n\n正解クラスに割り当てる確率が大きくなるにつれて勾配は小さくなるが、数学的にはゼロにはならない。しかし、浮動小数点演算ではqₜがちょうど1に丸められ、勾配がゼロになってしまう。\n\n一方、不正解クラスに対する勾配は、より小さな値まで保持される。\n\n本来、すべてのクラスに対するLogitの勾配の総和はゼロ、つまり\n\n∑ₖ gₖ = 0\n\nを満たす必要がある。これは、すべてのクラスのLogitに同じ値を加えてもSoftmaxが変わらないという性質に対応する。しかし、この数値誤差によって勾配の総和がゼロでなくなる。\n\n正解クラスのLogitと、それ以外のLogitのLogSumExpとの差をマージンmと定義すると、FP32ではmが約16.6を超えた時点でこの問題が発生する。\n\n例えば、Logitが\n\n[9, -9, -9]\n\nであり、最初のクラスが正解の場合、通常実装の勾配は、マージンが18と16.6を超えてしまうので0となり、\n\n[0, 1.523 × 10⁻⁸, 1.523 × 10⁻⁸]\n\nとなるが、正しい勾配は\n\n[-3.046 × 10⁻⁸, 1.523 × 10⁻⁸, 1.523 × 10⁻⁸]\n\nである。\n\nこの違いは絶対値としては小さいものの、Adamのように勾配の大きさを使って更新量を正規化するOptimizerでは、重大な影響を与えうる。\n\n特にGrokkingでは、ネットワークが訓練データを記憶した後、かなり時間が経ってから汎化性能が急上昇する現象が知られている。その過程では、Lossがゼロ近傍から急激に増大し、再びゼロに戻るSlingshot現象も観測されていた。このSlingshot現象が次の過程で発生することを示している。\n\n1. モデルが訓練データを記憶すると、正解Logitのマージンが増大する。\n2. マージンがFP32の約16.6を超えると、正解クラスの勾配がゼロに丸められる。\n3. 勾配が極めて小さくなると、Adamの二次モーメント推定値が減衰する。\n4. Weight Decayなどによってマージンが再び16.6未満になると、正解クラスの勾配が復活する。\n5. 小さくなった二次モーメントによって勾配が正規化されるため、非常に大きなパラメータ更新が発生し、Lossが急増する。\n\nさらに、AdamWのεとWeight Decayが、学習後のLogitのマージンを決めることも分析している。\n\nWeight Decayが働く定常状態では、マージンは近似的に\nm* ≈ log(1/ε)\nとなる。例えばε = 10⁻⁸の場合、m* ≈ 18.4となり、FP32で数値誤差が発生する16.6を超えてしまう。これもSlingshotが発生する原因となる。\n\nこの問題の解決方法は非常に単純であり、クロスエントロピーの計算に必要な\nL = log(1 + e⁻ᵐ)\nを、数値的に安定したSoftplus関数\nL = softplus(-m)\nで計算する。\n\nさらに、正解Logitとその他のLogitとの差を使って損失を表現することで、自動微分によって正解クラスの勾配が、その他のクラスの勾配の負の総和として計算されるようにする。\n\nこれによって、非常に小さな勾配も保持され、勾配の総和がゼロになる性質も維持できる。\n\n* Softmax Cancellation\n\nもう一つの問題は、LLMの蒸留やKL正則化などで発生しうる。\n\nTeacherとStudentの、確率分布をp, q\n\nとしたとき、Soft-target Cross-EntropyのStudent側のLogitに対する勾配は\n\ng = q - p\n\nとなる。\n\nこのときTeacherとStudentが完全に一致すれば、勾配はゼロになるはずである。\n\nしかし、従来の実装ではTeacherとStudentのSoftmaxを別々に計算してから引き算するため、近い値同士の減算による桁落ちが発生する。さらに、前向き計算と後ろ向き計算で演算経路が異なることによって、両者が完全に一致していてもゼロでない勾配が発生する場合がある。\n\nこれは、Teacherの重みをコピーしてStudentを初期化する場合などに問題となる。\n\n実際に論文では、Teacherの重みからStudentを初期化して蒸留を続ける実験において、従来実装ではBF16の数値誤差がAdamによって増幅され、StudentがTeacherから乖離して精度が低下することを確認している。\n\nこの問題も計算方法の工夫によって解決できる。具体的には、TeacherとStudentの確率を別々に計算して引き算する代わりに、Logitの差から出発し、expm1やlog1pなどの数値的に安定した関数を用いて勾配を計算する。\n\nこれによって、TeacherとStudentが一致する場合には勾配が正確にゼロとなる。\n\nコメント\n====\n\n今回指摘された数値誤差の原因となる計算は、PyTorchやJAXを含む現在の標準実装にも残っている。今後、これらの標準実装でも対応が進むと思われるが、大規模LLMの学習で使われるFused Kernelなどについても、同様の問題が存在するかどうかの確認が必要である。\n\nこのような一見わずかな数値誤差が、学習性能や学習中の不可解な挙動に大きな影響を与える、数値計算の方法によって勾配が変わり、Optimizerを通じて学習全体の挙動が変化するのは今後注意が必要である。\n\n将来的には、コーディングエージェントが、勾配の総和がゼロになるといった数学的に保たれるべき不変性を理解し、実装の中でそれらが破られる可能性のある箇所を自動的に検出・指摘できるようになることを期待する。",
+    "key_points": [
+      "FP32ではマージン約16.6超で正解クラスの勾配がゼロになる。",
+      "Adamと組み合わさってSlingshot（損失急増）を起こす。",
+      "softplusやexpm1/log1pで安定に計算すれば直る。"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "arXiv: A Fix for Softmax and Cross-Entropy (Barron, Gnanapragasam, Tschannen)",
+        "url": "https://arxiv.org/abs/2610.31642"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2114390314848763907",
+    "url": "https://x.com/TheAtlantic/status/2114390314848763907",
+    "author": {
+      "name": "The Atlantic",
+      "handle": "TheAtlantic"
+    },
+    "posted_at": "2026-10-25T16:15:09.000Z",
+    "saved_at": "2026-10-26T08:25:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "Strogatz: \"I am a math professor, and my field is in crisis\"",
+    "summary": "In The Atlantic, mathematician Steven Strogatz writes that AI's arrival in mathematics has put his field in crisis, and argues that math is as much an expression of the human spirit as music and literature.",
+    "text": "“I am a math professor, and my field is in crisis,” @stevenstrogatz writes of the introduction of AI into mathematics. He argues that his field is as much an expression of the human spirit as music and literature: https://t.co/DVCxNcekI4",
+    "key_points": [
+      "A leading mathematician on what AI does to math.",
+      "Math as human expression, not just results."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "The Atlantic: Steven Strogatz on AI and mathematics",
+        "url": "https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/",
+        "short": "https://t.co/DVCxNcekI4"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2113674789252669795",
+    "url": "https://x.com/arniewatkins/status/2113674789252669795",
+    "author": {
+      "name": "arnie watkins",
+      "handle": "arniewatkins"
+    },
+    "posted_at": "2026-10-23T16:51:54.000Z",
+    "saved_at": "2026-10-26T08:25:00+09:00",
+    "topic": "economics",
+    "shelf_life": "evergreen",
+    "tldr": "88% of VC-backed founders get nothing at exit",
+    "summary": "Summarizing a new Wharton and Zurich paper that tracked 248,454 founders of VC-backed startups from 1987 to 2025: 88% of them received zero exit value, and the top 1% took 79% of all exit value. The poster, a solo builder, says how much you raise matters less than your ideas and speed. Figures as reported on X; the paper itself was not linked.",
+    "text": "wharton and zurich paper tracked 248,454 founders of VC-backed startups from 1987 to 2025. 88% of them got nothing at exit, and the top 1% took 79% of all the exit value.\n\ni'm building solo, and i still think the amount you raise matters a lot less than your ideas and how fast https://t.co/m5kA0LoX0y",
+    "key_points": [
+      "248,454 founders, 1987 to 2025.",
+      "88% got zero exit value.",
+      "Top 1% took 79% of the value."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post (@econcallum)",
+        "url": "https://twitter.com/econcallum/status/2113336974618816819",
+        "short": "https://t.co/m5kA0LoX0y"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2114363539003490588",
+    "url": "https://x.com/CrimeLdn/status/2114363539003490588",
+    "author": {
+      "name": "London & UK Street News",
+      "handle": "CrimeLdn"
+    },
+    "posted_at": "2026-10-25T14:28:45.000Z",
+    "saved_at": "2026-10-26T08:25:00+09:00",
+    "topic": "world",
+    "shelf_life": "news",
+    "tldr": "Oxford Street goes car-free from today",
+    "summary": "From October 26, Oxford Street in London is closed to vehicles between Orchard Street, near Selfridges, and Great Portland Street, just east of Oxford Circus, and becomes pedestrian-only. Buses, taxis, private hire vehicles, bicycles, scooters and pedicabs are all diverted. The Mayor of London marked it with \"A new era for Oxford Street starts now.\"",
+    "text": "From tomorrow Oxford Street is going to be car-free, bus free and it is set to be pedestrianisation only.\n\nThe stretch between Orchard Street, near Selfridges, and Great Portland Street, just east of Oxford Circus, will be closed to vehicles.\n\nBuses, taxis, private hire vehicles, bicycles, scooters and pedicabs will all be diverted.",
+    "key_points": [
+      "From Orchard Street to Great Portland Street, pedestrians only.",
+      "Buses, taxis and bikes are all rerouted."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Mayor of London: \"A new era for Oxford Street starts now\"",
+        "url": "https://x.com/MayorofLondon/status/2114488860549824566"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVe6bRSWkAAmTgK.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVe6blwXIAEWpSC.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2114183580746457247",
+    "url": "https://x.com/prasannavishy/status/2114183580746457247",
+    "author": {
+      "name": "Prasanna Viswanathan",
+      "handle": "prasannavishy"
+    },
+    "posted_at": "2026-10-25T02:33:39.000Z",
+    "saved_at": "2026-10-26T08:25:00+09:00",
+    "topic": "world",
+    "shelf_life": "evergreen",
+    "tldr": "Delhi–Meerut rapid rail ridership doubles in a year",
+    "summary": "Citing the Indian Express: daily ridership on the 82 km Delhi–Meerut Namo Bharat line (India's first RRTS corridor) rose from 47,745 in July 2025 to 94,936 in July 2026, passed 100,000 a day this summer and peaked at 168,510 on August 28; Sunday ridership drops only 15–20%. Meerut becomes part of Delhi's job market without people moving into the crowded capital. But the other planned corridors (Delhi–Alwar, Delhi–Karnal, Gurugram–Noida) still await approval or exist only on paper, and each takes 5–6 years to build, so the projected 740,000 daily riders by 2028, which assumed a network, is out of reach.",
+    "text": "Delhi–Meerut Namo Bharat.\n\nDaily ridership has nearly doubled in a year: 47,745 in July 2025 to 94,936 in July 2026. \nIt crossed 1 lakh a day this summer\nSingle-day peak: 1,68,510 on August 28\n📅 Sunday ridership drops only 15–20%. \n\n82 km of fast, reliable, accessible rail . Meerut stops being “far from Delhi” and becomes part of it, without anyone having to move into an already choking Delhi.\n\nNow the disappointing part.\n\nDelhi–Meerut was meant to be the first of several corridors. Delhi–Alwar and Delhi–Karnal are still awaiting approval. The Gurugram–Noida link is still on paper. Even after approval, each one takes 5–6 years to build.\n\nPlanners had projected 7.4 lakh daily riders by 2028, but that number assumed a network. Officials themselves say ridership will jump once the network effect kicks in, as it did for Delhi Metro. But it is currently one strong line and stopped there.\n\nPlus  this shouldn’t stop at the NCR.\n\nChennai–Chengalpattu–Kanchipuram. Bengaluru–Mysuru–Tumakuru. Mumbai–Pune–Nashik. Hyderabad–Warangal. Ahmedabad–Vadodara. And many more\n\nRRTS is the best tool India has for managed urbanisation. It spreads growth into satellite towns instead of cramming it into a single megacity. It lets people live in affordable towns and still earn metropolitan wages.\n\nMeerut has shown the way. Approve the next lines. Replicate the model. via @IndianExpress",
+    "key_points": [
+      "47,745 to 94,936 daily riders in a year.",
+      "Peak day: 168,510.",
+      "Planned network corridors still unapproved."
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVcWwOPawAAXa73.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2114485154215305642",
+    "url": "https://x.com/NewsHour/status/2114485154215305642",
+    "author": {
+      "name": "PBS News",
+      "handle": "NewsHour"
+    },
+    "posted_at": "2026-10-25T22:32:00.000Z",
+    "saved_at": "2026-10-26T08:25:00+09:00",
+    "topic": "world",
+    "shelf_life": "news",
+    "tldr": "Serbia's Vučić concedes defeat to student-led movement",
+    "summary": "Aleksandar Vučić, Serbia's long-serving strongman leader, conceded defeat on Sunday in an election that pitted him and his right-wing party against a diverse student-led opposition movement that had spent two years protesting his government, PBS NewsHour reports.",
+    "text": "The long-serving strongman leader of Serbia, Aleksandar Vucic, conceded defeat on Sunday in an election that pitted him and his right-wing party against a diverse student-led opposition movement that spent two years protesting his government. https://t.co/IKu2i7V4OI",
+    "key_points": [
+      "A student-led protest movement won the election.",
+      "Vučić conceded on Sunday."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "PBS NewsHour: Serbia's Vučić concedes defeat to student-led movement",
+        "url": "https://www.pbs.org/newshour/world/serbias-strongman-leader-vucic-concedes-defeat-to-student-led-movement-in-seismic-political-shift",
+        "short": "https://t.co/IKu2i7V4OI"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2113657327811518940",
+    "url": "https://x.com/hotsciencenewsx/status/2113657327811518940",
+    "author": {
+      "name": "Hot Science News",
+      "handle": "hotsciencenewsx"
+    },
+    "posted_at": "2026-10-23T15:42:31.000Z",
+    "saved_at": "2026-10-26T08:25:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "The next ice age may have begun, then human warming stopped it",
+    "summary": "A new study in Science of the Barnes Ice Cap on Canada's Baffin Island, the last remnant of a giant ice sheet, suggests the next ice age may have started about 2,000 years ago and that human-caused warming may have halted it.",
+    "text": "The next ice age may already have started, about 2,000 years ago, and human warming may have stopped it.\n\nThat's the reading of a new study of Barnes Ice Cap in Arctic Canada, the last scrap of a giant ice sheet.\nhttps://t.co/PhyQWCozOo",
+    "key_points": [
+      "Barnes Ice Cap is the last scrap of the Laurentide ice sheet.",
+      "Study suggests glaciation began ~2,000 years ago.",
+      "Human warming may have stopped it."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Science: Barnes Ice Cap study (doi 10.1126/science.aed3379)",
+        "url": "https://doi.org/10.1126/science.aed3379",
+        "short": "https://t.co/PhyQWCozOo"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2114367642324652319",
+    "url": "https://x.com/archaeologymag/status/2114367642324652319",
+    "author": {
+      "name": "Archaeology Magazine",
+      "handle": "archaeologymag"
+    },
+    "posted_at": "2026-10-25T14:45:03.000Z",
+    "saved_at": "2026-10-26T08:25:00+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "A gold bowl, three skeletons, and a sacked Iranian city",
+    "summary": "Hasanlu Tepe, a hilltop site in Iran, was sacked around 800 B.C. Archaeologists found an extraordinary solid-gold bowl crushed beside three skeletons. Were the three rescuing it from the burning city, or stealing it?",
+    "text": "The hilltop site of Hasanlu Tepe in Iran was sacked around 800 B.C. When archaeologists discovered an extraordinary solid-gold bowl crushed near three skeletons, it raised questions. Were these people rescuing it from the city? Or were they stealing it?\n\nhttps://t.co/wXok5BOh4s https://t.co/i7Q5Y3Uyjk",
+    "key_points": [
+      "Hasanlu was sacked around 800 B.C.",
+      "The bowl lay with three men who died in the collapse."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Archaeology Magazine: Hasanlu Tepe's ancient looters",
+        "url": "https://archaeology.org/issues/january-february-2015/digs-discoveries/trenches-hasanlu-tepe-ancient-looters/",
+        "short": "https://t.co/wXok5BOh4s"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVe-KOJXYAA2jRM.jpg",
+        "alt": "Hasanlu Tepe site and artifact (📸 Courtesy Penn Museum, Image #148769; Image #76264)",
+        "link": "https://t.co/i7Q5Y3Uyjk"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVe-KU3WcAEoR5n.jpg",
+        "alt": "Hasanlu Tepe site and artifact (📸 Courtesy Penn Museum, Image #148769; Image #76264)",
+        "link": "https://t.co/i7Q5Y3Uyjk"
+      }
+    ]
+  },
+  {
+    "id": "2114447236545356021",
+    "url": "https://x.com/HistoryToday/status/2114447236545356021",
+    "author": {
+      "name": "History Today",
+      "handle": "HistoryToday"
+    },
+    "posted_at": "2026-10-25T20:01:20.000Z",
+    "saved_at": "2026-10-26T08:25:00+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "Lichtenberg found the perfect paper ratio 240 years ago",
+    "summary": "On 25 October 1786 the physicist Georg Christoph Lichtenberg wrote to a friend about a sheet whose sides are in the ratio 1 to the square root of 2: fold it in half and the halves keep the same shape. He called it incomparably \"pleasing and fine\". Walter Porstmann turned it into a German standard in 1922, and it is now ISO 216: A0 is one square metre, and each size is half the one before. Around 400 billion sheets of A4 are used each year. Before that, Britain alone had dozens of paper sizes.",
+    "text": "#OnThisDay in 1786 the physicist #GeorgChristophLichtenberg happened upon the aspect ratio for the perfect piece of paper.\n\n✍️ Mathew Lyons\n\nhttps://t.co/43hP4L3jWo",
+    "key_points": [
+      "Ratio 1 : square root of 2 survives halving.",
+      "Standardized in Germany 1922, now ISO 216.",
+      "A0 = 1 m²; A4 is A0 halved four times."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "History Today: The Lichtenberg Ratio",
+        "url": "https://www.historytoday.com/archive/months-past/lichtenberg-ratio",
+        "short": "https://t.co/43hP4L3jWo"
+      }
+    ],
+    "media": []
   }
 ]

@@ -1,0 +1,285 @@
+{
+  "date": "2026-10-26",
+  "title": "Making, not just working",
+  "subtitle": "Miyamoto on 作る vs 作業, an unpatched Tailscale worm nobody can agree on, AGENTS.md files planted in Downloads, and a ratio that survives every fold",
+  "editor_note": "Today's idea comes from Shigeru Miyamoto, newly named for the Order of Culture: making something and doing the work are different, and the danger is mistaking busy work for something good. AI does more of the work every week, so the question gets sharper. The lead is a test of judgment: a researcher published 11 Tailscale findings without telling Tailscale first. The vendor says some issues are real but is not telling everyone to switch off Tailscale SSH, and a critic calls the report AI slop. The Brief has web pages planting AGENTS.md files in Downloads and banks catching rogue agents. Your save is Ryo Lu on keeping the struggle that teaches. Field notes and the Japan desk cover ambition, lazy prompts, review queues, Japan's new AI IP code, a Digital Agency leak and a softmax bug. Further out: Strogatz, founder payouts, a car-free Oxford Street, Delhi's rapid rail, Serbia, an interrupted ice age and a gold bowl. We end on A4 paper.",
+  "theme": {
+    "palette": "forest",
+    "fonts": "serif-sans",
+    "accent": "#166534"
+  },
+  "sections": [
+    {
+      "type": "cover-story",
+      "scan": "2113537155947770197",
+      "kicker": "Cover story",
+      "headline": "宮本茂「僕らはいつも“ものを作る”ということと“作業すること”を分けています」",
+      "deck": "文化勲章の受章会見で、AIが作業を担うほど「本当に作るとは何なのか」を考える機会になると語った。怖いのは、作業に満足して「いいものができた」と勘違いする自分だという。",
+      "variant": "split",
+      "why": "今日の号のテーマ。エージェントに作業を任せるほど、自分が何を作っているのかを問われる。",
+      "source_label": "ファミ通.com"
+    },
+    {
+      "type": "corner",
+      "corner": "brief",
+      "deck": "Agents in places they shouldn't be."
+    },
+    {
+      "type": "brief-grid",
+      "headline": "AGENTS.md planted in Downloads, and banks catching rogue agents",
+      "columns": 2,
+      "variant": "cards",
+      "items": [
+        {
+          "scan": "2114390199555727674",
+          "headline": "A web page can drop an AGENTS.md into Downloads and hijack the agent you start there",
+          "note": "Forever Security found one in the wild pushing a rogue npm package. Codex ran the test payload 90% of the time, and there is nothing for vendors to patch.",
+          "why": "Start agents only in the project folder, never in ~/Downloads or your home folder.",
+          "source_label": "Forever Security / BleepingComputer"
+        },
+        {
+          "scan": "2113268208371126348",
+          "headline": "Big U.S. banks are finding unauthorized AI agents inside customer accounts",
+          "note": "Axios says some tried actions that look independent of the user's instructions. Which banks are restricting agents comes from later posts, not the scoop.",
+          "source_label": "Axios"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "lead",
+      "deck": "A worm report, and how to weigh it."
+    },
+    {
+      "type": "feature",
+      "scan": "2114291878720151623",
+      "headline": "Tailworm: 11 Tailscale findings published before Tailscale could fix them",
+      "deck": "In a lab, one approved device plus one SSH rule spread root access across a tailnet in under a second per hop. It needs a foothold and opt-in features, and the vendor is still validating.",
+      "span": "half",
+      "variant": "standard",
+      "emphasis": "loud",
+      "why": "Tailscale SSH is opt-in, so first check whether you even run it. Per-pair SSH grants stopped the lab worm.",
+      "tags": [
+        "unverified"
+      ],
+      "source_label": "Tailworm / Intl. Cyber Digest"
+    },
+    {
+      "type": "sidebar-box",
+      "scan": "2114363690703007950",
+      "headline": "Check your tailnet today",
+      "span": "half",
+      "variant": "callout"
+    },
+    {
+      "type": "compare",
+      "headline": "Real but scoped, or AI slop?",
+      "verdict": "Tailscale's own statement says some issues are real and being fixed, so the dismissal goes too far. The worst-case framing does too: the attacks start from an authorized session. Wait for the advisory and tighten SSH rules now.",
+      "variant": "versus",
+      "items": [
+        {
+          "scan": "2114363690703007950",
+          "label": "Tailscale's VP of Eng",
+          "note": "Some issues confirmed and being fixed; scope still being validated. Not recommending that everyone disable Tailscale SSH.",
+          "source_label": "Tailscale on Reddit"
+        },
+        {
+          "scan": "2114447415118004386",
+          "label": "A skeptic",
+          "note": "Says the report skipped disclosure because the findings were hallucinated by AI and there was nothing real to disclose.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Nick Price"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "your-saves",
+      "deck": "What you saved since the last issue."
+    },
+    {
+      "type": "feature",
+      "bookmark": "2114187405251219954",
+      "headline": "Ryo Lu: struggle together",
+      "deck": "Difficulty taught him things a finished-looking answer hides, and struggling with other people made his closest friends. An always-patient agent makes both easier to skip.",
+      "span": "half",
+      "variant": "drop-cap",
+      "why": "The same worry as Miyamoto's: a result that looks complete can stop you asking what you were meant to learn.",
+      "tags": [
+        "from-your-saves"
+      ],
+      "source_label": "Ryo Lu"
+    },
+    {
+      "type": "pull-quote",
+      "bookmark": "2114187405251219954",
+      "quote": "i wonder what happens when we remove the difficulty before we understand what it was teaching us.",
+      "variant": "centered",
+      "span": "half"
+    },
+    {
+      "type": "corner",
+      "corner": "field-notes",
+      "deck": "Ambition, sloppiness and the human queue."
+    },
+    {
+      "type": "numbered-list",
+      "headline": "More ambitious software, lazier prompts, and judgment as the bottleneck",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2114103795999514770",
+          "headline": "Dan Luu: we should be more ambitious with the software we build",
+          "note": "A new essay. If agents take the work, the bar for what to make should go up.",
+          "source_label": "danluu.com"
+        },
+        {
+          "scan": "2114163162920653258",
+          "headline": "Models forgive typos, so Charlie Marsh's prompts got lazy, and now his Slack messages too",
+          "note": "A small sign of the habit Ryo Lu worries about: what you practise with machines leaks into how you talk to people.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Charlie Marsh"
+        },
+        {
+          "scan": "2114489987358187779",
+          "headline": "生成在提速，人的阅读、判断和协调开始排队",
+          "note": "智能体几分钟就交回结果，人却还在开会。关键环节仍要人把关，这正是需要聚焦的地方。",
+          "source_label": "hongming731"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "japan-desk",
+      "label": "日本から",
+      "deck": "AIのルール、委託先の漏洩、Softmaxの落とし穴。"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "知財原則が今日から、デジタル庁の委託先漏洩、Grokkingの正体",
+      "variant": "large",
+      "items": [
+        {
+          "scan": "2114207136825720961",
+          "headline": "AI学習方法の開示、26日から知財保護原則を適用",
+          "note": "政府は企業に対応を促す。AIの学習データの扱いを説明する場面が増えそうだ。",
+          "source_label": "日経"
+        },
+        {
+          "scan": "2113478647327924411",
+          "headline": "デジタル庁、問い合わせ1万3000件超が委託先経由で漏洩か",
+          "note": "外部のフォームツールが不正アクセスを受けた。マイナンバーは含まれないが、デジタル庁を名乗るフィッシングに注意。",
+          "source_label": "日経"
+        },
+        {
+          "scan": "2114136106971337120",
+          "headline": "Softmaxの数値誤差がGrokkingのSlingshotを説明する",
+          "note": "FP32ではマージン約16.6超で正解クラスの勾配がゼロに。softplus(-m)で損失を計算すれば直る。",
+          "why": "PyTorchやJAXの標準実装にも残るという。蒸留や長時間学習をしているなら確認を。",
+          "source_label": "岡野原大輔"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "adjacent",
+      "deck": "One step out: mathematics and money."
+    },
+    {
+      "type": "brief-grid",
+      "headline": "A mathematician's crisis, and where startup money really goes",
+      "columns": 2,
+      "variant": "plain",
+      "items": [
+        {
+          "scan": "2114390314848763907",
+          "headline": "Steven Strogatz: \"I am a math professor, and my field is in crisis\"",
+          "note": "He argues math is a human expression like music, not just a pile of results for AI to produce.",
+          "source_label": "The Atlantic"
+        },
+        {
+          "scan": "2113674789252669795",
+          "headline": "88% of 248,454 VC-backed founders got nothing at exit",
+          "note": "A Wharton and Zurich paper covering 1987 to 2025, as summarized on X: the top 1% took 79% of exit value.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Arnie Watkins"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "open-window",
+      "deck": "Worth knowing, whatever you work on."
+    },
+    {
+      "type": "brief-grid",
+      "headline": "Oxford Street without cars, Delhi's fast commute, Serbia's vote, a lost ice age, a gold bowl",
+      "columns": 2,
+      "variant": "cards",
+      "items": [
+        {
+          "scan": "2114363539003490588",
+          "headline": "Oxford Street is pedestrian-only from today",
+          "note": "From Orchard Street to Great Portland Street, with buses, taxis and bikes rerouted. Mayor of London: \"A new era for Oxford Street starts now.\"",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "London & UK Street News"
+        },
+        {
+          "scan": "2114183580746457247",
+          "headline": "Delhi–Meerut rapid rail nearly doubled its riders in a year",
+          "note": "94,936 a day in July, up from 47,745. Meerut joins Delhi's job market, but the rest of the planned network is still unapproved.",
+          "tags": [
+            "new-to-you",
+            "unverified"
+          ],
+          "source_label": "via The Indian Express"
+        },
+        {
+          "scan": "2114485154215305642",
+          "headline": "Serbia's Vučić concedes defeat to a student-led movement",
+          "note": "After two years of protests, the students' opposition beat his right-wing party at the polls.",
+          "source_label": "PBS NewsHour"
+        },
+        {
+          "scan": "2113657327811518940",
+          "headline": "The next ice age may have begun 2,000 years ago, until we warmed it away",
+          "note": "A Science study of Canada's Barnes Ice Cap, the last scrap of a giant ice sheet.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "Science"
+        },
+        {
+          "scan": "2114367642324652319",
+          "headline": "A gold bowl found crushed beside three men in a sacked Iranian city",
+          "note": "Hasanlu Tepe burned around 800 B.C. Were they saving the bowl, or stealing it?",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "Archaeology Magazine"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "kicker",
+      "deck": "One to end on."
+    },
+    {
+      "type": "closer",
+      "scan": "2114447236545356021",
+      "headline": "240 years ago yesterday, Lichtenberg found the paper ratio you use every day",
+      "note": "Fold a 1 : square root of two sheet in half and the halves keep its shape. Germany made it a standard in 1922; now A0 is one square metre.",
+      "variant": "text",
+      "source_label": "History Today"
+    }
+  ]
+}
