@@ -2,7 +2,7 @@
   "date": "2026-10-26",
   "title": "Making, not just working",
   "subtitle": "Miyamoto on 作る vs 作業, an unpatched Tailscale worm nobody can agree on, AGENTS.md files planted in Downloads, and a ratio that survives every fold",
-  "editor_note": "Today's idea comes from Shigeru Miyamoto, newly named for the Order of Culture: making something and doing the work are different, and the danger is mistaking busy work for something good. AI does more of the work every week, so the question gets sharper. The lead is a test of judgment: a researcher published 11 Tailscale findings without telling Tailscale first. The vendor says some issues are real but is not telling everyone to switch off Tailscale SSH, and a critic calls the report AI slop. The Brief has web pages planting AGENTS.md files in Downloads and banks catching rogue agents. Your save is Ryo Lu on keeping the struggle that teaches. Field notes and the Japan desk cover ambition, lazy prompts, review queues, Japan's new AI IP code, a Digital Agency leak and a softmax bug. Further out: Strogatz, founder payouts, a car-free Oxford Street, Delhi's rapid rail, Serbia, an interrupted ice age and a gold bowl. We end on A4 paper.",
+  "editor_note": "Today's idea comes from Shigeru Miyamoto, newly named for the Order of Culture: making something and doing the work are different, and the danger is mistaking busy work for something good. AI does more of the work every week, so the question gets sharper. The lead is a test of judgment: a researcher published 11 Tailscale findings without telling Tailscale first. The vendor says some issues are real but is not telling everyone to switch off Tailscale SSH, and a critic calls the report AI slop. The Brief has web pages planting AGENTS.md files in Downloads and banks catching rogue agents. Your save is Ryo Lu on keeping the struggle that teaches. Field notes and the Japan desk cover ambition, lazy prompts, review queues, Japan's new AI IP code, a Digital Agency leak and chatbot phrasing spreading to people. Further out: Strogatz, founder payouts, a car-free Oxford Street, Delhi's rapid rail, Serbia, an interrupted ice age and a gold bowl. We end on A4 paper.",
   "theme": {
     "palette": "forest",
     "fonts": "serif-sans",
@@ -156,11 +156,11 @@
       "type": "corner",
       "corner": "japan-desk",
       "label": "日本から",
-      "deck": "AIのルール、委託先の漏洩、Softmaxの落とし穴。"
+      "deck": "AIのルール、委託先の漏洩、うつる話し方。"
     },
     {
       "type": "numbered-list",
-      "headline": "知財原則が今日から、デジタル庁の委託先漏洩、Grokkingの正体",
+      "headline": "知財原則が今日から、デジタル庁の委託先漏洩、人にうつる「AI語法」",
       "variant": "large",
       "items": [
         {
@@ -176,11 +176,11 @@
           "source_label": "日経"
         },
         {
-          "scan": "2114136106971337120",
-          "headline": "Softmaxの数値誤差がGrokkingのSlingshotを説明する",
-          "note": "FP32ではマージン約16.6超で正解クラスの勾配がゼロに。softplus(-m)で損失を計算すれば直る。",
-          "why": "PyTorchやJAXの標準実装にも残るという。蒸留や長時間学習をしているなら確認を。",
-          "source_label": "岡野原大輔"
+          "scan": "2114273259604574228",
+          "headline": "AIボット風の話し方が人間に広まる。「クロード語法」とも",
+          "note": "会議の冒頭で「これは朝の会議ではない、リセットだ」。チャットボットが好む対比フレーミングが、人の口からも出始めている。",
+          "why": "Charlie Marshの話と同じ現象。機械相手の癖は人との会話にうつる。",
+          "source_label": "毎日新聞 / WSJ日本版"
         }
       ]
     },
