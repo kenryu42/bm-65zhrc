@@ -110,7 +110,9 @@
       "tags": [
         "from-your-saves"
       ],
-      "source_label": "Ryo Lu"
+      "source_label": "Ryo Lu",
+      "art": "struggle.jpg",
+      "art_alt": "Linocut of two vines twisting around each other as they climb a steep rock face toward the light"
     },
     {
       "type": "pull-quote",
@@ -267,6 +269,14 @@
           "source_label": "Archaeology Magazine"
         }
       ]
+    },
+    {
+      "type": "image-of-the-day",
+      "headline": "Fold by fold",
+      "art": "iotd.jpg",
+      "art_alt": "A sheet of cream paper folded smaller and smaller in a row, ending in a paper crane on green cloth",
+      "caption": "Each fold is just work. The crane at the end is the making. The day asked which one we are really doing while the machines fold faster.",
+      "variant": "standard"
     },
     {
       "type": "corner",
