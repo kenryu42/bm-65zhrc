@@ -4330,5 +4330,650 @@
       }
     ],
     "media": []
+  },
+  {
+    "id": "2114837059462627533",
+    "url": "https://x.com/gdb/status/2114837059462627533",
+    "author": {
+      "name": "Greg Brockman",
+      "handle": "gdb"
+    },
+    "posted_at": "2026-10-26T21:50:21.000Z",
+    "saved_at": "2026-10-27T08:25:00+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "OpenAI claims three AI-assisted discoveries in math, CS and physics",
+    "summary": "Greg Brockman announced three \"major scientific discoveries\" credited to OpenAI models working with academics: one in harmonic analysis (mathematics), one in complexity theory (a claimed refutation of the Exponential Time Hypothesis), and one in quantum field theory. OpenAI's post frames them as work with academic communities. The results are claims at this point: the ETH paper is being examined by an independent group, and the others await peer review.",
+    "text": "Announcing three major scientific discoveries, one each in mathematics (harmonic analysis), computer science (complexity theory), and physics (quantum field theory).\n\nAI starting to help us improve our understanding of the universe! https://t.co/VkfacopR2R",
+    "key_points": [
+      "Three claimed results: harmonic analysis, complexity theory, quantum field theory.",
+      "The complexity result claims ETH is false.",
+      "All are unreviewed claims as of today."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "OpenAI: Building scientific understanding with academic communities",
+        "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+        "short": "https://t.co/VkfacopR2R"
+      }
+    ],
+    "media": [],
+    "pick": false
+  },
+  {
+    "id": "2114833319431209352",
+    "url": "https://x.com/rrwilliams/status/2114833319431209352",
+    "author": {
+      "name": "Ryan Williams @rrwilliams.bsky.social",
+      "handle": "rrwilliams"
+    },
+    "posted_at": "2026-10-26T21:35:29.000Z",
+    "saved_at": "2026-10-27T08:25:00+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "OpenAI model claims ETH is false; independent review organized",
+    "summary": "Ryan Williams (MIT) says an internal OpenAI model produced a claimed refutation of the Exponential Time Hypothesis, the conjecture that 3SAT needs exponential time. He, Russell Impagliazzo (who formulated ETH with Paturi) and Mohan Paturi were asked to help organize an open and independent examination. OpenAI's PDF claims 3SAT on n variables runs in about exp(n/(log n)^{1/2+o(1)}) time. If it holds, a large body of fine-grained complexity results that assume ETH would need revisiting; until the review concludes, it is a claim.",
+    "text": "An internal model at OpenAI has produced a claimed refutation of ETH! Russell Impagliazzo, Mohan Paturi, and I have been asked to help organize an open and independent examination of this claim. 1/4",
+    "key_points": [
+      "Claim: 3SAT in about exp(n/(log n)^{1/2+o(1)}) time.",
+      "Williams, Impagliazzo and Paturi organize an open review.",
+      "Many conditional lower bounds rest on ETH."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "OpenAI PDF: The Exponential Time Hypothesis is False",
+        "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf"
+      },
+      {
+        "title": "Williams: direct link to the PDF",
+        "url": "https://x.com/rrwilliams/status/2114835554177261953"
+      },
+      {
+        "title": "OpenAI announcement",
+        "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2114846058622718221",
+    "url": "https://x.com/wtgowers/status/2114846058622718221",
+    "author": {
+      "name": "Timothy Gowers @wtgowers",
+      "handle": "wtgowers"
+    },
+    "posted_at": "2026-10-26T22:26:06.000Z",
+    "saved_at": "2026-10-27T08:25:00+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "Gowers: ETH being false would be very surprising and consequential",
+    "summary": "Fields medallist Timothy Gowers, quoting Ryan Williams's announcement, explains that ETH is the hypothesis that 3SAT needs exponential time, and says it is very surprising and consequential that it is false. He is reacting to the claim, which is still under independent review.",
+    "text": "For those who don’t know, ETH is the hypothesis that 3SAT needs exponential time. Very surprising and consequential that it is false. https://t.co/0GmPTRULD5",
+    "key_points": [
+      "ETH: 3SAT needs exponential time.",
+      "Gowers calls a refutation very surprising and consequential."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Ryan Williams's announcement",
+        "url": "https://x.com/rrwilliams/status/2114833319431209352"
+      }
+    ],
+    "media": [],
+    "pick": false
+  },
+  {
+    "id": "2114153199414157752",
+    "url": "https://x.com/Hesamation/status/2114153199414157752",
+    "author": {
+      "name": "ℏεsam",
+      "handle": "Hesamation"
+    },
+    "posted_at": "2026-10-25T00:32:56.000Z",
+    "saved_at": "2026-10-27T08:25:00+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "Over 1,000 mathematicians pledge not to publish AI-generated math",
+    "summary": "Hesamation reports that more than 1,000 mathematicians have joined an \"Association for Human Mathematics\" (AHM), committing not to publish AI-generated math papers and not to work with frontier labs; 654 of them also pledge not to use AI in their research at all. The post gives a screenshot but no link to the pledge itself, so the numbers are unconfirmed.",
+    "text": "Wow, over 1,000 mathematicians have now joined the Association for Human Mathematics (AHM), committing to:\n> NOT publish AI generated math papers\n> NOT work with frontier labs\n> 654 of them went even further to NOT even use AI in their research, at all https://t.co/McjhsDYgha",
+    "key_points": [
+      "Pledge: no AI-generated papers, no work with frontier labs.",
+      "654 also refuse AI in research entirely.",
+      "No primary link to the pledge in the post."
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVb7INOXkAAPbFc.jpg",
+        "link": "https://t.co/McjhsDYgha"
+      }
+    ],
+    "pick": false
+  },
+  {
+    "id": "2114705686513033360",
+    "url": "https://x.com/wallstengine/status/2114705686513033360",
+    "author": {
+      "name": "Wall St Engine",
+      "handle": "wallstengine"
+    },
+    "posted_at": "2026-10-26T13:08:19.000Z",
+    "saved_at": "2026-10-27T08:25:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "news",
+    "tldr": "Anthropic files S-1: $16.3B H1 revenue, $265.6B compute commitments",
+    "summary": "Wall St Engine summarizes Anthropic's S-1 for a Nasdaq IPO under the ticker ANT, led by Goldman Sachs, Morgan Stanley and J.P. Morgan; price range not yet set. H1 2026 revenue was $16.3B (vs $1.16B a year earlier), 80% consumption-based. H1 operating loss was $693M, but net loss was $80.7B because of a $72.4B fair-value charge on convertible notes that tracks the rising valuation. Minimum compute commitments total about $265.6B (Google $114.5B, Amazon $110.0B, Microsoft $44.9B), owed regardless of usage, against $131.7B in cash and short-term investments. Founders hold 50.1% of votes through Class F; the Long-Term Benefit Trust picks a board majority. Risk factors warn advanced AI could pose \"catastrophic or existential risks\". About 5,300 employees.",
+    "text": "ANTHROPIC JUST PUBLISHED ITS S-1 FOR A U.S. IPO\n\nHere's everything you need to know:\n\nThe Listing:\n• Nasdaq Global Select Market, ticker $ANT\n• Leads: Goldman Sachs, Morgan Stanley, J.P. Morgan\n• Price range and share count: not disclosed yet\n\nThe Growth:\n• H1'26 revenue: $16.3B vs. $1.16B in H1'25\n• 2025 revenue: $4.59B vs. $386M in 2024\n• $100K+ customers: 11,900+ vs. 950+ a year ago\n• $1M+ customers: 1,900+\n• $10M+ customers: ~250\n• Consumption-based: $13.1B, 80% of H1 revenue\n• Subscriptions: $3.2B, 20% of H1 revenue\n\nThe Losses:\n• H1'26 operating loss: $693M vs. $2.14B\n• H1'26 net loss: $80.7B\n• $72.4B fair-value charge on convertible notes\n• That charge tracks its rising valuation\n• 2025 included a $1.5B Bartz copyright settlement\n\nThe Compute Bill:\n• H1'26 compute & infrastructure: $8.9B\n• Google: at least $114.5B through July 2033\n• Amazon: at least $110.0B through April 2036\n• Microsoft: at least $44.9B through May 2033\n• ~$265.6B in total minimum commitments\n• Owed regardless of actual usage\n\nThe Cash:\n• $131.7B in cash & short-term investments\n• Up to $77B more in note facilities:\n- Google: $20B\n- Amazon: $15B\n- Broadcom: $42B\n\nWho Controls It:\n• Public benefit corporation\n• Class F (Founder LLC): 50.1% of the vote\n• Members: Dario & Daniela Amodei + 5 co-founders\n• Long-Term Benefit Trust picks board majority\n• Class A: 1 vote per share\n• Class N (strategic partners): no vote\n• Ownership caps: Amazon 12%, Google 14.99%\n• 5% of shares to Anthropic Public Benefit Fund\n\nThe Risks They Flagged:\n• Warns advanced AI could pose\n\"catastrophic or existential risks to humanity\"\n• Training-data copyright suits could hurt it\n\nThe Team:\n• ~5,300 employees as of Sept. 30\n\nUse of proceeds: compute, hiring, general purposes",
+    "key_points": [
+      "H1'26 revenue $16.3B; 80% consumption-based.",
+      "Net loss $80.7B, mostly a $72.4B non-cash note charge.",
+      "~$265.6B minimum compute commitments to Google, Amazon, Microsoft.",
+      "Founders' Class F holds 50.1% of the vote."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Anthropic PBC Form S-1 (SEC EDGAR)",
+        "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVjgKZhbsAAHWsc.jpg",
+        "alt": "Infographic summarizing Anthropic S-1 figures"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVjqUEebcAIPhRb.png",
+        "alt": "Wall St Engine logo"
+      }
+    ],
+    "pick": true
+  },
+  {
+    "id": "2114780715086754261",
+    "url": "https://x.com/OpenAI/status/2114780715086754261",
+    "author": {
+      "name": "OpenAI",
+      "handle": "OpenAI"
+    },
+    "posted_at": "2026-10-26T18:06:27.000Z",
+    "saved_at": "2026-10-27T08:25:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "GPT-6.1 Terra: better than 5.6 Terra at half the API price",
+    "summary": "OpenAI says GPT-6.1 Terra is a significant step up over GPT-5.6 Terra with 50% lower standard API prices, aimed at fast computer use. In ChatGPT Work and Codex, usage allowances go further with Terra than with GPT-6.1 Sol or GPT-6 Astra, which OpenAI still recommends for in-depth research or complex coding. scaling01 puts output pricing at $5 versus $12 for 5.6 Terra.",
+    "text": "GPT-6.1 Terra continues to advance the cost-intelligence frontier across our model families.\n\nIt’s a significant step up over GPT‑5.6 Terra, with 50% lower standard API prices.\n\nIn ChatGPT Work and Codex, your usage allowance goes further with GPT‑6.1 Terra than with GPT‑5.6 Terra—and far more than with GPT‑6.1 Sol or GPT‑6 Astra.\n\nFor in-depth research or complex coding, choose GPT-6.1 Sol or GPT-6 Astra.",
+    "key_points": [
+      "50% lower standard API prices than GPT-5.6 Terra.",
+      "Pitched for computer use across apps.",
+      "Sol or Astra still recommended for complex coding."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "OpenAI: Introducing GPT-6.1 Terra",
+        "url": "https://openai.com/index/introducing-gpt-6-1-terra/"
+      },
+      {
+        "title": "scaling01: price comparison",
+        "url": "https://x.com/scaling01/status/2114778402938818627"
+      }
+    ],
+    "media": [],
+    "pick": false
+  },
+  {
+    "id": "2114646230764851695",
+    "url": "https://x.com/lizzadwoskin/status/2114646230764851695",
+    "author": {
+      "name": "Elizabeth Dwoskin",
+      "handle": "lizzadwoskin"
+    },
+    "posted_at": "2026-10-26T09:12:04.000Z",
+    "saved_at": "2026-10-27T08:25:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "WaPo: ex-DOGE researchers' AI agents got into Anthropic in 12 hours",
+    "summary": "Washington Post reporter Elizabeth Dwoskin reports that a group of ex-DOGE cyber researchers (the startup Cathedral) used AI agents to penetrate Anthropic's systems in under 12 hours, including Slack channels where sensitive models are discussed. Other coverage says the work ran under Anthropic's bug bounty program through flaws in third-party business software, not Anthropic's own code, and that Anthropic disputes the scope. vx-underground noted the headline omits the bug bounty context and the timing next to the IPO filing, and asked for the technical write-up.",
+    "text": "EXCLUSIVE: In less than 12 hours, a group of ex-DOGE cyber researchers were able to penetrate Anthropic’s systems using AI agents — including Slack channels where the most sensitive models are discussed. \nThis is just weeks after \nAnthropic whistleblower Joseph Coxon charged the company w/launching “a hubristic gamble” from a “private company’s Slack.”\nRead our story here (gift link):\nhttps://t.co/x6F8Dg6SLR",
+    "key_points": [
+      "Claim: AI agents reached internal Slack in under 12 hours.",
+      "Route reportedly via third-party vendor software, under bug bounty.",
+      "Anthropic disputes the scope; no technical write-up yet."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Washington Post story (gift link)",
+        "url": "https://wapo.st/4smNlsC",
+        "short": "https://t.co/x6F8Dg6SLR"
+      },
+      {
+        "title": "vx-underground on the missing context",
+        "url": "https://x.com/vxunderground/status/2114730417345454444"
+      }
+    ],
+    "media": [],
+    "pick": false
+  },
+  {
+    "id": "2114828110528917881",
+    "url": "https://x.com/FT/status/2114828110528917881",
+    "author": {
+      "name": "Financial Times",
+      "handle": "FT"
+    },
+    "posted_at": "2026-10-26T21:14:47.000Z",
+    "saved_at": "2026-10-27T08:25:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "news",
+    "tldr": "Microsoft offers voluntary buyouts to 60,000 staff",
+    "summary": "The Financial Times reports Microsoft is offering buyouts to 60,000 employees. Gergely Orosz called it tough news from one of the most stable Big Tech employers, but said letting people decide to take a package is more considerate than waiting for layoffs.",
+    "text": "Microsoft offers buyouts to 60,000 staff https://t.co/GN3gfDBjzP",
+    "key_points": [
+      "Voluntary buyouts offered to about 60,000 staff.",
+      "Seen as a softer route than layoffs."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Financial Times",
+        "url": "https://ft.trib.al/87LHIaz",
+        "short": "https://t.co/GN3gfDBjzP"
+      },
+      {
+        "title": "Gergely Orosz's take",
+        "url": "https://x.com/GergelyOrosz/status/2114796966760927301"
+      }
+    ],
+    "media": [],
+    "pick": false
+  },
+  {
+    "id": "2114703594347725005",
+    "url": "https://x.com/OpenBMB/status/2114703594347725005",
+    "author": {
+      "name": "OpenBMB",
+      "handle": "OpenBMB"
+    },
+    "posted_at": "2026-10-26T13:00:00.000Z",
+    "saved_at": "2026-10-27T08:25:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Coding agents run post-training well but never change strategy",
+    "summary": "OpenBMB (THUNLP) analyzed 1,338 full post-training trajectories from PostTrainBench (7 benchmarks, 4 base models, Claude Code, Codex CLI and OpenCode, 10 hours on one H100). Agents beat the base models everywhere and improve with experience (33.34 to 48.55 average), and adopted every execution-level suggestion but none of the strategy-level ones. Only 2.1% of 3,557 adjacent experiment pairs switch strategy; Claude Code starts with full SFT 71.9% of the time, Codex CLI with LoRA 89.5%. More memory or reasoning tokens do not unlock it (14M extra tokens solved one more AIME problem). One human sentence mid-run switching strategy beat autonomous continuation: GSM8K +17.44pp, HumanEval +10.80pp, AIME +6.67pp.",
+    "text": "An agent that can run a full post-training pipeline almost never reconsiders its initial strategy.\nWe analyze 1,338 complete training trajectories from PostTrainBench — 7 benchmarks, 4 base models, Claude Code / Codex CLI / OpenCode, 10h on one H100 — and split capability into EXECUTION vs STRATEGY.\n\n1️⃣ Qualified executor, locked strategy. Agents improve over base models on every benchmark; with experience, avg score goes 33.34 → 48.55. ALL execution-level suggestions were adopted, but NONE of the strategy-level suggestions (e.g., switching to RL, adding SFT warmup) were adopted. Only 2.1% of 3,557 adjacent experiment pairs actually switch strategy. Defaults follow the agent, not the task: Claude Code starts full-parameter SFT 71.9% of the time; Codex CLI starts PEFT/LoRA 89.5%.\n\n2️⃣ Experience and compute don't unlock it. Extra experience and memory raise execution but never leave the locked strategy; more reasoning tokens buy finer execution rather than better direction — on AIME 2025, ~14M extra tokens solve just 1 more problem.\n\n3️⃣ A mid-run human guidance wins everywhere. At the same checkpoint, same remaining budget, one sentence switching to the alternative strategy beats autonomous continuation: GSM8K +17.44pp, HumanEval +10.80pp, AIME 2025 +6.67pp.\n\nThe missing ability isn't executing a new strategy — it's the trigger to spontaneously restart strategy decisions mid-trajectory.\n\n📄 Paper: https://t.co/yuI2gosUXC\n#AIAgent #PostTraining #LLM #RLHF #GRPO #PPO #RSI #AgentBenchmark #PostTrainBench #THUNLP",
+    "key_points": [
+      "Agents execute well but almost never revisit their first strategy.",
+      "Defaults follow the agent, not the task.",
+      "One mid-run human nudge beats continuing autonomously."
+    ],
+    "action": "At the midpoint of a long agent run, ask it to reconsider the overall approach",
+    "links": [
+      {
+        "title": "arXiv 2608.19072",
+        "url": "https://arxiv.org/abs/2608.19072",
+        "short": "https://t.co/yuI2gosUXC"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVjQYPIbgAA5M4D.jpg"
+      }
+    ],
+    "pick": false
+  },
+  {
+    "id": "2114848043853873286",
+    "url": "https://x.com/Cloudflare/status/2114848043853873286",
+    "author": {
+      "name": "Cloudflare",
+      "handle": "Cloudflare"
+    },
+    "posted_at": "2026-10-26T22:34:00.000Z",
+    "saved_at": "2026-10-27T08:25:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Cloudflare: GLM 5.3 config bug exposed KV cache across requests",
+    "summary": "Cloudflare says a configuration mismatch for GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests, meaning one request could see cached state from another. It published a post-mortem on how it addressed the issue. LMSYS published a coordinated SGLang security update on request isolation in disaggregated serving, with fixes and recommended actions for operators.",
+    "text": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue. https://t.co/CJl1WzznjA",
+    "key_points": [
+      "A config mismatch triggered an SGLang KV-cache isolation bug.",
+      "Cache pages leaked across requests on Workers AI.",
+      "SGLang shipped fixes; operators should update."
+    ],
+    "action": "If you self-host SGLang with disaggregated serving, apply the request-isolation fix",
+    "links": [
+      {
+        "title": "Cloudflare blog post",
+        "url": "https://cfl.re/4srMk2v",
+        "short": "https://t.co/CJl1WzznjA"
+      },
+      {
+        "title": "LMSYS: SGLang security update",
+        "url": "https://www.lmsys.org/blog/2026-10-26-cf-security"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2114852097342820452",
+    "url": "https://x.com/itmedia_news/status/2114852097342820452",
+    "author": {
+      "name": "ITmedia NEWS",
+      "handle": "itmedia_news"
+    },
+    "posted_at": "2026-10-26T22:50:06.000Z",
+    "saved_at": "2026-10-27T08:25:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "楽天トラベルに不正アクセス、最大約260万件流出の可能性",
+    "summary": "ITmediaによると、楽天トラベルが不正アクセスを受け、顧客情報が最大約260万件流出した可能性がある。予約者約3.6万件のクレジットカード情報も含まれるという。NHKは氏名やクレジットカード番号の一部などが流出したと報じ、Impress Watchは海外予約で260万件などとしている。",
+    "text": "「楽天トラベル」に不正アクセス　顧客情報最大約260万件など流出か　予約者約3.6万件のクレカ情報も\nhttps://t.co/vRkONaIH5V",
+    "key_points": [
+      "顧客情報最大約260万件が流出の可能性。",
+      "予約者約3.6万件のクレカ情報も。",
+      "海外予約が中心と報道。"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "ITmedia NEWS",
+        "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002606/",
+        "short": "https://t.co/vRkONaIH5V"
+      },
+      {
+        "title": "NHKニュース",
+        "url": "https://news.web.nhk/newsweb/na/nd-20261026de66040"
+      },
+      {
+        "title": "Impress Watch",
+        "url": "https://www.watch.impress.co.jp/docs/news/2151286.html"
+      }
+    ],
+    "media": [],
+    "pick": false
+  },
+  {
+    "id": "2114655466982936763",
+    "url": "https://x.com/semi_journal_jp/status/2114655466982936763",
+    "author": {
+      "name": "Semi-journal公式",
+      "handle": "semi_journal_jp"
+    },
+    "posted_at": "2026-10-26T09:48:46.000Z",
+    "saved_at": "2026-10-27T08:25:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "ラピダス、インドHCLと協業し設計作業を委託",
+    "summary": "日経によると、2ナノ半導体の2027年度後半の量産を目指すラピダスは、インドIT大手HCLテクノロジーズと協業し、半導体の設計作業などを委託する。HCLはカルナタカ州の2拠点にラピダス向けの開発拠点を設ける。国内の半導体人材不足が量産目標の課題で、エンジニアを多く抱えるHCLへの委託で補う狙い。経産省は累計3兆円規模の支援を決めており、5日には設計・IP企業との連携枠組み「ラピダスコア」も発表した。",
+    "text": "【ラピダス、インドIT大手HCLと協業　設計作業など委託へ半導体】\n\n先端半導体の量産を目指すラピダスは26日、インドのIT（情報技術）大手HCLテクノロジーズと協業すると発表した。ラピダスは半導体の設計作業などをHCLに委託していく。HCLはラピダス向けの開発拠点をインド南部カルナタカ州の2カ所に設け、同社を支援する。\n\nラピダスは回路線幅2ナノ（ナノは10億分の1）メートルの先端半導体を、2027年度後半に量産する目標を掲げる。ただ量産の技術的なハードルが高いことに加え、日本で半導体関連の人材が不足していることが目標達成に向けた課題となっている。\n\nHCLは半導体を含めたエンジニア人材を多く抱える。同社にラピダスの業務を一部委託することで人材不足の解決を目指す。\n\nラピダスは外部から半導体製造を受託する事業モデルで、経済産業省が累計3兆円規模の支援を決めている。量産に向けて外部連携を進めており、5日には半導体設計やIP（回路設計データ）を手掛ける企業と連携する枠組み「ラピダスコア」を発表した。\n\n出典：日本経済新聞\nhttps://t.co/iOp5VmgKzd",
+    "key_points": [
+      "設計作業などをHCLに委託。",
+      "HCLがカルナタカ州に2拠点。",
+      "人材不足が2ナノ量産の課題。"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "日本経済新聞",
+        "url": "https://www.nikkei.com/article/DGXZQOUC266D20W6A021C2000000/",
+        "short": "https://t.co/iOp5VmgKzd"
+      }
+    ],
+    "media": [],
+    "pick": false
+  },
+  {
+    "id": "2114738298534899762",
+    "url": "https://x.com/hausfath/status/2114738298534899762",
+    "author": {
+      "name": "Zeke Hausfather",
+      "handle": "hausfath"
+    },
+    "posted_at": "2026-10-26T15:17:54.000Z",
+    "saved_at": "2026-10-27T08:25:00+09:00",
+    "topic": "economics",
+    "shelf_life": "news",
+    "tldr": "Off-grid gas at data centers emits 60–80% more than the grid",
+    "summary": "Climate scientist Zeke Hausfather says companies rushing to build data centers are starting to use their own off-grid gas generators, which results in 60% to 80% higher emissions than drawing from the local grid, and risks locking in longer-term fossil dependence. He shares a chart; the post links no study.",
+    "text": "In the rush to build data centers, companies are starting to use their own off grid gas generators. This results in much higher emissions – 60% to 80% – compared with using their local electricity grid and risks locking in longer-term fossil dependence. https://t.co/wtq0HJdi0O",
+    "key_points": [
+      "Data centers increasingly run their own gas generators.",
+      "60–80% higher emissions than the local grid.",
+      "Risk of long-term fossil lock-in."
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVkPRo1WkAA5ifG.jpg",
+        "alt": "Chart comparing emissions of off-grid gas power with local grid electricity for data centers",
+        "link": "https://t.co/wtq0HJdi0O"
+      }
+    ],
+    "pick": false
+  },
+  {
+    "id": "2114564045168648516",
+    "url": "https://x.com/pequityresearch/status/2114564045168648516",
+    "author": {
+      "name": "P Equity Research 📰",
+      "handle": "pequityresearch"
+    },
+    "posted_at": "2026-10-26T03:45:29.000Z",
+    "saved_at": "2026-10-27T08:25:00+09:00",
+    "topic": "economics",
+    "shelf_life": "news",
+    "tldr": "Michael Dell expects the memory shortage to worsen in 2027",
+    "summary": "Via the Wall Street Journal, Dell CEO Michael Dell says the memory shortage will get worse in 2027, because a new memory factory takes about four years to build; Micron plants under construction start producing in 2029, when \"maybe everything will be fine.\" He adds that agents have changed how people use the technology compared with a year or two ago.",
+    "text": "CEO of Dell, Michael Dell, sees memory shortage getting worse in 2027 and not easing anytime soon:\n\n\"I think it's going to get worse in 2027 based on what I see right now. The reason is it takes about 4 years to build a new memory factory, there are a number of them under construction. Micron, for example, we are a big Micron customer. Those factories will start producing in 2029. Maybe 2029 everything will be fine.\"\n\n\"The way people are using the technology now is very different than a year or two ago, with agents.\"\n\nVia @WSJ \n\n$DELL $MU $DRAM $EWY $SKHY $SNDK",
+    "key_points": [
+      "Dell sees memory shortage worsening in 2027.",
+      "New fabs take ~4 years; relief maybe by 2029.",
+      "Agent workloads changed demand."
+    ],
+    "action": "",
+    "links": [],
+    "media": [],
+    "pick": false
+  },
+  {
+    "id": "2114739100574232801",
+    "url": "https://x.com/LiuweijiaVip/status/2114739100574232801",
+    "author": {
+      "name": "Wei佳",
+      "handle": "LiuweijiaVip"
+    },
+    "posted_at": "2026-10-26T15:21:06.000Z",
+    "saved_at": "2026-10-27T08:25:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "news",
+    "tldr": "麦当劳中国把点餐和优惠券做成了 MCP 接口",
+    "summary": "刘伟佳（LiuweijiaVip）说，麦当劳中国真的把点餐和优惠券做成了 MCP 接口。有开发者用它做了一个省钱技能包，挂到智能体上以后，只要说一句“中午只有二十块钱”，它会自己翻遍隐藏优惠券、计算满减，把原价三十多元的套餐凑到十几元，还送可乐。",
+    "text": "谁能想到麦当劳真把点餐和优惠券做成了 MCP 接口。\n\n有开发者拿它做了个省钱技能包，挂给智能体以后，只要随口说一句中午只有二十块钱，它自己去翻所有隐藏券算满减，分分钟把原价三十多的套餐凑成十几块还送可乐。 https://t.co/HcMzDBZAXF",
+    "key_points": [
+      "麦当劳中国开放了点餐和优惠券的 MCP 接口。",
+      "开发者在上面做省钱技能。",
+      "智能体自动组合优惠券。"
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVkP_VQakAEXv7V.jpg"
+      }
+    ],
+    "pick": false
+  },
+  {
+    "id": "2114667476969804215",
+    "url": "https://x.com/adityakalra/status/2114667476969804215",
+    "author": {
+      "name": "Aditya Kalra",
+      "handle": "adityakalra"
+    },
+    "posted_at": "2026-10-26T10:36:29.000Z",
+    "saved_at": "2026-10-27T08:25:00+09:00",
+    "topic": "world",
+    "shelf_life": "news",
+    "tldr": "Indian publishers take Modi's privacy law to the Supreme Court",
+    "summary": "Reuters' Aditya Kalra reports that India's biggest news publishers, including Network18, NDTV, Indian Express and Times Internet, through the DNPA, have challenged the Digital Personal Data Protection law in the Supreme Court. The 698-page filing says it would make investigative journalism \"a benign and neutered recorder of events\": consent rules would require notifying the subject of an investigation, erasure rights could force unpublishing, and a \"nakedly unguided\" power to demand information could reach reporters' sources. They say the state got broad exemptions while the press got none.",
+    "text": "EXCLUSIVE: India’s biggest news publishers including Ambani's Network18, Adani's NDTV, Indian Express, Times Internet & others mount the most high-profile challenge yet to Modi’s privacy law, warning it would “render investigative journalism a benign and neutered recorder of events.”\n\nDNPA (@publishers_news) has taken the law to the Supreme Court. They argue it would trample investigative work and let New Delhi identify journalists’ sources.\n\nThe provisions “constitute pre-censorship which is anathema to any democracy worth its name,” the group’s 698-page filing says.\n\nThe key concerns:\n\n🔹 Consent: requiring a journalist to notify the subject of an investigation and seek consent “would allow that subject to destroy evidence, intimidate witnesses”\n🔹 Erasure: people can withdraw consent and demand their data be erased, which the group says could force publishers to unpublish or heavily redact news reports\n🔹 Sources: a “nakedly unguided” power to demand information that “can extend to privileged communications in possession of a reporter or the informant”\n\nIn a letter to the government, the group said India “has chosen to grant broad exemptions to the state, while failing to extend any corresponding protection to the press.”\n\nhttps://t.co/fN4aeYDO0r",
+    "key_points": [
+      "Consent: subjects of investigations would have to be notified.",
+      "Erasure: withdrawn consent could force unpublishing.",
+      "Sources: broad state power to demand information."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Reuters",
+        "url": "https://www.reuters.com/business/media-telecom/ambani-adani-outlets-among-indian-publishers-contesting-modis-privacy-law-2026-10-26/",
+        "short": "https://t.co/fN4aeYDO0r"
+      }
+    ],
+    "media": [],
+    "pick": false
+  },
+  {
+    "id": "2114703895217766441",
+    "url": "https://x.com/BrilliantMaps/status/2114703895217766441",
+    "author": {
+      "name": "Brilliant Maps",
+      "handle": "BrilliantMaps"
+    },
+    "posted_at": "2026-10-26T13:01:12.000Z",
+    "saved_at": "2026-10-27T08:25:00+09:00",
+    "topic": "culture",
+    "shelf_life": "evergreen",
+    "tldr": "A 1980s Yugoslav map spells British towns as they sound",
+    "summary": "Brilliant Maps shares a 1980s Yugoslav map of Britain and Ireland, photographed at the Museum of the 80s in Sarajevo by Reddit user TheKingMonkey, with English place names rendered phonetically in Serbo-Croatian spelling, roughly as they are pronounced rather than as they are written.",
+    "text": "Yugoslav map of Britain & Ireland from the 1980s, with English place names amusingly rendered phonetically to reflect their pronunciation.\n\nCredit: Reddit user TheKingMonkey who explains the maps origins:\n\n\"From a display on the wall of the ‘Museum of the 80s’ in Sarajevo, Bosnia. I’m not sure why I like the Serbo-Croat (or at least that’s what I assume it is) names for the cities as they look like they are almost phonetic attempts at English language pronunciations.\"\n\nAlso see 20 Similarities & Differences Between The Countries Of The Former Yugoslavia: https://t.co/F7ZzEqDjzh",
+    "key_points": [
+      "Place names spelled phonetically for Serbo-Croatian readers.",
+      "From the Museum of the 80s in Sarajevo."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Brilliant Maps: former Yugoslavia",
+        "url": "https://brilliantmaps.com/former-yugoslavia/",
+        "short": "https://t.co/F7ZzEqDjzh"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVjv--jWAAAgFkH.jpg",
+        "alt": "Old map of Britain and Ireland with phonetically spelled place names"
+      }
+    ],
+    "pick": false
+  },
+  {
+    "id": "2114810662228508757",
+    "url": "https://x.com/physorg_com/status/2114810662228508757",
+    "author": {
+      "name": "Phys.org",
+      "handle": "physorg_com"
+    },
+    "posted_at": "2026-10-26T20:05:27.000Z",
+    "saved_at": "2026-10-27T08:25:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "A 237-million-year-old armored amphibian may have lived entirely at sea",
+    "summary": "Phys.org reports a Late Triassic stem amphibian from China, about 237 million years old with a flattened body nearly three feet long, that may have lived fully in the sea: the first known example. No living amphibian is marine, probably because of saltwater and their delicate skin, as paleontologist Steve Brusatte notes in a Nature commentary calling it a potential evolutionary gamechanger. The paper is Diao, Motani, Jiang et al. in Nature Ecology & Evolution.",
+    "text": "An armored amphibian may have lived entirely at sea 237 million years ago—the first known example, with a flattened body nearly 3 feet long. @NatureEcoEvo https://t.co/evLXi3DpN8",
+    "key_points": [
+      "First known fully marine amphibian, Late Triassic China.",
+      "No living amphibian lives in the sea.",
+      "Published in Nature Ecology & Evolution."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Phys.org",
+        "url": "https://phys.org/news/2026-10-armored-amphibian-sea-million-years.html"
+      },
+      {
+        "title": "Nature Ecology & Evolution paper",
+        "url": "https://doi.org/10.1038/s41559-026-03209-9"
+      },
+      {
+        "title": "Steve Brusatte's Nature commentary",
+        "url": "https://go.nature.com/4zkZcKz"
+      }
+    ],
+    "media": [],
+    "pick": false
+  },
+  {
+    "id": "2114760226251456540",
+    "url": "https://x.com/archaeologymag/status/2114760226251456540",
+    "author": {
+      "name": "Archaeology Magazine",
+      "handle": "archaeologymag"
+    },
+    "posted_at": "2026-10-26T16:45:02.000Z",
+    "saved_at": "2026-10-27T08:25:00+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "Troy yields its first musical instrument: a 2,800-year-old bone flute",
+    "summary": "Archaeology magazine reports new finds at Troy: a 2,800-year-old bone flute, the first musical instrument ever found at the site, and the head of an idol from the Early Bronze Age.",
+    "text": "Intriguing new finds at the site of Troy: Archaeologists have excavated a 2,800-year-old bone flute, the first musical instrument ever found there, as well as the head of an idol dating to the Early Bronze Age!\n\nhttps://t.co/d2hQqcOvrT https://t.co/0yAqEc8Y0x",
+    "key_points": [
+      "A 2,800-year-old bone flute, the first instrument from Troy.",
+      "Also an Early Bronze Age idol head."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Archaeology: Unusual objects unearthed at Troy",
+        "url": "https://archaeology.org/news/2026/10/23/unusual-objects-unearthed-at-troy/",
+        "short": "https://t.co/d2hQqcOvrT"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVkjNwdW4AAuGYl.jpg",
+        "alt": "Bone flute (📸 Turkish Ministry of Culture and Tourism)",
+        "link": "https://t.co/0yAqEc8Y0x"
+      }
+    ],
+    "pick": false
+  },
+  {
+    "id": "2114681025473446147",
+    "url": "https://x.com/Math_files/status/2114681025473446147",
+    "author": {
+      "name": "Math Files",
+      "handle": "Math_files"
+    },
+    "posted_at": "2026-10-26T11:30:20.000Z",
+    "saved_at": "2026-10-27T08:25:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "Terence Tao sets a Guardian puzzle hiding algebra in a plant game",
+    "summary": "Math Files says Terence Tao contributed a new puzzle to The Guardian, timed with his first general-audience book, Six Math Essentials. It looks like a simple game about growing plants and collecting coins, but hides a connection between algebra, quadratic growth and the decimal number system.",
+    "text": "Terence Tao has contributed a new mathematical puzzle to The Guardian, timed to coincide with the publication of his first general-audience mathematics book, Six Math Essentials.\n\nThe puzzle looks like a simple game about growing plants and collecting coins, but it hides an elegant connection between algebra, quadratic growth and the decimal number system.",
+    "key_points": [
+      "Tao's puzzle in The Guardian.",
+      "Plants and coins hide quadratic growth and decimals.",
+      "Tied to his book Six Math Essentials."
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVjbJ1JbkAAWK3N.jpg"
+      }
+    ],
+    "pick": false
   }
 ]

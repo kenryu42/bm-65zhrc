@@ -670,5 +670,73 @@
     "action": "Next time you hit a wall, try one round with a person (or the docs) before asking the agent.",
     "links": [],
     "media": []
+  },
+  {
+    "id": "2114639107129540644",
+    "url": "https://x.com/banr1_/status/2114639107129540644",
+    "author": {
+      "name": "banri",
+      "handle": "banr1_"
+    },
+    "posted_at": "2026-10-26T08:43:45.000Z",
+    "saved_at": "2026-10-27T08:25:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "Nyxis: a Lean-verified backend framework that proves authorization safety",
+    "summary": "banr1_ (NyxFoundation) released Nyxis, a backend framework written mostly in Lean. Its machine-checked theorem says that for any sequence of HTTP requests, no authenticated principal can read, change, delete or grant data beyond its rightful permissions. Developers only maintain the policy of who may do what, so the rest of the code can be left to AI agents without losing authorization safety. Unlike Microsoft and GitHub's PDD Kit, which needs a spec per program, Nyxis fixes the theorem in advance. The author is upfront about limits: code outside the proof and the runtime are trusted, a wrong policy gives no protection, and expressiveness and Lean libraries are still thin. He released early because of the recent wave of breaches. A reply points out that the assumptions file requires the database to be unreachable through Supabase's Data API or other apps; a second path around Nyxis is outside the proof.",
+    "text": "情報漏洩が起きないことを数学的に保証するバックエンドフレームワーク「Nyxis」を公開しました！\n\nたぶん世界初です。\n\nNyxisで書かれたバックエンドは、企業の持つ機密情報をより安全に守ることができます。\n\n昨今急増しているサイバー攻撃を防ぐ手段として、このような方法があることをお伝えしたいと思い、今回の発表に至りました。\n\n開発者は「どの権限を持つユーザーが何を実行可能であるか」のルールを管理するだけで、残りのコードをAIエージェントに任せても認可の安全性が担保されます。\n\nNyxisは大部分がLean言語で記述されており、形式検証によって\n\n「任意のHTTPリクエスト列に対し、認証された主体の正当な権限を逸脱するデータの読取・変更・削除・権限付与は発生しない」\n\nという認可安全性定理を機械的に証明しています。\n\n認可の不備は、OWASP脆弱性ランキングにおいて2019年版から連続1位であり、最優先で対策すべきリスクの一つです。\n\n形式検証を活用したこのフレームワークは、テストに頼る従来の開発に比べて、格段にセキュアなソフトウェアを実現します。\n\n先日MicrosoftとGitHubが、形式検証を用いた開発キット「PDD Kit」を発表しました。\n\nこちらはより幅広い性質を扱える一方、プログラムごとに仕様を作り、それが意図に合っているかを開発者が確認する必要があります。\n\nNyxisは証明する定理を認可安全性に絞ってあらかじめ定めているため、開発者はポリシーを管理するだけで済みます。\n\nもちろん、一定の仮定は存在しています。証明外コードと実行環境は信頼する前提であり、開発者がポリシーを誤って書けば、意図した保護は得られません。\n\nこの定理の範囲内において、数学的保証は非常に強力です。実システムに組み込める技術としてここまでの保証を与えたものは、私の知る限りまだ存在しません。\n\n一方で、表現力の乏しさやLeanのライブラリ不足など、改善すべき点はまだ山積みです。\n\n本当はもっと完成度が高まった時点で公開しようと考えていましたが、昨今のセキュリティインシデントの状況を鑑みて、このタイミングで発表することにしました。\n\n世界をセキュアにする一助になれば嬉しいです。\n\nhttps://t.co/p6fHK0KGwu",
+    "key_points": [
+      "Authorization-safety theorem proved in Lean for any HTTP request sequence.",
+      "Developers write only the permission policy; agents can write the rest.",
+      "Trusted: code outside the proof, the runtime, and a correct policy.",
+      "The database must not be reachable another way, such as Supabase's Data API."
+    ],
+    "action": "Read ASSUMPTIONS.md and check whether your database has a second path around the API",
+    "links": [
+      {
+        "title": "NyxFoundation/nyxis on GitHub",
+        "url": "https://github.com/NyxFoundation/nyxis",
+        "short": "https://t.co/p6fHK0KGwu"
+      },
+      {
+        "title": "Nyxis ASSUMPTIONS.md",
+        "url": "https://github.com/NyxFoundation/nyxis/blob/main/ASSUMPTIONS.md"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2114624706037022938",
+    "url": "https://x.com/GeoffreyHuntley/status/2114624706037022938",
+    "author": {
+      "name": "geoff",
+      "handle": "GeoffreyHuntley"
+    },
+    "posted_at": "2026-10-26T07:46:32.000Z",
+    "saved_at": "2026-10-27T08:25:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Huntley: build many little bots and pipe them together",
+    "summary": "Geoffrey Huntley says the best way to use @bot is to create lots of little bots, Unix-style, and pipeline them together, which he calls basically reactive stream programming. His screenshot shows a chain: a bot asks a \"Travel - Trips\" bot where he is and when, then another pulls the week's gigs, shows, exhibitions and meetups in Singapore and trims the list once his flight date arrives. In a reply he says it surfaced an event with Evan You on Friday automatically, and he RSVPed.",
+    "text": "the best way to use @bot is to create lots of little bots. think posix/unix composition. then pipeline them together. it’s basically reactive stream programming tbh. https://t.co/wHjH2JxDs6",
+    "key_points": [
+      "Small single-purpose bots, composed like Unix pipes.",
+      "Each bot hands its output to the next, like a reactive stream.",
+      "His example: a trip bot feeds an events bot that trims by travel dates."
+    ],
+    "action": "Split one big agent routine into two small bots and pipe one into the other",
+    "links": [
+      {
+        "title": "Huntley's follow-up reply",
+        "url": "https://x.com/GeoffreyHuntley/status/2114627577973510445"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVin9HFa0AAiY8D.jpg",
+        "alt": "Phone screenshot of a chat where travel and events bots pass messages about a stay in Singapore",
+        "link": "https://t.co/wHjH2JxDs6"
+      }
+    ]
   }
 ]

@@ -1,0 +1,332 @@
+{
+  "date": "2026-10-27",
+  "title": "Proof, pending review",
+  "subtitle": "A claimed ETH refutation under review, Anthropic's S-1 numbers, a disputed breach, a Lean-proved backend, a Triassic sea amphibian",
+  "editor_note": "Today is full of claims that are not yet facts. OpenAI says its models helped make three discoveries, the boldest a claimed refutation of the Exponential Time Hypothesis; Ryan Williams, Russell Impagliazzo and Mohan Paturi are organizing an open review, and until it ends the right word is \"claimed\". Anthropic's S-1 is the opposite kind of document: numbers filed under disclosure rules. The Cathedral breach story sits in between, a reported claim the company disputes. Your saves fit the theme: Nyxis proves authorization safety in Lean, but only inside the assumptions it writes down, and Huntley pipes little bots together. Field notes add agents that never rethink a strategy and a KV-cache leak at Cloudflare. Japan has Rakuten Travel's breach and Rapidus hiring help in India. Further out: gas-powered data centers, India's press against a privacy law, a phonetic map, a marine amphibian, Troy's first flute, and a Tao puzzle to end on.",
+  "theme": {
+    "palette": "plum",
+    "fonts": "serif",
+    "accent": "#7e22ce"
+  },
+  "sections": [
+    {
+      "type": "cover-story",
+      "scan": "2114837059462627533",
+      "kicker": "Cover story",
+      "headline": "OpenAI claims AI-assisted discoveries in mathematics, computer science and physics",
+      "deck": "Harmonic analysis, complexity theory and quantum field theory, announced together. The biggest, a claimed refutation of ETH, now goes to an independent review.",
+      "variant": "split",
+      "art": "three-fields.jpg",
+      "art_alt": "Three glowing orbits crossing around a bright core on deep purple",
+      "why": "If even one holds, AI moves from helping with proofs to producing results experts must check. Read it as a claim for now.",
+      "tags": [
+        "unverified"
+      ],
+      "source_label": "OpenAI / Greg Brockman"
+    },
+    {
+      "type": "corner",
+      "corner": "brief",
+      "deck": "Filed, priced, disputed, offered."
+    },
+    {
+      "type": "brief-grid",
+      "headline": "Anthropic's S-1, cheaper Terra, a disputed breach, Microsoft buyouts",
+      "columns": 2,
+      "variant": "cards",
+      "items": [
+        {
+          "scan": "2114705686513033360",
+          "headline": "Anthropic's S-1: $16.3B H1 revenue and ~$265.6B in compute it must pay for",
+          "note": "Net loss $80.7B, mostly a non-cash note charge. Founders keep 50.1% of the vote; ticker ANT on Nasdaq.",
+          "why": "The first audited look at a frontier lab's economics: the compute bill is owed whether or not usage shows up.",
+          "source_label": "SEC S-1 / Wall St Engine"
+        },
+        {
+          "scan": "2114780715086754261",
+          "headline": "GPT-6.1 Terra: better than 5.6 Terra at half the API price",
+          "note": "Pitched for computer use. OpenAI still points complex coding to Sol or Astra.",
+          "why": "A cheaper default for agent loops; worth re-running your evals and costs on it.",
+          "source_label": "OpenAI"
+        },
+        {
+          "scan": "2114646230764851695",
+          "headline": "WaPo: ex-DOGE researchers' agents reached Anthropic's Slack in under 12 hours",
+          "note": "Reportedly via third-party vendor software under the bug bounty. Anthropic disputes the scope; no write-up yet.",
+          "why": "Agents finding the weak vendor link fast is plausible, but the details are one side's account so far.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Washington Post"
+        },
+        {
+          "scan": "2114828110528917881",
+          "headline": "Microsoft offers voluntary buyouts to 60,000 staff",
+          "note": "Gergely Orosz: hard news from a stable employer, but more humane than waiting for layoffs.",
+          "why": "A signal of how Big Tech is reshaping headcount as AI spending climbs.",
+          "source_label": "Financial Times"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "lead",
+      "deck": "A big claim, and how experts are holding it."
+    },
+    {
+      "type": "feature",
+      "scan": "2114833319431209352",
+      "headline": "A claimed refutation of ETH, and an open review to test it",
+      "deck": "OpenAI's paper says 3SAT runs in about exp(n/(log n)^{1/2+o(1)}) time. Williams, Impagliazzo and Paturi will organize an independent examination.",
+      "span": "half",
+      "variant": "standard",
+      "emphasis": "loud",
+      "art": "lattice.jpg",
+      "art_alt": "A lattice of purple nodes with one dashed path traced across it to a circled end point",
+      "why": "ETH underpins many lower bounds. A refutation would be historic, so the review matters more than the headline.",
+      "tags": [
+        "unverified"
+      ],
+      "source_label": "Ryan Williams / OpenAI PDF"
+    },
+    {
+      "type": "pull-quote",
+      "scan": "2114833319431209352",
+      "quote": "An internal model at OpenAI has produced a claimed refutation of ETH!",
+      "variant": "bar",
+      "span": "half"
+    },
+    {
+      "type": "compare",
+      "headline": "Take it seriously, or step away from AI?",
+      "verdict": "Both are reactions before the facts are in. Gowers treats the claim as momentous if true; the pledge refuses AI math on principle. The open review will say whether the proof holds, and that is the part worth waiting for.",
+      "variant": "cards",
+      "items": [
+        {
+          "scan": "2114846058622718221",
+          "label": "Timothy Gowers",
+          "note": "ETH is the hypothesis that 3SAT needs exponential time; it being false would be very surprising and consequential.",
+          "why": "A Fields medallist engaging with the claim on its merits.",
+          "source_label": "Timothy Gowers"
+        },
+        {
+          "scan": "2114153199414157752",
+          "label": "A pledge against AI math",
+          "note": "Reported: 1,000+ mathematicians commit not to publish AI-generated papers or work with labs; 654 refuse AI entirely.",
+          "why": "Shows how split the field is just as AI results arrive.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Hesamation"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "your-saves",
+      "deck": "What you saved since the last issue."
+    },
+    {
+      "type": "numbered-list",
+      "headline": "A backend with a proof attached, and bots in pipelines",
+      "variant": "large",
+      "items": [
+        {
+          "bookmark": "2114639107129540644",
+          "headline": "Nyxis: a Lean-proved guarantee that no request exceeds its permissions",
+          "note": "You maintain the policy; agents can write the rest. Outside the proof: the runtime, a wrong policy, and any second path to the database.",
+          "why": "Today's theme in your own saves: a real proof, valid only inside its written assumptions.",
+          "source_label": "github.com/NyxFoundation"
+        },
+        {
+          "bookmark": "2114624706037022938",
+          "headline": "Huntley: lots of little bots, piped together like Unix",
+          "note": "His trip bot hands off to an events bot, which trims the list when his flight date arrives.",
+          "why": "Small composable bots are easier to test and swap than one giant agent.",
+          "source_label": "Geoffrey Huntley"
+        }
+      ]
+    },
+    {
+      "type": "sidebar-box",
+      "bookmark": "2114624706037022938",
+      "headline": "Try tonight",
+      "variant": "note"
+    },
+    {
+      "type": "corner",
+      "corner": "field-notes",
+      "deck": "Agents that don't rethink, caches that leak."
+    },
+    {
+      "type": "numbered-list",
+      "headline": "Locked-in strategies, and a KV cache shared across requests",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2114703594347725005",
+          "headline": "Coding agents run post-training well but almost never switch strategy",
+          "note": "Only 2.1% of experiment pairs change approach. One human sentence mid-run beat autonomy: GSM8K +17.44pp.",
+          "why": "A cheap habit: at the halfway mark, ask your agent whether the plan itself is right.",
+          "source_label": "OpenBMB / arXiv"
+        },
+        {
+          "scan": "2114848043853873286",
+          "headline": "Cloudflare: a GLM 5.3 config mismatch exposed KV cache pages across requests",
+          "note": "An SGLang bug in disaggregated serving. LMSYS published fixes and steps for operators.",
+          "why": "Inference servers are a new place for data to leak between users. Patch SGLang if you self-host.",
+          "source_label": "Cloudflare / LMSYS"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "japan-desk",
+      "label": "日本から",
+      "deck": "旅行サイトの漏洩と、ラピダスの人材策。"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "楽天トラベルで最大260万件流出か、ラピダスはインドHCLに設計委託",
+      "variant": "large",
+      "items": [
+        {
+          "scan": "2114852097342820452",
+          "headline": "楽天トラベルに不正アクセス、顧客情報最大約260万件流出の可能性",
+          "note": "予約者約3.6万件のクレカ情報も。海外予約が中心と報じられている。",
+          "why": "利用者なら明細の確認を。大手でも漏洩の波は続いている。",
+          "source_label": "ITmedia / NHK"
+        },
+        {
+          "scan": "2114655466982936763",
+          "headline": "ラピダス、インドHCLと協業し設計作業を委託",
+          "note": "HCLがカルナタカ州に2拠点。2ナノ量産に向けた人材不足を補う。",
+          "why": "日本の半導体計画が国外のエンジニアに頼り始めた。",
+          "source_label": "日経"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "adjacent",
+      "deck": "One step out: power, memory and burgers."
+    },
+    {
+      "type": "brief-grid",
+      "headline": "Gas-fired data centers, a memory crunch into 2027, McDonald's as an MCP server",
+      "columns": 3,
+      "variant": "plain",
+      "items": [
+        {
+          "scan": "2114738298534899762",
+          "headline": "Off-grid gas at data centers: 60–80% higher emissions than the grid",
+          "note": "Zeke Hausfather warns it risks locking in fossil dependence.",
+          "why": "The AI build-out's climate cost depends on where the power comes from.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Zeke Hausfather"
+        },
+        {
+          "scan": "2114564045168648516",
+          "headline": "Michael Dell: the memory shortage gets worse in 2027",
+          "note": "New fabs take about four years; relief maybe by 2029. Agents changed demand.",
+          "why": "Explains RAM and SSD prices, and why hardware plans may slip.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "via WSJ"
+        },
+        {
+          "scan": "2114739100574232801",
+          "headline": "麦当劳中国把点餐和优惠券做成了 MCP 接口",
+          "note": "开发者做了省钱技能：说一句“只有二十块”，智能体自己凑券。",
+          "why": "A consumer brand treating agents as customers, ahead of most of the West.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "LiuweijiaVip"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "open-window",
+      "deck": "Worth knowing, whatever you work on."
+    },
+    {
+      "type": "brief-grid",
+      "headline": "A press fight in India, a phonetic map, a sea amphibian, Troy's first flute",
+      "columns": 2,
+      "variant": "cards",
+      "items": [
+        {
+          "scan": "2114667476969804215",
+          "headline": "India's biggest publishers take Modi's privacy law to the Supreme Court",
+          "note": "Consent and erasure rules, they argue, would let subjects of investigations kill stories and expose sources.",
+          "why": "Privacy law and press freedom can collide; this is the largest test of it in the world's biggest democracy.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "Reuters"
+        },
+        {
+          "scan": "2114703895217766441",
+          "headline": "A 1980s Yugoslav map spells British towns as they sound",
+          "note": "Seen at the Museum of the 80s in Sarajevo.",
+          "why": "Maps show how one place looks from another language.",
+          "tags": [
+            "new-to-you",
+            "unverified"
+          ],
+          "source_label": "Brilliant Maps"
+        },
+        {
+          "scan": "2114810662228508757",
+          "headline": "A 237-million-year-old armored amphibian may have lived entirely at sea",
+          "note": "No living amphibian is marine. Steve Brusatte calls it a potential evolutionary gamechanger.",
+          "why": "A rule of biology that looked fixed may have had a Triassic exception.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "Phys.org / Nat Ecol Evol"
+        },
+        {
+          "scan": "2114760226251456540",
+          "headline": "Troy yields its first musical instrument: a 2,800-year-old bone flute",
+          "note": "Plus the head of an Early Bronze Age idol.",
+          "why": "A sound from Homer's city, after 150 years of digging.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "Archaeology"
+        }
+      ]
+    },
+    {
+      "type": "image-of-the-day",
+      "headline": "Under the lamp",
+      "art": "iotd.jpg",
+      "art_alt": "A fan of paper cards on a dark desk under a warm desk lamp, the last card gold",
+      "caption": "A proof is a stack of pages someone has to check, one by one, under a lamp. Today many claims arrived; the checking is the part that lasts.",
+      "variant": "standard"
+    },
+    {
+      "type": "corner",
+      "corner": "kicker",
+      "deck": "One to end on."
+    },
+    {
+      "type": "closer",
+      "scan": "2114681025473446147",
+      "headline": "Terence Tao's Guardian puzzle hides quadratics in a game of plants and coins",
+      "note": "Set to mark his first general-audience book, Six Math Essentials.",
+      "why": "After a day of AI math claims, a human mathematician making math playful.",
+      "tags": [
+        "unverified"
+      ],
+      "variant": "photo",
+      "source_label": "Math Files"
+    }
+  ]
+}
