@@ -1,0 +1,281 @@
+{
+  "date": "2026-10-28",
+  "title": "The whole proof, checked",
+  "subtitle": "CFSG in Lean, a Downloads-folder hijack, Ghostty 1.4, ちばてつや",
+  "editor_note": "A 15,000-page proof is now machine-checked. Everything else today is lighter.",
+  "theme": {
+    "palette": "ocean",
+    "fonts": "sans",
+    "accent": "#e8a64a"
+  },
+  "sections": [
+    {
+      "type": "cover-story",
+      "scan": "2115089794867040584",
+      "kicker": "Cover story",
+      "headline": "The biggest proof in math, now checked by Lean",
+      "variant": "overlay",
+      "why": "AI wrote formal proof at a scale no team could. Gowers calls it great news."
+    },
+    {
+      "type": "corner",
+      "corner": "brief"
+    },
+    {
+      "type": "brief-grid",
+      "headline": "Worlds, a biotech, Discord, Ebola",
+      "columns": 2,
+      "variant": "cards",
+      "items": [
+        {
+          "scan": "2115114028338962672",
+          "headline": "Genie 4: worlds that react and speak",
+          "why": "Interactive world models keep getting closer to playable.",
+          "source_label": "Google DeepMind"
+        },
+        {
+          "scan": "2115185849424048564",
+          "headline": "Anthropic buys a one-person biotech",
+          "why": "One operator plus Claude ran a drug program.",
+          "source_label": "Professor Oak / Anthropic"
+        },
+        {
+          "scan": "2115204683119854079",
+          "headline": "Discord messages coming to web search",
+          "why": "Public servers become searchable from mid-December.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Techmeme / TechCrunch"
+        },
+        {
+          "scan": "2115013175464616082",
+          "headline": "Ebola in Congo passes 10,000 cases",
+          "why": "The outbreak is spreading across borders.",
+          "source_label": "AP"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "lead"
+    },
+    {
+      "type": "feature",
+      "scan": "2115046794451374357",
+      "headline": "Downloadsで起動したエージェントが乗っ取られる",
+      "variant": "standard",
+      "emphasis": "loud",
+      "art": "downloads.jpg",
+      "art_alt": "An open folder with one sheet glowing orange among plain ones, on deep blue",
+      "why": "cc-safety-netの領域そのもの。Codexで成功率90%以上。",
+      "source_label": "Forever / チャエン"
+    },
+    {
+      "type": "corner",
+      "corner": "your-saves"
+    },
+    {
+      "type": "feature",
+      "bookmark": "2114368194546696576",
+      "headline": "X stops cutting new posts first",
+      "variant": "standard",
+      "why": "The first 2 hours still decide reach.",
+      "source_label": "Peter Mick"
+    },
+    {
+      "type": "interlude",
+      "art": "tide.jpg",
+      "art_alt": "Pale tide lines across dark teal water",
+      "variant": "wide"
+    },
+    {
+      "type": "corner",
+      "corner": "field-notes"
+    },
+    {
+      "type": "feature",
+      "scan": "2115124583170974193",
+      "headline": "Ghostty 1.4: Kitty graphics, far less memory",
+      "variant": "standard",
+      "art": "cells.jpg",
+      "art_alt": "A dark terminal window filled with fading teal cells",
+      "why": "Fixes 10 security advisories, so update.",
+      "source_label": "ghostty.org"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "A harder benchmark, tiny models, a leak",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2115132488775524793",
+          "headline": "FrontierCode 2.0: should you merge it?",
+          "why": "Vague prompts test judgment; top model scores 45%.",
+          "source_label": "Cognition"
+        },
+        {
+          "scan": "2115128329003303107",
+          "headline": "LFM3: ~2B models for every modality",
+          "why": "Small on-device models; benchmark claims are self-reported.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Liquid AI"
+        },
+        {
+          "scan": "2115115315168248276",
+          "headline": "Warp breach exposed AI agent logs",
+          "why": "Agent logs are sensitive data now.",
+          "source_label": "BleepingComputer"
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "art": "hexagon.jpg",
+      "art_alt": "A single amber hexagon glowing above still water",
+      "variant": "square"
+    },
+    {
+      "type": "corner",
+      "corner": "japan-desk",
+      "label": "日本から"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "ちばてつや、最年少新人王、懸賞金",
+      "variant": "large",
+      "items": [
+        {
+          "scan": "2114914413048381725",
+          "headline": "ちばてつやさん死去、87歳",
+          "why": "「あしたのジョー」の作者。",
+          "source_label": "NHK"
+        },
+        {
+          "scan": "2115043720844456199",
+          "headline": "柳原咲輝二段、16歳0カ月で新人王",
+          "why": "男女通じて史上最年少。",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "朝日新聞囲碁取材班"
+        },
+        {
+          "scan": "2115035856365068639",
+          "headline": "GMO、実行犯の手がかりに1.5億円",
+          "why": "企業が自ら懸賞金を出すのは異例。",
+          "source_label": "ITmedia NEWS"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "adjacent"
+    },
+    {
+      "type": "brief-grid",
+      "headline": "AI money, from debt to the rich list",
+      "columns": 3,
+      "variant": "plain",
+      "items": [
+        {
+          "scan": "2115039564272189585",
+          "headline": "BIS: AI build-out runs on credit",
+          "why": "Risk may pile up in a few firms.",
+          "source_label": "BIS Bulletin"
+        },
+        {
+          "scan": "2114937634791329950",
+          "headline": "梁文锋首次上榜即进前十",
+          "why": "DeepSeek创始人身家2800亿元。",
+          "source_label": "胡润 / PANews"
+        },
+        {
+          "scan": "2115084756253863978",
+          "headline": "DeepSeek Harness 插件热",
+          "why": "像 Obsidian 一样可玩。",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "向阳乔木"
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "art": "horizon.jpg",
+      "art_alt": "A dotted horizon with one amber point in the middle",
+      "variant": "quiet"
+    },
+    {
+      "type": "corner",
+      "corner": "open-window"
+    },
+    {
+      "type": "brief-grid",
+      "headline": "Oil dividends, ice ages, two asteroids, marbles",
+      "columns": 2,
+      "variant": "cards",
+      "items": [
+        {
+          "scan": "2115191848209646035",
+          "headline": "Share AI wealth like Alaska's oil?",
+          "why": "A 50-year experiment in public dividends.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "The Economist"
+        },
+        {
+          "scan": "2115167914160427451",
+          "headline": "We may have cancelled an ice age",
+          "why": "Emissions may outweigh orbital cooling.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "Smithsonian"
+        },
+        {
+          "scan": "2115086429067850212",
+          "headline": "Hera sees two asteroids, not one",
+          "why": "Dimorphos close-ups due Nov 25.",
+          "source_label": "ESA"
+        },
+        {
+          "scan": "2115106784281243748",
+          "headline": "Countries that vote with a marble",
+          "why": "A ballot you can't misread.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Terrible Maps"
+        }
+      ]
+    },
+    {
+      "type": "image-of-the-day",
+      "headline": "Afternoon nap",
+      "art": "iotd.jpg",
+      "art_alt": "A small dark penguin shape resting by a calm sea under a warm afternoon sun",
+      "caption": "A day of big proofs ends with an afternoon nap.",
+      "variant": "standard"
+    },
+    {
+      "type": "corner",
+      "corner": "kicker"
+    },
+    {
+      "type": "closer",
+      "scan": "2115126378471506362",
+      "headline": "Penguins sleep deepest in the afternoon",
+      "why": "Found by poking penguins with a stick.",
+      "tags": [
+        "unverified"
+      ],
+      "variant": "photo",
+      "source_label": "QI"
+    }
+  ]
+}

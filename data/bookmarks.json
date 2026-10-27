@@ -738,5 +738,34 @@
         "link": "https://t.co/wHjH2JxDs6"
       }
     ]
+  },
+  {
+    "id": "2114368194546696576",
+    "url": "https://x.com/ThePeterMick/status/2114368194546696576",
+    "author": {
+      "name": "Peter Mick",
+      "handle": "ThePeterMick"
+    },
+    "posted_at": "2026-10-25T14:47:15.000Z",
+    "saved_at": "2026-10-28T08:30:00+09:00",
+    "topic": "other",
+    "shelf_life": "evergreen",
+    "tldr": "X's feed no longer cuts brand-new posts first",
+    "summary": "Peter Mick reads X's open-sourced ranking code: the For You feed checks only 2,800 of about 3,700 candidates, and new posts used to be cut first; now every source is trimmed equally. Posts labeled low quality or misinfo get a warning and can't be liked or shared by non-followers.",
+    "text": "X ALGORITHM UPDATE 🚨\n\nX just stopped cutting new posts first, and that should help small accounts (I check it daily with Claude and share updates worth sharing with you)\n\ntl;dr:\n\n- X can only check 2,800 posts each time you open your feed\n- new posts used to be last in line, so they got cut first\n- now everything gets cut equally, new posts included\n- posts labeled low quality or misinfo now show a warning, and people can't like, reply or share them\n- no score changes this time\n\nlesson learned: your new posts now get a fair chance to be seen. Your first 2 hours still matter most.\n\nfull details:\n\n- How it worked until this week\n\nEvery time someone opens For You, X collects around 3,700 posts it could show them: posts from people they follow, popular posts, posts liked by similar people, and brand new posts.\n\nBut X only has time to check 2,800 of them.\n\nSo it just took the first 2,800 in line. Brand new posts were at the back of the line. When there were too many, they were the ones left out... and a post that never gets checked can't be shown.\n\n- What changed\n\nNow everything gets cut by the same amount. 25% too many? Every type of post loses 25%, new posts included. Nobody goes first.\n\n- Why small accounts should care\n\nThose brand new posts are under 2 hours old, with under 8 likes and under 500 views. That's where most posts from smaller accounts are.\n\nMy read: they now get a fair chance instead of being cut first. How often X actually hits the 2,800 limit isn't in the code, so I can't tell you how big the difference is.\n\n- Low quality and misinfo posts now show a warning\n\nIf X labels your post as low quality or misinformation, people who don't follow you see a warning on it, and they can't like, reply, repost, bookmark or share it. The code doesn't say what gets a post that label.\n\nHere's a recap of what you should be doing:\n\n- a new post gets its extra push only in its first 2 hours and first 200 views, so post when your people are online\n- likes carry more weight than ever at 0.66 each\n- people sticking around pays, the time-spent score is 50% higher than two weeks ago\n- a read of 10+ seconds after someone opens your post adds 0.4\n- the boost favors the post with the best like rate from its first viewers\n- accounts up to 50K can get one fresh original lifted to roughly 16th\n- nothing beats a copy link share, it scores 20\n- replies, quotes and DM shares each score 5\n- talk with your mutuals, replies between you score 20 instead of 5\n- originals are the only posts that travel outside your follower base\n- the 1st and the 32nd like each open a new route to strangers\n- your 2nd post in the same feed is worth 62% of the first, so pick your best one\n- videos still need 10+ seconds to qualify for the video lists\n- earning a follow adds 4\n- a pinned post with a bad link can flag the account for 7 days, worth a quick check\n\nWhat you should NOT be doing:\n\n- posts that get labeled low quality or misinfo now carry a warning, and nobody outside your followers can like or share them\n- video alone won't carry you, an open counts 0.02 and the watch 0\n- hide-worthy posts cost more, \"not interested\" sits at -52.27\n- a post at 3am burns its 2 hour window before anyone sees it\n- a tap that turns into a bounce is worth only 0.3\n- replies and reposts don't get past your followers\n- insults get your post hidden from anyone who doesn't follow you\n- adult media in 3 of your last 5 posts puts a label on your account\n- disguised content in videos gets checked from 64 likes, harder at 512\n- self-reply chains under big accounts risk being zeroed\n- one account label and non-followers stop seeing you entirely\n- low-rated links don't belong in your pinned post\n- recycled wording can get tagged as copypasta spam\n- strangers tagged plus a low quality link is a pattern X flags\n- engagement bait has no size exemption\n- several posts in a row end up competing with each other\n- hashtag stacks add nothing\n- bookmarks are still worth 0\n- 48 hours in, For You is finished with a post",
+    "key_points": [
+      "New posts now get a fair chance instead of being cut first.",
+      "The first 2 hours and first 200 views still decide reach.",
+      "Copy-link shares score 20; bookmarks still score 0.",
+      "Low-quality labels block likes and shares from non-followers."
+    ],
+    "action": "Post your best original when your followers are online, and reply to mutuals in its first 2 hours",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVe-mC6WwAAbMXj.jpg",
+        "alt": "Infographic summarizing the X algorithm update"
+      }
+    ]
   }
 ]
