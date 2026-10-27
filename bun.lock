@@ -510,7 +510,7 @@
 
     "graceful-fs": ["graceful-fs@4.2.11", "", {}, "sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ=="],
 
-    "grok-digest": ["grok-digest@0.5.14", "", { "dependencies": { "@astrojs/react": "^7.0.1", "@astrojs/rss": "^4.0.19", "@fontsource-variable/geist": "^5.3.0", "@fontsource-variable/source-serif-4": "^5.3.1", "@tailwindcss/vite": "^4.3.3", "astro": "^7.3.8", "class-variance-authority": "^0.7.1", "cn": "^0.4.0", "lucide-react": "^1.57.0", "radix-ui": "^1.8.1", "react": "^19.3.0", "react-dom": "^19.3.0", "tailwindcss": "^4.3.3", "tw-animate-css": "^1.4.0", "zod": "^4.6.7" }, "bin": { "grok-digest": "dist/cli.js" } }, "sha512-iTXwAI7QO0JCv1h0Hhc/NwaN5oX5nNmu326o6RAjB9KS6WYNQsuuUjpTIwoAs+wZYftj3P5YVRNhv0xua/dr8w=="],
+    "grok-digest": ["grok-digest@0.5.15", "", { "dependencies": { "@astrojs/react": "^7.0.1", "@astrojs/rss": "^4.0.19", "@fontsource-variable/geist": "^5.3.0", "@fontsource-variable/source-serif-4": "^5.3.1", "@tailwindcss/vite": "^4.3.3", "astro": "^7.3.8", "class-variance-authority": "^0.7.1", "cn": "^0.4.0", "lucide-react": "^1.57.0", "radix-ui": "^1.8.1", "react": "^19.3.0", "react-dom": "^19.3.0", "tailwindcss": "^4.3.3", "tw-animate-css": "^1.4.0", "zod": "^4.6.7" }, "bin": { "grok-digest": "dist/cli.js" } }, "sha512-sL/P5VKxjvJiSB8+Ngc1VLEQVfHfDdFUdAEdpDx7nXtdyJjw6y0Ym5ofKbEFrA9B9QvPSal3j84cDi/NpS5SCg=="],
 
     "h3": ["h3@1.15.11", "", { "dependencies": { "cookie-es": "^1.2.3", "crossws": "^0.3.5", "defu": "^6.1.6", "destr": "^2.0.5", "iron-webcrypto": "^1.2.1", "node-mock-http": "^1.0.4", "radix3": "^1.1.2", "ufo": "^1.6.3", "uncrypto": "^0.1.3" } }, "sha512-L3THSe2MPeBwgIZVSH5zLdBBU90TOxarvhK9d04IDY2AmVS8j2Jz2LIWtwsGOU3lu2I5jCN7FNvVfY2+XyF+mg=="],
 
