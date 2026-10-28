@@ -1,8 +1,8 @@
 {
   "date": "2026-10-28",
-  "title": "The whole proof, checked",
-  "subtitle": "CFSG in Lean, a Downloads-folder hijack, Ghostty 1.4, ちばてつや",
-  "editor_note": "A 15,000-page proof is now machine-checked. Everything else today is lighter.",
+  "title": "Patched, chained, and checked",
+  "subtitle": "Tailscale v1.104.4, Claude's Chrome chain, skill-diet, t_wada's TDD log",
+  "editor_note": "Tailscale has patched the Tailworm SSH bugs, and Claude chained Chrome bugs past the sandbox. Over half of today comes from your timeline.",
   "theme": {
     "palette": "ocean",
     "fonts": "sans",
@@ -23,15 +23,39 @@
     },
     {
       "type": "brief-grid",
-      "headline": "Worlds, a biotech, Discord, Ebola",
+      "headline": "Benchmarks, a Chrome chain, a Slack claim",
       "columns": 2,
       "variant": "cards",
       "items": [
         {
-          "scan": "2115114028338962672",
-          "headline": "Genie 4: worlds that react and speak",
-          "why": "Interactive world models keep getting closer to playable.",
-          "source_label": "Google DeepMind"
+          "scan": "2115309622928314781",
+          "headline": "Claude chained Chrome bugs past the sandbox",
+          "why": "Chrome 156 fixes 52 bugs, many found with Claude. Update.",
+          "source_label": "The Hacker News / Anthropic"
+        },
+        {
+          "scan": "2115265133467635877",
+          "headline": "AA Index v5 goes mostly private",
+          "why": "60% of the evals now use private sets; open weights trail by 12.",
+          "source_label": "Artificial Analysis"
+        },
+        {
+          "scan": "2115235637339054109",
+          "headline": "OpenCode 2.0 hits 1M daily users",
+          "why": "Two weeks after launch. A rival to Claude Code is growing fast.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Dax Raad"
+        },
+        {
+          "scan": "2115236836092313988",
+          "headline": "Claim: Cathedral got Anthropic Slack admin",
+          "why": "New since yesterday. Anthropic's Logan Graham says the facts are wrong.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Will Depue"
         },
         {
           "scan": "2115185849424048564",
@@ -40,19 +64,10 @@
           "source_label": "Professor Oak / Anthropic"
         },
         {
-          "scan": "2115204683119854079",
-          "headline": "Discord messages coming to web search",
-          "why": "Public servers become searchable from mid-December.",
-          "tags": [
-            "unverified"
-          ],
-          "source_label": "Techmeme / TechCrunch"
-        },
-        {
-          "scan": "2115013175464616082",
-          "headline": "Ebola in Congo passes 10,000 cases",
-          "why": "The outbreak is spreading across borders.",
-          "source_label": "AP"
+          "scan": "2115114028338962672",
+          "headline": "Genie 4: worlds that react and speak",
+          "why": "Interactive world models keep getting closer to playable.",
+          "source_label": "Google DeepMind"
         }
       ]
     },
@@ -62,14 +77,12 @@
     },
     {
       "type": "feature",
-      "scan": "2115046794451374357",
-      "headline": "Downloadsで起動したエージェントが乗っ取られる",
+      "scan": "2115328904546365700",
+      "headline": "Tailscale patches the Tailworm SSH bugs",
       "variant": "standard",
       "emphasis": "loud",
-      "art": "downloads.jpg",
-      "art_alt": "An open folder with one sheet glowing orange among plain ones, on deep blue",
-      "why": "cc-safety-netの領域そのもの。Codexで成功率90%以上。",
-      "source_label": "Forever / チャエン"
+      "why": "New since 10-26: fixes ship in v1.104.4. Tailscale says it is not a worm. Headscale is still unpatched.",
+      "source_label": "The Hacker News / Tailscale"
     },
     {
       "type": "corner",
@@ -95,6 +108,16 @@
     },
     {
       "type": "feature",
+      "scan": "2115046794451374357",
+      "headline": "Downloadsで起動したエージェントが乗っ取られる",
+      "variant": "standard",
+      "art": "downloads.jpg",
+      "art_alt": "An open folder with one sheet glowing orange among plain ones, on deep blue",
+      "why": "cc-safety-netの領域そのもの。Codexで成功率90%以上。",
+      "source_label": "Forever / チャエン"
+    },
+    {
+      "type": "feature",
       "scan": "2115124583170974193",
       "headline": "Ghostty 1.4: Kitty graphics, far less memory",
       "variant": "standard",
@@ -105,9 +128,36 @@
     },
     {
       "type": "numbered-list",
-      "headline": "A harder benchmark, tiny models, a leak",
+      "headline": "Skills, subagents, safer releases",
       "variant": "compact",
       "items": [
+        {
+          "scan": "2114975730471997613",
+          "headline": "skill-diet: 70–80% fewer skill tokens",
+          "why": "Keeps the slim skill only if agents do as well. Try it on your skills.",
+          "source_label": "Nico Bailon"
+        },
+        {
+          "scan": "2114967833708732607",
+          "headline": "Fold a subagent into a skill first",
+          "why": "Keep subagents for parallel work or fresh context.",
+          "source_label": "Addy Osmani"
+        },
+        {
+          "scan": "2115015660292182353",
+          "headline": "Bun swaps C/C++ deps for Rust",
+          "why": "After 3 advisories last week. libarchive goes first.",
+          "source_label": "Bun"
+        },
+        {
+          "scan": "2114954893106757798",
+          "headline": "Release pipelines vs. supply-chain attacks",
+          "why": "Signing and publishing to 5 stores, safely, took 2 days.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Dax Raad"
+        },
         {
           "scan": "2115132488775524793",
           "headline": "FrontierCode 2.0: should you merge it?",
@@ -144,9 +194,27 @@
     },
     {
       "type": "numbered-list",
-      "headline": "ちばてつや、最年少新人王、懸賞金",
+      "headline": "TDDログ、日本を狙うAI、ちばてつや",
       "variant": "large",
       "items": [
+        {
+          "scan": "2115277149439656373",
+          "headline": "素のClaude Code＋TDD、4時間20分の記録",
+          "why": "プラグインなしの進め方がそのまま読める。",
+          "source_label": "t_wada"
+        },
+        {
+          "scan": "2115148396969488395",
+          "headline": "44のAIエージェントが日本の組織を攻撃",
+          "why": "入口は古い管理画面と残った認証情報。",
+          "source_label": "The Hacker News / TrendAI"
+        },
+        {
+          "scan": "2115016490818969853",
+          "headline": "Claude Codeから見るエンジニアの変容",
+          "why": "Qiita Conference 2026 Autumnの登壇資料。",
+          "source_label": "oikon"
+        },
         {
           "scan": "2114914413048381725",
           "headline": "ちばてつやさん死去、87歳",
@@ -175,11 +243,66 @@
       "corner": "adjacent"
     },
     {
+      "type": "numbered-list",
+      "headline": "Hiring, bots, and how agents sway us",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2115200995546566910",
+          "headline": "Anthropic team drops the coding interview",
+          "why": "Matters for your job hunt: signal is moving elsewhere.",
+          "source_label": "Felix Rieseberg"
+        },
+        {
+          "scan": "2115205951649423585",
+          "headline": "tibot: a Grok Bot for your mentions",
+          "why": "A digest bot like yours, built on Grok Bot.",
+          "source_label": "Lauren (poteto)"
+        },
+        {
+          "scan": "2115209786157412397",
+          "headline": "Experts drift toward the agent's view",
+          "why": "Decide when to bring AI in if your own judgment matters.",
+          "source_label": "Ethan Mollick"
+        },
+        {
+          "scan": "2115035446627459461",
+          "headline": "A word for agent-verifiable tasks",
+          "why": "Tasks it can test itself are where trust is earned.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Matt Pocock"
+        },
+        {
+          "scan": "2115135857669881939",
+          "headline": "An AI-native macOS dock",
+          "why": "The agent edits its own focus modes.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Thariq"
+        }
+      ]
+    },
+    {
       "type": "brief-grid",
-      "headline": "AI money, from debt to the rich list",
+      "headline": "New Macs, AI money, a payout",
       "columns": 3,
       "variant": "plain",
       "items": [
+        {
+          "scan": "2115066787838722358",
+          "headline": "M6 MacBook Pro and iMac",
+          "why": "From $1,999 and $1,499; ships Nov 6.",
+          "source_label": "Apple / Mark Gurman"
+        },
+        {
+          "scan": "2115277610062361080",
+          "headline": "AT&T pays leak victims ¥28B",
+          "why": "Up to ¥1.2M per person.",
+          "source_label": "CNET Japan"
+        },
         {
           "scan": "2115039564272189585",
           "headline": "BIS: AI build-out runs on credit",
@@ -215,10 +338,16 @@
     },
     {
       "type": "brief-grid",
-      "headline": "Oil dividends, ice ages, two asteroids, marbles",
+      "headline": "Ebola, oil dividends, ice ages, asteroids, marbles",
       "columns": 2,
       "variant": "cards",
       "items": [
+        {
+          "scan": "2115013175464616082",
+          "headline": "Ebola in Congo passes 10,000 cases",
+          "why": "The outbreak is spreading across borders.",
+          "source_label": "AP"
+        },
         {
           "scan": "2115191848209646035",
           "headline": "Share AI wealth like Alaska's oil?",
@@ -259,7 +388,7 @@
       "headline": "Afternoon nap",
       "art": "iotd.jpg",
       "art_alt": "A small dark penguin shape resting by a calm sea under a warm afternoon sun",
-      "caption": "A day of big proofs ends with an afternoon nap.",
+      "caption": "A day of patches ends with an afternoon nap.",
       "variant": "standard"
     },
     {

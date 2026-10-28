@@ -5595,5 +5595,573 @@
         "link": "https://t.co/WdGidcrecF"
       }
     ]
+  },
+  {
+    "id": "2115328904546365700",
+    "url": "https://x.com/TheHackersNews/status/2115328904546365700",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-10-28T06:24:46.000Z",
+    "saved_at": "2026-10-28T16:20:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Tailscale ships v1.104.4, patching the Tailworm SSH flaws",
+    "summary": "Tailscale has now patched the Tailworm SSH findings in v1.104.4. Its write-up calls them privilege escalation after authorization, not a worm; Headscale is still unpatched.",
+    "text": "‼️ Tailscale finally issued patches for SSH flaws that could turn one hacked device into root access on other servers.\n\nThe Tailworm research demonstrated rapid lateral movement across policy-permitted devices, without stolen passwords or user interaction.\n\n⚠️ Headscale remains UNPATCHED.\n\nRead - https://t.co/dY3SqdY30U",
+    "key_points": [
+      "Upgrade to v1.104.4 to get the fixes.",
+      "An attacker needs a foothold on a peer that policy already allows.",
+      "Until upgraded, TS_SSH_DISABLE_FORWARDING=1 blocks the socket-forwarding bug.",
+      "Headscale users are not covered by this release."
+    ],
+    "action": "Upgrade every tailscaled node to v1.104.4, or set TS_SSH_DISABLE_FORWARDING=1 until you can",
+    "links": [
+      {
+        "title": "The Hacker News: Tailscale patches SSH flaws",
+        "url": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
+        "short": "https://t.co/dY3SqdY30U"
+      },
+      {
+        "title": "Tailscale: Tailscale SSH findings and fixes",
+        "url": "https://tailscale.com/blog/tailscale-ssh-findings-fixes"
+      },
+      {
+        "title": "Tailscale security bulletins TS-2026-014 to 017",
+        "url": "https://tailscale.com/security-bulletins"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVsobI5aUAAGwY_.jpg",
+        "alt": "Tailscale logo on a warning graphic"
+      }
+    ]
+  },
+  {
+    "id": "2115265133467635877",
+    "url": "https://x.com/ArtificialAnlys/status/2115265133467635877",
+    "author": {
+      "name": "Artificial Analysis",
+      "handle": "ArtificialAnlys"
+    },
+    "posted_at": "2026-10-28T02:11:22.000Z",
+    "saved_at": "2026-10-28T16:20:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "AA Intelligence Index v5 is now mostly private test sets",
+    "summary": "Artificial Analysis launched Intelligence Index v5: 60% now runs on private or held-out evals, FrontierCode 2.0 joins, and the open-weights gap widens from 3 to 12 points.",
+    "text": "Announcing Artificial Analysis Intelligence Index v5, featuring 2 new benchmarks and 3 upgrades. For the first time, the majority of the Index is built on private datasets\n\nThe Artificial Analysis Intelligence Index is our composite measure of model capabilities across tasks reflecting real-world usage today. v5 is our biggest upgrade since v4 launched in January. With v5, 60% of the Index is now based on evaluations with private test sets or held-out answers.\n\nAlongside Intelligence Index v5, we’re launching the Artificial Analysis Progress Index v1, which tracks model capability over time on one continuous scale.\n\nNew to the Intelligence Index:\n\n➤ FrontierCode 2.0: Cognition's newly-launched private benchmark of real-world coding tasks, graded on whether a repository maintainer would merge the agent's change\n\n➤ Terminal-Bench-Science: 70 agentic scientific research tasks, run in a terminal environment\n\nUpgraded:\n\n➤ HLE-Diamond (replacing Humanity's Last Exam): a refined 1,000-question version of Humanity's Last Exam, split evenly between reasoning and knowledge questions\n\n➤ AA-Omniscience v1.1: An updated dataset with saturated and public set questions removed, new questions added, and ambiguous or erroneous questions revised\n\n➤ CritPt v2: a private, 40-question hard subset of CritPt v2, revised by the CritPt authors and run with a code-execution tool\n\nStaying in the Index: AA-Briefcase, AutomationBench-AA, GDP.pdf and Terminal-Bench 4.0\n\nRemoved from the Index: GDPval-AA v2.1, SciCode, and AA-LCR v1.1\n\nKey results:\n\n➤ Claude Opus 5.5 (max) leads at 58, ahead of GPT-6 Astra (max, 57) and GPT-6.1 Sol (max, 55): Anthropic and OpenAI hold the top five models. Gemini 4 Argon (high) is next at 50\n\n➤ The open weights gap widens from 3 points to 12: Kimi K3.1 Pro (weights not yet released) is the top open weights model at 46. Among released weights, DeepSeek V4.1 Flash 1017 (max) and GLM-5.3 (max) lead at 32 - 26 points behind the leader and below Claude Haiku 5.5 (max, 36)\n\n➤ Cost per task varies by more than 13x among the leading models: of the 10 highest-scoring models shown, GPT-6.1 Terra (max) is the cheapest at $0.96 per Intelligence Index task and Claude Fable 5.1 (max) the most expensive at $13.04",
+    "key_points": [
+      "Claude Opus 5.5 leads at 58, GPT-6 Astra 57.",
+      "Top open weights: Kimi K3.1 Pro at 46.",
+      "Cost per task varies over 13x among leaders."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Artificial Analysis Intelligence Index",
+        "url": "https://artificialanalysis.ai/"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVrubbmaoAA_Kry.jpg",
+        "alt": "Artificial Analysis Intelligence Index v5 chart"
+      }
+    ]
+  },
+  {
+    "id": "2115235637339054109",
+    "url": "https://x.com/thdxr/status/2115235637339054109",
+    "author": {
+      "name": "dax",
+      "handle": "thdxr"
+    },
+    "posted_at": "2026-10-28T00:14:09.000Z",
+    "saved_at": "2026-10-28T16:20:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "OpenCode 2.0 reaches 1M daily active users in two weeks",
+    "summary": "Dax Raad says OpenCode 2.0 hit one million daily active users two weeks after launch.",
+    "text": "OpenCode 2.0 now has 1M daily active users\n\nthat happened in 2 weeks\n\ngo upgrade everyone is having fun without you",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "OpenCode",
+        "url": "https://opencode.ai"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115309622928314781",
+    "url": "https://x.com/TheHackersNews/status/2115309622928314781",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-10-28T05:08:09.000Z",
+    "saved_at": "2026-10-28T16:20:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Claude found Chrome bugs and chained them into a sandbox escape",
+    "summary": "Chrome 156 fixes 52 security bugs, many credited to Anthropic with Claude. Anthropic says Claude chained four bugs into one-click code execution outside Chrome's sandbox.",
+    "text": "🚨 Google patches 52 Chrome security flaws, including 4 CRITICAL bugs.\n\nBut here's the bigger story:\n\n→ Claude AI discovered dozens of Chrome vulnerabilities.\n→ Built a working, multi-stage exploit chain.\n→ Escaped Chrome's browser sandbox to execute code.\n\nDetails: https://t.co/ciV8xUw7w1",
+    "key_points": [
+      "Four critical bugs; most credited to Anthropic's Xinyang Ge with Claude.",
+      "Anthropic counts 62 Chrome CVEs patched through Chrome 156.",
+      "Update Chrome to 156.0.8078.73 or later."
+    ],
+    "action": "Update Chrome to 156.0.8078.73 or later",
+    "links": [
+      {
+        "title": "Chrome Releases: Stable Channel Update for Desktop",
+        "url": "https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html",
+        "short": "https://t.co/ciV8xUw7w1"
+      },
+      {
+        "title": "Anthropic: Discovering vulnerabilities with Claude",
+        "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVsWy1RawAAQMA7.jpg",
+        "alt": "Chrome logo with a security warning"
+      }
+    ]
+  },
+  {
+    "id": "2115236836092313988",
+    "url": "https://x.com/willdepue/status/2115236836092313988",
+    "author": {
+      "name": "will depue",
+      "handle": "willdepue"
+    },
+    "posted_at": "2026-10-28T00:18:55.000Z",
+    "saved_at": "2026-10-28T16:20:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Claim: Cathedral got admin access to Anthropic's Slack",
+    "summary": "Will Depue says he hears Cathedral got full admin access to Anthropic's Slack workspace. Anthropic's Logan Graham replied that his facts are wrong but did not say which.",
+    "text": "anthropic is massively underplaying the recent security breach. i'm hearing cathedral achieved full administrator access of the slack workspace (see every message, log in as arbitrary users) where literally every single research secret is contained\n\nto those unfamiliar: Ant & OAI keep literally everything in Slack. it sounds exactly the same incident that happened to OpenAI in 2023, where OpenAI was hacked by a random guy who got access to an access token from an external app service\n\n\"we're critical to national security, we must beat China, and yes we keep all our crown jewels in Salesforce's Slack messenger. yes we have admin API tokens everywhere. why do you ask?\"",
+    "key_points": [
+      "Single-source claim; Anthropic disputes it.",
+      "Depue says AI labs keep research secrets in Slack."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Logan Graham's reply: your facts here are wrong",
+        "url": "https://x.com/logangraham/status/2115268617717830109"
+      },
+      {
+        "title": "Logan Graham's earlier corrections",
+        "url": "https://x.com/logangraham/status/2114849047953670635"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115015660292182353",
+    "url": "https://x.com/bunjavascript/status/2115015660292182353",
+    "author": {
+      "name": "Bun",
+      "handle": "bunjavascript"
+    },
+    "posted_at": "2026-10-27T09:40:03.000Z",
+    "saved_at": "2026-10-28T16:20:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "Bun will replace its C/C++ dependencies with Rust, starting with libarchive",
+    "summary": "After three security advisories last week, Bun plans to swap most of its C and C++ dependencies for its own Rust implementations, starting with libarchive.",
+    "text": "Last week, we published 3 security advisories including Brotli, tls certificates, and quic\n\nAs future hardening, we will replace most of Bun’s C/C++ dependencies with our own safe Rust implementation. \n\nStarting with libarchive\n\nhttps://t.co/RvK8vFPUmT",
+    "key_points": [
+      "Brotli, TLS certificate and QUIC advisories prompted it.",
+      "libarchive is first."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "GitHub PR: oven-sh/bun #46638",
+        "url": "https://github.com/oven-sh/bun/pull/46638",
+        "short": "https://t.co/RvK8vFPUmT",
+        "image": "https://pbs.twimg.com/news_img/2115015668831805441/5jjXjJNz?format=jpg&name=orig"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2114967833708732607",
+    "url": "https://x.com/addyosmani/status/2114967833708732607",
+    "author": {
+      "name": "Addy Osmani",
+      "handle": "addyosmani"
+    },
+    "posted_at": "2026-10-27T06:30:00.000Z",
+    "saved_at": "2026-10-28T16:20:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Before adding a subagent, check whether a skill would do",
+    "summary": "Addy Osmani: a bloated system prompt is often the real problem. Keep subagents for parallel work, fresh context or tool choice; fold the rest into skills and let evals decide.",
+    "text": "Before adding another subagent ask what problem it's solving. A bloated system prompt is often the issue.\n\nSkills and tool search can fix that without splitting context across agents. My rule of thumb is to keep a subagent when the work is parallel, needs fresh context or one agent really can't pick the right tools. \n\nOtherwise, fold it into the main loop, turn its prompt into a skill, run your evals and keep whatever wins.\n\nGood write-up:\nhttps://t.co/1gcrNNpQru",
+    "key_points": [
+      "Keep a subagent when work is parallel or needs fresh context.",
+      "Otherwise turn its prompt into a skill.",
+      "Run evals and keep whatever wins."
+    ],
+    "action": "Pick one subagent, turn its prompt into a skill, and compare both on your evals",
+    "links": [
+      {
+        "title": "Claude: When to fold subagents into your main loop",
+        "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+        "short": "https://t.co/1gcrNNpQru"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2114442378996285440/img/dZh1nN1DYmErCZKE.jpg",
+        "alt": "Still from the write-up video"
+      }
+    ]
+  },
+  {
+    "id": "2114975730471997613",
+    "url": "https://x.com/nicopreme/status/2114975730471997613",
+    "author": {
+      "name": "Nico Bailon",
+      "handle": "nicopreme"
+    },
+    "posted_at": "2026-10-27T07:01:23.000Z",
+    "saved_at": "2026-10-28T16:20:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "skill-diet trims agent skills by 70–80% with the same results",
+    "summary": "Nico Bailon's skill-diet cuts what models already know, moves rare detail into files, fixes stale parts, then A/B tests the old skill, the new one and no skill.",
+    "text": "I've been dogfooding \"skill-diet\", a skill for slimming down agent skills and keeping them correct.\n\nmost skills load far more text than a task needs, and some parts often go stale. it also gets worse over time as AI updates skills.\n\nskill-diet cuts what the model already does without being told, moves rarely needed detail into files it only reads when needed, and fixes what no longer matches the tool. then it runs the same tasks with the old skill, the new one and no skill, and keeps the new one only if agents do at least as well.\n\non my own skills: 70–80% fewer tokens, same results.\n\nhttps://t.co/h1BnVt7NjD",
+    "key_points": [
+      "Most skills load far more text than a task needs.",
+      "Keep the slim skill only if agents do at least as well."
+    ],
+    "action": "Run skill-diet on your largest skill and compare token use",
+    "links": [
+      {
+        "title": "GitHub: nicobailon/skill-diet",
+        "url": "https://github.com/nicobailon/skill-diet",
+        "short": "https://t.co/h1BnVt7NjD"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2114975644673265664/img/gWAlgFipd5ORpEbV.jpg",
+        "alt": "Still from the skill-diet demo"
+      }
+    ]
+  },
+  {
+    "id": "2114954893106757798",
+    "url": "https://x.com/thdxr/status/2114954893106757798",
+    "author": {
+      "name": "dax",
+      "handle": "thdxr"
+    },
+    "posted_at": "2026-10-27T05:38:35.000Z",
+    "saved_at": "2026-10-28T16:20:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "Hardening a multi-channel release pipeline against supply-chain attacks is hard",
+    "summary": "Dax Raad spent two days reworking OpenCode's release process across CLI and desktop, Mac and Windows signing, and AUR, npm, winget and brew, while guarding against supply-chain attacks.",
+    "text": "i've spent two days reconfiguring our release process for\n\n- cli\n- desktop\n- signing both for mac/windows\n- publishing to aur, npm, winget, brew, etc\n- across stable, dev, beta\n\nthis is so difficult to do while guarding against potential supply chain attacks",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2115277149439656373",
+    "url": "https://x.com/t_wada/status/2115277149439656373",
+    "author": {
+      "name": "Takuto Wada",
+      "handle": "t_wada"
+    },
+    "posted_at": "2026-10-28T02:59:07.000Z",
+    "saved_at": "2026-10-28T16:20:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "evergreen",
+    "tldr": "素のClaude CodeとTDDで初見の課題に挑んだ4時間20分のログ",
+    "summary": "t_wadaさんが、SkillやプラグインなしのClaude CodeとTDDで初見のコーディング課題に取り組んだ約4時間20分のセッションログを、ほぼ無編集で記事にした。",
+    "text": "初見のコーディング課題に対して素の Claude Code（Skill やプラグインは不使用）とTDDで取り組んだ約4時間20分のセッションログを、記録のためにほぼ編集せずに整形して記事化しました / 素のClaude CodeとTDDで初見のお題に挑む ― #tddbc 仙台11thのセッションログを公開 https://t.co/FbntQxW3H6",
+    "key_points": [
+      "プラグインなしの素の状態で記録。",
+      "TDDの進め方がそのまま読める。"
+    ],
+    "action": "セッションログを読み、自分のTDDプロンプトと比べる",
+    "links": [
+      {
+        "title": "素のClaude CodeとTDDで初見のお題に挑む",
+        "url": "https://htn.to/3usjV6xSj3",
+        "short": "https://t.co/FbntQxW3H6",
+        "image": "https://pbs.twimg.com/news_img/2115277154187640832/OfYY4gJp?format=jpg&name=orig"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115148396969488395",
+    "url": "https://x.com/TheHackersNews/status/2115148396969488395",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-10-27T18:27:30.000Z",
+    "saved_at": "2026-10-28T16:20:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "CyberStrikeAI: 44 AI agents ran attacks on Japanese organizations",
+    "summary": "Trend Micro found an exposed CyberStrikeAI console running 44 agents from recon to reporting; it tested at least 19 organizations, 16 in Japan, mostly through old exposed systems.",
+    "text": "🚨 44 AI agents coordinating cyberattacks.\n\nCyberStrikeAI is being used to automate attacks targeting Japanese organizations, from reconnaissance and exploitation to command-and-control.\n\nAt least 19 organizations were subjected to vulnerability validation.\n\nRead: https://t.co/7b1xbXzDN3",
+    "key_points": [
+      "Only a few targets were deeply compromised.",
+      "Entry was old admin screens and leftover credentials."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "The Hacker News: CyberStrikeAI uses 44 AI agents",
+        "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+        "short": "https://t.co/7b1xbXzDN3"
+      },
+      {
+        "title": "TrendAI: AI in attacks targeting Japan",
+        "url": "https://www.trendaisecurity.com/en/resources-insights/deep-research/not-only-artex-the-different-levels-ai-is-used-in-attacks-targeting-japan"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVqEQOVboAAoQxN.jpg",
+        "alt": "CyberStrikeAI attack graphic"
+      }
+    ]
+  },
+  {
+    "id": "2115016490818969853",
+    "url": "https://x.com/oikon48/status/2115016490818969853",
+    "author": {
+      "name": "Oikon | Claude Code本出しました",
+      "handle": "oikon48"
+    },
+    "posted_at": "2026-10-27T09:43:21.000Z",
+    "saved_at": "2026-10-28T16:20:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "evergreen",
+    "tldr": "Qiita Conference登壇資料：Claude Codeから見るエンジニアの変容",
+    "summary": "oikonさんがQiita Conference 2026 Autumnで話した「Claude Codeから見る、エンジニアの世界の変容とその先」の資料を公開。",
+    "text": "本日の資料です！\nQiita Conference 2026 Autumnで話しました！\n\nClaude Codeから見る、エンジニアの世界の変容とその先 https://t.co/QWERGzVlXH #QiitaConference",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Speaker Deck: Claude Codeから見る、エンジニアの世界の変容とその先",
+        "url": "https://speakerdeck.com/oikon48/qiita-con-claude-code",
+        "short": "https://t.co/QWERGzVlXH",
+        "image": "https://pbs.twimg.com/news_img/2115016493222260736/mS6jsikz?format=jpg&name=orig"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115066787838722358",
+    "url": "https://x.com/markgurman/status/2115066787838722358",
+    "author": {
+      "name": "Mark Gurman",
+      "handle": "markgurman"
+    },
+    "posted_at": "2026-10-27T13:03:12.000Z",
+    "saved_at": "2026-10-28T16:20:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "news",
+    "tldr": "Apple announces the M6 14-inch MacBook Pro and M6 iMac",
+    "summary": "Apple announced an M6 entry 14-inch MacBook Pro from $1,999 and an M6 iMac from $1,499; preorders open October 28 and they ship November 6.",
+    "text": "Apple officially announces the M6 entry-level 14-inch MacBook Pro and M6 iMac.",
+    "key_points": [
+      "Up to 30% faster graphics and 25% faster AI than M5.",
+      "Wi-Fi 7 and Bluetooth 6 on both."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Apple: the new 14-inch MacBook Pro with M6",
+        "url": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/"
+      },
+      {
+        "title": "Apple: new iMac with M6",
+        "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-new-imac-with-m6/"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115209786157412397",
+    "url": "https://x.com/emollick/status/2115209786157412397",
+    "author": {
+      "name": "Ethan Mollick",
+      "handle": "emollick"
+    },
+    "posted_at": "2026-10-27T22:31:26.000Z",
+    "saved_at": "2026-10-28T16:20:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Experts working with AI agents drift toward the AI's view",
+    "summary": "Ethan Mollick highlights a finding that experts using AI agents are swayed by the AI's positions even when they think they work independently.",
+    "text": "Important, but not unexpected, finding that experts working with AI agents are swayed by the positions of the AI, even if they think they are working independently.\n\nIf your independent judgement matters on a task, you need to be deliberate about when in the process to use AI. https://t.co/djlVFyPcQo https://t.co/acaYdzoCTm",
+    "key_points": [
+      "Decide when in the process to bring AI in."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Alex Tamkin's post on the study",
+        "url": "https://twitter.com/AlexTamkin/status/2115190544905433315",
+        "short": "https://t.co/acaYdzoCTm"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVq8FGOXwAEm9In.png",
+        "alt": "Chart from the study",
+        "link": "https://t.co/djlVFyPcQo"
+      }
+    ]
+  },
+  {
+    "id": "2115205951649423585",
+    "url": "https://x.com/poteto/status/2115205951649423585",
+    "author": {
+      "name": "lauren",
+      "handle": "poteto"
+    },
+    "posted_at": "2026-10-27T22:16:12.000Z",
+    "saved_at": "2026-10-28T16:20:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "tibot: a Grok Bot that watches your X mentions",
+    "summary": "Lauren (poteto) shares tibot, a Grok Bot that finds posts about you or your keywords, sends one sorted digest, skips spam, translates and can block trolls, and never posts.",
+    "text": "i've gotten a lot of questions about how i manage my X account with grok bot, so i'm sharing my bot tibot today! he watches your mentions and:\n\n• finds every post about you or any keywords, tagged or not\n• gives one short, sorted digest a day (or hourly, your call)\n• skips spam and noise\n• translates non-English posts\n• can auto block trolls and abuse\n• never posts for you\n\ni still write all my posts and articles by hand but tibot has been very helpful with keeping me in the loop.\n\nhire tibot today!\n\nhttps://t.co/OaEAunGL8Y",
+    "key_points": [
+      "One digest a day or hourly.",
+      "Reads only; you still write your posts."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Hire tibot (Grok Bot)",
+        "url": "https://x.ai/bot/xZ4wRvomWqzCXnyYFr7i3",
+        "short": "https://t.co/OaEAunGL8Y",
+        "image": "https://pbs.twimg.com/card_img/2115205952316256256/T2-Gx7-b?format=jpg&name=800x419"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115135857669881939",
+    "url": "https://x.com/trq212/status/2115135857669881939",
+    "author": {
+      "name": "Thariq",
+      "handle": "trq212"
+    },
+    "posted_at": "2026-10-27T17:37:40.000Z",
+    "saved_at": "2026-10-28T16:20:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "An AI-native macOS dock with focus modes the agent can edit",
+    "summary": "Thariq is building an AI-native macOS dock with modes like writing and building; his agent edits modes and classifies activity and notifications in real time.",
+    "text": "experimenting with a lil personal project: an AI-native macOS dock with custom modes (writing, building, etc.) to help me stay focused\n\nmy agent is able to customize mode behavior and add new modes, it uses jev to classify my activity + notifications in real time & act on them https://t.co/yplDQUwTv5",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2115135312884281344/img/tGrnS50MPt9nXJS6.jpg",
+        "alt": "Still from the dock demo video",
+        "link": "https://t.co/yplDQUwTv5"
+      }
+    ]
+  },
+  {
+    "id": "2115200995546566910",
+    "url": "https://x.com/felixrieseberg/status/2115200995546566910",
+    "author": {
+      "name": "Felix Rieseberg",
+      "handle": "felixrieseberg"
+    },
+    "posted_at": "2026-10-27T21:56:30.000Z",
+    "saved_at": "2026-10-28T16:20:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "evergreen",
+    "tldr": "Anthropic team drops the coding interview",
+    "summary": "Felix Rieseberg says the coding interview no longer gives signal, so he removed it from his Anthropic team's loops this month, and argues hunger now beats tenure for juniors.",
+    "text": "The coding interview is dead, at least for my team at Anthropic. I've seen enough to know that it no longer provides signal. I removed it from loops this month.\n\nI have a spicy, optimistic take - I think there's an opportunity for junior engineers: https://t.co/PVvpQCbQtK",
+    "key_points": [
+      "Coding interviews are gone from his loops.",
+      "His essay: advice for junior engineers."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Hunger beats tenure: Advice for junior engineers",
+        "url": "https://felixrieseberg.com/hunger-beats-tenure-advice-for-junior-engineers/",
+        "short": "https://t.co/PVvpQCbQtK",
+        "image": "https://pbs.twimg.com/news_img/2115199888690475008/DG2BReAb?format=jpg&name=orig"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115035446627459461",
+    "url": "https://x.com/mattpocockuk/status/2115035446627459461",
+    "author": {
+      "name": "Matt Pocock",
+      "handle": "mattpocockuk"
+    },
+    "posted_at": "2026-10-27T10:58:40.000Z",
+    "saved_at": "2026-10-28T16:20:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "A word for tasks agents can verify on their own",
+    "summary": "Matt Pocock wants a name for tasks where the agent has all the data, can run experiments, verify independently and hill-climb, where his trust is maxed out.",
+    "text": "I feel like I need a word for the type of task that agents are really good at\n\nI.e. where it has 100% of the data, it can run experiments, verify independently, and hill-climb towards its destination\n\nOn these tasks my trust level is totally maxed-out and the results are incredible\n\nJust need a word for them",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2115277610062361080",
+    "url": "https://x.com/4ki4/status/2115277610062361080",
+    "author": {
+      "name": "世界四季報",
+      "handle": "4ki4"
+    },
+    "posted_at": "2026-10-28T03:00:56.000Z",
+    "saved_at": "2026-10-28T16:20:00+09:00",
+    "topic": "economics",
+    "shelf_life": "news",
+    "tldr": "AT&T to pay leak victims about 28 billion yen, up to 1.2 million each",
+    "summary": "CNET Japan reports AT&T will pay a total of about 28 billion yen to customers hit by its data leaks, up to about 1.2 million yen per person.",
+    "text": "米通信大手AT＆T、情報流出した顧客に計280億円を支払いへ　1人最大120万円 - CNET Japan \nhttps://t.co/5GCVyLEdW0",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "CNET Japan: AT&T、情報流出の顧客に280億円",
+        "url": "https://japan.cnet.com/article/35254076/",
+        "short": "https://t.co/5GCVyLEdW0",
+        "image": "https://pbs.twimg.com/news_img/2115264711600078848/9raGpCeJ?format=jpg&name=orig"
+      }
+    ],
+    "media": []
   }
 ]
