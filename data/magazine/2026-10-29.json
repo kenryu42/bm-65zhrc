@@ -1,0 +1,703 @@
+{
+  "date": "2026-10-29",
+  "title": "Who gets to be technical",
+  "subtitle": "Gemini 4 Carbon, Copilot Fusion, a week of leaks in Japan, hunger over tenure",
+  "editor_note": "Agents are changing who feels technical. Japan had a week of leaks.",
+  "theme": {
+    "palette": "forest",
+    "fonts": "serif-sans",
+    "accent": "#d9b44a"
+  },
+  "sections": [
+    {
+      "type": "cover-story",
+      "scan": "2115489593818816591",
+      "kicker": "Cover story",
+      "headline": "Gemini 4 Carbon takes the top spot",
+      "variant": "overlay",
+      "why": "#1 on the AA index at 59. Cyber defenders get it first.",
+      "source_label": "Google AI"
+    },
+    {
+      "type": "corner",
+      "corner": "brief"
+    },
+    {
+      "type": "brief-grid",
+      "headline": "Models and tools",
+      "columns": 2,
+      "variant": "cards",
+      "items": [
+        {
+          "scan": "2115583698074755078",
+          "headline": "Free API credits for ChatGPT Pro",
+          "why": "$100–$500 a month, by Pro tier.",
+          "source_label": "OpenAI Devs"
+        },
+        {
+          "scan": "2115480207469560109",
+          "headline": "Copilot Fusion mixes models",
+          "why": "Near Claude Code scores at about half the cost.",
+          "source_label": "GitHub"
+        },
+        {
+          "scan": "2115497949421883648",
+          "headline": "Suhail launches Particle",
+          "why": "particle-1 claims about 45% fewer tokens.",
+          "source_label": "Suhail",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2115443720371814478",
+          "headline": "Mistral adds a Responses API",
+          "why": "Answer, reasoning and tool calls in one call.",
+          "source_label": "Mistral AI"
+        },
+        {
+          "scan": "2115550905991069744",
+          "headline": "Node 26 is now LTS",
+          "why": "Supported until April 2029.",
+          "source_label": "Node.js"
+        },
+        {
+          "scan": "2115526935636021696",
+          "headline": "Vercel CI, built for agents",
+          "why": "Claims 2–6x faster CI inside Vercel.",
+          "source_label": "Vercel",
+          "tags": [
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "lead"
+    },
+    {
+      "type": "feature",
+      "scan": "2115544056038350960",
+      "headline": "Who gets to feel technical now",
+      "variant": "standard",
+      "emphasis": "loud",
+      "art": "skills.jpg",
+      "art_alt": "Two figures at a long table, one turned away from a glowing tool, one reaching for it",
+      "why": "Both sides feel behind. Your job hunt sits right in this gap.",
+      "source_label": "Thariq",
+      "tags": [
+        "unverified"
+      ]
+    },
+    {
+      "type": "pull-quote",
+      "scan": "2115544056038350960",
+      "quote": "technical people are sad, they think their skills are now useless\n\nnon-technical people are desperately wishing they were more technical so they could use agents better",
+      "variant": "centered"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "The same split, five ways",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2115420339102720380",
+          "headline": "Thrivers and the frustrated",
+          "why": "Neither group sees the other.",
+          "source_label": "Gergely Orosz",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2115331737714622800",
+          "headline": "Amazon wants product engineers",
+          "why": "Customer-facing or no future, he reads.",
+          "source_label": "Gergely Orosz"
+        },
+        {
+          "scan": "2115360923145712015",
+          "headline": "Stack Overflow: under 1,000 questions",
+          "why": "Last month, per a shared chart.",
+          "source_label": "Daniel Lockyer",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2115491259381072269",
+          "headline": "Utah: 71% saved 20+ hours",
+          "why": "34 state devs with Claude Code, 4 weeks.",
+          "source_label": "Boris Cherny / Anthropic"
+        },
+        {
+          "scan": "2115444742595260551",
+          "headline": "October is another inflection",
+          "why": "Agents now build games that are fun.",
+          "source_label": "Simon Willison"
+        }
+      ]
+    },
+    {
+      "type": "painting",
+      "art": "airpump.jpg",
+      "art_alt": "A candlelit room where a scientist shows a bird in a glass pump; some watch closely, a girl hides her eyes",
+      "title": "An Experiment on a Bird in the Air Pump",
+      "artist": "Joseph Wright of Derby",
+      "year": "1768",
+      "collection": "The National Gallery, London",
+      "source_url": "https://commons.wikimedia.org/wiki/File:An_Experiment_on_a_Bird_in_an_Air_Pump_by_Joseph_Wright_of_Derby,_1768.jpg",
+      "license": "Public domain",
+      "caption": "A new power on show: some lean in, some look away."
+    },
+    {
+      "type": "corner",
+      "corner": "your-saves"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "Three saves",
+      "variant": "large",
+      "items": [
+        {
+          "bookmark": "2115200995546566910",
+          "headline": "Hunger beats tenure",
+          "why": "Felix dropped coding interviews. Good news for your hunt.",
+          "source_label": "Felix Rieseberg",
+          "tags": [
+            "from-your-saves"
+          ]
+        },
+        {
+          "bookmark": "2115251581998563837",
+          "headline": "Think first, vibe code last",
+          "why": "Numbers are his own; it also sells Skillry.",
+          "source_label": "Yihui",
+          "tags": [
+            "unverified",
+            "from-your-saves"
+          ]
+        },
+        {
+          "bookmark": "2114882910096408939",
+          "headline": "A Meta ads playbook, with red flags",
+          "why": "He admits an illegal step. Take the targeting idea only.",
+          "source_label": "shdu",
+          "tags": [
+            "unverified",
+            "from-your-saves"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sidebar-box",
+      "bookmark": "2115200995546566910",
+      "headline": "Try tonight",
+      "variant": "note"
+    },
+    {
+      "type": "interlude",
+      "art": "pines.jpg",
+      "art_alt": "Dark pine ridges in layers under a pale green sky",
+      "variant": "wide"
+    },
+    {
+      "type": "corner",
+      "corner": "field-notes"
+    },
+    {
+      "type": "feature",
+      "scan": "2114918798637629618",
+      "headline": "Copilot lets a model approve commands",
+      "variant": "standard",
+      "art": "permissions.jpg",
+      "art_alt": "A row of small doors, one held half open by a soft green light",
+      "why": "The same job as cc-safety-net, now shipped by GitHub.",
+      "source_label": "GitHub Changelog"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "Guardrails, context, CI",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2115477572259590520",
+          "headline": "Dependabot checks reachability",
+          "why": "Ranks alerts by code you actually call.",
+          "source_label": "GitHub Changelog"
+        },
+        {
+          "scan": "2113114370406293672",
+          "headline": "SkillSpector scans agent skills",
+          "why": "26% of 31k skills had flaws, the post says.",
+          "source_label": "NVIDIA / Roundtable",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2115438632672645153",
+          "headline": "8 context strategies, one ticket",
+          "why": "Compaction kept the key fact; clearing lost it.",
+          "source_label": "Sergii Makarevych"
+        },
+        {
+          "scan": "2115533617984401464",
+          "headline": "Dynamic workflows, small tasks",
+          "why": "About 10 subagents is enough.",
+          "source_label": "Lydia Hallie",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2115135016233509239",
+          "headline": "/delta share for Claude Code",
+          "why": "A teammate joins your session.",
+          "source_label": "Zed"
+        },
+        {
+          "scan": "2115368342898848021",
+          "headline": "A black hole of success",
+          "why": "Agents never get annoyed, so max the checks.",
+          "source_label": "Matt Pocock",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2115460430076289426",
+          "headline": "Grok Bot rules drift",
+          "why": "Save rules to the profile; check weekly.",
+          "source_label": "ducksays",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2115565245293039814",
+          "headline": "CI is the new bottleneck",
+          "why": "Test only what changed.",
+          "source_label": "Kun Chen",
+          "tags": [
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "brief-grid",
+      "headline": "Also on the bench",
+      "columns": 3,
+      "variant": "plain",
+      "items": [
+        {
+          "scan": "2115238537792815303",
+          "headline": "Grok Bot 0.77.0",
+          "why": "Permission settings for auto-review.",
+          "source_label": "Eric Zakariasson"
+        },
+        {
+          "scan": "2115483678562562125",
+          "headline": "Grok BotからClaude Code",
+          "why": "ACPやAgent SDKでも呼べる。",
+          "source_label": "kinopee",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2115396872755876148",
+          "headline": "Price per intelligence falls",
+          "why": "No rug pull yet, he argues.",
+          "source_label": "Thorsten Ball"
+        },
+        {
+          "scan": "2115492324088385845",
+          "headline": "claude.ai moves to bun fmt",
+          "why": "1.7x faster in CI.",
+          "source_label": "Bun"
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "art": "moss.jpg",
+      "art_alt": "One round moss-green stone resting on a pale ground",
+      "variant": "square"
+    },
+    {
+      "type": "corner",
+      "corner": "japan-desk",
+      "label": "日本から"
+    },
+    {
+      "type": "timeline",
+      "headline": "漏えいの一週間",
+      "variant": "vertical",
+      "items": [
+        {
+          "scan": "2115429669684252878",
+          "note": "JAL・JTA、9万2000人分。委託先への不正アクセス。",
+          "label": "JAL",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2115511484969357771",
+          "note": "ユミルリンク、5162万件に拡大。JR東海の予約も含む。",
+          "label": "ユミルリンク"
+        },
+        {
+          "scan": "2115527649376260315",
+          "note": "ツイキャス、全サービス停止。復旧時期は未定。",
+          "label": "ツイキャス"
+        },
+        {
+          "scan": "2115205403164233932",
+          "note": "資さんうどん、従業員2万人分。退職理由や賃金も。",
+          "label": "資さんうどん"
+        },
+        {
+          "scan": "2115431427458355243",
+          "note": "ソニー生命、38.5万件。契約者サイトへの不正アクセス。",
+          "label": "ソニー生命",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2115580897177280900",
+          "note": "ショップサーブ、約2335万人。EC基盤への不正アクセス。",
+          "label": "ショップサーブ"
+        },
+        {
+          "scan": "2115564151431131292",
+          "note": "ENEOSでんきにも不正アクセス。漏えいの恐れ。",
+          "label": "ENEOSでんき"
+        },
+        {
+          "scan": "2115250991423762631",
+          "note": "IDCF、OSSの穴からランサム。データ流出はなし。SBOMを導入。",
+          "label": "IDCF"
+        }
+      ]
+    },
+    {
+      "type": "numbered-list",
+      "headline": "無人タクシー、新会社、勉強会",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2115575425271533593",
+          "headline": "東京で無人タクシー100台",
+          "why": "GO・Waymo・日本交通が提携。",
+          "source_label": "GOROman / Yahoo!ニュース"
+        },
+        {
+          "scan": "2114895262250606659",
+          "headline": "ELYZA Robotics設立",
+          "why": "KDDIとELYZAのフィジカルAI。",
+          "source_label": "ELYZA",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2115344491205025986",
+          "headline": "AIの薬の推奨は特定製品に偏る",
+          "why": "5つのLLM、約17.7万症例。",
+          "source_label": "Nature Health"
+        },
+        {
+          "scan": "2115377339811213470",
+          "headline": "11/7 レバテック転職フェア",
+          "why": "ちょまど氏が登壇。転職活動に。",
+          "source_label": "ちょまど"
+        },
+        {
+          "scan": "2115346127608545439",
+          "headline": "11/13 ローカルLLM勉強会",
+          "why": "コーディング向け、LINEヤフーで。",
+          "source_label": "kis"
+        },
+        {
+          "scan": "2114634655383388609",
+          "headline": "AISI、医療AIの評価ガイド",
+          "why": "ヘルスケア特有のリスクに特化。",
+          "source_label": "AISI"
+        },
+        {
+          "scan": "2115581900152820010",
+          "headline": "AIが制御ソフトの穴を4つ発見",
+          "why": "4時間足らずで、と記事。",
+          "source_label": "ScanNetSecurity",
+          "tags": [
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "adjacent"
+    },
+    {
+      "type": "brief-grid",
+      "headline": "Security, Macs, money",
+      "columns": 3,
+      "variant": "plain",
+      "items": [
+        {
+          "scan": "2115346578756280447",
+          "headline": "Node2Shell is exploited now",
+          "why": "Update Node if you skipped it last week.",
+          "source_label": "The Hacker News"
+        },
+        {
+          "scan": "2115403447554199731",
+          "headline": "GhostAction hit 22,964 repos",
+          "why": "Check your GitHub Actions secrets.",
+          "source_label": "The Hacker News"
+        },
+        {
+          "scan": "2115475223931982303",
+          "headline": "PHP2Shell rooted 25 servers",
+          "why": "Chained with a Linux kernel flaw.",
+          "source_label": "The Hacker News"
+        },
+        {
+          "scan": "2115480048002326811",
+          "headline": "Edge sandbox escape, logic only",
+          "why": "$175k at Pwn2Own; now public.",
+          "source_label": "The Hacker News"
+        },
+        {
+          "scan": "2115394307498914069",
+          "headline": "Cloudflare AI leaked across users",
+          "why": "A KV cache bug; now patched.",
+          "source_label": "The Hacker News / Cloudflare"
+        },
+        {
+          "scan": "2115275396308734094",
+          "headline": "11 CVEs fixed in iOS 27.2",
+          "why": "All found by Sindre Sorhus.",
+          "source_label": "Sindre Sorhus"
+        },
+        {
+          "scan": "2115491763796451396",
+          "headline": "Apple ships a touch OLED MacBook Pro",
+          "why": "A first for the Mac: you can touch the screen.",
+          "source_label": "MacRumors"
+        },
+        {
+          "scan": "2115540159185793487",
+          "headline": "Alphabet misses Q3 estimates",
+          "why": "Revenue and profit both came in under forecasts.",
+          "source_label": "Financial Times"
+        },
+        {
+          "scan": "2115496387613786374",
+          "headline": "Text your ChatGPT dot",
+          "why": "Pro users in the US, by iMessage or RCS.",
+          "source_label": "ChatGPT"
+        },
+        {
+          "scan": "2115467192276025500",
+          "headline": "Claude for Legal gets artifacts",
+          "why": "Contract review and cite checks, ready to share.",
+          "source_label": "Claude"
+        },
+        {
+          "scan": "2115569789574033436",
+          "headline": "Rex opens 12,000 invites",
+          "why": "iOS testing is open to all.",
+          "source_label": "Mitchell Hashimoto",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2115441568119398592",
+          "headline": "AUR is not safe to publish to",
+          "why": "Supply-chain attacks keep rising.",
+          "source_label": "Dax",
+          "tags": [
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "brief-grid",
+      "headline": "日本のほかの話題",
+      "columns": 3,
+      "variant": "plain",
+      "items": [
+        {
+          "scan": "2115475190415253913",
+          "headline": "ホンダと日産、電池で交渉",
+          "why": "EV用バッテリーの協業。",
+          "source_label": "NHK"
+        },
+        {
+          "scan": "2115478566125081008",
+          "headline": "Alexa+が日本に",
+          "why": "プライム会員は追加料金なし。",
+          "source_label": "CNET Japan"
+        },
+        {
+          "scan": "2115472184676352413",
+          "headline": "千葉県北東部で震度5弱",
+          "why": "津波の心配なし。",
+          "source_label": "NHK"
+        },
+        {
+          "scan": "2115561254949707930",
+          "headline": "今季一番の冷え込み",
+          "why": "路面凍結に注意。",
+          "source_label": "NHK"
+        },
+        {
+          "scan": "2115437632339759590",
+          "headline": "ホークス、2年連続日本一",
+          "why": "日本シリーズを制した。",
+          "source_label": "福岡ソフトバンクホークス",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2115372755709464793",
+          "headline": "本庄市のマリーゴールドの丘",
+          "why": "埼玉、いまが見頃。",
+          "source_label": "Yuji_48",
+          "tags": [
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "numbered-list",
+      "headline": "The interview is changing",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2115537677676339483",
+          "headline": "Coding interviews are going away",
+          "why": "Ability still gets tested, just differently.",
+          "source_label": "Gergely Orosz",
+          "tags": [
+            "from-your-saves"
+          ]
+        },
+        {
+          "scan": "2115480412151762979",
+          "headline": "Addy shares \"Hunger beats tenure\"",
+          "why": "Your save, picked up widely.",
+          "source_label": "Addy Osmani",
+          "tags": [
+            "from-your-saves"
+          ]
+        },
+        {
+          "scan": "2115477073745559830",
+          "headline": "For nervous non-technical builders",
+          "why": "Drive matters more than code now.",
+          "source_label": "Brandon Galang",
+          "tags": [
+            "from-your-saves"
+          ]
+        },
+        {
+          "scan": "2115359099017674755",
+          "headline": "Amp Labs is hiring in Sydney",
+          "why": "Senior and staff forward-deployed roles.",
+          "source_label": "Thorsten Ball"
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "art": "dawn.jpg",
+      "art_alt": "A thin band of pale gold light low over a dark green field",
+      "variant": "quiet"
+    },
+    {
+      "type": "corner",
+      "corner": "open-window"
+    },
+    {
+      "type": "brief-grid",
+      "headline": "A voice, a machine, a word, a bottle",
+      "columns": 2,
+      "variant": "cards",
+      "items": [
+        {
+          "scan": "2115473474722660704",
+          "headline": "Dolores Huerta dies at 96",
+          "why": "She coined \"Sí, se puede.\"",
+          "source_label": "HQ News Now",
+          "tags": [
+            "new-to-you",
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2115409655027368059",
+          "headline": "The 1820s \"March of Intellect\"",
+          "why": "Cartoons of a book-fed machine sweeping society.",
+          "source_label": "The Public Domain Review",
+          "tags": [
+            "new-to-you"
+          ]
+        },
+        {
+          "scan": "2115432011670188383",
+          "headline": "Futz",
+          "why": "To fool around, not too seriously.",
+          "source_label": "Merriam-Webster",
+          "tags": [
+            "new-to-you"
+          ]
+        },
+        {
+          "scan": "2115210438690382174",
+          "headline": "Voting is like a Klein bottle",
+          "why": "A geometric look at a voting paradox.",
+          "source_label": "Quanta Magazine",
+          "tags": [
+            "new-to-you"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "image-of-the-day",
+      "headline": "Past Neptune",
+      "art": "iotd.jpg",
+      "art_alt": "A small pale world alone in deep green-black space, faint stars around it",
+      "caption": "Somewhere far out, something small and cold keeps its own time.",
+      "variant": "standard"
+    },
+    {
+      "type": "corner",
+      "corner": "kicker"
+    },
+    {
+      "type": "closer",
+      "scan": "2115408004959101063",
+      "headline": "Otosan goes to space for the Hawks",
+      "why": "Two titles in a row, so the dog left orbit.",
+      "variant": "photo",
+      "source_label": "SoftBank",
+      "tags": [
+        "unverified"
+      ]
+    }
+  ]
+}

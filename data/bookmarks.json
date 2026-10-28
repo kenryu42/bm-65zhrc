@@ -767,5 +767,91 @@
         "alt": "Infographic summarizing the X algorithm update"
       }
     ]
+  },
+  {
+    "id": "2115200995546566910",
+    "url": "https://x.com/felixrieseberg/status/2115200995546566910",
+    "author": {
+      "name": "Felix Rieseberg",
+      "handle": "felixrieseberg"
+    },
+    "posted_at": "2026-10-27T21:56:30.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Felix dropped coding interviews; hunger beats tenure for juniors",
+    "summary": "Felix Rieseberg says the coding interview no longer gives signal for his Anthropic team, so he removed it this month. His post argues it's a chance for junior engineers: drive and shipping now count more than years of tenure.",
+    "text": "The coding interview is dead, at least for my team at Anthropic. I've seen enough to know that it no longer provides signal. I removed it from loops this month.\n\nI have a spicy, optimistic take - I think there's an opportunity for junior engineers: https://t.co/PVvpQCbQtK",
+    "key_points": [
+      "Coding interview removed from his Anthropic loops",
+      "It no longer gives signal",
+      "Junior engineers get an opening",
+      "Hunger and shipping beat tenure"
+    ],
+    "action": "Write one paragraph about something you shipped out of hunger, for your next interview",
+    "links": [
+      {
+        "title": "Hunger beats tenure: Advice for junior engineers",
+        "url": "https://felixrieseberg.com/hunger-beats-tenure-advice-for-junior-engineers/",
+        "short": "https://t.co/PVvpQCbQtK",
+        "image": "https://pbs.twimg.com/card_img/2113590306994089985/C-E0Ur-R?format=jpg&name=800x419"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115251581998563837",
+    "url": "https://x.com/yihui_indie/status/2115251581998563837",
+    "author": {
+      "name": "Yihui",
+      "handle": "yihui_indie"
+    },
+    "posted_at": "2026-10-28T01:17:31.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "evergreen",
+    "tldr": "An indie dev on thinking first, vibe coding last",
+    "summary": "Yihui shares a long X article on building Skillry: figure out two things before you start vibe coding. He claims 400+ paid subscribers and $12,037 in 30 days (MRR $3,918); the numbers are his own and unverified, and the article promotes his product.",
+    "text": "太干了，基本把自己做产品的底裤都给分享出来了！ https://t.co/sYYq9eOFk0",
+    "key_points": [
+      "Think through two questions before coding",
+      "Vibe coding comes last",
+      "Claims $12,037 in 30 days, MRR $3,918",
+      "Self-reported numbers; also promotes Skillry"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "月入万刀的人都是先想明白两件事，最后才 Vibe Coding的",
+        "url": "https://x.com/i/article/2115249518509998080",
+        "short": "https://t.co/sYYq9eOFk0",
+        "image": "https://pbs.twimg.com/media/HVrhQ-SawAAyltM.jpg"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2114882910096408939",
+    "url": "https://x.com/shdu11546816/status/2114882910096408939",
+    "author": {
+      "name": "shdu",
+      "handle": "shdu11546816"
+    },
+    "posted_at": "2026-10-27T00:52:33.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "evergreen",
+    "tldr": "An anonymous seller shares his Meta ads playbook, with red flags",
+    "summary": "An anonymous founder who says he sold a luxury ecommerce business explains his Meta ads method: optimize for a custom \"qualified lead\" score, not purchases, and enrich leads with data brokers. He admits one step was \"definitely not legal\" (unmasking ad engagers); claims are unverified and raise privacy and legal red flags.",
+    "text": "Two weeks ago a life changing amount of money was wired into my bank account from the sale of my business.\n\nSince I'm no longer a competitor in this particular arena, I'm gonna drop some sauce on how I completely mogged an entire industry on meta ads.\n\nI'm going to be vague so I don't dox myself, but here it goes:\n\n---\n\nIt was an old school brick and mortar business, so the first thing I did was completely redesign the business model from the ground up to focus on e-commerce.  That's been my go to way to make money for the last decade; it worked and I was happy for a couple years as the profits came in.\n\nWe were selling massive luxury items that cost between $10-20,000 per unit, to wealthy people across the country.  Margins were great- on a $15,000 unit we would profit between $3000-6000.  We were one of the first companies that figured out how to transport these cheaply and efficiently.  We were also one of the first to push professional quality video ads on meta.\n\nAfter 2-3 years competitors caught on and profit dipped so I needed another innovation to keep myself ahead of the pack.  I started focusing hard on ways to reduce my customer acquisition cost, and I stumbled onto something that gave me a massive advantage.\n\n---\n\nModern ad systems have always been run on machine learning algos, but in the past 5 years the trend has accelerated with AI now doing all the targeting for you.  In the past you would hire a media buyer to tweak things.  You could adjust the demographic you want to target, the exact locations, the time of day, etc...  You used to have hundreds of these levers you could a/b test and optimize.  In the past 5 years this has shifted to AI, so you don't need a media buyer anymore.  You just set a conversion target and the AI targeting systems will grind on it.\n\nWhen you're selling something cheap like yoga pants, all you have to do is create good ads and set your conversion target to gross margin.  The AI will find you sales, and it will even optimize for the exact customer profile that you'll earn the most margin on.\n\nHowever, when you're selling $20,000 items, you'll never hit enough of volume to properly train the ads.  You need at least 50 conversions per week so unless you're doing $1 mil revenue weekly, you can't target margin.\n\nInstead you target something higher up the funnel like a phone call or a lead form submission.  You can even put additional qualifiers- such as the phone call needs to last at least 5 min.\n\nWhat we did at first was to ask a follow up question after a customer submitted a quote request on our website-:\n\nHow were you planning to pay?\n\nOption 1- Pay cash\nOption 2- Finance with FICO over 650\nOption 3- Finance with FICO under 650.\n\nAnd then we simply targeted option 1 and option 2 as the reward function.  This filtered out a bunch of the poors, but we still captured the lead even if they refused to answer.  If they didn't answer the question, we would just pass them along to their quote automatically after 6 seconds, plus we had automated text and email notifications sent in case they closed out before they seen it.\n\nThis had amazing results, so I realized that the biggest lever I could pull is setting a better target for the AI to grind on.\n\n---\n\nWhat we did was start to track everything!\n\nHow many times did they view their quote?  How long did they view it for?   How many times did they add an accessory or upgrade to their quote?  How many times did they email us? call us?  text us?  Did they apply for financing?  What was the rate they were approved for?\n\nHell we even logged every SMS + email + call transcript from the first time they ever contacted us... then we did intent analysis on those messages to determine which words were most likely to correlate with sales.\n\nWe ended up with about 95 different data points plus intent analysis... So we ran all this data through our sales history, figured out the correlations and created a customer score based on their ability to afford the product and also their engagement quality.\n\nWe got really really good at predicting who would purchase, so I obviously set the meta conversion target to this new \"qualified lead\".  Since the business was seasonal, I even created a custom algo to dynamically adjust the target on the fly so we always ended up with around 50 conversions per week.  If business got slow, the algo would adjust to be less aggressive about who we considered to be a \"qualified lead\", and during good times it would adjust to be more aggressive.\n\nIt worked really well, but then I had another lightbulb moment and figured out a way to drastically increase the accuracy yet again...\n\n---\n\nUp until this point, we were only logging data from activity that occured on our website, or from the contacts between customers and the sales reps.\n\nThen one day I learned about data brokers, and realized there was a lot of data on these customers that was external to my website.\n\nWhen a customer first entered our sales funnel, we took the identifiers they voluntarily gave us and we ran them through a number of data broker APIs to dig up as much info on them as possible:\n\nHousehold income\nCredit Score\nGender\nAge\nEthnic group\nMartial status\nOwn or rent\nOccupation\nEducation \nLength of year at residence\nHome equity\nChildren in the home\nAge of children\nEst net worth\nHome value\nAuto year make model\nHome market value\n\n...and much much more.  Keep in mind this is totally legal up to this point.  All we had to do is add a couple sentences to our privacy policy that no one ever reads.  It cost like 10 cents per customer to find all this stuff out.\n\nNow all of a sudden we had some external data to add to the algo, but of course I didn't stop there.\n\nI realized I could go the other way and set up a custom exclusion list, based on a loss function.  Being able to predict who would buy also gave us the ability to predict who wouldn't!\n\nWe set up an automation to add those people to an exclusion list so we wouldn't waste any more money serving them ads.\n\nAt this point it starts getting into a grey area legally, and is definitely against metas terms of service.\n\nThen I took it another step which was definitely not legal 😂, because why not.\n\nWe started paying remote workers overseas to create a database of all the people who liked or commented on our ads.  People who never went on our website or agreed to our privacy policy.\n\nThen we used a different set of data brokers to unmask and identify these Facebook and Instagram handles.  Once we linked a handle to a real name and email address, we had another automation that would send them to the first set of data brokers to create a financial profile on them.  So about 20 seconds after they liked one of our videos the system would come back with a predictive score to determine how likely they were to afford what we were selling and if they couldn't, the system would automatically add them to an exclusion list.\n\n---\n\nI'm just a retard that dropped out of high school.  I figured all this out by asking AI a lot of questions.\n\nHopefully this helps someone out there.  There is quite a lot you can do to sculpt traffic and learn about your leads.  Data is your friend.",
+    "key_points": [
+      "Optimize Meta for a custom qualified-lead event",
+      "Tune the target to about 50 conversions a week",
+      "Data-broker enrichment and exclusion lists",
+      "Admits an illegal unmasking step; do not copy"
+    ],
+    "action": "",
+    "links": [],
+    "media": []
   }
 ]

@@ -6163,5 +6163,1778 @@
       }
     ],
     "media": []
+  },
+  {
+    "id": "2115489593818816591",
+    "url": "https://x.com/GoogleAI/status/2115489593818816591",
+    "author": {
+      "name": "Google AI",
+      "handle": "GoogleAI"
+    },
+    "posted_at": "2026-10-28T17:03:17.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "Google launches Gemini 4 Carbon, its strongest model yet",
+    "summary": "Google announces Gemini 4 Carbon, #1 on Artificial Analysis Index v5 at 59, with state-of-the-art cyber scores. Cyber defenders get it first; wider access comes later.",
+    "text": "Announcing Gemini 4 Carbon, our strongest model with state-of-the-art cybersecurity and long horizon capabilities.\n\nCarbon represents a step up across most benchmarks, delivering strong frontier performance in autonomous coding and cyber defense.\n\nWe’re first making Carbon available to a subset of trusted cyber defenders in our Fairwind program. We’ll expand access as soon as possible.",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Google: Introducing Gemini 4 Carbon",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVu6bTaWAAAOvp3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115491763796451396",
+    "url": "https://x.com/MacRumors/status/2115491763796451396",
+    "author": {
+      "name": "MacRumors.com",
+      "handle": "MacRumors"
+    },
+    "posted_at": "2026-10-28T17:11:55.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Apple announces an OLED MacBook Pro with a touch screen",
+    "summary": "MacRumors reports Apple's overhauled MacBook Pro with a tandem OLED touch display.",
+    "text": "Apple Announces OLED MacBook Pro With Touch Display https://t.co/3uK5QU1vxE https://t.co/J39LQo3buF",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "MacRumors: Apple Announces OLED MacBook Pro With Touch Display",
+        "url": "https://www.macrumors.com/2026/10/28/apple-new-macbook-pro/",
+        "short": "https://t.co/3uK5QU1vxE"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVu8jLXbQAAWgOk.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115540159185793487",
+    "url": "https://x.com/FT/status/2115540159185793487",
+    "author": {
+      "name": "Financial Times",
+      "handle": "FT"
+    },
+    "posted_at": "2026-10-28T20:24:13.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "news",
+    "tldr": "Alphabet Q3 revenue and profit miss analyst estimates",
+    "summary": "FT breaking news: Google reported third-quarter revenue and profit below analyst estimates.",
+    "text": "Breaking news: Google reported third-quarter revenue and profit that missed analyst estimates, while the search giant boosted its spending on AI investments to more than $50bn. https://t.co/JRch3Qt1wa https://t.co/kROw4FT58f",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "FT: Alphabet third-quarter results",
+        "url": "https://ft.trib.al/UwTUckI",
+        "short": "https://t.co/JRch3Qt1wa"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVvojlPWUAA-Ix3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115583698074755078",
+    "url": "https://x.com/OpenAIDevs/status/2115583698074755078",
+    "author": {
+      "name": "OpenAI Developers",
+      "handle": "OpenAIDevs"
+    },
+    "posted_at": "2026-10-28T23:17:13.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "ChatGPT Pro and Business users get up to $500 monthly API credits",
+    "summary": "OpenAI Devs says eligible ChatGPT Pro and Business subscribers can claim up to $500 a month in API credits.",
+    "text": "Starting today, eligible ChatGPT Pro and Business subscribers can claim up to $500 per month in API credits to build apps and agents. https://t.co/kcbaKSQh1M",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "OpenAI: API credits for ChatGPT subscribers",
+        "url": "https://developers.openai.com/api/docs/guides/chatgpt-api-credits"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVwQebcWUAA6B1s.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115496387613786374",
+    "url": "https://x.com/ChatGPT/status/2115496387613786374",
+    "author": {
+      "name": "ChatGPT",
+      "handle": "ChatGPT"
+    },
+    "posted_at": "2026-10-28T17:30:17.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "You can now text your ChatGPT dot via iMessage or RCS",
+    "summary": "ChatGPT says Pro users in the US can text their dot tasks and get proactive updates by iMessage or RCS, as a preview.",
+    "text": "By popular request, you can now text your dot.\n\nGive it a task to take off your plate or something to keep an eye on, using text, photos, or even voice notes. It will text you proactively with relevant updates.\n\nSafe, secure texting via iMessage or RCS. You’re the only one who can text your dot, and your dot can only text you. Rolling out now as a preview for Pro users in the US.",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "ChatGPT: Text your dot",
+        "url": "https://learn.chatgpt.com/docs/whats-new/dots-october-28-2026"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2115494759447904257/img/gnlEjizTFyuOlfML.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115480207469560109",
+    "url": "https://x.com/github/status/2115480207469560109",
+    "author": {
+      "name": "GitHub",
+      "handle": "github"
+    },
+    "posted_at": "2026-10-28T16:25:59.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "GitHub Copilot Fusion mixes models for near-frontier coding at lower cost",
+    "summary": "GitHub says Copilot Fusion Max scored within two points of Claude Code with Opus 5.5 Max on the Artificial Analysis Coding Agent Index at about half the cost.",
+    "text": "Frontier performance at a fraction of the cost. \n\nIn the @ArtificialAnlys Coding Agent Index, Copilot Fusion Max scored within two points of Claude Code with Opus 5.5 Max at about half the API cost per task.\n\nGet 30% off through Nov. 30. Try it now. ⬇️  https://t.co/c0k5alLKqD https://t.co/kVBzvq8ph5",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "GitHub Docs: Copilot Fusion",
+        "url": "https://docs.github.com/copilot/concepts/models/copilot-fusion?utm_source=universe-2026-x&utm_medium=social&utm_campaign=universe-2026",
+        "short": "https://t.co/c0k5alLKqD"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVuyCO2WIAATDlE.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVuyCZMWMAAFNkI.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115497949421883648",
+    "url": "https://x.com/Suhail/status/2115497949421883648",
+    "author": {
+      "name": "Suhail",
+      "handle": "Suhail"
+    },
+    "posted_at": "2026-10-28T17:36:29.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "Suhail launches Particle; particle-1 uses about 45% fewer tokens",
+    "summary": "Suhail announces Particle, a new company making developer models; particle-1 claims parity in performance with about 45% fewer tokens.",
+    "text": "1/ Excited to announce our new company Particle\n\nThis is our first step in a series of models focused on developers.\n\nWith particle-1, we focused on token efficiency and managed to keep parity in performance while using ~45% fewer tokens.\n\nLive now: https://t.co/m5MvOwR9yE https://t.co/qAM7lFUPvG",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Particle",
+        "url": "https://particle.ai",
+        "short": "https://t.co/m5MvOwR9yE"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVqz2qmbkAAtnpG.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115443720371814478",
+    "url": "https://x.com/MistralAI/status/2115443720371814478",
+    "author": {
+      "name": "Mistral AI",
+      "handle": "MistralAI"
+    },
+    "posted_at": "2026-10-28T14:01:00.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Mistral launches a Responses API for agents in public preview",
+    "summary": "Mistral introduces a Responses API in public preview that returns the answer, reasoning and tool calls for building agents.",
+    "text": "Today, we’re introducing the Responses API in public preview, made for building agents on Mistral. \n\nEach response returns the model’s answer, its reasoning and its tool calls as separate items, so your app can handle every step more easily than with Chat Completions. \n\nIt works with all chat models hosted by Mistral, including Large 4.",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Mistral Docs: Responses API",
+        "url": "https://docs.mistral.ai/studio/conversations/responses"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVtfR8WXEAAXYbh.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115467192276025500",
+    "url": "https://x.com/claudeai/status/2115467192276025500",
+    "author": {
+      "name": "Claude",
+      "handle": "claudeai"
+    },
+    "posted_at": "2026-10-28T15:34:16.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Claude for Legal adds a gallery of ready-made artifacts",
+    "summary": "Claude adds ready-made legal artifacts for contract review, regulatory scans and cite checks that teams can extend and share.",
+    "text": "New in Claude for Legal: a gallery of ready-made artifacts for contract review, regulatory horizon scans, cite checks, and more.\n\nStart from the built-in example, add your own documents and connectors, and share it with anyone across the business. https://t.co/Wn2VK2HeMU",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Claude: Artifacts for legal work",
+        "url": "https://claude.com/resources/articles/introducing-artifacts-for-legal-work"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2115463032663072768/img/tiCUaCcDwMwVRih8.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115550905991069744",
+    "url": "https://x.com/nodejs/status/2115550905991069744",
+    "author": {
+      "name": "Node.js",
+      "handle": "nodejs"
+    },
+    "posted_at": "2026-10-28T21:06:55.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Node.js 26 Lithium becomes LTS with v26.13.0",
+    "summary": "Node.js 26 \"Lithium\" moves to Long Term Support with v26.13.0, supported through April 2029.",
+    "text": "Node.js 26 “Lithium” is now Long Term Support 🎉\n\nv26.13.0 is out, with updates through April 2029.\n\nHeads-up for Linux users coming from an earlier LTS: libatomic may need to be installed separately.\n\nhttps://t.co/7xLSFTQlzL",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Node.js v26.13.0 release notes",
+        "url": "https://nodejs.org/en/blog/release/v26.13.0",
+        "short": "https://t.co/7xLSFTQlzL"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115526935636021696",
+    "url": "https://x.com/vercel/status/2115526935636021696",
+    "author": {
+      "name": "Vercel",
+      "handle": "vercel"
+    },
+    "posted_at": "2026-10-28T19:31:40.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Vercel launches Vercel CI, built for agents",
+    "summary": "Vercel introduces Vercel CI: it skips tasks with Turborepo, claims 2-6x faster CI internally, and is tuned for agents via its MCP and CLI.",
+    "text": "Introducing Vercel CI\n\n• Intelligently skips tasks with Turborepo\n• 2-6× faster CI in our internal repositories\n• Optimized for agents via Vercel MCP and CLI\n\nAfter nearly 8 million tasks, we're excited for the future of agentic CI. In beta on all plans.\nhttps://t.co/IcsuvweAhB",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "vercel.com",
+        "url": "https://vercel.com/blog/introducing-vercel-ci",
+        "short": "https://t.co/IcsuvweAhB"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115346578756280447",
+    "url": "https://x.com/TheHackersNews/status/2115346578756280447",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-10-28T07:35:00.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Node2Shell RCE is now exploited in the wild",
+    "summary": "The Hacker News says Node2Shell (CVE-2026-111497) moved from proof of concept to live scanning and exploit attempts, with RCE confirmed on stock x86-64.",
+    "text": "🚨 UPDATE: Node2Shell (CVE-2026-111497) has moved from PoC to the wild.\n\nScanning is live and the first exploit attempts are out. The RCE is now confirmed on STOCK x86-64 Node.js, not just arm64.\n\nPatch now → 22.23.4 / 24.22.1 / 26.12.1\n\nRead ↓ https://t.co/OTuQFpL7HC https://t.co/eZSMHkiEIS",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "The Hacker News: Node2Shell update",
+        "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html#update-code-execution-on-x86-64-and-first-in-the-wild-traffic",
+        "short": "https://t.co/OTuQFpL7HC"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVs1o5zbsAAzSOg.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115403447554199731",
+    "url": "https://x.com/TheHackersNews/status/2115403447554199731",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-10-28T11:20:58.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "GhostAction supply-chain attack hit 22,964 GitHub repos",
+    "summary": "The Hacker News says the GhostAction supply-chain campaign is far bigger than first reported, touching 22,964 GitHub repositories.",
+    "text": "🚨 GhostAction supply-chain attacks are much bigger than initially reported.\n\n→ 22,964 GitHub repositories targeted\n→ 72,000+ malicious commits pushed\n→ 1,792 accounts compromised\n→ 5 payload families targeting CI/CD secrets, developer machines, and cloud credentials\n\nResearchers warn stolen GitHub tokens are still being reused.\n\nRead: https://t.co/OMsekh3jF2",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "thehackernews.com",
+        "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
+        "short": "https://t.co/OMsekh3jF2"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVtsEpgbkAApUNB.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115475223931982303",
+    "url": "https://x.com/TheHackersNews/status/2115475223931982303",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-10-28T16:06:11.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "PHP2Shell chained with a kernel flaw to root 25 servers",
+    "summary": "The Hacker News says an attacker chained PHP2Shell with a Linux kernel flaw to gain root on 25 servers in four countries.",
+    "text": "🚨 PHP2Shell exploited in real-world attacks.\n\nAn attacker chained PHP2Shell with a Linux kernel flaw to gain root access to 25 servers across four countries, including three in a U.S. government-affiliated environment.\n\nThe intrusion extended into the internal network, where the attacker targeted Active Directory.\n\nSuspected China nexus. Signs of AI-assisted tooling.\n\nRead the full report: https://t.co/x0JCElC4uC",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "thehackernews.com",
+        "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+        "short": "https://t.co/x0JCElC4uC"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVutgEFaoAAQU6h.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115480048002326811",
+    "url": "https://x.com/TheHackersNews/status/2115480048002326811",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-10-28T16:25:21.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Edge sandbox escaped with logic flaws alone at Pwn2Own",
+    "summary": "Orange Tsai turned a web page into code execution outside Edge's sandbox using only logic flaws, earning $175,000 at Pwn2Own 2026; the technique is now public.",
+    "text": "‼️ Microsoft Edge's sandbox was bypassed using logic flaws alone. No memory corruption.\n\nSecurity researcher Orange Tsai demonstrated a chain that turned a malicious web page into code execution outside the browser sandbox, earning $175,000 at Pwn2Own 2026.\n\nThe full exploit technique is now public ↓ https://t.co/Po5uyn1hhx",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "thehackernews.com",
+        "url": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
+        "short": "https://t.co/Po5uyn1hhx"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVux4kCaIAY7kOv.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115394307498914069",
+    "url": "https://x.com/TheHackersNews/status/2115394307498914069",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-10-28T10:44:39.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Cloudflare AI leaked other customers' data across sessions",
+    "summary": "The Hacker News reports 155 Cloudflare AI responses exposed other customers' data, caused by an SGLang KV cache bug and a misconfiguration; Cloudflare has patched it.",
+    "text": "🚨 Cloudflare's AI leaked customer data across user sessions.\n\n→ 155 responses exposed other customers' data.\n→ SGLang KV cache bug and misconfiguration caused the leak.\n→ Related flaws could affect other AI services.\n\nCloudflare has patched the issue - https://t.co/iR8zjtjMXo https://t.co/TCJuFKF45N",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Cloudflare: KV cache exposure remediation",
+        "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+        "short": "https://t.co/iR8zjtjMXo"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVtjqLdasAAnAnk.jpg"
+      }
+    ],
+    "pick": true
+  },
+  {
+    "id": "2115275396308734094",
+    "url": "https://x.com/sindresorhus/status/2115275396308734094",
+    "author": {
+      "name": "Sindre Sorhus",
+      "handle": "sindresorhus"
+    },
+    "posted_at": "2026-10-28T02:52:09.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Sindre Sorhus has 11 CVEs fixed in iOS and macOS 27.2",
+    "summary": "Sindre Sorhus says 11 of his reported security vulnerabilities were fixed in iOS 27.2 and macOS 27.2.",
+    "text": "I have 11 accepted security vulnerabilities (CVEs) for iOS 27.2 and macOS 27.2\n\nThe most interesting ones is a macOS SIP bypass and a macOS sandbox escape.\n\nhttps://t.co/DwWJ7dfXbr\nhttps://t.co/3jaOEsF3HS\n\nhttps://t.co/hUeB1ucJXu",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Apple security notes (iOS 27.2)",
+        "url": "https://support.apple.com/en-us/149230",
+        "short": "https://t.co/DwWJ7dfXbr"
+      },
+      {
+        "title": "Apple security notes (macOS 27.2)",
+        "url": "https://support.apple.com/en-us/149521",
+        "short": "https://t.co/3jaOEsF3HS"
+      },
+      {
+        "title": "Quoted post",
+        "url": "https://x.com/sindresorhus/status/2099628557592871179",
+        "short": "https://t.co/hUeB1ucJXu"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115544056038350960",
+    "url": "https://x.com/trq212/status/2115544056038350960",
+    "author": {
+      "name": "Thariq",
+      "handle": "trq212"
+    },
+    "posted_at": "2026-10-28T20:39:42.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Technical people feel sad; non-technical people wish they were technical",
+    "summary": "Thariq notes a strange split: technical people fear their skills are now useless, while non-technical people wish they were more technical to use agents better.",
+    "text": "very weird thing happening rn\n\ntechnical people are sad, they think their skills are now useless\n\nnon-technical people are desperately wishing they were more technical so they could use agents better",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2115420339102720380",
+    "url": "https://x.com/GergelyOrosz/status/2115420339102720380",
+    "author": {
+      "name": "Gergely Orosz",
+      "handle": "GergelyOrosz"
+    },
+    "posted_at": "2026-10-28T12:28:06.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Gergely sees a divide between AI thrivers and the frustrated",
+    "summary": "Gergely Orosz senses two groups in tech: autonomous people reinventing their work with AI, and people waiting for guidance who grow bitter; neither sees the other.",
+    "text": "I'm starting to sense a divide in the tech industry:\n\n- People thriving on autonomy who are reinventing how they work and what tools they use with AI: LOTS of work, but they're enjoying it and getting very efficient\n\n- People used to being mentored / trained / or simply told what to do and how. Frustrated with the lack of guidance from management on what to do with AI; also frustrated by seeing some of their peers thriving; increasingly bitter about AI and the state of the industry, as a whole\n\nNeither group seems to be aware that there's another group, or have empathy for the other group",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2115331737714622800",
+    "url": "https://x.com/GergelyOrosz/status/2115331737714622800",
+    "author": {
+      "name": "Gergely Orosz",
+      "handle": "GergelyOrosz"
+    },
+    "posted_at": "2026-10-28T06:36:01.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "news",
+    "tldr": "Amazon memo: engineers should be product engineers",
+    "summary": "Gergely reads an Amazon leadership memo as saying engineers who are not product-minded or customer-facing have no future there.",
+    "text": "Amazon's leadership is very good at writing, but you still need to read between the lines.\n\nWhat I read between these lines:\n\nEngineers who are not \"product engineers\" (aka eng + PM interest) and don't like to be customer-facing will not have a future inside of Amazon\n\nFull: https://t.co/i1KC4sH556",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "www.aboutamazon.com",
+        "url": "https://www.aboutamazon.com/news/company-news/amazon-software-engineer-role-guideline-ai",
+        "short": "https://t.co/i1KC4sH556"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVsqnhUWEAAcoj5.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115360923145712015",
+    "url": "https://x.com/DanielLockyer/status/2115360923145712015",
+    "author": {
+      "name": "Daniel Lockyer",
+      "handle": "DanielLockyer"
+    },
+    "posted_at": "2026-10-28T08:32:00.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Stack Overflow got under 1,000 questions last month",
+    "summary": "Daniel Lockyer shares a chart: fewer than 1,000 questions were posted to Stack Overflow last month.",
+    "text": "New record for Stack Overflow:\n\n<1000 questions posted last month https://t.co/Re5uCiGJ3A",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVst9LTW0AAKFjp.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115491259381072269",
+    "url": "https://x.com/bcherny/status/2115491259381072269",
+    "author": {
+      "name": "Boris Cherny",
+      "handle": "bcherny"
+    },
+    "posted_at": "2026-10-28T17:09:54.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Utah pilot: 34 state devs, 71% saved 20+ hours with Claude Code",
+    "summary": "Boris Cherny shares Utah's pilot: 34 developers in 10 agencies got Claude Code; 80% were set up within 30 minutes and 71% saved 20+ hours in four weeks.",
+    "text": "Utah gave Claude Code to 34 developers across 10 state agencies. 80% had a working environment within 30 minutes, 71% reported saving 20+ hours by the end of the four-week pilot. https://t.co/ERZpBFuYSa",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Anthropic post on the Utah pilot",
+        "url": "https://twitter.com/anthropicai/status/2115207004293853358",
+        "short": "https://t.co/ERZpBFuYSa"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2115444742595260551",
+    "url": "https://x.com/simonw/status/2115444742595260551",
+    "author": {
+      "name": "Simon Willison",
+      "handle": "simonw"
+    },
+    "posted_at": "2026-10-28T14:05:04.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Simon Willison: October is another inflection point for coding agents",
+    "summary": "Simon Willison argues October marks another jump for coding agents, with Opus 5.5 building games that are actually fun.",
+    "text": "I think October represents another inflection point in capabilities for coding agents and the models that drive them: Claude Opus 5.5 can now build video games that are actually fun https://t.co/aPsJ14RHR0",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Simon Willison: vibe game development",
+        "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+        "short": "https://t.co/aPsJ14RHR0"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2114918798637629618",
+    "url": "https://x.com/GHchangelog/status/2114918798637629618",
+    "author": {
+      "name": "GitHub Changelog",
+      "handle": "GHchangelog"
+    },
+    "posted_at": "2026-10-27T03:15:09.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Copilot assisted permissions are now generally available",
+    "summary": "GitHub makes assisted permissions generally available in Copilot CLI, the app and VS Code: a model helps decide which commands are safe to approve.",
+    "text": "Assisted permissions are now generally available in GitHub Copilot CLI, app, and Visual Studio Code.\n• A large language model auto-approves clearly safe requests; others need your approval\n\nhttps://t.co/tmO43GKJ5t",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "GitHub Changelog: assisted permissions GA",
+        "url": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
+        "short": "https://t.co/tmO43GKJ5t"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2115477572259590520",
+    "url": "https://x.com/GHchangelog/status/2115477572259590520",
+    "author": {
+      "name": "GitHub Changelog",
+      "handle": "GHchangelog"
+    },
+    "posted_at": "2026-10-28T16:15:31.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Dependabot alerts get reachability analysis for JS and TS",
+    "summary": "GitHub adds reachability analysis to Dependabot alerts in public preview for JavaScript and TypeScript, to rank the alerts that matter.",
+    "text": "Dependabot alerts now include reachability analysis in public preview for JavaScript and TypeScript.\n• Shows if your code calls vulnerable functions to better prioritize alerts\n\nhttps://t.co/wiG7y71Drn",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "GitHub Changelog: Dependabot reachability",
+        "url": "https://github.blog/changelog/2026-10-28-prioritize-dependabot-alerts-with-reachability-analysis",
+        "short": "https://t.co/wiG7y71Drn"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2113114370406293672",
+    "url": "https://x.com/RoundtableSpace/status/2113114370406293672",
+    "author": {
+      "name": "0xMarioNawfal",
+      "handle": "RoundtableSpace"
+    },
+    "posted_at": "2026-10-22T03:45:00.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "NVIDIA SkillSpector scans agent skills before you install them",
+    "summary": "The post says 26.1% of 31,132 agent skills had vulnerabilities and 5.2% looked malicious, and points to NVIDIA's open-source SkillSpector scanner with 71 attack patterns.",
+    "text": "Before you install that AI skill someone shared on X, scan it.\n\nIn an analysis of 31,132 AI agent skills, 26.1% contained vulnerabilities and 5.2% looked malicious.\n\nNVIDIA open-sourced SkillSpector, the scanner it uses before publishing skills to its own catalog. 20.8K stars.\n→ checks 71 attack patterns across 17 categories: prompt injection, data theft, privilege escalation, poisoned MCP tools and more\n→ scans a GitHub repo, a URL, a zip or a folder\n→ gives each skill a 0 to 100 risk score with a clear recommendation\n→ fast scan with no AI, plus an optional deeper AI review\n→ works for Claude Code, Codex and Gemini CLI skills\n\nInstall:\nuv tool install git+https://t.co/qDedfYSV9B\n\nScan a skill:\nskillspector scan ./the-skill/ --no-llm\n\nApache-2.0.",
+    "key_points": [],
+    "action": "Scan a skill with skillspector scan ./skill --no-llm before installing it",
+    "links": [
+      {
+        "title": "NVIDIA SkillSpector on GitHub",
+        "url": "https://github.com/NVIDIA/SkillSpector"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115438632672645153",
+    "url": "https://x.com/sermakarevich/status/2115438632672645153",
+    "author": {
+      "name": "Sergii Makarevych",
+      "handle": "sermakarevich"
+    },
+    "posted_at": "2026-10-28T13:40:47.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Context management review: 30 products, 8 strategies, one replayed ticket",
+    "summary": "Sergii Makarevych compares 8 context strategies across 30 products on one 30-turn ticket; clearing tool results lost a key fact, compaction kept it.",
+    "text": "A review of context management for AI agents: \n- 30 products\n- 8 strategies\n- one 30-turn coding ticket replayed under each. \n\nClearing tool results lost the fact needed at turn 28; compaction kept it and saved 10%. https://t.co/9bnL4bRBmP",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "X article: context management for AI agents",
+        "url": "https://x.com/i/article/2115403504218955776",
+        "short": "https://t.co/9bnL4bRBmP"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115533617984401464",
+    "url": "https://x.com/lydiahallie/status/2115533617984401464",
+    "author": {
+      "name": "Lydia Hallie ✨",
+      "handle": "lydiahallie"
+    },
+    "posted_at": "2026-10-28T19:58:13.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Dynamic workflows work fine with about 10 subagents",
+    "summary": "Lydia Hallie says dynamic workflows are useful even for small repeatable tasks with around 10 subagents, written as a JavaScript file.",
+    "text": "Dynamic workflows don't have to be hundreds of subagents btw! I use them for any task I want to rerun the same way, even just ~10 subagents\n\nIt's a JavaScript file you can edit, so you have full control over the subagents and the order they run in. More predictable than a skill! https://t.co/OgoxI0Yjr9",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2115525612244992000/img/w6WzhKChosMX0HxG.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115135016233509239",
+    "url": "https://x.com/zeddotdev/status/2115135016233509239",
+    "author": {
+      "name": "Zed",
+      "handle": "zeddotdev"
+    },
+    "posted_at": "2026-10-27T17:34:19.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Delta makes Claude Code multiplayer with /delta share",
+    "summary": "Zed says running /delta share in Claude Code lets a teammate join the same session.",
+    "text": "Claude Code is now multiplayer.\n\nRun `/delta share` in Claude Code, and your teammate joins in their own session with your full context and uncommitted work. You're both working on the same thread, backed by DeltaDB.\n\nhttps://t.co/prGSZiSzHm https://t.co/4ceGfMA1qk",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Delta: Claude Code multiplayer",
+        "url": "https://delta.dev/blog/claude-code-multiplayer",
+        "short": "https://t.co/prGSZiSzHm"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/ext_tw_video_thumb/2115134961762062336/pu/img/piFKpsWFVO7WcMc5.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115368342898848021",
+    "url": "https://x.com/mattpocockuk/status/2115368342898848021",
+    "author": {
+      "name": "Matt Pocock",
+      "handle": "mattpocockuk"
+    },
+    "posted_at": "2026-10-28T09:01:29.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "Matt Pocock: agents need a black hole of success",
+    "summary": "Matt Pocock argues that since agents do not get annoyed, guardrails like types, tests and lint can be cranked to the maximum to make good code inevitable.",
+    "text": "We used to talk about a \"pit of success\".\n\nHumans would be dragged towards writing the right code by well-designed API's, a good test suite, sensible lint rules.\n\nYou couldn't make the pit too steep, otherwise the humans would get annoyed. There was a social contract.\n\nFeels like what we need now is a black hole of success. An inescapable event horizon agents cannot cross.\n\nAgents don't feel annoyed, so you can crank up the pressure to infinity. There is no social contract to break.\n\nIn other words, increase the forces on agents to the maximum. Make great code inevitable.",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2115460430076289426",
+    "url": "https://x.com/ducksays/status/2115460430076289426",
+    "author": {
+      "name": "duck says",
+      "handle": "ducksays"
+    },
+    "posted_at": "2026-10-28T15:07:24.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Grok Bot rules drift unless saved to the bot profile",
+    "summary": "A builder notes rules decided in chat fade over time; only the bot profile persists, so save each rule there and run a weekly drift check.",
+    "text": "i HATE when grok bot does this.\n\nmy bots slowly drift from the rules we set.\n\nif you didn't know: anything you decide in chat fades over time. whatever's in the bot's profile is what it keeps in mind every turn.\n\nmy new bot had a whole morning of tweaks living only in chat. its profile still had the day-one brief.\n\nwhat i'm doing about it:\n1. every rule change gets saved to the bot's profile the moment we decide it.\n2. a weekly routine in my chief of staff @bot compares what each bot actually did to its profile and flags drift with receipts. nothing changes without my ok\n\nif you run this on your own bots, you might be surprised what you find tbh.\n\nprompt is in the image.",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVufLiRW0AExKii.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVufyAVXoAAz9M9.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115565245293039814",
+    "url": "https://x.com/kunchenguid/status/2115565245293039814",
+    "author": {
+      "name": "Kun Chen",
+      "handle": "kunchenguid"
+    },
+    "posted_at": "2026-10-28T22:03:54.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "At agent speed, CI becomes the bottleneck; how to speed it up",
+    "summary": "Kun Chen suggests moving checks from CI to CD, isolating modules so CI only tests what changed, and similar fixes as agents write more code.",
+    "text": "now that we all agreed to not review most of the code any more, CI became the next bottleneck\n\nat agent speed, if our CI pipeline is simply \"run all the build, lint, tests\", it'll become a major slow down\n\nhere are a few things i suggest for how to optimize:\n\n1. balance load between CI and CD\n\nCI protects main branch. CD protects production. if you can tolerate some delay in deploying your main branch to production, then you can do less in CI and do more in CD\n\nfor example, for a cross platform app i made my CI pipeline skip most mac and windows tests because linux already covered the same functionality\n\nthe tradeoff is occasionally i'd catch a mac or windows-only bug in CD before release, but in exchange, my CI pipeline became 15x faster - well worth it\n\n2. modularize your codebase such that changes are isolated\n\nthen you can make your CI only run build, lint, test for the module being touched\n\nthis requires careful consideration for cross-module protocols. they should likely be their own modules, so when they do change, you know you probably need to test all dependent modules\n\n3. for large modules, invest in test selection\n\nin CI, try to only run tests that are covering the areas being changed. doing accurate test selection is not easy though, and often requires continuous tuning\n\ni have a nightly loop specifically doing audit of past test runs and tweak my test selection to be more accurate. a big codebase of mine got pretty good at this - 20x faster CI compared to running all tests, and almost never miss any real problem",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2115238537792815303",
+    "url": "https://x.com/ericzakariasson/status/2115238537792815303",
+    "author": {
+      "name": "eric zakariasson",
+      "handle": "ericzakariasson"
+    },
+    "posted_at": "2026-10-28T00:25:41.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Grok Bot 0.77.0 is stable",
+    "summary": "Grok Bot 0.77.0 adds permission settings for auto-review rules, vault payment-method order, and several questions per card.",
+    "text": "grok @bot 0.77.0 is now stable and rolling out!\n\n- permissions settings for your auto-review rules\n- pick which payment method bots use first in vault\n- bots can ask several questions on one card\n\nfull changelog: https://t.co/dyBGOXTxKP https://t.co/ottBxbgN4u",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Grok Bot changelog",
+        "url": "https://x.ai/changelog/bot",
+        "short": "https://t.co/dyBGOXTxKP"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVrWPR6bgAAFFrq.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVrWPbFasAEsggT.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115483678562562125",
+    "url": "https://x.com/kinopee_ai/status/2115483678562562125",
+    "author": {
+      "name": "Kinopee",
+      "handle": "kinopee_ai"
+    },
+    "posted_at": "2026-10-28T16:39:47.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Grok BotからClaude Codeを呼ぶ方法はclaude -p以外にもある",
+    "summary": "kinopee notes ACP and the Agent SDK also work for calling Claude Code from Grok Bot, though Devin or Cloud Agents are easier for full PR tasks.",
+    "text": "Grok Bot から Claude Code を呼ぶ方法は claude -p だけ？という投稿を見かけた気がするけど、ACP や Agent SDK を使う方法もある。どちらも実際に試して動いた。 ただ、コーディングから PR 作成までのタスクなら、Devin や Cloud Agents に任せるほうがずっと楽。",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2115396872755876148",
+    "url": "https://x.com/thorstenball/status/2115396872755876148",
+    "author": {
+      "name": "Thorsten Ball",
+      "handle": "thorstenball"
+    },
+    "posted_at": "2026-10-28T10:54:51.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "evergreen",
+    "tldr": "Thorsten Ball: price per intelligence keeps dropping",
+    "summary": "Thorsten Ball argues the predicted rug pull has not come: price per unit of intelligence keeps falling, citing an S-1 that says subscriptions are 10% of revenue.",
+    "text": "People have been saying this for a year now.\n\nBeware of the great rug pull, etc.\n\nBut all indications point towards price/intelligence dropping. Ant's S-1 says subs are 10% of rev. Inference has 80% margins.\n\nWhy should this happen? https://t.co/DGXBvPQYh1",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post",
+        "url": "https://twitter.com/zachmoskow/status/2115244246206754877",
+        "short": "https://t.co/DGXBvPQYh1"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115441568119398592",
+    "url": "https://x.com/thdxr/status/2115441568119398592",
+    "author": {
+      "name": "dax",
+      "handle": "thdxr"
+    },
+    "posted_at": "2026-10-28T13:52:27.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "Dax: AUR cannot be published to securely",
+    "summary": "Dax argues that with supply-chain attacks rising, the AUR must get more sophisticated or be replaced.",
+    "text": "with supply chain attacks becoming a bigger problem AUR really has to become more sophisticated or get replaced\n\nit's impossible to securely publish packages there",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2115492324088385845",
+    "url": "https://x.com/bunjavascript/status/2115492324088385845",
+    "author": {
+      "name": "Bun",
+      "handle": "bunjavascript"
+    },
+    "posted_at": "2026-10-28T17:14:08.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "claude.ai switched to bun fmt; CI formatting 1.7x faster",
+    "summary": "Bun says claude.ai switched from oxfmt to bun fmt and formatting in CI got 1.7x faster.",
+    "text": "https://t.co/NcFVicrnQ9 switched from oxfmt to bun fmt\n\nFormatting in CI got 1.7x faster https://t.co/1gauDo4m9A",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "claude.ai",
+        "url": "https://claude.ai",
+        "short": "https://t.co/NcFVicrnQ9"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVu9DrFbgAErNL3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115569789574033436",
+    "url": "https://x.com/mitchellh/status/2115569789574033436",
+    "author": {
+      "name": "Mitchell Hashimoto",
+      "handle": "mitchellh"
+    },
+    "posted_at": "2026-10-28T22:21:57.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Rex beta: 12,000 more invites, iOS testing open",
+    "summary": "Mitchell Hashimoto says Rex invited 12,000 more testers this week, opened iOS testing to all invitees and is about halfway through the waitlist.",
+    "text": "Latest updates on Rex beta rollout: \n- I'll have a formal update next week (blog post).\n- We've invited 12,000 more this week.\n- We've fully opened iOS testing to everyone invited\n- Server (Linux + FreeBSD) testing is up to ~2,000 and we're going to open that up to everyone invited soon.\n- We're just shy of 50% through out full waitlist, but we're now inviting thousands every day and growing and this should clear quickly.",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2115537677676339483",
+    "url": "https://x.com/GergelyOrosz/status/2115537677676339483",
+    "author": {
+      "name": "Gergely Orosz",
+      "handle": "GergelyOrosz"
+    },
+    "posted_at": "2026-10-28T20:14:21.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Gergely: coding interviews are going away",
+    "summary": "Gergely Orosz expects coding interviews to disappear, though technical ability will still be tested in other ways.",
+    "text": "It’s hard to see anything else happening but coding interviews going away. \n\nThis won’t mean that technical ability won’t be interviewed: but it interviews will be less predictable, more subjective and harder to prep for than the near-universally-disliked DSA interviews. https://t.co/vmnq6xUX87",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Felix Rieseberg on dropping coding interviews",
+        "url": "https://twitter.com/felixrieseberg/status/2115200995546566910",
+        "short": "https://t.co/vmnq6xUX87"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115480412151762979",
+    "url": "https://x.com/addyosmani/status/2115480412151762979",
+    "author": {
+      "name": "Addy Osmani",
+      "handle": "addyosmani"
+    },
+    "posted_at": "2026-10-28T16:26:48.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Addy Osmani recommends Felix's \"Hunger beats tenure\"",
+    "summary": "Addy Osmani shares Felix Rieseberg's write-up on why his Anthropic team dropped coding interviews.",
+    "text": "\"Hunger beats tenure.\"\n\nGreat write-up by Felix on why his team at Anthropic dropped coding interviews: newer engineers are flying past stronger, more tenured coders. \n\nExecution isn't expensive anymore. Inside a company, the signal is picking an idea that moves the business and prototyping it. Outside, it's a portfolio of small prototypes. Both should show off your taste and judgment.\n\nClaude Code Desktop started as a weekend prototype by two newer engineers.",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Felix Rieseberg on dropping coding interviews",
+        "url": "https://twitter.com/felixrieseberg/status/2115200995546566910"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115477073745559830",
+    "url": "https://x.com/brandon_galang/status/2115477073745559830",
+    "author": {
+      "name": "brandon galang",
+      "handle": "brandon_galang"
+    },
+    "posted_at": "2026-10-28T16:13:32.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Felix's post is for nervous non-technical builders",
+    "summary": "Brandon Galang says hunger and the will to make change happen now set builders apart, not code.",
+    "text": "if you identify as a \"non-technical\" who still feels nervous about showing their \"vibe coded\" creations to others, Felix's writing here is for you.\n\n\"Hunger\" and the will to simply make change happen is what differentiates builders and operators now.\n\nThe models can more than handle code.\n\nWhat matters is this:\n\nCan you be the one to see what needs to happen and figure out what levers must be pulled so that your vision can become reality?",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Felix Rieseberg on dropping coding interviews",
+        "url": "https://twitter.com/felixrieseberg/status/2115200995546566910"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115359099017674755",
+    "url": "https://x.com/thorstenball/status/2115359099017674755",
+    "author": {
+      "name": "Thorsten Ball",
+      "handle": "thorstenball"
+    },
+    "posted_at": "2026-10-28T08:24:45.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "news",
+    "tldr": "Amp Labs in Sydney is hiring senior and staff engineers",
+    "summary": "Thorsten Ball says Amp Labs in Sydney is hiring senior or staff-level forward-deployed engineers.",
+    "text": "We don't usually hire. But we're hiring now.\n\nAmp Labs in Sydney is looking for senior or staff-level engineers.\n\nIf you're interested, contact Harry.\n\nMore information: https://t.co/XyrpfZMXVE https://t.co/QUCenESp1A",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Amp: hiring",
+        "url": "https://ampcode.com/hiring/fde",
+        "short": "https://t.co/XyrpfZMXVE"
+      },
+      {
+        "title": "Quoted post",
+        "url": "https://twitter.com/hjcharlesworth/status/2114618304916767194",
+        "short": "https://t.co/QUCenESp1A"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115429669684252878",
+    "url": "https://x.com/nrm_710/status/2115429669684252878",
+    "author": {
+      "name": "なるみ",
+      "handle": "nrm_710"
+    },
+    "posted_at": "2026-10-28T13:05:10.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "JAL・JTAから9万2000人分の個人情報流出",
+    "summary": "日本航空と日本トランスオーシャン航空は、システム委託先への不正アクセスで約9万2000人分の個人情報が流出し、うち約2000人分は電話番号やパスポート番号も含むと発表。",
+    "text": "日本航空など、不正アクセスで9万2000人分の個人情報流出…2000人分は電話番号やパスポート番号も\n\n日本航空（JAL）と日本トランスオーシャン航空（JTA）は28日、システム委託先への不正アクセスにより、利用者約9万2,000人分の個人情報が流出したと発表\n\n氏名・搭乗日・搭乗区間などが漏えいし、うち約2,000人分にはメールアドレス・電話番号・パスポート番号・マイレージ番号なども含まれる\n\nクレジットカード番号の流出はないという\nhttps://t.co/W2qguvrwnD",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "news.yahoo.co.jp",
+        "url": "https://news.yahoo.co.jp/articles/68b6c12cedd87fff440b21a6b5ea20e410634026?source=sns&dv=sp&mid=other&date=20261028&ctg=dom&bt=tw_up",
+        "short": "https://t.co/W2qguvrwnD"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115511484969357771",
+    "url": "https://x.com/4ki4/status/2115511484969357771",
+    "author": {
+      "name": "世界四季報",
+      "handle": "4ki4"
+    },
+    "posted_at": "2026-10-28T18:30:16.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "ユミルリンクの情報漏洩、5162万件へ拡大",
+    "summary": "日経によると、ユミルリンクの情報漏洩は5162万件に拡大し、JR東海の新幹線予約も含まれる。",
+    "text": "ユミルリンクの情報漏洩、5162万件へ拡大　JR東海の新幹線予約も - 日本経済新聞（26年10月26日）\n https://t.co/a9e5vJjDNL",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "日本経済新聞",
+        "url": "https://www.nikkei.com/article/DGXZQOUC2698H0W6A021C2000000/",
+        "short": "https://t.co/a9e5vJjDNL"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115527649376260315",
+    "url": "https://x.com/cnet_japan/status/2115527649376260315",
+    "author": {
+      "name": "CNET Japan",
+      "handle": "cnet_japan"
+    },
+    "posted_at": "2026-10-28T19:34:30.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "ツイキャス、不正アクセスで全サービス停止",
+    "summary": "ツイキャスが不正アクセスの痕跡を確認し、全サービスを停止。復旧時期は未定。",
+    "text": "ツイキャス、不正アクセスの痕跡を確認　全サービス停止、復旧時期は未定 https://t.co/rpTEi9WUyk",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "CNET Japan",
+        "url": "https://japan.cnet.com/article/35254114/",
+        "short": "https://t.co/rpTEi9WUyk"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115205403164233932",
+    "url": "https://x.com/nikkei/status/2115205403164233932",
+    "author": {
+      "name": "日本経済新聞 電子版（日経電子版）",
+      "handle": "nikkei"
+    },
+    "posted_at": "2026-10-27T22:14:01.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "資さんうどん、従業員2万人の個人情報流出か",
+    "summary": "資さんうどんで従業員約2万人分の個人情報（退職理由や賃金など）が流出した可能性。",
+    "text": "資さんうどん、従業員2万人の個人情報流出か　退職理由や賃金など\nhttps://t.co/nxgOetuZFc",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "日本経済新聞",
+        "url": "https://www.nikkei.com/article/DGXZQOUC279TQ0X21C26A0000000/?n_cid=SNSTW006&n_tw=1793139067",
+        "short": "https://t.co/nxgOetuZFc"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115431427458355243",
+    "url": "https://x.com/nrm_710/status/2115431427458355243",
+    "author": {
+      "name": "なるみ",
+      "handle": "nrm_710"
+    },
+    "posted_at": "2026-10-28T13:12:09.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "ソニー生命、顧客情報38.5万件が流出",
+    "summary": "ソニー生命は契約者専用サイトなどへの不正アクセスで約38万5000件の顧客情報が流出したと発表。",
+    "text": "ソニー生命、不正アクセスで顧客情報38.5万件漏洩　保険契約や住所\n\nソニー生命保険は28日、契約者専用サイトなどへの不正アクセスにより、約38万5,000件の顧客情報が流出したと発表\n\nメディケア生命の契約者らの氏名・生年月日・住所・電話番号・契約内容などが漏えい\n\nマイナンバー・クレジットカード・銀行口座情報は含まれず、現時点で不正利用も確認されていない\n\n被害拡大防止のため対象システムへの外部アクセスを遮断している\nhttps://t.co/Z0VXxtbjdP",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "www.nikkei.com",
+        "url": "https://www.nikkei.com/article/DGXZQOUB28AZ30Y6A021C2000000/",
+        "short": "https://t.co/Z0VXxtbjdP"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115580897177280900",
+    "url": "https://x.com/ScanNetSecurity/status/2115580897177280900",
+    "author": {
+      "name": "ScanNetSecurity",
+      "handle": "ScanNetSecurity"
+    },
+    "posted_at": "2026-10-28T23:06:06.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "ショップサーブ不正アクセス、対象は約2335万6000人",
+    "summary": "ECプラットフォーム「ショップサーブ」への不正アクセスで、漏えい対象者は約2335万6000人。",
+    "text": "「ショップサーブ」に不正アクセス、漏えい対象者数は約2,335万6,000人\nhttps://t.co/hBrwF58R3O",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "ScanNetSecurity",
+        "url": "https://scan.netsecurity.ne.jp/article/2026/10/29/56620.html?utm_source=twitter&utm_medium=social&utm_content=tweet",
+        "short": "https://t.co/hBrwF58R3O"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115564151431131292",
+    "url": "https://x.com/securityLab_jp/status/2115564151431131292",
+    "author": {
+      "name": "セキュリティ対策Lab",
+      "handle": "securityLab_jp"
+    },
+    "posted_at": "2026-10-28T21:59:33.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "ENEOSでんきに不正アクセス、情報漏えいの恐れ",
+    "summary": "ENEOSでんきで不正アクセスがあり、顧客情報が漏えいした恐れがある。",
+    "text": "ENEOSでんきに不正アクセス、情報漏えいの恐れ \n https://t.co/X524mKEL22 \n\n#セキュリティ対策Lab #security #securitynews #セキュリティ #セキュリティニュース",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "セキュリティ対策Lab",
+        "url": "https://rocket-boys.co.jp/security-measures-lab/eneos-power-denki-57-customer-data-breach-20261028/",
+        "short": "https://t.co/X524mKEL22"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115250991423762631",
+    "url": "https://x.com/itmedia_news/status/2115250991423762631",
+    "author": {
+      "name": "ITmedia NEWS",
+      "handle": "itmedia_news"
+    },
+    "posted_at": "2026-10-28T01:15:10.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "IDCFクラウドのランサム被害、OSSの脆弱性が悪用",
+    "summary": "IDCFクラウドのランサムウェア被害はOSSの脆弱性悪用によるもので、サーバ内データの流出はなし。再発防止にSBOMを導入。",
+    "text": "IDCFクラウドのランサム被害、OSSの脆弱性悪用される　サーバ内データ流出なし　再発防止へSBOM化\nhttps://t.co/mI7OouJl9y",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "ITmedia NEWS",
+        "url": "https://www.itmedia.co.jp/news/article/2610/28/2000002655/",
+        "short": "https://t.co/mI7OouJl9y"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115575425271533593",
+    "url": "https://x.com/GOROman/status/2115575425271533593",
+    "author": {
+      "name": "NULL=RUN",
+      "handle": "GOROman"
+    },
+    "posted_at": "2026-10-28T22:44:21.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "東京で無人タクシー100台、GO・Waymo・日本交通が合意",
+    "summary": "GO、Waymo、日本交通が東京でレベル4の無人タクシー100台の商用運行に向けて提携。",
+    "text": "日本初、無人タクシー100台が東京で運行開始へ。GO、Waymo、日本交通が自動運転レベル4タクシーの商用化に向けたパートナーシップに合意(スマートモビリティJP)\n#Yahooニュース\nhttps://t.co/DyZu9Kqydg",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Yahoo!ニュース（スマートモビリティJP）",
+        "url": "https://news.yahoo.co.jp/articles/c0a69d7bba316125abfaa0c10da8bee5cf6274fd?source=sns&dv=sp&mid=other&date=20261029&ctg=bus&bt=tw_up",
+        "short": "https://t.co/DyZu9Kqydg"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115478566125081008",
+    "url": "https://x.com/cnet_japan/status/2115478566125081008",
+    "author": {
+      "name": "CNET Japan",
+      "handle": "cnet_japan"
+    },
+    "posted_at": "2026-10-28T16:19:28.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "Alexa+が日本上陸、プライム会員は追加料金なし",
+    "summary": "Alexa+が日本で提供開始。プライム会員は追加料金なしで利用できる。",
+    "text": "「Alexa+」日本上陸、Amazonプライム会員は追加料金なし　曖昧な指示をしっかり理解 https://t.co/I0MKQxZqHN",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "CNET Japan",
+        "url": "https://japan.cnet.com/article/35254111/",
+        "short": "https://t.co/I0MKQxZqHN"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2114895262250606659",
+    "url": "https://x.com/ELYZA_inc/status/2114895262250606659",
+    "author": {
+      "name": "ELYZA, Inc.",
+      "handle": "ELYZA_inc"
+    },
+    "posted_at": "2026-10-27T01:41:38.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "KDDIとELYZA、フィジカルAIの新会社ELYZA Robotics設立",
+    "summary": "KDDIとELYZAがフィジカルAI事業を進める新会社「ELYZA Robotics」を設立。",
+    "text": "KDDIとELYZAは、フィジカルAI事業を推進する新会社「株式会社ELYZA Robotics」を設立し、事業を開始しました。\n\nELYZA Roboticsは、ELYZAやKDDI総合研究所をはじめ、KDDIグループの専門人財を結集したフィジカルAIの中核拠点（CoE）として、研究開発から社会実装までを一貫して担います。\n\n現場の人手不足が見込まれる中、人の作業を補完し、危険作業や高負荷作業の負担軽減に取り組みます。\n\nそのために、先端技術の研究開発から、現場の業務への組み込み、それらを支えるプラットフォームの開発までを一体で進め、人の隣でロボットが働く社会を「あたりまえ」にしていきます。\n\n詳細はこちら：\nhttps://t.co/oKEEw5N5lR\nELYZA Robotics ホームページ：\nhttps://t.co/wmQQ7OHe6R",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "prtimes.jp",
+        "url": "https://prtimes.jp/main/html/rd/p/000000086.000047565.html",
+        "short": "https://t.co/oKEEw5N5lR"
+      },
+      {
+        "title": "elyza-robotics.ai",
+        "url": "https://elyza-robotics.ai",
+        "short": "https://t.co/wmQQ7OHe6R"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115344491205025986",
+    "url": "https://x.com/DaijuUeda/status/2115344491205025986",
+    "author": {
+      "name": "植田大樹@AI研究医",
+      "handle": "DaijuUeda"
+    },
+    "posted_at": "2026-10-28T07:26:42.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "health",
+    "shelf_life": "evergreen",
+    "tldr": "生成AIの薬剤推奨は特定製品に偏る（Nature Health）",
+    "summary": "5つのLLMで約17.7万の模擬症例を検証し、同じ成分の製品が複数あっても第一推奨が特定製品に偏ることを示した論文。",
+    "text": "【Nature Health論文掲載】\n生成AIの薬剤推奨は中立か？\n5つのLLMで約17.7万の模擬症例を検証。同じ有効成分の複数製品があるにもかかわらず、第一推奨は平均97.5%が特定の1製品に集中しました。\n先発品への強い偏りも判明。医療AIの「商業的中立性」を問う研究です。\nhttps://t.co/LzImaU3Glg https://t.co/ii9h2KVhwg",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Nature Health",
+        "url": "https://www.nature.com/articles/s44360-026-00205-y",
+        "short": "https://t.co/LzImaU3Glg"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVs2NCObsAAdbhS.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115377339811213470",
+    "url": "https://x.com/chomado/status/2115377339811213470",
+    "author": {
+      "name": "ちょまど🦕ITエンジニア",
+      "handle": "chomado"
+    },
+    "posted_at": "2026-10-28T09:37:14.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "ちょまど氏、11/7レバテックIT転職フェアに登壇",
+    "summary": "ちょまど氏が11月7日、高田馬場のレバテックIT転職フェアで登壇。",
+    "text": "#ちょまど登壇情報 \n\n📣 #レバテックIT転職フェア\n\n📅 11/07(土) \n\n📍 高田馬場\n\nhttps://t.co/HwDkd79X9b\n\nお話しさせていただきます☺️\n皆様とお話しできる(のと、私の後の枠のレジェンド matz さんの講演をちゃっかり聞く) のを楽しみにしています！！✨ https://t.co/6d3ASq4yh6",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "レバテックIT転職フェア",
+        "url": "https://lp.levtech-direct.jp/lp/112/03/01/202611?via=c_zkk_gst_fair261107_",
+        "short": "https://t.co/HwDkd79X9b"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVtUemaaQAArfbb.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115346127608545439",
+    "url": "https://x.com/kis/status/2115346127608545439",
+    "author": {
+      "name": "きしだൠ(K1S)",
+      "handle": "kis"
+    },
+    "posted_at": "2026-10-28T07:33:12.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "11/13 コーディングのためのローカルLLM勉強会 vol.2",
+    "summary": "11月13日にLINEヤフー紀尾井町オフィスでコーディング向けローカルLLM勉強会を開催。",
+    "text": "11/13(金)にLINEヤフー紀尾井町オフィスで「コーディングのためのローカルLLM勉強会 in 東京 vol.2」を行います。\n今回は金のニワトリさん(@gosrum )さんに何らか話していただきます〜\nあと、5分LT枠x2あるので、LLMやらLLMを動かすハードウェアの話やらの話できる人ぜひ\nhttps://t.co/T7X7zkt3xL",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "connpass",
+        "url": "https://lycorptech-jp.connpass.com/event/410845/",
+        "short": "https://t.co/T7X7zkt3xL"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2114634655383388609",
+    "url": "https://x.com/Japan_AISI/status/2114634655383388609",
+    "author": {
+      "name": "Japan AISI",
+      "handle": "Japan_AISI"
+    },
+    "posted_at": "2026-10-26T08:26:04.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "evergreen",
+    "tldr": "AISI、ヘルスケア領域のAIセーフティ評価観点ガイド",
+    "summary": "AISIがヘルスケア領域特有のリスクに特化したAIセーフティ評価観点ガイドを公開。",
+    "text": "先日、AISIが公開している「AIセーフティに関する評価観点ガイド」についてお知らせしました。\n\nヘルスケア領域特有のリスクに特化した「ヘルスケア領域におけるAIセーフティ評価観点ガイド」も公開しておりますので、実務の参考にしてください。\n\nhttps://t.co/uzgz1z1AIr https://t.co/sGRbsI597k",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "AISI",
+        "url": "https://aisi.go.jp/output/output_information/260402/?utm_source=x&utm_medium=social",
+        "short": "https://t.co/uzgz1z1AIr"
+      },
+      {
+        "title": "Quoted post",
+        "url": "https://twitter.com/Japan_AISI/status/2110649381066043440",
+        "short": "https://t.co/sGRbsI597k"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115475190415253913",
+    "url": "https://x.com/nhk_news/status/2115475190415253913",
+    "author": {
+      "name": "NHKニュース",
+      "handle": "nhk_news"
+    },
+    "posted_at": "2026-10-28T16:06:03.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "ホンダと日産、EV用バッテリーで具体的な協業交渉",
+    "summary": "ホンダと日産がEV用バッテリーの協業に向けて具体的な交渉に入った。",
+    "text": "ホンダと日産 EV用バッテリーの協業へ具体的な交渉\nhttps://t.co/3RyV7EvaZb #nhk_news",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "NHK",
+        "url": "https://news.web.nhk/newsweb/na/nd-20261029de67424",
+        "short": "https://t.co/3RyV7EvaZb"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115581900152820010",
+    "url": "https://x.com/ScanNetSecurity/status/2115581900152820010",
+    "author": {
+      "name": "ScanNetSecurity",
+      "handle": "ScanNetSecurity"
+    },
+    "posted_at": "2026-10-28T23:10:05.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "AIハッカーが産業制御ソフトの脆弱性4件を4時間弱で発見",
+    "summary": "AIの「ハッカー」が広く使われる産業制御ソフトで深刻な脆弱性4件を4時間足らずで見つけたという記事。",
+    "text": "AI の「ハッカー」が広く使われる産業制御ソフトの深刻な脆弱性 4 件を 4 時間足らずで発見\nhttps://t.co/XKwpZMdDOC",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "ScanNetSecurity",
+        "url": "https://scan.netsecurity.ne.jp/article/2026/10/29/56622.html?utm_source=twitter&utm_medium=social&utm_content=tweet",
+        "short": "https://t.co/XKwpZMdDOC"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115472184676352413",
+    "url": "https://x.com/nhk_news/status/2115472184676352413",
+    "author": {
+      "name": "NHKニュース",
+      "handle": "nhk_news"
+    },
+    "posted_at": "2026-10-28T15:54:07.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "千葉県北東部で震度5弱、津波の心配なし",
+    "summary": "千葉県北東部で震度5弱の地震。津波の心配はない。",
+    "text": "【地震情報】千葉県北東部で震度5弱 津波の心配なし\nhttps://t.co/OizNMF7ZLK\n\n#nhk_video https://t.co/QwIAANB0Dz",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "NHK",
+        "url": "https://news.web.nhk/newsweb/na/nd-20261029de67425",
+        "short": "https://t.co/OizNMF7ZLK"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVuqvcPa0AAvZ5D.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115561254949707930",
+    "url": "https://x.com/nhk_news/status/2115561254949707930",
+    "author": {
+      "name": "NHKニュース",
+      "handle": "nhk_news"
+    },
+    "posted_at": "2026-10-28T21:48:03.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "各地で今季一番の冷え込み",
+    "summary": "各地で今季一番の冷え込み。路面凍結などに注意。",
+    "text": "各地で今季一番の冷え込み 路面凍結などに注意を\nhttps://t.co/qOQSsljtUh #nhk_news",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "NHK",
+        "url": "https://news.web.nhk/newsweb/na/nd-20261029de67465",
+        "short": "https://t.co/qOQSsljtUh"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115437632339759590",
+    "url": "https://x.com/HAWKS_official/status/2115437632339759590",
+    "author": {
+      "name": "福岡ソフトバンクホークス（公式）",
+      "handle": "HAWKS_official"
+    },
+    "posted_at": "2026-10-28T13:36:49.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "culture",
+    "shelf_life": "news",
+    "tldr": "ホークス、2年連続日本一",
+    "summary": "福岡ソフトバンクホークスがSMBC日本シリーズを制し、2年連続の日本一。",
+    "text": "全身全霊でつかんだ日本一！\nシーズンを通して熱い声援を送っていただいた皆さまのおかげで成し遂げることができました！\n\n#2年連続日本一 #sbhawks #SMBC日本シリーズ2026 https://t.co/JE81ZTlyOW",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVuJ6WQaAAAM24j.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115372755709464793",
+    "url": "https://x.com/Yuji_48/status/2115372755709464793",
+    "author": {
+      "name": "Yuji Shibasaki＠Photo",
+      "handle": "Yuji_48"
+    },
+    "posted_at": "2026-10-28T09:19:01.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "culture",
+    "shelf_life": "news",
+    "tldr": "本庄市・マリーゴールドの丘が見頃",
+    "summary": "埼玉県本庄市のマリーゴールドの丘が見頃を迎えた。",
+    "text": "埼玉県本庄市にあるマリーゴールドの丘が見頃を迎えました。 https://t.co/0ikF35U11o",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVtQI3gbAAAnnbQ.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVtQJMWbMAA4HUJ.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVtQJ1HagAAFqBu.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115473474722660704",
+    "url": "https://x.com/HQNewsNow/status/2115473474722660704",
+    "author": {
+      "name": "Headquarters",
+      "handle": "HQNewsNow"
+    },
+    "posted_at": "2026-10-28T15:59:14.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "Dolores Huerta, who coined \"Sí, se puede,\" dies at 96",
+    "summary": "Labor and civil rights leader Dolores Huerta, co-founder of the United Farm Workers, has died at 96.",
+    "text": "Legendary labor leader and civil rights activist Dolores Huerta has passed away at age 96.\n\nShe coined the phrase “Sí, se puede,” and was a founder of the United Farm Workers Union, helping hundreds of thousands of workers achieve better working conditions since the 1960s. https://t.co/L4XVB9h2dC",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVur2bpWwAApg6b.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVur3LMW8AA8Yco.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115409655027368059",
+    "url": "https://x.com/PublicDomainRev/status/2115409655027368059",
+    "author": {
+      "name": "The Public Domain Review",
+      "handle": "PublicDomainRev"
+    },
+    "posted_at": "2026-10-28T11:45:38.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "The March of Intellect: 1820s cartoons of a knowledge machine",
+    "summary": "The Public Domain Review shows 1820s satirical prints of an automaton fuelled by books that sweeps away old society.",
+    "text": "An automaton fuelled by tomes of newly available knowledge sweeps away the old society. No, not a self-portrait by ChatGPT in the style of a Georgian satirical print, but one of several “March of Intellect” cartoons published ca. 1828: https://t.co/01UrRs5C1q https://t.co/lGs9qD3tPm",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "The Public Domain Review: March of the Intellect",
+        "url": "https://publicdomainreview.org/collection/march-of-the-intellect",
+        "short": "https://t.co/01UrRs5C1q"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVtx3wEXIAAdXAK.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115432011670188383",
+    "url": "https://x.com/MerriamWebster/status/2115432011670188383",
+    "author": {
+      "name": "Merriam-Webster",
+      "handle": "MerriamWebster"
+    },
+    "posted_at": "2026-10-28T13:14:29.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "culture",
+    "shelf_life": "evergreen",
+    "tldr": "Futz means to fool around",
+    "summary": "Merriam-Webster explains futz, to fool around or behave not very seriously.",
+    "text": "‘Futz’ means “to fool around” or “to behave in a way that is not very serious.”\n\nIt is thought to have come from a modification of the Yiddish phrase ‘arumfartsn zikh,’ the literal translation of which is “to fart around.”\n\nExcuse us.",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Merriam-Webster: futz",
+        "url": "https://www.merriam-webster.com/dictionary/futz"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115210438690382174",
+    "url": "https://x.com/QuantaMagazine/status/2115210438690382174",
+    "author": {
+      "name": "Quanta Magazine",
+      "handle": "QuantaMagazine"
+    },
+    "posted_at": "2026-10-27T22:34:01.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "How voting is like a Klein bottle",
+    "summary": "Quanta explains Condorcet's voting paradox and its surprising link to the geometry of a Klein bottle.",
+    "text": "The French mathematician Nicolas de Condorcet identified a paradox about voting in the late 18th century: A majority can sometimes vote itself into a logical loop. https://t.co/GIopSlQKNM https://t.co/wCghsNLROY",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quanta: How voting is like a Klein bottle",
+        "url": "https://www.quantamagazine.org/how-voting-is-like-a-klein-bottle-20261026/",
+        "short": "https://t.co/GIopSlQKNM"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVq8ryGWoAAQ2xr.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115408004959101063",
+    "url": "https://x.com/SoftBank/status/2115408004959101063",
+    "author": {
+      "name": "SoftBank",
+      "handle": "SoftBank"
+    },
+    "posted_at": "2026-10-28T11:39:05.000Z",
+    "saved_at": "2026-10-29T08:40:00+09:00",
+    "topic": "culture",
+    "shelf_life": "news",
+    "tldr": "SoftBank's Otosan goes to space for the Hawks",
+    "summary": "SoftBank's dog mascot Otosan says he was so happy about the Hawks' second straight title that he went to space.",
+    "text": "お父さん「ホークスが2年連続日本一だ！喜びすぎて、宇宙まできてしまったぞ」 \n\n福岡ソフトバンクホークス⚾\n✨祝✨ #2年連続日本一 ！\n\n#sbhawks https://t.co/TMzCDcWHY9",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVtwXQCbgAAA_CI.png"
+      }
+    ]
   }
 ]
