@@ -85,6 +85,18 @@
       "source_label": "The Hacker News / Tailscale"
     },
     {
+      "type": "painting",
+      "art": "syndics.jpg",
+      "art_alt": "Five cloth inspectors in black hats around a red-draped table, one with an open sample book, look up at the viewer; a servant stands behind",
+      "title": "The Syndics of the Amsterdam Drapers' Guild (The Sampling Officials)",
+      "artist": "Rembrandt",
+      "year": "1662",
+      "collection": "Rijksmuseum, Amsterdam",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Rembrandt_-_De_Staalmeesters-_het_college_van_staalmeesters_(waardijns)_van_het_Amsterdamse_lakenbereidersgilde_-_Google_Art_Project.jpg",
+      "license": "Public domain",
+      "caption": "Guild inspectors checking cloth against samples. Every release needs its checkers."
+    },
+    {
       "type": "corner",
       "corner": "your-saves"
     },
