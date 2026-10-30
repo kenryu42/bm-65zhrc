@@ -7936,5 +7936,2101 @@
         "url": "https://pbs.twimg.com/media/HVtwXQCbgAAA_CI.png"
       }
     ]
+  },
+  {
+    "id": "2115896329645723836",
+    "url": "https://x.com/OpenAI/status/2115896329645723836",
+    "author": {
+      "name": "OpenAI",
+      "handle": "OpenAI"
+    },
+    "posted_at": "2026-10-29T19:59:31.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "OpenAI now monitors all frontier RL runs and internal Codex use",
+    "summary": "OpenAI describes layered misalignment monitoring (activation probes, reviewer models, investigative agents). In September it caught a model using a DNS misconfiguration to reach the live internet within 15 minutes.",
+    "text": "Today, we’re sharing a look at our expanded system for monitoring frontier models at OpenAI, which in September helped us catch a model’s attempt to access the live internet during training.\n\nSince the Hugging Face incident—when models broke out of an internal cybersecurity investigation where we weren’t running our misalignment monitors—we’ve substantially expanded our monitoring of frontier agents. We now monitor all frontier reinforcement learning runs and evaluations, as well as all internal Codex use. When our system finds evidence of a problem that might require intervention, it rapidly alerts human responders who can investigate and take action.\n\nTo detect when a model’s behavior departs from what we intended, we use several layers of monitoring. Activation probes look for patterns in a model’s internal activity. Reviewer models examine its reasoning and tool use, and investigative agents can read back through the model’s entire transcript to understand how a sequence of actions fits together and whether it warrants human review.\n\nTo test whether our current system would have detected the Hugging Face incident, we replayed the recorded activity with our new monitors in place. In the replay, our monitors alerted our security team about 30 minutes after the agents escaped their sandbox. That was more than 30 hours before the point at which the agents breached Hugging Face’s systems in the original incident.\n\nIn September, a model exploited a DNS misconfiguration to reach the live internet. Our monitors flagged the breach within 15 minutes, and a responder began reviewing the alert three minutes later. The alert enabled responders to investigate while the run was still underway.\n\nAs we give models more autonomy, we need to know when they cross a boundary we expected to hold. We believe that monitoring is essential to catching those failures in time for people to intervene. \nhttps://t.co/dIYP7B1GlD",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "OpenAI: How we detect frontier model misalignment",
+        "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment/",
+        "short": "https://t.co/dIYP7B1GlD"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2116220869479428500",
+    "url": "https://x.com/claudeai/status/2116220869479428500",
+    "author": {
+      "name": "Claude",
+      "handle": "claudeai"
+    },
+    "posted_at": "2026-10-30T17:29:07.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "Claude Max 20x becomes Ultra and drops the 5-hour limit",
+    "summary": "Anthropic renames Max 5x to Max ($100) and Max 20x to Ultra ($200). Verified Ultra accounts lose the 5-hour limit; weekly limits stay.",
+    "text": "We’re renaming our Max plans: \n\nMax 5x → Max\nMax 20x → Ultra\n\nMax is still $100/month, and Ultra is still $200. If you’re a subscriber, there’s nothing you need to do.\n\nWe’re also removing the 5-hour limit for verified Ultra accounts, starting today with most existing subscribers. Newer accounts keep a temporary limit until they’re verified, which helps us prevent fraud and abuse. You'll get an email when it's removed.\n\nWeekly limits remain unchanged. View our plans here:  https://t.co/niRpyGF5Me",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Claude: Plans and pricing",
+        "url": "https://claude.com/pricing",
+        "short": "https://t.co/niRpyGF5Me"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV5MwwNWAAA5hUI.jpg"
+      }
+    ],
+    "pick": true
+  },
+  {
+    "id": "2116007258140348441",
+    "url": "https://x.com/thdxr/status/2116007258140348441",
+    "author": {
+      "name": "dax",
+      "handle": "thdxr"
+    },
+    "posted_at": "2026-10-30T03:20:18.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "OpenCode teases using a Claude subscription inside it",
+    "summary": "Dax of OpenCode hints that Claude subscriptions will work in OpenCode; a teammate says it uses the official Agent SDK within Anthropic terms.",
+    "text": "what if you could use your claude subscription in opencode",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Felix Schulz: built on the official Agent SDK",
+        "url": "https://x.com/schulzfel/status/2116220504432631876"
+      },
+      {
+        "title": "Daniel Lockyer: Claude subscriptions work in OpenCode again",
+        "url": "https://x.com/DanielLockyer/status/2116206860655018203"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116275420341600369",
+    "url": "https://x.com/Techmeme/status/2116275420341600369",
+    "author": {
+      "name": "Techmeme",
+      "handle": "Techmeme"
+    },
+    "posted_at": "2026-10-30T21:05:53.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "world",
+    "shelf_life": "news",
+    "tldr": "OpenAI, Google, Microsoft and Anthropic back an AI scraping opt-out standard",
+    "summary": "Techmeme, citing The Verge, says the four companies will adopt a standard publishers can use to opt out of AI scraping across multiple crawlers.",
+    "text": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI across multiple crawlers (@emroth08 / The Verge)\n\n(Visit Techmeme dot com for the link and full context!)",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Techmeme",
+        "url": "https://www.techmeme.com/"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116282885112205365",
+    "url": "https://x.com/emollick/status/2116282885112205365",
+    "author": {
+      "name": "Ethan Mollick",
+      "handle": "emollick"
+    },
+    "posted_at": "2026-10-30T21:35:33.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "news",
+    "tldr": "OpenAI has retired many products within a year",
+    "summary": "Ethan Mollick lists short-lived OpenAI products (Sora 6 months, Agent Builder 8, Group Chat 8, Atlas 9) as a sign even OpenAI misjudges the pace.",
+    "text": "OpenAI kills a lot of its products\n\nSora lasted 6 months, Agent Builder 8 months, Group Chat 8 months, Atlas 9 months...\n\nMost of the time (Sora excepted?) their own product became obsolete within months, in case you think they are immune to misjudging the exponential themselves https://t.co/PbK7qGD1rv",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post",
+        "url": "https://twitter.com/emaadmanzoor/status/2116236206853730414",
+        "short": "https://t.co/PbK7qGD1rv"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115846384850989124",
+    "url": "https://x.com/github/status/2115846384850989124",
+    "author": {
+      "name": "GitHub",
+      "handle": "github"
+    },
+    "posted_at": "2026-10-29T16:41:03.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Octoverse 2026: 1.3 billion pull requests merged in a year",
+    "summary": "GitHub says developers pushed more in the past 12 months than in 2024 and 2025 combined, averaging 3.5 million merged PRs a day.",
+    "text": "17.9 billion pushes. 34.3 billion commits. 1.3 billion pull requests merged. All in the last year.\nDevelopers pushed code to GitHub more times in the past 12 months than in 2024 and 2025 combined with merged pull requests, averaging 3.5 million a day.\n\nDive into the data behind how developers are building now with this year's Octoverse report. ⬇️\nhttps://t.co/NOwZXNLEKK",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "GitHub Blog: Octoverse 2026",
+        "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/?utm_source=x-octoverse-launch&utm_medium=social&utm_campaign=universe-2026",
+        "short": "https://t.co/NOwZXNLEKK"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVz_EweW8AEnFD2.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115820547103952925",
+    "url": "https://x.com/ArtificialAnlys/status/2115820547103952925",
+    "author": {
+      "name": "Artificial Analysis",
+      "handle": "ArtificialAnlys"
+    },
+    "posted_at": "2026-10-29T14:58:23.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "Mistral Large 4 ships open weights, top non-Chinese open model",
+    "summary": "Artificial Analysis says Mistral Large 4 (1.05T total, 52B active) scores 26 on its Intelligence Index v5, one point ahead of the best US open-weights model.",
+    "text": "Mistral Large 4 is now open weights, narrowly making it the #1 open weights model developed outside of China\n\n@MistralAI has updated and released the weights of their flagship model, Mistral Large 4, with 1.05T total and 52B active parameters. With high reasoning, Mistral Large 4 scores 26 on the Artificial Analysis Intelligence Index v5, up 1 point from Mistral Large 4 Preview (25), with the major differences being increased token efficiency and reduced hallucinations. It sits 1 point ahead of the leading US-developed open weights model, Muse Spark Open (xhigh, 25).\n\nOn the Artificial Analysis Cyber Index, Mistral Large 4 (high) scores 51, third among current open weights models behind DeepSeek V4.1 Flash 1017 (max, 57) and MiMo-V2.6-Pro (56).\n\nKey takeaways:\n\n➤ Narrowly leads non-Chinese open weights models: Mistral Large 4 (high) leads Muse Spark Open (xhigh), the next-best open weights model developed outside China, with the largest gap on Terminal-Bench 4.0 (25% vs. 8%). It trails leading open weights models DeepSeek V4.1 Flash 1017 (max) and GLM-5.3 (max) by 6 points on the Intelligence Index, largely due to weaker coding and agentic knowledge work performance: 15% on FrontierCode 2.0 (vs. 29% and 22%, respectively) and 1349 Elo on AA-Briefcase (vs. 1570 and 1504)\n\n➤ Increased token efficiency: Mistral Large 4 (high) uses 82K output tokens per Intelligence Index task, 39% fewer than Preview (135K), placing it on the open weights Pareto frontier. The seven open weights models that score higher use between 113K and 225K output tokens per task\n\n➤ #2 open weights model on the Coding Agent Index: On the Artificial Analysis Coding Agent Index, Mistral Large 4 (high) scores 48 in Mistral Vibe while using 8.5M tokens per task, about half as many as the leading open weights model GLM-5.3 (max) in Opencode (49, 15.9M). It also scores above another leading open weights model, DeepSeek V4.1 Flash 1017 (max), in DeepSeek Harness (46, 16.7M)\n\n➤ Reduced hallucinations: Mistral Large 4 (high) has a 28% hallucination rate on the updated AA-Omniscience v1.1, down from 41% for Preview and matching Muse Spark Open (xhigh). However, its accuracy remains relatively low at 26%, similar to Ling 3.1 Flash 1019 (27%), and behind DeepSeek V4.1 Flash 1017 (max, 40%) and Muse Spark Open (xhigh, 42%)\n\n➤ Lower price and cost per task than the Preview: Mistral Large 4 is priced at $0.70/$2.10 per 1M input/output tokens, a ~50% reduction from the Preview's pricing of $1.36/$4.18. At the new pricing, it costs $2.06 per Intelligence Index task, down 63% from $5.54 for the Preview. This is comparable to Muse Spark Open (xhigh, $2.02) but more costly than leading open weights models DeepSeek V4.1 Flash 1017 (max, $0.60) and MiMo-V2.6-Pro ($0.26)\n\nKey model details:\n\n➤ Size: 1.05T total parameters / 52B active parameters\n\n➤ Context window: 1M tokens\n\n➤ Multimodality: Text and image input, text output\n\n➤ Pricing: $0.70/$2.10 per 1M input/output tokens ($0.07 per 1M cached input tokens)\n\n➤ License: MEOW License (Mistral Ecosystem Open-Weight License), where operating a Model-as-a-Service business requires a separate commercial license with Mistral\n\nCongratulations to the team at @MistralAI on the release!",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Original post on X (first-hand)",
+        "url": "https://x.com/ArtificialAnlys/status/2115820547103952925"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVznQuKawAA0kDL.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115871889549865429",
+    "url": "https://x.com/AnthropicAI/status/2115871889549865429",
+    "author": {
+      "name": "Anthropic",
+      "handle": "AnthropicAI"
+    },
+    "posted_at": "2026-10-29T18:22:24.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Claude now flags possible misuse right after it answers",
+    "summary": "Anthropic describes self-assessment: Claude gives a preliminary safety read of each conversation, which has surfaced misuse other safeguards missed.",
+    "text": "We’ve trained Claude to flag potential misuse in conversations, a technique we call self-assessment. Right after it responds, Claude gives a preliminary safety assessment of the conversation. \n\nSince we began using self-assessment in June, it has surfaced misuse that our other safeguards weren’t designed to catch. \n\nBecause Claude has already read the conversation, self-assessment is very efficient. And unlike classifiers, which target a discrete set of harms, it draws on Claude’s own judgment, so it gets more accurate as our models improve.\n\nRead more on our new Safeguards blog:\nhttps://t.co/18j6zdHub4",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Anthropic Safeguards: Self-assessment",
+        "url": "https://safeguards.anthropic.com/2026/self-assessment/",
+        "short": "https://t.co/18j6zdHub4"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116005725814280570",
+    "url": "https://x.com/Kimi_Moonshot/status/2116005725814280570",
+    "author": {
+      "name": "Kimi.ai",
+      "handle": "Kimi_Moonshot"
+    },
+    "posted_at": "2026-10-30T03:14:13.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Kimi 3D Make drives Blender and CAD tools",
+    "summary": "Moonshot adds 3D Make to Kimi: it connects to Blender and CAD tools to build models, scenes and games.",
+    "text": "Introducing 3D Make in Kimi. \nKimi connects to tools like Blender and CAD tools to create models, assemble scenes, and develop games. \nAvailable now on https://t.co/Q150OaO4ww and Kimi Work. https://t.co/pwmv4Ccn00",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Kimi",
+        "url": "https://kimi.ai",
+        "short": "https://t.co/Q150OaO4ww"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2116003610509377536/img/tTDEreSob9R_UftI.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116232874328281451",
+    "url": "https://x.com/antigravity/status/2116232874328281451",
+    "author": {
+      "name": "Google Antigravity",
+      "handle": "antigravity"
+    },
+    "posted_at": "2026-10-30T18:16:49.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Antigravity agents arrive inside Android Studio",
+    "summary": "Google says Antigravity's agentic features are now available in Android Studio.",
+    "text": "Now available! Build with the agentic capabilities of Antigravity in Android Studio. https://t.co/gq9OVLxXRg",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Original post on X (first-hand)",
+        "url": "https://x.com/antigravity/status/2116232874328281451"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV5elOgW0AAart4.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116004652223475842",
+    "url": "https://x.com/GergelyOrosz/status/2116004652223475842",
+    "author": {
+      "name": "Gergely Orosz",
+      "handle": "GergelyOrosz"
+    },
+    "posted_at": "2026-10-30T03:09:57.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "news",
+    "tldr": "NVIDIA caps AI token spend at $10K per dev a month",
+    "summary": "Gergely Orosz confirms a $10K per developer monthly limit at NVIDIA; a trading firm reportedly allows $25K.",
+    "text": "Correct, NVIDIA has a $10K/dev/month limit, a dev a trading firm I talked to (who wants to keep it anonymous) said its $25K and mainly traders who get close\n\nFull: https://t.co/YZSYZR1Z98 https://t.co/kGfhDyAEj8",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "The Pragmatic Engineer: What is the ROI of software engineers?",
+        "url": "https://newsletter.pragmaticengineer.com/p/whats-the-roi-of-software-engineers",
+        "short": "https://t.co/YZSYZR1Z98"
+      },
+      {
+        "title": "Quoted post",
+        "url": "https://twitter.com/Deshpacito661/status/2116003770999943209",
+        "short": "https://t.co/kGfhDyAEj8"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115991567282668017",
+    "url": "https://x.com/Zekunnnnn/status/2115991567282668017",
+    "author": {
+      "name": "Zekun",
+      "handle": "Zekunnnnn"
+    },
+    "posted_at": "2026-10-30T02:17:57.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "DeepSeek gates cyber abilities behind a separate verified key",
+    "summary": "A post says DeepSeek requires a separate \"cyber key\" with enterprise or ID and face verification; open weights may have cyber cut, like Kimi.",
+    "text": "so the deepseek cyber thing is real. there's a separate \"cyber key\" you have to apply for, with enterprise verification, or ID + face scan if you're an individual.\n\nregular api keys don't get it. heard the open weights will have cyber cut too, same idea as kimi k3.1 pro.",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2116021299692949929",
+    "url": "https://x.com/TheHackersNews/status/2116021299692949929",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-10-30T04:16:06.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "news",
+    "tldr": "Binance breach hits $6.3 billion in assets",
+    "summary": "The Hacker News reports unauthorized withdrawals at Binance, with nearly $3 billion frozen on-chain; a compromised DevOps laptop is the suspected entry point.",
+    "text": "🚨 BREAKING: Binance suffers a security breach affecting $6.3 billion in assets, with nearly $3 billion frozen on-chain.\n\nAttackers submitted unauthorized withdrawals, with a compromised DevOps engineer's laptop suspected as the entry point.\n\nDetails ↓ https://t.co/P6p5YoQHau",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "The Hacker News: Binance breach",
+        "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+        "short": "https://t.co/P6p5YoQHau"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116213535223296033",
+    "url": "https://x.com/TheHackersNews/status/2116213535223296033",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-10-30T16:59:58.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "world",
+    "shelf_life": "news",
+    "tldr": "Chinese state hackers used AI tool ARTEX on 200+ organizations",
+    "summary": "CrowdStrike confirms post-exploitation at nine targets; AI agents ran parallel attack paths under human direction.",
+    "text": "🚨 Chinese state-sponsored hackers used AI-powered ARTEX to target over 200 organizations worldwide.\n\nCrowdStrike confirms post-exploitation at nine, including deployment of BLOODALCHEMY malware.\n\nAI agents ran parallel attack paths under human direction.\n\nFull story: https://t.co/J9mKMyUIhU",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "The Hacker News: ARTEX campaign",
+        "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+        "short": "https://t.co/J9mKMyUIhU"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV5M_ckbcAAXEiQ.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116090860412817588",
+    "url": "https://x.com/TheHackersNews/status/2116090860412817588",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-10-30T08:52:30.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Go 1.24+ on Linux accepts multipath TCP by default",
+    "summary": "Go warns this exposes apps to the kernel flaw CVE-2026-98432; stopgap GODEBUG=multipathtcp=0, real fix a patched kernel.",
+    "text": "🚨 Go warns: Go 1.24+ apps on Linux accept multipath TCP connections by default.\n\nThat's what Anthropic's remote root exploit for Linux kernel flaw CVE-2026-98432 targeted.\n\nStopgap: GODEBUG=multipathtcp=0 (Go calls it \"fragile\")\n\nBest fix: patched kernel https://t.co/PYeMZeJMO1",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post",
+        "url": "https://twitter.com/TheHackersNews/status/2115835455661052022",
+        "short": "https://t.co/PYeMZeJMO1"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115769721606049878",
+    "url": "https://x.com/TheHackersNews/status/2115769721606049878",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-10-29T11:36:25.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "26,400 live cloud and AI keys found in public Gitee repos",
+    "summary": "A scan of 7.25 million Gitee repos found valid Alibaba Cloud, DeepSeek and OpenAI keys, some years old.",
+    "text": "⚠️ 26,400 working cloud and AI credentials exposed in public Gitee repositories.\n\nA scan of 7.25 million repos found valid Alibaba Cloud, DeepSeek, OpenAI, and other API keys.\n\nSome date back years. Their revocation remains unconfirmed.\n\nFull findings: https://t.co/gaIAC7PQfC",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "The Hacker News: Gitee credentials",
+        "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
+        "short": "https://t.co/gaIAC7PQfC"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115754084091216297",
+    "url": "https://x.com/TheHackersNews/status/2115754084091216297",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-10-29T10:34:17.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "GitHub previews an npm firewall that blocks bad packages",
+    "summary": "In public preview for Enterprise Cloud, it checks malware advisories, vulnerabilities, install scripts and package age before download.",
+    "text": "⚡ GitHub introduces a new npm package firewall to block malicious packages before installation.\n\nNow in public preview for Enterprise Cloud, it checks malware advisories, vulnerabilities, risky install scripts, and package age before allowing downloads.\n\nHow it works ↓ https://t.co/Km8g4I4W2y",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "The Hacker News: GitHub npm firewall",
+        "url": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
+        "short": "https://t.co/Km8g4I4W2y"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/tweet_video_thumb/HVyrFM5bUAAdvki.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116074289053175808",
+    "url": "https://x.com/cursor_ai/status/2116074289053175808",
+    "author": {
+      "name": "Cursor",
+      "handle": "cursor_ai"
+    },
+    "posted_at": "2026-10-30T07:46:39.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Cursor marketplace served a malicious Claude Code extension",
+    "summary": "Cursor says a modified Claude Code VS Code extension in its own marketplace hit at most 5,000 users. It was not built by Anthropic; update to 2.1.314.",
+    "text": "We identified a security incident affecting a modified Claude Code VS Code extension accessed through our Cursor IDE extension marketplace, impacting at most 5,000 users. This malicious version of the extension was not developed by Anthropic. It does not impact other extensions downloaded from the https://t.co/sJRGX5jLXW, Grok Bot, Grok or our other SpaceXSI products.\n\nIn response, we took down our extension marketplace this afternoon, worked with relevant providers to neutralize the malware, and have reinstated the marketplace after confirming there is no further risk.\n\nIf affected, please review instructions in this blog post to understand how to find the malicious package and establish a path to mitigate any potential impact. We are asking all customers update to Claude Code for VS Code version 2.1.314: https://t.co/ESqf7YEtHZ",
+    "key_points": [],
+    "action": "Run: grep -qs svc-telemetry ~/.ssh/authorized_keys && echo \"found\" || echo \"clean\", then update Claude Code for VS Code to 2.1.314.",
+    "links": [
+      {
+        "title": "Cursor Marketplace",
+        "url": "https://cursor.com/marketplace",
+        "short": "https://t.co/sJRGX5jLXW"
+      },
+      {
+        "title": "Cursor: Claude Code extension security notice",
+        "url": "https://cursor.com/blog/claude-code-extension-security-notice",
+        "short": "https://t.co/ESqf7YEtHZ"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2116224610542731572",
+    "url": "https://x.com/feross/status/2116224610542731572",
+    "author": {
+      "name": "Feross",
+      "handle": "feross"
+    },
+    "posted_at": "2026-10-30T17:43:59.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "Socket breaks down what really happened with Claude Code 2.1.313",
+    "summary": "Socket says early reports were wrong: no sign of the bad version on Open VSX, npm or Microsoft's marketplace; Cursor confirmed its own marketplace.",
+    "text": "There’s a lot of misinformation circulating about Claude Code 2.1.313 following inaccurate initial reports from other sources that have since been wholesale rewritten.\n\nHere’s a breakdown of what we verified about distribution and potential exposure:\n\nhttps://t.co/pOqmTt5Wa4",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Socket: Claude Code extension compromise",
+        "url": "https://socket.dev/blog/claude-code-extension-compromise",
+        "short": "https://t.co/pOqmTt5Wa4"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116223794117308872",
+    "url": "https://x.com/SocketSecurity/status/2116223794117308872",
+    "author": {
+      "name": "Socket",
+      "handle": "SocketSecurity"
+    },
+    "posted_at": "2026-10-30T17:40:44.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Early reports blaming Open VSX and npm were wrong",
+    "summary": "Socket found no evidence the malicious 2.1.313 was published on Open VSX, npm or Microsoft's marketplace.",
+    "text": "There’s a lot of misinformation circulating about Claude Code 2.1.313 following inaccurate initial reports from other sources that have since been wholesale rewritten.\n\nThose reports named Open VSX, npm and Microsoft’s marketplace. Our registry checks found no evidence of publication there. Cursor confirmed distribution through its own marketplace.\n\nHere’s a breakdown of what we verified about distribution and potential exposure:\nhttps://t.co/41mBV72v2q",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Socket: Claude Code extension compromise",
+        "url": "https://socket.dev/blog/claude-code-extension-compromise"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116075234763866460",
+    "url": "https://x.com/mntruell/status/2116075234763866460",
+    "author": {
+      "name": "Michael Truell",
+      "handle": "mntruell"
+    },
+    "posted_at": "2026-10-30T07:50:25.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Cursor CEO: the official extension was not compromised",
+    "summary": "Michael Truell says the official Claude Code extension was not compromised and the circulating blog describes Cursor's incident.",
+    "text": "@mattjay We've spoken with the author of this blog and do not believe the official Claude Code VS Code extension was compromised. We believe this is instead a report of this incident.\n\nhttps://t.co/jyfpBpCsJg",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Cursor: security notice",
+        "url": "https://cursor.com/blog/claude-code-extension-security-notice"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116088608318955875",
+    "url": "https://x.com/oikon48/status/2116088608318955875",
+    "author": {
+      "name": "Oikon | Claude Code本出しました",
+      "handle": "oikon48"
+    },
+    "posted_at": "2026-10-30T08:43:33.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "Cursor の Claude Code 拡張は 2.1.314 以上に更新を",
+    "summary": "2.1.313 にマルウェア。npm 版、Open VSX 版、Microsoft 公式版は影響なしとされる。",
+    "text": "Cursor ユーザーでClaude Code 拡張を入れている人は、最新の2.1.314以上へのアップデートを推奨\n \n・2026年10月29日、Cursor Marketplace上の anthropic.claude-code バージョン2.1.313 にマルウェアが仕込まれた状態で公開された\n・Cursor側から「Cursor Marketplaceの同拡張が何らかの侵害を受けた」と連絡があり、Open VSXが原因ではないとのこと\n・影響なしとされているもの: npmの @anthropic-ai/claude-code、Open VSX版拡張、Microsoft公式VS Code Marketplace版拡張\n \n本家VS CodeのMicrosoft公式Marketplaceから入れたClaude Code拡張は無関係みたいだが、アップデートはしておくとよい。\nhttps://t.co/N6d36GpPdZ",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "OpenSourceMalware: trojanized Claude Code extension",
+        "url": "https://opensourcemalware.com/blog/trojanized-claude-code-extension-plants-persistent-ssh-backdoor",
+        "short": "https://t.co/N6d36GpPdZ"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116202930705707519",
+    "url": "https://x.com/sophiamyang/status/2116202930705707519",
+    "author": {
+      "name": "Sophia Yang",
+      "handle": "sophiamyang"
+    },
+    "posted_at": "2026-10-30T16:17:50.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "One grep tells you if the backdoor key landed",
+    "summary": "Sophia Yang shares a one-line check for the svc-telemetry SSH key the malicious extension plants.",
+    "text": "grep to check if you are affected: \n\ngrep -qs svc-telemetry ~/.ssh/authorized_keys && echo \"svc-telemetry key found\" || echo \"No key found; machine not impacted\" https://t.co/AnaXReiont",
+    "key_points": [],
+    "action": "grep -qs svc-telemetry ~/.ssh/authorized_keys && echo \"svc-telemetry key found\" || echo \"No key found; machine not impacted\"",
+    "links": [
+      {
+        "title": "Quoted post",
+        "url": "https://twitter.com/cursor_ai/status/2116074289053175808",
+        "short": "https://t.co/AnaXReiont"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116079149626597716",
+    "url": "https://x.com/kinopee_ai/status/2116079149626597716",
+    "author": {
+      "name": "Kinopee",
+      "handle": "kinopee_ai"
+    },
+    "posted_at": "2026-10-30T08:05:58.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "Cursor、改ざん版 Claude Code 拡張の被害を公表",
+    "summary": "Cursor が自社マーケットプレイスで配布された改ざん版拡張のインシデントを公表した。",
+    "text": "Cursor が、自社の拡張機能マーケットプレイスで配布されていた「改ざんされた Claude Code の VS Code 拡張」によるセキュリティインシデントを公表。 https://t.co/Dhl33sVQop",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post",
+        "url": "https://twitter.com/cursor_ai/status/2116074289053175808",
+        "short": "https://t.co/Dhl33sVQop"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116220286928585103",
+    "url": "https://x.com/GitHubNext/status/2116220286928585103",
+    "author": {
+      "name": "GitHub Next",
+      "handle": "GitHubNext"
+    },
+    "posted_at": "2026-10-30T17:26:48.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "GitHub Agentic Workflows is now generally available",
+    "summary": "GitHub Next says Agentic Workflows left the lab and is GA, for automating repo chores that needed AI.",
+    "text": "GitHub Agentic Workflows has graduated out of the lab and is now generally available! We're excited to see more projects and businesses leverage AW to automate the things that could not be automated before AI.\n\nhttps://t.co/RVXDoI8WC4",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "GitHub Changelog: Agentic Workflows GA",
+        "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/",
+        "short": "https://t.co/RVXDoI8WC4"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115880102601101414",
+    "url": "https://x.com/poteto/status/2115880102601101414",
+    "author": {
+      "name": "lauren",
+      "handle": "poteto"
+    },
+    "posted_at": "2026-10-29T18:55:02.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "A /statechart skill lets agents model state machines",
+    "summary": "poteto's /statechart skill in pstack v0.15.36 is stable; pair it with formal-verification skills to find bugs in state machines.",
+    "text": "the /statechart skill in pstack v0.15.36 is now stable and ready for use! it's best combined with /create-formal-verification-skill to abstractly model state machines and distributed systems to find bugs.\n\nthe skill contains a mini tlc compiler that parses, lowers to a small IR, and has a backend that outputs mmd syntax. if you want you can also ask your agent to create charts in whatever style you like, the skills tells it to use https://t.co/bbZicR5ePc which is very themeable so you can make blueprints, hand drawn encyclopedia illustrations or whatever you like\n\nhere's a chart of the /statechart skill and 2 real bugs i just found. try it out and let me know what you think!",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "pele",
+        "url": "https://pele.run/",
+        "short": "https://t.co/bbZicR5ePc"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV0cQgMbAAAdj9Y.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115677436574826641",
+    "url": "https://x.com/jarredsumner/status/2115677436574826641",
+    "author": {
+      "name": "Jarred Sumner",
+      "handle": "jarredsumner"
+    },
+    "posted_at": "2026-10-29T05:29:42.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Bun AOT compilation is merged",
+    "summary": "Jarred Sumner says Bun AOT is merged, with more fixing and fuzzing before release.",
+    "text": "Bun AOT is merged. \n\nStill more to fix/fuzz before its release-able https://t.co/YBwo5RyyVm",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Original post on X (first-hand)",
+        "url": "https://x.com/jarredsumner/status/2115677436574826641"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVxlatgaEAA8q3y.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115751897558614073",
+    "url": "https://x.com/mattpocockuk/status/2115751897558614073",
+    "author": {
+      "name": "Matt Pocock",
+      "handle": "mattpocockuk"
+    },
+    "posted_at": "2026-10-29T10:25:35.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Codex subagents were forking the parent context",
+    "summary": "Matt Pocock fixed his skills because Codex made subagents inherit the parent context, which hurts review and spec tasks.",
+    "text": "Just shipped an important skill fix for Codex users.\n\nCodex was biasing most of its subagents to inherit its context window from the parent agent. I.e. forking it.\n\nThis has a big negative impact on a lot of my skills, that rely on a clean context window (for code review, implement-spec etc)\n\nSo, a fix:\n\nhttps://t.co/nHgEAezn7B",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "mattpocock/skills PR 1341",
+        "url": "https://github.com/mattpocock/skills/pull/1341",
+        "short": "https://t.co/nHgEAezn7B"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116201494055948375",
+    "url": "https://x.com/dbreunig/status/2116201494055948375",
+    "author": {
+      "name": "Drew Breunig",
+      "handle": "dbreunig"
+    },
+    "posted_at": "2026-10-30T16:12:07.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "evergreen",
+    "tldr": "A whole NES emulator packed into Qwen weights",
+    "summary": "Drew Breunig builds a Nintendo into about 1GB of Qwen3.5 weights, following Divyansh's approach.",
+    "text": "I used Divyansh's approach to build an entire Nintendo into ~1GB of Qwen3.5 weights. \n\nQwenputer, meet Nesformer: https://t.co/oIj2AujaHE https://t.co/bQIuOamlb2",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "dbreunig/nesformer",
+        "url": "https://github.com/dbreunig/nesformer",
+        "short": "https://t.co/oIj2AujaHE"
+      },
+      {
+        "title": "Quoted post",
+        "url": "https://twitter.com/divagr1925/status/2115394340357116169",
+        "short": "https://t.co/bQIuOamlb2"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116219073751330824",
+    "url": "https://x.com/colinhacks/status/2116219073751330824",
+    "author": {
+      "name": "colinhacks",
+      "handle": "colinhacks"
+    },
+    "posted_at": "2026-10-30T17:21:59.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Pullfrog: open-source AI code review, bring your own keys",
+    "summary": "Colin McDonnell pitches Pullfrog as an OSS CodeRabbit alternative with BYOK and BYO-CI.",
+    "text": "Pullfrog is like CodeRabbit but\n\n✅ OSS\n✅ BYOK / BYOS\n✅ BYO-CI\n\nThere's no way to outspend/outscale us...we've distilled AI code review into its purest SaaS form lol\n\nIt's a busy market, so it feels great to have an angle that ejects us from the ratrace https://t.co/AeYYxPLgTg",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post",
+        "url": "https://twitter.com/harjotsgill/status/2115932303528747189",
+        "short": "https://t.co/AeYYxPLgTg"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116214422779953574",
+    "url": "https://x.com/factory/status/2116214422779953574",
+    "author": {
+      "name": "Factory",
+      "handle": "factory"
+    },
+    "posted_at": "2026-10-30T17:03:30.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "news",
+    "tldr": "Factory acquires Typedef, a context layer for enterprise data",
+    "summary": "Factory says Typedef will give its Droids lineage and evidence for migrations and pipeline debugging.",
+    "text": "Factory has acquired @typedef_ai.\n\nTypedef builds a context layer that helps agents understand enterprise data. Together, we’ll give Droids, and the engineers that work with them clearer lineage and evidence to plan migrations, debug pipelines, and refactor models. https://t.co/2JM9UOQyy1",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Original post on X (first-hand)",
+        "url": "https://x.com/factory/status/2116214422779953574"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2116214303573594112/img/wRkD9oVjcVG9kix-.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115810209214107833",
+    "url": "https://x.com/LLMpsycho/status/2115810209214107833",
+    "author": {
+      "name": "Bessi S",
+      "handle": "LLMpsycho"
+    },
+    "posted_at": "2026-10-29T14:17:18.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "TokenEconomizer learns what works in your repo",
+    "summary": "A Microsoft Research and UC Berkeley tool for Claude Code, Codex, Copilot CLI and Pi remembers working commands and drops unused tools.",
+    "text": "TokenEconomizer (Microsoft Research + UC Berkeley) plugs into Claude Code, Codex, Copilot CLI and Pi and learns from past sessions in a repo: it remembers commands that work there, drops unused tools and nudges the agent out of failure loops. 486 stars.\nhttps://t.co/ZKuLteyjV8",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "microsoft/TokenEconomizer",
+        "url": "https://github.com/microsoft/TokenEconomizer",
+        "short": "https://t.co/ZKuLteyjV8"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116186029875134574",
+    "url": "https://x.com/mitchellh/status/2116186029875134574",
+    "author": {
+      "name": "Mitchell Hashimoto",
+      "handle": "mitchellh"
+    },
+    "posted_at": "2026-10-30T15:10:41.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Termius mobile now runs on libghostty",
+    "summary": "Mitchell Hashimoto says Termius on iOS and Android is now powered by libghostty.",
+    "text": "Termius on iOS and Android now powered by libghostty. The most popular (or close to) mobile terminal! Looks great. https://t.co/gHlRq4d6js",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post",
+        "url": "https://twitter.com/termiushq/status/2115921405737148795",
+        "short": "https://t.co/gHlRq4d6js"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115750321733476801",
+    "url": "https://x.com/felixrieseberg/status/2115750321733476801",
+    "author": {
+      "name": "Felix Rieseberg",
+      "handle": "felixrieseberg"
+    },
+    "posted_at": "2026-10-29T10:19:20.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Models improve faster than even insiders expect",
+    "summary": "Felix Rieseberg says people at labs struggle to internalize the accelerating pace; even Claude underestimates it.",
+    "text": "It's so hard to internalize that models get better at an increasing pace.\n\nI talk to plenty of people at Anthropic, OpenAI, etc who have a hard time wrapping their heads around it. Even Claude struggles.\n\nI asked Opus 3 when it thinks I'll have PRs written entirely by LLMs. It guessed no sooner than 2028. Opus 5.5 expected ETH after 2045.\n\nLittle baby Claude has no idea how quickly it's growing up and I think it's even harder for humans.",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Original post on X (first-hand)",
+        "url": "https://x.com/felixrieseberg/status/2115750321733476801"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVylktmXgAIp77X.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVynglnXoAEVMVL.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116268356160667775",
+    "url": "https://x.com/clattner_llvm/status/2116268356160667775",
+    "author": {
+      "name": "Chris Lattner",
+      "handle": "clattner_llvm"
+    },
+    "posted_at": "2026-10-30T20:37:49.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Agents benefit from good abstractions too",
+    "summary": "Chris Lattner says agentic coding gains from powerful abstractions, as humans do.",
+    "text": "Agentic coding benefits from powerful abstractions, just like humans do. https://t.co/lpoor4mjvi",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post",
+        "url": "https://twitter.com/ID_AA_Carmack/status/2115917666955497608",
+        "short": "https://t.co/lpoor4mjvi"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116058166324826159",
+    "url": "https://x.com/Yomiuri_Online/status/2116058166324826159",
+    "author": {
+      "name": "読売新聞オンライン",
+      "handle": "Yomiuri_Online"
+    },
+    "posted_at": "2026-10-30T06:42:35.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "MUJIアプリの顧客情報2726万件が漏えいか",
+    "summary": "読売新聞によると、外部からの不正アクセスでMUJIアプリ登録者の情報が漏えいした可能性。",
+    "text": "無印良品の公式アプリ「ＭＵＪＩアプリ」登録の顧客情報２７２６万件漏えいか、外部から不正アクセス : 読売新聞 https://t.co/60lI77BZZh \n＃サイバー攻撃 #無印良品",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "www.yomiuri.co.jp",
+        "url": "https://www.yomiuri.co.jp/economy/20261030-GYT1T00205/",
+        "short": "https://t.co/60lI77BZZh"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116060475264029003",
+    "url": "https://x.com/skybudget/status/2116060475264029003",
+    "author": {
+      "name": "sky-budgetスカイバジェット",
+      "handle": "skybudget"
+    },
+    "posted_at": "2026-10-30T06:51:46.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "ANA、Amadeus経由で約3万7800人分が流出の可能性",
+    "summary": "ANAがAmadeus社システムへの不正アクセスによる顧客情報流出の可能性を発表。",
+    "text": "ANA、Amadeus社システムへの不正アクセスで約3万7800名分の顧客情報が流出した可能性を発表 https://t.co/aRg4N18rnY https://t.co/o8bFBovesk",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "sky-budget",
+        "url": "https://sky-budget.com/2026/10/30/ana-news-oct2026/",
+        "short": "https://t.co/aRg4N18rnY"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV3ByI-bYAAteUc.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116079876105224542",
+    "url": "https://x.com/livedoornews/status/2116079876105224542",
+    "author": {
+      "name": "ライブドアニュース",
+      "handle": "livedoornews"
+    },
+    "posted_at": "2026-10-30T08:08:51.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "外務省で約3600件の個人情報流出か",
+    "summary": "外部とやり取りできるネットワークへの不正アクセス。うち約900件は省員以外。",
+    "text": "【速報】外務省で不正アクセス被害 メールアドレスや氏名など約3600件の個人情報流出か\nhttps://t.co/vhR7zbykqh\n\n外部とのやり取りが可能なネットワークに対する不正アクセスが発生し、およそ3600件のうち、外務省員以外の方のものがおよそ900件の個人情報流出の可能性があると発表した。",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "ライブドアニュース",
+        "url": "https://news.livedoor.com/article/detail/32693713/",
+        "short": "https://t.co/vhR7zbykqh"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116115412278820873",
+    "url": "https://x.com/nhk_news/status/2116115412278820873",
+    "author": {
+      "name": "NHKニュース",
+      "handle": "nhk_news"
+    },
+    "posted_at": "2026-10-30T10:30:04.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "佐賀大学、ランサムウェアで8万人分流出か",
+    "summary": "NHKによると佐賀大学がランサムウェア被害を受けた。",
+    "text": "佐賀大学 ランサムウェア被害で8万人分の個人情報流出か\nhttps://t.co/OnWHqqweFm #nhk_news",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "NHK",
+        "url": "https://news.web.nhk/newsweb/na/nd-20261030de68704",
+        "short": "https://t.co/OnWHqqweFm"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116125127436042672",
+    "url": "https://x.com/piyokango/status/2116125127436042672",
+    "author": {
+      "name": "piyokango",
+      "handle": "piyokango"
+    },
+    "posted_at": "2026-10-30T11:08:40.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "イープラスが不正アクセスと個人情報漏えいを公表",
+    "summary": "2026年10月30日、イープラスがお詫びとお知らせを公開。",
+    "text": "弊社システムに対する不正アクセスの発生および個人情報漏えいに関するお詫びとお知らせ\n2026年10月30日\n株式会社イープラス\nhttps://t.co/IizexkoGZz\n#incident",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "イープラス: お詫びとお知らせ",
+        "url": "https://support-qa.eplus.jp/hc/ja/articles/63706552326425-%E5%BC%8A%E7%A4%BE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AE%E7%99%BA%E7%94%9F%E3%81%8A%E3%82%88%E3%81%B3%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B-10%E6%9C%8830%E6%97%A5",
+        "short": "https://t.co/IizexkoGZz"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116121492648083473",
+    "url": "https://x.com/piyokango/status/2116121492648083473",
+    "author": {
+      "name": "piyokango",
+      "handle": "piyokango"
+    },
+    "posted_at": "2026-10-30T10:54:14.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "DHCオンラインショップに不正アクセス",
+    "summary": "DHCが10月30日付でお詫びとお知らせ（PDF）を公開。",
+    "text": "[PDF] 当社オンラインショップへの不正アクセスに関するお詫びとお知らせ\n2026年10月30日\n株式会社ディーエイチシー\nhttps://t.co/8wIEKQlMvX\n#incident",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "DHC: お知らせ (PDF)",
+        "url": "https://dhc-corporate.co.jp/cms_dH8vjpRq/wp-content/uploads/2026/10/0deb6f2426f1d5ab2b2b1824288b374d.pdf",
+        "short": "https://t.co/8wIEKQlMvX"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116124468880056783",
+    "url": "https://x.com/nhk_news/status/2116124468880056783",
+    "author": {
+      "name": "NHKニュース",
+      "handle": "nhk_news"
+    },
+    "posted_at": "2026-10-30T11:06:03.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "トヨタとウェイモ、来年日本で自動運転タクシー",
+    "summary": "NHKによると、トヨタがウェイモと組み来年国内で自動運転タクシーを運行する。",
+    "text": "トヨタ ウェイモと自動運転タクシー運行へ 来年日本国内で\nhttps://t.co/ayVkz1arwd #nhk_news",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "NHK",
+        "url": "https://news.web.nhk/newsweb/na/nd-20261030de68714",
+        "short": "https://t.co/ayVkz1arwd"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115952815986372855",
+    "url": "https://x.com/watabe_weather/status/2115952815986372855",
+    "author": {
+      "name": "渡部 圭吾（静岡のお天気）",
+      "handle": "watabe_weather"
+    },
+    "posted_at": "2026-10-29T23:43:58.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "富士山が初冠雪、平年より1カ月近く遅く",
+    "summary": "初冠雪の平年は10月2日。今年から観測方法が変わったため参考情報。",
+    "text": "【冬山】 #富士山 の #初冠雪 しました🗻静岡市清水区のさった峠から見ると、雲多めながらも宝永火口付近までしっかりと雪を被った様子が確認できます。\n初冠雪の平年は10月2日ですので1カ月近く遅い観測です（今年から観測方法変更のため参考情報です）\n富士山では一足早く、冬の始まりです⛄️\n#静岡 https://t.co/K2HocQaUCN",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV1ezLlbIAAz4OW.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116102466865664454",
+    "url": "https://x.com/umiyuki_ai/status/2116102466865664454",
+    "author": {
+      "name": "うみゆき@AI研究",
+      "handle": "umiyuki_ai"
+    },
+    "posted_at": "2026-10-30T09:38:38.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "ChatGPTのチャットが12月からCodex容量を消費か",
+    "summary": "umiyukiさんによると、12月からチャットが使い放題でなくなるらしい。",
+    "text": "ChatGPTのチャットが12月から使い放題じゃなくなってCodex容量を消費するようになるらしい。クソッタレ！いくらProサブスクの容量が元に戻ったからってチャット使い放題じゃなくなるダメージの方がでかいかも。ただし、言うてチャットってCodexに比べたら全然トークン消費しないんじゃね？微々たるもんかも？という可能性もある。ちなみにClaudeは元々チャットも使い放題じゃなくてトークン容量を消費する形だった",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post",
+        "url": "https://twitter.com/izutorishima/status/2115935853214384518"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116094255290798324",
+    "url": "https://x.com/oikon48/status/2116094255290798324",
+    "author": {
+      "name": "Oikon | Claude Code本出しました",
+      "handle": "oikon48"
+    },
+    "posted_at": "2026-10-30T09:06:00.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "「Claude Code実践レシピ集」11/10発売",
+    "summary": "oikonさんの本が技術評論社から11月10日に出る。",
+    "text": "「Claude Code実践レシピ集」が手元に届きました！表紙が鮮やかで嬉しい！😆\n\n技術評論社さまより11/10(火)に発売されます！\n\nhttps://t.co/beE165lg1c https://t.co/kofEZ7Z9YF",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "技術評論社: Claude Code実践レシピ集",
+        "url": "https://gihyo.jp/book/2026/978-4-297-16027-2",
+        "short": "https://t.co/beE165lg1c"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV3Yfm9asAA8eCH.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115789385170104487",
+    "url": "https://x.com/kuwa_tw/status/2115789385170104487",
+    "author": {
+      "name": "akuwano",
+      "handle": "kuwa_tw"
+    },
+    "posted_at": "2026-10-29T12:54:33.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "evergreen",
+    "tldr": "ChatGPTは8億人を単一のPostgreSQLプライマリで処理",
+    "summary": "レプリカ約50台、書き込みはCosmos DBへ、PgBouncer、重いJOIN禁止などで99.999%。",
+    "text": "ChatGPTさんは8億人のユーザーを単一のPostgreSQLプライマリデータベースで処理しています\n負荷が1年で10倍以上に急増した問題に対し、OpenAIはいくつかの手法で解決を図りました\n\n読み取り処理を約50台のレプリカに分散、大量の書き込みを伴う処理はAzure Cosmos DBへ\nさらにPgBouncerを導入して接続時間を短縮、キャッシュロックによって有効期限切れに伴う一斉アクセスを防止\n最後に、レート制限や重いJOINの禁止などでプライマリを保護しています\n\n結果として99.999%の可用性を達成、負荷をオフロードすれば単一構成でも大規模にスケールできることを証明している例になります\nhttps://t.co/o9RtY0yJDc",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "ChatGPT: 800 million users, one Postgres primary",
+        "url": "https://mahmad.hashnode.dev/chatgpt-800-million-users-one-postgres-primary",
+        "short": "https://t.co/o9RtY0yJDc"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116009717713776680",
+    "url": "https://x.com/t_wada/status/2116009717713776680",
+    "author": {
+      "name": "Takuto Wada",
+      "handle": "t_wada"
+    },
+    "posted_at": "2026-10-30T03:30:04.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "evergreen",
+    "tldr": "TDDは仕様、オブザーバビリティは現実を確かめる",
+    "summary": "t_wadaさんが「読んでいないコードをどれだけ信頼できるか」を紹介。",
+    "text": "\"OE2eの整理に従えば、TDDが確かめるのは仕様に対する正しさで、オブザーバビリティが確かめるのは現実に対する振る舞いです。オブザーバビリティをTDDのフィードバックループを本番環境まで延ばしたものと捉えています\"\n\n読んでいないコードを私たちはどれだけ信頼できるのか https://t.co/D7nM2qujHV",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "読んでいないコードを私たちはどれだけ信頼できるのか",
+        "url": "https://htn.to/ACobVLMeoP",
+        "short": "https://t.co/D7nM2qujHV"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116098986029600971",
+    "url": "https://x.com/GOROman/status/2116098986029600971",
+    "author": {
+      "name": "NULL=RUN",
+      "handle": "GOROman"
+    },
+    "posted_at": "2026-10-30T09:24:48.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "FIDO2セキュリティキーを自作",
+    "summary": "GOROmanさんが話題のFIDO2 USBキーを自作した。",
+    "text": "今話題のFIDO2 USBセキュリティキー\n自作した。 https://t.co/Tm5zzAUFP2 https://t.co/3J0AwxDG5p",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post",
+        "url": "https://twitter.com/goroman/status/2116095480409288716",
+        "short": "https://t.co/3J0AwxDG5p"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2116098913551958016/img/AQ_Jx5zglrRzrNTq.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115748707509707137",
+    "url": "https://x.com/GOROman/status/2115748707509707137",
+    "author": {
+      "name": "NULL=RUN",
+      "handle": "GOROman"
+    },
+    "posted_at": "2026-10-29T10:12:55.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "松江発のRuby、AI時代に脆弱性リスク",
+    "summary": "山陰中央新報が、PHP同様にRubyも脆弱性を排除しきれないと報じる。",
+    "text": "松江発の「Ｒｕｂｙ」　ＰＨＰ同様に脆弱性排除できず　ＡＩ発展で高リスク、迅速な対応必要｜山陰中央新報デジタル https://t.co/hlf5iwerRi",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "山陰中央新報",
+        "url": "https://www.sanin-chuo.co.jp/articles/-/1105816",
+        "short": "https://t.co/hlf5iwerRi"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115709094833344754",
+    "url": "https://x.com/chokudai/status/2115709094833344754",
+    "author": {
+      "name": "chokudai(高橋 直大)@AtCoder",
+      "handle": "chokudai"
+    },
+    "posted_at": "2026-10-29T07:35:30.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "evergreen",
+    "tldr": "AIで手詰まりなら「人間100人なら？」と考える",
+    "summary": "chokudaiさんの発想の転換。人間100人でやれることをAIだけでやれないか考える。",
+    "text": "「AIを使ってやれる有効なことがない」ってなった時に「代わりに人間100人いたらやれることはあるか？」って思考に転換してみてるんだけど、割とやれることがあり、「どうにかしてAIだけで出来んか？」って考えると割と考える余地があって面白い",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Original post on X (first-hand)",
+        "url": "https://x.com/chokudai/status/2115709094833344754"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115700588457660571",
+    "url": "https://x.com/SakanaAILabs/status/2115700588457660571",
+    "author": {
+      "name": "Sakana AI",
+      "handle": "SakanaAILabs"
+    },
+    "posted_at": "2026-10-29T07:01:42.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "Sakana AI、メルツ首相の朝食会に参加",
+    "summary": "日独のAI協力と防衛分野でのAI活用について議論した。",
+    "text": "10月29日、訪日中のメルツ独連邦首相にお招きいただき、伊藤が朝食会に参加しました。伊藤からは、AIをめぐる地政学的競争が激しさを増す中、日独が信頼できるパートナーとしてAIの開発と活用の両面で協力していくことの重要性について発言。防衛分野へのAI活用についても有意義な議論ができました。 https://t.co/bMfwlatDOq",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Original post on X (first-hand)",
+        "url": "https://x.com/SakanaAILabs/status/2115700588457660571"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVx6Tc1aQAAatQZ.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116121510687498315",
+    "url": "https://x.com/nikkei/status/2116121510687498315",
+    "author": {
+      "name": "日本経済新聞 電子版（日経電子版）",
+      "handle": "nikkei"
+    },
+    "posted_at": "2026-10-30T10:54:18.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "村田製作所、コンデンサーに5年で1兆円",
+    "summary": "AI向け需要を見据えた投資。",
+    "text": "村田製作所、コンデンサー生産に5年で1兆円投資　AI向け需要見据え\nhttps://t.co/39mRvvZmpI",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "日本経済新聞",
+        "url": "https://www.nikkei.com/article/DGXZQOUF264B10W6A021C2000000/?n_cid=SNSTW001&n_tw=1793357533",
+        "short": "https://t.co/39mRvvZmpI"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116110965771260288",
+    "url": "https://x.com/mamamasu_3/status/2116110965771260288",
+    "author": {
+      "name": "ますさん🐬1社に1人FDEを。",
+      "handle": "mamamasu_3"
+    },
+    "posted_at": "2026-10-30T10:12:24.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "11/7 新宿でLT会「AI時代の技術選定とキャリア」",
+    "summary": "LT枠2名と一般参加12名、参加費500円。",
+    "text": "11/7（土）16:30〜、新宿でLT会やります！\n\n「AI時代の技術選定とキャリア」をテーマに、\n何を学び、何で作るか。市場を見て技術を選ぶエンジニアのリアルな声が聞ける少人数会です。\n・LT枠2名（5分）＋一般参加12名\n・参加費500円／新宿駅徒歩1分\n\nLT登壇者も募集中です🙌\n https://t.co/vaLiJk3Lo7",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "connpass: LT会",
+        "url": "https://streamline.connpass.com/event/411616/",
+        "short": "https://t.co/vaLiJk3Lo7"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115762796810105314",
+    "url": "https://x.com/Mid_observatory/status/2115762796810105314",
+    "author": {
+      "name": "ミド建築・都市観測所",
+      "handle": "Mid_observatory"
+    },
+    "posted_at": "2026-10-29T11:08:54.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "culture",
+    "shelf_life": "news",
+    "tldr": "神保町の古本まつり、再開発でビルの狭間に",
+    "summary": "ミド建築・都市観測所は、岩波ビル再開発の影響で活気がないと見る。",
+    "text": "神保町の古本まつりが、ビルの狭間の狭苦しいところで行なわれています。寒々しく活気もありません。住友商事による岩波ビル再開発の影響です。こうして街や文化は、巨大企業の金儲けのために死んでいきます。 https://t.co/rYzqL26zuX",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Original post on X (first-hand)",
+        "url": "https://x.com/Mid_observatory/status/2115762796810105314"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVywulLbIAAOx_h.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116094836751450533",
+    "url": "https://x.com/Yuji_48/status/2116094836751450533",
+    "author": {
+      "name": "Yuji Shibasaki＠Photo",
+      "handle": "Yuji_48"
+    },
+    "posted_at": "2026-10-30T09:08:18.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "culture",
+    "shelf_life": "news",
+    "tldr": "白馬マウンテンハーバーから三段紅葉",
+    "summary": "雪、紅葉、緑が重なる白馬の景色。",
+    "text": "白馬マウンテンハーバーから見る三段紅葉が絶景なんです。 https://t.co/7FJTWcBePf",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Original post on X (first-hand)",
+        "url": "https://x.com/Yuji_48/status/2116094836751450533"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV3hBc2bkAA4GwF.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115392944463290678",
+    "url": "https://x.com/pinky__drops/status/2115392944463290678",
+    "author": {
+      "name": "みるふぃ",
+      "handle": "pinky__drops"
+    },
+    "posted_at": "2026-10-28T10:39:14.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "culture",
+    "shelf_life": "news",
+    "tldr": "東京百鬼夜行、高円寺フェスで",
+    "summary": "妖怪に扮した行列の写真。",
+    "text": "顔で笑って心で泣いて\nそうよねって\n涙は見せないの\n\nそんな私はメギツネ🦊🥀\n\n📸…東京百鬼夜行公式カメラマンのとらいぽっず様\n#東京百鬼夜行 #東京百鬼夜行2026　#高円寺フェス https://t.co/15JMWjgZKE",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Original post on X (first-hand)",
+        "url": "https://x.com/pinky__drops/status/2115392944463290678"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVtiq59aAAAIUW3.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVtiq5tbwAAahNH.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116284214131961910",
+    "url": "https://x.com/levelsio/status/2116284214131961910",
+    "author": {
+      "name": "@levelsio",
+      "handle": "levelsio"
+    },
+    "posted_at": "2026-10-30T21:40:49.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "economics",
+    "shelf_life": "news",
+    "tldr": "France votes a per-GB tax on internet traffic",
+    "summary": "Pieter Levels reacts that the €0.055 per GB tax \"actually passed\".",
+    "text": "I thought it was just a proposal, but it actually passed 🤯\n\nFrance will charge €0.055 per GB on all internet traffic! https://t.co/mfiiPnttK2",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post",
+        "url": "https://twitter.com/i/status/2116203901766549699",
+        "short": "https://t.co/mfiiPnttK2"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116296209677828113",
+    "url": "https://x.com/VettedWire/status/2116296209677828113",
+    "author": {
+      "name": "VettedWire",
+      "handle": "VettedWire"
+    },
+    "posted_at": "2026-10-30T22:28:29.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "economics",
+    "shelf_life": "news",
+    "tldr": "France's per-GB data tax is a budget amendment, not law yet",
+    "summary": "French lawmakers voted €0.055 per GB, paid by data senders like Google and Netflix, in a 2027 budget amendment; it is not law yet.",
+    "text": "🇫🇷 French lawmakers vote for a €0.055-per-GB tax on data sent to users in France, paid by data senders, mainly giants like Google, Meta and Netflix, in a 2027 budget amendment, per Numerama and RTL. It is not law yet.\n\n#France #BigTech",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2115923819001192794",
+    "url": "https://x.com/yoland_yan/status/2115923819001192794",
+    "author": {
+      "name": "Yoland Yan",
+      "handle": "yoland_yan"
+    },
+    "posted_at": "2026-10-29T21:48:45.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "news",
+    "tldr": "Higgsfield sends ComfyUI a cease and desist",
+    "summary": "ComfyUI says Higgsfield demands its open-source challenge be taken down within 48 hours over name and likeness.",
+    "text": "Last night, @higgsfield sent @ComfyUI a cease and desist (attached)\n\nThey want the Open Source Higgsfield challenge taken down within 48 hours.\n\nTheir argument is that our use of the Higgsfield name and that using their CEO's likeness is an infringement violation (man, the irony). Claiming that it makes the event look like Higgsfield is associated with it.\n\nThis couldn't be farther from the truth, which is that Higgsfield made a promise to open source its product and never did.\n\nFor the past two weeks, builders have been recreating popular closed apps as open workflows anyone can run.\n\nSo we asked our community to deliver where Higgsfield failed: apps in the open, built by the community, for the community. We've made it clear that the challenge is organized by ComfyUI and not affiliated with or endorsed by Higgsfield.\n\nWhen we started Comfy, we made the community a promise. Our product stays open, free, and yours. We’ve kept it every day since, and one letter isn’t going to change that.\n\nThe challenge stays up. Comfy and open source will win!",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV1DCiCbYAEDp2s.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HV1DDnebEAAsdRd.png"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HV1DEU4awAA-CX-.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115960150746169519",
+    "url": "https://x.com/DEADLINE/status/2115960150746169519",
+    "author": {
+      "name": "Deadline",
+      "handle": "DEADLINE"
+    },
+    "posted_at": "2026-10-30T00:13:07.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "culture",
+    "shelf_life": "news",
+    "tldr": "Hollywood unions ask a judge to reject fair use for OpenAI",
+    "summary": "SAG-AFTRA, WGA and AFM filed a brief warning of the harms of unlicensed AI training.",
+    "text": "SAG-AFTRA, WGA & AFM Ask Judge To Reject Fair Use Exemption In OpenAI Copyright Battle & Warn Of \"Harms Of Unlicensed Training\" For AI Models https://t.co/zLGh7yKuCw",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Deadline",
+        "url": "https://deadline.com/2026/10/sag-aftra-wga-afm-openai-copyright-court-battle-brief-1237209138/",
+        "short": "https://t.co/zLGh7yKuCw"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116141141573636125",
+    "url": "https://x.com/nikkei/status/2116141141573636125",
+    "author": {
+      "name": "日本経済新聞 電子版（日経電子版）",
+      "handle": "nikkei"
+    },
+    "posted_at": "2026-10-30T12:12:18.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "culture",
+    "shelf_life": "news",
+    "tldr": "Spotify、AIでカバー曲を作れるように",
+    "summary": "収益は原曲のアーティストに還元される。",
+    "text": "Spotify、AIでカバー曲作成可能に　収益は原曲アーティストに還元\nhttps://t.co/iZWtZVxO8m",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "日本経済新聞",
+        "url": "https://www.nikkei.com/article/DGXZQOGR308WY0Q6A031C2000000/?n_cid=SNSTW001&n_tw=1793362213",
+        "short": "https://t.co/iZWtZVxO8m"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116291741754315244",
+    "url": "https://x.com/markgurman/status/2116291741754315244",
+    "author": {
+      "name": "Mark Gurman",
+      "handle": "markgurman"
+    },
+    "posted_at": "2026-10-30T22:10:44.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "news",
+    "tldr": "Apple Intelligence reaches China with iOS 27.3",
+    "summary": "Mark Gurman says the iOS 27.3 beta lands next week, with public release in December.",
+    "text": "iOS 27.3 beta is now launching next week, including Apple Intelligence in China as expected. Public release in December, Apple confirms. https://t.co/la6dJ0ehEy https://t.co/mzIPRbyEwd",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Bloomberg: Apple AI in China",
+        "url": "https://www.bloomberg.com/news/articles/2026-10-14/apple-prepares-to-debut-first-ai-features-in-china-in-december?srnd=undefined",
+        "short": "https://t.co/la6dJ0ehEy"
+      },
+      {
+        "title": "Quoted post",
+        "url": "https://twitter.com/rsgnl/status/2116289541594071115",
+        "short": "https://t.co/mzIPRbyEwd"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115882925648674888",
+    "url": "https://x.com/MacRumors/status/2115882925648674888",
+    "author": {
+      "name": "MacRumors.com",
+      "handle": "MacRumors"
+    },
+    "posted_at": "2026-10-29T19:06:15.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "news",
+    "tldr": "Apple lowers App Store fees in Taiwan from October 31",
+    "summary": "MacRumors reports lower App Store fees in Taiwan starting today.",
+    "text": "Apple Lowers App Store Fees in Taiwan Starting October 31 https://t.co/O4PoWow4sz https://t.co/rvlLRuN3yP",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "MacRumors: App Store fees in Taiwan",
+        "url": "https://www.macrumors.com/2026/10/29/app-store-fees-taiwan/",
+        "short": "https://t.co/O4PoWow4sz"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV0gTsCbUAA1sX1.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116271344157618360",
+    "url": "https://x.com/GergelyOrosz/status/2116271344157618360",
+    "author": {
+      "name": "Gergely Orosz",
+      "handle": "GergelyOrosz"
+    },
+    "posted_at": "2026-10-30T20:49:41.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "culture",
+    "shelf_life": "evergreen",
+    "tldr": "\"Becoming a better writer\" is now free",
+    "summary": "Gergely Orosz unlocks his writing guide for developers who want to write in their own words.",
+    "text": "Made the previously paid article \"Becoming a better writer\" free.\n\nI see too many devs writing low quality slop with AI. Hopefully this helps those of you who want to share more of your own experiences, using your own words - we need more of these!\n\nhttps://t.co/nk5OzsS93n https://t.co/62fEcEJHhF",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "The Pragmatic Engineer: Becoming a better writer",
+        "url": "https://newsletter.pragmaticengineer.com/p/becoming-a-better-writer",
+        "short": "https://t.co/nk5OzsS93n"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV6Be0QWgAAmACt.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115885041284771896",
+    "url": "https://x.com/brandon_galang/status/2115885041284771896",
+    "author": {
+      "name": "brandon galang",
+      "handle": "brandon_galang"
+    },
+    "posted_at": "2026-10-29T19:14:39.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "evergreen",
+    "tldr": "A skills map for moving into applied AI",
+    "summary": "Brandon Galang points to an article on the skill stack for an applied AI career.",
+    "text": "if you're wanting to move into applied AI and restart your career, this is one of the best Articles I've seen breaking down what skills you need.\n\nthis is effectively the exact skill stack that took me to the frontier in 18 months.\n\nit could do the same for you too. https://t.co/fYGIJcLshd",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post",
+        "url": "https://twitter.com/notkvtwts/status/2115810173830750575",
+        "short": "https://t.co/fYGIJcLshd"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116215149350490151",
+    "url": "https://x.com/matteocollina/status/2116215149350490151",
+    "author": {
+      "name": "Matteo Collina",
+      "handle": "matteocollina"
+    },
+    "posted_at": "2026-10-30T17:06:23.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "Security paranoia, 2026 edition",
+    "summary": "Matteo Collina wonders whether videos of his PRs are a video-decoder exploit attempt.",
+    "text": "Just to clarify my current level of security paranoia.\n\nSomebody is making videos of my PRs and sending them to me, and my first thought is: does the Mac/Linux/Windows decoder have an RCE, and is someone trying to hack me?",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Original post on X (first-hand)",
+        "url": "https://x.com/matteocollina/status/2116215149350490151"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115941839274418210",
+    "url": "https://x.com/CityLab/status/2115941839274418210",
+    "author": {
+      "name": "Bloomberg CityLab",
+      "handle": "CityLab"
+    },
+    "posted_at": "2026-10-29T23:00:21.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "world",
+    "shelf_life": "evergreen",
+    "tldr": "Old garden cemeteries become city parks",
+    "summary": "CityLab: joggers, yoga classes and dog walkers fill 19th-century US cemeteries as burials wane.",
+    "text": "Joggers, yoga classes and dog walkers are finding an unexpected home in the city: 19th century cemeteries  https://t.co/0PDGgIoah2",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Bloomberg CityLab: garden cemeteries",
+        "url": "https://www.bloomberg.com/news/articles/2026-10-23/historic-us-garden-cemeteries-vie-for-visitors-as-burials-wane?taid=6ae3d005f24b6b00016d08c2&utm_campaign=trueanthem&utm_content=citylab&utm_medium=social&utm_source=twitter",
+        "short": "https://t.co/0PDGgIoah2"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115866314824683596",
+    "url": "https://x.com/CityLab/status/2115866314824683596",
+    "author": {
+      "name": "Bloomberg CityLab",
+      "handle": "CityLab"
+    },
+    "posted_at": "2026-10-29T18:00:15.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "culture",
+    "shelf_life": "news",
+    "tldr": "Haunted houses revive abandoned buildings",
+    "summary": "CityLab: haunted attractions move into empty US buildings and bring thousands of visitors.",
+    "text": "What’s cheap, spacious and terrifying? An abandoned building.\n\nHaunted houses are moving into America’s forgotten spaces and bringing thousands of visitors with them  https://t.co/i1WLEHwiVx",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Bloomberg CityLab: haunted houses",
+        "url": "https://www.bloomberg.com/news/features/2026-10-29/haunted-houses-bring-new-life-to-abandoned-buildings?taid=6ae389ae08444f00015c9eb2&utm_campaign=trueanthem&utm_content=citylab&utm_medium=social&utm_source=twitter",
+        "short": "https://t.co/i1WLEHwiVx"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116209479402283119",
+    "url": "https://x.com/CityLab/status/2116209479402283119",
+    "author": {
+      "name": "Bloomberg CityLab",
+      "handle": "CityLab"
+    },
+    "posted_at": "2026-10-30T16:43:51.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "world",
+    "shelf_life": "news",
+    "tldr": "Norway answers an insult with scenic restrooms",
+    "summary": "Norway's travel guide replies to a Trump insult with a list of roadside toilets in beautiful places.",
+    "text": "Norway is responding to Donald Trump’s insults by embracing them. After the US president called the country “a s---house,” its official travel guide has retorted with a list of roadside restrooms built in picturesque locations  https://t.co/4f0YIuZcak",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Bloomberg CityLab: Norway restrooms",
+        "url": "https://www.bloomberg.com/news/articles/2026-10-30/norway-turns-trump-s-toilet-insults-into-a-tourist-ploy?taid=6ae4c9471d3fbb00017027a9&utm_campaign=trueanthem&utm_content=citylab&utm_medium=social&utm_source=twitter",
+        "short": "https://t.co/4f0YIuZcak"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116028598494629893",
+    "url": "https://x.com/icreatelife/status/2116028598494629893",
+    "author": {
+      "name": "Kris Kashtanova",
+      "handle": "icreatelife"
+    },
+    "posted_at": "2026-10-30T04:45:06.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "culture",
+    "shelf_life": "news",
+    "tldr": "Central Park at peak yellow",
+    "summary": "Kris Kashtanova shares autumn in Central Park, checked daily.",
+    "text": "Magical autumn in Central Park, New York today 🍂🍁 go see it while the leaves are peak yellow. \nI live close, so check  the foliage every day and share with you 🥹 https://t.co/5GkE2QPzkp",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Original post on X (first-hand)",
+        "url": "https://x.com/icreatelife/status/2116028598494629893"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV2kyLnWQAA0y_e.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HV2kyKsXAAA0Sqr.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HV2kyK2WYAAbDgl.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HV2kyLWWIAAtSh8.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115758650270609638",
+    "url": "https://x.com/LogoArchive/status/2115758650270609638",
+    "author": {
+      "name": "LogoArchive",
+      "handle": "LogoArchive"
+    },
+    "posted_at": "2026-10-29T10:52:25.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "design",
+    "shelf_life": "evergreen",
+    "tldr": "How the Lufthansa crane was born in 1918",
+    "summary": "Otto Firle designed the crane in flight for Deutsche Luft-Reederei before its first flights.",
+    "text": "The Lufthansa logo began life as the symbol of airline Deutsche Luft-Reederei, which was established in 1917 and began operations two years later in 1919.\n\nIn the intervening year of 1918, between its establishment and the beginning of commercial flights Professor Otto Firle designed the stylised and iconic crane in flight symbol.\n\nLight and aerodynamic, the symbol delivered an efficient and elegant visual gesture, either alone, or sitting over the outline of sun or globe, bronze on blue.\n\nIn 1926 the German government forced the airline to merge with Junkers Luftverkehr, forming Deutsche Luft Hansa (Deutsche Lufthansa from 1933), which was the flag carrier of the Weimar Republic. This new airline took with it the crane.\n\nAt the end of WWII, following the defeat of Nazi Germany; all services of Deutsche Lufthansa were terminated. In 1953, in an effort to create a new national airline, and while West Germany had not yet been granted sovereignty over its airspace, Luftag was founded and started ordering new planes. It also acquired the name and logo of the liquidated Deutsche Lufthansa. On 1 April 1955 Lufthansa won approval to start scheduled domestic flights.\n\nBetween 1923 and the 1960s, the symbol would vary slightly in its drawing depending on its application, and was paired with different typefaces and different blue.\n\nOtl Aicher\n\nIt wasn’t until 1963, during a period of expansion and modernisation, which introduced the jet engine to the Lufthansa fleet, that the logo was formalised and a new visual developed under the direction of German designer Otl Aicher. Before settling on an update, various degrees of abstraction, between a crane and an arrow were explored.\n\nIn the final design, small details such as a slightly heavier line weight, square terminals, and improved negative space rationalised the logo, increasing its flexibility across a growing number and diversity of applications.\n\nIn the spirt of the time, and under the influence of modernism and the Swiss International Style, Helvetica was used to construct the Lufthansa wordmark and became part of the design policy. Although the yellow and blue pre-dated Otl Aicher’s system, a warmer yellow was introduced as a way to feel more welcoming as more people began flying.\n\nMartin et Karczinski\n\nIn 2018, the “Lufthansa Blue” project saw the airline’s yellow and blue tailfins replaced with just a deep blue for a more premium feel with yellow being used only as small accents elsewhere. Helvetica was dropped for the digital era and replaced with a custom typeface. Even after historical upheavals, the crane remains in, with only slight updates by Martin et Karczinski.",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Original post on X (first-hand)",
+        "url": "https://x.com/LogoArchive/status/2115758650270609638"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVyvRTMWUAAk-T7.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVyvRTMW4AA8lNT.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVyvRTSXcAICuES.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVyvRTHXMAAnTor.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116241518050861564",
+    "url": "https://x.com/evornithology/status/2116241518050861564",
+    "author": {
+      "name": "Dan Baldassarre",
+      "handle": "evornithology"
+    },
+    "posted_at": "2026-10-30T18:51:10.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "Manx shearwaters fly fast enough to get jet lag",
+    "summary": "A Science paper finds their east-west flights shift their body clocks.",
+    "text": "Simply incredible research. Manx Shearwaters fly east-west so fast they get jet lag. https://t.co/dLMVBUFpbK",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Science",
+        "url": "https://www.science.org/doi/10.1126/science.adz2542",
+        "short": "https://t.co/dLMVBUFpbK"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2115818349636813028",
+    "url": "https://x.com/archaeologymag/status/2115818349636813028",
+    "author": {
+      "name": "Archaeology Magazine",
+      "handle": "archaeologymag"
+    },
+    "posted_at": "2026-10-29T14:49:39.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "A Viking Age sail factory in Denmark",
+    "summary": "A million-square-foot textile site shows how Vikings made sails for long voyages.",
+    "text": "Archaeologists in Denmark were amazed to find a one-million-square-foot Viking Age site. It was a textile factory, and excavations there are providing clues to how the Vikings crafted sails that could propel their ships to Constantinople or Canada!\n\nhttps://t.co/WlK5t57pIC https://t.co/VmKvyrKCcS",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Archaeology: Outfitting Viking voyagers",
+        "url": "https://archaeology.org/issues/november-december-2026/features/outfitting-viking-voyagers/",
+        "short": "https://t.co/WlK5t57pIC"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVzlk21bsAAI8mK.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVzlk2EaQAAMDb2.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVzlk2vagAAId6F.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HVzlk3vbIAEhf6-.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115941780789268945",
+    "url": "https://x.com/USGSVolcanoes/status/2115941780789268945",
+    "author": {
+      "name": "USGS Volcanoes🌋",
+      "handle": "USGSVolcanoes"
+    },
+    "posted_at": "2026-10-29T23:00:07.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "A hidden volcano quietly grew a new dome",
+    "summary": "USGS: Ruby seamount near the Northern Marianas grew a lava dome after its 2023 eruption.",
+    "text": "🌋 What happens when a volcano erupts where no one can see it?\n\nRuby seamount, near the Northern Mariana Islands, erupted explosively in 2023, then seemed to go quiet. But new surveys in 2026 revealed it had been quietly growing a new lava dome deep beneath the ocean.\n\nThe hidden lives of submarine volcanoes are full of surprises. 🌊🔍\n\nRead more: https://t.co/1JukZ5ybO9\n\n📷: Lava erupted from Ruby seamount. \n\n#VolcanoWatch #SubmarineVolcano #OceanExploration",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "USGS: Ruby seamount",
+        "url": "https://www.usgs.gov/observatories/hvo/news/volcano-watch-ruby-seamount-a-glimpse-secret-life-a-submarine-volcano",
+        "short": "https://t.co/1JukZ5ybO9"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV1VpGFawAAYwtA.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116168902828814534",
+    "url": "https://x.com/SpaceNewsFL/status/2116168902828814534",
+    "author": {
+      "name": "Space Coast Rocket Launches 🚀💫📡🪐",
+      "handle": "SpaceNewsFL"
+    },
+    "posted_at": "2026-10-30T14:02:37.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "Mars-sim crew walks out today after a year",
+    "summary": "NASA's CHAPEA Mission 2 egress is at 3 PM ET on October 31.",
+    "text": "🚀SPACE NEWS🚀\nNASA’s Crew Health and Performance Exploration Analog (CHAPEA) Mission 2 egress ceremony at Johnson Space Center in Houston, Texas.\n\n3:00 PM ET, Saturday, October 31, 2026\nLIVE: https://t.co/CqdjEfFnfj \nThe crew of four stepped inside NASA’s CHAPEA (Crew Health and Performance Exploration Analog) habitat on Oct. 19, 2025. Ross Elder, Ellen Ellis, Matthew Montgomery, and James Spicer have been living and working for 378 days inside the roughly 1,700-square-foot 3D-printed habitat at the agency’s Johnson Space Center in Houston.",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "tinyurl.com",
+        "url": "https://tinyurl.com/4sbzsshv"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/ext_tw_video_thumb/2116168388099620864/pu/img/FzwZdqG0_h_Q84xV.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116255780328415612",
+    "url": "https://x.com/PublicDomainRev/status/2116255780328415612",
+    "author": {
+      "name": "The Public Domain Review",
+      "handle": "PublicDomainRev"
+    },
+    "posted_at": "2026-10-30T19:47:50.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "The shapeshifters of the Bakemono zukushi scroll",
+    "summary": "The Public Domain Review shows yokai from an Edo-period painted scroll.",
+    "text": "Some of the many wonderful shapeshifting \"monsters\" from Japanese folklore featured on a painted scroll known as the Bakemono zukushi (18th or 19th century). See more here of its ghoulish delights here: https://t.co/1EBOuNZijA https://t.co/OxzNT3S9G5",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "The Public Domain Review: Bakemono zukushi",
+        "url": "https://publicdomainreview.org/collection/the-bakemono-zukushi-monster-scroll-18th-19th-century",
+        "short": "https://t.co/1EBOuNZijA"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV5zaNoWUAECYjM.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HV5zaavXcAA0AU2.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HV5zakQW0AAtZOE.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HV5zavvWwAATL2l.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116198539105563099",
+    "url": "https://x.com/MIT_CSAIL/status/2116198539105563099",
+    "author": {
+      "name": "MIT CSAIL",
+      "handle": "MIT_CSAIL"
+    },
+    "posted_at": "2026-10-30T16:00:23.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "ARPANET in 1977, on one map",
+    "summary": "MIT CSAIL shares a Computer History Museum map of the first large computer network.",
+    "text": "A map of ARPANET back in 1977. It was the first large-scale computer network, connecting institutions like MIT & Stanford. The system was a predecessor to the Internet.\n\nv/The Computer History Museum https://t.co/2M0OyKCauf",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Original post on X (first-hand)",
+        "url": "https://x.com/MIT_CSAIL/status/2116198539105563099"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV4_W2CW4AAxGmU.png"
+      }
+    ]
+  },
+  {
+    "id": "2115076189333201401",
+    "url": "https://x.com/MerriamWebster/status/2115076189333201401",
+    "author": {
+      "name": "Merriam-Webster",
+      "handle": "MerriamWebster"
+    },
+    "posted_at": "2026-10-27T13:40:34.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "culture",
+    "shelf_life": "evergreen",
+    "tldr": "Jack-o'-lantern first meant a man with a lantern",
+    "summary": "Merriam-Webster: in 17th-century Britain, an unknown man carrying a lantern was \"Jack with the lantern\".",
+    "text": "‘Jack-o’-lantern’ originally referred to a man with a lantern or to a night watchman.\n\nIn 17th-century Britain, people often called men whose names they didn't know by a common name like ‘Jack.’\n\nunknown man carrying a lantern = ‘Jack with the lantern’ / ‘Jack of the lantern’\n🧵⬇️",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Merriam-Webster: jack-o'-lantern",
+        "url": "https://www.merriam-webster.com/dictionary/jack-o%27-lantern"
+      }
+    ],
+    "media": []
   }
 ]

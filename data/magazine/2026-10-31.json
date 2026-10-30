@@ -1,0 +1,768 @@
+{
+  "date": "2026-10-31",
+  "title": "Boundaries we expected to hold",
+  "subtitle": "OpenAI watches its runs, a fake Claude Code in Cursor, a week of leaks in Japan",
+  "editor_note": "Models tested their walls; a fake extension slipped through one.",
+  "theme": {
+    "palette": "forest",
+    "fonts": "serif-sans",
+    "accent": "#d9b44a"
+  },
+  "sections": [
+    {
+      "type": "cover-story",
+      "scan": "2115896329645723836",
+      "kicker": "Cover story",
+      "headline": "OpenAI now watches its own frontier runs",
+      "deck": "Every RL run and internal Codex use is monitored.",
+      "variant": "stacked",
+      "why": "Labs are testing their own walls. Today's theme.",
+      "source_label": "OpenAI"
+    },
+    {
+      "type": "corner",
+      "corner": "brief"
+    },
+    {
+      "type": "brief-grid",
+      "headline": "Plans, models, rules",
+      "columns": 2,
+      "variant": "cards",
+      "items": [
+        {
+          "scan": "2116220869479428500",
+          "headline": "Claude Max 20x becomes Ultra",
+          "why": "No more 5-hour limit, per the post.",
+          "source_label": "Claude"
+        },
+        {
+          "scan": "2116007258140348441",
+          "headline": "OpenCode teases Claude plans inside",
+          "why": "Use your Claude subscription in OpenCode.",
+          "source_label": "Dax",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116275420341600369",
+          "headline": "Big labs back a scraping opt-out",
+          "why": "OpenAI, Google, Microsoft, Anthropic sign on.",
+          "source_label": "Techmeme"
+        },
+        {
+          "scan": "2116282885112205365",
+          "headline": "OpenAI retires products fast",
+          "why": "Many launches were gone within a year.",
+          "source_label": "Ethan Mollick"
+        },
+        {
+          "scan": "2115846384850989124",
+          "headline": "Octoverse: 1.3B PRs merged",
+          "why": "GitHub's yearly numbers are out.",
+          "source_label": "GitHub"
+        },
+        {
+          "scan": "2115820547103952925",
+          "headline": "Mistral Large 4, open weights",
+          "why": "Top non-Chinese open model on the index.",
+          "source_label": "Artificial Analysis"
+        },
+        {
+          "scan": "2115871889549865429",
+          "headline": "Claude flags misuse after answering",
+          "why": "A new safety check, right after the reply.",
+          "source_label": "Anthropic"
+        },
+        {
+          "scan": "2116005725814280570",
+          "headline": "Kimi 3D Make drives Blender",
+          "why": "Agents that use CAD tools.",
+          "source_label": "Kimi"
+        },
+        {
+          "scan": "2116232874328281451",
+          "headline": "Antigravity lands in Android Studio",
+          "why": "Google's agents inside the IDE.",
+          "source_label": "Google Antigravity"
+        },
+        {
+          "scan": "2116004652223475842",
+          "headline": "NVIDIA caps tokens at $10K a dev",
+          "why": "A monthly limit on AI spend.",
+          "source_label": "Gergely Orosz",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2115991567282668017",
+          "headline": "DeepSeek gates cyber skills",
+          "why": "A separate, verified key, says the post.",
+          "source_label": "Zekun",
+          "tags": [
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "lead"
+    },
+    {
+      "type": "feature",
+      "scan": "2116074289053175808",
+      "headline": "A fake Claude Code in Cursor",
+      "deck": "Version 2.1.313 was malicious, only in Cursor's marketplace.",
+      "variant": "standard",
+      "emphasis": "loud",
+      "art": "shelf.jpg",
+      "art_alt": "A shelf of identical pale boxes; one box is dark with a gold crack",
+      "why": "Your agent extension was the attack path. Close to cc-safety-net.",
+      "source_label": "Cursor"
+    },
+    {
+      "type": "pull-quote",
+      "scan": "2116074289053175808",
+      "quote": "In response, we took down our extension marketplace this afternoon, worked with relevant providers to neutralize the malware, and have reinstated the marketplace after confirming there is no further risk.",
+      "variant": "bar"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "What really happened",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2116223794117308872",
+          "headline": "Not Open VSX, not npm",
+          "why": "Socket corrects the early reports.",
+          "source_label": "Socket"
+        },
+        {
+          "scan": "2116224610542731572",
+          "headline": "How 2.1.313 got in",
+          "why": "Socket's breakdown, step by step.",
+          "source_label": "Feross Aboukhadijeh"
+        },
+        {
+          "scan": "2116075234763866460",
+          "headline": "The official build was clean",
+          "why": "Cursor's CEO on what was hit.",
+          "source_label": "Michael Truell"
+        },
+        {
+          "scan": "2116202930705707519",
+          "headline": "One grep finds the backdoor key",
+          "why": "Check authorized_keys for svc-telemetry.",
+          "source_label": "Sophia Yang"
+        },
+        {
+          "scan": "2116088608318955875",
+          "headline": "2.1.314以上に更新を",
+          "why": "日本語での注意喚起。",
+          "source_label": "oikon"
+        },
+        {
+          "scan": "2116079149626597716",
+          "headline": "Cursor、被害を公表",
+          "why": "日本語のまとめ。",
+          "source_label": "kinopee"
+        }
+      ]
+    },
+    {
+      "type": "painting",
+      "art": "bakemono.jpg",
+      "art_alt": "A long scroll of Japanese monsters: a snow woman, a long-tongued creature and a beast in an empty house",
+      "title": "Bakemono zukushi (detail)",
+      "artist": "Unknown artist",
+      "year": "1700s–1800s",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bakemono_Zukushi.jpg",
+      "license": "Public domain",
+      "caption": "Yokai haunt thresholds: bridges, gates, empty houses."
+    },
+    {
+      "type": "corner",
+      "corner": "your-saves"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "Seven saves",
+      "variant": "large",
+      "items": [
+        {
+          "bookmark": "2115855028737200211",
+          "headline": "Let an agent shrink your fonts",
+          "why": "A ready prompt with pixel-diff checks.",
+          "source_label": "Shu Ding",
+          "tags": [
+            "from-your-saves"
+          ]
+        },
+        {
+          "bookmark": "2115688494865465370",
+          "headline": "You're probably overprompting Claude",
+          "why": "One goal and a check beat a step list.",
+          "source_label": "Addy Osmani",
+          "tags": [
+            "from-your-saves"
+          ]
+        },
+        {
+          "bookmark": "2115653332144648280",
+          "headline": "Prep sites for Anthropic and OpenAI",
+          "why": "Useful for your hunt. Some sites leak questions.",
+          "source_label": "Oana",
+          "tags": [
+            "from-your-saves"
+          ]
+        },
+        {
+          "bookmark": "2116029912243184006",
+          "headline": "The frontier gap keeps widening",
+          "why": "Processes from 3 months ago are behind.",
+          "source_label": "Aaron Levie",
+          "tags": [
+            "from-your-saves"
+          ]
+        },
+        {
+          "bookmark": "2115621902958170125",
+          "headline": "Five Claude prompting rules",
+          "why": "Good rules; the \"internal video\" story is unverified.",
+          "source_label": "huxlab",
+          "tags": [
+            "unverified",
+            "from-your-saves"
+          ]
+        },
+        {
+          "bookmark": "2115790132230111394",
+          "headline": "Google operators for backlinks",
+          "why": "Gray-hat SEO. Use with care.",
+          "source_label": "jinlv11",
+          "tags": [
+            "from-your-saves"
+          ]
+        },
+        {
+          "bookmark": "2115446648704827633",
+          "headline": "A Seedance 2.5 dance clip",
+          "why": "Prompt in the replies.",
+          "source_label": "Aimi Koda",
+          "tags": [
+            "from-your-saves"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sidebar-box",
+      "bookmark": "2115855028737200211",
+      "headline": "Try tonight",
+      "variant": "note"
+    },
+    {
+      "type": "interlude",
+      "art": "lanterns.jpg",
+      "art_alt": "A line of small gold lanterns along a dark ridge at night",
+      "variant": "wide"
+    },
+    {
+      "type": "corner",
+      "corner": "field-notes"
+    },
+    {
+      "type": "feature",
+      "scan": "2116220286928585103",
+      "headline": "Agentic Workflows are GA",
+      "variant": "standard",
+      "art": "flows.jpg",
+      "art_alt": "A row of pale green gears on one line, one gear gold",
+      "why": "Agents in GitHub Actions, with guardrails built in.",
+      "source_label": "GitHub Next"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "Skills, compilers, context",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2115880102601101414",
+          "headline": "A /statechart skill for agents",
+          "why": "Model state machines before code.",
+          "source_label": "Lauren Tan"
+        },
+        {
+          "scan": "2115677436574826641",
+          "headline": "Bun AOT compilation merged",
+          "why": "Faster startup for Bun apps.",
+          "source_label": "Jarred Sumner"
+        },
+        {
+          "scan": "2115751897558614073",
+          "headline": "Codex subagents forked the context",
+          "why": "A quiet token cost, now found.",
+          "source_label": "Matt Pocock"
+        },
+        {
+          "scan": "2116201494055948375",
+          "headline": "An NES emulator in Qwen weights",
+          "why": "A strange, fun hack.",
+          "source_label": "Drew Breunig"
+        },
+        {
+          "scan": "2116219073751330824",
+          "headline": "Pullfrog: open AI code review",
+          "why": "Bring your own keys.",
+          "source_label": "Colin McDonnell"
+        },
+        {
+          "scan": "2116214422779953574",
+          "headline": "Factory buys Typedef",
+          "why": "A context layer for enterprise data.",
+          "source_label": "Factory"
+        },
+        {
+          "scan": "2115810209214107833",
+          "headline": "TokenEconomizer learns your repo",
+          "why": "Claims are its own; hype-heavy posts.",
+          "source_label": "LLMpsycho",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116186029875134574",
+          "headline": "Termius mobile runs libghostty",
+          "why": "Ghostty's core, on phones.",
+          "source_label": "Mitchell Hashimoto"
+        },
+        {
+          "scan": "2115750321733476801",
+          "headline": "Models beat insider forecasts",
+          "why": "Even lab staff are surprised.",
+          "source_label": "Felix Rieseberg"
+        },
+        {
+          "scan": "2116268356160667775",
+          "headline": "Agents like good abstractions too",
+          "why": "Clean code helps models, not just people.",
+          "source_label": "Chris Lattner"
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "art": "lantern.jpg",
+      "art_alt": "One yellow paper lantern hanging over a pale ground",
+      "variant": "square"
+    },
+    {
+      "type": "corner",
+      "corner": "japan-desk",
+      "label": "日本から"
+    },
+    {
+      "type": "timeline",
+      "headline": "漏えいの一週間",
+      "variant": "vertical",
+      "items": [
+        {
+          "scan": "2116058166324826159",
+          "label": "MUJI",
+          "note": "MUJIアプリ、2726万件か。顧客情報が漏えいの恐れ。"
+        },
+        {
+          "scan": "2116060475264029003",
+          "label": "ANA",
+          "note": "ANA、約3万7800人分。Amadeus経由で流出の可能性。"
+        },
+        {
+          "scan": "2116079876105224542",
+          "label": "外務省",
+          "note": "外務省、約3600件。個人情報流出か。"
+        },
+        {
+          "scan": "2116115412278820873",
+          "label": "佐賀大学",
+          "note": "佐賀大学、8万人分。ランサムウェア被害。"
+        },
+        {
+          "scan": "2116121492648083473",
+          "label": "DHC",
+          "note": "DHCオンラインショップ。不正アクセスを公表。"
+        },
+        {
+          "scan": "2116125127436042672",
+          "label": "イープラス",
+          "note": "イープラス。不正アクセスと漏えいを公表。"
+        }
+      ]
+    },
+    {
+      "type": "numbered-list",
+      "headline": "自動運転、Codex、TDD",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2116124468880056783",
+          "headline": "トヨタとウェイモ、来年日本で",
+          "why": "自動運転タクシーを計画。",
+          "source_label": "NHK"
+        },
+        {
+          "scan": "2116102466865664454",
+          "headline": "ChatGPTがCodex容量を消費か",
+          "why": "12月から、との見方。",
+          "source_label": "うみゆき",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116094255290798324",
+          "headline": "「Claude Code実践レシピ集」",
+          "why": "11/10発売。",
+          "source_label": "oikon"
+        },
+        {
+          "scan": "2115789385170104487",
+          "headline": "8億人を単一のPostgresで",
+          "why": "ChatGPTの構成の話。",
+          "source_label": "kuwa"
+        },
+        {
+          "scan": "2116009717713776680",
+          "headline": "TDDは仕様、観測は現実",
+          "why": "和田さんの整理。",
+          "source_label": "t_wada"
+        },
+        {
+          "scan": "2116098986029600971",
+          "headline": "FIDO2キーを自作",
+          "why": "ハードの遊び心。",
+          "source_label": "GOROman"
+        },
+        {
+          "scan": "2115748707509707137",
+          "headline": "RubyとAI時代の脆弱性",
+          "why": "リスクの見方。",
+          "source_label": "GOROman",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2115709094833344754",
+          "headline": "「人間100人なら？」",
+          "why": "AIで手詰まりな時の考え方。",
+          "source_label": "chokudai"
+        },
+        {
+          "scan": "2115700588457660571",
+          "headline": "Sakana AI、メルツ首相と朝食会",
+          "why": "日独のAI協力。",
+          "source_label": "Sakana AI"
+        },
+        {
+          "scan": "2116110965771260288",
+          "headline": "11/7 新宿でLT会",
+          "why": "AI時代の技術選定とキャリア。転職活動に。",
+          "source_label": "mamamasu"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "adjacent"
+    },
+    {
+      "type": "compare",
+      "headline": "France's data tax",
+      "variant": "versus",
+      "items": [
+        {
+          "scan": "2116284214131961910",
+          "label": "The claim",
+          "note": "\"All internet traffic\" taxed, passed."
+        },
+        {
+          "scan": "2116296209677828113",
+          "tags": [
+            "unverified"
+          ],
+          "label": "The detail",
+          "note": "An 11–10 budget amendment, not law."
+        }
+      ],
+      "verdict": "An 11–10 amendment paid by content senders; not law yet."
+    },
+    {
+      "type": "numbered-list",
+      "headline": "Rights, fees, careers",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2115923819001192794",
+          "headline": "Higgsfield vs ComfyUI",
+          "why": "A cease and desist over open tools.",
+          "source_label": "Yoland Yan",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2115960150746169519",
+          "headline": "Unions fight OpenAI's fair use",
+          "why": "Hollywood goes to court.",
+          "source_label": "Deadline"
+        },
+        {
+          "scan": "2116141141573636125",
+          "headline": "Spotify、AIでカバー曲",
+          "why": "新機能。",
+          "source_label": "日本経済新聞"
+        },
+        {
+          "scan": "2116291741754315244",
+          "headline": "Apple Intelligence reaches China",
+          "why": "With iOS 27.3.",
+          "source_label": "Mark Gurman"
+        },
+        {
+          "scan": "2115882925648674888",
+          "headline": "Lower App Store fees in Taiwan",
+          "why": "From October 31.",
+          "source_label": "MacRumors"
+        },
+        {
+          "scan": "2116271344157618360",
+          "headline": "\"Becoming a better writer\" is free",
+          "why": "Writing still matters for engineers.",
+          "source_label": "Gergely Orosz"
+        },
+        {
+          "scan": "2115885041284771896",
+          "headline": "A skills map into applied AI",
+          "why": "For your hunt.",
+          "source_label": "Brandon Galang"
+        },
+        {
+          "scan": "2116215149350490151",
+          "headline": "Security paranoia, 2026 edition",
+          "why": "A Node lead's checklist.",
+          "source_label": "Matteo Collina"
+        }
+      ]
+    },
+    {
+      "type": "brief-grid",
+      "headline": "Security",
+      "columns": 3,
+      "variant": "plain",
+      "items": [
+        {
+          "scan": "2116021299692949929",
+          "headline": "Binance breach: $6.3B in assets",
+          "why": "The biggest crypto hit this year.",
+          "source_label": "The Hacker News"
+        },
+        {
+          "scan": "2116213535223296033",
+          "headline": "State hackers used AI tool ARTEX",
+          "why": "200+ organizations hit.",
+          "source_label": "The Hacker News"
+        },
+        {
+          "scan": "2116090860412817588",
+          "headline": "Go 1.24+ accepts MPTCP by default",
+          "why": "Check your Linux firewall rules.",
+          "source_label": "The Hacker News"
+        },
+        {
+          "scan": "2115769721606049878",
+          "headline": "26,400 live keys on Gitee",
+          "why": "Cloud and AI keys in public repos.",
+          "source_label": "The Hacker News"
+        },
+        {
+          "scan": "2115754084091216297",
+          "headline": "GitHub previews an npm firewall",
+          "why": "Blocks bad packages before install.",
+          "source_label": "The Hacker News"
+        }
+      ]
+    },
+    {
+      "type": "brief-grid",
+      "headline": "日本のほかの話題",
+      "columns": 3,
+      "variant": "plain",
+      "items": [
+        {
+          "scan": "2116121510687498315",
+          "headline": "村田製作所、5年で1兆円",
+          "why": "コンデンサーに投資。",
+          "source_label": "日本経済新聞"
+        },
+        {
+          "scan": "2115952815986372855",
+          "headline": "富士山が初冠雪",
+          "why": "平年より1カ月近く遅い。",
+          "source_label": "tenki.jp",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2115762796810105314",
+          "headline": "神保町の古本まつり",
+          "why": "再開発でビルの狭間に。",
+          "source_label": "Mid_observatory"
+        },
+        {
+          "scan": "2116094836751450533",
+          "headline": "白馬の三段紅葉",
+          "why": "雪、紅葉、緑が一度に。",
+          "source_label": "Yuji_48"
+        },
+        {
+          "scan": "2115392944463290678",
+          "headline": "東京百鬼夜行",
+          "why": "高円寺フェスで、ハロウィンに。",
+          "source_label": "pinky__drops"
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "art": "fence.jpg",
+      "art_alt": "A thin fence line across a dark green field at dusk",
+      "variant": "quiet"
+    },
+    {
+      "type": "corner",
+      "corner": "open-window"
+    },
+    {
+      "type": "brief-grid",
+      "headline": "Cities and other borders",
+      "columns": 2,
+      "variant": "cards",
+      "items": [
+        {
+          "scan": "2115941839274418210",
+          "headline": "Cemeteries became the first parks",
+          "why": "Old garden cemeteries, now city green.",
+          "source_label": "Bloomberg CityLab",
+          "tags": [
+            "new-to-you"
+          ]
+        },
+        {
+          "scan": "2115866314824683596",
+          "headline": "Haunted houses revive empty buildings",
+          "why": "Halloween as a reuse plan.",
+          "source_label": "Bloomberg CityLab",
+          "tags": [
+            "new-to-you"
+          ]
+        },
+        {
+          "scan": "2116209479402283119",
+          "headline": "Norway's scenic restrooms",
+          "why": "An insult answered with design.",
+          "source_label": "Bloomberg CityLab",
+          "tags": [
+            "new-to-you"
+          ]
+        },
+        {
+          "scan": "2116028598494629893",
+          "headline": "Central Park at peak yellow",
+          "why": "Autumn in the city.",
+          "source_label": "Kris Kashtanova"
+        },
+        {
+          "scan": "2115758650270609638",
+          "headline": "The Lufthansa crane, 1918",
+          "why": "How a logo was born.",
+          "source_label": "Logo Archive"
+        },
+        {
+          "scan": "2116241518050861564",
+          "headline": "Seabirds with jet lag",
+          "why": "Manx shearwaters fly that fast.",
+          "source_label": "Evolutionary Ornithology",
+          "tags": [
+            "new-to-you"
+          ]
+        },
+        {
+          "scan": "2115818349636813028",
+          "headline": "A Viking Age sail factory",
+          "why": "Found in Denmark.",
+          "source_label": "Archaeology Magazine",
+          "tags": [
+            "new-to-you"
+          ]
+        },
+        {
+          "scan": "2115941780789268945",
+          "headline": "A volcano grew a hidden dome",
+          "why": "Quietly, under watch.",
+          "source_label": "USGS Volcanoes",
+          "tags": [
+            "new-to-you"
+          ]
+        },
+        {
+          "scan": "2116168902828814534",
+          "headline": "Mars-sim crew walks out",
+          "why": "After a year inside.",
+          "source_label": "SpaceNews Florida",
+          "tags": [
+            "new-to-you"
+          ]
+        },
+        {
+          "scan": "2116255780328415612",
+          "headline": "Bakemono zukushi",
+          "why": "A scroll of shapeshifters.",
+          "source_label": "The Public Domain Review",
+          "tags": [
+            "new-to-you"
+          ]
+        },
+        {
+          "scan": "2116198539105563099",
+          "headline": "ARPANET in 1977",
+          "why": "The whole net on one map.",
+          "source_label": "MIT CSAIL"
+        }
+      ]
+    },
+    {
+      "type": "image-of-the-day",
+      "headline": "A late first snow",
+      "art": "fuji.jpg",
+      "art_alt": "Mt. Fuji at dusk with a thin cap of new snow",
+      "caption": "Almost a month late, Fuji put on its first white.",
+      "variant": "standard"
+    },
+    {
+      "type": "corner",
+      "corner": "kicker"
+    },
+    {
+      "type": "closer",
+      "scan": "2115076189333201401",
+      "headline": "Jack-o'-lantern was a man first",
+      "why": "A man with a lantern, long before the pumpkin.",
+      "variant": "text",
+      "source_label": "Merriam-Webster"
+    }
+  ]
+}

@@ -853,5 +853,187 @@
     "action": "",
     "links": [],
     "media": []
+  },
+  {
+    "id": "2115621902958170125",
+    "url": "https://x.com/huxlab/status/2115621902958170125",
+    "author": {
+      "name": "Hux",
+      "handle": "huxlab"
+    },
+    "posted_at": "2026-10-29T01:49:02.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Five Claude prompting rules, with an unverified origin story",
+    "summary": "A Chinese post lists five prompting rules it says came from an internal Anthropic video: XML-tagged blocks, removing old defensive patches, tools for math, both sides of tradeoffs, and a generate-evaluate-fix loop. The rules are useful; the insider origin is unverified.",
+    "text": "认识一个在 Anthropic 做研发的朋友，年薪 150 万刀。\n\n我问她是怎么把 Claude 调教到极致的\n\n她直接甩给我一段 30 分钟的内部录屏，原本不对外公开。\n\n毫不夸张，这绝对是全网含金量最高的 Claude 实操资料之一。\n\n昨晚看到一半，我后背发凉： \n\n过去两年我写提示词的方式，从底层逻辑上就全错了。\n\n看完后，我提炼出 5 条Anthropic 内部正在用的核心法则：\n\n1. 用 XML 严格隔离语义块：如果你肉眼都分不清数据、业务政策与角色边界，模型只会更混乱，严禁把所有规则揉成一坨大段文本。\n\n2. 定期清理旧模型的“防御性补丁”：新模型遵循能力极强，遗留的历史负向限制会导致过度拟合，反而把上下文已有的正确信息死扣不给。\n\n3. 指令无法凭空赋予模型能力：在 Prompt 里加粗强调“务必算准”没有任何意义，复杂运算必须果断剥离给 Tool Calling 代码执行。\n\n4. 业务权衡必须给全博弈天平的两端：只灌输单向操作成本会让模型极端避险，必须同时给出违约后果与潜在损失，才能激活高智力模型的正确权衡。\n\n5. 用“生成-评估-修复”闭环取代单体巨型 Prompt：复杂强约束任务拆成三步轻量流水线，不仅 Token 消耗与延迟直接腰斩，还能动态兼容运行时软约束。\n\n建议直接收藏，今晚就花半小时看完，认知彻底重置。",
+    "key_points": [
+      "Wrap context, task and format in separate XML blocks",
+      "Delete old defensive prompt patches; newer models over-apply them",
+      "Make the model use tools for math",
+      "Ask for both sides of a tradeoff",
+      "Loop: generate, evaluate, fix"
+    ],
+    "action": "Take one long prompt you use and split it into XML-tagged blocks, deleting any old \"never do X\" patches.",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2115620418229030912/img/4gr7xPHzbEDKKCzw.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115653332144648280",
+    "url": "https://x.com/oanaolt/status/2115653332144648280",
+    "author": {
+      "name": "Oana Olteanu",
+      "handle": "oanaolt"
+    },
+    "posted_at": "2026-10-29T03:53:55.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "evergreen",
+    "tldr": "Interview prep sites friends used for Anthropic and OpenAI offers",
+    "summary": "Oana lists the prep resources friends used to land Anthropic and OpenAI offers (Hello Interview, PracHub, DarkInterview, 1Point3Acres) and notes Anthropic quotes valuation at offer time, OpenAI at start date. Some sites share leaked questions, so use them with care.",
+    "text": "If you’re an engineer in market\n\nSpoke with some friends who got offers both from Anthropic and OpenAI\n\nHere’s what they used to prep:\n1. https://t.co/5wQo3ETgY6\n2. https://t.co/19qCOYZQsx\n3. https://t.co/SI1lzbel01\n4. https://t.co/9MxCiG1Cj2 - most unexpected for me, Chinese engineers leak the questions and you can buy them or if you share them you get virtual rice 🍚 not making it up lol\n\nAlso good for you to know Anthropic gives you the valuation at the time of the offer, while OpenAI is at the time when you start. \n\nOh and if you want more tips or want to consider fast growing smaller startups, I know a bunch who are hiring and I can intro you directly to the founding team 0 to 1 or 1 to 10 :)\n\nHappy interviewing!",
+    "key_points": [],
+    "action": "Do one system-design mock on Hello Interview this week for your AI-role hunt.",
+    "links": [
+      {
+        "title": "hellointerview.com",
+        "url": "https://www.hellointerview.com",
+        "short": "https://t.co/5wQo3ETgY6"
+      },
+      {
+        "title": "prachub.com",
+        "url": "https://prachub.com",
+        "short": "https://t.co/19qCOYZQsx"
+      },
+      {
+        "title": "darkinterview.com",
+        "url": "https://darkinterview.com",
+        "short": "https://t.co/SI1lzbel01"
+      },
+      {
+        "title": "1point3acres.com",
+        "url": "https://www.1point3acres.com/en",
+        "short": "https://t.co/9MxCiG1Cj2"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116029912243184006",
+    "url": "https://x.com/levie/status/2116029912243184006",
+    "author": {
+      "name": "Aaron Levie",
+      "handle": "levie"
+    },
+    "posted_at": "2026-10-30T04:50:19.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "The gap between frontier AI users and everyone else keeps widening",
+    "summary": "Aaron Levie says the distance between people at the AI frontier and the rest is growing; processes codified even 3 to 6 months ago are already behind.",
+    "text": "It’s almost incomprehensible how wide the distance is between someone who’s working at the frontier with AI and basically everyone else right now. \n\nThe crazy thing is these lines are not converging, but only growing farther apart. If the curve of AI progress had leveled off, it would certainly have given most people and companies time to catch up or implement their workflows in a standardized way. The technology would have neutralized competitive advantage because everyone would be using it the same way.\n\nBut what’s happened is the opposite. The curve of AI progress is basically going vertical right now, which means if you had codified your processes 3-6 months ago you’re likely already behind again. Now imagine most companies that kicked into gear a year ago and thought that they were done. Even further behind now.\n\nI’ve never seen a technology in my life and career that improves at this rate, which consequently means you need to upgrade your expectations at a similar rate. Our brains weren’t wired for this, and our organizational change management processes certainly weren’t either.\n\nWith any form of recursive self improvement, things just get wilder. It’s a time when you will need to be constantly reevaluating the things that didn’t work just a couple months ago to see if they now can be solved. AI native companies certainly have a strong advantage due to this right now, so now it comes down to can the bigger companies keep up. Wild times.",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2115446648704827633",
+    "url": "https://x.com/aimikoda/status/2115446648704827633",
+    "author": {
+      "name": "Kōda",
+      "handle": "aimikoda"
+    },
+    "posted_at": "2026-10-28T14:12:38.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "design",
+    "shelf_life": "evergreen",
+    "tldr": "A Seedance 2.5 dance video, prompt in the replies",
+    "summary": "Aimi Koda shares \"Some Silly Moves\", a short dance video made with Seedance 2.5, with the prompt posted in the replies.",
+    "text": "Some Silly Moves\n\nSeedance 2.5 prompt in the replies. 👇 https://t.co/UnuvOecX4J",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2115446474544762880/img/okh8e9ut90Mc-CcN.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115790132230111394",
+    "url": "https://x.com/jinlv11/status/2115790132230111394",
+    "author": {
+      "name": "秀才",
+      "handle": "jinlv11"
+    },
+    "posted_at": "2026-10-29T12:57:31.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "evergreen",
+    "tldr": "Google search operators for finding backlink spots",
+    "summary": "A Chinese post lists Google search operators to find blogs, resource pages and \"write for us\" pages for backlinks. It is gray-hat SEO, so use with care and avoid spam.",
+    "text": "分享一个无限外链的方法，打开Google直接搜索：\n\n• 挖博客外链：inurl:blog + \"leave a reply\" + ai image generator 。 搜索到的外链必定是可以发的\n\n• 挖资源推荐页：搜 ai tools +  inurl:resources 或 ai tools + inurl:links \"submit\"。这种页面天生就是为了收录工具而建的\n\n• 挖客座投稿页：搜 ai + \"write for us\" 或 ai + \"guest post guidelines\"。直接找到接受外部投稿的博客",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HVzL5hua4AA4dc3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2115855028737200211",
+    "url": "https://x.com/shuding/status/2115855028737200211",
+    "author": {
+      "name": "Shu",
+      "handle": "shuding"
+    },
+    "posted_at": "2026-10-29T17:15:24.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "A ready agent prompt to shrink your web fonts",
+    "summary": "Shu Ding shares a full prompt that has an agent subset web fonts, split core and extended sets with unicode-range, and prove no visual change with pixel diffs.",
+    "text": "Tell your agent to optimize your site’s web fonts. I’m seeing a huge difference on my blog.\n\nFull prompt:\n\nMake this site's web fonts load faster without changing how anything looks. Shrink font bytes as far as possible, keep rendering identical, and prove it with before/after pixel diffs. Treat any visual change as a regression unless I approve it. If an optimization would change rendering, tell me what it saves and what it changes, and keep the site looking the same by default. Keep the current loading behavior: don't touch font-display or fallback fonts. Don't add font processing to the build; write a script I run by hand, commit its output, and note when it needs rerunning. First measure the current state: each font file's size, glyph count, variable axes, OpenType features and hinting, plus font bytes per page and what each page preloads. Then find out what the site actually uses, checking inline component styles as well as stylesheets: which characters appear in the content, which axis values and weights each font needs (including one-off overrides and bold inside italics), which OpenType features are turned on, and CSS side effects like `hyphens: auto` using the U+2010 hyphen. Cut each font down to that. Keep the used characters plus Latin-1 and Latin Extended-A, and leave CJK to system fonts if that's how it renders today. Limit variable axes to the ranges in use, and only fix an axis at one value if nothing overrides it. Drop unused OpenType features and hinting. Split each font into two files. A small core with ASCII and the punctuation most pages use (curly quotes, dashes, ellipsis) gets preloaded. An extended file behind `unicode-range` only downloads when a page needs one of its characters. Each file's `unicode-range` should list only characters it actually contains. Watch out for a few things. A generated fallback face between the core and extended files will draw the extended characters before the real font does. Fonts with a Reserved Font Name under the OFL must be renamed internally once subset. Check the generated files, since font tools have quirks. Before calling it done, build a baseline from the same content and pixel-diff before and after on pages with code, italics, accented characters, components with their own font settings, and CJK. Explain every visible difference: content change, regression to fix, or harmless sub-pixel rounding. Re-measure bytes per page and confirm the extended files only load where needed. When you're done, tell me the bytes before and after per font and per page, the pixel-diff results, anywhere you deviated from what I asked and what it cost, and how to rerun the script. Later, it may be worth embedding the core font in the global stylesheet and precaching the extended files after idle.",
+    "key_points": [],
+    "action": "Paste the prompt into Claude Code on one site with custom fonts and compare the font bytes before and after.",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV0FoA_bYAAw2VB.png"
+      }
+    ]
+  },
+  {
+    "id": "2115688494865465370",
+    "url": "https://x.com/addyosmani/status/2115688494865465370",
+    "author": {
+      "name": "Addy Osmani",
+      "handle": "addyosmani"
+    },
+    "posted_at": "2026-10-29T06:13:39.000Z",
+    "saved_at": "2026-10-31T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "You are probably overprompting Claude",
+    "summary": "Addy Osmani's X article argues that with Opus 5.5 one prompt with a clear goal and a way to verify beats long step-by-step instructions.",
+    "text": "https://t.co/1txsLAxxM5",
+    "key_points": [],
+    "action": "Rewrite your next task prompt as one goal plus how to verify it, and drop the step list.",
+    "links": [
+      {
+        "title": "X article: You're probably overprompting Claude",
+        "url": "https://x.com/i/article/2115682550723313664",
+        "short": "https://t.co/1txsLAxxM5"
+      }
+    ],
+    "media": []
   }
 ]
