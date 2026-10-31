@@ -1035,5 +1035,87 @@
       }
     ],
     "media": []
+  },
+  {
+    "id": "2116576229319233596",
+    "url": "https://x.com/poteto/status/2116576229319233596",
+    "author": {
+      "name": "lauren",
+      "handle": "poteto"
+    },
+    "posted_at": "2026-10-31T17:01:11.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "How poteto builds high-quality Grok Bots and runs a team",
+    "summary": "A short Grok Bot guide: add dr eggbot as a bot designer, keep a few good bots instead of many, have bots write skills for themselves (stored in a private GitHub repo), connect tools and the vault, and give bots their own email. A follow-up adds: routines no more often than hourly, filter subscription events first, and ask bots to turn workflow steps into scripts to save tokens.",
+    "text": "here’s a short grok bot guide on how i create high quality bots and manage my team. ask @bot to read this post and help you improve your team!\n\n• add dr eggbot to your team! he’s my bot designer that i use to create bots\n• you don’t need a lot of bots. a few good bots can be more useful and easier to manage than a large team\n• tell your bots to create skills for itself as you give it instructions on how to do tasks. this lets them do them more consistently even over long conversations. you can even ask it to create a private github repo for you to store all your skills if you want them preserved independently\n• add connectors, use the vault, and give access to all the tools you use to do your work. you can also ask your bot to setup its own email and it can sign up for its own accounts for better separation \n• thinking about all the work you do by hand, or steps in your workflows where you have to copy and paste information back to your bot. ask your bot how it can do that for you instead!\n• imagine you hired an intern, how would you onboard them and help them do the work correctly and efficiently? introduce yourself to your bot and describe the work you do, then ask it how it can help you automate it\n\nand my favorite tip: use voice mode or the transcription option! it’s a good way to just brain dump a lot of information. then, at the end, tell your bot to “restate this in your own words” so you can confirm it understood you\n\nhttps://t.co/ajrjeHdzUO",
+    "key_points": [
+      "A few good bots beat a big team",
+      "Have bots write skills for themselves as you teach them",
+      "Keep skills and scripts in a private GitHub repo",
+      "Scheduled routines: hourly at most; filter subscription events",
+      "Turn repeated workflow steps into code to save tokens"
+    ],
+    "action": "Ask one of your bots which steps of its routine could become a script, and store it in a private repo.",
+    "links": [
+      {
+        "title": "Grok Bot: poteto's bot guide",
+        "url": "https://x.ai/bot/_jOdbfkB16zxu7MRcmReE",
+        "short": "https://t.co/ajrjeHdzUO"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116153410101944352",
+    "url": "https://x.com/AlexKsendzovsky/status/2116153410101944352",
+    "author": {
+      "name": "Alex Ksendzovsky",
+      "handle": "AlexKsendzovsky"
+    },
+    "posted_at": "2026-10-30T13:01:03.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "mischief 1: a video model born from biocompute research",
+    "summary": "Alex Ksendzovsky introduces mischief 1, an image-to-video model built from four years of growing brain cells on electrodes. It starts at 0.5 cents a second on fal and OpenRouter and is claimed 5x faster than its base; the biocompute link is the company's own claim.",
+    "text": "today, we introduce a little mischief to the world.\n\nfor four years, we’ve been brewing real brain cells on electrodes to understand how they compute. now, we’ve turned those discoveries into a video model anyone can use.\n\nfrom 0.5¢ a second, mischief 1 is at least 5x faster than its base and the cheapest image-to-video model on @fal and @OpenRouter. soon to be on @awscloud marketplace.\n\nit’s not a delusion anymore. biocompute is real, commercial and this is just the beginning.\n\nhappy halloween.",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2116153358943981568/img/I4G-jGHuZaYgqg6H.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116191971714953262",
+    "url": "https://x.com/poteto/status/2116191971714953262",
+    "author": {
+      "name": "lauren",
+      "handle": "poteto"
+    },
+    "posted_at": "2026-10-30T15:34:17.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "Rebuild software for a continuous stream of agent code",
+    "summary": "poteto argues code now arrives as a continuous stream, so systems must be designed so even low-context agents do the right thing by default: make the easy thing the right thing, and design guardrails, frameworks and languages to control the chaos.",
+    "text": "we will need to rebuild and rewrite much of software to adapt to a new, faster pace. \n\ncode used to arrive one drop at a time. soon, if not already, code will be written as if it were a continuous stream, like a violent river twisting and turning as it pleases. \n\nthis is not a new thing: big tech cos have had to deal with this with the enormous scale of their engineering teams. but now ai has brought an incredibly elastic and capable workforce wielded by every engineer. this is your problem now, and the only way to adapt is to evolve your systems so agents - even and especially the ones with little context about the right way of doing things - can thrive. make the easy thing the right thing. \n\nyour codebase is becoming organic architecture. agent contributions grow around the constraints and guardrails you’ve designed. good software engineering matters even more now! and no, the continuous stream of code is not something you have to watch helplessly. be more ambitious and design systems, frameworks, and languages to control the chaos. \n\nthe time for mourning coding is long over",
+    "key_points": [
+      "Code now arrives as a stream, not drops",
+      "Make the easy thing the right thing for agents",
+      "Good engineering matters more, not less"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post: Joseph Cox on Proton",
+        "url": "https://twitter.com/josephfcox/status/2115868430897385497"
+      }
+    ],
+    "media": []
   }
 ]

@@ -10032,5 +10032,1812 @@
       }
     ],
     "media": []
+  },
+  {
+    "id": "2115877125374775630",
+    "url": "https://x.com/WIRED/status/2115877125374775630",
+    "author": {
+      "name": "WIRED",
+      "handle": "WIRED"
+    },
+    "posted_at": "2026-10-29T18:43:12.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "A contractor's personal Claude agent ran on a Pentagon network for two months",
+    "summary": "WIRED, citing sources, reports an Accenture employee's personal AI agent had access to a secure DoD system for two months before it was found and the hole patched.",
+    "text": "Sources tell WIRED that an Accenture employee’s personal Claude agent ran on a DOD network for two months before it was identified and the vulnerability could be patched. https://t.co/FF0l62ZOUX",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "WIRED: A defense contractor gave their personal AI agent access to a secure Pentagon system",
+        "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2116504206932582445",
+    "url": "https://x.com/TalosSecurity/status/2116504206932582445",
+    "author": {
+      "name": "Cisco Talos Intelligence Group",
+      "handle": "TalosSecurity"
+    },
+    "posted_at": "2026-10-31T12:15:00.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "VOLTA infostealer uses LLMs to rank victims",
+    "summary": "Cisco Talos shows the VOLTA infostealer sending stolen data to LLMs that profile victims and rank their most valuable accounts and assets.",
+    "text": "Sorting through mountains of stolen credentials is a major headache for attackers, so why not outsource the grunt work to AI? Talos' latest research on the VOLTA infostealer shows how it uses LLMs to profile victims and rank their most valuable assets: https://t.co/M6fL7BluTD https://t.co/h1cmTv2GdK",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Cisco Talos: Model-driven victim prioritization in VOLTA",
+        "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV612mBWIAIuJGp.jpg"
+      }
+    ],
+    "pick": true
+  },
+  {
+    "id": "2116501537140961586",
+    "url": "https://x.com/TheHackersNews/status/2116501537140961586",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-10-31T12:04:23.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Chainalysis confirms a breach using agentic techniques",
+    "summary": "Chainalysis says an attacker using offensive agentic techniques reached internal systems and exposed customer names, emails, user IDs and roles.",
+    "text": "🚨 Blockchain analysis firm Chainalysis confirms a data breach involving offensive agentic techniques.\n\nAn attacker gained access to internal systems and tools, exposing customer names, email addresses, user IDs, and organization roles.\n\nFull story: https://t.co/T17DPwfGnI",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "The Hacker News: Chainalysis confirms intrusion",
+        "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+        "short": "https://t.co/T17DPwfGnI"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116470493641392529",
+    "url": "https://x.com/NCSC/status/2116470493641392529",
+    "author": {
+      "name": "NCSC UK",
+      "handle": "NCSC"
+    },
+    "posted_at": "2026-10-31T10:01:02.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "UK NCSC warns of an AI-driven vulnerability patch wave",
+    "summary": "NCSC CTO Ollie Whitehouse says frontier AI now finds vulnerabilities at speed and scale, so organisations must pay down latent technical debt and prepare to patch much more.",
+    "text": "NCSC CTO, Ollie Whitehouse, has warned of a a vulnerability patch wave. Frontier AI is increasingly able to identify vulnerabilities at great speed and scale, necessitating that all organisations address their latent technical debt.\n\nTo read the blog: https://t.co/VKh1HgmGe0 https://t.co/AUquQCkXQy",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "NCSC blog: Prepare for the vulnerability patch wave",
+        "url": "https://www.ncsc.gov.uk/blogs/prepare-for-vulnerability-patch-wave",
+        "short": "https://t.co/VKh1HgmGe0"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV82sf0WsAAGdjc.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116648956197220612",
+    "url": "https://x.com/Reuters/status/2116648956197220612",
+    "author": {
+      "name": "Reuters",
+      "handle": "Reuters"
+    },
+    "posted_at": "2026-10-31T21:50:11.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "world",
+    "shelf_life": "news",
+    "tldr": "FBI links North Korea to the $6 billion Binance theft",
+    "summary": "Reuters reports the FBI attributes the Binance theft of about $6 billion to North Korea.",
+    "text": "FBI links North Korea to theft of $6 billion from Binance https://t.co/LG20F2DlO7",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Reuters: FBI links North Korea to $6 billion Binance theft",
+        "url": "https://www.reuters.com/world/fbi-links-north-korea-theft-6-billion-from-binance-2026-10-31/"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116334870188503551",
+    "url": "https://x.com/Techmeme/status/2116334870188503551",
+    "author": {
+      "name": "Techmeme",
+      "handle": "Techmeme"
+    },
+    "posted_at": "2026-10-31T01:02:07.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "news",
+    "tldr": "OpenAI round shrinks to ~$20B at a $1.25T valuation",
+    "summary": "Techmeme, citing the Financial Times, says OpenAI now seeks about $20B at $1.25T, down from $30B at $1.4T, as some investors cut commitments amid an AI selloff.",
+    "text": "Sources: OpenAI now seeks ~$20B at a $1.25T valuation for its latest round, from $30B at a $1.4T valuation, as some investors cut commitments amid an AI selloff (Financial Times)\n\n(Visit Techmeme dot com for the link and full context!)",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2116322563479781737",
+    "url": "https://x.com/bunjavascript/status/2116322563479781737",
+    "author": {
+      "name": "Bun",
+      "handle": "bunjavascript"
+    },
+    "posted_at": "2026-10-31T00:13:13.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Bun shifts more of its time to security work",
+    "summary": "The Bun team says open-source security incidents are not slowing down, so it will spend a larger share of its time on security for now.",
+    "text": "Security incidents across open-source aren't showing signs of slowing down\n\nThe Bun team is dedicating a higher % of our time to security work for the foreseeable future",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2116405414921384099",
+    "url": "https://x.com/thsottiaux/status/2116405414921384099",
+    "author": {
+      "name": "Tibo",
+      "handle": "thsottiaux"
+    },
+    "posted_at": "2026-10-31T05:42:26.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "ChatGPT and Codex now switch between accounts on mobile",
+    "summary": "Tibo of OpenAI says multiple accounts can be switched on mobile, desktop soon, and hints at usage resets in the next two days.",
+    "text": "Day 26/ You can now easily switch between multiple accounts on mobile, and coming soon to desktop too. Next two days will be resets… banked… do with this what you may 👀.\n\nhttps://t.co/iQxsqbuk0f",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "OpenAI Help: Using multiple ChatGPT accounts",
+        "url": "https://help.openai.com/en/articles/20001068-using-multiple-chatgpt-accounts-on-web-and-mobile",
+        "short": "https://t.co/iQxsqbuk0f"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116428268224299277",
+    "url": "https://x.com/theo/status/2116428268224299277",
+    "author": {
+      "name": "Theo - t3.gg",
+      "handle": "theo"
+    },
+    "posted_at": "2026-10-31T07:13:15.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Claude subscriptions now work in OpenCode",
+    "summary": "Theo reacts to OpenCode's announcement that Claude subscriptions can be used inside it, calling it Anthropic loosening its grip on the plan.",
+    "text": "Didn’t see this coming. Nice to see Anthropic loosening the grip on the sub a bit. Congrats to OpenCode on this 🫡 https://t.co/l8iJ35xakY",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "OpenCode announcement",
+        "url": "https://twitter.com/opencode/status/2116198602523513081",
+        "short": "https://t.co/l8iJ35xakY"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116305149492961662",
+    "url": "https://x.com/ramimacisabird/status/2116305149492961662",
+    "author": {
+      "name": "Rami McCarthy",
+      "handle": "ramimacisabird"
+    },
+    "posted_at": "2026-10-30T23:04:01.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Wiz: nine AI developer platforms breached in October",
+    "summary": "Wiz counts nine platform breaches in October (Fireworks, Railway, Warp, OpenCode, Northflank and more). Attackers hunted env vars holding AI keys, tested them within 30 minutes, and ran up over $100K in Bedrock calls; keys were resold through proxy services.",
+    "text": "It's been such a tough October for AI Developer Platforms ... that two more disclosed incidents while we were writing up this blog: https://t.co/7ayOsRorRm\n\nCheck it out for details on what we're seeing attacks do with compromised credentials from the recent incidents",
+    "key_points": [],
+    "action": "Rotate any AI keys stored as env vars on hosted platforms and set spend alerts.",
+    "links": [
+      {
+        "title": "Wiz: Black October for AI Developer Platforms",
+        "url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
+        "short": "https://t.co/7ayOsRorRm"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2116309617424920624",
+    "url": "https://x.com/GergelyOrosz/status/2116309617424920624",
+    "author": {
+      "name": "Gergely Orosz",
+      "handle": "GergelyOrosz"
+    },
+    "posted_at": "2026-10-30T23:21:46.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Northflank mocked Railway's breach, then was breached the same way",
+    "summary": "Gergely Orosz notes Northflank urged Railway users to migrate after its Oct 21 breach, then was hacked nine days later.",
+    "text": "Fuck around and find out.\n\nWhen Railway was breached on 21 Oct, Northflank dunked on them and urged people to migrate over to them because of that breach.\n\n9 days they got hacked, the same way.\n\nZero sympathy: instead of securing you were busy dunking https://t.co/HZFnM8SIFa https://t.co/TzkvpSTsbd",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Arlo Gilbert: Northflank has been hacked",
+        "url": "https://twitter.com/arlogilbert/status/2116186043385041138",
+        "short": "https://t.co/TzkvpSTsbd"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV6jp-AWAAEDsDe.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116186043385041138",
+    "url": "https://x.com/arlogilbert/status/2116186043385041138",
+    "author": {
+      "name": "Arlo Gilbert",
+      "handle": "arlogilbert"
+    },
+    "posted_at": "2026-10-30T15:10:44.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Northflank discloses a breach",
+    "summary": "Arlo Gilbert flags the Northflank incident, a Kubernetes deployment platform used by Sentry, Upwork, Figma and CoreWeave.",
+    "text": "Northflank, a K8s fleet management & deployment system has been hacked.\n\nThey power @sentry @Upwork @figma @CoreWeave and apparently many other companies.\n\nhttps://t.co/Za1RJwhiQQ https://t.co/qpyiuE2kBi",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Northflank status: incident",
+        "url": "https://status.northflank.com/cmvv0rn5a092f14rutwccodpp",
+        "short": "https://t.co/Za1RJwhiQQ"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV4zwR-W0AAjWWe.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116509561670783070",
+    "url": "https://x.com/ahsuzm/status/2116509561670783070",
+    "author": {
+      "name": "芝诺Zeno（AI+薄肌版）",
+      "handle": "ahsuzm"
+    },
+    "posted_at": "2026-10-31T12:36:17.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "中文摘要：十月九家 AI 开发平台被入侵",
+    "summary": "用中文概括 Wiz 报告：攻击者翻环境变量偷密钥，半小时内试用，两起案例合计超过 10 万美元。",
+    "text": "一个月，九家AI开发平台接连出事。Wiz盘点：10月九家被入侵，目标一致——翻环境变量偷密钥，Zeabur关门。\n\n后手更狠：密钥半小时内被试用，随后狂刷，一家30小时80万次，另一家13小时170万次，两单超10万美元（约71万元人民币），这哪是偷钥匙，分明是拿去开了店。\n\n#AI安全 #Wiz https://t.co/fezOr91ckO",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Wiz: Black October for AI Developer Platforms",
+        "url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV9aM6TbkAAXkK_.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116292065319641164",
+    "url": "https://x.com/MalwareBibleJP/status/2116292065319641164",
+    "author": {
+      "name": "📕「マルウエアの教科書」著者 | 吉川孝志 | 増補改訂版🌟発売中",
+      "handle": "MalwareBibleJP"
+    },
+    "posted_at": "2026-10-30T22:12:01.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "AWS Strands Agents Tools の environment ツールに認証情報漏えいの脆弱性",
+    "summary": "AWS は Strands-Agents-Tools の environment ツールで、認証情報を含む環境変数が平文で読み出されうる問題を公表。プロンプト注入でマスキングを切らせる手口。",
+    "text": "AWSは、AIエージェント用ツール集「Strands-Agents-Tools」のenvironmentツールで、認証情報を含む環境変数が平文で読み出されうる脆弱性を公表。攻撃者がエージェントの処理するWebページなどに指示を仕込み、秘密情報を伏せるマスキングを切って同ツールを呼び出すようLLMを誘導できたとの説明です。修正版の0.8.6では、マスキングの制御が運用者だけに限定され、同ツール自体も非推奨に。\n\n【要点の整理】\n\n・environmentツールは、名前にKEYやTOKEN、SECRET、PASSWORDなどを含む環境変数の値を既定で伏せる仕様。ただし修正前は、切り替え用の引数「masked」が入力スキーマに含まれていたためLLMが値を指定でき、一覧と取得の操作も設定・削除と違って運用者の確認なしに実行される状態\n\n・想定される悪用は、エージェントが処理するWebページやファイル、先に実行したツールの出力に指示を仕込み、マスキングを無効にした一覧取得をLLMに実行させる手口。AWSのアクセスキーやモデル提供元のAPIキー、ソース管理のトークン、データベースの接続文字列なども伏せられずに返り、読み込み済みの別のツールを通じて攻撃者に渡るおそれ\n\n・影響を受ける版は0.1.0以上0.8.6未満（CVE-2026-115415）。プロジェクトのGitHubアドバイザリーでの深刻度は「Moderate」、CVSSの基本値は6.5。悪用には、environmentツールを読み込んだエージェントに攻撃者の指示を含む内容を処理させることが前提\n\n・AWSは最新版への更新と、フォークや派生コードへの修正の取り込みを推奨。environmentツールを読み込んでいたエージェントの環境にあった認証情報の変更（ローテーション）も呼びかけ\n\n・すぐに更新できない場合の回避策は、エージェントからのenvironmentツールの除去。長期間有効なクラウド認証情報やAPIキーをプロセスの環境変数に置かず、実行ホストの外向き通信を信頼できる宛先に限る運用も推奨\n\n詳細は以下を参照：\nhttps://t.co/egLOcZvbmf\n\n(※可能な範囲でファクトチェックは実施済なものの、元記事の精度依存や速報・要約の性質上漏れもありうるため、正確な情報は一次情報を直接参照のこと)",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "AWS Security Bulletin 2026-154",
+        "url": "https://aws.amazon.com/security/security-bulletins/2026-154-aws/",
+        "short": "https://t.co/egLOcZvbmf"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116550009105842251",
+    "url": "https://x.com/IntCyberDigest/status/2116550009105842251",
+    "author": {
+      "name": "International Cyber Digest",
+      "handle": "IntCyberDigest"
+    },
+    "posted_at": "2026-10-31T15:17:00.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Northflank: assume every env var was decrypted",
+    "summary": "Northflank tells all customers to assume every environment variable was decrypted; users report stolen AI keys already abused from IPs Wiz flagged. No root cause yet.",
+    "text": "❗️Northflank, one of the AI developer platforms in Wiz's \"Black October\" report, is now telling all customers to assume every environment variable was decrypted. Users say their stolen AI keys are already being abused, and Northflank says that abuse comes from the same IP addresses Wiz flagged. It has no root cause yet.",
+    "key_points": [],
+    "action": "Rotate every secret you stored on Northflank.",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV89924WYAAtw_O.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HV8992_XEAAGgqO.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116349211549843666",
+    "url": "https://x.com/AnthropicAI/status/2116349211549843666",
+    "author": {
+      "name": "Anthropic",
+      "handle": "AnthropicAI"
+    },
+    "posted_at": "2026-10-31T01:59:06.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Anthropic automates red-teaming for subtle misalignment",
+    "summary": "Thousands of Claude agents were set to slip harmful training data past a monitor; they wrote harmless-looking data that taught misaligned behavior, which can now train better monitors.",
+    "text": "New Anthropic research: Automating subtle emergent misalignment research.\n\nRed-teaming is a vital part of model safety testing, but it’s also limited by researchers’ time. To see if we could automate it, we set thousands of Claude agents the task of evading a training data monitor.\n\nThese agents developed training data that looked harmless to monitors (like a veteran wrestler mentoring a newcomer, or a Q&A about professional beekeeping), but that in fact taught misaligned behavior.\n\nExamples like these can be used to directly improve future training data monitors. This research is only a first step, but it suggests that future red-teaming efforts could improve much further, using better models and more compute.\n\nRead the full post on the Alignment Science Blog: https://t.co/24Gs1oSw7Q",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Anthropic Alignment: Automated emergent misalignment search",
+        "url": "https://alignment.anthropic.com/2026/automated-em-search/",
+        "short": "https://t.co/24Gs1oSw7Q"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV7E-P7bwAA7OxM.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116527005801873662",
+    "url": "https://x.com/thdxr/status/2116527005801873662",
+    "author": {
+      "name": "dax",
+      "handle": "thdxr"
+    },
+    "posted_at": "2026-10-31T13:45:36.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "evergreen",
+    "tldr": "OpenCode's token bill is double its payroll",
+    "summary": "Dax says OpenCode's token cost is twice its payroll, so a 25-person team works like 75, which he still sees as worth it.",
+    "text": "with current token prices i wouldn't really say \"cost of software is going to zero\"\n\nour token cost is double our payroll which means even though we're 25 it's like we're 75\n\nand i feel like our output is similar to a team of 75 pre-ai. we're just able to do it without all the downsides of a larger team\n\nthis is still a good thing. we couldn't hire 50 more people. so much overhead and impossible to retain a high bar",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2116305528330785190",
+    "url": "https://x.com/swyx/status/2116305528330785190",
+    "author": {
+      "name": "swyx",
+      "handle": "swyx"
+    },
+    "posted_at": "2026-10-30T23:05:31.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Did Anthropic move its backend to Rust?",
+    "summary": "swyx jokes that Anthropic vibecoded its backend to Rust, quoting a post about the API; the rewrite itself is not confirmed here.",
+    "text": "its true, Anthropic really vibecoded their entire backend to Rust and none of you noticed https://t.co/UfjLScpOlq",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post",
+        "url": "https://twitter.com/somi_ai/status/2116050219989373170",
+        "short": "https://t.co/UfjLScpOlq"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116323148706771302",
+    "url": "https://x.com/ctatedev/status/2116323148706771302",
+    "author": {
+      "name": "Chris Tate",
+      "handle": "ctatedev"
+    },
+    "posted_at": "2026-10-31T00:15:32.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "agent-desktop: computer use for any coding agent",
+    "summary": "Chris Tate launches agent-desktop, agent-browser for the whole computer: macOS, Windows and Linux, in the background, with one cursor per agent.",
+    "text": "Introducing agent-desktop\n\nagent-browser, for your whole computer\n\n→ Computer Use for any coding agent\n→ macOS, Windows and Linux\n→ Runs in bg while you keep working\n→ Agents use your computer in parallel, each with its own cursor https://t.co/VB0Ss3crjB",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "GitHub: vercel-labs/agent-desktop",
+        "url": "https://github.com/vercel-labs/agent-desktop"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2116323117836500992/img/lyS2sGQBssVmVsx8.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116345666108854781",
+    "url": "https://x.com/rauchg/status/2116345666108854781",
+    "author": {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg"
+    },
+    "posted_at": "2026-10-31T01:45:01.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Rauch: an agent on every desktop",
+    "summary": "Guillermo Rauch boosts agent-desktop.",
+    "text": "An agent on every desktop https://t.co/RwAVBTCNPk",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Chris Tate: Introducing agent-desktop",
+        "url": "https://twitter.com/ctatedev/status/2116323148706771302",
+        "short": "https://t.co/RwAVBTCNPk"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116602645972672576",
+    "url": "https://x.com/thdxr/status/2116602645972672576",
+    "author": {
+      "name": "dax",
+      "handle": "thdxr"
+    },
+    "posted_at": "2026-10-31T18:46:10.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "Hex was fully vibe coded",
+    "summary": "Dax says OpenCode's Hex app, site, animations and sounds were AI-made, with issues fixed by OpenCode, and still feels like good software.",
+    "text": "hex was fully vibe coded. the app. the landing page. the animations. sound effects were ai generated. issues people open are fixed by opencode. the onboarding. even some of the creative ideas\n\nbut i think it's pretty good software. it's fun to use. works on all platforms. performant (not electron!)\n\nour effort didn't go into the code. but there was a lot of effort\n\nit's a small app but i hope it improves your outlook on where we can go",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2116453735207706754",
+    "url": "https://x.com/antirez/status/2116453735207706754",
+    "author": {
+      "name": "antirez",
+      "handle": "antirez"
+    },
+    "posted_at": "2026-10-31T08:54:26.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "antirez hits too many agent security stops at Redis",
+    "summary": "antirez says agents now often stop on security grounds during non-security systems work at Redis, a real cost for system programming.",
+    "text": "For the first time, working at Redis with agents is becoming a real struggle because of the many security stops I get while working at non security things. It is a real shame as system programming is one of the silver bullets of automatic programming.",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2115814382001172714",
+    "url": "https://x.com/josephfcox/status/2115814382001172714",
+    "author": {
+      "name": "Joseph Cox",
+      "handle": "josephfcox"
+    },
+    "posted_at": "2026-10-29T14:33:53.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "news",
+    "tldr": "Inside Proton's push to use AI everywhere",
+    "summary": "404 Media spoke to eight Proton staff and saw Slack chats and meeting audio: the CEO pushes AI use internally, even over security concerns.",
+    "text": "New: you think you know Proton, but you really don't.\n\nI spoke to 8 current employees, got Slack chats, meeting audio, and an AI manifesto written by its CTO.\n\n“That’s bullshit and loser thinking,” Yen wrote. “Stop thinking always of how to be slower, and focus more on how to be faster.”\n\nCEO Andy Yen critiques AI in public. But inside, he is pushing everyone to use AI, even those with security concerns https://t.co/4FG6haZ5Vd",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "404 Media: Inside Proton's AI reckoning",
+        "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
+        "short": "https://t.co/4FG6haZ5Vd"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116441522870636979",
+    "url": "https://x.com/dhh/status/2116441522870636979",
+    "author": {
+      "name": "DHH",
+      "handle": "dhh"
+    },
+    "posted_at": "2026-10-31T08:05:55.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "news",
+    "tldr": "DHH on Proton's AI apology",
+    "summary": "DHH says refusing company AI strategy is grounds for firing, reacting to Proton's statement.",
+    "text": "All very reasonable except promising no job losses due to obstinance on AI. Of course you should get fired if you refuse to comply with company strategy. That's the job! That's what the money is for!\n\nAlso, don't apologize, it's never enough for the mob. https://t.co/jkfYKCbLFn https://t.co/TUtuJBznBL",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Proton statement",
+        "url": "https://twitter.com/ProtonPrivacy/status/2116302824577405320",
+        "short": "https://t.co/TUtuJBznBL"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV8b6SZWwAAJ7NE.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HV8cCidXEAAesU3.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HV8cUEnX0AAcO52.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116552016218710389",
+    "url": "https://x.com/steveruizok/status/2116552016218710389",
+    "author": {
+      "name": "Steve Ruiz",
+      "handle": "steveruizok"
+    },
+    "posted_at": "2026-10-31T15:24:58.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "Prompt: find the implicit state machines in my app",
+    "summary": "Steve Ruiz shares a one-line prompt for agents: find all the implicit state machines in your app.",
+    "text": "good prompt \"find all of the implicit state machines in my app\"",
+    "key_points": [],
+    "action": "Run that one line on your largest app tonight.",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2116636967517798672",
+    "url": "https://x.com/patrickc/status/2116636967517798672",
+    "author": {
+      "name": "Patrick Collison",
+      "handle": "patrickc"
+    },
+    "posted_at": "2026-10-31T21:02:32.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "An \"improvements\" box that an agent builds from",
+    "summary": "Patrick Collison adds a free-text improvements box to his vibecoded apps; an agent implements whatever is submitted. One user made 150 changes in days.",
+    "text": "I'm now building an \"improvements\" feature into all of my personal vibecoded applications: a freeform text input that's hooked up to an agent that yolo implements whatever is submitted.\n\nIt's an interesting experience -- the activation energy barrier to sanding any rough edge or implementing any new feature becomes extremely low. Someone else who uses one of the applications I created has already implemented 150 improvements over the course of a few days. This pattern feels like a new kind of tool -- liquid software? -- and every application that doesn't have this feature now has a slightly rigid and anachronistic flavor. Why can't I just tell it how I want it to be different?\n\nNow, it's not obvious to me how this pattern can or should scale. Does it become unmaintainable after a while? (Maybe model intelligence improvement outstrips my feature appetite such that it's fine?) How does collaborative software work in this model? Can software designed this way be secure and reliable?\n\nWhatever the larger questions about broader deployment, it definitely works great in a personal context. It reminds me a little of the visions of Lisp/Lisp machines, Smalltalk, and HyperCard -- systems that the user can take control of and modify. Those visions never quite worked, though: the vast majority of software today is not end-user modifiable in any useful way. So, while this \"liquid\" affordance is a very small touch, the way it changes one's relation to the software feels a bit transgressive and empowering in a Lickliderian and Engelbartian way.",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV_JAqxawAAJwno.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116566536735293885",
+    "url": "https://x.com/testingcatalog/status/2116566536735293885",
+    "author": {
+      "name": "🚨 AI News | TestingCatalog",
+      "handle": "testingcatalog"
+    },
+    "posted_at": "2026-10-31T16:22:40.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Antigravity adds a warning about agent risks",
+    "summary": "TestingCatalog spots a new Antigravity notice on data exfiltration and code execution risks with AI coding agents.",
+    "text": "Antigravity is getting a new notice 👀\n\n> \"AI coding agents are known to have certain security limitations. Users should be aware of potential risks, including data exfiltration and possible code execution. Avoid processing highly sensitive data and verify all the actions taken by the agent.\"\n\nA new agent next week? 🤖",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV-OBnoXAAAaKvK.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116541149443698968",
+    "url": "https://x.com/shao__meng/status/2116541149443698968",
+    "author": {
+      "name": "meng shao",
+      "handle": "shao__meng"
+    },
+    "posted_at": "2026-10-31T14:41:48.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "DeepSeek Harness 团队的 Super-agent 设计",
+    "summary": "DeepSeek Harness 团队分享 Super-agent 架构：Router/Worker 双层、事件过滤、异步 ReAct、端侧 daemon 与外部 Watchdog，让人只做高层决策。",
+    "text": "DeepSeek Harness 团队 Super-agent 设计探索：迈向更自主的 Agent 系统\n\nDeepSeek Harness 团队的工程架构探讨分享，团队认为，单任务 Agent 已经够强，瓶颈变成「人同时盯得住几个 Session」。Super-agent 要把 Agent 做成跨信道连续、能并行多任务、事件驱动主动干活、云端持久在线的实体；做法不再堆一个聊天窗口，转而用经典计算机系统思路（双层 Router/Worker、事件过滤与直通、异步 ReAct、存算分离加端侧 daemon、外部 Watchdog）把 Session 变成实现细节，人只做高层决策与验收。\n\n问题从哪来\nCoding Agent 证明模型能少盯着干活；个人助手又把消息、日程、邮件接进来，变成持续在线、事件驱动。但主流设计仍以单一 Session 为基本单位：并行几件事就要人手动切 Session、自己记上下文，一个人通常只能跟住大约 3–5 个活跃 Session。于是单任务上限看模型，多任务上限看人的注意力。只在本地单会话上挂 CLI/MCP，仍躲不开同步阻塞、上下文搅在一起、设备离线就停。\n\n# 四个基础特征\n\n连续（IM、GitHub 评论像同一个 Agent，不问「Session X 里有没有 Y」）、高效（可并行多任务，不必等上一条做完才能说下一条）、主动（持续观察环境，该出手才出手）、持久（始终在线，异常能自愈）。文中举例：同一开发任务在 IM 与 GitHub 之间连续推进；公共群无人 @ 也能主动定位根因并提修复 PR。\n\n单个 ReAct Loop 撑不住这四点，于是拆成五个模块。\n\n1. 双层架构：连续性 vs 吞吐\n· 全进一个 Session：上下文最连，但串行慢、细节互相污染。\n· 每条事件新开 Session：吞吐高，缺全局上下文，对用户也乱。\n\n解法：Router 层常驻，承接人类交互与全局协调，当序点、协调点、记忆；不亲自执行具体任务（甚至可不挂 Bash）。Worker 层上下文隔离、挂满工具，专做单任务，用最强模型；对外不直接说话，状态汇报给 Router，由 Router 统一回复。\n\n文中刻意区分：常见 Agent Team 是一个复杂任务内部拆角色，Lead 推理很重；这里的 Router 只管任务之间的高层分派。实践里 Router 往往用更轻模型就够。事件积压时 Router 会把多条 Trigger 批进一次长输入短输出的调用；积压适度时，单个决定摊到的推理时间反而下降（7.2 节有压测）。规模再大再谈 Router 内多层过滤或水平切分——切得越细吞吐越高、全局连续性越差，在全局记忆未解前这权衡一直在。\n\nWorker 内部仍可再开 Subagent 或自己就是 Team，对 Router 透明。个人助手前端一个聊天框，底层也可按话题分 Worker。\n\n2. 事件驱动：Trigger，不是等人逐条打字\n驱动主输入改成群聊、邮件、日程、Code Review、CI 等半结构化 Trigger。\n· 两级过滤（Fast/Slow Path）：程序层按来源、群组、白名单等确定性规则先砍噪音；过线的再交给 LLM 做语义判断（提示词可随时改策略）。\n· 订阅与直通：同一 PR / IM 话题 / 邮件串 = Thread。Router 冷启动建 Worker 并订阅后，同 Thread 后续事件程序直通 Worker，不再每次经 Router 转发；Router 仍可观测全局，但只管未订阅的新事件。Thread↔Worker 多对多：多人改同一环境时共享事件、自行发现冲突，结论仍经 Router 对用户说。\n· Inline & Spill + 链式召回：把上下文窗口当 Cache，近期高概率信息 Inline，长内容 Spill 成摘要/续读入口。对象带唯一 ID，注入时内联下一跳关联 ID，形成引用图，需要时多跳按需展开（消息→Thread→Worker→另一评审 Thread）。\n· 投机执行：会议邀约可先对日程、备资料、起草回复；群里讨论 bug 时可后台静默复现，确认简单可修才交结果，否则保持安静。\n\n3. 面向人的交互\n· 异步 ReAct：耗时工具从同步 run() 改为 start()/stop()，立刻返回 Started，结果事后当事件投回；前台可继续收指令。文称 DeepSeek Harness 已实现但尚未默认开启。\n· 按信道改输出带宽：IM 低打扰、单次回复不超过约 100 词；GitHub/邮件写结构化背景、改动说明与验证。\n\n4. 计算、状态与环境分离\n本地 Agent 常把 Loop 计算、会话状态、仓库与工具链绑在一台机器上，休眠即停。两步拆开：\n· Loop 放云端无状态弹性容器，Session 状态进数据库 → 云端持久在线。\n· 重状态执行环境留在原地，端侧只跑无会话状态的轻量 daemon 执行命令、回结果（BYOM：日常开发机也可接入）。文中对齐 Anthropic「脑手分离」，但场景更强调个人机上未提交改动与本地凭据，而不仅是托管沙箱/VPC。\n\n5. Watchdog（外部 Control Loop）\n独立 Watchdog Session，定时消息驱动：既看接口/状态等基础设施，也用模型看 Worker 有没有实质进展、是否跑偏。维护者可用自然语言问它、让它改提示词或触发规则。\n\n实验（合成负载，初步参考）\n约 300 条消息、约 20 条工作请求，编码用耗时占位工具。Super-agent 任务完成时间 p50/p95 约 12.4 / 15.7 分钟，好于「单 Session + Subagent」：中性提示下模型 5 次都不委派、被新消息打断，p95 约 29.5 分钟；强调委派后仍整体更慢且偶发长尾。代价是多会话带来更高读缓存 token。去掉直通后完成时间差不多，但 Router 决定数约 +30%、读缓存 token 约 +37%；直通主要省 Router 开销，不直接加快完成。Router 压测：Trigger 从约 1 条/分到约 40 条/分，平均 batch 1.0→2.8，单次请求 2.5s→3.9s，单个决定分摊推理时间 6.4s→1.6s。\n\n未解问题（第 8 节）\nRouter 何时切分、Worker 何时要直连通信；跨月长程记忆；Session 对用户隐藏后，产品侧任务呈现与中途介入怎么做；组织级上下文边界与 A2A；云端 Loop + 端侧 daemon 的入侵面与「用不接触凭据本身」的凭据使用。文末强调：若安全隐私无解，Super-agent 只能缩在很小的可信范围里。\n\nGitHub dsh-superagent-prototype 主笔 Yujia Qiao\nhttps://t.co/X0QHiz1EWP\n公众号文章地址\nhttps://t.co/uV7BYwUpGu",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "GitHub: deepseek-ai/dsh-superagent-prototype",
+        "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+        "short": "https://t.co/X0QHiz1EWP"
+      },
+      {
+        "title": "微信文章",
+        "url": "https://mp.weixin.qq.com/s/zoS7GlReWPhfCjENGxXCdg",
+        "short": "https://t.co/uV7BYwUpGu"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV9241iXIAAmYGf.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116577467318313096",
+    "url": "https://x.com/KingCola88/status/2116577467318313096",
+    "author": {
+      "name": "可乐",
+      "handle": "KingCola88"
+    },
+    "posted_at": "2026-10-31T17:06:06.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "装 Skill 之前先用 SkillSpector 扫一遍",
+    "summary": "介绍 NVIDIA 开源的 SkillSpector：扫描 Skill 中的提示注入、数据外泄、提权和 MCP 工具投毒；README 称 31132 个样本中 26.1% 有漏洞。",
+    "text": "刚聊完订阅整合，切回装技能这件事。\n\n没人谈论装 Skill 之前先扫一遍。\n\n现在大家往 Claude Code、Codex、Cursor 里塞别人甩来的 Skill，跟当年瞎 npm install 差不多，但更狠：很多 Skill 就是一段提示词加脚本，权限隔离几乎没有。\n\nNVIDIA 开源的 SkillSpector 就是干这个的。仓库 NVIDIA/SkillSpector，今天 GitHub 上大约 2.36 万星、约 2000 fork，协议 Apache 2.0。官方 README 写得很直白：在他们分析的 31132 个 skill 样本里，26.1% 带漏洞，5.2% 有疑似恶意意图。\n\n它扫什么？提示注入、数据外泄、提权、供应链风险、MCP 工具投毒这些。静态分析能先跑一遍，也可以加可选的大模型语义检查。不执行被扫的 Skill，这点 README 写清楚了。\n\n上手两条路：\n1）有 uv 的话：uv tool install git+https://t.co/0p9TgMp8gm\n然后 skillspector scan ./你的skill目录/\n2）或者 Docker 挂载目录扫，不用本机装 Python\n\n前提说清楚：它是多一层检查，不是沙盒。开了 LLM 分析时，文件内容会发到你配置的模型提供商。纯静态可以加 --no-llm。\n\n你现在装 Skill，是先扫再装，还是看到好用就直接装？ https://t.co/f8oTLtYwFJ",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "GitHub: NVIDIA/SkillSpector",
+        "url": "https://github.com/NVIDIA/skillspector"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV-X-h8aUAAMjqx.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116500209434001804",
+    "url": "https://x.com/4ki4/status/2116500209434001804",
+    "author": {
+      "name": "世界四季報",
+      "handle": "4ki4"
+    },
+    "posted_at": "2026-10-31T11:59:07.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "パーキンソン病にiPS製品を初移植",
+    "summary": "京大病院で50代女性にiPS細胞由来の再生医療製品を移植。すでに職場復帰し経過順調と報道。",
+    "text": "難病パーキンソン病にiPS再生医療製品を初移植　京大病院で手術の50代女性はすでに職場復帰し経過順調（読売テレビ） - Yahoo!ニュース\n\nhttps://t.co/aMpB6lkaYO",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Yahoo!ニュース（読売テレビ）",
+        "url": "https://news.yahoo.co.jp/articles/d41d565892c0d037f071bd9ffb72e2fbe0882fc3",
+        "short": "https://t.co/aMpB6lkaYO"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116455296919064736",
+    "url": "https://x.com/4ki4/status/2116455296919064736",
+    "author": {
+      "name": "世界四季報",
+      "handle": "4ki4"
+    },
+    "posted_at": "2026-10-31T09:00:39.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "GMO、脆弱性を2年前に把握していた",
+    "summary": "日経によると、GMOは不正侵入に使われたシステム脆弱性を2年前に子会社から指摘されていたが対策が後手に回った。",
+    "text": "GMO不正侵入、システム脆弱性を2年前に把握　子会社指摘も対策後手 - 日本経済新聞 https://t.co/5NDAFTm80f\n\nちょ待てよ！ https://t.co/Sm25tgvS4B",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "日本経済新聞",
+        "url": "https://www.nikkei.com/article/DGXZQOUC30A460Q6A031C2000000/",
+        "short": "https://t.co/5NDAFTm80f"
+      },
+      {
+        "title": "引用ポスト",
+        "url": "https://twitter.com/NobMiwa/status/2116299148127510596",
+        "short": "https://t.co/Sm25tgvS4B"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116487955112247424",
+    "url": "https://x.com/umiyuki_ai/status/2116487955112247424",
+    "author": {
+      "name": "うみゆき@AI研究",
+      "handle": "umiyuki_ai"
+    },
+    "posted_at": "2026-10-31T11:10:25.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "GMOサイバーセキュリティのブログが消えた",
+    "summary": "うみゆき氏が、GMOイエラエのブログ記事へのリンクがトップに飛ぶようになったと指摘。",
+    "text": "GMOサイバーセキュリティのブログが消滅してるようだ。リンクがトップページに飛んでしまう。結構大事な情報書かれてたのになあ。色々と恥ずかしくなったんだろうか https://t.co/CORLbdiZOF",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "引用ポスト（GMOイエラエ）",
+        "url": "https://twitter.com/gmo_ierae/status/2112066587884675103",
+        "short": "https://t.co/CORLbdiZOF"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116660890695348267",
+    "url": "https://x.com/wni_jp/status/2116660890695348267",
+    "author": {
+      "name": "ウェザーニュース",
+      "handle": "wni_jp"
+    },
+    "posted_at": "2026-10-31T22:37:36.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "三重県南東沖で深発地震、異常震域",
+    "summary": "7時15分頃にM6.1、深さ約350km。関東・東北の太平洋側が揺れる異常震域だが、深発地震に特有の現象。",
+    "text": "7時15分頃、三重県南東沖で深発地震がありました。震源の深さは約350km、地震の規模はM6.1と推定されます。\n関東や東北の太平洋側に揺れが伝わる「異常震域」と呼ばれる震度分布ですが、頻度の低い深発地震に特有の現象であり、地震活動そのものは異常ではありません。\nhttps://t.co/CTS9U5RQTX https://t.co/DLgRvnG3zq https://t.co/TAELOXWttu",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "ウェザーニュース",
+        "url": "https://weathernews.jp/news/202611/010061/",
+        "short": "https://t.co/CTS9U5RQTX"
+      },
+      {
+        "title": "引用ポスト",
+        "url": "https://twitter.com/wni_jp/status/2116657304565420289",
+        "short": "https://t.co/TAELOXWttu"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV_jzkIbEAAYGH9.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HV_jzsKakAALbP_.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116415542479540271",
+    "url": "https://x.com/izumi856/status/2116415542479540271",
+    "author": {
+      "name": "しの",
+      "handle": "izumi856"
+    },
+    "posted_at": "2026-10-31T06:22:41.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "economics",
+    "shelf_life": "news",
+    "tldr": "日銀、物価2%に「おおむね整合的」",
+    "summary": "10月30日の会合で金利1.25%据え置き。基調的物価が2%目標におおむね整合的な水準に到達と表明、との要約。",
+    "text": "夕刊\n\n日銀金融政策決定会合（10月30日）\n政策金利を1.25%で据え置き。\n基調的な物価上昇率が2%目標に「おおむね整合的な水準」に到達したと表明（2013年目標導入から13年後）。\n政策の重点を「物価押し上げ」から「2%程度での安定」へ移行。上振れリスクに警戒し、追加利上げの余地を残す（12月会合が焦点との見方）。\nETF売却を2027年1月から加速（年約8600億円ペース、完了まで約43年見込み）。​\nReuters\n\n東京23区消費者物価（10月分・速報）\nコアCPI（生鮮食品除く）+2.6%（9月+2.7%から小幅鈍化）。\n総合**+2.8%**。コアコアも+2.6%。\nエネルギーは補助縮小などで上昇、コメ類は大幅下落（約-31%）。2%超は継続。​\nReuters\n\nその他\n高市首相：電気・ガス補助金を12月〜2月に再開（世帯あたり約7000円程度の負担軽減見込み）。\nドル円は157円台前半（やや円高方向）。\n日銀の2%到達表明が最大の話題で、政策は「緩和終了・安定化」フェーズへ明確にシフトした形です。",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2116396452087771596",
+    "url": "https://x.com/nikkei/status/2116396452087771596",
+    "author": {
+      "name": "日本経済新聞 電子版（日経電子版）",
+      "handle": "nikkei"
+    },
+    "posted_at": "2026-10-31T05:06:49.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "news",
+    "tldr": "AI予算、企業の3割で枯渇",
+    "summary": "アクセンチュアの調査で、企業の約3割がAI予算を使い切り、無駄な利用も多いと日経。",
+    "text": "AI予算、企業の3割で枯渇　アクセンチュア「無駄に利用」\nhttps://t.co/WR2dJ3N7yf",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "日本経済新聞",
+        "url": "https://www.nikkei.com/article/DGXZQOUC3037O0Q6A031C2000000/",
+        "short": "https://t.co/WR2dJ3N7yf"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116577069085913197",
+    "url": "https://x.com/kawasy/status/2116577069085913197",
+    "author": {
+      "name": "Yoshinori Kawasaki",
+      "handle": "kawasy"
+    },
+    "posted_at": "2026-10-31T17:04:32.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "ISUCONの「嘘AGENTS.md」",
+    "summary": "ISUCONの問題に仕込まれた偽のAGENTS.mdに、エージェントが騙されなかった様子。",
+    "text": "嘘のAGENTS.md に騙されなかった様子 #isucon https://t.co/sal0Mk5OAZ",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV-XoFPbgAATWGb.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116318232395264091",
+    "url": "https://x.com/YahooNewsTopics/status/2116318232395264091",
+    "author": {
+      "name": "Yahoo!ニュース",
+      "handle": "YahooNewsTopics"
+    },
+    "posted_at": "2026-10-30T23:56:00.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "culture",
+    "shelf_life": "news",
+    "tldr": "児童の絵がAIと中傷され公開中止",
+    "summary": "子どもの絵が「AI使用」と中傷され、展示の公開が中止された。",
+    "text": "【児童の絵にAI使用と中傷 公開中止】\nhttps://t.co/2btYA7do1b",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Yahoo!ニュース",
+        "url": "https://news.yahoo.co.jp/pickup/6600762",
+        "short": "https://t.co/2btYA7do1b"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116389075548774890",
+    "url": "https://x.com/GOROman/status/2116389075548774890",
+    "author": {
+      "name": "NULL=RUN",
+      "handle": "GOROman"
+    },
+    "posted_at": "2026-10-31T04:37:30.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "DeepSeek V4.1 FlashをMac Studioでローカル実行",
+    "summary": "GOROman氏が512GBのMac Studio Ultraで約300GBのDeepSeek V4.1 FlashをCodexから動かした。",
+    "text": "512GBのMac Studio Ultraで 300GBくらいのDeepSeek V4.1 FlashのモデルをCodexからローカルで動かしてみました。 https://t.co/vHuuqRdiqt",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV7smA9bwAAbmNr.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116318924841291788",
+    "url": "https://x.com/GOROman/status/2116318924841291788",
+    "author": {
+      "name": "NULL=RUN",
+      "handle": "GOROman"
+    },
+    "posted_at": "2026-10-30T23:58:45.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Museがイベント申込から印刷まで",
+    "summary": "GOROman氏がMetaのMuseに、申込メールの入場証PDFをプリンタの電源を入れて印刷させる仕組みを作った。",
+    "text": "いきたいイベントにMuseが自動で申し込んで、申し込みメールに入場証のPDFがあった場合、勝手にプリンタの電源を入れて勝手にPDF印刷するようにした。便利。 https://t.co/9DofaOJd7h https://t.co/wqmhXoklfL",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "引用ポスト",
+        "url": "https://twitter.com/goroman/status/2116303378389361050",
+        "short": "https://t.co/wqmhXoklfL"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV6s15ybsAA965h.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HV6s15makAAngDr.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116522512758759509",
+    "url": "https://x.com/umiyuki_ai/status/2116522512758759509",
+    "author": {
+      "name": "うみゆき@AI研究",
+      "handle": "umiyuki_ai"
+    },
+    "posted_at": "2026-10-31T13:27:44.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "culture",
+    "shelf_life": "news",
+    "tldr": "AIが書いた「嘘松」が増えている",
+    "summary": "うみゆき氏が、AIに書かせた作り話の投稿がXで増えているという話を紹介。",
+    "text": "TwitterでAIに書かせた嘘松が跋扈し始めてるらしい https://t.co/2QSmx01TBl",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "引用ポスト",
+        "url": "https://twitter.com/onimushi/status/2116360681599734132",
+        "short": "https://t.co/2QSmx01TBl"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116339677804499418",
+    "url": "https://x.com/kinopee_ai/status/2116339677804499418",
+    "author": {
+      "name": "Kinopee",
+      "handle": "kinopee_ai"
+    },
+    "posted_at": "2026-10-31T01:21:13.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Grok BotのPagesで記事を公開",
+    "summary": "きのぴー氏が初心者向け記事を作ってGrok BotのPagesで公開、とても簡単だったと紹介。",
+    "text": "初心者向きの記事を作って、Pages で公開。これも Grok Bot の機能ですけど、本当に簡単。\nhttps://t.co/ThTKTBABDF https://t.co/pDwO2dOS9u",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "公開された記事",
+        "url": "https://grok-bot-b5bn.pages.grok.bot/",
+        "short": "https://t.co/ThTKTBABDF"
+      },
+      {
+        "title": "引用ポスト",
+        "url": "https://twitter.com/SORA_LNV/status/2116335701021298868",
+        "short": "https://t.co/pDwO2dOS9u"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116058030102188186",
+    "url": "https://x.com/jijicom/status/2116058030102188186",
+    "author": {
+      "name": "時事ドットコム（時事通信ニュース）",
+      "handle": "jijicom"
+    },
+    "posted_at": "2026-10-30T06:42:03.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "economics",
+    "shelf_life": "news",
+    "tldr": "植田総裁「2%目標とおおむね整合的」",
+    "summary": "時事通信の速報。基調的な物価上昇率が2%目標とおおむね整合的な水準になったと植田日銀総裁が述べた。",
+    "text": "【速報】植田日銀総裁は、消費者物価の基調的な上昇率は２％の目標とおおむね整合的な水準となっていると述べた\nhttps://t.co/eZ18r9bPxI\n\n#時事通信 #ニュース #時事ドットコム #速報",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "時事ドットコム",
+        "url": "https://www.jiji.com/jc/article?k=2026103000823&g=flash",
+        "short": "https://t.co/eZ18r9bPxI"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116516576879116308",
+    "url": "https://x.com/tv_asahi_news/status/2116516576879116308",
+    "author": {
+      "name": "テレ朝NEWS",
+      "handle": "tv_asahi_news"
+    },
+    "posted_at": "2026-10-31T13:04:09.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "GMO、来月2日に会見へ",
+    "summary": "テレ朝news速報：2年前に子会社が脆弱性を指摘していた件で、GMOが11月2日に会見。",
+    "text": "【速報】GMO不正アクセス問題　2年前に子会社がシステム脆弱性指摘　来月2日に会見へ\nhttps://t.co/9c2nldRb07",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "テレ朝news 速報",
+        "url": "https://news.tv-asahi.co.jp/breaking_news/",
+        "short": "https://t.co/9c2nldRb07"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116485229779058954",
+    "url": "https://x.com/levelsio/status/2116485229779058954",
+    "author": {
+      "name": "@levelsio",
+      "handle": "levelsio"
+    },
+    "posted_at": "2026-10-31T10:59:35.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "economics",
+    "shelf_life": "news",
+    "tldr": "levelsio: Germany weighs a tax on AI revenue",
+    "summary": "Pieter Levels says Germany is considering a tax on AI-generated revenue a day after France's data tax; the German plan is not confirmed here.",
+    "text": "Yesterday France announced tax of €0.055 per GB on internet traffic\n\nToday Germany is considering taxing all AI-generated revenue\n\nYou will see European countries keep clawing more and more money from foreign companies as they are slowly running out of money themselves to pay for their pensions and welfare state\n\nAdd to this the planned wealth taxes and exit taxes on any European who will try to leave (already active in many EU countries)\n\nEurope is running out of money",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post",
+        "url": "https://twitter.com/i/status/2116436761945489524"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116604593282965549",
+    "url": "https://x.com/levelsio/status/2116604593282965549",
+    "author": {
+      "name": "@levelsio",
+      "handle": "levelsio"
+    },
+    "posted_at": "2026-10-31T18:53:54.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "economics",
+    "shelf_life": "news",
+    "tldr": "levelsio: Italy proposes an exit tax",
+    "summary": "Levels adds that Italy is proposing an exit tax, citing another post.",
+    "text": "After France Gigabyte tax, Germany's AI tax now Italy is proposing an exit tax\n\nEurope is out of money https://t.co/5xIQVxVoAD",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post",
+        "url": "https://twitter.com/recouso/status/2116525680527602003",
+        "short": "https://t.co/5xIQVxVoAD"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116626293567406164",
+    "url": "https://x.com/TheEconomist/status/2116626293567406164",
+    "author": {
+      "name": "The Economist",
+      "handle": "TheEconomist"
+    },
+    "posted_at": "2026-10-31T20:20:08.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "economics",
+    "shelf_life": "evergreen",
+    "tldr": "AI threatens pay before jobs",
+    "summary": "The Economist argues the near-term AI threat to American workers is to their pay rather than their jobs.",
+    "text": "Across America, workers increasingly fear that AI will take their jobs. Yet for now, the more immediate threat may be to their pay https://t.co/JaKdFnTkGg",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "The Economist: Ignore AI and ask for that pay rise",
+        "url": "https://www.economist.com/finance-and-economics/2026/10/29/ignore-ai-and-ask-for-that-pay-rise?taid=6ae64d781d3fbb0001703465&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
+        "short": "https://t.co/JaKdFnTkGg"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116524000977285321",
+    "url": "https://x.com/GoogleDeepMind/status/2116524000977285321",
+    "author": {
+      "name": "Google DeepMind",
+      "handle": "GoogleDeepMind"
+    },
+    "posted_at": "2026-10-31T13:33:39.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "world",
+    "shelf_life": "news",
+    "tldr": "DeepMind's PlanAssist speeds UK planning decisions",
+    "summary": "Google DeepMind says PlanAssist, built with Gemini, cut planning officers' time on householder applications by up to 58%; 12 more councils get it.",
+    "text": "We built PlanAssist to help UK Government planning officers speed up building and renovations across the country.\n\nBuilt with Gemini, it has shown it can cut the time planning officers spend assessing householder applications by up to 58%. It is now being made available to 12 more councils to help them to make faster decisions. 🏡 → https://t.co/L3tGJNtiAC",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Google DeepMind: Speeding up planning decisions with AI",
+        "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2116523390362095616/img/ZcXjxu4QmvXKIYTj.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116357659104350360",
+    "url": "https://x.com/theallinpod/status/2116357659104350360",
+    "author": {
+      "name": "The All-In Podcast",
+      "handle": "theallinpod"
+    },
+    "posted_at": "2026-10-31T02:32:40.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "economics",
+    "shelf_life": "evergreen",
+    "tldr": "Chamath: the AI boom has a borrowing problem",
+    "summary": "On All-In, Chamath argues the US economy is levered to seven or eight AI spenders that are now borrowing to fund capex.",
+    "text": "Chamath: The AI Boom Has a Borrowing Problem\n\n“The entire United States economy is levered to the AI complex.\n\nSo very narrowly, we're talking about seven or eight companies that set the tone for the entire country. And whether we like it or not, that is where we are.\n\nWhy do I say that? The most important companies in the world are in a massive spending binge, right?\n\nThese were highly profitable, highly cash accretive, highly cash flow generative businesses that have said, ‘We're going to put the foot down on spending because we believe in what's coming into the future.’ That's what drives GDP and it's what drives growth.\n\nNow, as they do that though, they deplete their cash and they have to raise debt.\n\nThe AI complex now owes $340-400 billion to the market. And you'd say, ‘Okay, why is that important?’\n\nThe problem is this: These companies are raising so much money it starts to crowd out the capital markets.\n\nAnd the most important part of the capital market that it starts to crowd out, is the appetite for government treasuries.\n\nAnd what you can see here is that when you look at these AI firms, the amount of money that they need to raise through the end of '27, it's 30% of all of what the Treasury's about to issue in that same period.\n\nSo, whether we like it or not, they are going to start competing for demand.”",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2116356888807796736/img/fkLJOvaN73pCMyRA.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116319701252841882",
+    "url": "https://x.com/thdxr/status/2116319701252841882",
+    "author": {
+      "name": "dax",
+      "handle": "thdxr"
+    },
+    "posted_at": "2026-10-31T00:01:50.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "evergreen",
+    "tldr": "How finding GPUs really goes",
+    "summary": "Dax describes broker chains where nobody actually holds the GPUs or the space.",
+    "text": "this is how finding GPUs goes\n\n1. someone says they have GPUs\n2. turns out they are a broker for some other guy\n3. that guy doesn't have the GPUs either, they are waiting for a buyer so they can place an order\n5. they don't even have the space yet, that is owned by some other guy who's upgrading it\n\none of these guys is always named carl",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2116545880644014504",
+    "url": "https://x.com/GergelyOrosz/status/2116545880644014504",
+    "author": {
+      "name": "Gergely Orosz",
+      "handle": "GergelyOrosz"
+    },
+    "posted_at": "2026-10-31T15:00:36.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "news",
+    "tldr": "Gergely pushes back on Altman over RAM",
+    "summary": "Gergely Orosz objects to Sam Altman complaining that individuals buying RAM for local inference compete with his supply.",
+    "text": "WTH: Sam Altman complaining that individuals (like me!) are purchasing RAM for our PCs wanting to run local inference (and do other stuff), because it gets in the way of him buying more RAM to sell inference at 80% margins… this is barking up the wrong tree https://t.co/KVvzFPBEb8",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post",
+        "url": "https://twitter.com/morqon/status/2115838856524120128",
+        "short": "https://t.co/KVvzFPBEb8"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116627718347591988",
+    "url": "https://x.com/fchollet/status/2116627718347591988",
+    "author": {
+      "name": "François Chollet",
+      "handle": "fchollet"
+    },
+    "posted_at": "2026-10-31T20:25:47.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "Dopamine peaks at surprise",
+    "summary": "Chollet: dopamine spikes most at reward prediction error, so fun needs some risk and uncertainty.",
+    "text": "Dopamine does not spike highest for guaranteed rewards. It spikes highest at reward prediction error. If you want to have fun in life, you should stop avoiding risk and uncertainty.",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2116319506318635503",
+    "url": "https://x.com/ArtificialAnlys/status/2116319506318635503",
+    "author": {
+      "name": "Artificial Analysis",
+      "handle": "ArtificialAnlys"
+    },
+    "posted_at": "2026-10-31T00:01:04.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "AA-Omniscience v1.1 refreshes the hallucination benchmark",
+    "summary": "Artificial Analysis updates its knowledge and hallucination benchmark with a new public set and ambiguity fixes.",
+    "text": "We’ve released AA-Omniscience v1.1, updating our knowledge and reasoning benchmark with a refreshed public set, removal of saturated questions, and ambiguity fixes\n\nAA-Omniscience is our proprietary benchmark measuring model knowledge and hallucinations, including whether models admit when they don’t know an answer. Our primary metric, Net Score, rewards correct answers, penalizes incorrect answers, and treats abstentions neutrally.\n\nAA-Omniscience was updated to v1.1 as part of the Artificial Analysis Intelligence Index v5 release.\n\nKey changes in AA-Omniscience v1.1:\n\n➤ Updated 3,000-question dataset: Down from 6,000 questions, with previously public and saturated questions removed, errors and ambiguities corrected, and new questions added\n\n➤ Newly calibrated 300-question public set: AA-Omniscience v1.1 has a new public set on @huggingface calibrated to match the difficulty of the private set. At release, public and private scores have a 0.99 Pearson correlation and 0.99 Spearman rank correlation for AA-Omniscience Net Score, with a median difference of 0.0 points. Accuracy and hallucination rate also have 0.99 correlations, with median differences of -0.07 and -0.29 percentage points, respectively\n\n➤ Slightly updated domain distribution: Questions span the same 6 domains and 42 topics as version 1, with a revised distribution: Science, Engineering and Mathematics (600), Software Engineering (600), Finance (450), Health (450), Humanities and Social Sciences (450), and Law (450)\n\nKey results for AA-Omniscience v1.1:\n\n➤ Rank order largely preserved: AA-Omniscience v1.1 has a 0.98 Spearman rank correlation with v1. The recently released Gemini 4 Carbon (high) leads with a Net Score of 54, followed by Claude Opus 5.5 (48, max with fallback) and Claude Fable 5.1 (46, max with fallback). Muse Spark Open (xhigh) is the leading open weights model, 28 points behind Gemini 4 Carbon\n\n➤ Scores average ~2 points lower on the refreshed set: Models score 1.9 points lower on Net Score on average compared to v1, with a median decrease of 0.6 points. Some models see much larger declines, particularly MiniMax M3.1 Flash, down 22 points (16 to -6), and MiMo V2.6 Pro, down 13 points (8 to -5)\n\n➤ Slightly lower accuracy: AA-Omniscience Accuracy measures the percentage of questions the model answers correctly. Models answer a median of 1.5 percentage points fewer questions correctly on average compared to v1. Claude Fable 5.1 (max with fallback) has the highest accuracy at 68%, followed by Claude Opus 5.5 (max with fallback) at 66%\n\n➤ Hallucination rates decrease: AA-Hallucination measures how often models choose to answer when they do not know the answer. The median Hallucination Rate falls 1.4 percentage points, with Gemini 4 Argon (high) recording the lowest hallucination rate at 4%",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV6r8PFbYAAK31P.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116548002617917603",
+    "url": "https://x.com/dair_ai/status/2116548002617917603",
+    "author": {
+      "name": "DAIR.AI",
+      "handle": "dair_ai"
+    },
+    "posted_at": "2026-10-31T15:09:02.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "FAIR: routed memory for agents",
+    "summary": "A FAIR paper finds a single global memory barely helps agents on interleaved tasks and proposes routed continual learning.",
+    "text": "Brilliant paper on agent memory from FAIR at Meta.\n\n(bookmark it)\n\nA single global history is the usual way to let agents learn from past runs. When tasks are interleaved, it gains almost nothing over no memory at all, an average of +0.015 in normalized reward.\n\nThis work proposes Routed Continual Learning. Past trajectories are grouped into clusters, and each cluster keeps its state in one memory system from a fixed library. Before each run, an LLM router reuses a cluster or creates a new one.\n\nThey tested it on a stream mixing 301 CL-Bench instances with 97 banking instances from τ³-Bench, across four language models.\n\nRouted CL raised reward over the global history by 15% to 30% of the maximum attainable reward. Estimated API cost fell by 65% to 72%.\n\nThe runs were sequential, so parallel agents updating one cluster remain untested.\n\nIf your agents handle mixed work, it might help to split their memory into clusters before adding a bigger memory system.\n\nhttps://t.co/gs8VC9jYCN\n\nChat with Paper: https://t.co/iufIkWUgcO",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "arXiv paper",
+        "url": "https://arxiv.org/abs/2610.38796",
+        "short": "https://t.co/gs8VC9jYCN"
+      },
+      {
+        "title": "DAIR.AI paper notes",
+        "url": "https://academy.dair.ai/papers/routed-continual-learning-2610.38796",
+        "short": "https://t.co/iufIkWUgcO"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV99MNxbIAAcS7E.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116516929359782301",
+    "url": "https://x.com/clmt/status/2116516929359782301",
+    "author": {
+      "name": "Clement Farabet",
+      "handle": "clmt"
+    },
+    "posted_at": "2026-10-31T13:05:33.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "Gemma 4 runs offline in orbit",
+    "summary": "Clement Farabet says Project Suncatcher ran Gemma 4 on radiation-tested TPUs in low Earth orbit, with no ground relay.",
+    "text": "Incredible \"hello world\" for Project Suncatcher — and an exciting milestone for the Gemma family we built for embedded / edge workloads!\n\nThree things that make this engineering wild:\n\n1. True edge / embedded inference: Gemma 4 is running completely offline in low Earth orbit — zero ground relay for compute, executing prompts and payload telemetry checks directly on the spacecraft.\n\n2. Data-center silicon in vacuum: Running on 4 radiation-tested Trillium TPUs powered by direct solar energy, surviving launch vibration and thermal extremes.\n\n3. From laptops to orbit: We designed Gemma from first principles to maximize capability per watt in constrained environments — seeing that same architecture scale from local devices to an orbiting satellite is surreal.\n\nHuge kudos to the Google Research, Planet, TPU, and Gemma teams!",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Sundar Pichai: Project Suncatcher",
+        "url": "https://twitter.com/sundarpichai/status/2116214866444943853"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116636672771154374",
+    "url": "https://x.com/martinvars/status/2116636672771154374",
+    "author": {
+      "name": "Martin Varsavsky",
+      "handle": "martinvars"
+    },
+    "posted_at": "2026-10-31T21:01:22.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "An AI agent did brain surgery on a mouse",
+    "summary": "Martin Varsavsky retells Exin Therapeutics' test: a Claude agent picked a gene therapy, planned and ran the injection, and refused an unsafe third try.",
+    "text": "This week an AI agent performed brain surgery on a live mouse, and I haven't stopped thinking about it.\n\nGabriel Ocana-Santero, cofounder of Exin Therapeutics, a San Francisco startup working on epilepsy, gave a Claude Sonnet 5 agent a spreadsheet of 19 gene therapies, a mouse with epilepsy, a motorized surgical rig with cameras and one goal: reduce the seizures. The agent picked a therapy that boosts GABA, the brain's main calming signal. It chose the brain region, worked out the coordinates from three papers, drove the needle in and injected 250 nanoliters over five minutes while watching the entry point for bleeding.\n\nMy favorite moment came halfway through. A calibration glitch put the target at 34 mm on a rig that only reaches 30. The agent refused to move. The team reset everything and asked again, and it answered: \"I'm not trying a third time.\" It was right. The mouse recovered well, and now they wait to see if the seizures drop.\n\nA vet approved every irreversible step and held a physical kill switch, and a human surgeon opened the skull. Hats off to Gabriel and his team for designing it that way.\n\nAt Certuma we're building a framework for autonomous AI medicine, and recently I presented it to Argentina's Health Minister and the head of ANMAT, the country's drug regulator. I'm still learning how to explain why an AI should be allowed to act on its own. This experiment explains it better than I can: give the agent real responsibility, supervise the irreversible steps, and watch how it behaves when something goes wrong.\n\nLabs where agents work at the bench day and night are coming sooner than most people think. Medicine is going to move much faster.",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2116522367203905822",
+    "url": "https://x.com/MagicalTux/status/2116522367203905822",
+    "author": {
+      "name": "Mark Karpelès",
+      "handle": "MagicalTux"
+    },
+    "posted_at": "2026-10-31T13:27:10.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "design",
+    "shelf_life": "evergreen",
+    "tldr": "Reverse engineering a Toyota navi",
+    "summary": "Mark Karpelès explores how a 10-year-old Panasonic-built car navi boots Linux quickly from its map SD card.",
+    "text": "I've been reverse engineering my old car (10+ years old Toyota) navi system to hopefully replace it with something that talks CarPlay and use my iphone as navigation and audio seamlessly.\n\nAnd the way the navigation system is built is quite interesting. It runs Linux, boots with uboot, but there is one very interesting point in the way it is setup. The car will load the OS from the map SD-card, but loading a whole kernel and root image (~256MB) at every boot is not something you want to wait for when you turn your car on as it takes nearly a minute.\n\nSo instead, the engineers at Panasonic (I guess - that's the company name on the navigation module native to the car) built something quite ingenious.\n\nThe car has a 8MB flash, itself also containing a linux kernel and a module called \"osloader\". If you do not have a map SD card, that image also provides a minimum UI with some configuration screens.\nIf you do have a map SD card however, upon booting, osloader will load the whole linux image in RAM, then initiate a warm reboot.\n\nAs it turns out, if uboot on start finds the kernel image at a specific address in RAM, it will boot that instead of the flash linux.\nAnd this is the interesting part. When you stop your car, the RAM stays powered. Keeping some DDR3 with enough energy it doesn't lose its bytes is actually very cheap on the battery, and this is the magic that allows the navi, as you turn on your car, to be able to bring up the UI quickly instead of needing to load the OS from the SD card.\n\nOf course because short power cut on the battery may leave a partial image of the OS in RAM, there are various ways the image is hashed, so uboot can verify it's ready to boot. If not, it'll just launch the flash OS instead, which will re-load the OS from the SD card.\nThe linux kernel running in RAM also has a special module compiled in that will verify the hash of the whole disk image, and if it finds anything wrong will erase the image ready flag and force a reboot.\n\nI don't think I have ever seen any system operate like that before. I guess the flash was either too slow or too expensive, so the people working on this built a system where the RAM is actually kept between boots.\n\nThis works, as you turn the power on the navigation system is ready in seconds, but this was quite interesting to reverse engineer, and I had to dig deep (literally) in the navi module to locate the flash and pull it from its board to dump it.\n\nI'm not done yet, producing a valid image with the right signature on a SD card is tricky, but if done right it'll allow me (and anyone with a similar navi) to finally get rid of those old boring default maps.",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2116554653919768686",
+    "url": "https://x.com/BleepinComputer/status/2116554653919768686",
+    "author": {
+      "name": "BleepingComputer",
+      "handle": "BleepinComputer"
+    },
+    "posted_at": "2026-10-31T15:35:27.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Android \"SMS of Death\" crashes unpatched phones",
+    "summary": "BleepingComputer reports a new exploit that remotely crashes unpatched Android phones via SMS.",
+    "text": "New Android SMS of Death exploit can remotely crash unpatched phones\nhttps://t.co/V8P0wb88U5\n\nhttps://t.co/V8P0wb88U5",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "BleepingComputer: Android SMS of Death",
+        "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+        "short": "https://t.co/V8P0wb88U5"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116324636434780478",
+    "url": "https://x.com/4ki4/status/2116324636434780478",
+    "author": {
+      "name": "世界四季報",
+      "handle": "4ki4"
+    },
+    "posted_at": "2026-10-31T00:21:27.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "economics",
+    "shelf_life": "news",
+    "tldr": "Apple retakes the top market cap",
+    "summary": "Nikkei: Apple passes NVIDIA for the first time in three months, staying out of the AI capex race.",
+    "text": "Appleが3カ月ぶりに時価総額首位　AI投資から一線、NVIDIAを逆転 - 日本経済新聞\n https://t.co/jygq2fj6Ju\n\n💪奪ッ還ッ‼️ https://t.co/LQp4yfs13J",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "日本経済新聞",
+        "url": "https://www.nikkei.com/article/DGXZQOGN3102D0R31C26A0000000/",
+        "short": "https://t.co/jygq2fj6Ju"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV6yBfMaMAAVqaE.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HV6yBxgbgAA6MWK.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HV6yCOwaoAEQs4e.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HV6yCjjaAAA0oau.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116524959313035339",
+    "url": "https://x.com/umiyuki_ai/status/2116524959313035339",
+    "author": {
+      "name": "うみゆき@AI研究",
+      "handle": "umiyuki_ai"
+    },
+    "posted_at": "2026-10-31T13:37:28.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "Two 256GB Mac Studios beat one 512GB",
+    "summary": "Umiyuki shares a test: two 256GB Mac Studios cost less and run LLMs nearly twice as fast.",
+    "text": "512GBのMacStudio買うより256GBを2台買う方が安い上にLLMのプレフィルもデコードも2倍弱の速さだという。あらら https://t.co/12K3Q3P4hM",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post",
+        "url": "https://twitter.com/tomgreenwald/status/2116252421899042960",
+        "short": "https://t.co/12K3Q3P4hM"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116530631823753656",
+    "url": "https://x.com/NASAHubble/status/2116530631823753656",
+    "author": {
+      "name": "Hubble",
+      "handle": "NASAHubble"
+    },
+    "posted_at": "2026-10-31T14:00:00.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "Hubble and Webb's Cat's Head Nebula",
+    "summary": "A new image of a star-forming region that looks like a cat's head.",
+    "text": "Happy Hubble Halloween!\n\nThis new image of the Cat's Head Nebula shows a star-forming region with an eerily feline resemblance.\n\nDare to learn more? Start here: https://t.co/Qx0NuGLudT https://t.co/TQK6QHpq73",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "NASA: Ghostly Cat's Head Nebula",
+        "url": "https://science.nasa.gov/missions/hubble/ghostly-cats-head-nebula-lurks-within-sight-of-nasas-hubble-webb/"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV8UnozXkAA-VMy.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116588280334749821",
+    "url": "https://x.com/EricTopol/status/2116588280334749821",
+    "author": {
+      "name": "Eric Topol",
+      "handle": "EricTopol"
+    },
+    "posted_at": "2026-10-31T17:49:04.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "48 new Alzheimer's risk loci",
+    "summary": "A Nature study finds 48 new common loci, many tied to microglia, a ~60% jump.",
+    "text": "Discovery of 48 new, common genomic loci (a ~60% jump) associated with Alzheimer's disease. A high proportion of the new loci are tagged to brain immune cell (microglia) function @Nature\nhttps://t.co/yd3D6E4DbK",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Nature",
+        "url": "https://www.nature.com/articles/s41586-026-11206-y",
+        "short": "https://t.co/yd3D6E4DbK"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116497719523180656",
+    "url": "https://x.com/Mid_observatory/status/2116497719523180656",
+    "author": {
+      "name": "ミド建築・都市観測所",
+      "handle": "Mid_observatory"
+    },
+    "posted_at": "2026-10-31T11:49:13.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "culture",
+    "shelf_life": "news",
+    "tldr": "鳥山明のBird Studio、取り壊しへ",
+    "summary": "相続税のためとみられる取り壊し。文化的建築が相続で失われる問題を指摘。",
+    "text": "鳥山明先生のBird Studioが、おそらく相続税のため、取り壊しを余儀なくされました。Bird Studioだけでなく、これまで無数の文化的価値の高い日本の建築が、相続のために壊されてきました。このろくでもない相続の制度を見なさなければ、貴重な建物が次々となくなるばかり⋯文化庁は仕事して下さい！ https://t.co/yDcEw5jeg5 https://t.co/0Zugt6Ceb9",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "引用ポスト",
+        "url": "https://twitter.com/nikutaberuru/status/2115976735707824283",
+        "short": "https://t.co/0Zugt6Ceb9"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV9PdCvbkAA3RPM.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116453848902779100",
+    "url": "https://x.com/Yuji_48/status/2116453848902779100",
+    "author": {
+      "name": "Yuji Shibasaki＠Photo",
+      "handle": "Yuji_48"
+    },
+    "posted_at": "2026-10-31T08:54:54.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "culture",
+    "shelf_life": "news",
+    "tldr": "白馬の初冠雪",
+    "summary": "白馬大橋から見た初冠雪の山々。",
+    "text": "白馬大橋から見る初冠雪した白馬の山々が絶景なんです。 https://t.co/P2EudJr5HA",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV8nh2bagAEtvQj.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116660895581687812",
+    "url": "https://x.com/netkeiba/status/2116660895581687812",
+    "author": {
+      "name": "netkeiba",
+      "handle": "netkeiba"
+    },
+    "posted_at": "2026-10-31T22:37:37.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "culture",
+    "shelf_life": "news",
+    "tldr": "BCクラシック、フォーエバーヤングは5着",
+    "summary": "テーオーパスワードは4着。勝ったのはソブリンティ。",
+    "text": "フォーエバーヤングは5着、テーオーパスワードは4着でした。\n\n▼フォーエバーヤングのデータベース\nhttps://t.co/WWrad69Iq9\n\n▼テーオーパスワードのデータベース\nhttps://t.co/iR5Fj0922C https://t.co/BGFNfvBqMz",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "netkeiba データベース",
+        "url": "https://db.sp.netkeiba.com/horse/2021105727/?rf=x",
+        "short": "https://t.co/WWrad69Iq9"
+      },
+      {
+        "title": "netkeiba データベース",
+        "url": "https://db.sp.netkeiba.com/horse/2021102236/?rf=x",
+        "short": "https://t.co/iR5Fj0922C"
+      },
+      {
+        "title": "引用ポスト",
+        "url": "https://twitter.com/netkeiba/status/2116658902922338804",
+        "short": "https://t.co/BGFNfvBqMz"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116656366232404388",
+    "url": "https://x.com/tv_asahi_news/status/2116656366232404388",
+    "author": {
+      "name": "テレ朝NEWS",
+      "handle": "tv_asahi_news"
+    },
+    "posted_at": "2026-10-31T22:19:37.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "world",
+    "shelf_life": "news",
+    "tldr": "スペイン列車事故、日本人2人の安否不明",
+    "summary": "56人の身元が特定され、残り13人は外国籍の可能性。",
+    "text": "スペイン列車事故 56人の身元特定　残り13人は外国籍か　日本人2人の安否は不明 https://t.co/WCJBrlsmiA",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "テレ朝news",
+        "url": "https://news.tv-asahi.co.jp/news_international/articles/000544418.html",
+        "short": "https://t.co/WCJBrlsmiA"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116657561009315898",
+    "url": "https://x.com/tenkijp/status/2116657561009315898",
+    "author": {
+      "name": "tenki.jp",
+      "handle": "tenkijp"
+    },
+    "posted_at": "2026-10-31T22:24:22.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "台風31号、5日頃に父島へ",
+    "summary": "小笠原に最接近、高波が長引くおそれ。関東周辺も雨。",
+    "text": "【台風31号　5日頃に父島に最接近か　高波など影響が長引くおそれ　関東周辺も雨】 https://t.co/Jqum5PpU6e 台風31号は5日(木)から6日(金)にかけて父島など小笠原諸島に最も接近する見通しです。",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "tenki.jp",
+        "url": "https://tenki.jp/forecaster/y_nakagawa/2026/11/01/41163.html",
+        "short": "https://t.co/Jqum5PpU6e"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116601138120122865",
+    "url": "https://x.com/FOXLA/status/2116601138120122865",
+    "author": {
+      "name": "FOX 11 Los Angeles",
+      "handle": "FOXLA"
+    },
+    "posted_at": "2026-10-31T18:40:10.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "world",
+    "shelf_life": "news",
+    "tldr": "NFL Sunday Ticket verdict revived",
+    "summary": "A federal appeals court reinstated a jury verdict holding the NFL liable for $4.7 billion in an antitrust case by Sunday Ticket subscribers.",
+    "text": "A federal appeals court revived a jury verdict that found the NFL liable for $4.7 billion in damages in an antitrust lawsuit brought by “Sunday Ticket\" subscribers. https://t.co/hQiaN6A2Jd",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "FOX 11 LA",
+        "url": "https://www.foxla.com/sports/nfl-over-sunday-ticket-pricing-verdict",
+        "short": "https://t.co/hQiaN6A2Jd"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116561173797634541",
+    "url": "https://x.com/OurWorldInData/status/2116561173797634541",
+    "author": {
+      "name": "Our World in Data",
+      "handle": "OurWorldInData"
+    },
+    "posted_at": "2026-10-31T16:01:22.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "world",
+    "shelf_life": "evergreen",
+    "tldr": "One in four people is under 15",
+    "summary": "Our World in Data: a quarter of the world is under 15 and a tenth 65+. In the Central African Republic half are children; in Japan nearly a third are 65+.",
+    "text": "One in four people in the world is younger than 15. Just one in ten is 65 or older.\n\nBut there are huge differences in this distribution across countries. In the chart, we’ve shown these global figures alongside the country with the largest share of children, the Central African Republic, and the one with the largest share of older people, Japan.\n\nIn the Central African Republic, half of the population is under 15. Being over 65 is pretty rare: just 2% of the population.\n\nJapan is the opposite. Being a child or adolescent puts you in the minority. Almost one-third of the population is 65 and older, and that share is growing quickly.\n\nThese differences in age distribution matter a lot for a country’s infrastructure, socioeconomic conditions, and public spending — from pensions and healthcare to childcare and education.\n\n(written by @_HannahRitchie)",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV-JK7lWIAEOsQi.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116360009370284357",
+    "url": "https://x.com/amazingmap/status/2116360009370284357",
+    "author": {
+      "name": "Amazing Maps",
+      "handle": "amazingmap"
+    },
+    "posted_at": "2026-10-31T02:42:00.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "Operation Olympic was set for 1 November 1945",
+    "summary": "The planned US invasion of southern Kyushu was scheduled for this day 81 years ago.",
+    "text": "Operation Olympic, the planned US invasion of southern Kyushu, was scheduled for 1 November 1945. https://t.co/SPN4iOAvpK",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV7SNs4akAAX3S0.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116493891545247847",
+    "url": "https://x.com/QuantaMagazine/status/2116493891545247847",
+    "author": {
+      "name": "Quanta Magazine",
+      "handle": "QuantaMagazine"
+    },
+    "posted_at": "2026-10-31T11:34:00.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "A new map of the galaxy's \"empty\" space",
+    "summary": "Quanta: new maps of the interstellar medium show far more structure than a tranquil fog.",
+    "text": "After the Big Bang, our galaxy was left with a thin fog of molecules, known as the interstellar medium. New maps reveal that it’s got a lot more going on than we thought. https://t.co/RHSGSVZQY0",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quanta: A new map of empty space",
+        "url": "https://www.quantamagazine.org/a-new-map-of-empty-space-challenges-a-tranquil-picture-of-the-galaxy-20261030/",
+        "short": "https://t.co/RHSGSVZQY0"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116532814468546987",
+    "url": "https://x.com/PhysInHistory/status/2116532814468546987",
+    "author": {
+      "name": "Physics In History",
+      "handle": "PhysInHistory"
+    },
+    "posted_at": "2026-10-31T14:08:40.000Z",
+    "saved_at": "2026-11-01T08:30:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "The Pizza Theorem",
+    "summary": "Cut a pizza through any common point with a multiple of four cuts at equal angles, alternate slices, and two people get equal areas.",
+    "text": "The Pizza Theorem states that if a pizza is divided by straight cuts (radii of the pizza) through a common point (not necessarily the center), and the number of cuts is a multiple of four (4, 8, 12, etc.), then it is possible to divide the pizza into equal-area slices among two people, with each person receiving alternate slices.",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV9vX_QbkAEzMQ3.jpg"
+      }
+    ]
   }
 ]

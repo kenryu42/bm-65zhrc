@@ -1,0 +1,718 @@
+{
+  "date": "2026-11-01",
+  "title": "Keys left in reach",
+  "subtitle": "A personal agent inside the Pentagon, nine AI platforms breached in October, and GMO's two-year-old warning",
+  "editor_note": "October was a month of leaked keys. Rotate yours today.",
+  "theme": {
+    "palette": "plum",
+    "fonts": "sans-serif",
+    "accent": "#b45309"
+  },
+  "sections": [
+    {
+      "type": "cover-story",
+      "scan": "2115877125374775630",
+      "kicker": "Cover story",
+      "headline": "A personal agent inside the Pentagon",
+      "deck": "A contractor's own Claude agent ran on a DoD network for two months.",
+      "variant": "stacked",
+      "art": "pentagon.jpg",
+      "art_alt": "Three nested pale pentagon outlines on dark plum, one small copper light inside",
+      "why": "Shadow agents are the new shadow IT. Today's theme: keys left in reach.",
+      "source_label": "WIRED"
+    },
+    {
+      "type": "corner",
+      "corner": "brief"
+    },
+    {
+      "type": "brief-grid",
+      "headline": "Breaches, money, plans",
+      "columns": 2,
+      "variant": "cards",
+      "items": [
+        {
+          "scan": "2116504206932582445",
+          "headline": "An infostealer that ranks you with AI",
+          "why": "LLMs pick which stolen accounts to use first.",
+          "source_label": "Cisco Talos"
+        },
+        {
+          "scan": "2116501537140961586",
+          "headline": "Chainalysis breached by an agent",
+          "why": "Offensive agentic techniques, it says.",
+          "source_label": "The Hacker News"
+        },
+        {
+          "scan": "2116470493641392529",
+          "headline": "UK NCSC: a patch wave is coming",
+          "why": "AI finds bugs faster than teams fix them.",
+          "source_label": "NCSC"
+        },
+        {
+          "scan": "2116648956197220612",
+          "headline": "FBI: North Korea took $6B from Binance",
+          "why": "The year's biggest crypto theft.",
+          "source_label": "Reuters"
+        },
+        {
+          "scan": "2116334870188503551",
+          "headline": "OpenAI's round shrinks to ~$20B",
+          "why": "At $1.25T, per the FT. No link in the post.",
+          "source_label": "Techmeme",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116322563479781737",
+          "headline": "Bun spends more time on security",
+          "why": "The incidents aren't slowing down.",
+          "source_label": "Bun",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116405414921384099",
+          "headline": "Codex switches accounts on mobile",
+          "why": "Desktop next; usage resets hinted.",
+          "source_label": "Tibo"
+        },
+        {
+          "scan": "2116428268224299277",
+          "headline": "Claude plans now work in OpenCode",
+          "why": "Anthropic loosens its grip.",
+          "source_label": "Theo"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "lead"
+    },
+    {
+      "type": "feature",
+      "scan": "2116305149492961662",
+      "headline": "Black October for AI platforms",
+      "deck": "Nine platforms breached. Keys tested within 30 minutes.",
+      "variant": "standard",
+      "emphasis": "loud",
+      "art": "doors.jpg",
+      "art_alt": "Nine doors in a row, all ajar, warm light spilling out",
+      "why": "Your AI keys in env vars are the target. Rotate them.",
+      "source_label": "Wiz"
+    },
+    {
+      "type": "pull-quote",
+      "scan": "2116305149492961662",
+      "quote": "two more disclosed incidents while we were writing up this blog",
+      "variant": "bar"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "The same hole, again",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2116309617424920624",
+          "headline": "Northflank mocked Railway, then fell",
+          "why": "Nine days apart.",
+          "source_label": "Gergely Orosz"
+        },
+        {
+          "scan": "2116550009105842251",
+          "headline": "Northflank: assume every key leaked",
+          "why": "Abuse already seen. No root cause yet.",
+          "source_label": "International Cyber Digest",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116186043385041138",
+          "headline": "Northflank's status page",
+          "why": "The incident, first-hand.",
+          "source_label": "Arlo Gilbert"
+        },
+        {
+          "scan": "2116292065319641164",
+          "headline": "AWS Strands tool leaked env vars",
+          "why": "プロンプト注入で認証情報が漏れる。",
+          "source_label": "MalwareBibleJP"
+        },
+        {
+          "scan": "2116509561670783070",
+          "headline": "中文版：十月九家平台被入侵",
+          "why": "Wiz 报告的中文摘要。",
+          "source_label": "ahsuzm"
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "art": "keys.jpg",
+      "art_alt": "A row of copper keys hanging from hooks against a plum dawn",
+      "variant": "wide"
+    },
+    {
+      "type": "corner",
+      "corner": "your-saves"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "Three saves",
+      "variant": "large",
+      "items": [
+        {
+          "bookmark": "2116576229319233596",
+          "headline": "poteto's Grok Bot guide",
+          "why": "Few good bots, skills, scripts. Your setup.",
+          "source_label": "poteto",
+          "tags": [
+            "from-your-saves"
+          ]
+        },
+        {
+          "bookmark": "2116191971714953262",
+          "headline": "Code now arrives as a stream",
+          "why": "Make the easy thing the right thing.",
+          "source_label": "poteto",
+          "tags": [
+            "from-your-saves"
+          ]
+        },
+        {
+          "bookmark": "2116153410101944352",
+          "headline": "mischief 1, a biocompute video model",
+          "why": "From 0.5¢ a second. The biocompute link is their claim.",
+          "source_label": "Alex Ksendzovsky",
+          "tags": [
+            "from-your-saves"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sidebar-box",
+      "bookmark": "2116576229319233596",
+      "headline": "Try tonight",
+      "variant": "note"
+    },
+    {
+      "type": "corner",
+      "corner": "field-notes"
+    },
+    {
+      "type": "feature",
+      "scan": "2116527005801873662",
+      "headline": "Tokens cost twice the payroll",
+      "deck": "25 people working like 75.",
+      "variant": "drop-cap",
+      "art": "coins.jpg",
+      "art_alt": "A tall stack of copper coins beside a short stack of plum ones",
+      "why": "A real number on agent spend at a small team.",
+      "source_label": "Dax",
+      "tags": [
+        "unverified"
+      ]
+    },
+    {
+      "type": "numbered-list",
+      "headline": "Agents at work",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2116323148706771302",
+          "headline": "agent-desktop: computer use for agents",
+          "why": "Background control on any OS.",
+          "source_label": "Chris Tate"
+        },
+        {
+          "scan": "2116345666108854781",
+          "headline": "Rauch: an agent on every desktop",
+          "why": "Vercel backs it.",
+          "source_label": "Guillermo Rauch"
+        },
+        {
+          "scan": "2116602645972672576",
+          "headline": "Hex was fully vibe coded",
+          "why": "App, site, sounds. Still good software.",
+          "source_label": "Dax",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116636967517798672",
+          "headline": "An \"improvements\" box wired to an agent",
+          "why": "One user shipped 150 changes.",
+          "source_label": "Patrick Collison",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116552016218710389",
+          "headline": "Find the implicit state machines",
+          "why": "A one-line prompt to try.",
+          "source_label": "Steve Ruiz",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116453735207706754",
+          "headline": "Too many security stops at Redis",
+          "why": "Agent refusals cost real work.",
+          "source_label": "antirez",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116566536735293885",
+          "headline": "Antigravity warns about agent risks",
+          "why": "Exfiltration and code execution.",
+          "source_label": "TestingCatalog",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116305528330785190",
+          "headline": "Anthropic's backend in Rust?",
+          "why": "A joke; not confirmed.",
+          "source_label": "swyx",
+          "tags": [
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "numbered-list",
+      "headline": "Skills and stances",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2116349211549843666",
+          "headline": "Agents hunt hidden misalignment",
+          "why": "Red-teaming at scale, by agents.",
+          "source_label": "Anthropic"
+        },
+        {
+          "scan": "2116541149443698968",
+          "headline": "DeepSeek 的 Super-agent 架构",
+          "why": "Router/Worker 双层，人只做决策。",
+          "source_label": "shao__meng"
+        },
+        {
+          "scan": "2116577467318313096",
+          "headline": "装 Skill 前先扫描",
+          "why": "SkillSpector：26.1% 样本有漏洞。cc-safety-net 的邻居。",
+          "source_label": "KingCola88"
+        },
+        {
+          "scan": "2115814382001172714",
+          "headline": "Inside Proton's AI push",
+          "why": "Staff pushed back on security.",
+          "source_label": "404 Media"
+        },
+        {
+          "scan": "2116441522870636979",
+          "headline": "DHH on refusing company AI",
+          "why": "He says it's grounds for firing.",
+          "source_label": "DHH"
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "art": "padlock.jpg",
+      "art_alt": "One open copper padlock on a pale rose ground",
+      "variant": "square"
+    },
+    {
+      "type": "corner",
+      "corner": "japan-desk",
+      "label": "日本から"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "GMO、日銀、iPS",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2116455296919064736",
+          "headline": "GMO、脆弱性を2年前に把握",
+          "why": "子会社の指摘も対策は後手。",
+          "source_label": "4ki4"
+        },
+        {
+          "scan": "2116516576879116308",
+          "headline": "GMO、2日に会見へ",
+          "why": "熊谷会長が説明の見込み。",
+          "source_label": "テレ朝news"
+        },
+        {
+          "scan": "2116487955112247424",
+          "headline": "GMOセキュリティのブログが消えた",
+          "why": "リンクはトップに飛ぶ。",
+          "source_label": "うみゆき"
+        },
+        {
+          "scan": "2116058030102188186",
+          "headline": "日銀「2%目標とおおむね整合的」",
+          "why": "金利1.25%据え置き。13年越しの到達。",
+          "source_label": "時事通信"
+        },
+        {
+          "scan": "2116500209434001804",
+          "headline": "パーキンソン病にiPS移植",
+          "why": "京大病院。患者は職場復帰。",
+          "source_label": "4ki4"
+        },
+        {
+          "scan": "2116660890695348267",
+          "headline": "三重県南東沖で深発地震",
+          "why": "M6.1、深さ350km。異常震域。",
+          "source_label": "ウェザーニュース"
+        },
+        {
+          "scan": "2116396452087771596",
+          "headline": "AI予算、3割の企業で枯渇",
+          "why": "アクセンチュア調べ。",
+          "source_label": "日本経済新聞"
+        },
+        {
+          "scan": "2116318232395264091",
+          "headline": "児童の絵がAIと中傷され中止",
+          "why": "誤認の害。",
+          "source_label": "Yahoo!ニュース"
+        }
+      ]
+    },
+    {
+      "type": "brief-grid",
+      "headline": "AIの現場",
+      "columns": 2,
+      "variant": "plain",
+      "items": [
+        {
+          "scan": "2116577069085913197",
+          "headline": "ISUCONの「嘘AGENTS.md」",
+          "why": "エージェントは騙されなかった。",
+          "source_label": "kawasy",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116389075548774890",
+          "headline": "DeepSeek V4.1 Flashをローカルで",
+          "why": "512GBのMac StudioとCodex。",
+          "source_label": "GOROman",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116318924841291788",
+          "headline": "Museが入場証まで印刷",
+          "why": "申込からプリンタまで自動。",
+          "source_label": "GOROman"
+        },
+        {
+          "scan": "2116522512758759509",
+          "headline": "AIが書く「嘘松」が増加",
+          "why": "タイムラインの質の話。",
+          "source_label": "うみゆき"
+        },
+        {
+          "scan": "2116339677804499418",
+          "headline": "Grok BotのPagesで記事公開",
+          "why": "初心者向けに簡単。",
+          "source_label": "きのぴー"
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "art": "dawnline.jpg",
+      "art_alt": "A thin copper horizon line with small lights at dawn",
+      "variant": "quiet"
+    },
+    {
+      "type": "corner",
+      "corner": "adjacent"
+    },
+    {
+      "type": "compare",
+      "headline": "Europe's new taxes",
+      "variant": "versus",
+      "items": [
+        {
+          "scan": "2116485229779058954",
+          "tags": [
+            "unverified"
+          ],
+          "label": "Germany",
+          "note": "A tax on AI revenue, \"considered\"."
+        },
+        {
+          "scan": "2116604593282965549",
+          "tags": [
+            "unverified"
+          ],
+          "label": "Italy",
+          "note": "An exit tax, proposed."
+        }
+      ],
+      "verdict": "Two claims from one account; neither is law yet."
+    },
+    {
+      "type": "numbered-list",
+      "headline": "Money, chips, minds",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2116626293567406164",
+          "headline": "AI threatens pay before jobs",
+          "why": "Ask for that raise.",
+          "source_label": "The Economist"
+        },
+        {
+          "scan": "2116357659104350360",
+          "headline": "AI capex runs on borrowing",
+          "why": "Chamath on leverage.",
+          "source_label": "All-In",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116319701252841882",
+          "headline": "GPU brokers with no GPUs",
+          "why": "How compute really gets sold.",
+          "source_label": "Dax",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116545880644014504",
+          "headline": "Altman vs people buying RAM",
+          "why": "Local inference has a cost now.",
+          "source_label": "Gergely Orosz"
+        },
+        {
+          "scan": "2116324636434780478",
+          "headline": "Apple is No.1 again",
+          "why": "It skipped the capex race.",
+          "source_label": "4ki4"
+        },
+        {
+          "scan": "2116524959313035339",
+          "headline": "Two 256GB Macs beat one 512GB",
+          "why": "Cheaper and faster for LLMs.",
+          "source_label": "うみゆき"
+        },
+        {
+          "scan": "2116524000977285321",
+          "headline": "AI speeds UK planning by 58%",
+          "why": "A quiet public-sector win.",
+          "source_label": "Google DeepMind"
+        },
+        {
+          "scan": "2116627718347591988",
+          "headline": "Dopamine peaks at surprise",
+          "why": "Fun needs some risk.",
+          "source_label": "François Chollet",
+          "tags": [
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "brief-grid",
+      "headline": "Research and hardware",
+      "columns": 3,
+      "variant": "plain",
+      "items": [
+        {
+          "scan": "2116516929359782301",
+          "headline": "Gemma 4 runs in orbit",
+          "why": "On TPUs, no ground link.",
+          "source_label": "Clement Farabet"
+        },
+        {
+          "scan": "2116636672771154374",
+          "headline": "An agent did mouse brain surgery",
+          "why": "And refused an unsafe retry.",
+          "source_label": "Martin Varsavsky",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116548002617917603",
+          "headline": "Routed memory for agents",
+          "why": "A FAIR paper.",
+          "source_label": "DAIR.AI"
+        },
+        {
+          "scan": "2116319506318635503",
+          "headline": "A refreshed hallucination test",
+          "why": "AA-Omniscience v1.1.",
+          "source_label": "Artificial Analysis",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116588280334749821",
+          "headline": "48 new Alzheimer's loci",
+          "why": "Many tied to microglia.",
+          "source_label": "Eric Topol"
+        },
+        {
+          "scan": "2116554653919768686",
+          "headline": "An \"SMS of Death\" for Android",
+          "why": "Patch your phone.",
+          "source_label": "BleepingComputer"
+        },
+        {
+          "scan": "2116522367203905822",
+          "headline": "Inside a Toyota car navi",
+          "why": "A fast-booting Linux.",
+          "source_label": "Mark Karpelès",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116530631823753656",
+          "headline": "The Cat's Head Nebula",
+          "why": "Hubble and Webb.",
+          "source_label": "NASA Hubble"
+        }
+      ]
+    },
+    {
+      "type": "brief-grid",
+      "headline": "日本のほかの話題",
+      "columns": 3,
+      "variant": "plain",
+      "items": [
+        {
+          "scan": "2116497719523180656",
+          "headline": "Bird Studio、取り壊しへ",
+          "why": "相続税で文化が消える。",
+          "source_label": "Mid_observatory"
+        },
+        {
+          "scan": "2116453848902779100",
+          "headline": "白馬の初冠雪",
+          "why": "白馬大橋から。",
+          "source_label": "Yuji_48",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116660895581687812",
+          "headline": "BCクラシック、フォーエバーヤング5着",
+          "why": "テーオーパスワード4着。",
+          "source_label": "netkeiba"
+        },
+        {
+          "scan": "2116656366232404388",
+          "headline": "スペイン列車事故、日本人2人不明",
+          "why": "身元確認が続く。",
+          "source_label": "テレ朝news"
+        },
+        {
+          "scan": "2116657561009315898",
+          "headline": "台風31号、5日頃に父島へ",
+          "why": "高波が長引くおそれ。",
+          "source_label": "tenki.jp"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "open-window"
+    },
+    {
+      "type": "brief-grid",
+      "headline": "Law, people, the sky",
+      "columns": 2,
+      "variant": "cards",
+      "items": [
+        {
+          "scan": "2116601138120122865",
+          "headline": "The NFL's $4.7B verdict is back",
+          "why": "An appeals court revived it.",
+          "source_label": "FOX 11 LA",
+          "tags": [
+            "new-to-you"
+          ]
+        },
+        {
+          "scan": "2116561173797634541",
+          "headline": "One in four people is under 15",
+          "why": "And Japan is the oldest. No link in the post.",
+          "source_label": "Our World in Data",
+          "tags": [
+            "new-to-you",
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116360009370284357",
+          "headline": "Kyushu invasion was set for today",
+          "why": "1 November 1945, never launched.",
+          "source_label": "Amazing Maps",
+          "tags": [
+            "new-to-you",
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116493891545247847",
+          "headline": "The galaxy's \"empty\" space, mapped",
+          "why": "More structure than a calm fog.",
+          "source_label": "Quanta Magazine",
+          "tags": [
+            "new-to-you"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "image-of-the-day",
+      "headline": "Keys at dawn",
+      "art": "iotd.jpg",
+      "art_alt": "A ring of copper keys on a windowsill, a plum and copper dawn outside",
+      "caption": "A quiet Sunday chore: list every key you've left on a platform, and turn each one.",
+      "variant": "standard"
+    },
+    {
+      "type": "corner",
+      "corner": "kicker"
+    },
+    {
+      "type": "closer",
+      "scan": "2116532814468546987",
+      "headline": "The pizza theorem",
+      "why": "Cut it right and two people get equal halves.",
+      "variant": "text",
+      "source_label": "Physics In History",
+      "tags": [
+        "unverified"
+      ]
+    }
+  ]
+}
