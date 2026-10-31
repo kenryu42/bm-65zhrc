@@ -99,7 +99,7 @@
       "variant": "standard",
       "emphasis": "loud",
       "art": "doors.jpg",
-      "art_alt": "Nine doors in a row, all ajar, warm light spilling out",
+      "art_alt": "A row of doors, all ajar, warm light spilling out",
       "why": "Your AI keys in env vars are the target. Rotate them.",
       "source_label": "Wiz"
     },
