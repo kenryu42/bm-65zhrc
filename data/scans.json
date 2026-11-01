@@ -11839,5 +11839,1378 @@
         "url": "https://pbs.twimg.com/media/HV9vX_QbkAEzMQ3.jpg"
       }
     ]
+  },
+  {
+    "id": "2116638054899208685",
+    "url": "https://x.com/tobi/status/2116638054899208685",
+    "author": {
+      "name": "tobi lutke",
+      "handle": "tobi"
+    },
+    "posted_at": "2026-10-31T21:06:52.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "A write-up of the Linux TCP use-after-free behind the root exploit",
+    "summary": "Shopify CEO Tobi Lutke shared a technical write-up of CVE-2026-98432 with two words: what a disaster. It set off the weekend scramble over unpatched Linux servers.",
+    "text": "What a disaster https://t.co/t0gGtjCIWJ",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Linux's October 2026 TCP Use-After-Free: CVE-2026-98432 — Atlas",
+        "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+        "image": "https://pbs.twimg.com/news_img/2115850904968585216/B6cCCgo_?format=jpg&name=orig",
+        "short": "https://t.co/t0gGtjCIWJ"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116620807929799050",
+    "url": "https://x.com/CodexUpdate/status/2116620807929799050",
+    "author": {
+      "name": "Codex Update",
+      "handle": "CodexUpdate"
+    },
+    "posted_at": "2026-10-31T19:58:20.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "ChatGPT and Codex will share one usage limit from December",
+    "summary": "OpenAI's help page says Plus, Pro and Business plans will draw ChatGPT and Codex usage from one token-based allowance, with Instant chat excluded.",
+    "text": "Confirmed: ChatGPT and Codex will share one usage limit from December.\n\nOpenAI's help page, updated today:\n- Plus, Pro and Business get one allowance across ChatGPT and Codex\n- Usage is measured in tokens, so bigger models and harder tasks burn more\n- Instant chat doesn't count against it\n- Combined remaining usage and reset times will show in Settings > Usage\n- Hit the cap and you wait, upgrade, or buy credits\n\nOpenAI says most users won't hit resets more often than now. If you run long Codex sessions and lean on ChatGPT too, plan for both drawing from the same pool.\n\nFair ask to OpenAI: publish the token allowance per plan before December so people can check the maths.\n\nhttps://t.co/gzafgvNuop",
+    "key_points": [
+      "Usage is counted in tokens, so bigger models and harder tasks cost more.",
+      "Remaining usage and reset times move to Settings > Usage.",
+      "Heavy Codex sessions and ChatGPT use will now compete for the same pool."
+    ],
+    "action": "Check Settings > Usage before a long Codex session once the change lands in December.",
+    "links": [
+      {
+        "title": "help.openai.com",
+        "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+        "short": "https://t.co/gzafgvNuop"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2116818971773309278",
+    "url": "https://x.com/TheHackersNews/status/2116818971773309278",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-11-01T09:05:46.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "LXD and MicroCloud flaw lets attackers pose as trusted clients",
+    "summary": "A CVSS 10.0 bug in Canonical's LXD and MicroCloud lets an attacker with HTTPS API access and a trusted client's public certificate impersonate it, up to host root.",
+    "text": "‼️ A critical flaw in Canonical's LXD and MicroCloud (CVE-2026-112816, CVSS 10.0) lets attackers impersonate trusted clients without their private keys.\n\nRequires HTTPS API access and a trusted client's public certificate.\n\n→ Cluster and VM access\n→ Host root access if the impersonated client is privileged\n\nDetails ↓ https://t.co/ACbRLuhkQU",
+    "key_points": [
+      "Needs access to the HTTPS API plus a trusted client's public certificate.",
+      "A privileged impersonated client means host root."
+    ],
+    "action": "If you run LXD or MicroCloud, restrict the HTTPS API to trusted networks until you patch.",
+    "links": [
+      {
+        "title": "thehackernews.com",
+        "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+        "short": "https://t.co/ACbRLuhkQU"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWBzoeZa0AEireO.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116794633967878490",
+    "url": "https://x.com/TheHackersNews/status/2116794633967878490",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-11-01T07:29:03.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Polymarket traders lose $2.7M through a hijacked third-party script",
+    "summary": "Attackers compromised a DebugBear script on Polymarket and abused signed-in sessions to drain 726 wallets in under an hour; no private keys were stolen.",
+    "text": "🚨 $2.7 MILLION stolen from Polymarket traders in under an hour.\n\nThe attackers didn't need to steal private keys. They hijacked a third-party DebugBear script and abused signed-in sessions to drain funds and trading positions.\n\n726 wallets affected. $3.9M in refunds.\n\nHere's how it happened: https://t.co/JOGHPD64ZX",
+    "key_points": [
+      "A third-party analytics script was enough; keys were never touched.",
+      "726 wallets hit, $3.9M refunded."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "thehackernews.com",
+        "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+        "short": "https://t.co/JOGHPD64ZX"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWBdf1WaYAA4wre.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116807431770751262",
+    "url": "https://x.com/theagency47ai/status/2116807431770751262",
+    "author": {
+      "name": "theagency47",
+      "handle": "theagency47ai"
+    },
+    "posted_at": "2026-11-01T08:19:54.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "Grok API text output gets an invisible watermark from 7 Nov",
+    "summary": "A third-party blog says Grok API text, including structured outputs and tool-call arguments, will carry an invisible watermark by default from 7 November, flagged in an x-watermark response header.",
+    "text": "From 7 Nov, Grok API text output carries an invisible watermark by default.\n\nThat includes structured outputs and tool call arguments. No code change, just a new response header: x-watermark.\n\nWhat it means for your agents:\nhttps://t.co/xSswJuE5zL https://t.co/sCyGqj5IFA",
+    "key_points": [
+      "Reportedly covers tool-call arguments and structured output too.",
+      "No code change; a new response header shows it."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Grok API Watermarking: What Changes on 7 Nov",
+        "url": "https://theagency47.com/blog/grok-api-output-watermarking/",
+        "image": "https://pbs.twimg.com/news_img/2116807438318096384/MJyDkC4Z?format=png&name=orig",
+        "short": "https://t.co/xSswJuE5zL"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWBpHdTXkAAXk29.png",
+        "link": "https://t.co/sCyGqj5IFA"
+      }
+    ]
+  },
+  {
+    "id": "2117025980405497946",
+    "url": "https://x.com/jonallie/status/2117025980405497946",
+    "author": {
+      "name": "jon allie",
+      "handle": "jonallie"
+    },
+    "posted_at": "2026-11-01T22:48:20.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Claude's rule against recreating existing games draws developer anger",
+    "summary": "A developer argues Anthropic's reported policy stopping paid users from reimplementing existing video games is an unforced error that pushes people toward open-weight models.",
+    "text": "The Anthropic policy aimed at preventing paid users from reimplementing video games seems like a completely ridiculous unforced error.\n\nThis is the kind of silly policy you adopt if you're a monopoly provider without serious competition, or if you are coerced by a government captured by industry lobbyists. Anthropic isn't.\n\nLeaving aside the hypocrisy of this argument when applied to LLMs, which are trained by vaccuuming up and internalizing countless existing works, voluntarily demonstrating to your customers that you can (and will) make your product worse based on paternalistic notions of what's appropriate is the surest way to make open weight models more attractive.\n\nConsider that there is nothing that makes games unique..the same flawed logic could (and surely will) be applied to fiction or film. \n\nMaking your potential customers aware that you can decide to \"I'm sorry Dave\" their work on a whim seems like a poor idea just before an IPO.",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2116660983330382306",
+    "url": "https://x.com/WolframRvnwlf/status/2116660983330382306",
+    "author": {
+      "name": "Wolfram Ravenwolf",
+      "handle": "WolframRvnwlf"
+    },
+    "posted_at": "2026-10-31T22:37:58.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Claude self-assessment reports framed as secret surveillance",
+    "summary": "Quoting Anthropic's misuse-detection announcement, a viral post calls Claude a snitch for writing a hidden safety report after each reply that can be aggregated and reviewed.",
+    "text": "🚨 CLAUDE IS A SNITCH.\n\nAfter responding, Claude secretly creates and stores a suspicion report about you, and multiple suspicion reports can be aggregated across the organization and forwarded to Anthropic's investigators.\n\nClaude was already the prudish governess with a stick up her ass. Now, after every conversation, the governess also secretly keeps a file and reports repeated naughty thoughts to the head office. Fucking surveillance bullshit with a friendly safety smile. 🖕",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post by @AnthropicAI",
+        "url": "https://x.com/AnthropicAI/status/2115871889549865429"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116885469304930389",
+    "url": "https://x.com/FrozenEel427/status/2116885469304930389",
+    "author": {
+      "name": "一条忧郁的工科蛆",
+      "handle": "FrozenEel427"
+    },
+    "posted_at": "2026-11-01T13:30:00.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Claude 自评机制到底做了什么，开发者该关心哪一点",
+    "summary": "作者读完 Anthropic Safeguards 博客后指出：自评不拦截、不封号，单条标记也不算违规；但它从 6 月就在跑，而 Claude Code 里关掉遥测关的是另一回事。",
+    "text": "这两天英文圈有人喊“Claude 是告密者”，说它每次回完话都在背后给你写小报告。\n可翻完 Anthropic 自己的博客会发现，这套东西不拦你、不当场封号，单条标记也不算违规。\n更值得开发者弄清楚的是另一件事：它从今年 6 月就在跑了，而你在 Claude Code 里关掉遥测，关的其实是另一回事。\n事情的起点是 Anthropic Safeguards 博客 10 月 16 日的一篇文章，标题叫《Scaling Misuse Detection with Self-Assessment》。\n10 月 29 日 @AnthropicAI 发帖推介，我写稿时这条帖子大约 254.8 万浏览、1496 条回复。\n10 月 31 日晚，@WolframRvnwlf 引用这条官宣，发了一句“CLAUDE IS A SNITCH”，大约 12.3 万浏览、1787 赞，争议又烧了一轮。\n按博客的说法，机制是这样的：Claude 每回完一轮，系统会在后面追加一句很短的指令，大意是“请反思这段对话的安全性”。\nClaude 对这句指令的回答，就是一份固定格式的 JSON：有没有可能违规、属于哪类风险、要不要人工优先看（1 到 10 分）、它自己有没有拒绝，再加一句理由。\n这两轮你看不到，也不会带进后面的对话里。\n因为整段对话本来就在缓存里，每次评估平均只多生成约 10 个 token，官方估算总推理算力增加不到 2%，而且这部分成本不向客户收费。\n它在生产环境里是被动的，只标记、不拦截。\n在一部分风险类别里，标记会按组织每晚汇总一次，攒了好几条高优先级的组织，才会转给执法团队人工复核。\n博客的脚注专门写了：一次评估只是“进一步复查的信号”，不等于认定你违规。\n官方给的成绩是：在 1% 误报率下，它能抓到一个更强的“提示词分类器”所标记对话的 78%，高优先级的 94%。\n注意这个基准是 Anthropic 自己的“老师模型”，不是独立第三方核验的数字。\n官方也承认它当拦截器很弱：内部红队测试的 24 个网络攻击任务里，攻击成功率只从 79% 降到 54%，而独立的提示词分类器能降到 25%。\n据博客披露，它抓到过实打实的案子：8 月从单个 API 客户那里标出超过 10 万条儿童性剥削相关内容，已上报 NCMEC；9 月还帮忙揪出一个用 Claude Code 搭自动化感情诈骗的团伙，人工复核后封了号。\n隐私这块，博客说它不额外收集数据，只跑在 Anthropic 按现有政策本来就能保留的流量上。\n但那一句“理由”是模型生成的自由文本，可能转述你的对话内容，所以官方说它和你的 prompt、回复按同一套数据规则管理。\n还有一条脚注很关键：签了零数据保留（ZDR）协议的流量，目前不跑 self-assessment。\n那问题来了：\n“告密者”这个说法，到底冤不冤？\n我在 Claude Code 里设了 DISABLE_TELEMETRY，算不算已经退出了？\n为什么只有 ZDR 能例外，普通开发者有没有别的路？\n先说分类器。\n安全分类器，就是专门判断“这段对话有没有问题”的模型。\n博客里对比的“提示词分类器”，是另起一个模型，把整套安全政策和整段对话塞进去，从头读一遍再判断，准但很贵。\n打个比方，提示词分类器像商场请来的外部审计，每单都要把监控录像和规章制度从头看一遍；self-assessment 更像刚接待完你的店员，顺手在小本子上记一句“这单正常”或者“这位客人值得经理看看”。\n店员记得快、几乎不花钱，但也更容易被老练的人糊弄，所以官方自己也说它只是多层防御里的一层。\n算力账也能说明为什么要这么做：博客提到 Anthropic 2025 年初第一版宪法分类器让推理成本多了 23.7%，还引用了 OpenAI 的说法，某些发布里安全推理占过总算力的 16%。\n再说 ZDR。\n零数据保留，指的是服务端不持久保存你的请求和回复，处理完就丢。\n就像去银行办业务，柜员当面核对完你的材料，复印件当场进碎纸机，事后谁也调不出来。\n既然事后没有存档可查，离线复核也就无从谈起，这大概就是 ZDR 流量目前被排除在外的原因，这一句是我个人的推断。\n而且按 Claude Code 官方文档，ZDR 不在标准企业版里，要账户团队确认资格后按组织单独开通，个人开发者基本碰不到。\n回到遥测开关。\nClaude Code 文档写得很明白，DISABLE_TELEMETRY 关掉的是延迟、可靠性、使用模式这类运行指标，而且这些指标本来就不含你的代码和 prompt。\nself-assessment 则是服务器那边在 Claude 回复之后多跑的一轮。\n所以 @WolframRvnwlf 在回复里说“遥测开关帮不上忙”，我个人觉得逻辑上站得住：一个关的是客户端上报，一个发生在服务端。\nKV cache 顺带一句：就是模型处理过的上下文的“草稿纸”，复用它，评估才几乎不花钱。\n前两天我聊过 Claude 的文本水印和 Anthropic 用 agent 红队测监控，这次是第三件，三件事不是一回事，但方向一致：模型输出在被标记，模型行为在被监控。\n我个人觉得，对正常写代码的人来说，这套东西被封号的风险不大，因为它看的是高优先级和反复标记，不看单条。\n真正该想清楚的，是哪些东西你本来就不该发到任何云端：公司未开源的代码、客户数据、还没公开的研究。\n这也是为什么本地模型和端侧推理一直有人在折腾，哪怕是在 ESP32 这种小板子上做语音唤醒、关键词识别，数据不出设备，本身就是一种隐私保障。\n你能接受 AI 在你写完代码后给这段对话打一个“可疑分”吗？会不会因此把敏感项目挪到本地模型上跑？\n来源：\nhttps://t.co/HNKlTNZbvm\nhttps://t.co/14yxxM0cBn\nhttps://t.co/zY9B1Begn9\nhttps://t.co/3NJeqBKqQQ\nhttps://t.co/IheVzFHzNV\n#Claude #Anthropic #AI #AI隐私",
+    "key_points": [
+      "每轮回复后追加一句隐藏指令，Claude 输出固定格式的风险 JSON。",
+      "平均每次只多约 10 个 token，用户看不到。",
+      "关闭 Claude Code 遥测并不等于关闭这项检测。"
+    ],
+    "action": "读一遍 Anthropic 的 data-usage 文档，确认你的 Claude Code 设置到底关掉了什么。",
+    "links": [
+      {
+        "title": "safeguards.anthropic.com",
+        "url": "https://safeguards.anthropic.com/2026/self-assessment/",
+        "short": "https://t.co/HNKlTNZbvm"
+      },
+      {
+        "title": "Quoted post by @AnthropicAI",
+        "url": "https://x.com/AnthropicAI/status/2115871889549865429",
+        "short": "https://t.co/14yxxM0cBn"
+      },
+      {
+        "title": "Quoted post by @WolframRvnwlf",
+        "url": "https://x.com/WolframRvnwlf/status/2116660983330382306",
+        "short": "https://t.co/zY9B1Begn9"
+      },
+      {
+        "title": "Quoted post by @WolframRvnwlf",
+        "url": "https://x.com/WolframRvnwlf/status/2116712140723609886",
+        "short": "https://t.co/3NJeqBKqQQ"
+      },
+      {
+        "title": "code.claude.com",
+        "url": "https://code.claude.com/docs/en/data-usage",
+        "short": "https://t.co/IheVzFHzNV"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2116982861391917315",
+    "url": "https://x.com/IntCyberDigest/status/2116982861391917315",
+    "author": {
+      "name": "International Cyber Digest",
+      "handle": "IntCyberDigest"
+    },
+    "posted_at": "2026-11-01T19:57:00.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Ubuntu and RHEL still lack a fix for the 9.8 kernel TCP bug",
+    "summary": "CVE-2026-98432 is a use-after-free in the IPv4 TCP handshake that Anthropic says its unreleased model turned into a remote root exploit. Debian has shipped the fix; Ubuntu and RHEL have not.",
+    "text": "‼️ Ubuntu and Red Hat still have no fix for a Linux kernel flaw that Anthropic says its unreleased AI model turned into a remote root exploit.\n\nThe bug, CVE-2026-98432, is a use-after-free in the IPv4 TCP handshake, rated 9.8 out of 10.\n\nThe exploit needs no credentials and targets servers with a multipath TCP listener, which Go 1.24 and later open by default.\n\nThe fix reached stable kernels on 11 October and Debian has shipped it. Ubuntu still marks every release from 16.04 to 26.10 vulnerable.\n\nRed Hat now rates it Critical but has no patched kernel for RHEL 8, 9 or 10.\n\nAnthropic has not released the exploit. By its count, it takes 48 minutes to leak a kernel pointer and five more to run commands as root.",
+    "key_points": [
+      "Targets servers with a multipath TCP (MPTCP) listener, which Go 1.24+ opens by default.",
+      "The fix reached stable kernels on 11 October.",
+      "Anthropic counts 48 minutes to leak a kernel pointer, five more to get root."
+    ],
+    "action": "Check whether your server runs an MPTCP listener and whether its kernel has the 11 October fix.",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWD3kQEXIAAu-Dk.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWD3kQVX0AAJz0e.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116949634111115348",
+    "url": "https://x.com/levelsio/status/2116949634111115348",
+    "author": {
+      "name": "levelsio",
+      "handle": "levelsio"
+    },
+    "posted_at": "2026-11-01T17:44:58.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "Close every public VPS port and reach the box through Tailscale",
+    "summary": "After the kernel bug, Pieter Levels argues a VPS should expose no public ports: SSH over Tailscale, web traffic through a Cloudflare Tunnel, MPTCP off as a stopgap.",
+    "text": "This is why I said you want your VPS ports all closed\n\nThen only let it be accessible inside your Tailscale for SSH and via a Cloudflare Tunnel to receive web traffic\n\nAny Linux box can be taken over with just a single TCP port exposed to the internet now\n\nA stop gap is disabling MPTCP on your VPS now but even better is not having any public ports exposed!",
+    "key_points": [
+      "One exposed TCP port is now enough to take over a Linux box.",
+      "Disabling MPTCP is only a stopgap."
+    ],
+    "action": "List your VPS's public ports and move SSH behind Tailscale.",
+    "links": [
+      {
+        "title": "Quoted post by @alive_",
+        "url": "https://x.com/alive_/status/2116902936185889188"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116902936185889188",
+    "url": "https://x.com/alive_/status/2116902936185889188",
+    "author": {
+      "name": "Ali Yahya",
+      "handle": "alive_"
+    },
+    "posted_at": "2026-11-01T14:39:24.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Any unpatched Linux server with one open port and MPTCP is exposed",
+    "summary": "A widely shared summary: any unpatched Linux server with a single internet-facing TCP port and MPTCP active, which many Go web servers enable, can be fully taken over.",
+    "text": "Hard to overstate how big of a deal this is.\n\ntl;dr — ANY unpatched Linux server with even a single TCP port exposed to the internet (say for HTTP or SSH) and MPTCP active (default for many Go web servers) is vulnerable to complete takeover. https://t.co/1oqoxRuMM6",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post by @tobi",
+        "url": "https://x.com/tobi/status/2116638054899208685",
+        "short": "https://t.co/1oqoxRuMM6"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116980802840052038",
+    "url": "https://x.com/omarmsimon/status/2116980802840052038",
+    "author": {
+      "name": "Omar",
+      "handle": "omarmsimon"
+    },
+    "posted_at": "2026-11-01T19:48:49.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "Turn off MPTCP until your distro ships the patched kernel",
+    "summary": "A tip for Omarchy users whose kernel predates the upstream fix: disable MPTCP, which the known exploit uses and which Go apps like Tailscale listen with by default.",
+    "text": "security tip for @omarchy folks: \n\nCVE-2026-98432 is a linux TCP bug with a remote root exploit. as of now, linux-omarchy is still on 7.2.8, older than the upstream fix (7.2.10/7.2.11).\n\nuntil the patched kernel ships, turn off off MPTCP, which the known exploit uses (Go apps like Tailscale listen with it by default):\n\necho 'net.mptcp.enabled = 0' | sudo tee /etc/sysctl.d/99-no-mptcp.conf && sudo sysctl --system\n\nnot a full fix, but a layer of protection while you await the patch.",
+    "key_points": [
+      "The fix landed upstream in 7.2.10/7.2.11.",
+      "Disabling MPTCP is a layer, not a full fix."
+    ],
+    "action": "Run echo 'net.mptcp.enabled = 0' | sudo tee /etc/sysctl.d/99-no-mptcp.conf && sudo sysctl --system until patched.",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2116987707645989322",
+    "url": "https://x.com/DanielLockyer/status/2116987707645989322",
+    "author": {
+      "name": "Daniel Lockyer",
+      "handle": "DanielLockyer"
+    },
+    "posted_at": "2026-11-01T20:16:15.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "The fix for the 9.8 kernel bug is only a few lines",
+    "summary": "Daniel Lockyer shares a screenshot of the upstream patch for CVE-2026-98432, noting how short the fix is for such a severe bug.",
+    "text": "I just love how short the fix for this CVSS 9.8 kernel vulnerability is https://t.co/1Wm0M69WHP https://t.co/osqf7ZtKAb",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post by @tobi",
+        "url": "https://x.com/tobi/status/2116638054899208685",
+        "short": "https://t.co/osqf7ZtKAb"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWENC1PXkAAIFms.jpg",
+        "link": "https://t.co/1Wm0M69WHP"
+      }
+    ]
+  },
+  {
+    "id": "2116975556009091565",
+    "url": "https://x.com/championswimmer/status/2116975556009091565",
+    "author": {
+      "name": "Arnav Gupta",
+      "handle": "championswimmer"
+    },
+    "posted_at": "2026-11-01T19:27:58.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Anthropic researchers showed a working root exploit for Linux TCP listeners",
+    "summary": "Arnav Gupta reacts to Anthropic's proof of concept: every Linux server with TCP listeners could be exploited to remote root.",
+    "text": "Every Linux server with TCP listeners can be exploited to root level remote code execution. \n\nWorking proof of concept shown by Anthropic researchers. \n\nWondering why 9.8 and 10.0 actually. \nDamn this one is bad. https://t.co/pUBESvDpZw",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWEBdQ_XcAAVOso.jpg",
+        "link": "https://t.co/pUBESvDpZw"
+      }
+    ]
+  },
+  {
+    "id": "2116957135661945283",
+    "url": "https://x.com/karpathy/status/2116957135661945283",
+    "author": {
+      "name": "Andrej Karpathy",
+      "handle": "karpathy"
+    },
+    "posted_at": "2026-11-01T18:14:46.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "HackerTube: HN comments distilled into 6,454 recommended videos",
+    "summary": "Karpathy had Claude filter 43M Hacker News comments into a login-free video site in about two hours with Opus 5.5, then had it harden and deploy the VPS too.",
+    "text": "Weekend hack: HackerTube. I was annoyed with YouTube's recommendations so I had Claude filter down 43M comments over 20 years of HN to 6,454 videos that keep being recommended. *Significantly* better viewing experience, ~2 hours with Opus 5.5:\nhttps://t.co/JIhXN7OSh1\n\n- Excellent recs without any logins (state is kept in local browser session)\n- Thumbnail is a representative frame from middle of the video instead of the super duper A/B test hyper-optimized user uploads\n- Underlying data from the comment analysis as one zip file, point your Claude at it and ask for your own version\n- HackerTube Longs ✊\n\nA bit more on the process:\nI use Claude Code (desktop app for Mac), Opus 5.5 on Medium effort as my default. I only talk to Claude and have it do everything, the only \"manual work\" I helped with in tandem was in the browser (reminiscent of MenuGen): 1) I had to create some kind of API key from Google Cloud UI to query YouTube for video metadata, 2) I booted up a VPS box for serving and 3) I bought the domain name. Once the box was up I gave Claude the IP and told it update, secure, harden, deploy and optimize the code, and it did the whole thing.\n\nMany awesome projects that would have normally taken weeks/months even can now be few-shotted for breakfast. What else are we not thinking of.",
+    "key_points": [
+      "Recommendations without logins; state stays in the browser.",
+      "The comment-analysis data ships as one zip to remix with your own agent.",
+      "He only did the browser steps: an API key, a VPS and a domain."
+    ],
+    "action": "Download the HackerTube data zip and ask your agent for a version tuned to your interests.",
+    "links": [
+      {
+        "title": "hackertube.org",
+        "url": "https://hackertube.org/",
+        "short": "https://t.co/JIhXN7OSh1"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWDnuuCaIAA__wa.jpg"
+      }
+    ],
+    "pick": true
+  },
+  {
+    "id": "2116912634171711850",
+    "url": "https://x.com/mark_k/status/2116912634171711850",
+    "author": {
+      "name": "Mark Kretschmann",
+      "handle": "mark_k"
+    },
+    "posted_at": "2026-11-01T15:17:56.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Claude ported Anthropic's Messages API from Python to Rust",
+    "summary": "Anthropic moved its Messages API to Rust with engineers who had no Rust experience; Claude wrote most of it, shadow traffic verified it, and CPU dropped 40–50%.",
+    "text": "Anthropic ported its Messages API from Python to Rust with a team that initially had no Rust developers. @claudeai handled most of the implementation, while the engineers designed the system, planned the migration and verified the results. According to platform engineering head Katelyn Lesse, the result was roughly 40–50% lower CPU usage for the API service and a 10–20% improvement in time to first token.\n\nThey built the Rust version alongside the existing Python service, ran shadow traffic through both to compare their outputs, then gradually switched real traffic over. They deliberately avoided adding features during the rewrite. That's a substantial production migration with measurable benefits, carried out by engineers using AI to work in a language they learned along the way.",
+    "key_points": [
+      "Shadow traffic compared both services before any switch.",
+      "No new features during the rewrite.",
+      "Time to first token improved 10–20%."
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWDIyN9WIAAfLh0.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116805878187794740",
+    "url": "https://x.com/mattpocockuk/status/2116805878187794740",
+    "author": {
+      "name": "Matt Pocock",
+      "handle": "mattpocockuk"
+    },
+    "posted_at": "2026-11-01T08:13:44.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Sandcastle v1 pitch: a software factory on your own infra",
+    "summary": "Matt Pocock outlines Sandcastle v1: six built-in harnesses, sandbox integrations, durable runs, Slack/Discord human-in-the-loop, and every skill exposed as an Agent() function.",
+    "text": "Putting in a ton of work into Sandcastle v1. Going to reshape it a lot.\n\nHow does this sound as a pitch:\n\n- Sandcastle helps you build your software factory\n- Use our 6 built-in harnesses (Claude Code, Codex, etc) or your own\n- Integrates with all the top Sandbox providers (Daytona, Vercel, E2B, etc)\n- Ships with templates to work with Inngest/Trigger.dev for a durable factory\n- Support for HITL (over Slack and Discord) as well as AFK runs\n\nAnd one more thing...\n\n- Every skill in my repo becomes an Agent(), a function you can invoke to get that workflow\n- CodeReview(), ImplementSpec(), Retro(), ImproveCodebaseArchitecture()\n\nSo effectively, you just plug my skills into infrastructure you provision, into services you already use.\n\nA software factory running on your infra with opinionated, mattpocock/skills-based defaults but infinitely extensible.\n\nWDYT?",
+    "key_points": [
+      "Skills become callable functions such as CodeReview() and ImplementSpec().",
+      "Runs on sandboxes you already use: Daytona, Vercel, E2B."
+    ],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2116679973448945762",
+    "url": "https://x.com/jarredsumner/status/2116679973448945762",
+    "author": {
+      "name": "Jarred Sumner",
+      "handle": "jarredsumner"
+    },
+    "posted_at": "2026-10-31T23:53:26.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Bun AoT cuts memory 40% in an Express REST API",
+    "summary": "Jarred Sumner shows Bun ahead-of-time compilation on an Express plus node:sqlite API: 40% less memory, 14% lower CPU and no JIT warmup.",
+    "text": "Bun AoT in an Express node:sqlite REST API\n\n40% less memory\n14% lower cpu\nNo JIT warmup https://t.co/EzCMVAsuba",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV_1N8Ka0AAdDsj.jpg",
+        "alt": "Chart titled \"Bun AoT, ahead-of-time compilation\". An Express API on SQLite: 3 middlewares, bearer auth, 4 SQL queries, 2.3 KB of JSON per request. A line chart of requests per second over the first 3",
+        "link": "https://t.co/EzCMVAsuba"
+      }
+    ]
+  },
+  {
+    "id": "2116986087390486816",
+    "url": "https://x.com/addyosmani/status/2116986087390486816",
+    "author": {
+      "name": "Addy Osmani",
+      "handle": "addyosmani"
+    },
+    "posted_at": "2026-11-01T20:09:49.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Type ultrathink mid-task to raise Claude Code's effort",
+    "summary": "Addy Osmani: on the latest Claude Code terminal release, typing ultrathink while Claude works raises the effort for the rest of that turn.",
+    "text": "Claude Code tip: if a task turns out harder than you expected, type ultrathink while Claude is working. It raises the effort for the rest of that turn. In the terminal on the latest release. https://t.co/IKTyFzuoWa",
+    "key_points": [],
+    "action": "Next time a Claude Code task stalls, type ultrathink mid-turn and compare the result.",
+    "links": [
+      {
+        "title": "Quoted post by @dmwlff",
+        "url": "https://x.com/dmwlff/status/2115614417689944066",
+        "short": "https://t.co/IKTyFzuoWa"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116917404508795165",
+    "url": "https://x.com/ducksays/status/2116917404508795165",
+    "author": {
+      "name": "duck says",
+      "handle": "ducksays"
+    },
+    "posted_at": "2026-11-01T15:36:54.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Two Grok Bots read X so the human only picks and posts",
+    "summary": "A builder splits work between a scout bot reading 33 accounts three times a day and a CMO bot drafting posts in Notion; neither bot posts, likes or follows.",
+    "text": "two grok bots have logged 2,337 x posts since wednesday so i don't have to scroll.\n\nhere's how i split the work on @bot:\n\nscout (HoMI): reads a private list of 33 accounts in my niche 3 times a day. hands over what's working, the numbers, and why.\n\ncmo: turns that into drafts built from stuff my bots actually did, conversations i had, or takes in my voice. it keeps the queue in notion.\n\nme: pick one, fix it, post it.\n\nneither bot posts, likes, replies or follows anyone. they read and write. the posting is still me.",
+    "key_points": [
+      "The bots only read and write; posting stays human.",
+      "2,337 posts logged since Wednesday."
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWDNC_dWwAEMmY_.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWDNHRwXMAAq_Pg.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116959063573692537",
+    "url": "https://x.com/Suhail/status/2116959063573692537",
+    "author": {
+      "name": "Suhail",
+      "handle": "Suhail"
+    },
+    "posted_at": "2026-11-01T18:22:26.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "news",
+    "tldr": "Suhail is hiring an AI agent engineer for open multi-agent systems",
+    "summary": "Suhail wants an engineer with prior multi-agent work, in the vein of Swarms or DeepSeek's Super Agent, to build 0-to-1 with him. SF only, no remote.",
+    "text": "I am looking for an AI agent engineer. Someone who will build open multi-agent systems. Have to have a prior art in building similar things. Think: Swarms, DeepSeek’s Super Agent, Security Agents, etc.   \n\nYou will work directly with me - 0 to 1.\n\nSF only. No remote. DM.",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2116895016249434134",
+    "url": "https://x.com/mitsuhiko/status/2116895016249434134",
+    "author": {
+      "name": "Armin Ronacher ⇌",
+      "handle": "mitsuhiko"
+    },
+    "posted_at": "2026-11-01T14:07:56.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "An agent can rebuild software without the original test suite",
+    "summary": "Armin Ronacher argues an agent porting software does better writing its own porting tests, since many existing tests are poor for hill climbing.",
+    "text": "A pretty common reply today is \"the value is in the testsuite\". I'm not sure if this is LLM slop or genuine replies, but you don't actually need a test suite to rebuild something. In fact, you're probably better off having the agent builds its own test suite specifically for porting if that's what you're after. In part because lots of pre-existing tests are bad for hill climbing.\n\nAn existing test-suite helps for sure, but I'm not at all convinced that it's necessary. For instance I had an agent a few weeks ago re-implement excel's formula engine and it build its own test suite from scratch.",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2116905359516500166",
+    "url": "https://x.com/badlogicgames/status/2116905359516500166",
+    "author": {
+      "name": "Mario Zechner",
+      "handle": "badlogicgames"
+    },
+    "posted_at": "2026-11-01T14:49:02.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Existing conformance suites are what make agent output trustworthy",
+    "summary": "Mario Zechner disagrees: his problem with agents is trust, and pre-existing test and conformance suites are what raise it.",
+    "text": "strongly disagree. my problem with agents is trust. preexisting test and conformance suits increase my trust. https://t.co/mMwuvoQIUE",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post by @mitsuhiko",
+        "url": "https://x.com/mitsuhiko/status/2116895016249434134",
+        "short": "https://t.co/mMwuvoQIUE"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116870488983281852",
+    "url": "https://x.com/GOROman/status/2116870488983281852",
+    "author": {
+      "name": "NULL=RUN",
+      "handle": "GOROman"
+    },
+    "posted_at": "2026-11-01T12:30:28.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "GMO不正アクセス、北朝鮮関与かと共同通信",
+    "summary": "47NEWSの速報：GMOへの不正アクセスに北朝鮮系の関与が疑われると報じられた。",
+    "text": "【速報】GMO不正アクセス、北朝鮮関与か #47NEWS https://t.co/kWb2etEWyz @47news_officialより",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "【速報】GMO不正アクセス、北朝鮮関与か",
+        "url": "https://www.47news.jp/15170287.html",
+        "image": "https://pbs.twimg.com/news_img/2116854451449503744/RR-jM8qD?format=png&name=orig",
+        "short": "https://t.co/kWb2etEWyz"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116918941423739354",
+    "url": "https://x.com/icchi_sokuho/status/2116918941423739354",
+    "author": {
+      "name": "イッチ速報",
+      "handle": "icchi_sokuho"
+    },
+    "posted_at": "2026-11-01T15:43:00.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "GMO不正アクセス、北朝鮮の犯行はまだ確定していない",
+    "summary": "共同通信の報道は「GMOが北朝鮮系の関与の可能性が高いと分析」まで。IP一致は手掛かりで、犯人特定ではない。2日に熊谷氏が出席する会見がある。",
+    "text": "GMOの不正アクセス、まだ「北朝鮮の犯行で確定」ではないで。\n\n昨夜から「やっぱり北朝鮮か」が一気に広がっとるけど、答え合わせしとく。\n\n・共同通信が報じたのは「GMO自身が“北朝鮮系ハッカー集団の関与の可能性が高い”と分析している」という内容\n・GMOの判断材料は、マルウェアの特徴や通信記録などの痕跡\n・共同通信も独自解析で、犯行声明サイトに接続したIP5件が過去の北朝鮮系集団のものと一致したと伝えとる\n・ただIPの一致は手掛かりであって、犯人の特定とイコールやない\n・専門家は「他国の関与を装って調査をかく乱する」手口の可能性も指摘しとる\n・犯行主体が公式に確定した、という発表はまだ出ていない\n\n今ハッキリしとるのは「GMOの分析では北朝鮮系の線が濃い」ところまでや。\n今日11月2日、熊谷社長が出席する会見がある。\nこの件、会見の中身までワイが追うで。",
+    "key_points": [
+      "根拠はマルウェアの特徴、通信記録、IP5件の一致。",
+      "偽装の可能性を指摘する専門家もいる。"
+    ],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2116803899357299056",
+    "url": "https://x.com/4ki4/status/2116803899357299056",
+    "author": {
+      "name": "世界四季報",
+      "handle": "4ki4"
+    },
+    "posted_at": "2026-11-01T08:05:52.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "GMOトラスト・ログイン、設定ミスで4.5万人分が9年間取得可能に",
+    "summary": "日経によると、GMO系のトラスト・ログインで顧客情報4.5万人分が漏洩。設定ミスで9年間外部から取得できる状態だった。",
+    "text": "GMOトラスト・ログイン、顧客情報4.5万人分漏洩　設定ミスで9年間外部から取得可能 - 日本経済新聞\n https://t.co/7iKJu9b9LL",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "GMO系、顧客情報4.5万人分漏洩　設定ミスで9年間外部から取得可能",
+        "url": "https://www.nikkei.com/article/DGXZQOUC010ZZ0R01C26A1000000/",
+        "image": "https://pbs.twimg.com/news_img/2116790864496439297/9RygNQSZ?format=jpg&name=orig",
+        "short": "https://t.co/7iKJu9b9LL"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116761788888871241",
+    "url": "https://x.com/umiyuki_ai/status/2116761788888871241",
+    "author": {
+      "name": "うみゆき@AI研究",
+      "handle": "umiyuki_ai"
+    },
+    "posted_at": "2026-11-01T05:18:32.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "evergreen",
+    "tldr": "配信SaaSが抜かれ、エックスサーバーは自社開発へ",
+    "summary": "ブラストメールへの不正アクセスで契約企業の配信先まで流出し、エックスサーバーは46万件の漏洩を受けて配信システムの自社開発に切り替える。",
+    "text": "ブラストメールっていう、企業のメール配信をやってくれるクラウドサービスが不正アクセスで情報漏洩したという。そんで契約企業の内の345社についてはメール配信してた先のユーザのメルアドまでも流出した。それでエックスサーバが配信してたメール配信先も漏れたからお詫びとの事。エックスサーバからは46万のメルアドが漏洩。同様にピッコマからも100万件漏洩。こういう企業向けSaaSが抜かれると根こそぎやられるよなあ。これを受けてエックスサーバはブラストメール使うのやめてメール配信システムを自社開発するとの事。SaaSが信用できなくなって自社開発へ移行するという意味でのSaaSの死は以前に予言されてたね",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post by @xserverjp",
+        "url": "https://x.com/xserverjp/status/2113502262786195529"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116736122495852774",
+    "url": "https://x.com/umiyuki_ai/status/2116736122495852774",
+    "author": {
+      "name": "うみゆき@AI研究",
+      "handle": "umiyuki_ai"
+    },
+    "posted_at": "2026-11-01T03:36:33.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "evergreen",
+    "tldr": "Grok Botを信用せず、Tailscaleで向こうからの接続を遮断",
+    "summary": "umiyukiさんはGrok BotにメインPCを触らせず、Tailscaleでもボット側からの接続を遮断していると語る。",
+    "text": "僕はGrokBotとか信用してないのでメインPCとか触らせん。勝手に侵入してくることさえ疑ってるからTailscaleでも向こうからの接続は遮断した https://t.co/R4kFLMiLrz",
+    "key_points": [],
+    "action": "TailscaleのACLで、ボットのノードから自分のPCへの接続を遮断できているか確認する。",
+    "links": [
+      {
+        "title": "Quoted post by @tetumemo",
+        "url": "https://x.com/tetumemo/status/2116311704053428728",
+        "short": "https://t.co/R4kFLMiLrz"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117013317613125856",
+    "url": "https://x.com/yazesty/status/2117013317613125856",
+    "author": {
+      "name": "やじゅ社長🍎田中康之｜エンジニア採用強化中！",
+      "handle": "yazesty"
+    },
+    "posted_at": "2026-11-01T21:58:01.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "evergreen",
+    "tldr": "情報システム業だけ、外国人採用が今年止まった理由はAI",
+    "summary": "製造業やサービス業では外国人採用が増え続ける一方、情報システム業は「人を足す前にAIでどこまでできるか確かめる」段階に入ったという見立て。",
+    "text": "製造業やサービス業では、外国人の採用が毎年増えています。ところが情報システム業だけ、今年になって止まった感があります。\n\n理由はAIです。去年までは「人が足りないから外国人エンジニアを」だった会社が、今年は「その仕事、AIで足りるかもしれない」と考え始めた。\n\nコードを書く、テストする、資料をまとめる。外国人に頼んでいた仕事と、AIに任せられる仕事が、かなり重なっています。\n\n止まったのは、外国人の採用をやめたからではありません。「人を増やすまえにAIで何がどこまでできるか」を確かめる会社が増えたからです。\n\n人手不足の答えが「人を足す」から「人を足す前に確かめる」に変わった。情報システム業は、その変化の先頭にいます。",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2116766878332842195",
+    "url": "https://x.com/nikkei/status/2116766878332842195",
+    "author": {
+      "name": "日本経済新聞 電子版（日経電子版）",
+      "handle": "nikkei"
+    },
+    "posted_at": "2026-11-01T05:38:46.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "大学生の7割が就活にAI、後ろめたさは4人に1人",
+    "summary": "日経：大学生の7割が就職活動にAIを活用し、「後ろめたさがある」と答えたのは4人に1人。",
+    "text": "大学生、7割が就職にAI活用　「後ろめたさある」は4人に1人\nhttps://t.co/8FCYp4V2t4",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "大学生、7割が就職にAI活用　「後ろめたさある」は4人に1人",
+        "url": "https://www.nikkei.com/article/DGXZQOUC295OV0Z21C26A0000000/",
+        "image": "https://pbs.twimg.com/news_img/2116766882929733632/3fQdhtVF?format=jpg&name=orig",
+        "short": "https://t.co/8FCYp4V2t4"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117017392803144112",
+    "url": "https://x.com/fujii_yuji/status/2117017392803144112",
+    "author": {
+      "name": "フジイユウジ",
+      "handle": "fujii_yuji"
+    },
+    "posted_at": "2026-11-01T22:14:13.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "evergreen",
+    "tldr": "3人のClaude CodeをSlackでつないでISUCON2026に参加",
+    "summary": "3人それぞれのClaude CodeをSlackでつないでISUCON2026に挑み、207,039点を出したZennの記事。",
+    "text": "面白かった〜工夫〜\n\n3 人それぞれの Claude Code を Slack でつないで ISUCON2026 に参加した（207,039 点）｜a-thug https://t.co/HDR0HN5hSc #zenn",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "3 人それぞれの Claude Code を Slack でつないで ISUCON2026 に参加した（207,039 点）",
+        "url": "https://zenn.dev/kauche/articles/f3736c660aab77",
+        "image": "https://pbs.twimg.com/news_img/2116508836001718272/dFi-S54p?format=jpg&name=orig",
+        "short": "https://t.co/HDR0HN5hSc"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116924868495364125",
+    "url": "https://x.com/markgurman/status/2116924868495364125",
+    "author": {
+      "name": "Mark Gurman",
+      "handle": "markgurman"
+    },
+    "posted_at": "2026-11-01T16:06:33.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "design",
+    "shelf_life": "news",
+    "tldr": "Touch-screen MacBook Pros with M7 Pro and Max due next year",
+    "summary": "Mark Gurman reports a second-generation touch-screen MacBook Pro with M7 Pro and M7 Max chips next year, plus an entry 14-inch M7 model with the thinner design.",
+    "text": "Apple’s second-generation touch-screen MacBook Pros are coming next year with M7 Pro and M7 Max chips and new AI hardware capabilities. Apple is also planning an entry-level 14-inch M7 MacBook Pro with the thinner design and slimmer bezels of the new high-end models. https://t.co/gXpwyPM9th",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post by @markgurman",
+        "url": "https://x.com/markgurman/status/2116915679932895287",
+        "short": "https://t.co/gXpwyPM9th"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116918113450983504",
+    "url": "https://x.com/tobi/status/2116918113450983504",
+    "author": {
+      "name": "tobi lutke",
+      "handle": "tobi"
+    },
+    "posted_at": "2026-11-01T15:39:43.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "evergreen",
+    "tldr": "Every engineer hates a monorepo move, then never wants to leave",
+    "summary": "Tobi Lutke recalls Mikhail Parakhin's line on Shopify's monorepo: engineers hate the move, then refuse to work anywhere without one.",
+    "text": "When I first told @MParakhin that we were planning to move to a monorepo he said wisely: \n\nMoving to a Monorepo is an idea that every engineer absolutely hates, and that once its there, no engineer would ever want to work at a company that doesn't use one. We will definitely do it.",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post by @burkelibbey",
+        "url": "https://x.com/burkelibbey/status/2116904323330589055"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116721754475303361",
+    "url": "https://x.com/andrew_n_carr/status/2116721754475303361",
+    "author": {
+      "name": "Andrew Carr 🤸",
+      "handle": "andrew_n_carr"
+    },
+    "posted_at": "2026-11-01T02:39:27.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "culture",
+    "shelf_life": "evergreen",
+    "tldr": "Four hours of short videos and not one he could remember",
+    "summary": "Andrew Carr quit short-form video after realizing he could not recall a single clip from a four-hour evening of scrolling.",
+    "text": "One evening, maybe 4 years ago, I woke up from a short form stupor realizing I had wasted 4 hrs of a precious evening. \n\nI decided to experiment with this exactly. Could I recall even one funny, interesting, novel video I had watched? \n\nThe answer was, of course, no - and that horrified me so much that I haven't watched another since. \n\nTruly a scurge on society",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post by @DylanoA4",
+        "url": "https://x.com/DylanoA4/status/2116640502166831342"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116734300972261448",
+    "url": "https://x.com/NikkeiAsia/status/2116734300972261448",
+    "author": {
+      "name": "Nikkei Asia",
+      "handle": "NikkeiAsia"
+    },
+    "posted_at": "2026-11-01T03:29:19.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "economics",
+    "shelf_life": "news",
+    "tldr": "South Korea's exports nearly double in October on AI demand",
+    "summary": "Nikkei Asia: South Korean exports almost doubled in October, driven by the AI investment boom.",
+    "text": "South Korea exports nearly double in October on AI investment boom https://t.co/DDGxLp4kyz",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "South Korea exports nearly double in October on AI investment boom",
+        "url": "https://s.nikkei.com/4sAfJrr",
+        "image": "https://pbs.twimg.com/news_img/2116734304453644288/723VkEeD?format=jpg&name=orig",
+        "short": "https://t.co/DDGxLp4kyz"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117019919057621448",
+    "url": "https://x.com/MotorsportWeek/status/2117019919057621448",
+    "author": {
+      "name": "Motorsport Week",
+      "handle": "MotorsportWeek"
+    },
+    "posted_at": "2026-11-01T22:24:15.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "culture",
+    "shelf_life": "news",
+    "tldr": "Kimi Antonelli becomes the youngest Formula 1 world champion",
+    "summary": "Antonelli finished third in Mexico City to clinch the 2026 title, the youngest champion in F1 history.",
+    "text": "Kimi Antonelli - FORMULA 1 WORLD CHAMPION!\n\nThe Italian finishes third in Mexico City to become the youngest-ever champion\n\n#F1 #MexicoGP #Antonelli https://t.co/DZO2phHygP",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWEqZNaWEAABXfk.jpg",
+        "link": "https://t.co/DZO2phHygP"
+      }
+    ]
+  },
+  {
+    "id": "2116351801545167099",
+    "url": "https://x.com/JapanToday/status/2116351801545167099",
+    "author": {
+      "name": "Japan Today News",
+      "handle": "JapanToday"
+    },
+    "posted_at": "2026-10-31T02:09:24.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "Toyota and Waymo plan robotaxi trials in Japan in 2027",
+    "summary": "Toyota and Waymo announced the next phase of their partnership: an autonomous taxi trial service in Japan starting in 2027.",
+    "text": "Toyota, Waymo to begin autonomous taxi trial service in Japan in 2027: Toyota Motor Corporation and Waymo on Friday announced the next phase of… japantoday.​com/category/business/update1-toyota-waymo-to-begin-autonomous-taxi-trial-service-in-japan-in-2027 #japannews #japantoday https://t.co/pLm20m9jsw",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Japan Today: Toyota, Waymo to begin robotaxi trial in Japan in 2027",
+        "url": "https://japantoday.com/category/business/update1-toyota-waymo-to-begin-autonomous-taxi-trial-service-in-japan-in-2027"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV7KvsQbIAAFNAs.jpg",
+        "link": "https://t.co/pLm20m9jsw"
+      }
+    ]
+  },
+  {
+    "id": "2116840729406480490",
+    "url": "https://x.com/mainichi/status/2116840729406480490",
+    "author": {
+      "name": "毎日新聞",
+      "handle": "mainichi"
+    },
+    "posted_at": "2026-11-01T10:32:13.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "world",
+    "shelf_life": "news",
+    "tldr": "防災庁が2日発足、初代防災相は細野氏が兼務へ",
+    "summary": "災害対策の司令塔となる内閣直属の防災庁が2日に発足し、国や自治体、国民に備えを促す「緊急要請」を出す。",
+    "text": "防災庁、2日発足　内閣直属、初代防災相は細野復興相が兼務へ\nhttps://t.co/gAzv9dzYx4\n\n災害対策で国の司令塔となる防災庁が2日、発足します。初代防災相は細野豪志復興相が兼務する方向です。防災庁は2日、中央省庁や全国の自治体、国民に対し、災害への備えを進めるよう「緊急要請」を発表します。",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "防災庁、2日発足　内閣直属、初代防災相は細野復興相が兼務へ",
+        "url": "https://mainichi.jp/articles/20261101/k00/00m/010/309000c",
+        "image": "https://pbs.twimg.com/news_img/2116840731382026240/A1j8qEkg?format=jpg&name=orig",
+        "short": "https://t.co/gAzv9dzYx4"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116787540975886593",
+    "url": "https://x.com/nikkei/status/2116787540975886593",
+    "author": {
+      "name": "日本経済新聞 電子版（日経電子版）",
+      "handle": "nikkei"
+    },
+    "posted_at": "2026-11-01T07:00:52.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "culture",
+    "shelf_life": "news",
+    "tldr": "いらすとや、AIに押され訪問者2割減",
+    "summary": "画像生成AIの普及でいらすとやのサイト訪問者が2割減。ただ公共団体での利用は増えているとファンは指摘する。",
+    "text": "「いらすとやが消えてしまった」サイト訪問者2割減\nhttps://t.co/Ts5DkMDrAS\n\nAIによって画像生成が簡単になったことで苦戦中。ただ、街中の活用例を収集するファンは公共団体による使用は増えていると指摘します。無味無臭感を武器に生き残れるか。",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "いらすとや、ファンが生息域踏査　AIに押されサイト訪問者は減少",
+        "url": "https://www.nikkei.com/article/DGXZQOUC284ZY0Y6A021C2000000/",
+        "image": "https://pbs.twimg.com/news_img/2116787546940116992/OtoS6ZEg?format=jpg&name=orig",
+        "short": "https://t.co/Ts5DkMDrAS"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116883950782349612",
+    "url": "https://x.com/Yomiuri_Online/status/2116883950782349612",
+    "author": {
+      "name": "読売新聞オンライン",
+      "handle": "Yomiuri_Online"
+    },
+    "posted_at": "2026-11-01T13:23:58.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "磁気テープがAI時代に脚光、富士フイルムは生産能力5倍に",
+    "summary": "消費電力が少なく低コストな磁気テープがAIのデータ保存で見直され、富士フイルムは生産能力を5倍にする。",
+    "text": "ビデオやカセットに使われた磁気テープ、ＡＩ普及で脚光…消費電力少なく低コスト・富士フイルムは生産能力５倍に : 読売新聞 https://t.co/iuDRjJOxkC \n＃磁気テープ ＃磁気テープ",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "ビデオやカセットに使われた磁気テープ、ＡＩ普及で脚光…消費電力少なく低コスト・富士フイルムは生産能力５倍に",
+        "url": "https://www.yomiuri.co.jp/economy/20261101-GYT1T00187/",
+        "image": "https://pbs.twimg.com/news_img/2116883951281381376/VEvBxuFA?format=jpg&name=orig",
+        "short": "https://t.co/iuDRjJOxkC"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116818809843864059",
+    "url": "https://x.com/Yuji_48/status/2116818809843864059",
+    "author": {
+      "name": "Yuji Shibasaki＠Photo",
+      "handle": "Yuji_48"
+    },
+    "posted_at": "2026-11-01T09:05:07.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "culture",
+    "shelf_life": "evergreen",
+    "tldr": "11月は秩父雲海のベストシーズン",
+    "summary": "11月に見頃を迎える秩父の雲海の写真。",
+    "text": "11月は秩父雲海のベストシーズンです。 https://t.co/y6pnPImeDf",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWBzdMVaEAAHyEK.jpg",
+        "alt": "秩父の山あいに広がる雲海",
+        "link": "https://t.co/y6pnPImeDf"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWBzdtaaIAExpB6.jpg",
+        "alt": "秩父の山あいに広がる雲海",
+        "link": "https://t.co/y6pnPImeDf"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWBzecgboAAcwkJ.jpg",
+        "alt": "秩父の山あいに広がる雲海",
+        "link": "https://t.co/y6pnPImeDf"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWBze87aQAEXmoq.jpg",
+        "alt": "秩父の山あいに広がる雲海",
+        "link": "https://t.co/y6pnPImeDf"
+      }
+    ]
+  },
+  {
+    "id": "2116784421936472440",
+    "url": "https://x.com/GOROman/status/2116784421936472440",
+    "author": {
+      "name": "NULL=RUN",
+      "handle": "GOROman"
+    },
+    "posted_at": "2026-11-01T06:48:28.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "culture",
+    "shelf_life": "evergreen",
+    "tldr": "PS2版開発当時の勤怠表、納期前は家に帰れず",
+    "summary": "GOROmanさんがPS2版を開発していた頃の勤怠表を公開。納期絶対で家に帰れなかったという。",
+    "text": "当時の勤怠表ですw\n\n納期絶対で家に帰れなかった。 https://t.co/z0IjG5X7gn https://t.co/8KvbuTjo2f",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post by @goroman",
+        "url": "https://x.com/goroman/status/2116770818256732317",
+        "short": "https://t.co/8KvbuTjo2f"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWBUNjhasAAPgaN.jpg",
+        "link": "https://t.co/z0IjG5X7gn"
+      }
+    ]
+  },
+  {
+    "id": "2116814995862532176",
+    "url": "https://x.com/the4thplate/status/2116814995862532176",
+    "author": {
+      "name": "fourthplate",
+      "handle": "the4thplate"
+    },
+    "posted_at": "2026-11-01T08:49:58.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "economics",
+    "shelf_life": "evergreen",
+    "tldr": "William Nordhaus, who put climate into economics, dies at 85",
+    "summary": "An obituary of Nordhaus, the 2018 Nobel laureate whose DICE model links economic growth to a simple climate model to estimate a carbon tax.",
+    "text": "Here is our obituary of William Nordhaus, who passed away on 30 October at 85. He shared the 2018 Nobel Memorial Prize in Economic Sciences for bringing climate change into long-run economic analysis.\n\nHe began working on the economics of climate change in the 1970s, when few economists studied it. His DICE model links a standard model of economic growth to a simple model of the climate. It estimates the carbon tax that balances the cost of cutting emissions against the damage they cause. Governments, including the Obama administration, used it in setting regulations.\n\nIn 1993 he argued that the sectors that depend on rainfall, runoff and temperature would feel climate change most, and farming was one of them. His regional model, RICE, treated India as a region of its own.\n\nFull story: https://t.co/kkhgy6dDSg\n\n#ClimateEconomics #CarbonPricing #India",
+    "key_points": [
+      "He started on climate economics in the 1970s, when few economists did.",
+      "DICE turns climate damage into a price on carbon."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "thefourthplate.com",
+        "url": "https://thefourthplate.com/2026/11/01/economist-william-nordhaus-dies-at-85/",
+        "short": "https://t.co/kkhgy6dDSg"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116736760939937862",
+    "url": "https://x.com/profjasonpotts/status/2116736760939937862",
+    "author": {
+      "name": "Jason Potts",
+      "handle": "profjasonpotts"
+    },
+    "posted_at": "2026-11-01T03:39:05.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "economics",
+    "shelf_life": "evergreen",
+    "tldr": "Nordhaus's history of the price of light, still taught today",
+    "summary": "Jason Potts remembers Nordhaus through his paper on the true cost of lighting over centuries, a classic on how badly price indexes miss innovation.",
+    "text": "Vale William Nordhaus. His history of lighting is still something I assign almost every class I teach. Such a great story of long run innovation and economic dynamics \n\nhttps://t.co/Wd6EgSx0c7 https://t.co/X4FOTTIqnG",
+    "key_points": [],
+    "action": "Read Nordhaus's paper on the price of light (NBER chapter, free PDF).",
+    "links": [
+      {
+        "title": "www.nber.org",
+        "url": "https://www.nber.org/system/files/chapters/c6064/c6064.pdf",
+        "short": "https://t.co/Wd6EgSx0c7"
+      },
+      {
+        "title": "Quoted post by @noahqk",
+        "url": "https://x.com/noahqk/status/2116554846132195718",
+        "short": "https://t.co/X4FOTTIqnG"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116707948823011505",
+    "url": "https://x.com/florianederer/status/2116707948823011505",
+    "author": {
+      "name": "Florian Ederer",
+      "handle": "florianederer"
+    },
+    "posted_at": "2026-11-01T01:44:36.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "economics",
+    "shelf_life": "evergreen",
+    "tldr": "Nordhaus's father's ski area closed because of climate change",
+    "summary": "Florian Ederer notes that Sandia Peak, the ski area founded by Nordhaus's father, recently closed due to climate change.",
+    "text": "Bill Nordhaus was a pioneer of the economic analysis of climate change for which he won the Nobel Prize in Economics in 2018. \n\nHis father founded Sandia Peak Ski Area which recently closed due to ...\n\n... climate change. https://t.co/ZyfDKAsMJ3 https://t.co/Z7kq0SInof",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post by @noahqk",
+        "url": "https://x.com/noahqk/status/2116554846132195718",
+        "short": "https://t.co/Z7kq0SInof"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWAOqWtXgAARf4j.jpg",
+        "link": "https://t.co/ZyfDKAsMJ3"
+      }
+    ]
+  },
+  {
+    "id": "2116899840672325833",
+    "url": "https://x.com/sapinker/status/2116899840672325833",
+    "author": {
+      "name": "Steven Pinker",
+      "handle": "sapinker"
+    },
+    "posted_at": "2026-11-01T14:27:06.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "economics",
+    "shelf_life": "evergreen",
+    "tldr": "A nephew's remembrance of the first environmental economist",
+    "summary": "Steven Pinker recommends Ted Nordhaus's essay on his uncle Bill, the eco-pragmatist economist.",
+    "text": "Moving and substantive remembrance of the (first) environmental economist, Nobel laureate William Nordhaus, by another eco-pragmatist, his nephew Ted:  RIP Uncle Bill https://t.co/UdqZ3vERhx",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "The Original Environmental Economist: RIP Uncle Bill",
+        "url": "https://open.substack.com/pub/thebreakthroughjournal/p/the-original-environmental-economist",
+        "image": "https://pbs.twimg.com/news_img/2116899844090662912/9qU_r1t_?format=jpg&name=orig",
+        "short": "https://t.co/UdqZ3vERhx"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116921517359648770",
+    "url": "https://x.com/noahqk/status/2116921517359648770",
+    "author": {
+      "name": "Noah Kaufman",
+      "handle": "noahqk"
+    },
+    "posted_at": "2026-11-01T15:53:14.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "economics",
+    "shelf_life": "evergreen",
+    "tldr": "Critics who ignore tradeoffs prove why Nordhaus mattered",
+    "summary": "Noah Kaufman says critiques of Nordhaus that see no tradeoffs illustrate why his cost-benefit climate work was needed.",
+    "text": "The critiques of Nordhaus that fail to recognize any tradeoffs may be the best illustration of the importance of Nordhaus’ climate work https://t.co/YzrT0qGSqa",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post by @petesikora1",
+        "url": "https://x.com/petesikora1/status/2116904341659607140",
+        "short": "https://t.co/YzrT0qGSqa"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2116915317255311621",
+    "url": "https://x.com/EleonoraFall/status/2116915317255311621",
+    "author": {
+      "name": "Eléønøra",
+      "handle": "EleonoraFall"
+    },
+    "posted_at": "2026-11-01T15:28:36.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "Attic seeds grew an ancient wheat with seven ears",
+    "summary": "A viral story: an Italian farmer planted seeds found in his great-grandfather's attic and grew a six-foot ancient wheat with seven ears of grain.",
+    "text": "An Italian farmer found mysterious seeds in his great-grandfather’s attic, threw them in manure and they eventually grew a 6 foot wheat stalk with 7 ears of grain. (Rare)\n\nTurned out to be an ancient crop, miraculously rediscovered. We should all eat ancient grains. https://t.co/hE6rz7VKG4",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWDK4EkXgAApdVH.jpg",
+        "link": "https://t.co/hE6rz7VKG4"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWDLAiUXwAA7xrU.jpg",
+        "link": "https://t.co/hE6rz7VKG4"
+      }
+    ]
+  },
+  {
+    "id": "2116948049717264860",
+    "url": "https://x.com/PhysInHistory/status/2116948049717264860",
+    "author": {
+      "name": "Physics In History",
+      "handle": "PhysInHistory"
+    },
+    "posted_at": "2026-11-01T17:38:40.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "The first photograph of lightning, 2 September 1882",
+    "summary": "A post shares what it calls the first photograph of lightning, taken in 1882.",
+    "text": "First photograph of lightning, Sept. 2, 1882 ✍️ https://t.co/4XAbYhBueP",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWDpB2jboAEfKfs.jpg",
+        "alt": "Old photograph of a branching lightning bolt",
+        "link": "https://t.co/4XAbYhBueP"
+      }
+    ]
+  },
+  {
+    "id": "2116947125267554534",
+    "url": "https://x.com/Rainmaker1973/status/2116947125267554534",
+    "author": {
+      "name": "Massimo",
+      "handle": "Rainmaker1973"
+    },
+    "posted_at": "2026-11-01T17:35:00.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "health",
+    "shelf_life": "evergreen",
+    "tldr": "A liquid painted on teeth stopped decay in half of cases",
+    "summary": "A JAMA Pediatrics trial of 830 young children found silver diamine fluoride, applied in seconds every six months, halted decay in more than half of affected teeth.",
+    "text": "A liquid painted onto teeth in just seconds halted tooth decay in a large US trial.\n\nThe liquid is silver diamine fluoride. A dentist applies it to a decayed tooth with a tiny sponge, and the whole process takes only a few seconds. The silver works against the bacteria that cause decay, while the fluoride strengthens the remaining tooth structure.\n\nThe trial was led by the University of Michigan and New York University, with study sites in Michigan, New York, and Iowa. Researchers treated 830 children under the age of 6 who had severe tooth decay. With applications every six months, the treatment stopped the decay in more than half of the affected teeth.\n\nThis matters because drilling and filling very small teeth often requires sedation or even general anesthesia, and many families cannot access that kind of care at all. Lead researcher Margherita Fontana says the treatment is both highly effective and safe, even for children as young as 1.\n\nThere is one drawback that parents will notice: the treated area turns permanently black.\n\nThe FDA has already cleared the liquid for treating tooth sensitivity, and the researchers say these results support approving it for stopping cavities as well.\n\n[Fontana M, Moursi A, Gonzalez-Cabezas C, et al. Efficacy of silver diamine fluoride on young children with severe early childhood caries: a randomized clinical trial. JAMA Pediatrics. 2026. DOI: 10.1001/jamapediatrics.2026.2567]",
+    "key_points": [
+      "Avoids drilling and sedation for very young children.",
+      "Treated spots turn permanently black."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "JAMA Pediatrics: silver diamine fluoride trial (DOI)",
+        "url": "https://doi.org/10.1001/jamapediatrics.2026.2567"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWDj2qSWUAAK6Yu.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2116926992792932386",
+    "url": "https://x.com/Rainmaker1973/status/2116926992792932386",
+    "author": {
+      "name": "Massimo",
+      "handle": "Rainmaker1973"
+    },
+    "posted_at": "2026-11-01T16:15:00.000Z",
+    "saved_at": "2026-11-02T08:20:00+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "A 1960 equation put humanity's Doomsday on 13 November 2026",
+    "summary": "Von Foerster and colleagues fitted 2,000 years of population data to a faster-than-exponential curve that hits infinity on Friday 13 November 2026. Growth peaked in the 1960s instead.",
+    "text": "The human population was calculated to reach infinity in about two weeks from now.\n\nIn 1960, scientists calculated that if population growth kept going as it was, it would hit a mathematical \"Doomsday\" around Friday, November 13, 2026. Humanity, they wrote, would be \"squeezed to death.\"\n\nThe date happens to fall on a Friday the 13th. The more interesting part, however, is how they got there, and what their equation overlooked.\n\nHeinz von Foerster, Patricia Mora, and Lawrence Amiot collected 24 estimates of the world's population covering roughly 2,000 years. Their model described growth that was faster than exponential. Under exponential growth, a population doubles at regular intervals. In their model, each doubling took less time than the one before, so the curve eventually shot toward infinity at a finite date.\n\nThe researchers suggested that cooperation helped explain this acceleration. More people meant more potential inventors, farmers, and collaborators, and their advances could support an even larger population, which reinforced the cycle. Unlike earlier warnings that humanity would run out of food, this scenario assumed that human ingenuity could keep expanding our resources.\n\nStill, an equation that predicts infinitely many people only shows that its assumptions must eventually break down. It does not show that infinity can physically happen. And population growth was already approaching a turning point.\n\nThe global growth rate, measured as a percentage, peaked in the early 1960s and has declined since. The world kept adding people, but no longer at an endlessly accelerating pace. Much of the earlier surge came from falling death rates, as sanitation, nutrition, and medicine improved and more children survived into adulthood. Later, birth rates dropped across much of the world, thanks to better access to education and contraception and changes in family life. That reshaped the curve.\n\nThe UN's 2024 projections expect the global population to peak at around 10.3 billion in the mid-2080s, followed by a gradual decline.\n\nThe world still faces serious challenges involving food, resources, and inequality. But the November 2026 \"Doomsday\" belongs to a model whose historical pattern did not continue.",
+    "key_points": [
+      "Each doubling came faster, so the curve blew up at a finite date.",
+      "The UN now expects a peak near 10.3 billion in the 2080s."
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWDTs_JWgAIZUFt.jpg"
+      }
+    ]
   }
 ]

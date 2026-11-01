@@ -1,0 +1,606 @@
+{
+  "date": "2026-11-02",
+  "title": "One open port is enough",
+  "subtitle": "A ten-year-old kernel bug, an API ported to Rust by Claude, and Nordhaus remembered",
+  "editor_note": "One exposed port can cost you the whole box. Patch or close it tonight.",
+  "theme": {
+    "palette": "ocean",
+    "fonts": "mono-serif",
+    "accent": "#0f766e"
+  },
+  "sections": [
+    {
+      "type": "cover-story",
+      "scan": "2116638054899208685",
+      "kicker": "Cover story",
+      "headline": "A kernel bug that roots Linux boxes",
+      "deck": "A 9.8 kernel bug, a root exploit by an AI model, and distros still unpatched.",
+      "variant": "split",
+      "art": "rack.jpg",
+      "art_alt": "A server rack at night, one port glowing amber among dark ones",
+      "why": "Tailscale and Go servers listen with MPTCP by default. Your box may too.",
+      "source_label": "Tobi Lütke"
+    },
+    {
+      "type": "corner",
+      "corner": "brief"
+    },
+    {
+      "type": "brief-grid",
+      "headline": "Limits, flaws, rules",
+      "columns": 2,
+      "variant": "cards",
+      "items": [
+        {
+          "scan": "2116620807929799050",
+          "headline": "Codex and ChatGPT share one limit",
+          "why": "From December, in tokens. Long Codex runs eat chat time.",
+          "source_label": "OpenAI help page"
+        },
+        {
+          "scan": "2116818971773309278",
+          "headline": "LXD flaw rated 10.0",
+          "why": "Pose as a trusted client, reach host root.",
+          "source_label": "The Hacker News"
+        },
+        {
+          "scan": "2116794633967878490",
+          "headline": "$2.7M drained via one script",
+          "why": "A third-party script, not stolen keys.",
+          "source_label": "The Hacker News"
+        },
+        {
+          "scan": "2116807431770751262",
+          "headline": "Grok API output gets a watermark",
+          "why": "From 7 Nov, tool-call arguments too.",
+          "source_label": "theagency47",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2117025980405497946",
+          "headline": "Anger at Claude's game rule",
+          "why": "Policy changes can hit paid work overnight.",
+          "source_label": "Jon Allie",
+          "tags": [
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "headline": "Is Claude a snitch?",
+      "variant": "versus",
+      "verdict": "The report exists. It doesn't block or ban; telemetry settings don't turn it off.",
+      "items": [
+        {
+          "scan": "2116660983330382306",
+          "label": "The alarm",
+          "note": "A hidden report after every reply.",
+          "why": "The viral reading of Anthropic's post.",
+          "source_label": "Wolfram Ravenwolf"
+        },
+        {
+          "scan": "2116885469304930389",
+          "label": "The blog",
+          "note": "不拦截、不封号，但遥测开关管不到它。",
+          "why": "读了原文的人给的答案。",
+          "source_label": "FrozenEel427"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "lead"
+    },
+    {
+      "type": "feature",
+      "scan": "2116982861391917315",
+      "headline": "The kernel bug distros haven't fixed",
+      "deck": "Debian shipped it. Ubuntu and RHEL still haven't.",
+      "variant": "standard",
+      "emphasis": "loud",
+      "why": "Go 1.24+ opens MPTCP by default; that's the door the exploit uses.",
+      "source_label": "International Cyber Digest",
+      "tags": [
+        "unverified"
+      ]
+    },
+    {
+      "type": "pull-quote",
+      "scan": "2116949634111115348",
+      "quote": "Any Linux box can be taken over with just a single TCP port exposed to the internet now",
+      "variant": "bar"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "What to do tonight",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2116949634111115348",
+          "headline": "Close public ports; use Tailscale",
+          "why": "SSH over the tailnet, web via a tunnel.",
+          "source_label": "levelsio"
+        },
+        {
+          "scan": "2116980802840052038",
+          "headline": "Turn MPTCP off until patched",
+          "why": "One sysctl line. A layer, not a fix.",
+          "source_label": "Omar Simon",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116902936185889188",
+          "headline": "One port plus MPTCP is enough",
+          "why": "Many Go servers enable it.",
+          "source_label": "alive"
+        },
+        {
+          "scan": "2116987707645989322",
+          "headline": "The fix is a few lines",
+          "why": "Tiny patch, ten-year-old bug.",
+          "source_label": "Daniel Lockyer"
+        },
+        {
+          "scan": "2116975556009091565",
+          "headline": "A working root exploit exists",
+          "why": "Anthropic hasn't released it.",
+          "source_label": "Arnav Gupta",
+          "tags": [
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "art": "sea.jpg",
+      "art_alt": "A calm night sea with one far amber light on the horizon",
+      "variant": "wide"
+    },
+    {
+      "type": "corner",
+      "corner": "your-saves"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "Four saves",
+      "variant": "large",
+      "items": [
+        {
+          "bookmark": "2116797957454401746",
+          "headline": "10 步把 CI 提速的提示词",
+          "why": "直接交给 Agent。cc-safety-net 可以试。",
+          "source_label": "Tw93",
+          "tags": [
+            "from-your-saves"
+          ]
+        },
+        {
+          "bookmark": "2116593247854453244",
+          "headline": "Stageshow: launch visuals by skill",
+          "why": "Faux UI stills for your CLI launches.",
+          "source_label": "Benji Taylor",
+          "tags": [
+            "from-your-saves"
+          ]
+        },
+        {
+          "bookmark": "2116271344157618360",
+          "headline": "Becoming a better writer, now free",
+          "why": "Your own words beat AI slop.",
+          "source_label": "Gergely Orosz",
+          "tags": [
+            "from-your-saves"
+          ]
+        },
+        {
+          "bookmark": "2116904343794237643",
+          "headline": "Grow from zero with clips",
+          "why": "Borrow authority, add your own take.",
+          "source_label": "Grant Miller",
+          "tags": [
+            "from-your-saves"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sidebar-box",
+      "bookmark": "2116797957454401746",
+      "headline": "Try tonight",
+      "variant": "note"
+    },
+    {
+      "type": "corner",
+      "corner": "field-notes"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "Agents doing the work",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2116957135661945283",
+          "headline": "HackerTube, built in two hours",
+          "why": "Claude also hardened and deployed the VPS.",
+          "source_label": "Andrej Karpathy"
+        },
+        {
+          "scan": "2116912634171711850",
+          "headline": "Claude moved Anthropic's API to Rust",
+          "why": "No Rust devs. CPU down 40–50%.",
+          "source_label": "mark_k",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116805878187794740",
+          "headline": "Sandcastle v1: skills as Agent()",
+          "why": "Your skills on infra you already run.",
+          "source_label": "Matt Pocock",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116679973448945762",
+          "headline": "Bun AoT: 40% less memory",
+          "why": "No JIT warmup on an Express API.",
+          "source_label": "Jarred Sumner",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116986087390486816",
+          "headline": "Type ultrathink mid-turn",
+          "why": "Raises effort for the rest of the turn.",
+          "source_label": "Addy Osmani"
+        },
+        {
+          "scan": "2116917404508795165",
+          "headline": "Two Grok Bots read; he posts",
+          "why": "Same split as your scout and CMO.",
+          "source_label": "ducksays",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116959063573692537",
+          "headline": "Hiring: AI agent engineer",
+          "why": "Multi-agent prior art. SF only.",
+          "source_label": "Suhail",
+          "tags": [
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "headline": "Do agents need the old tests?",
+      "variant": "cards",
+      "verdict": "Both agree tests matter; they split on whose tests.",
+      "items": [
+        {
+          "scan": "2116895016249434134",
+          "label": "No",
+          "note": "Let the agent write porting tests.",
+          "why": "Old tests are bad for hill climbing.",
+          "source_label": "Armin Ronacher",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116905359516500166",
+          "label": "Yes",
+          "note": "Existing suites are what earn trust.",
+          "why": "Trust, not speed, is the bottleneck.",
+          "source_label": "Mario Zechner"
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "art": "porthole.jpg",
+      "art_alt": "A closed brass porthole on a pale blue wall",
+      "variant": "square"
+    },
+    {
+      "type": "corner",
+      "corner": "japan-desk",
+      "label": "日本から"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "GMO、会見の日",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2116870488983281852",
+          "headline": "GMO不正アクセス、北朝鮮関与か",
+          "why": "共同通信の速報。",
+          "source_label": "GOROman"
+        },
+        {
+          "scan": "2116918941423739354",
+          "headline": "「北朝鮮で確定」ではない",
+          "why": "IP一致は手掛かり。会見は今日。",
+          "source_label": "icchi_sokuho",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116803899357299056",
+          "headline": "トラスト・ログイン、9年間丸見え",
+          "why": "設定ミスで4.5万人分。",
+          "source_label": "4ki4"
+        },
+        {
+          "scan": "2116761788888871241",
+          "headline": "配信SaaSが抜かれ、自社開発へ",
+          "why": "エックスサーバーは46万件。",
+          "source_label": "umiyuki"
+        }
+      ]
+    },
+    {
+      "type": "brief-grid",
+      "headline": "AIと仕事",
+      "columns": 2,
+      "variant": "plain",
+      "items": [
+        {
+          "scan": "2116736122495852774",
+          "headline": "Grok Botを信用しない人",
+          "why": "Tailscaleで向こうからの接続を遮断。",
+          "source_label": "umiyuki"
+        },
+        {
+          "scan": "2117013317613125856",
+          "headline": "IT業の外国人採用が止まった",
+          "why": "「人を足す前にAIで試す」へ。",
+          "source_label": "yazesty",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116766878332842195",
+          "headline": "大学生の7割が就活にAI",
+          "why": "後ろめたさは4人に1人。",
+          "source_label": "日経"
+        },
+        {
+          "scan": "2117017392803144112",
+          "headline": "3人のClaude CodeでISUCON",
+          "why": "Slackでつないで207,039点。",
+          "source_label": "fujii_yuji"
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "art": "cable.jpg",
+      "art_alt": "A thin cable line with small teal lights and one amber light",
+      "variant": "quiet"
+    },
+    {
+      "type": "corner",
+      "corner": "adjacent"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "Chips, cars, habits",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2116924868495364125",
+          "headline": "Touch MacBook Pro, M7, next year",
+          "why": "Plus a thinner entry 14-inch.",
+          "source_label": "Mark Gurman"
+        },
+        {
+          "scan": "2116734300972261448",
+          "headline": "Korea's exports nearly double",
+          "why": "AI investment drives it.",
+          "source_label": "Nikkei Asia"
+        },
+        {
+          "scan": "2116351801545167099",
+          "headline": "Waymo robotaxis in Japan, 2027",
+          "why": "A trial with Toyota.",
+          "source_label": "Japan Today"
+        },
+        {
+          "scan": "2116918113450983504",
+          "headline": "Everyone hates the monorepo move",
+          "why": "Then nobody wants to leave it.",
+          "source_label": "Tobi Lütke"
+        },
+        {
+          "scan": "2116721754475303361",
+          "headline": "Four hours, no clip remembered",
+          "why": "So he quit short video.",
+          "source_label": "Andrew Carr"
+        },
+        {
+          "scan": "2117019919057621448",
+          "headline": "Antonelli, youngest F1 champion",
+          "why": "Third in Mexico City was enough.",
+          "source_label": "Motorsport Week",
+          "tags": [
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "brief-grid",
+      "headline": "日本のほかの話題",
+      "columns": 2,
+      "variant": "plain",
+      "items": [
+        {
+          "scan": "2116840729406480490",
+          "headline": "防災庁、今日発足",
+          "why": "初代防災相は細野氏が兼務。",
+          "source_label": "毎日新聞"
+        },
+        {
+          "scan": "2116883950782349612",
+          "headline": "磁気テープ、AIで復活",
+          "why": "富士フイルムは生産能力5倍。",
+          "source_label": "読売新聞"
+        },
+        {
+          "scan": "2116787540975886593",
+          "headline": "いらすとや、訪問者2割減",
+          "why": "公共での利用は増えている。",
+          "source_label": "日経"
+        },
+        {
+          "scan": "2116784421936472440",
+          "headline": "PS2版開発の勤怠表",
+          "why": "納期前は家に帰れなかった。",
+          "source_label": "GOROman"
+        },
+        {
+          "scan": "2116818809843864059",
+          "headline": "秩父の雲海、11月が見頃",
+          "why": "同じ埼玉県内。",
+          "source_label": "Yuji_48",
+          "tags": [
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "open-window"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "Nordhaus, 1941–2026",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2116814995862532176",
+          "headline": "He put climate into economics",
+          "why": "DICE turned damage into a carbon price.",
+          "source_label": "The Fourth Plate",
+          "tags": [
+            "new-to-you"
+          ]
+        },
+        {
+          "scan": "2116736760939937862",
+          "headline": "The price of light",
+          "why": "Why price indexes miss invention.",
+          "source_label": "Jason Potts",
+          "tags": [
+            "new-to-you"
+          ]
+        },
+        {
+          "scan": "2116707948823011505",
+          "headline": "His father's ski area closed",
+          "why": "Because of climate change.",
+          "source_label": "Florian Ederer",
+          "tags": [
+            "new-to-you"
+          ]
+        },
+        {
+          "scan": "2116921517359648770",
+          "headline": "Critics without tradeoffs",
+          "why": "Proof of why his work mattered.",
+          "source_label": "Noah Kaufman",
+          "tags": [
+            "new-to-you"
+          ]
+        },
+        {
+          "scan": "2116899840672325833",
+          "headline": "A nephew remembers him",
+          "why": "Ted Nordhaus on Uncle Bill.",
+          "source_label": "Steven Pinker",
+          "tags": [
+            "new-to-you"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "brief-grid",
+      "headline": "Teeth, wheat, lightning",
+      "columns": 3,
+      "variant": "cards",
+      "items": [
+        {
+          "scan": "2116947125267554534",
+          "headline": "A liquid that stops tooth decay",
+          "why": "No drill; the spot turns black.",
+          "source_label": "JAMA Pediatrics trial",
+          "tags": [
+            "new-to-you"
+          ]
+        },
+        {
+          "scan": "2116915317255311621",
+          "headline": "Attic seeds, ancient wheat",
+          "why": "Seven ears on one stalk.",
+          "source_label": "EleonoraFall",
+          "tags": [
+            "new-to-you",
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2116948049717264860",
+          "headline": "The first photo of lightning",
+          "why": "1882.",
+          "source_label": "Physics In History",
+          "tags": [
+            "new-to-you",
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "image-of-the-day",
+      "headline": "One window lit",
+      "art": "iotd.jpg",
+      "art_alt": "A harbor town at blue dawn, one window lit amber among dark ones",
+      "caption": "Leave one light on, not every door open.",
+      "variant": "standard"
+    },
+    {
+      "type": "corner",
+      "corner": "kicker"
+    },
+    {
+      "type": "closer",
+      "scan": "2116926992792932386",
+      "headline": "Doomsday is 13 November",
+      "why": "A 1960 equation said so. Growth peaked instead.",
+      "variant": "text",
+      "source_label": "Rainmaker1973",
+      "tags": [
+        "unverified"
+      ]
+    }
+  ]
+}

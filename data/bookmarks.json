@@ -1117,5 +1117,114 @@
       }
     ],
     "media": []
+  },
+  {
+    "id": "2116593247854453244",
+    "url": "https://x.com/benjitaylor/status/2116593247854453244",
+    "author": {
+      "name": "Benji Taylor",
+      "handle": "benjitaylor"
+    },
+    "posted_at": "2026-10-31T18:08:49.000Z",
+    "saved_at": "2026-11-02T08:15:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "Stageshow skill makes agents produce polished faux UI stills and animations",
+    "summary": "An agent skill that teaches a coding agent to make better mock UI stills, animations and bento grids for launch visuals, installed with one npx command.",
+    "text": "Stageshow: a skill that helps your agent make better faux UI stills, animations, bento grids, and more. \n\nnpx skills add benjitaylor/skills --skill stageshow https://t.co/Qve3C2cECg",
+    "key_points": [
+      "Installs as an agent skill via the skills CLI.",
+      "Aims at marketing visuals: faux UI shots, animations, bento grids."
+    ],
+    "action": "Run npx skills add benjitaylor/skills --skill stageshow and ask your agent for a bento grid of one of your CLIs.",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2116591037816971264/img/646-9xgMoEXyzL8m.jpg",
+        "alt": "Video poster: faux UI animation made by the skill",
+        "link": "https://t.co/Qve3C2cECg"
+      }
+    ]
+  },
+  {
+    "id": "2116271344157618360",
+    "url": "https://x.com/GergelyOrosz/status/2116271344157618360",
+    "author": {
+      "name": "Gergely Orosz",
+      "handle": "GergelyOrosz"
+    },
+    "posted_at": "2026-10-30T20:49:41.000Z",
+    "saved_at": "2026-11-02T08:15:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "Pragmatic Engineer makes its Becoming a Better Writer guide free",
+    "summary": "Gergely Orosz unlocked his paid article on writing for engineers, saying too many devs now publish low-quality AI slop instead of their own experience in their own words.",
+    "text": "Made the previously paid article \"Becoming a better writer\" free.\n\nI see too many devs writing low quality slop with AI. Hopefully this helps those of you who want to share more of your own experiences, using your own words - we need more of these!\n\nhttps://t.co/nk5OzsS93n https://t.co/62fEcEJHhF",
+    "key_points": [
+      "Writing matters more as engineers grow into senior roles.",
+      "Own experience in your own words beats AI-generated filler."
+    ],
+    "action": "Read the free article and rewrite one README or post of yours in your own words.",
+    "links": [
+      {
+        "title": "Becoming a Better Writer (Pragmatic Engineer)",
+        "url": "https://newsletter.pragmaticengineer.com/p/becoming-a-better-writer",
+        "image": "https://pbs.twimg.com/news_img/2116271346795896833/cEd2cAqd?format=jpg&name=orig",
+        "short": "https://t.co/nk5OzsS93n"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HV6Be0QWgAAmACt.jpg",
+        "alt": "Article header for Becoming a Better Writer",
+        "link": "https://t.co/62fEcEJHhF"
+      }
+    ]
+  },
+  {
+    "id": "2116797957454401746",
+    "url": "https://x.com/HiTw93/status/2116797957454401746",
+    "author": {
+      "name": "Tw93",
+      "handle": "HiTw93"
+    },
+    "posted_at": "2026-11-01T07:42:15.000Z",
+    "saved_at": "2026-11-02T08:15:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "给 Agent 的 10 步 GitHub Actions CI 提速提示词",
+    "summary": "Tw93 优化了 Mole、Kaku、Pake 的 CI，并分享一段可直接交给 Agent 的提示词：先用 gh 分析最近 50 次运行，再用取消旧运行、路径过滤、缓存、预编译工具和并行 job 等方法提速。",
+    "text": "有了 AI 以后写代码速度快了非常多，但是校验的速度其实还是不快的，特别是在 GitHub 上跑 Actions CI 的速度，下午花了一些时间对 Mole、Kaku、Pake 的 CI 全部彻底优化了一下，效果很不错，分享给大伙。\n\n你可以这样直接 Copy 下面给到你的 Agent，我们来看看可以帮你节约多少时间。\n\n帮我把这个仓库的 GitHub Actions 提速，在不减少必要的测试项以及功能校验下，最大幅度减少耗时。\n\n1. 先使用 gh 拉最近 50 次的运行情况，把每一个 job 拆成排队、准备、真正跑测试的 3 个时间段，去看规律，可能很多时候慢的是准备的阶段，不是测试本身。\n2. 同一个 PR 连着推好几次时，只跑最新的那次，旧的直接取消掉，用 cancel-in-progress 去实现。不过 main 分支不要这么做，需要确保发版 main 上的每一个提交都完整跑过一遍。\n3. 只改 README 和文档的这种提交不要触发跑 CI，可以用 paths 过滤掉，另外被跳过的必需检查会一直卡住 PR 合不进去，这个要提前注意一下。\n4. 优先用 setup 类 action 自带的缓存，setup-node 打开 cache，setup-go 默认就开，Rust 用 Swatinem/rust-cache，注意每个仓库缓存只有 10 GB，用不上的就不要放到这里面去。\n5. 本地连着构建两次，第二次应该几乎不花时间，假如有多余的花时间的地方，一定是哪些写得有问题，比如 Dockerfile 装依赖前先 COPY 了整个仓库，或者构建脚本盯着一个不存在的文件，类似的问题记得检查。\n6. 工具直接下载预编译好的，不要用 go install、cargo install 现场安装编译，这里会很费时间。\n7. 不互相依赖的 job 并行跑，删掉不传数据的 needs，最长的那套测试拆到多台机器上去跑。\n8. 免费账号的 macOS 最多同时跑 5 个，所有 workflow 共用，格式化、lint、依赖审计这些不挑系统的都移到 Ubuntu 去跑更好。\n9. 做过的事情就不要做重复了，以及不要多此一举做事情，比如别的 job 跑过的检查就不要套重复再跑，比如只构建前端的 job 就不要多此一举去拉整个 Rust 缓存。\n10. 改完去 push 那个上面测试运行效果，看运行的时间，发现规律，再次查漏补缺来优化一遍，做到最好，最后给到我优化前后的对比。",
+    "key_points": [
+      "慢的常常是排队和准备阶段，不是测试本身。",
+      "PR 用 cancel-in-progress，但 main 上每个提交都要完整跑。",
+      "用 setup action 自带缓存，工具下载预编译版，不现场编译。",
+      "不挑系统的 lint/审计移到 Ubuntu，省 macOS 并发。"
+    ],
+    "action": "把这段提示词交给 Agent，在 cc-safety-net 仓库上跑一次，比较优化前后 CI 耗时。",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2116904343794237643",
+    "url": "https://x.com/AIGuide_/status/2116904343794237643",
+    "author": {
+      "name": "Grant Miller",
+      "handle": "AIGuide_"
+    },
+    "posted_at": "2026-11-01T14:45:00.000Z",
+    "saved_at": "2026-11-02T08:15:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "evergreen",
+    "tldr": "Grow a new X account by clipping experts and adding your own take",
+    "summary": "Suggests growing an account from zero with borrowed authority: clip 20-60 second claims from known people in your niche and add your own workflow, breakdown or disagreement in the caption.",
+    "text": "i'm begging you:\n\nif you're growing an account from zero, start using borrowed authority.\n\n> pick 10-20 people in your niche who already have attention + credibility\n\n> have Grok Bot search their podcasts, interviews, YouTube videos + X Spaces for clips around topics your audience cares about\n\n> pull the strongest 20-60 second moments where they make one clear claim, prediction or explanation\n\n> post the clip exactly as the visual, then use YOUR caption to add the value: a workflow, breakdown, disagreement, example, implication or opinion\n\n> keep the person's name + topic obvious so people immediately know why they should stop\n\nthe clip gets you attention because people already care what that person has to say.\n\nthen they read your take, save your workflow, reply to your opinion + start recognizing your account as the place that consistently adds something useful on top.\n\ndo this with enough good clips and you're building authority before you have much of your own.",
+    "key_points": [
+      "Pick 10-20 credible people in your niche and find their strongest short claims.",
+      "The clip earns the stop; your caption has to add the value."
+    ],
+    "action": "Pick one coding-agent talk, clip a 30-second claim, and post it with your own cc-safety-net take.",
+    "links": [],
+    "media": []
   }
 ]
