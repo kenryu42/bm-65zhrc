@@ -9,7 +9,7 @@
     "validate": "grok-digest validate"
   },
   "dependencies": {
-    "grok-digest": "0.5.18"
+    "grok-digest": "0.6.0"
   },
   "engines": {
     "node": ">=22.12.0"

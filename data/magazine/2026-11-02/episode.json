@@ -1,0 +1,571 @@
+{
+ "date": "2026-11-02",
+ "issue_title": "One open port is enough",
+ "generated_at_jst": "2026-11-02 18:00 JST",
+ "music": {
+  "intro": "assets/jingle-options/jingle-4.mp3",
+  "intro_name": "Lo-fi beat",
+  "outro": null,
+  "generator": "ElevenLabs Music API (/v1/music), original instrumental, 5.0 s"
+ },
+ "weather": {
+  "date": "2026-11-02",
+  "jma": {
+   "report_datetime": "2026-11-02T12:00:00+09:00",
+   "publisher": "気象庁",
+   "area": "東京地方",
+   "station": "東京 (44132)",
+   "weather_text": "雨 夜 くもり",
+   "weather_code": "313",
+   "wind": "北の風",
+   "pop_today": [
+    {
+     "from": "12:00",
+     "pct": 80
+    },
+    {
+     "from": "18:00",
+     "pct": 20
+    }
+   ],
+   "pop_max": 80,
+   "high_c": 20,
+   "low_c": null,
+   "tomorrow_morning_low_c": 12
+  },
+  "sources": [
+   {
+    "name": "気象庁 (Japan Meteorological Agency)",
+    "url": "https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json",
+    "page": "https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=130000",
+    "credit": "出典：気象庁ホームページ"
+   },
+   {
+    "name": "tenki.jp 服装指数 (日本気象協会)",
+    "url": "https://tenki.jp/indexes/dress/3/16/4410/13101/"
+   }
+  ],
+  "clothing": {
+   "source": "tenki.jp 服装指数",
+   "url": "https://tenki.jp/indexes/dress/3/16/4410/13101/",
+   "issued": "2026-11-02 12:00 JST",
+   "point": "千代田区 (東京地方)",
+   "high_c": 20,
+   "low_c": 13,
+   "rain_pct": 80,
+   "slots": [
+    {
+     "index": 50,
+     "text": "薄手のジャケットを羽織ろう"
+    },
+    {
+     "index": 60,
+     "text": "長袖シャツ・カットソーで快適に"
+    },
+    {
+     "index": 50,
+     "text": "薄手のジャケットを羽織ろう"
+    }
+   ],
+   "main_tip": "長袖シャツ・カットソーで快適に"
+  }
+ },
+ "song": {
+  "title": "Here Comes the Sun",
+  "title_jp_store": "ヒア・カムズ・ザ・サン (2009 Digital Remaster)",
+  "artist": "The Beatles",
+  "album": "Abbey Road (Remastered)",
+  "appleMusicId": "1441164589",
+  "url": "https://music.apple.com/jp/album/1441164426?i=1441164589",
+  "why": "Rain today, a little sun tomorrow morning, and a patch on the way.",
+  "lookup": "https://itunes.apple.com/lookup?id=1441164589&country=jp"
+ },
+ "languages": {
+  "en": {
+   "file": "episode-en.mp3",
+   "script": "script-en.txt",
+   "duration": 235.57,
+   "bytes": 1884829,
+   "voice": {
+    "id": "jqcCZkN6Knx8BJ5TBdYR",
+    "name": "Zara - The Warm, Real-World Conversationalist"
+   },
+   "model": "eleven_v3 text-to-dialogue",
+   "chapters": [
+    {
+     "start": 0.0,
+     "id": "jingle",
+     "title": "Jingle",
+     "end": 5.4
+    },
+    {
+     "start": 5.4,
+     "id": "weather",
+     "title": "Tokyo weather",
+     "end": 41.55
+    },
+    {
+     "start": 41.55,
+     "id": "story1",
+     "title": "A kernel bug that roots Linux boxes",
+     "match": 1.0,
+     "end": 94.87
+    },
+    {
+     "start": 94.87,
+     "id": "story2",
+     "title": "What to do tonight",
+     "match": 1.0,
+     "end": 132.51
+    },
+    {
+     "start": 132.51,
+     "id": "story3",
+     "title": "Agents doing the work",
+     "match": 0.96,
+     "end": 170.91
+    },
+    {
+     "start": 170.91,
+     "id": "roundup",
+     "title": "Quick roundup",
+     "match": 0.96,
+     "end": 207.89
+    },
+    {
+     "start": 207.89,
+     "id": "soup",
+     "title": "A note for today",
+     "match": 1.0,
+     "end": 223.1
+    },
+    {
+     "start": 223.1,
+     "id": "song",
+     "title": "Song of the day",
+     "match": 1.0,
+     "end": 231.49
+    },
+    {
+     "start": 231.49,
+     "id": "signoff",
+     "title": "Sign-off",
+     "match": 0.96,
+     "end": 235.57
+    }
+   ],
+   "sources": {
+    "stories": [
+     {
+      "title": "Cover: Linux kernel TCP use-after-free (CVE-2026-98432)",
+      "url": "https://x.com/tobi/status/2116638054899208685"
+     },
+     {
+      "title": "Ubuntu and RHEL still unpatched (unverified)",
+      "url": "https://x.com/IntCyberDigest/status/2116982861391917315"
+     },
+     {
+      "title": "Close public ports; use Tailscale",
+      "url": "https://x.com/levelsio/status/2116949634111115348"
+     },
+     {
+      "title": "Turn MPTCP off until patched (unverified)",
+      "url": "https://x.com/omarmsimon/status/2116980802840052038"
+     },
+     {
+      "title": "Fix is a few lines",
+      "url": "https://x.com/DanielLockyer/status/2116987707645989322"
+     },
+     {
+      "title": "Karpathy: HackerTube",
+      "url": "https://x.com/karpathy/status/2116957135661945283"
+     },
+     {
+      "title": "Claude ported Anthropic's API to Rust (unverified)",
+      "url": "https://x.com/mark_k/status/2116912634171711850"
+     },
+     {
+      "title": "Is Claude a snitch? (the alarm)",
+      "url": "https://x.com/WolframRvnwlf/status/2116660983330382306"
+     },
+     {
+      "title": "Is Claude a snitch? (the blog)",
+      "url": "https://x.com/FrozenEel427/status/2116885469304930389"
+     },
+     {
+      "title": "Codex and ChatGPT share one limit",
+      "url": "https://x.com/CodexUpdate/status/2116620807929799050"
+     },
+     {
+      "title": "LXD flaw rated 10.0",
+      "url": "https://x.com/TheHackersNews/status/2116818971773309278"
+     },
+     {
+      "title": "GMO breach, North Korea suspected",
+      "url": "https://x.com/GOROman/status/2116870488983281852"
+     },
+     {
+      "title": "Not confirmed as North Korea (unverified)",
+      "url": "https://x.com/icchi_sokuho/status/2116918941423739354"
+     },
+     {
+      "title": "William Nordhaus obituary",
+      "url": "https://x.com/the4thplate/status/2116814995862532176"
+     }
+    ],
+    "weather": [
+     {
+      "name": "気象庁 (Japan Meteorological Agency)",
+      "url": "https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json",
+      "page": "https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=130000",
+      "credit": "出典：気象庁ホームページ"
+     },
+     {
+      "name": "tenki.jp 服装指数 (日本気象協会)",
+      "url": "https://tenki.jp/indexes/dress/3/16/4410/13101/"
+     }
+    ]
+   },
+   "song": {
+    "title": "Here Comes the Sun",
+    "title_jp_store": "ヒア・カムズ・ザ・サン (2009 Digital Remaster)",
+    "artist": "The Beatles",
+    "album": "Abbey Road (Remastered)",
+    "appleMusicId": "1441164589",
+    "url": "https://music.apple.com/jp/album/1441164426?i=1441164589",
+    "why": "Rain today, a little sun tomorrow morning, and a patch on the way.",
+    "lookup": "https://itunes.apple.com/lookup?id=1441164589&country=jp"
+   }
+  },
+  "zh": {
+   "file": "episode-zh.mp3",
+   "script": "script-zh.txt",
+   "duration": 268.2,
+   "bytes": 2145845,
+   "voice": {
+    "id": "9lHjugDhwqoxA5MhX0az",
+    "name": "Anna Su"
+   },
+   "model": "eleven_v3 text-to-dialogue",
+   "chapters": [
+    {
+     "start": 0.0,
+     "id": "jingle",
+     "title": "Jingle",
+     "end": 5.4
+    },
+    {
+     "start": 5.4,
+     "id": "weather",
+     "title": "东京天气",
+     "end": 36.33
+    },
+    {
+     "start": 36.33,
+     "id": "story1",
+     "title": "封面故事：内核漏洞",
+     "match": 1.0,
+     "end": 93.93
+    },
+    {
+     "start": 93.93,
+     "id": "story2",
+     "title": "今晚该做什么",
+     "match": 1.0,
+     "end": 134.15
+    },
+    {
+     "start": 134.15,
+     "id": "story3",
+     "title": "Agent 在干活",
+     "match": 1.0,
+     "end": 180.83
+    },
+    {
+     "start": 180.83,
+     "id": "roundup",
+     "title": "快讯",
+     "match": 0.92,
+     "end": 227.99
+    },
+    {
+     "start": 227.99,
+     "id": "soup",
+     "title": "写给你的一句话",
+     "match": 1.0,
+     "end": 251.87
+    },
+    {
+     "start": 251.87,
+     "id": "song",
+     "title": "今日一曲",
+     "match": 0.83,
+     "end": 262.35
+    },
+    {
+     "start": 262.35,
+     "id": "signoff",
+     "title": "结尾",
+     "match": 0.83,
+     "end": 268.2
+    }
+   ],
+   "sources": {
+    "stories": [
+     {
+      "title": "Cover: Linux kernel TCP use-after-free (CVE-2026-98432)",
+      "url": "https://x.com/tobi/status/2116638054899208685"
+     },
+     {
+      "title": "Ubuntu and RHEL still unpatched (unverified)",
+      "url": "https://x.com/IntCyberDigest/status/2116982861391917315"
+     },
+     {
+      "title": "Close public ports; use Tailscale",
+      "url": "https://x.com/levelsio/status/2116949634111115348"
+     },
+     {
+      "title": "Turn MPTCP off until patched (unverified)",
+      "url": "https://x.com/omarmsimon/status/2116980802840052038"
+     },
+     {
+      "title": "Fix is a few lines",
+      "url": "https://x.com/DanielLockyer/status/2116987707645989322"
+     },
+     {
+      "title": "Karpathy: HackerTube",
+      "url": "https://x.com/karpathy/status/2116957135661945283"
+     },
+     {
+      "title": "Claude ported Anthropic's API to Rust (unverified)",
+      "url": "https://x.com/mark_k/status/2116912634171711850"
+     },
+     {
+      "title": "Is Claude a snitch? (the alarm)",
+      "url": "https://x.com/WolframRvnwlf/status/2116660983330382306"
+     },
+     {
+      "title": "Is Claude a snitch? (the blog)",
+      "url": "https://x.com/FrozenEel427/status/2116885469304930389"
+     },
+     {
+      "title": "Codex and ChatGPT share one limit",
+      "url": "https://x.com/CodexUpdate/status/2116620807929799050"
+     },
+     {
+      "title": "LXD flaw rated 10.0",
+      "url": "https://x.com/TheHackersNews/status/2116818971773309278"
+     },
+     {
+      "title": "GMO breach, North Korea suspected",
+      "url": "https://x.com/GOROman/status/2116870488983281852"
+     },
+     {
+      "title": "Not confirmed as North Korea (unverified)",
+      "url": "https://x.com/icchi_sokuho/status/2116918941423739354"
+     },
+     {
+      "title": "William Nordhaus obituary",
+      "url": "https://x.com/the4thplate/status/2116814995862532176"
+     }
+    ],
+    "weather": [
+     {
+      "name": "気象庁 (Japan Meteorological Agency)",
+      "url": "https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json",
+      "page": "https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=130000",
+      "credit": "出典：気象庁ホームページ"
+     },
+     {
+      "name": "tenki.jp 服装指数 (日本気象協会)",
+      "url": "https://tenki.jp/indexes/dress/3/16/4410/13101/"
+     }
+    ]
+   },
+   "song": {
+    "title": "Here Comes the Sun",
+    "title_jp_store": "ヒア・カムズ・ザ・サン (2009 Digital Remaster)",
+    "artist": "The Beatles",
+    "album": "Abbey Road (Remastered)",
+    "appleMusicId": "1441164589",
+    "url": "https://music.apple.com/jp/album/1441164426?i=1441164589",
+    "why": "Rain today, a little sun tomorrow morning, and a patch on the way.",
+    "lookup": "https://itunes.apple.com/lookup?id=1441164589&country=jp"
+   }
+  },
+  "ja": {
+   "file": "episode-ja.mp3",
+   "script": "script-ja.txt",
+   "duration": 237.53,
+   "bytes": 1900503,
+   "voice": {
+    "id": "MXKtCrra8fvlDUbfKUT1",
+    "name": "Aya - Friendly Casual Japanese Voice"
+   },
+   "model": "eleven_v3 text-to-dialogue",
+   "chapters": [
+    {
+     "start": 0.0,
+     "id": "jingle",
+     "title": "Jingle",
+     "end": 5.4
+    },
+    {
+     "start": 5.4,
+     "id": "weather",
+     "title": "東京の天気",
+     "end": 33.42
+    },
+    {
+     "start": 33.42,
+     "id": "story1",
+     "title": "カバーストーリー：カーネルのバグ",
+     "match": 0.83,
+     "end": 81.94
+    },
+    {
+     "start": 81.94,
+     "id": "story2",
+     "title": "今夜やること",
+     "match": 0.83,
+     "end": 117.39
+    },
+    {
+     "start": 117.39,
+     "id": "story3",
+     "title": "エージェントの仕事",
+     "match": 1.0,
+     "end": 161.21
+    },
+    {
+     "start": 161.21,
+     "id": "roundup",
+     "title": "ニュースまとめ",
+     "match": 1.0,
+     "end": 206.53
+    },
+    {
+     "start": 206.53,
+     "id": "soup",
+     "title": "今日のひと言",
+     "match": 0.83,
+     "end": 224.81
+    },
+    {
+     "start": 224.81,
+     "id": "song",
+     "title": "今日の一曲",
+     "match": 1.0,
+     "end": 235.26
+    },
+    {
+     "start": 235.26,
+     "id": "signoff",
+     "title": "エンディング",
+     "match": 1.0,
+     "end": 237.53
+    }
+   ],
+   "sources": {
+    "stories": [
+     {
+      "title": "Cover: Linux kernel TCP use-after-free (CVE-2026-98432)",
+      "url": "https://x.com/tobi/status/2116638054899208685"
+     },
+     {
+      "title": "Ubuntu and RHEL still unpatched (unverified)",
+      "url": "https://x.com/IntCyberDigest/status/2116982861391917315"
+     },
+     {
+      "title": "Close public ports; use Tailscale",
+      "url": "https://x.com/levelsio/status/2116949634111115348"
+     },
+     {
+      "title": "Turn MPTCP off until patched (unverified)",
+      "url": "https://x.com/omarmsimon/status/2116980802840052038"
+     },
+     {
+      "title": "Fix is a few lines",
+      "url": "https://x.com/DanielLockyer/status/2116987707645989322"
+     },
+     {
+      "title": "Karpathy: HackerTube",
+      "url": "https://x.com/karpathy/status/2116957135661945283"
+     },
+     {
+      "title": "Claude ported Anthropic's API to Rust (unverified)",
+      "url": "https://x.com/mark_k/status/2116912634171711850"
+     },
+     {
+      "title": "Is Claude a snitch? (the alarm)",
+      "url": "https://x.com/WolframRvnwlf/status/2116660983330382306"
+     },
+     {
+      "title": "Is Claude a snitch? (the blog)",
+      "url": "https://x.com/FrozenEel427/status/2116885469304930389"
+     },
+     {
+      "title": "Codex and ChatGPT share one limit",
+      "url": "https://x.com/CodexUpdate/status/2116620807929799050"
+     },
+     {
+      "title": "LXD flaw rated 10.0",
+      "url": "https://x.com/TheHackersNews/status/2116818971773309278"
+     },
+     {
+      "title": "GMO breach, North Korea suspected",
+      "url": "https://x.com/GOROman/status/2116870488983281852"
+     },
+     {
+      "title": "Not confirmed as North Korea (unverified)",
+      "url": "https://x.com/icchi_sokuho/status/2116918941423739354"
+     },
+     {
+      "title": "William Nordhaus obituary",
+      "url": "https://x.com/the4thplate/status/2116814995862532176"
+     }
+    ],
+    "weather": [
+     {
+      "name": "気象庁 (Japan Meteorological Agency)",
+      "url": "https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json",
+      "page": "https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=130000",
+      "credit": "出典：気象庁ホームページ"
+     },
+     {
+      "name": "tenki.jp 服装指数 (日本気象協会)",
+      "url": "https://tenki.jp/indexes/dress/3/16/4410/13101/"
+     }
+    ]
+   },
+   "song": {
+    "title": "Here Comes the Sun",
+    "title_jp_store": "ヒア・カムズ・ザ・サン (2009 Digital Remaster)",
+    "artist": "The Beatles",
+    "album": "Abbey Road (Remastered)",
+    "appleMusicId": "1441164589",
+    "url": "https://music.apple.com/jp/album/1441164426?i=1441164589",
+    "why": "Rain today, a little sun tomorrow morning, and a patch on the way.",
+    "lookup": "https://itunes.apple.com/lookup?id=1441164589&country=jp"
+   }
+  }
+ },
+ "structure": [
+  "jingle",
+  "weather",
+  "main stories (3 + roundup)",
+  "chicken soup",
+  "song",
+  "sign-off"
+ ],
+ "rendering": {
+  "model": "eleven_v3",
+  "endpoint": "/v1/text-to-dialogue (single speaker)",
+  "mode": "script split into short spoken lines (1-2 sentences per input), few requests joined with ffmpeg; no tags, no style/emotion prompts",
+  "voice_settings": "voice defaults (none sent)",
+  "seed": null,
+  "atempo": null,
+  "chapters": "faster-whisper transcript alignment",
+  "previous_cuts": "v3/ (Creative), v4/ (Natural 0.5 + atempo)"
+ }
+}
