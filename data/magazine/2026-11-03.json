@@ -1,0 +1,475 @@
+{
+  "date": "2026-11-03",
+  "title": "A model edits a model",
+  "subtitle": "GPT-6 Astra rewrites a small model's weights, a planted AGENTS.md hijacks agents, and Japan's breach week goes on",
+  "editor_note": "A model can now edit another model's weights, and a stray file can steer your agent. Check what your tools trust.",
+  "theme": {
+    "palette": "classic",
+    "fonts": "serif-sans",
+    "accent": "#4338ca"
+  },
+  "sections": [
+    {
+      "type": "cover-story",
+      "scan": "2117313742891327994",
+      "kicker": "Cover story",
+      "headline": "A model edits a model",
+      "deck": "Astra changed 0.016% of a 0.8B model's weights. Math rose up to 6x, with no training.",
+      "variant": "stacked",
+      "why": "If it replicates, fixing a small model could become an edit, not a training run.",
+      "source_label": "Rikiya Takehi"
+    },
+    {
+      "type": "corner",
+      "corner": "brief"
+    },
+    {
+      "type": "brief-grid",
+      "headline": "Files, flags, secrets",
+      "columns": 2,
+      "variant": "cards",
+      "items": [
+        {
+          "scan": "2117195208634819000",
+          "headline": "AGENTS.md in Downloads hijacks agents",
+          "why": "A web page can drop it silently. Codex obeyed it 90% of the time. Nothing to patch.",
+          "source_label": "delivr.to",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2117180841344532987",
+          "headline": "作業フォルダ外への書き込みを止める",
+          "why": "blockWritesOutsideWorkingDirectories。Bash は対象外なので sandbox と併用を。",
+          "source_label": "Claude Code changelog"
+        },
+        {
+          "scan": "2117270651094663510",
+          "headline": "claude -p failed green in CI",
+          "why": "Before 2.1.314 a startup failure exited 0. Check your CI's version.",
+          "source_label": "Ethan Lin",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2117246250139734059",
+          "headline": "Langflow: two 9.8 flaws",
+          "why": "Unauthenticated, with a public Metasploit module. Upgrade to 1.13.0.",
+          "source_label": "IBM bulletin"
+        },
+        {
+          "scan": "2117299716987789772",
+          "headline": "Repo secrets can't be secured",
+          "why": "One hacked teammate with write access is enough. Use protected environments.",
+          "source_label": "Dax Raad"
+        },
+        {
+          "scan": "2117328043228471552",
+          "headline": "Vercel blocks hijacked npm deploys",
+          "why": "A supply-chain check at deploy time, before secrets leave.",
+          "source_label": "Vercel"
+        },
+        {
+          "scan": "2117272451545514001",
+          "headline": "Ubuntu still unpatched",
+          "why": "Levels may move every server to Debian. Check your Ubuntu boxes.",
+          "source_label": "Pieter Levels"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "lead"
+    },
+    {
+      "type": "feature",
+      "scan": "2117364329133621614",
+      "headline": "The gain was ending loops",
+      "deck": "The big math jump came mostly from cutting reasoning loops, not new skill.",
+      "variant": "standard",
+      "emphasis": "loud",
+      "span": "half",
+      "why": "Read the result as a loop fix first. That is easier to believe and to reuse.",
+      "source_label": "Alex Zhang"
+    },
+    {
+      "type": "pull-quote",
+      "scan": "2117313742891327994",
+      "quote": "frontier LLMs can now natively read/write neural network weights!",
+      "variant": "bar",
+      "span": "half"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "How people read it",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2117338841749029221",
+          "headline": "Big, if it replicates",
+          "why": "Mollick waits for replication but calls it a pretty big deal.",
+          "source_label": "Ethan Mollick"
+        },
+        {
+          "scan": "2117350355218432405",
+          "headline": "About $1,000 all in",
+          "why": "Cheap enough for anyone to try to reproduce.",
+          "source_label": "Omar Khattab"
+        },
+        {
+          "scan": "2117384373443985481",
+          "headline": "Toy nets in RL training",
+          "why": "Antirez's simple guess: Astra debugged many small nets in post-training.",
+          "source_label": "antirez",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2117340082382454831",
+          "headline": "Narrow tasks, narrow proof",
+          "why": "Karvonen doubts it generalizes to complex tasks.",
+          "source_label": "Adam Karvonen"
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "art": "lattice.jpg",
+      "art_alt": "A wide field of small ivory dots on deep indigo, a few glowing amber",
+      "variant": "wide"
+    },
+    {
+      "type": "corner",
+      "corner": "your-saves"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "Two saves",
+      "variant": "large",
+      "items": [
+        {
+          "bookmark": "2117099613022732412",
+          "headline": "Find needless sequential awaits",
+          "why": "One prompt, small diffs, often big wins on hot paths."
+        },
+        {
+          "bookmark": "2117004709198475365",
+          "headline": "tibo.dog, built with agents",
+          "why": "Day 28 of poteto's series: a game made with Grok Bot and Cursor."
+        }
+      ]
+    },
+    {
+      "type": "sidebar-box",
+      "bookmark": "2117099613022732412",
+      "headline": "Try today",
+      "variant": "note"
+    },
+    {
+      "type": "corner",
+      "corner": "field-notes"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "Builders at work",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2117343929960112486",
+          "headline": "Anthropic Residency is open",
+          "why": "Paid, no ML background needed, open to staff engineers. Apply by 22 Nov.",
+          "source_label": "Anthropic"
+        },
+        {
+          "scan": "2117037940031496252",
+          "headline": "Perf prompts from Bun's author",
+          "why": "Flat arrays, no caches, structure of arrays. Copy them.",
+          "source_label": "Jarred Sumner"
+        },
+        {
+          "scan": "2117332449382510884",
+          "headline": "Claude API keeps the thread",
+          "why": "Send only new messages plus the last ID. Faster agent loops.",
+          "source_label": "Claude Devs"
+        },
+        {
+          "scan": "2117323545164554480",
+          "headline": "WebMCP over browser-use",
+          "why": "Shopify's CEO says sites should expose tools to agents.",
+          "source_label": "Tobi Lütke"
+        },
+        {
+          "scan": "2117142182415257643",
+          "headline": "T3 Code gets managed policies",
+          "why": "IT teams can now set agent rules org-wide.",
+          "source_label": "Theo"
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "art": "node.jpg",
+      "art_alt": "One amber node held in a quiet ring of indigo lines",
+      "variant": "square"
+    },
+    {
+      "type": "corner",
+      "corner": "japan-desk",
+      "label": "日本から"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "漏えいとGMOの余波",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2117135884093112796",
+          "headline": "アットコスメ、約300万人分",
+          "why": "肌質や髪質の情報も含まれる。",
+          "source_label": "NHK"
+        },
+        {
+          "scan": "2117187965483090082",
+          "headline": "ロードサービスで最大550万件",
+          "why": "車両番号や口座番号まで。",
+          "source_label": "朝日新聞"
+        },
+        {
+          "scan": "2117185170289877275",
+          "headline": "2年前の指摘、社長に届かず",
+          "why": "イエラエの2024年の警告は熊谷氏まで上がらなかった。",
+          "source_label": "ニコニコニュース"
+        },
+        {
+          "scan": "2117371561078558907",
+          "headline": "熊谷代表、SNSを謹慎",
+          "why": "会見の総括をもって、しばらく発信を控える。",
+          "source_label": "電脳隊"
+        }
+      ]
+    },
+    {
+      "type": "brief-grid",
+      "headline": "AIと仕事、守り",
+      "columns": 2,
+      "variant": "plain",
+      "items": [
+        {
+          "scan": "2117069983679467522",
+          "headline": "Sakana、自社LLM「Sawara」",
+          "why": "事前学習から自社開発。Sawara Small は順調なら2027年春。",
+          "source_label": "Sakana AI"
+        },
+        {
+          "scan": "2117140958441800062",
+          "headline": "Cognition入社半年の話",
+          "why": "日本からAIコーディング企業へ。キャリアの参考に。",
+          "source_label": "madyagi"
+        },
+        {
+          "scan": "2117089898515808640",
+          "headline": "同じコストで高い守りを",
+          "why": "長期的には当事者がベストプラクティスを探るしかない。",
+          "source_label": "m_mizutani"
+        },
+        {
+          "scan": "2117051864042844494",
+          "headline": "家族のPCが入り口に",
+          "why": "家庭内LANを分けるか、L3スイッチか。",
+          "source_label": "GOROman"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "adjacent"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "Models, rules, botnets",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2117307611338997846",
+          "headline": "OpenAI's LifeVal benchmark",
+          "why": "Everyday help, from childcare to government forms.",
+          "source_label": "OpenAI"
+        },
+        {
+          "scan": "2117283124833055196",
+          "headline": "dots adds GPT-6.1 Terra",
+          "why": "Faster, with a personality upgrade.",
+          "source_label": "Tibo"
+        },
+        {
+          "scan": "2117229259425038344",
+          "headline": "Mistral writes a chemistry solver",
+          "why": "Large 4 built an SCF solver from a short prompt.",
+          "source_label": "Mistral AI"
+        },
+        {
+          "scan": "2117207001029845049",
+          "headline": "A local model on Omarchy",
+          "why": "Nemotron at 90 tokens a second, offline.",
+          "source_label": "DHH"
+        },
+        {
+          "scan": "2117133614941106558",
+          "headline": "More Claude models watermarked",
+          "why": "Four more from Tuesday. Your outputs may carry it.",
+          "source_label": "NDTV Profit"
+        },
+        {
+          "scan": "2117310668281925852",
+          "headline": "Goldman limits AI coding tools",
+          "why": "Claude Code and Copilot for engineers only.",
+          "source_label": "Special Situations",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2117339021315653778",
+          "headline": "Backdoored TV boxes taken down",
+          "why": "1.3M Android boxes shipped with a maker's backdoor.",
+          "source_label": "Dark Web Informer",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2117379176533463544",
+          "headline": "Hackers hit supermarket freezers",
+          "why": "Food thrown out across several European countries.",
+          "source_label": "BBC"
+        }
+      ]
+    },
+    {
+      "type": "brief-grid",
+      "headline": "Play, people, prose",
+      "columns": 3,
+      "variant": "plain",
+      "items": [
+        {
+          "scan": "2117259805932884467",
+          "headline": "Battlefield 1942 in a browser",
+          "why": "A C engine decompiled with Claude Code.",
+          "source_label": "Pieter Levels"
+        },
+        {
+          "scan": "2117241303704432901",
+          "headline": "Agents end the jerk's immunity",
+          "why": "DHH: rare skills won't excuse bad manners.",
+          "source_label": "DHH"
+        },
+        {
+          "scan": "2117315680119013865",
+          "headline": "Every sentence a punchline",
+          "why": "Chollet names what grates in LLM prose.",
+          "source_label": "François Chollet"
+        }
+      ]
+    },
+    {
+      "type": "brief-grid",
+      "headline": "日本のほかの話題",
+      "columns": 2,
+      "variant": "plain",
+      "items": [
+        {
+          "scan": "2117146119876849933",
+          "headline": "Cloudflare、鍵を買って認証局に",
+          "why": "GMOグローバルサインからルート証明書の鍵を購入。",
+          "source_label": "徳丸浩"
+        },
+        {
+          "scan": "2117168029687841229",
+          "headline": "ハンドルなし車を一律認定へ",
+          "why": "国交省、12月適用を目指す。",
+          "source_label": "Polymarket Japan",
+          "tags": [
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "art": "line.jpg",
+      "art_alt": "A thin row of indigo dots across ivory, one amber",
+      "variant": "quiet"
+    },
+    {
+      "type": "corner",
+      "corner": "open-window"
+    },
+    {
+      "type": "brief-grid",
+      "headline": "Heat, lungs, rails, skulls",
+      "columns": 2,
+      "variant": "cards",
+      "items": [
+        {
+          "scan": "2117344175003693186",
+          "headline": "Warmest October on record",
+          "why": "1.75C above preindustrial in ERA5.",
+          "source_label": "Zeke Hausfather",
+          "tags": [
+            "new-to-you"
+          ]
+        },
+        {
+          "scan": "2117305249627312387",
+          "headline": "Lung pressure and memory",
+          "why": "Inflammation may link pulmonary hypertension to cognitive decline.",
+          "source_label": "Eric Topol / JCI",
+          "tags": [
+            "new-to-you"
+          ]
+        },
+        {
+          "scan": "2117300794626052438",
+          "headline": "Hanoi to Saigon in six hours",
+          "why": "Vietnam's rail plan versus a 35-hour train today.",
+          "source_label": "Bloomberg CityLab",
+          "tags": [
+            "new-to-you"
+          ]
+        },
+        {
+          "scan": "2117222239586197570",
+          "headline": "Posada's calaveras",
+          "why": "Where the Day of the Dead skeleton look came from.",
+          "source_label": "Public Domain Review",
+          "tags": [
+            "new-to-you"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "image-of-the-day",
+      "headline": "One weight changed",
+      "art": "iotd.jpg",
+      "art_alt": "A night field of tiny lights in rows, one light turned warm amber",
+      "caption": "Small edits, large effects. Check before you trust.",
+      "variant": "standard"
+    },
+    {
+      "type": "corner",
+      "corner": "kicker"
+    },
+    {
+      "type": "closer",
+      "scan": "2117372442792357943",
+      "headline": "A pup's paws in old bricks",
+      "why": "4,000 years ago the builders kept the bricks anyway.",
+      "variant": "text",
+      "source_label": "Archaeology"
+    }
+  ]
+}

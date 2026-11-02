@@ -1226,5 +1226,62 @@
     "action": "Pick one coding-agent talk, clip a 30-second claim, and post it with your own cc-safety-net take.",
     "links": [],
     "media": []
+  },
+  {
+    "id": "2117099613022732412",
+    "url": "https://x.com/_dylanga/status/2117099613022732412",
+    "author": {
+      "name": "Dylan Garcia",
+      "handle": "_dylanga"
+    },
+    "posted_at": "2026-11-02T03:40:56.000Z",
+    "saved_at": "2026-11-03T08:28:33+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "One prompt to find needless sequential awaits in hot paths",
+    "summary": "A prompt to run on your codebase: scan all hot paths and fix unnecessary sequential async calls. The diffs are easy to review and often find big wins.",
+    "text": "use this prompt on your favorite codebase where you don't hate your users:\n\ndo a deep scan of all hot paths and fix any unnecessary sequential async functions calls\n\nthe diffs are very easy to review and almost always find some bangers https://t.co/Ar3kGKGt2U",
+    "key_points": [
+      "The prompt targets hot paths only.",
+      "Diffs are small and easy to review."
+    ],
+    "action": "Run the prompt on one service and review the diffs.",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWFy3wsWMAAPuzK.png",
+        "link": "https://t.co/Ar3kGKGt2U"
+      }
+    ]
+  },
+  {
+    "id": "2117004709198475365",
+    "url": "https://x.com/poteto/status/2117004709198475365",
+    "author": {
+      "name": "lauren",
+      "handle": "poteto"
+    },
+    "posted_at": "2026-11-01T21:23:49.000Z",
+    "saved_at": "2026-11-03T08:28:33+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "poteto shipped tibo.dog, a game built with agents",
+    "summary": "Lauren (poteto) launched tibo.dog, a game she built with Grok Bot and Cursor on a $5.99 domain, with easter eggs and play inside X.",
+    "text": "Day 28/ tibo's game has landed\n\ni spent $5.99 on this domain, but i had a blast making it with grok bot and cursor! i hope you enjoy it and find all the easter eggs 🤍 \n\nif i did it right you should be able to play it inside of X too\n\nhttps://t.co/diV7PyPaqv",
+    "key_points": [
+      "Day 28 of her daily build series.",
+      "The domain cost $5.99.",
+      "Meant to be playable inside X."
+    ],
+    "action": "Play tibo.dog and hunt for the easter eggs.",
+    "links": [
+      {
+        "title": "tibo.dog",
+        "url": "https://tibo.dog",
+        "image": "https://pbs.twimg.com/news_img/2117004712080023552/9mE1Xoos?format=jpg&name=orig",
+        "short": "https://t.co/diV7PyPaqv"
+      }
+    ],
+    "media": []
   }
 ]

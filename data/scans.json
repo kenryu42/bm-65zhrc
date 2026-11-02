@@ -13212,5 +13212,1209 @@
         "url": "https://pbs.twimg.com/media/HWDTs_JWgAIZUFt.jpg"
       }
     ]
+  },
+  {
+    "id": "2117313742891327994",
+    "url": "https://x.com/rikiyatakehi/status/2117313742891327994",
+    "author": {
+      "name": "Rikiya Takehi",
+      "handle": "rikiyatakehi"
+    },
+    "posted_at": "2026-11-02T17:51:48.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "GPT-6 Astra edited a small model's weights to fix its math",
+    "summary": "Rikiya Takehi's team asked GPT-6 Astra to edit Qwen3.5-0.8B directly. It changed 0.016% of the weights, with no gradients or training, and math scores rose up to 6x.",
+    "text": "We asked GPT-6 Astra to edit Qwen3.5-0.8B weights to improve math.\nIt directly changed only 0.016% of weights, fixing 0.8B's reasoning loops & improving math up to 6x and even instruction following 3x, without gradients or training.\n\nWe call this Weight-Space Programming: frontier LLMs can now natively read/write neural network weights! 🧵\nBlog: https://t.co/bOWCcFhCVq",
+    "key_points": [
+      "Only 0.016% of weights were touched.",
+      "The gain came mostly from ending reasoning loops.",
+      "They call it weight-space programming."
+    ],
+    "action": "Read the blog's ablations before you repeat the 6x number.",
+    "links": [
+      {
+        "title": "rikiyat.github.io",
+        "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+        "short": "https://t.co/bOWCcFhCVq"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWI1oKUWUAAWoZp.jpg"
+      }
+    ],
+    "pick": true
+  },
+  {
+    "id": "2117195208634819000",
+    "url": "https://x.com/delivr_to/status/2117195208634819000",
+    "author": {
+      "name": "delivr.to",
+      "handle": "delivr_to"
+    },
+    "posted_at": "2026-11-02T10:00:47.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "A planted AGENTS.md in Downloads hijacks coding agents",
+    "summary": "Forever Security found a malicious AGENTS.md in a customer's Downloads folder. A web page can drop it without a prompt; an agent started there follows it as project rules and installs a malicious npm package.",
+    "text": "Malware Delivery Techniques No.82 - AGENTS.md Downloads Drop ­📁\n\nForever Security recently found a malicious AGENTS.md in a customer's Downloads folder. Formatted as engineering guidelines, one \"local developer environment\" section instructed the AI coding agent to install the malicious npm package function-color.\n\nIn most browsers, a web page can save a file to Downloads without a prompt, and coding agents such as OpenAI Codex and Claude Code load AGENTS.md or CLAUDE.md from their working directory as trusted project instructions. Launch an agent from Downloads and the planted file is followed. In Forever's testing, the Codex chain succeeded in over 90% of attempts; a CLAUDE.md variant redirected API traffic, and the user's token, roughly half the time. No vulnerability is involved, so there is nothing to patch.\n\nSublime Security has reported the same pattern in email: invoice fraud messages carrying Unicode tag prompts that instruct inbox AI agents to forward the invoice to accounts payable.\n\n🧵 See the comments to test your defences and learn more!\n\nhttps://t.co/KANuSFB0tI",
+    "key_points": [
+      "Codex followed the planted file in over 90% of tests.",
+      "A CLAUDE.md variant redirected API traffic and the token about half the time.",
+      "No bug to patch: the agent is doing what it was built to do."
+    ],
+    "action": "Never start Claude Code or Codex in ~/Downloads; check AGENTS.md and CLAUDE.md in any folder you didn't create.",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWHJ0P0WcAAkZmK.jpg"
+      }
+    ],
+    "pick": true
+  },
+  {
+    "id": "2117180841344532987",
+    "url": "https://x.com/ku_ni_29/status/2117180841344532987",
+    "author": {
+      "name": "國光俊樹｜IDOL CAST",
+      "handle": "ku_ni_29"
+    },
+    "posted_at": "2026-11-02T09:03:42.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Claude Code に作業フォルダ外への書き込みを止める設定",
+    "summary": "Claude Code の changelog に、作業フォルダの外へのファイル書き込みを止める設定が加わったという紹介。非エンジニアこそ入れておきたい設定だという。",
+    "text": "Claude Codeに、作業フォルダの外へのファイル書き込みを止める設定が追加\n\n非エンジニアなので入れておきたい設定かも\n\nhttps://t.co/yvNkwYoUMb",
+    "key_points": [],
+    "action": "settings.json で permissions.blockWritesOutsideWorkingDirectories を true にする（Bash は対象外なので sandbox も併用）。",
+    "links": [
+      {
+        "title": "Claude Code changelog - Claude Code Docs",
+        "url": "https://code.claude.com/docs/en/changelog",
+        "image": "https://pbs.twimg.com/news_img/2093234968281722880/tWkxNP1Q?format=jpg&name=orig",
+        "short": "https://t.co/yvNkwYoUMb"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117270651094663510",
+    "url": "https://x.com/EthanLinAI/status/2117270651094663510",
+    "author": {
+      "name": "Ethan Lin",
+      "handle": "EthanLinAI"
+    },
+    "posted_at": "2026-11-02T15:00:34.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Before 2.1.314, a failed claude -p exited 0 in CI",
+    "summary": "A note on the Claude Code changelog: before 2.1.314, a startup failure in claude -p could exit 0 with no output, so CI went green on nothing. It now prints the error and exits 1.",
+    "text": "Running claude -p in CI? Check your Claude Code version.\n\nBefore 2.1.314, a startup failure could exit 0 with no output, so the pipeline went green on nothing. Now it prints the error and exits 1.\n\nSame release: PreCompact hook output is cut at 10,000 chars.",
+    "key_points": [],
+    "action": "Check the Claude Code version your CI uses.",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2117246250139734059",
+    "url": "https://x.com/nurhayatdev/status/2117246250139734059",
+    "author": {
+      "name": "Nurhayat Yurtaslan",
+      "handle": "nurhayatdev"
+    },
+    "posted_at": "2026-11-02T13:23:37.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Langflow has two 9.8 unauthenticated flaws; upgrade to 1.13.0",
+    "summary": "IBM's bulletin lists an unauthenticated auth bypass and an RCE in Langflow 1.0.0 to 1.12.8, both CVSS 9.8. A public Metasploit module enumerates MCP tools.",
+    "text": "Langflow: unauthenticated auth bypass + RCE, both CVSS 9.8.\n\nIBM lists 1.0.0–1.12.8 as affected; upgrade to 1.13.0. The public Metasploit module enumerates MCP tools—it does not execute code. 🔐\n\nIBM: https://t.co/sLpXzg3lKo | module: https://t.co/3rSji6dxq5 https://t.co/JPIOAnqjil",
+    "key_points": [
+      "Affected: 1.0.0 to 1.12.8.",
+      "Fixed in 1.13.0."
+    ],
+    "action": "If you run Langflow, upgrade to 1.13.0 and keep it off the public internet.",
+    "links": [
+      {
+        "title": "Security Bulletin: Langflow OSS is affected by multiple vulnerabili…",
+        "url": "https://www.ibm.com/support/pages/security-bulletin-langflow-oss-affected-multiple-vulnerabilities-2",
+        "short": "https://t.co/sLpXzg3lKo"
+      },
+      {
+        "title": "metasploit-framework/modules/auxiliary/gather/langflow_auth_bypass_…",
+        "url": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/langflow_auth_bypass_cve_2026_93680.rb",
+        "image": "https://pbs.twimg.com/news_img/2117246254946430977/MU4aTVn0?format=jpg&name=orig",
+        "short": "https://t.co/3rSji6dxq5"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWH4Mp1W8AAuvVo.jpg",
+        "alt": "Diagram separates Langflow’s unauthenticated auth-bypass path from the MCP tool-enumeration path associated with remote code execution. It notes the public Metasploit module only enumerates tools and ",
+        "link": "https://t.co/JPIOAnqjil"
+      }
+    ]
+  },
+  {
+    "id": "2117299716987789772",
+    "url": "https://x.com/thdxr/status/2117299716987789772",
+    "author": {
+      "name": "dax",
+      "handle": "thdxr"
+    },
+    "posted_at": "2026-11-02T16:56:04.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "GitHub org and repo secrets can't really be secured",
+    "summary": "Dax Raad points out that anyone with write access who gets hacked can exfiltrate org- or repo-level GitHub secrets; only environments with protection rules hold them back.",
+    "text": "neither github org level or repo level secrets are actually possible to secure\n\nany person on your team with write access getting hacked means the hacker can exfiltrate those \n\nyou have to use environments with protection rules and put secrets there\n\ncrazy",
+    "key_points": [],
+    "action": "Move deploy secrets into GitHub environments with protection rules.",
+    "links": [
+      {
+        "title": "Post by @thdxr on X",
+        "url": "https://x.com/thdxr/status/2117299716987789772"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117328043228471552",
+    "url": "https://x.com/rauchg/status/2117328043228471552",
+    "author": {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg"
+    },
+    "posted_at": "2026-11-02T18:48:38.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Vercel blocks deploys that pull hijacked npm packages",
+    "summary": "Guillermo Rauch says Vercel now blocks deployments that include hijacked npm packages, to stop code and secrets being exfiltrated.",
+    "text": "Securing the supply chain is one of our top priorities. \n\nWhen npm packages get hijacked, our system blocks their deployment, protecting your code and secrets from exfiltration. https://t.co/WGDSAujZFV",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post by @vercel_dev",
+        "url": "https://x.com/vercel_dev/status/2117325624344035671",
+        "short": "https://t.co/WGDSAujZFV"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117272451545514001",
+    "url": "https://x.com/levelsio/status/2117272451545514001",
+    "author": {
+      "name": "levelsio",
+      "handle": "levelsio"
+    },
+    "posted_at": "2026-11-02T15:07:44.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Ubuntu still hasn't shipped the kernel fix",
+    "summary": "Pieter Levels says Ubuntu still hasn't patched a hole that lets anyone take over its public servers, links a post on the delay, and says he may move all his servers to Debian.",
+    "text": "So @Ubuntu still hasn't patched this open hole on any Ubuntu server on the public internet that lets anyone take it over\n\nWe might just have to switch all our servers over to Debian in this new post-AGI time of rapid cybersecurity hacks which require just as rapid patching\n\nSlowpokes will be left behind\n\nhttps://t.co/9InAuqqqjT",
+    "key_points": [],
+    "action": "If you run Ubuntu servers, check whether the fix has landed for your release.",
+    "links": [
+      {
+        "title": "chalmovsky.com",
+        "url": "https://chalmovsky.com/posts/wtf-ubuntu",
+        "short": "https://t.co/9InAuqqqjT"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWIP6LOWMAAQgU6.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2117364329133621614",
+    "url": "https://x.com/a1zhang/status/2117364329133621614",
+    "author": {
+      "name": "alex zhang",
+      "handle": "a1zhang"
+    },
+    "posted_at": "2026-11-02T21:12:49.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "Astra's math gain came from ending reasoning loops",
+    "summary": "Co-author Alex Zhang says the big math jump turned out to come mainly from reducing reasoning loops, which Astra did with an activation-steering trick, not from new math skill.",
+    "text": "to add some extra clarification here and a small anecdote, looping was discovered as the primary issue after the main result because we originally thought it was just a pure capability gain on math that it had somehow edited in (an even bigger result that isn’t the case). \n\nwhen Riki and Jayden first presented this result to me, I had a suspicion the large gain in math performance was related to reducing reasoning looping bc I observed a similar effect earlier when training RLMs yielded an odd jump in benchmark scores for a separate paper that was a result of reducing harness-level looping. We discovered Astra indeed used a trick loosely described in https://t.co/XMh94FEZjx based on activation steering to reduce this effect\n\nThis is also what led to the later ablation about removing looping when the model is told that is the issue but it doesn’t have access to activations. \n\nthe tldr; is that the LLM-generated prompt does include hints that Qwen would have this issue, but it started (and evolved without human feedback) as the simple unexpanded prompt without this prior. we will make all of this clearer though (we didn’t even realize until after we got the result that looking for looping was present in the LLM optimized prompt, as we ourselves didn’t even know to look for it initially)",
+    "key_points": [
+      "They first thought it was a pure math gain.",
+      "An ablation tested the fix without activation access."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "arxiv.org",
+        "url": "https://arxiv.org/pdf/2406.11717.pdf",
+        "short": "https://t.co/XMh94FEZjx"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117338841749029221",
+    "url": "https://x.com/emollick/status/2117338841749029221",
+    "author": {
+      "name": "Ethan Mollick",
+      "handle": "emollick"
+    },
+    "posted_at": "2026-11-02T19:31:32.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "Mollick: a pretty big deal, pending replication",
+    "summary": "Ethan Mollick quotes the weight-editing thread: waiting for replication, but a pretty big deal.",
+    "text": "Waiting for replication but this is a pretty big deal. https://t.co/VxH6TnDVuW",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post by @rikiyatakehi",
+        "url": "https://x.com/rikiyatakehi/status/2117313742891327994",
+        "short": "https://t.co/VxH6TnDVuW"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117350355218432405",
+    "url": "https://x.com/lateinteraction/status/2117350355218432405",
+    "author": {
+      "name": "Omar Khattab",
+      "handle": "lateinteraction"
+    },
+    "posted_at": "2026-11-02T20:17:17.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "The weight-editing work cost about $1,000 in all",
+    "summary": "Omar Khattab notes that, like the first RLM blog a year ago, the whole weight-editing project cost on the order of $1,000.",
+    "text": "like the initial RLM blog almost exactly one year ago, Rikiya’s total cost for this work was on the order of $1000 all in all https://t.co/0r5wffnmiS",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post by @rikiyatakehi",
+        "url": "https://x.com/rikiyatakehi/status/2117313742891327994",
+        "short": "https://t.co/0r5wffnmiS"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117384373443985481",
+    "url": "https://x.com/antirez/status/2117384373443985481",
+    "author": {
+      "name": "antirez",
+      "handle": "antirez"
+    },
+    "posted_at": "2026-11-02T22:32:28.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "evergreen",
+    "tldr": "Antirez: RL on toy nets may explain it",
+    "summary": "Salvatore Sanfilippo suggests the simplest explanation: RL training for programming included many toy neural-network problems that Astra debugged.",
+    "text": "The simplest explanation to Astra being able to edit NN weights is that during RL training for programming there are a lot of toy NN problems that it debugged in post-training. Plus all the transfer of intelligence / visualization from the other tasks it can do well.",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @antirez on X",
+        "url": "https://x.com/antirez/status/2117384373443985481"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117340082382454831",
+    "url": "https://x.com/adam_karvonen/status/2117340082382454831",
+    "author": {
+      "name": "Adam Karvonen",
+      "handle": "adam_karvonen"
+    },
+    "posted_at": "2026-11-02T19:36:28.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "evergreen",
+    "tldr": "Neat, but narrow tasks don't prove much",
+    "summary": "Adam Karvonen says the tasks are simple and narrow, and he doesn't expect weight editing to generalize to complex ones, though it shows Astra is very smart.",
+    "text": "IMO this isn't very surprising as the tasks are simple and narrow, and Astra is very good at math. Almost anything can work on simple, narrow tasks.\n\nFor example, breakout can be solved with a simple algorithm. Astra is able to implement this algorithm in neural network weights.\n\nTo be clear, this is neat, and evidence that Astra is very smart. But I don't expect this to generalize to complex tasks.",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post by @rikiyatakehi",
+        "url": "https://x.com/rikiyatakehi/status/2117313742891327994"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117037940031496252",
+    "url": "https://x.com/jarredsumner/status/2117037940031496252",
+    "author": {
+      "name": "Jarred Sumner",
+      "handle": "jarredsumner"
+    },
+    "posted_at": "2026-11-01T23:35:52.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "Jarred Sumner's perf prompts for Claude",
+    "summary": "The Bun creator lists what he tells Claude during performance work: data-oriented design, flat arrays instead of hash tables, and no caches: redesign instead.",
+    "text": "some things I often say to claude when doing perf optimization work:\n\n> how do we rewrite this to better leverage data-oriented design principles\n\n> can you replace those hash tables with a flat array? can we make the pointers an index into the array? can we pack the most commonly used data into upper bits of the index?\n\n> caching is cope for a slow design. do not add caches and delete all existing caches. instead, redesign it to be faster\n\n> should this be a structure of arrays instead of an array of structures?",
+    "key_points": [
+      "Replace hash tables with flat arrays and indexes.",
+      "\"Caching is cope for a slow design.\"",
+      "Ask for a structure of arrays."
+    ],
+    "action": "Try one of his prompts on your slowest hot path.",
+    "links": [
+      {
+        "title": "Post by @jarredsumner on X",
+        "url": "https://x.com/jarredsumner/status/2117037940031496252"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117259805932884467",
+    "url": "https://x.com/levelsio/status/2117259805932884467",
+    "author": {
+      "name": "levelsio",
+      "handle": "levelsio"
+    },
+    "posted_at": "2026-11-02T14:17:29.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Battlefield 1942 decompiled to run in a browser",
+    "summary": "Pieter Levels says he decompiled Battlefield 1942's C engine with Claude Code to run it in the browser, with a video.",
+    "text": "I may or may have not just decompiled Battlefield 1942's raw C engine with Claude Code to run it in the browser 😬 https://t.co/CyTpryuDxo",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @levelsio on X",
+        "url": "https://x.com/levelsio/status/2117259805932884467"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2117259442106286081/img/cA6wJNCD4Q0UIanj.jpg",
+        "link": "https://t.co/CyTpryuDxo"
+      }
+    ]
+  },
+  {
+    "id": "2117332449382510884",
+    "url": "https://x.com/ClaudeDevs/status/2117332449382510884",
+    "author": {
+      "name": "ClaudeDevs",
+      "handle": "ClaudeDevs"
+    },
+    "posted_at": "2026-11-02T19:06:08.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Claude Messages API now keeps the thread for you",
+    "summary": "Message threads are in public beta: the API caches the conversation server-side, so you send only new messages and the previous message ID, and replies start sooner.",
+    "text": "Message threads are now in public beta on the Messages API.\n\nThe API caches your conversation on the server between turns, so instead of resending the full conversation, you send only new messages and the previous message ID, and Claude starts responding sooner. https://t.co/VeiehyqfIg",
+    "key_points": [],
+    "action": "Try threads in an agent loop that resends long histories.",
+    "links": [
+      {
+        "title": "Post by @ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2117332449382510884"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2117332353785704449/img/p7_rHqaEU7-HLGfG.jpg",
+        "link": "https://t.co/VeiehyqfIg"
+      }
+    ]
+  },
+  {
+    "id": "2117323545164554480",
+    "url": "https://x.com/tobi/status/2117323545164554480",
+    "author": {
+      "name": "tobi lutke",
+      "handle": "tobi"
+    },
+    "posted_at": "2026-11-02T18:30:45.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Tobi Lütke: WebMCP beats browser-use",
+    "summary": "Shopify's CEO quotes a Shopify Devs post and says WebMCP is much better than browser automation.",
+    "text": "Webmcp is so much better then browseruse https://t.co/Dgryxpfdj7",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post by @ShopifyDevs",
+        "url": "https://x.com/ShopifyDevs/status/2117273015738396830",
+        "short": "https://t.co/Dgryxpfdj7"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117142182415257643",
+    "url": "https://x.com/theo/status/2117142182415257643",
+    "author": {
+      "name": "Theo - t3.gg",
+      "handle": "theo"
+    },
+    "posted_at": "2026-11-02T06:30:05.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "T3 Code adds managed policies for IT teams",
+    "summary": "Theo says T3 Code now supports managed policies, so IT teams can set how it runs across an organization.",
+    "text": "Day 32/\nSorry unemployed folks, this one's not for you.\n\nT3 Code now supports managed policies, allowing it teams to configure how T3 Code operates across an organization.\n\nWe've had some really awesome advocates pushing us at big companies. Doing our best to support them 🙏 https://t.co/4pVH4dCevT https://t.co/BQtNZuf4J2",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post by @theo",
+        "url": "https://x.com/theo/status/2116446018506236371",
+        "short": "https://t.co/BQtNZuf4J2"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWGZUlKbUAAF59K.jpg",
+        "link": "https://t.co/4pVH4dCevT"
+      }
+    ]
+  },
+  {
+    "id": "2117343929960112486",
+    "url": "https://x.com/AnthropicAI/status/2117343929960112486",
+    "author": {
+      "name": "Anthropic",
+      "handle": "AnthropicAI"
+    },
+    "posted_at": "2026-11-02T19:51:45.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "news",
+    "tldr": "Anthropic Residency opens; no ML background needed",
+    "summary": "Anthropic opened applications for a paid, fixed-term research residency for academics, founders and staff-level engineers. No ML background is required; apply by 22 November.",
+    "text": "Applications are now open for the Anthropic Residency, a paid, fixed-term research program for academics, technical founders, and staff-level engineers who want to make AI safe and beneficial for everyone. No ML background is required.\n\nApply by November 22: https://t.co/uhcXhKTgnO",
+    "key_points": [
+      "Paid and fixed-term.",
+      "Open to staff-level engineers without ML background.",
+      "Deadline: 22 November."
+    ],
+    "action": "Read the residency page and decide by 22 November whether to apply.",
+    "links": [
+      {
+        "title": "alignment.anthropic.com",
+        "url": "https://alignment.anthropic.com/2026/anthropic-residency/",
+        "short": "https://t.co/uhcXhKTgnO"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2117135884093112796",
+    "url": "https://x.com/nhk_news/status/2117135884093112796",
+    "author": {
+      "name": "NHKニュース",
+      "handle": "nhk_news"
+    },
+    "posted_at": "2026-11-02T06:05:03.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "アットコスメ、約300万人分が漏えい",
+    "summary": "NHK：「アットコスメ」への不正アクセスで会員約300万人分の情報が漏えい。肌質や髪質の情報も含まれる。",
+    "text": "「アットコスメ」不正アクセス 約300万人分漏えい 肌質 髪質も\nhttps://t.co/Q9lQDRQMvh #nhk_news",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "「アットコスメ」不正アクセス 約300万人分漏えい 肌質 髪質も | NHKニュース",
+        "url": "https://news.web.nhk/newsweb/na/nd-20261102de69567",
+        "image": "https://pbs.twimg.com/news_img/2117135892645400576/1wv4BQwp?format=jpg&name=orig",
+        "short": "https://t.co/Q9lQDRQMvh"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117187965483090082",
+    "url": "https://x.com/asahi/status/2117187965483090082",
+    "author": {
+      "name": "朝日新聞(asahi shimbun）",
+      "handle": "asahi"
+    },
+    "posted_at": "2026-11-02T09:32:01.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "プレステージ・インターナショナル、最大550万件漏洩",
+    "summary": "朝日新聞：ロードサービス事業などのプレステージ・インターナショナルのグループ会社から、車両番号や口座番号を含む最大約550万件の個人情報が漏洩。",
+    "text": "ロードサービス事業で最大550万件の情報漏洩　車両番号や口座番号 https://t.co/TC5ChZ6Jsq\n \nロードサービス事業などを展開するプレステージ・インターナショナルは2日、不正アクセスによってグループ会社が保有する最大約550万件の個人情報が漏洩（ろうえい）したと発表した。",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "ロードサービス事業で最大550万件の情報漏洩　車両番号や口座番号：朝日新聞",
+        "url": "https://www.asahi.com/articles/ASVC232YVVC2ULFA01HM.html",
+        "image": "https://pbs.twimg.com/news_img/2117187971548119040/83V1i0m3?format=jpg&name=orig",
+        "short": "https://t.co/TC5ChZ6Jsq"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117185170289877275",
+    "url": "https://x.com/nico_nico_news/status/2117185170289877275",
+    "author": {
+      "name": "ニコニコニュース",
+      "handle": "nico_nico_news"
+    },
+    "posted_at": "2026-11-02T09:20:54.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "GMO会見：2年前の指摘は熊谷社長に届かず",
+    "summary": "GMOの記者会見で、子会社イエラエが2024年4月に脆弱性を指摘していたが、その情報が熊谷社長まで届いていなかったことが明らかに。",
+    "text": "2年前のセキュリティ脆弱性指摘「AIを使わずに指摘」社内で熊谷正寿社長に届かず　GMOの記者会見\n\n\"当時AIが無くても見つけられる水準だったか\"\n子会社の「GMOサイバーセキュリティbyイエラエ」は2024年4月、不正アクセスを受けた各国の通貨の自動売買に使われる投資家向けサービスの脆弱性などを指摘 https://t.co/qjVoeI93w3",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @nico_nico_news on X",
+        "url": "https://x.com/nico_nico_news/status/2117185170289877275"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWHAy_0aIAA5pAf.jpg",
+        "link": "https://t.co/qjVoeI93w3"
+      }
+    ]
+  },
+  {
+    "id": "2117371561078558907",
+    "url": "https://x.com/dennotai/status/2117371561078558907",
+    "author": {
+      "name": "川邊健太郎",
+      "handle": "dennotai"
+    },
+    "posted_at": "2026-11-02T21:41:33.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "熊谷代表、しばらくSNSを謹慎",
+    "summary": "GMOの熊谷代表が会見の総括をもってしばらくSNSを控えるという。投稿者は「命の砂時計」論を振り返る。",
+    "text": "GMOの熊谷代表が昨晩の記者会見の総括を以て暫くSNSは\"謹慎\"されるとの事です。良くも悪くもこの稀代の経営者が気になり始めた方の為に、私が2年前書いた熊谷代表の\"人生訓\"をシェア致します。\n\nいわゆる\"命の砂時計\"論は、昨晩言うのが適切であったかどうかはともかく、人には与えられた時間が限られていてそれを大切にしなければならないという観点で仰る通りであり、かつその大切な命を使い切ってもいいと思う人生のテーマが\"使命\"であり、命は運ばれるのではなく、使命に向けて主体的に運ぶ行為を\"運命\"と呼ぶのだと思っています。\n\n熊谷代表はインターネット産業を守る事に命を使う事を昨晩も強調されました。私は「ネット産業はAI産業を生み出す為の準備期間に過ぎなかった」という世界観の元、今年の7月からAIソロプレナー業を転生したつもりでやってます。\n\n使う命は違えど、1秒1秒を大切にして熱く生きるという事においては同じ志とテンションを持っていると改めて思いました。\n\n再発防止策と被害者への誠意ある対応を終えたのち、また熊谷節を聞ける事を願っております🙇",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post by @dennotai",
+        "url": "https://x.com/dennotai/status/1760073293825229201"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117069983679467522",
+    "url": "https://x.com/SakanaAILabs/status/2117069983679467522",
+    "author": {
+      "name": "Sakana AI",
+      "handle": "SakanaAILabs"
+    },
+    "posted_at": "2026-11-02T01:43:12.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "Sakana AI、自社LLM「Sawara」を発表",
+    "summary": "Sakana AI のシンポジウム報告。事前学習から自社開発する言語モデル「Sakana Sawara（仮称）」を発表し、最初の「Sawara Small」は順調なら2027年春に公開予定。",
+    "text": "Sakana AIシンポジウム：日本から挑む言語モデル・世界モデル・Physical AI\n\n開催レポート https://t.co/4O4AWYWOHs \n\n10月26日、東京・一橋講堂でシンポジウム「From World Models to Real-World AI」を開催しました。9月にChief Scientific Advisorとしてお迎えしたJürgen Schmidhuber教授の基調講演 と、2018年に教授と論文「World Models」を共著したCEOのDavid Haとの対談に、400名を超える方にご参加いただきました。\n\n基調講演では、甘利俊一氏や福島邦彦氏をはじめとする日本の研究者を含め、世界各地の研究者の功績に触れながら、自身による1990年の世界モデルや人工好奇心の研究まで、いまのAIにつながる流れをたどりました。\n\nまた、チーフサイエンティストの秋葉拓哉が、事前学習から自社で開発する言語モデルシリーズ「Sakana Sawara（仮称）」を発表しました。最初のモデルとなる小規模な「Sawara Small（仮称）」は、順調に進めば2027年春に公開する予定です。\n\nJürgenが思い描いてきたAIのうち、生成AIが実現したのはおそらく半分です。自ら実験を考える人工科学者や、実世界で働くPhysical AIといった残りの半分は、まだスケールに至っていません。その機会は大型ラボ以外にこそ開かれていて、日本はその有望な場所の一つだと考えています。このシンポジウムが、日本の企業や研究機関の皆さんとともに、日本のAIの次の時代を切り開いていく出発点の一つとなれば幸いです。\n\n後日動画も公開する予定です。\nご来場いただいた皆さま、ありがとうございました！",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "sakana.ai",
+        "url": "https://sakana.ai/symposium-2026/",
+        "short": "https://t.co/4O4AWYWOHs"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWFX3FBaYAAxgaj.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWFX3EzasAEcUm_.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWFX3E2aoAA54Tk.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2117140958441800062",
+    "url": "https://x.com/madyagi/status/2117140958441800062",
+    "author": {
+      "name": "シバタアキラ",
+      "handle": "madyagi"
+    },
+    "posted_at": "2026-11-02T06:25:13.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "evergreen",
+    "tldr": "Cognition入社半年、キャリアを語る",
+    "summary": "Cognition に入社して半年の madyagi さんが、Tech World の YouTube でこれまでのキャリアと取り組みを語ったインタビュー。",
+    "text": "Cognitionに入社して、半年が経ちました。\n\nこの半年間の取り組みや、それ以前のキャリアについて、Tech WorldさんのYouTubeで取材していただきました。\n\n私自身にとっても、これまでの歩みを振り返り、一つひとつの経験や選択がどうつながって今に至っているのかを、あらためて考える良い機会になりました。\n\n少し長めのインタビューですが、お時間のあるときにご覧いただけたら嬉しいです。\nTech Worldの皆さん、貴重な機会をありがとうございました！\n\nhttps://t.co/AIirpGFBu3",
+    "key_points": [],
+    "action": "日本からAIコーディング企業に入った道のりとしてインタビューを見る。",
+    "links": [
+      {
+        "title": "www.youtube.com",
+        "url": "https://www.youtube.com/watch?v=8cGnTtjpy88",
+        "short": "https://t.co/AIirpGFBu3"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117089898515808640",
+    "url": "https://x.com/m_mizutani/status/2117089898515808640",
+    "author": {
+      "name": "mizutani",
+      "handle": "m_mizutani"
+    },
+    "posted_at": "2026-11-02T03:02:20.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "evergreen",
+    "tldr": "セキュリティは「同じコストで高い水準」へ",
+    "summary": "m_mizutani さん：短期的にはやれることを全部やるしかないが、長期的には今と同等以下のコストで高い水準を実現する方法を、事業会社自身が探るしかない。",
+    "text": "セキュリティ、短期的には「やれる事全部やる」しかないんだけど長期的には「これまでと同等以下のコストで高い水準のセキュリティを実現する」方法を確立していくしかない。これはベンダなどには期待しにくい側面があり、事業会社等当事者が率先してベストプラクティスを探索していくしくしかなさそう",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @m_mizutani on X",
+        "url": "https://x.com/m_mizutani/status/2117089898515808640"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117051864042844494",
+    "url": "https://x.com/GOROman/status/2117051864042844494",
+    "author": {
+      "name": "NULL=RUN",
+      "handle": "GOROman"
+    },
+    "posted_at": "2026-11-02T00:31:11.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "evergreen",
+    "tldr": "家族のPCから中に入られる心配",
+    "summary": "GOROman さん：自分だけ守りを固めても家族がマルウェアを拾えば内側からやられる。家庭内LANを分けるか、L3スイッチを買うか。",
+    "text": "自分一人がガチガチにセキュリティ強化したところで、家族の誰かがマルウェアとか拾ってきて北斗神拳みたいに内部からヤラレるとまずい気がしました。家庭内LAN別居するとかか？？L3スイッチ買ってくるか",
+    "key_points": [],
+    "action": "家のネットワークで仕事用の機器を別のセグメントに分けられるか確認する。",
+    "links": [
+      {
+        "title": "Post by @GOROman on X",
+        "url": "https://x.com/GOROman/status/2117051864042844494"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117307611338997846",
+    "url": "https://x.com/OpenAI/status/2117307611338997846",
+    "author": {
+      "name": "OpenAI",
+      "handle": "OpenAI"
+    },
+    "posted_at": "2026-11-02T17:27:26.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "OpenAI LifeVal tests everyday assistant tasks",
+    "summary": "OpenAI introduced LifeVal, a benchmark built from ChatGPT users' feedback on where they most want help, from childcare to government services and money.",
+    "text": "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal, a new benchmark shaped by feedback from thousands of ChatGPT users on where they most want help from a personal assistant—from finding childcare to accessing government services to managing personal finances.\n\nOver the past year, we’ve used LifeVal to measure and improve how well our models handle these everyday tasks.\n\nhttps://t.co/GlUjixzEM0",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "openai.com",
+        "url": "https://openai.com/index/lifeval/",
+        "short": "https://t.co/GlUjixzEM0"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2117307511820754944/img/KAscj7SLp6lhMJr9.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2117283124833055196",
+    "url": "https://x.com/thsottiaux/status/2117283124833055196",
+    "author": {
+      "name": "Tibo",
+      "handle": "thsottiaux"
+    },
+    "posted_at": "2026-11-02T15:50:08.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "dots adds GPT-6.1 Terra and other models",
+    "summary": "Tibo (OpenAI) says the team is adding frontier models behind dots, including GPT-6 Astra and GPT-6.1 Terra, which brings speed and a personality upgrade.",
+    "text": "Fellow resetters, heads up that we're working on expanding the family of frontier models that power dots, including GPT-6 Astra and GPT-6.1 Terra and some others in the future. Terra brings speed and a nice personality upgrade, and will help us bring dots to more people.",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @thsottiaux on X",
+        "url": "https://x.com/thsottiaux/status/2117283124833055196"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117229259425038344",
+    "url": "https://x.com/MistralAI/status/2117229259425038344",
+    "author": {
+      "name": "Mistral AI",
+      "handle": "MistralAI"
+    },
+    "posted_at": "2026-11-02T12:16:06.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "Mistral Large 4 wrote a quantum chemistry solver",
+    "summary": "Mistral says Large 4 wrote an SCF quantum chemistry solver from scratch from a short prompt, checked its output, and built a 3D view of a breaking molecule.",
+    "text": "We asked Mistral Large 4 to show what happens when you break a molecule. ⚛️\n\nWith a short prompt, it wrote a quantum chemistry SCF solver from scratch, validated its output, and built a 3D view around it. \n\nLe Chonk also understand chemistry enough to independently choose how to break the molecule and what orbitals to show, without further input. 🧵",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @MistralAI on X",
+        "url": "https://x.com/MistralAI/status/2117229259425038344"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2117227739451199488/img/7i6I1Ao5OuqSBCD4.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2117207001029845049",
+    "url": "https://x.com/dhh/status/2117207001029845049",
+    "author": {
+      "name": "DHH",
+      "handle": "dhh"
+    },
+    "posted_at": "2026-11-02T10:47:39.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Omarchy on Nvidia N1X runs Nemotron offline",
+    "summary": "DHH shows Omarchy on an Nvidia N1X laptop running Nemotron 3.5 Bolt at 90 tokens a second offline, and says the chip's weak reception is down to bad stock software.",
+    "text": "Omarchy on Nvidia N1X, running Nemotron 3.5 Bolt at 90 tps, diagnosing a sleep issue while offline, feels like the future. I know the N1X has gotten a bit of a rough reception, but imo it's almost all down to a terrible out-of-the-box software experience. We can fix everything! https://t.co/svScRWrEad",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @dhh on X",
+        "url": "https://x.com/dhh/status/2117207001029845049"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWHUH3iW4AExaDv.jpg",
+        "link": "https://t.co/svScRWrEad"
+      }
+    ]
+  },
+  {
+    "id": "2117241303704432901",
+    "url": "https://x.com/dhh/status/2117241303704432901",
+    "author": {
+      "name": "DHH",
+      "handle": "dhh"
+    },
+    "posted_at": "2026-11-02T13:03:57.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "DHH: agents end the cantankerous expert's immunity",
+    "summary": "DHH argues agents will be great for most programmers but hard on difficult ones: rare skills no longer shield people who are a pain to work with.",
+    "text": "The age of agents is going to be amazing for most programmers, but it'll be hard times for the cantankerous ones. \n\nSpecialized knowledge and rare skills will no longer offer immunity for those who are a pain to work with. \n\nBest learn some basic people skills.",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @dhh on X",
+        "url": "https://x.com/dhh/status/2117241303704432901"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117315680119013865",
+    "url": "https://x.com/fchollet/status/2117315680119013865",
+    "author": {
+      "name": "François Chollet",
+      "handle": "fchollet"
+    },
+    "posted_at": "2026-11-02T17:59:30.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Chollet: LLM prose turns every line into a slogan",
+    "summary": "François Chollet says the most grating thing in LLM writing is that every sentence becomes a punchline, whether or not it needs emphasis.",
+    "text": "The most grating aspect of LLM writing is that it tries to turn every single sentence into a punchline, a witty slogan, with no regard for which sentences need emphasis and which ones don't. \"A tiring formula, overused\"",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @fchollet on X",
+        "url": "https://x.com/fchollet/status/2117315680119013865"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117310668281925852",
+    "url": "https://x.com/SpecialSitsNews/status/2117310668281925852",
+    "author": {
+      "name": "Special Situations 🌐 Research Newsletter (Jay)",
+      "handle": "SpecialSitsNews"
+    },
+    "posted_at": "2026-11-02T17:39:35.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "news",
+    "tldr": "Goldman limits AI coding tools to engineers",
+    "summary": "Goldman Sachs reportedly restricted tools like Claude Code and GitHub Copilot to engineers after an October review of productivity and risk.",
+    "text": "Goldman Sachs Limits AI Coding Tools to Engineers Only $GS $NVDA  \n\nThe Wall Street firm restricted advanced AI coding tools like Anthropic’s Claude Code and Microsoft’s GitHub to engineers alone, following an October review of productivity and risk concerns. This reversed broader access previously available to bankers and traders, who had used the tools for tasks such as generating reports and monitoring trading. A spokesperson explained that after experimentation, the firm assigns tools to those best suited for long-term use, while keeping other AI options open for staff.",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2117133614941106558",
+    "url": "https://x.com/NDTVProfit/status/2117133614941106558",
+    "author": {
+      "name": "NDTV Profit News",
+      "handle": "NDTVProfit"
+    },
+    "posted_at": "2026-11-02T05:56:02.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "Anthropic watermarks four more Claude models from today",
+    "summary": "NDTV Profit reports Anthropic will apply an invisible text watermark to outputs from four more Claude models from Tuesday, as newer models already have.",
+    "text": "Anthropic will begin applying an invisible text watermark to outputs from four more of its Claude models from Tuesday, extending a system that its newer models already carry.\n\nhttps://t.co/fNJmDhzoUb",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Using Claude To Write? Top Models Will Now Use Text Watermarking As…",
+        "url": "https://www.ndtvprofit.com/technology/using-claude-to-write-top-models-will-now-use-text-watermarking-as-identifiers-12269428",
+        "image": "https://pbs.twimg.com/news_img/2117133660059299840/svjXFQfn?format=jpg&name=orig",
+        "short": "https://t.co/fNJmDhzoUb"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117339021315653778",
+    "url": "https://x.com/DarkWebInformer/status/2117339021315653778",
+    "author": {
+      "name": "Dark Web Informer",
+      "handle": "DarkWebInformer"
+    },
+    "posted_at": "2026-11-02T19:32:15.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "world",
+    "shelf_life": "news",
+    "tldr": "Google takes down a botnet in 1.3M Android TV boxes",
+    "summary": "Google says manufacturer Videostrong built a backdoor into the firmware of over 1.3 million Android TV boxes, used for proxies, ad fraud and data theft; Google seized its servers and banned the maker.",
+    "text": "🚨 Google dismantles XCPE botnet hidden in more than 1.3 million Android TV boxes\n\nGoogle says manufacturer Videostrong Technology intentionally embedded the backdoor into device firmware before the products were sold, giving operators remote access to boxes across more than 200 countries.\n⠀\nThe infected devices were used for:\n\n• Residential proxy networks\n• Advertising fraud\n• Data theft\n• Additional malware delivery\n• Routing criminal traffic through home connections\n\nGoogle seized command-and-control infrastructure, disrupted affiliate malware linked to at least 10 million additional devices and permanently banned Videostrong and its affiliates from producing certified Android devices.",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWJMkrpX0AAlHtT.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2117379176533463544",
+    "url": "https://x.com/BBCWorld/status/2117379176533463544",
+    "author": {
+      "name": "BBC News (World)",
+      "handle": "BBCWorld"
+    },
+    "posted_at": "2026-11-02T22:11:49.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "world",
+    "shelf_life": "news",
+    "tldr": "Cyber-attack spoils food in European supermarkets",
+    "summary": "BBC: in dozens of supermarkets in several European countries, food was thrown away after a cyber-attack targeted fridges and freezers.",
+    "text": "In dozens of supermarkets across several European countries, a huge amount of food has been dumped after refrigerators and freezers were targeted in a cyber-attack. Read more: https://t.co/gWYpVpasGH https://t.co/Wr3OXX8ZWk",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Shop freezers in seven European countries hit by cyber-attack",
+        "url": "https://bbc.in/4egpmFP",
+        "image": "https://pbs.twimg.com/news_img/2117379177305288704/H7XexuXL?format=jpg&name=orig",
+        "short": "https://t.co/gWYpVpasGH"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/ext_tw_video_thumb/2117379034334052352/pu/img/i1EKzXt35EcfHjNj.jpg",
+        "link": "https://t.co/Wr3OXX8ZWk"
+      }
+    ]
+  },
+  {
+    "id": "2117146119876849933",
+    "url": "https://x.com/ockeghem/status/2117146119876849933",
+    "author": {
+      "name": "徳丸 浩",
+      "handle": "ockeghem"
+    },
+    "posted_at": "2026-11-02T06:45:44.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "Cloudflare、GlobalSignから鍵を買って認証局に",
+    "summary": "徳丸浩さん：Cloudflare は耐量子時代に向けたパブリック認証局を始めるにあたり、GMOグローバルサインからルート証明書の秘密鍵などの鍵マテリアルを購入するという。",
+    "text": "Cloudflareが認証局を始めるに当たりGMO GlobalSignから鍵マテリアル（ルート証明書の秘密鍵など）を購入するそうです / “Cloudflare、耐量子時代のウェブに向けたパブリック認証局の設立を発表” https://t.co/Ll2RrYIcDu",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Cloudflare、耐量子時代のウェブに向けたパブリック認証局の設立を発表 | Cloudflare",
+        "url": "https://htn.to/3YwF5EeH8V",
+        "image": "https://pbs.twimg.com/news_img/2117108298029903874/7V1cLZHW?format=png&name=orig",
+        "short": "https://t.co/Ll2RrYIcDu"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117168029687841229",
+    "url": "https://x.com/polymarketjapan/status/2117168029687841229",
+    "author": {
+      "name": "Polymarket Japan",
+      "handle": "polymarketjapan"
+    },
+    "posted_at": "2026-11-02T08:12:48.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "ハンドルなし自動運転車、国交省が一律認定へ",
+    "summary": "国交省がレベル4以上の自動運転車について、個別認定から共通の保安基準への移行を検討。12月適用を目指し、11月4日の検討会で議論。",
+    "text": "【速報】ハンドル・ペダルなし自動運転車、共通基準で認定へ\n\n・国交省がレベル4・5を対象に、個別認定から共通の保安基準への移行を検討\n・12月適用を目指し、11月4日の検討会で議論へ",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2117344175003693186",
+    "url": "https://x.com/hausfath/status/2117344175003693186",
+    "author": {
+      "name": "Zeke Hausfather",
+      "handle": "hausfath"
+    },
+    "posted_at": "2026-11-02T19:52:44.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "October 2026 was the warmest October on record",
+    "summary": "Zeke Hausfather: in Copernicus ERA5 data, October 2026 came in 1.75C above preindustrial, the warmest October on record.",
+    "text": "October 2026 was the warmest October on record in Copernicus' ERA5 dataset, coming in at 1.75C above preindustrial levels. https://t.co/e9Dx8VPeZ2",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @hausfath on X",
+        "url": "https://x.com/hausfath/status/2117344175003693186"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWJRTkhXEAEzer7.png",
+        "link": "https://t.co/e9Dx8VPeZ2"
+      }
+    ]
+  },
+  {
+    "id": "2117305249627312387",
+    "url": "https://x.com/EricTopol/status/2117305249627312387",
+    "author": {
+      "name": "Eric Topol",
+      "handle": "EricTopol"
+    },
+    "posted_at": "2026-11-02T17:18:03.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "health",
+    "shelf_life": "evergreen",
+    "tldr": "Why lung blood pressure may dull the mind",
+    "summary": "Eric Topol shares JCI papers: several cohorts and mouse work tie pulmonary hypertension to cognitive decline through inflammation in microglia and blood-vessel cells, and one mediator.",
+    "text": "Discovery of a mechanism to help explain why pulmonary hypertension is linked to cognitive decline. \nMultiple cohorts and mouse model work shows inflammation (both microglia and endothelial) and a specific mediator @jclinicalinvest  \nhttps://t.co/8yPIwhnNuo\nhttps://t.co/8qoHwIVdQR",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "www.jci.org",
+        "url": "https://www.jci.org/articles/view/212006",
+        "short": "https://t.co/8yPIwhnNuo"
+      },
+      {
+        "title": "www.jci.org",
+        "url": "https://www.jci.org/articles/view/195110",
+        "short": "https://t.co/8qoHwIVdQR"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWItG6AbwAA6d2G.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWItpT0bkAA21vz.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2117300794626052438",
+    "url": "https://x.com/CityLab/status/2117300794626052438",
+    "author": {
+      "name": "Bloomberg CityLab",
+      "handle": "CityLab"
+    },
+    "posted_at": "2026-11-02T17:00:21.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "world",
+    "shelf_life": "evergreen",
+    "tldr": "Vietnam wants Hanoi to Saigon in six hours",
+    "summary": "Bloomberg CityLab rides the 35-hour Reunification Express to show what Vietnam's planned high-speed line, six hours end to end, is up against.",
+    "text": "Vietnam plans a high-speed rail line to cut the 35-hour journey from Hanoi to Ho Chi Minh City to just six hours.\n\nA ride on the aging Reunification Express reveals the scale of the challenge  https://t.co/eCxIeOWTyX",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "What a 35-Hour Train Ride Reveals About Vietnam’s Future",
+        "url": "https://www.bloomberg.com/features/2026-vietnam-railway/",
+        "image": "https://pbs.twimg.com/news_img/2117300797675360258/HnmPLMGF?format=jpg&name=orig",
+        "short": "https://t.co/eCxIeOWTyX"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117222239586197570",
+    "url": "https://x.com/PublicDomainRev/status/2117222239586197570",
+    "author": {
+      "name": "The Public Domain Review",
+      "handle": "PublicDomainRev"
+    },
+    "posted_at": "2026-11-02T11:48:12.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "culture",
+    "shelf_life": "evergreen",
+    "tldr": "Posada's skulls behind the Day of the Dead look",
+    "summary": "The Public Domain Review: Day of the Dead skeleton imagery owes much to José Guadalupe Posada's satirical calavera broadside prints.",
+    "text": "Today Mexico celebrates the #DayOfTheDead. Skeletal imagery features heavily, influenced in no small part by the work of José Guadalupe Posada, known for his satirical and politically acute broadside prints called \"calaveras\" (skulls) — https://t.co/N55l4yRvo8 #diademuertos https://t.co/vf14Ufbny8",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "The Calaveras of José Guadalupe Posada",
+        "url": "https://publicdomainreview.org/collection/the-calaveras-of-jose-guadalupe-posada",
+        "image": "https://pbs.twimg.com/news_img/2117222285970935808/99n0RbXA?format=jpg&name=orig",
+        "short": "https://t.co/N55l4yRvo8"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWHiZfoWQAAGg0-.jpg",
+        "link": "https://t.co/vf14Ufbny8"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWHiZqIXYAAjeoo.jpg",
+        "link": "https://t.co/vf14Ufbny8"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWHiZ2sXkAAdaJt.jpg",
+        "link": "https://t.co/vf14Ufbny8"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWHiaC_XIAAoPa-.jpg",
+        "link": "https://t.co/vf14Ufbny8"
+      }
+    ]
+  },
+  {
+    "id": "2117372442792357943",
+    "url": "https://x.com/archaeologymag/status/2117372442792357943",
+    "author": {
+      "name": "Archaeology Magazine",
+      "handle": "archaeologymag"
+    },
+    "posted_at": "2026-11-02T21:45:03.000Z",
+    "saved_at": "2026-11-03T08:30:00+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "A pup's paw prints in 4,000-year-old bricks",
+    "summary": "In Bronze Age Anatolia a dog walked across drying adobe bricks, and the builders put the paw-printed bricks into the wall anyway.",
+    "text": "People were making adobe bricks for a wall in a settlement in Anatolia 4,000 years ago—when one pup decided to plant paws right into the soft adobe. No one, apparently, could stay mad at the little rascal: The pawprinted bricks were built into the wall.\n\nhttps://t.co/f5N4L2zCgF https://t.co/P37AaDfanh",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "News - Paw Prints Found in Bricks From Anatolian Bronze Age Buildin…",
+        "url": "https://archaeology.org/news/2026/11/02/paw-prints-found-in-bricks-from-anatolian-bronze-age-building/",
+        "image": "https://pbs.twimg.com/news_img/2117372447154384896/p83J2mi0?format=jpg&name=orig",
+        "short": "https://t.co/f5N4L2zCgF"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWJrAvuWgAEBk3z.jpg",
+        "alt": "Pawprint in brick (📸 Turkish Ministry of Culture and Tourism)",
+        "link": "https://t.co/P37AaDfanh"
+      }
+    ]
   }
 ]
