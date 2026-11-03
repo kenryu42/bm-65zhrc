@@ -1283,5 +1283,33 @@
       }
     ],
     "media": []
+  },
+  {
+    "id": "2117437607940681849",
+    "url": "https://x.com/poteto/status/2117437607940681849",
+    "author": {
+      "name": "lauren",
+      "handle": "poteto"
+    },
+    "posted_at": "2026-11-03T02:04:00.000Z",
+    "saved_at": "2026-11-04T08:32:35+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Spend review tokens on tests and formal checks instead",
+    "summary": "poteto now sees adversarial agent reviews as mostly wasted tokens and is cutting the interrogate skill from pstack. In replies he says the problem is review without running code or a deterministic checker: reviewers lack context and the author agent accepts every nitpick.",
+    "text": "maybe a hot take but i now consider adversarial reviews mostly a waste of tokens. far better to use those tokens on empirical combined with formal verification. i have updated pstack to use the interrogate skill less, and eventually i think i may remove it altogether\n\ni have found very little value with code review in the abstract, agents tend to just get lost in the nitpicks and yagnis",
+    "key_points": [
+      "Agent reviewers lack your goals, so they chase nitpicks and YAGNIs.",
+      "Many review rounds can overcook a PR.",
+      "Prefer running the code and deterministic checkers such as formal verification."
+    ],
+    "action": "Replace one agent review pass with a property test or checker that must pass before merge.",
+    "links": [
+      {
+        "title": "Post by @poteto on X",
+        "url": "https://x.com/poteto/status/2117437607940681849"
+      }
+    ],
+    "media": []
   }
 ]

@@ -1,0 +1,585 @@
+{
+  "date": "2026-11-04",
+  "title": "Show me the proof",
+  "subtitle": "Anthropic proves where a reply came from, GenProof finds bugs in “verified” code, and agents start acting like attackers",
+  "editor_note": "Proofs beat reviews today, but a proof only checks what it is asked. Trust what you can check.",
+  "theme": {
+    "palette": "ocean",
+    "fonts": "mono-serif",
+    "accent": "#0f766e"
+  },
+  "sections": [
+    {
+      "type": "cover-story",
+      "scan": "2117710942826123294",
+      "kicker": "Cover story",
+      "headline": "Proof a model said it",
+      "deck": "FlashProve lets anyone check that a reply came from the committed weights, on consumer hardware.",
+      "variant": "split",
+      "art": "cover-art.jpg",
+      "art_alt": "A sealed grid of pale squares sends one gold thread to a single glowing square on deep teal",
+      "why": "It proves which model answered, not that the answer is right.",
+      "source_label": "Anthropic"
+    },
+    {
+      "type": "corner",
+      "corner": "brief"
+    },
+    {
+      "type": "brief-grid",
+      "headline": "Agents on the attack",
+      "columns": 2,
+      "variant": "cards",
+      "items": [
+        {
+          "scan": "2117704492699603335",
+          "headline": "GitBook breached with AI agents",
+          "why": "All API tokens revoked. Rotate linked creds and re-auth its MCP.",
+          "source_label": "Wu Blockchain"
+        },
+        {
+          "scan": "2117746864745578719",
+          "headline": "A Railway engineer's agent probed a rival",
+          "why": "Run once on his own time, halted in 15 minutes. Railway disowns it.",
+          "source_label": "Jake Cooper"
+        },
+        {
+          "scan": "2117662703489786219",
+          "headline": "Binance: fake interviews, fake Homebrew",
+          "why": "The path ran through engineers' laptops and an internal AI tool.",
+          "source_label": "The Hacker News"
+        },
+        {
+          "scan": "2117703828627710426",
+          "headline": "Codex told to reboot, wrecked a server",
+          "why": "A bug report claims $10,000 in damage. Scope agent shells tightly.",
+          "source_label": "Intl. Cyber Digest",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2117396586657452317",
+          "headline": "Lovable apps left data open",
+          "why": "Readable databases on 7,403 of 159,041 scanned projects.",
+          "source_label": "Intl. Cyber Digest"
+        }
+      ]
+    },
+    {
+      "type": "brief-grid",
+      "headline": "Patch and check",
+      "columns": 2,
+      "variant": "plain",
+      "items": [
+        {
+          "scan": "2117638981454291252",
+          "headline": "Don't delete Playwright",
+          "why": "MCP and CLI use your sandboxed Chrome. The pinned test build has the sandbox off.",
+          "source_label": "Playwright"
+        },
+        {
+          "scan": "2117579274274374082",
+          "headline": "Ubuntu's TCP fix is opt-in",
+          "why": "CVSS 9.8, test channel only for now. Disabling MPTCP isn't enough.",
+          "source_label": "The Hacker News"
+        },
+        {
+          "scan": "2117626403835236472",
+          "headline": "macOS runners trust eMudhra",
+          "why": "GitHub's images still trust the compromised CA.",
+          "source_label": "Charlie Marsh"
+        },
+        {
+          "scan": "2117726156992753721",
+          "headline": "Vercel Security Review",
+          "why": "Reviews every push, in beta. Free until Nov 10, Vercel says.",
+          "source_label": "Vercel"
+        },
+        {
+          "scan": "2117533992220025227",
+          "headline": "Claude Code guards your email",
+          "why": "2.1.317 asks before a tool call sends your address out.",
+          "source_label": "sunset"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "lead"
+    },
+    {
+      "type": "feature",
+      "scan": "2117687916659138827",
+      "headline": "Verified, and still buggy",
+      "deck": "GenProof found bugs in 100+ projects, six of them libraries Anthropic called formally verified.",
+      "variant": "standard",
+      "emphasis": "loud",
+      "span": "half",
+      "why": "A proof is only as good as the property you ask it to prove.",
+      "source_label": "Alex Pokras"
+    },
+    {
+      "type": "pull-quote",
+      "scan": "2117487350657720363",
+      "quote": "Give me irrefutable proof that this works",
+      "variant": "bar",
+      "span": "half"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "How people read it",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2117687920035602802",
+          "headline": "State the property first",
+          "why": "unzip(zip(data)) == data, proved by an LLM and checked by a machine.",
+          "source_label": "Alex Pokras"
+        },
+        {
+          "scan": "2117438030793617729",
+          "headline": "Lean checks what it's given",
+          "why": "Two pages read, two spots where the code proved something weaker.",
+          "source_label": "TOE"
+        },
+        {
+          "scan": "2117745894728560740",
+          "headline": "Certificates may leak",
+          "why": "Science asks how airtight Lean-backed AI proofs really are.",
+          "source_label": "Science"
+        },
+        {
+          "scan": "2117661001332240434",
+          "headline": "Cross-model review fades",
+          "why": "Tan says new models make review less useful.",
+          "source_label": "Garry Tan"
+        },
+        {
+          "scan": "2117670540148347273",
+          "headline": "The bitter lesson take",
+          "why": "Thariq expects top models to just be right.",
+          "source_label": "Thariq"
+        },
+        {
+          "scan": "2117744555504046530",
+          "headline": "Measure it, don't vibe it",
+          "why": "Benchmark review on and off in your own repo. Warp will publish.",
+          "source_label": "Zach Lloyd"
+        },
+        {
+          "scan": "2117310373661700604",
+          "headline": "LLM findings expire",
+          "why": "Of 50 cited findings, most faded within 15 months.",
+          "source_label": "James Zou"
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "art": "shore.jpg",
+      "art_alt": "Rows of small pale squares drift like a shoreline on deep teal, one lit gold",
+      "variant": "wide"
+    },
+    {
+      "type": "corner",
+      "corner": "your-saves"
+    },
+    {
+      "type": "feature",
+      "bookmark": "2117437607940681849",
+      "headline": "Spend tokens on checks, not critics",
+      "deck": "Agent reviewers lack your intent, chase nitpicks, and the author agent accepts them all.",
+      "variant": "aside",
+      "art": "saves-art.jpg",
+      "art_alt": "A pale grid of empty teal squares with one square filled gold",
+      "why": "Your save fits the day: run it, prove it, then review.",
+      "tags": [
+        "from-your-saves"
+      ]
+    },
+    {
+      "type": "sidebar-box",
+      "bookmark": "2117437607940681849",
+      "headline": "Try tonight",
+      "variant": "note"
+    },
+    {
+      "type": "corner",
+      "corner": "field-notes"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "Builders at work",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2117408792346509663",
+          "headline": "OpenAI's Pando Git backend",
+          "why": "Push latency down ~80%, near a petabyte a day.",
+          "source_label": "OpenAI Devs"
+        },
+        {
+          "scan": "2117666380380274955",
+          "headline": "How Ghostty got faster",
+          "why": "SIMD ASCII, sized pages, one SGR pass. Cursor/erase 16x.",
+          "source_label": "Mitchell Hashimoto"
+        },
+        {
+          "scan": "2117570433134313951",
+          "headline": "An orchestrator over a factory",
+          "why": "One long-running thread drives sandboxed implementers.",
+          "source_label": "Matt Pocock"
+        },
+        {
+          "scan": "2117643533263712716",
+          "headline": "Agents as theme testers",
+          "why": "Agents walk Omarchy with one role prompt.",
+          "source_label": "ThePrimeagen"
+        },
+        {
+          "scan": "2117731934340337676",
+          "headline": "Cat Wu leaves Anthropic",
+          "why": "From hand-approved prompts to auto-approve by default.",
+          "source_label": "Cat Wu"
+        },
+        {
+          "scan": "2117444048227123277",
+          "headline": "OpenAI bounties up to $172,000",
+          "why": "Critical rewards more than quadrupled.",
+          "source_label": "OpenAI"
+        }
+      ]
+    },
+    {
+      "type": "brief-grid",
+      "headline": "Jobs and careers",
+      "columns": 2,
+      "variant": "plain",
+      "items": [
+        {
+          "scan": "2117646910878368044",
+          "headline": "A resume earns a conversation",
+          "why": "Lead with your strongest evidence of change.",
+          "source_label": "Leo Guo"
+        },
+        {
+          "scan": "2117662088214753778",
+          "headline": "Reminders for non-linear paths",
+          "why": "Visible, steady delivery beats silent skill.",
+          "source_label": "Brandon Galang"
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "art": "seal.jpg",
+      "art_alt": "Nested teal squares close in on a small gold square on pale sea-glass",
+      "variant": "square"
+    },
+    {
+      "type": "corner",
+      "corner": "japan-desk",
+      "label": "日本から"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "アララ漏えいの連鎖",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2117742665064407146",
+          "headline": "約7,700万件、約380社",
+          "why": "正規の配信基盤から偽メール約713万通。リンクは開かない。",
+          "source_label": "セキュリティラボ"
+        },
+        {
+          "scan": "2117557403327569957",
+          "headline": "横浜市の電子申請も",
+          "why": "登録は約82万件。名前とメールアドレスが漏えいか。",
+          "source_label": "ライブドアニュース"
+        },
+        {
+          "scan": "2117723843045544263",
+          "headline": "ビックカメラ系で約1490万件",
+          "why": "ソフマップ、コジマも同じ委託先経由。",
+          "source_label": "mrnobuyuki"
+        },
+        {
+          "scan": "2117741133677887716",
+          "headline": "ノジマオンライン約700万件",
+          "why": "サイトは休止、再開は未定。",
+          "source_label": "ITmedia"
+        },
+        {
+          "scan": "2117645660656984268",
+          "headline": "GMO-PGもおわび",
+          "why": "顧客情報の一部が窃取された可能性。",
+          "source_label": "piyokango"
+        },
+        {
+          "scan": "2117440878503674340",
+          "headline": "楽天、パスキーを回避できる？",
+          "why": "メール2FAが強制されないとの指摘。",
+          "source_label": "こめ",
+          "tags": [
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "brief-grid",
+      "headline": "AIと仕事",
+      "columns": 2,
+      "variant": "plain",
+      "items": [
+        {
+          "scan": "2117612172599832919",
+          "headline": "面接で測る「AI力」",
+          "why": "エージェント選定やハーネス設計など5つの観点。",
+          "source_label": "hisaju"
+        },
+        {
+          "scan": "2117725637503005058",
+          "headline": "減らした時間を経歴書に",
+          "why": "報告しているのは28.5%だけ。記録が成果になる。",
+          "source_label": "engineer_free0"
+        },
+        {
+          "scan": "2117608561408975190",
+          "headline": "GitHub、180倍の処理能力へ",
+          "why": "エージェント時代に向け来年初頭。",
+          "source_label": "Publickey"
+        },
+        {
+          "scan": "2117650270830346651",
+          "headline": "Grok Botがパスキー対応",
+          "why": "購入承認に Face ID や Touch ID。",
+          "source_label": "kinopee"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "adjacent"
+    },
+    {
+      "type": "numbered-list",
+      "headline": "Models and makers",
+      "variant": "compact",
+      "items": [
+        {
+          "scan": "2117692475775258785",
+          "headline": "Codex for the physical world",
+          "why": "Mechanical, electrical and simulation work.",
+          "source_label": "OpenAI"
+        },
+        {
+          "scan": "2117574509179900410",
+          "headline": "Mistral builds a satellite tracker",
+          "why": "Large 4 made, tested and sped up Orbital Trace.",
+          "source_label": "Mistral AI"
+        },
+        {
+          "scan": "2117637894315626719",
+          "headline": "Ten open LLMs from October",
+          "why": "Raschka compares their attention designs.",
+          "source_label": "Sebastian Raschka"
+        },
+        {
+          "scan": "2117632356840357951",
+          "headline": "GDPx agrees with ECI",
+          "why": "Different tasks, nearly the same model ranking.",
+          "source_label": "Lisan al Gaib"
+        },
+        {
+          "scan": "2117698780740952341",
+          "headline": "Siri can use any app intent",
+          "why": "iOS 27.3 opens every app's actions to Siri.",
+          "source_label": "Max Weinbach"
+        },
+        {
+          "scan": "2117447416580575628",
+          "headline": "Weight-writing nets, circa 1991",
+          "why": "Schmidhuber calls Astra an old idea: fast weight programmers.",
+          "source_label": "Jürgen Schmidhuber"
+        },
+        {
+          "scan": "2117588845864575397",
+          "headline": "A paper on a skill",
+          "why": "Researchers measured Pocock's /retro skill.",
+          "source_label": "Matt Pocock"
+        },
+        {
+          "scan": "2117433296569470991",
+          "headline": "SQLite beats filesystems",
+          "why": "Why not an OS with a database backend?",
+          "source_label": "LaurieWired"
+        }
+      ]
+    },
+    {
+      "type": "brief-grid",
+      "headline": "Sky and lab",
+      "columns": 3,
+      "variant": "plain",
+      "items": [
+        {
+          "scan": "2117622829873021130",
+          "headline": "Swift is falling back",
+          "why": "A 3,200-pound NASA telescope reenters.",
+          "source_label": "Latest in Space"
+        },
+        {
+          "scan": "2117745805369180322",
+          "headline": "Reentry around 19:19 JST today",
+          "why": "10:19 UTC on Nov 4, give or take 2 hours.",
+          "source_label": "SpacePolicyOnline"
+        },
+        {
+          "scan": "2117698109039894586",
+          "headline": "STOC posts all 1,665 papers",
+          "why": "Every submission and author is public at once.",
+          "source_label": "Gautam Kamath"
+        },
+        {
+          "scan": "2117663177735360633",
+          "headline": "The first Unix manual, 1971",
+          "why": "A free PDF of the third edition.",
+          "source_label": "MIT CSAIL"
+        },
+        {
+          "scan": "2117654916437295185",
+          "headline": "A 27-word physics paper",
+          "why": "Lenz, 1951: one equation, one number.",
+          "source_label": "Physics In History"
+        },
+        {
+          "scan": "2117530457495712076",
+          "headline": "Martian dust is finer",
+          "why": "Ultrafine grains cling to suits and lungs.",
+          "source_label": "Latest in Space"
+        },
+        {
+          "scan": "2117653860810740050",
+          "headline": "Vagus nerve and Parkinson's",
+          "why": "Noninvasive stimulation helps in a model.",
+          "source_label": "Eric Topol"
+        }
+      ]
+    },
+    {
+      "type": "brief-grid",
+      "headline": "日本と言葉",
+      "columns": 2,
+      "variant": "plain",
+      "items": [
+        {
+          "scan": "2117740615584944346",
+          "headline": "台風31号、関東で大雨のおそれ",
+          "why": "あすは伊豆諸島も警戒。",
+          "source_label": "NHK"
+        },
+        {
+          "scan": "2117475888577278377",
+          "headline": "入間のブルーインパルス",
+          "why": "曇り空でもかっこよかった、と。",
+          "source_label": "Yuji_48"
+        },
+        {
+          "scan": "2117747424471179501",
+          "headline": "Google、生徒向けAIを原則オフ",
+          "why": "AIなし検索は選べず批判も。",
+          "source_label": "ITmedia"
+        },
+        {
+          "scan": "2117676976513450370",
+          "headline": "Craft versus scale in denim",
+          "why": "Why US-made denim trails Japan's, says one maker.",
+          "source_label": "Derek Guy"
+        },
+        {
+          "scan": "2117671117339119779",
+          "headline": "A vote is a wish",
+          "why": "From the Latin votum, a vow or wish.",
+          "source_label": "Merriam-Webster"
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "art": "chain.jpg",
+      "art_alt": "A thin chain of teal square links across pale sea-glass, one link gold",
+      "variant": "quiet"
+    },
+    {
+      "type": "corner",
+      "corner": "open-window"
+    },
+    {
+      "type": "brief-grid",
+      "headline": "Words, votes, the sea",
+      "columns": 2,
+      "variant": "cards",
+      "items": [
+        {
+          "scan": "2117636137678496130",
+          "headline": "A 73-year-old's PhD in Kanien'kéha",
+          "why": "McGill's first doctorate in language revitalization.",
+          "source_label": "CBC Indigenous",
+          "tags": [
+            "new-to-you"
+          ]
+        },
+        {
+          "scan": "2117569002222322057",
+          "headline": "Mogging is word of the year",
+          "why": "Collins picked it over firewave.",
+          "source_label": "The Straits Times",
+          "tags": [
+            "new-to-you"
+          ]
+        },
+        {
+          "scan": "2117735070756749345",
+          "headline": "Every voting system is flawed",
+          "why": "Why the math of democracy never quite works out.",
+          "source_label": "Quanta Magazine",
+          "tags": [
+            "new-to-you"
+          ]
+        },
+        {
+          "scan": "2117621595036344402",
+          "headline": "Three months adrift, then rescued",
+          "why": "Five people, two of them children, in a 20-foot skiff off Kiribati.",
+          "source_label": "AP",
+          "tags": [
+            "new-to-you"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "image-of-the-day",
+      "headline": "Checked, then trusted",
+      "art": "iotd.jpg",
+      "art_alt": "One small gold light above a dark sea of pale points in rows",
+      "caption": "A proof is a light you can check from shore. Ask what it lights up.",
+      "variant": "standard"
+    },
+    {
+      "type": "corner",
+      "corner": "kicker"
+    },
+    {
+      "type": "closer",
+      "scan": "2117705409871954122",
+      "headline": "A suffrage book with blank pages",
+      "why": "In 1917, the case against women voting was left empty.",
+      "variant": "text",
+      "source_label": "Public Domain Review"
+    }
+  ]
+}

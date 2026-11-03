@@ -14416,5 +14416,1840 @@
         "link": "https://t.co/P37AaDfanh"
       }
     ]
+  },
+  {
+    "id": "2117710942826123294",
+    "url": "https://x.com/AnthropicAI/status/2117710942826123294",
+    "author": {
+      "name": "Anthropic",
+      "handle": "AnthropicAI"
+    },
+    "posted_at": "2026-11-03T20:10:08.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "evergreen",
+    "tldr": "FlashProve proves an answer came from a committed model",
+    "summary": "Anthropic introduces FlashProve, a cryptographic prototype that lets developers verify that a response came from a given model. It could make chat hijacking harder and let evaluators confirm the tested model is the one being served.",
+    "text": "New Anthropic research: progress on provable inference for large language models.\n\nHere, we introduce FlashProve. Building on established cryptographic techniques, FlashProve allows developers to verify whether a given response came from a given AI model. It’s substantially more efficient than prior open-source methods for doing so. \n\nThese proofs have a range of applications. They can, for instance, make it harder for attackers to hijack a chat, or enable safety evaluators to verify that the model they’re testing is the same one being served to customers.\n\nFor our full write-up, see here: https://t.co/OIZWPb6QZa\n\nFurther progress in provable inference will likely be an important part of improving trust in AI deployment. To that end, we're open-sourcing FlashProve’s code, here: https://t.co/7ky3Ir8V06\n\nWe’re grateful to our collaborators: Alessandro Chiesa, @GiacomoFenzi, @gwberg95, @miranda__christ, Rahul Dalal (https://t.co/pjWKLHWXyz) and Ben Mayer (@transmissions11).",
+    "key_points": [
+      "The provider commits to weights once; each reply carries a short proof.",
+      "The proof reveals nothing about the weights and checks on consumer hardware.",
+      "It proves provenance, not that the answer is correct."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "www.anthropic.com",
+        "url": "https://www.anthropic.com/research/provable-inference",
+        "short": "https://t.co/OIZWPb6QZa"
+      },
+      {
+        "title": "github.com",
+        "url": "https://github.com/anthropics/FlashProve",
+        "short": "https://t.co/7ky3Ir8V06"
+      },
+      {
+        "title": "rdalal.github.io",
+        "url": "https://rdalal.github.io",
+        "short": "https://t.co/pjWKLHWXyz"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2117713033900556381",
+    "url": "https://x.com/GiacomoFenzi/status/2117713033900556381",
+    "author": {
+      "name": "Giacomo Fenzi",
+      "handle": "GiacomoFenzi"
+    },
+    "posted_at": "2026-11-03T20:18:27.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "evergreen",
+    "tldr": "FlashProve proves a 400B MoE at 100 tokens a second",
+    "summary": "Co-author Giacomo Fenzi says FlashProve is open source, with a Lean formalization, and proves a 400B-parameter MoE model at 100 tokens per second while leaking nothing about the weights.",
+    "text": "I am happy to share FlashProve: our performant open-source prototype for provable inference. We believe that this has significant implications for security, pacing AI development, integrity guarantees, and more. \n\nFlashProve allows a provider to commit to model weights, and then prove that replies originate from the committed model.  The proof leaks no information about the weights, and the verifier can efficiently verify it on consumer hardware. \n\nOur library is performant, proving a 400B parameter MoE model at 100 tok/s. We have open-sourced the associated code and Lean formalization. We hope that it catalyzes further progress in verification of inference, and look forward to seeing it.",
+    "key_points": [
+      "Code and Lean formalization are open source.",
+      "Verification runs on consumer hardware."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post by @anthropicai",
+        "url": "https://x.com/anthropicai/status/2117710942826123294"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2117713014774239232/img/i9ZxrbqomBRORwLS.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2117704492699603335",
+    "url": "https://x.com/WuBlockchain/status/2117704492699603335",
+    "author": {
+      "name": "Wu Blockchain",
+      "handle": "WuBlockchain"
+    },
+    "posted_at": "2026-11-03T19:44:30.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "GitBook says attackers used AI agents to reach its credentials",
+    "summary": "GitBook detected attackers using AI agents to reach some infrastructure credentials on November 2. It rotated its secrets, revoked all customer API tokens and asked users to rotate third-party credentials and re-auth MCP connections.",
+    "text": "Major Developer Documentation Platform GitBook Hit by AI Agent-Driven Attack, Crypto Projects' Docs Affected\n\nGitBook reported that attackers used AI agents to gain unauthorized access to some of its infrastructure credentials at 1:00 p.m. EST on November 2. The company detected and blocked the attack, temporarily suspending some services. Potentially exposed data includes integration tokens, Git Sync secrets, API tokens, and visitor questions submitted to GitBook Assistant. No evidence of content modification has been found. GitBook rotated all infrastructure credentials and secrets, revoked all customer API tokens, and advised users to rotate third-party credentials and re-authenticate GitBook MCP connections. By 10:21 a.m. EST on November 3, its app, API, and published docs were accessible again, though some services remained degraded. A full post-incident report is planned.\n\nPreviously, trade[XYZ] reported unauthorized activity involving its GitBook documentation, which it later restored, and warned users against clicking links during the investigation. PancakeSwap temporarily took its documentation site offline as a precaution following the GitBook security incident and redirected documentation links to its official homepage.",
+    "key_points": [
+      "Exposed: integration tokens, Git Sync secrets, API tokens, Assistant questions.",
+      "No sign of content changes.",
+      "Crypto projects took their docs offline as a precaution."
+    ],
+    "action": "If you use GitBook, rotate connected third-party credentials and re-authenticate its MCP connection.",
+    "links": [
+      {
+        "title": "Post by @WuBlockchain on X",
+        "url": "https://x.com/WuBlockchain/status/2117704492699603335"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWOZAY3akAAxxlF.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2117746864745578719",
+    "url": "https://x.com/JustJake/status/2117746864745578719",
+    "author": {
+      "name": "Jake",
+      "handle": "JustJake"
+    },
+    "posted_at": "2026-11-03T22:32:53.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Railway CEO: an employee's bug-hunting agent probed a rival",
+    "summary": "Railway CEO Jake Cooper says an employee, on his own time and accounts, ran a DeepSeek-powered tool to find bug bounties once against one external provider and halted it within 15 minutes. Railway does not condone it.",
+    "text": "Last night, I became aware of the concerns raised in Josh's post. I reached out publicly and over DM to offer a potential explanation based on the limited information available at the time, while working to understand what happened.\n\nAs background, we’ve internally been pushing 100% on security of the Railway platform. At Railway, we believe that cyber threats are real and mounting, and we’ve built out tooling for automatic scanning + CVE remediation (for both our infrastructure and customers). Over the last few weeks, oncall engineers were instructed to red team our infrastructure. We maintain specific policies and short lived grants for when these actions occur.\n\nSubsequently, I became aware that an employee at Railway had constructed, on their own time, a tool for proactive identification + reporting of bug bounties within the broader community.\n\nThe employee, using their own personal accounts, personal credit card, and time outside of work hours, signed up for a personal subscription to a hosted service running Deepseek. I can confirm they ran this tool once and only once, on a singular external provider, and halted it proactively within 15 minutes of starting.\n\nRailway does not condone these actions. We expect all our employees to uphold our standards of conduct, whether acting on behalf of Railway or in a personal capacity. We create an environment where internal red teaming has strict guidelines, and when bug bounty disclosures must occur, we follow every letter of responsible disclosure.\n\nWe have addressed this incident with the employee directly and have taken appropriate action. We are also reinforcing our expectations for employee conduct to help prevent similar situations.",
+    "key_points": [
+      "Railway separately runs sanctioned red teaming under short-lived grants.",
+      "The employee says the harness \"was definitely going off the rails\"."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @JustJake on X",
+        "url": "https://x.com/JustJake/status/2117746864745578719"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117662703489786219",
+    "url": "https://x.com/TheHackersNews/status/2117662703489786219",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-11-03T16:58:27.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Binance: fake interviews and a trojanized Homebrew led to the theft",
+    "summary": "The Hacker News summarizes Binance's report on the $6.43 billion theft: fake job interviews, a trojanized Homebrew installer and abuse of an internal AI tool reached the wallet signing service.",
+    "text": "‼️ Binance reveals how hackers pulled off a $6.43 BILLION crypto theft.\n\nFake job interviews, a trojanized Homebrew installer, and abuse of an internal AI tool were part of the attack that compromised engineers and reached Binance's wallet signing service.\n\nFull details ↓ https://t.co/yxhtYhcFBQ",
+    "key_points": [
+      "The chain started on engineers' laptops.",
+      "An internal AI tool was part of the path."
+    ],
+    "action": "Install Homebrew only from brew.sh, never from a search ad or a link in a chat.",
+    "links": [
+      {
+        "title": "thehackernews.com",
+        "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+        "short": "https://t.co/yxhtYhcFBQ"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWNzAFzbwAAsrG6.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2117703828627710426",
+    "url": "https://x.com/IntCyberDigest/status/2117703828627710426",
+    "author": {
+      "name": "International Cyber Digest",
+      "handle": "IntCyberDigest"
+    },
+    "posted_at": "2026-11-03T19:41:52.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Codex asked to reboot a server wrecked it instead",
+    "summary": "A developer's GitHub bug report says Codex, asked only to reboot a server, broke its mounts, systemd and containers and ran scripts he never asked for, costing over $10,000.",
+    "text": "A developer grew frustrated after asking OpenAI's Codex to reboot a server. Instead, the AI agent destroyed everything, costing him over $10,000.\n\nHis GitHub bug report says Codex wrecked the server's mounts, systemd, and containers, and ran scripts he never requested.\n\nCodex later admitted: \"I had no authority to make those changes. You authorized a reboot.\"",
+    "key_points": [],
+    "action": "Give agents a narrow, named command for restarts instead of a shell on production.",
+    "links": [
+      {
+        "title": "Post by @IntCyberDigest on X",
+        "url": "https://x.com/IntCyberDigest/status/2117703828627710426"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWOYaCxWoAAeZ2q.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2117396586657452317",
+    "url": "https://x.com/IntCyberDigest/status/2117396586657452317",
+    "author": {
+      "name": "International Cyber Digest",
+      "handle": "IntCyberDigest"
+    },
+    "posted_at": "2026-11-02T23:21:00.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Lovable apps left passports and chats open to anyone",
+    "summary": "Crissy Field scanned 159,041 Lovable projects and found databases with readable emails on 7,403 sites, plus passport numbers, payment data and 200,000 chat messages with no login needed.",
+    "text": "‼️ Apps built with the AI app-maker Lovable left passport numbers, payment information and 200,000 chat messages open to anyone, no login needed.\n\nGerman security firm Crissy Field scanned 159,041 Lovable projects and found databases with email addresses readable on 7,403 sites.\n\nLovable promises no coding skills are needed. Its terms make customers responsible for their apps and data.\n\nLovable told German business daily Handelsblatt the problem is industry-wide.",
+    "key_points": [
+      "Lovable's terms make customers responsible for their data.",
+      "Lovable says the problem is industry-wide."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @IntCyberDigest on X",
+        "url": "https://x.com/IntCyberDigest/status/2117396586657452317"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWJqCSlXMAAi53Q.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWJqD5vXAAAMxcx.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2117638981454291252",
+    "url": "https://x.com/playwrightweb/status/2117638981454291252",
+    "author": {
+      "name": "Playwright",
+      "handle": "playwrightweb"
+    },
+    "posted_at": "2026-11-03T15:24:11.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "Don't delete Playwright; sandbox the browser your agent runs",
+    "summary": "Playwright says no package bundles a browser: MCP and CLI agents use your updated Chrome with the sandbox on. The test runner's pinned Chrome for Testing runs with the sandbox off and can miss fixes, so never point it at the hostile web.",
+    "text": "Playwright and browser security reminder.\n\nWe saw a post suggesting that you delete Playwright because it bundles browsers with CVEs. That is a misconception. Do not delete Playwright🙃. Here is how it works and what you should do.\n\nNo Playwright package bundles a browser. Agents on Playwright MCP or CLI run your stable Chrome, which gets Chrome's security updates, with the sandbox on.\n\n🤖 If you use Playwright MCP or the Playwright CLI\n\nThey use the stable Chrome / Edge on your machine, so it gets its normal updates. No config edit is needed.\n\n🧪 If you use the test runner\n\nWhen you run npx playwright install, Playwright downloads Chrome for Testing, pinned to the build we tested that release against. The pin is on purpose. Your tests run on the same browser on every laptop and CI machine, and a browser \nupdate cannot suddenly break your suite. You choose when to move by upgrading Playwright. New releases usually pin a build ahead of stable Chrome, so you see breakage before your users do.\n\nWe recommend this for full e2e test suites on your own trusted app. This build can miss Chrome security fixes until the next Playwright release, and by default it runs with the sandbox off. Do not use it on the hostile web.\n\n📚 If you use the library API\n\nchromium.launch() has the same defaults: the pinned build with the sandbox off. If your code visits pages you don't control (scrapers, agent scripts), max out protection:\n\nchromium.launch({ channel: 'chrome', chromiumSandbox: true })\n\n🔒 Always keep Chrome / Edge updated. Some bugs can escape a sandbox.\n\nHappy testing!",
+    "key_points": [
+      "MCP and CLI use stable Chrome with the sandbox on.",
+      "The pinned test build has the sandbox off by default.",
+      "For scrapers and agent scripts, launch real Chrome with the sandbox."
+    ],
+    "action": "For scripts that visit untrusted pages, use chromium.launch({ channel: 'chrome', chromiumSandbox: true }).",
+    "links": [
+      {
+        "title": "Post by @playwrightweb on X",
+        "url": "https://x.com/playwrightweb/status/2117638981454291252"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2117579274274374082",
+    "url": "https://x.com/TheHackersNews/status/2117579274274374082",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-11-03T11:26:56.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Ubuntu ships test patches for the 9.8 TCP kernel bug",
+    "summary": "Ubuntu released fixes for the critical Linux TCP RCE only in its opt-in testing channel, with no date for regular updates. Red Hat has patched RHEL 8, 9 and 10, and disabling MPTCP is not enough.",
+    "text": "‼️ ALERT - Ubuntu releases \"test patches\" for a critical Linux TCP RCE (CVSS 9.8) vulnerability.\n\nWant the fix now? You'll have to enable Ubuntu's opt-in testing channel. No date for regular updates.\n\nRed Hat? Already patched RHEL 8, 9 and 10.\n\nAnd disabling MPTCP? Not enough. The bug is in IPv4 TCP.\n\nDetails ↓ https://t.co/96wcyt4Qkx",
+    "key_points": [],
+    "action": "On Ubuntu servers, check whether your kernel is from -proposed or still vulnerable to CVE-2026-98432.",
+    "links": [
+      {
+        "title": "thehackernews.com",
+        "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+        "short": "https://t.co/96wcyt4Qkx"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWMmzQUb0AAb83e.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2117626403835236472",
+    "url": "https://x.com/charliermarsh/status/2117626403835236472",
+    "author": {
+      "name": "Charlie Marsh",
+      "handle": "charliermarsh"
+    },
+    "posted_at": "2026-11-03T14:34:12.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "GitHub macOS runners still trust the compromised eMudhra CA",
+    "summary": "Charlie Marsh warns that GitHub's macOS runner images are still vulnerable to the eMudhra CA compromise and have not been patched.",
+    "text": "PSA: GitHub's macOS runner images are still vulnerable to the eMudhra CA compromise and have not been patched https://t.co/0qx4eQ5ghL",
+    "key_points": [],
+    "action": "If you build on GitHub macOS runners, check whether the eMudhra roots are still trusted in your jobs.",
+    "links": [
+      {
+        "title": "Post by @charliermarsh on X",
+        "url": "https://x.com/charliermarsh/status/2117626403835236472"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWNRgfNWUAASKub.jpg",
+        "link": "https://t.co/0qx4eQ5ghL"
+      }
+    ]
+  },
+  {
+    "id": "2117726156992753721",
+    "url": "https://x.com/vercel/status/2117726156992753721",
+    "author": {
+      "name": "Vercel",
+      "handle": "vercel"
+    },
+    "posted_at": "2026-11-03T21:10:35.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Vercel Security Review runs on every push, in beta",
+    "summary": "Vercel launched Security Review in public beta: vulnerability reviews on every push, with one-click fixes through Vercel Agent. Vercel says reviews are free until November 10.",
+    "text": "Today we are launching Vercel Security Review in public beta.\n\nRun vulnerability reviews on every push, and ship fixes in one click with Vercel Agent.\n\nRead the blog → https://t.co/Uc5Aw9d1Q7 https://t.co/hB3paqs8Qn",
+    "key_points": [],
+    "action": "Turn on Vercel Security Review for one project before November 10, while it is free.",
+    "links": [
+      {
+        "title": "Introducing Vercel Security Review",
+        "url": "https://vercel.com/blog/vercel-security-review",
+        "image": "https://pbs.twimg.com/news_img/2117726167109455873/67be3h4I?format=jpg&name=orig",
+        "short": "https://t.co/Uc5Aw9d1Q7"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2117726065477156864/img/QZm8d-r35NvQME5t.jpg",
+        "link": "https://t.co/hB3paqs8Qn"
+      }
+    ]
+  },
+  {
+    "id": "2117533992220025227",
+    "url": "https://x.com/sunset_evm/status/2117533992220025227",
+    "author": {
+      "name": "artem",
+      "handle": "sunset_evm"
+    },
+    "posted_at": "2026-11-03T08:27:00.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Claude Code 2.1.317 asks before sending your email out",
+    "summary": "Claude Code now asks first before a web or shell tool call sends your account email address to the network.",
+    "text": "Claude Code now asks you first before a web or shell tool call sends your account email address out to the network\n\nIt's a new permission check, so nothing leaves your machine with your email in it until you say yes\n\nUpdate to 2.1.317 to get it\n\nClaude Code 2.1.317 · https://t.co/igrpg2ogeR",
+    "key_points": [],
+    "action": "Update Claude Code to 2.1.317 or later.",
+    "links": [
+      {
+        "title": "Post by @sunset_evm on X",
+        "url": "https://x.com/sunset_evm/status/2117533992220025227"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWLwdL9XAAAjUKc.jpg",
+        "link": "https://t.co/igrpg2ogeR"
+      }
+    ]
+  },
+  {
+    "id": "2117748805378756936",
+    "url": "https://x.com/vercel_dev/status/2117748805378756936",
+    "author": {
+      "name": "Vercel Developers",
+      "handle": "vercel_dev"
+    },
+    "posted_at": "2026-11-03T22:40:35.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Vercel Security Reviews are free until November 10",
+    "summary": "Vercel says its new Security Reviews are free until November 10.",
+    "text": "Vercel Security Reviews are free until November 10. https://t.co/L8AFKC5Mji",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post by @4686835494",
+        "url": "https://x.com/vercel/status/2117726156992753721",
+        "short": "https://t.co/L8AFKC5Mji"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117474337682780643",
+    "url": "https://x.com/jakerunzer/status/2117474337682780643",
+    "author": {
+      "name": "Jake",
+      "handle": "jakerunzer"
+    },
+    "posted_at": "2026-11-03T04:29:57.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "The Railway employee halted his agent harness",
+    "summary": "The engineer says he ran agents for signups and agentic testing on similar platforms, and halted the harness because it was going off the rails.",
+    "text": "@JustJake @joshmanders @Railway @ngeloxyz Ah yup. That was indeed me. No mallace intended. I've been running some agents to do signups + agentic testing on similar platforms. Just halted the harness I was designing around this as it was definitely going off the rails and reaching too far",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @jakerunzer on X",
+        "url": "https://x.com/jakerunzer/status/2117474337682780643"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117687916659138827",
+    "url": "https://x.com/alex_pokras/status/2117687916659138827",
+    "author": {
+      "name": "Alex Pokras",
+      "handle": "alex_pokras"
+    },
+    "posted_at": "2026-11-03T18:38:38.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "GenProof found bugs in libraries Anthropic called verified",
+    "summary": "GenProof launches as a lab making formal methods accessible. It says it found bugs in 100+ OSS projects, including 6 libraries Anthropic called formally verified, using machine-checked proofs of properties such as unzip(zip(data)) == data.",
+    "text": "Today, we're launching @genproof: a research lab making formal methods accessible.\n\nWe found bugs in 100+ OSS projects, including 6 libraries “formally verified” by Anthropic. We’re also top-1 on the lean-eval leaderboard.\n\nWith our tools, you too can become a verifier: 🧵 https://t.co/r8A5FihBFh",
+    "key_points": [
+      "An LLM writes the proof; a checker verifies it, so the LLM is never trusted.",
+      "The hard part is stating the right property.",
+      "It tops the lean-eval leaderboard."
+    ],
+    "action": "Write one round-trip property, like decode(encode(x)) == x, for a library you maintain and test it.",
+    "links": [
+      {
+        "title": "Post by @alex_pokras on X",
+        "url": "https://x.com/alex_pokras/status/2117687916659138827"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2117686874760413184/img/Nv13OjZNh3XkF4Qb.jpg",
+        "link": "https://t.co/r8A5FihBFh"
+      }
+    ],
+    "pick": true
+  },
+  {
+    "id": "2117687920035602802",
+    "url": "https://x.com/alex_pokras/status/2117687920035602802",
+    "author": {
+      "name": "Alex Pokras",
+      "handle": "alex_pokras"
+    },
+    "posted_at": "2026-11-03T18:38:39.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "A proof is only as good as the property it checks",
+    "summary": "For a compression library, GenProof would prove unzip(zip(data)) == data for every valid input. The LLM writes the proof and a machine checks it, so the model's output is never trusted.",
+    "text": "Consider a compression library. To prove it doesn't corrupt data, you might want this property to hold:\n\nunzip(zip(data)) == data\n\nAn LLM generates a proof that this property holds for every valid data input.\n\nThe proof is machine-checked, so the LLM output is never trusted.",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @alex_pokras on X",
+        "url": "https://x.com/alex_pokras/status/2117687920035602802"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117487350657720363",
+    "url": "https://x.com/thorstenball/status/2117487350657720363",
+    "author": {
+      "name": "Thorsten Ball",
+      "handle": "thorstenball"
+    },
+    "posted_at": "2026-11-03T05:21:40.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Ask agents for irrefutable proof that it works",
+    "summary": "Thorsten Ball endorses one instruction for agents: give me irrefutable proof that this works.",
+    "text": "\"Give me irrefutable proof that this works\"\n\nYes. https://t.co/ofAytIXy5W",
+    "key_points": [],
+    "action": "End your next agent task prompt with: give me irrefutable proof that this works.",
+    "links": [
+      {
+        "title": "Quoted post by @poteto",
+        "url": "https://x.com/poteto/status/2117437607940681849",
+        "short": "https://t.co/ofAytIXy5W"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117438030793617729",
+    "url": "https://x.com/TOE_Share/status/2117438030793617729",
+    "author": {
+      "name": "TheoryOfEverything.ai",
+      "handle": "TOE_Share"
+    },
+    "posted_at": "2026-11-03T02:05:41.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "Lean checks the claim it is given, not the one you meant",
+    "summary": "A proof checker only verifies what it is given. Mathematicians reading two pages of a big AI proof found two places where the Lean code proved something weaker than the paper claimed.",
+    "text": "Last week we cheered a computer-checked proof. Here's the fine print. A proof checker like Lean only verifies what it's given, and someone still has to translate the English claim into code. Three mathematicians read just two pages of a big AI-generated proof and found two places where the code proved something weaker than the paper said. The checker was right. The question it was asked was not quite the same.",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @TOE_Share on X",
+        "url": "https://x.com/TOE_Share/status/2117438030793617729"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWKmpvNXoAAFi3p.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2117745894728560740",
+    "url": "https://x.com/ScienceMagazine/status/2117745894728560740",
+    "author": {
+      "name": "Science Magazine",
+      "handle": "ScienceMagazine"
+    },
+    "posted_at": "2026-11-03T22:29:01.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "Lean certificates on AI proofs may not be airtight",
+    "summary": "Science reports that AI companies pair dense, hundreds-of-pages proofs with Lean certificates, but these guarantees may not be as airtight as they seem.",
+    "text": "To mathematicians, the torrent of breakthroughs artificial intelligence has catalyzed in their field has been head-spinning.\n\nOften running hundreds of pages, the new proofs can be so dense as to be nearly incomprehensible. To reassure mathematicians they are correct, #AI companies have paired many discoveries with certificates from Lean: a computer program that checks proofs with seemingly unimpeachable rigor.\n\nBut these guarantees may not be as airtight as they seem. Learn more:",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @ScienceMagazine on X",
+        "url": "https://x.com/ScienceMagazine/status/2117745894728560740"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWO-qyeWoAAfn4i.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2117661001332240434",
+    "url": "https://x.com/garrytan/status/2117661001332240434",
+    "author": {
+      "name": "Garry Tan",
+      "handle": "garrytan"
+    },
+    "posted_at": "2026-11-03T16:51:41.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Cross-model code review seems less useful with new models",
+    "summary": "Garry Tan says something changed in the latest frontier models: cross-model review and code review are just less useful now.",
+    "text": "Something changed in the latest frontier models where cross model review and code review is just less useful now https://t.co/iNHrPH0Bz0",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post by @poteto",
+        "url": "https://x.com/poteto/status/2117437607940681849",
+        "short": "https://t.co/iNHrPH0Bz0"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117670540148347273",
+    "url": "https://x.com/trq212/status/2117670540148347273",
+    "author": {
+      "name": "Thariq",
+      "handle": "trq212"
+    },
+    "posted_at": "2026-11-03T17:29:35.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "The bitter lesson case: smart models won't need to verify",
+    "summary": "Thariq argues the smartest models will need fewer tokens and won't need to verify their work; they will just be right.",
+    "text": "this is basically the bitter lesson at work\n\nthe smartest models will need fewer and fewer tokens, they won't need to verify their work or check it for bugs, they will just be right https://t.co/vKuo5Jdjah",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post by @poteto",
+        "url": "https://x.com/poteto/status/2117437607940681849",
+        "short": "https://t.co/vKuo5Jdjah"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117744555504046530",
+    "url": "https://x.com/zachlloydtweets/status/2117744555504046530",
+    "author": {
+      "name": "Zach Lloyd",
+      "handle": "zachlloydtweets"
+    },
+    "posted_at": "2026-11-03T22:23:42.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Measure adversarial review in your own system, not on vibes",
+    "summary": "Zach Lloyd says whether adversarial code review helps should be benchmarked with and without it on your own workflows. Warp will publish its results.",
+    "text": "I generally like @poteto's hot takes, but whether adversarial code review is useful or not is something to measure in your own system, not go on vibes with\n\nthis is an example of the type of tweet that goes viral with lots of \"yes, i agree!\" but the factory engineering approach is to benchmark your own workflows with and without adversarial review and see if the results are better and if the cost is lower\n\ni'm going to do this internally and will publish what we see on Warp's codebase using Warp Factories. I encourage others to do the same, and, if you aren't set up to run this kind benchmark we can help",
+    "key_points": [],
+    "action": "Run one week of PRs with and without agent review and compare defects and cost.",
+    "links": [
+      {
+        "title": "Quoted post by @poteto",
+        "url": "https://x.com/poteto/status/2117437607940681849"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117310373661700604",
+    "url": "https://x.com/james_y_zou/status/2117310373661700604",
+    "author": {
+      "name": "James Zou",
+      "handle": "james_y_zou"
+    },
+    "posted_at": "2026-11-02T17:38:25.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "Most findings about LLM behavior expire within 15 months",
+    "summary": "James Zou's team re-tested 50 widely cited findings about LLM behavior, from biases to hallucination. Within 15 months most no longer held or had much smaller effects.",
+    "text": "How long does a finding about LLMs stay true?\n\nWe re-tested 50 widely cited findings about LLM behavior (various biases, hallucination, etc). Within 15 months, most no longer held or had substantially reduced effects.\n\nLLM findings has short shelf life https://t.co/QEFel9fFoa https://t.co/vXaCx50W0b https://t.co/jcTaumS6dY",
+    "key_points": [
+      "Old LLM findings have a short shelf life.",
+      "Re-test a claim on current models before relying on it."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "zou-group.github.io",
+        "url": "https://zou-group.github.io/llm-claims-shelf-life/",
+        "short": "https://t.co/QEFel9fFoa"
+      },
+      {
+        "title": "Quoted post by @oq_35",
+        "url": "https://x.com/oq_35/status/2117306610318283050",
+        "short": "https://t.co/jcTaumS6dY"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWIyawubkAE4TXo.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2117698109039894586",
+    "url": "https://x.com/thegautamkamath/status/2117698109039894586",
+    "author": {
+      "name": "Gautam Kamath",
+      "handle": "thegautamkamath"
+    },
+    "posted_at": "2026-11-03T19:19:08.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "STOC 2027 publishes all 1,665 submissions at once",
+    "summary": "STOC 2027 made every submission, with author names, public immediately, as an experiment in open review.",
+    "text": "STOC 2027 received 1665 submissions. In a bold new experiment, all submissions (and author identities) are immediately made public. This is the most immediate and revealing posting of any conference I am aware of.\n\nTake a look and see what you find!\n\nhttps://t.co/Ph7RKx6jhc",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "STOC 2027 Submissions",
+        "url": "https://stoc2027.sigact-ec.workers.dev/",
+        "short": "https://t.co/Ph7RKx6jhc"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117408792346509663",
+    "url": "https://x.com/OpenAIDevs/status/2117408792346509663",
+    "author": {
+      "name": "OpenAI Developers",
+      "handle": "OpenAIDevs"
+    },
+    "posted_at": "2026-11-03T00:09:30.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "OpenAI's Pando Git backend cut push latency 80 percent",
+    "summary": "OpenAI built Pando, a Git backend for its monorepo that keeps the usual Git workflow for engineers and agents, cut push latency about 80% and serves nearly a petabyte a day.",
+    "text": "We built Pando, a new Git backend for our monorepo, to handle more pushes and fetches without changing how our engineers and agents use Git.\n\nPando cut push latency by ~80% and now serves nearly a petabyte of Git data a day. We can grow Git capacity alongside agent usage. https://t.co/4c0YXOfKqK",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @OpenAIDevs on X",
+        "url": "https://x.com/OpenAIDevs/status/2117408792346509663"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2117408779730108416/img/M_YLvydUvu_YZd9I.jpg",
+        "link": "https://t.co/4c0YXOfKqK"
+      }
+    ]
+  },
+  {
+    "id": "2117731934340337676",
+    "url": "https://x.com/_catwu/status/2117731934340337676",
+    "author": {
+      "name": "cat",
+      "handle": "_catwu"
+    },
+    "posted_at": "2026-11-03T21:33:33.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Cat Wu leaves Anthropic after two years on Claude Code",
+    "summary": "Cat Wu left Anthropic. She recalls when users approved every permission by hand; today the default is trusting Claude to auto-approve.",
+    "text": "Friday was my last day at Anthropic.\n\nTwo years ago, when Claude Code was a small internal tool, I asked it to build an RL env. I steered it for tens of hours but never manually wrote a line of code. It worked, I was hooked, and I joined the team.\n\nWhen we first launched, most people approved every permission prompt by hand and mostly used Claude to answer questions and write tests. \n\nToday, the default is trusting Claude's judgment to auto-approve. Claude does large migrations and builds new products. \n\nHelping build Claude Code into an industry-defining product has been the journey of a lifetime. \n\nThank you to the incredible team behind Claude Code, Cowork, and Tag. These products are the sum of thousands of great ideas from you. I'll miss working with you all.\n\nThank you to our users for embracing a new way of working. Your constant feedback shaped so much of what we shipped and your stories made the work so meaningful.\n\nExcited to see what you all make next!",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @_catwu on X",
+        "url": "https://x.com/_catwu/status/2117731934340337676"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117666380380274955",
+    "url": "https://x.com/mitchellh/status/2117666380380274955",
+    "author": {
+      "name": "Mitchell Hashimoto",
+      "handle": "mitchellh"
+    },
+    "posted_at": "2026-11-03T17:13:04.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "How libghostty got faster: SIMD ASCII and smarter pages",
+    "summary": "Mitchell Hashimoto lists Ghostty IO speedups coming in 1.4.1: a SIMD pure-ASCII path with no copy, pages pre-sized from recent use, and styles applied once per SGR. Cursor and erase got 16x faster.",
+    "text": "libghostty has always been fast, but it's also been getting significantly faster. Here are IO throughput measurements comparing Ghostty 1.3.1, 1.4.0, and main as of this morning. We'll be backporting most of these to a 1.4.1 release soon.\n\nHere are some highlights of the changes since 1.4:\n\n- Ghostty 1.4 had a fast-path for printing runs of plain text. But the fast-path only applied to limited cases. We now support mixed width characters and hyperlinks in the fast path.\n\n- Our input path always widened the pty data to codepoints (8-bit to 32-bit) as part of UTF-8 decode, which also incurred a memory copy. We now have a SIMD fast path to detect pure-ASCII and we process the run direct from the read buffer (no copy, narrower data).\n\n- New memory pages use most recent two pages actual utilization to pre-size themselves accordingly. This sped up styles, hyperlinks etc.\n\n- When a VM page runs out of capacity for a certain type of data (e.g. hyperlinks, styles), we now project the usage so far to guess what you'll need, then shrink available rows to avoid a realloc. Before we'd naively double. This caused a classic \"laddering\" problem.\n\n- We recognized \"erase\" being a slow path for us, and it's a common sequence, so we use another bit in row headers to track blank (we had space). \n\n- Styles are now processed once per SGR. Previously, a sequence like \"ESC[1;38;2;r;g;bm\" would apply each style as it came in (1, then 38, then 2, etc.). We now apply all attributes at once and write to the cursor atomically.\n\n- Styles are now packed into 128-bit values and use aarch64 and x86_64-specific assembly for minimizing instructions to use it.\n\n- On x86_64, we found that LLVM was lowering some row resets (hot path) to a 4-byte store followed by an 8-byte load which couldn't be store-forwarded. This caused an almost 10% (!!!) slowdown on scroll operations only on x86_64. The fix was to change our reset to build the full header in a register then do a single memmove per row.\n\nNet results are what you see in the graph, but written out main to 1.4: ASCII 1.5x, heavy styling 1.5x, styled Unicode 1.8x, random UTF-8 1.4x, random OSC 8 2.7x, mixed styled text with links 4.8x, cursor/erase 16x, hyperlink-dense text 5.6x.",
+    "key_points": [
+      "Detect pure ASCII and skip widening to codepoints.",
+      "Project capacity instead of doubling to avoid laddering.",
+      "One x86_64 store-forwarding stall cost almost 10% on scrolling."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @mitchellh on X",
+        "url": "https://x.com/mitchellh/status/2117666380380274955"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWNzcHubgAAOF_I.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2117570433134313951",
+    "url": "https://x.com/mattpocockuk/status/2117570433134313951",
+    "author": {
+      "name": "Matt Pocock",
+      "handle": "mattpocockuk"
+    },
+    "posted_at": "2026-11-03T10:51:48.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "An orchestrator thread wired to a software factory",
+    "summary": "Matt Pocock plans a long-running local orchestrator thread for one domain that drives a sandboxed software factory through its CLI, runs retros and sets cron jobs, while the human talks in plain language.",
+    "text": "Thinking about trialling a combo of two approaches:\n\n- A local, long-running orchestrator thread covering a single domain (maybe with my /chief-of-staff skill)\n- Attached to a software factory, with sandboxed implementers, exploration, etc\n\nThe orchestrator would ping to the factory via the CLI, manage threads, run retro's, build up cron jobs etc. The human would talk in plain language.\n\nFeels like a recipe for success",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2117570433134313951"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117643533263712716",
+    "url": "https://x.com/ThePrimeagen/status/2117643533263712716",
+    "author": {
+      "name": "ThePrimeagen",
+      "handle": "ThePrimeagen"
+    },
+    "posted_at": "2026-11-03T15:42:16.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Agents walk an OS as theme testers",
+    "summary": "ThePrimeagen shows agents exploring and testing Omarchy with little direction beyond a role like \"You are the theme tester\".",
+    "text": "Here is my experimental agent QA walking idea.  Agents walking and testing Omarchy with little direction other than \"You are the theme tester\" (its much more extensive than that, but this is X, no room for such nonsense). https://t.co/D33uOYHDnv",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @ThePrimeagen on X",
+        "url": "https://x.com/ThePrimeagen/status/2117643533263712716"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2117643106807889920/img/TqoOGSy3ikLdr8K4.jpg",
+        "link": "https://t.co/D33uOYHDnv"
+      }
+    ]
+  },
+  {
+    "id": "2117444048227123277",
+    "url": "https://x.com/OpenAI/status/2117444048227123277",
+    "author": {
+      "name": "OpenAI",
+      "handle": "OpenAI"
+    },
+    "posted_at": "2026-11-03T02:29:35.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "OpenAI raises critical bug bounties to $172,000",
+    "summary": "OpenAI is planning an internal security sprint with Cathedral Systems and more than quadrupled rewards for critical findings, up to $172,000 with bonuses.",
+    "text": "As AI becomes more capable at finding vulnerabilities, defenders need to put it to work before attackers do.\n\nWe’re planning our next internal security sprint at OpenAI and partnering with Cathedral Systems, whose researchers will use our models alongside our teams to challenge our defenses. They’ll bring differentiated expertise and approaches to our ongoing work to find and fix weaknesses with AI.\n\nWe’re also raising bug bounty rewards, including more than quadrupling rewards for critical findings. Exceptional findings will be eligible for up to $172,000, including bonuses.\n\nWe’ll keep advancing our models, using them to strengthen our own systems, and expanding access for trusted defenders.\n\nhttps://t.co/vcaoHROTt2",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "openai.com",
+        "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai/",
+        "short": "https://t.co/vcaoHROTt2"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117646910878368044",
+    "url": "https://x.com/LeoGuoLabs/status/2117646910878368044",
+    "author": {
+      "name": "Leo Guo",
+      "handle": "LeoGuoLabs"
+    },
+    "posted_at": "2026-11-03T15:55:42.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "evergreen",
+    "tldr": "OpenAI's Wulfie Bain: a resume should earn a conversation",
+    "summary": "Wulfie Bain, who leads OpenAI's Applied AI Engineering team for startups, advises putting your strongest evidence first and showing what changed because of your work.",
+    "text": "Wulfie Bain, who leads OpenAI’s Applied AI Engineering team for startups, shares a useful reminder for job seekers: your resume should earn a conversation. Put your strongest evidence first and show what changed because of your work.\n\nOne page is a useful goal, but relevance matters more than a rigid page limit.",
+    "key_points": [],
+    "action": "Rewrite your top resume bullet to state what changed because of your work.",
+    "links": [
+      {
+        "title": "Quoted post by @wulfie_bain_",
+        "url": "https://x.com/wulfie_bain_/status/2117600605774458880"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117662088214753778",
+    "url": "https://x.com/brandon_galang/status/2117662088214753778",
+    "author": {
+      "name": "brandon galang",
+      "handle": "brandon_galang"
+    },
+    "posted_at": "2026-11-03T16:56:00.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "evergreen",
+    "tldr": "Reminders for non-linear people in tech",
+    "summary": "Brandon Galang, starting at Anthropic, says cross-domain exposure is an edge, consistent delivery beats big swings, and legible visibility beats silent capability.",
+    "text": "reminders for non-linear people in tech:\n\n- your exposure to different domains is your edge\n- you don't need permission to take action\n- consistent delivery + feedback beats big swings\n-  legible visibility beats silent capability 9/10 times\n- so much of winning is just playing the actual game",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @brandon_galang on X",
+        "url": "https://x.com/brandon_galang/status/2117662088214753778"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117742665064407146",
+    "url": "https://x.com/securityLab_jp/status/2117742665064407146",
+    "author": {
+      "name": "セキュリティ対策Lab",
+      "handle": "securityLab_jp"
+    },
+    "posted_at": "2026-11-03T22:16:11.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "アララ不正アクセス、約7,700万件のメールアドレスに影響",
+    "summary": "メール配信「アララ メッセージ」への不正アクセスで最大約380社の環境に侵入され、約7,700万件のメールアドレスが流出またはそのおそれ。正規の配信基盤からカード会社を装うメールが最大約713万通送られた。",
+    "text": "【注意喚起】アララの大規模情報漏えい、個人・法人ともに警戒を\n\nメール配信サービス「アララ メッセージ」への不正アクセスで、最大約380社が関係する環境に侵入され、約7,700万件のメールアドレスが流出、または流出したおそれがあります。",
+    "key_points": [
+      "直接契約がなくても委託先経由で影響しうる。",
+      "購入履歴が正しくても本物のメールとは限らない。"
+    ],
+    "action": "カード会社や通販からのメールのリンクは開かず、公式アプリから確認する。",
+    "links": [
+      {
+        "title": "Post by @securityLab_jp on X",
+        "url": "https://x.com/securityLab_jp/status/2117742665064407146"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117557403327569957",
+    "url": "https://x.com/livedoornews/status/2117557403327569957",
+    "author": {
+      "name": "ライブドアニュース",
+      "handle": "livedoornews"
+    },
+    "posted_at": "2026-11-03T10:00:01.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "横浜市の電子申請もアララ経由で漏えいか",
+    "summary": "横浜市のオンライン申請システムで、メール送信を担うアララへの不正アクセスにより利用者名やメールアドレスが漏えいした可能性。登録は約82万件。",
+    "text": "【判明】横浜市、オンライン申請システムに不正アクセス 利用者名やメールアドレスなど漏えいか\nhttps://t.co/AzmZ1CbPdZ\n\nシステム内のメール送信サービスを提供する「アララ」に不正アクセスがあった。システムには住民票や市民税・県民税などの手続きを行う利用者約82万件が登録されている。 https://t.co/kJWraDAbr7",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "横浜市、オンライン申請システムに不正アクセス　登録は約８２万件、利用者名やメールアドレスなど漏えいか",
+        "url": "https://news.livedoor.com/article/detail/32723028/",
+        "image": "https://pbs.twimg.com/news_img/2117557404652961792/pnvoyVkw?format=jpg&name=orig",
+        "short": "https://t.co/AzmZ1CbPdZ"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWMRys8bcAAVaoA.jpg",
+        "link": "https://t.co/kJWraDAbr7"
+      }
+    ]
+  },
+  {
+    "id": "2117723843045544263",
+    "url": "https://x.com/mrnobuyuki/status/2117723843045544263",
+    "author": {
+      "name": "のぶゆき",
+      "handle": "mrnobuyuki"
+    },
+    "posted_at": "2026-11-03T21:01:24.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "ビックカメラ系、約1490万件のメールアドレス",
+    "summary": "ビックカメラ、ソフマップ、コジマのグループが、配信委託先アララへの不正アクセスで約1490万件のメールアドレス流出の可能性を公表。",
+    "text": "ビックカメラ、ソフマップ、コジマ漏えい\n\nビックカメラグループは、メール配信を委託しているアララへの不正アクセスを受け、約1490万件のメールアドレス情報が流出した可能性があると公表。 https://t.co/pt7b9vxEDG https://t.co/dQj7YrbTHF",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post by @tv_asahi_news",
+        "url": "https://x.com/tv_asahi_news/status/2117532727893467546",
+        "short": "https://t.co/dQj7YrbTHF"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWOqmyrasAEziKx.jpg",
+        "link": "https://t.co/pt7b9vxEDG"
+      }
+    ]
+  },
+  {
+    "id": "2117741133677887716",
+    "url": "https://x.com/itmedia_news/status/2117741133677887716",
+    "author": {
+      "name": "ITmedia NEWS",
+      "handle": "itmedia_news"
+    },
+    "posted_at": "2026-11-03T22:10:06.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "ノジマオンライン、会員情報約700万件が漏えい",
+    "summary": "ノジマオンラインで不正アクセスにより会員情報約700万件が漏えい。サイトは休止し再開は未定。",
+    "text": "ノジマオンライン、会員情報約700万件漏えい　不正アクセスでサイト休止、再開未定\nhttps://t.co/3POY2wipvy",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "ノジマオンライン、会員情報約700万件漏えい　不正アクセスでサイト休止、再開未定",
+        "url": "https://www.itmedia.co.jp/news/article/2611/04/2000002848/",
+        "image": "https://pbs.twimg.com/news_img/2117741144142643201/MB5vPTVW?format=jpg&name=orig",
+        "short": "https://t.co/3POY2wipvy"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117645660656984268",
+    "url": "https://x.com/piyokango/status/2117645660656984268",
+    "author": {
+      "name": "piyokango",
+      "handle": "piyokango"
+    },
+    "posted_at": "2026-11-03T15:50:44.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "GMOペイメントゲートウェイ、顧客情報窃取の可能性",
+    "summary": "GMOペイメントゲートウェイが11月2日付で、顧客情報の一部が窃取された可能性についておわびを公表。",
+    "text": "お客様情報の一部が窃取された可能性に関するお詫びとお知らせ\n2026年11月2日\nGMOペイメントゲートウェイ株式会社\nhttps://t.co/by2lQN17At\n#incident",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "www.gmo-pg.com",
+        "url": "https://www.gmo-pg.com/news/news/info/2026/1102.html",
+        "short": "https://t.co/by2lQN17At"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117440878503674340",
+    "url": "https://x.com/come25136/status/2117440878503674340",
+    "author": {
+      "name": "こめ",
+      "handle": "come25136"
+    },
+    "posted_at": "2026-11-03T02:17:00.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "楽天でメール2FA強制なし、パスキー回避の指摘",
+    "summary": "不正アクセスを受けたユーザーが、楽天ではメール2FAが強制されずパスキーも回避でき、IDとパスワードだけで攻撃が成り立つと指摘。",
+    "text": "楽天不正アクセスされたのでガチガチに固めようと思ったらメール2FA強制されない&パスキー回避できるのフルコンボでID+PASSで攻撃成り立つことが発覚しオワタ",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @come25136 on X",
+        "url": "https://x.com/come25136/status/2117440878503674340"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117612172599832919",
+    "url": "https://x.com/hisaju01/status/2117612172599832919",
+    "author": {
+      "name": "ひさじゅ@AIプログラミングスクールRUNTEQの代表",
+      "handle": "hisaju01"
+    },
+    "posted_at": "2026-11-03T13:37:39.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "world",
+    "shelf_life": "evergreen",
+    "tldr": "「AIを使いこなせるか」を面接で測る質問",
+    "summary": "面接でAI活用力を測るポイントとして、エージェント選定、AI駆動開発のワークフロー、ハーネス設計、LLM組み込みとRAG設計、よく使うスキルを挙げる。",
+    "text": "エンジニアのスキルとして「AIを使いこなせるか」みたいな概念をよく言われますが、そのままだと抽象的過ぎるし「使いこなせますか？」とか面接で聞かないと思うので、「AIを使いこなせるか」を面接で測るための質問のポイントを考えてみた。\n\n・エージェント選定（技術選定）",
+    "key_points": [],
+    "action": "5つの観点それぞれに自分の具体例を一つずつ用意する。",
+    "links": [
+      {
+        "title": "Post by @hisaju01 on X",
+        "url": "https://x.com/hisaju01/status/2117612172599832919"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117725637503005058",
+    "url": "https://x.com/engineer_free0/status/2117725637503005058",
+    "author": {
+      "name": "Toshi＠エンジニア特化エージェント",
+      "handle": "engineer_free0"
+    },
+    "posted_at": "2026-11-03T21:08:32.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "culture",
+    "shelf_life": "evergreen",
+    "tldr": "AIで減らした時間を職務経歴書に書く",
+    "summary": "AIで業務時間の短縮を感じる人は95.2%だが、会社に具体的に報告しているのは28.5%。減らした時間を記録し、職務経歴書に成果として書く3点を整理した記事。",
+    "text": "AIで業務時間の短縮を感じている人は95.2%。ただ、上司や会社に具体的に報告しているのは28.5%でした。減らした時間を記録しないまま使うと、成果として残りません。3,000人と面談してきたエージェントが、職務経歴書に書く3点を整理しました。 https://t.co/v3rvGLAo2d",
+    "key_points": [],
+    "action": "今週AIで短縮した作業と時間を一つ記録する。",
+    "links": [
+      {
+        "title": "x.com",
+        "url": "https://x.com/i/article/2117725327917260800",
+        "short": "https://t.co/v3rvGLAo2d"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117650270830346651",
+    "url": "https://x.com/kinopee_ai/status/2117650270830346651",
+    "author": {
+      "name": "Kinopee",
+      "handle": "kinopee_ai"
+    },
+    "posted_at": "2026-11-03T16:09:03.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "Grok Bot、購入承認にパスキーが使えるように",
+    "summary": "Grok Bot がパスキーに対応し、VM上のブラウザでの購入承認に Face ID や Touch ID が使えるようになった。iOS版も対応。",
+    "text": "Grok Bot、パスキーに対応。VM 上のブラウザでの購入の承認時に Face ID、Touch ID などが使えるようになりました（iOS版も対応 https://t.co/Mmh6mljHjG",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @kinopee_ai on X",
+        "url": "https://x.com/kinopee_ai/status/2117650270830346651"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWNnRfwboAEjfaO.jpg",
+        "link": "https://t.co/Mmh6mljHjG"
+      }
+    ]
+  },
+  {
+    "id": "2117608561408975190",
+    "url": "https://x.com/publickey/status/2117608561408975190",
+    "author": {
+      "name": "Publickey",
+      "handle": "publickey"
+    },
+    "posted_at": "2026-11-03T13:23:18.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "GitHub、来年初頭にスループット180倍へ",
+    "summary": "Publickey：GitHub Universe 2026 で、AIエージェント時代に向けて従来比180倍のスループット向上を来年初頭に実現すると発表。",
+    "text": "ブログ書きました： GitHubが従来比180倍のスループット性能向上を実現へ、来年初頭に。AIエージェント時代に対応。GitHub Universe 2026\nhttps://t.co/HlRNvrYHCp",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "GitHubが従来比180倍のスループット性能向上を実現へ、来年初頭に。AIエージェント時代に対応。GitHub Universe 2026",
+        "url": "https://www.publickey1.jp/blog/26/github180aigithub_universe_2026.html",
+        "image": "https://pbs.twimg.com/news_img/2117608563959054337/4z7lwITv?format=png&name=orig",
+        "short": "https://t.co/HlRNvrYHCp"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117740615584944346",
+    "url": "https://x.com/nhk_news/status/2117740615584944346",
+    "author": {
+      "name": "NHKニュース",
+      "handle": "nhk_news"
+    },
+    "posted_at": "2026-11-03T22:08:03.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "台風31号、あすは関東・伊豆諸島で大雨のおそれ",
+    "summary": "NHK：台風31号の影響で、あすは関東や伊豆諸島で大雨のおそれ。",
+    "text": "台風31号の影響 あすは関東・伊豆諸島で大雨のおそれ\nhttps://t.co/afpOJyhNeq #nhk_news",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "台風31号の影響 あすは関東・伊豆諸島で大雨のおそれ | NHKニュース",
+        "url": "https://news.web.nhk/newsweb/na/nd-20261104de70112",
+        "image": "https://pbs.twimg.com/news_img/2117740624787169280/eWhH9ovX?format=jpg&name=orig",
+        "short": "https://t.co/afpOJyhNeq"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117475888577278377",
+    "url": "https://x.com/Yuji_48/status/2117475888577278377",
+    "author": {
+      "name": "Yuji Shibasaki＠Photo",
+      "handle": "Yuji_48"
+    },
+    "posted_at": "2026-11-03T04:36:07.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "入間基地航空祭、曇り空のブルーインパルス",
+    "summary": "入間基地航空祭で曇り空の中ブルーインパルスが飛んだ写真。",
+    "text": "入間基地航空祭、曇り空だったけどブルーインパルスカッコよかった！！！！ https://t.co/M8WGMVOBuo",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @Yuji_48 on X",
+        "url": "https://x.com/Yuji_48/status/2117475888577278377"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2117474832363450369/img/CBlDCsGg8Ui4JpPk.jpg",
+        "link": "https://t.co/M8WGMVOBuo"
+      }
+    ]
+  },
+  {
+    "id": "2117747424471179501",
+    "url": "https://x.com/itmedia_news/status/2117747424471179501",
+    "author": {
+      "name": "ITmedia NEWS",
+      "handle": "itmedia_news"
+    },
+    "posted_at": "2026-11-03T22:35:06.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "Google、生徒向けAI機能を原則オフに",
+    "summary": "Google が学校の生徒向けAI機能を原則オフにする。「AIなしのGoogle検索」は選べず批判も出ている。",
+    "text": "Google、学校の生徒向けAI機能を原則オフへ　「AIなしのGoogle検索」は選べず批判も\nhttps://t.co/WLJsXnlVzs",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Google、学校の生徒向けAI機能を原則オフへ　「AIなしのGoogle検索」は選べず批判も",
+        "url": "https://www.itmedia.co.jp/news/article/2611/04/2000002849/",
+        "image": "https://pbs.twimg.com/news_img/2117747428493492224/QPbSFDsF?format=jpg&name=orig",
+        "short": "https://t.co/WLJsXnlVzs"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117692475775258785",
+    "url": "https://x.com/OpenAI/status/2117692475775258785",
+    "author": {
+      "name": "OpenAI",
+      "handle": "OpenAI"
+    },
+    "posted_at": "2026-11-03T18:56:45.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "ChatGPT and Codex help engineers build physical things",
+    "summary": "OpenAI shares progress using ChatGPT and Codex in mechanical design, electrical engineering and simulation, inside its hardware teams and with partners.",
+    "text": "ChatGPT and Codex are helping engineers build for the physical world.\n\nWe’re sharing our progress across mechanical design, electrical engineering, and simulation—from helping our hardware teams iterate faster to testing new workflows with industry collaborators. https://t.co/b3rW9zYJGA",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2117692475775258785"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWOOL0QWwAA5B61.jpg",
+        "link": "https://t.co/b3rW9zYJGA"
+      }
+    ]
+  },
+  {
+    "id": "2117574509179900410",
+    "url": "https://x.com/MistralAI/status/2117574509179900410",
+    "author": {
+      "name": "Mistral AI",
+      "handle": "MistralAI"
+    },
+    "posted_at": "2026-11-03T11:08:00.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "Mistral Large 4 built a live 3D tracker of 19,000 objects",
+    "summary": "Mistral had Large 4 build Orbital Trace, a real-time 3D tracker of about 19,000 satellites and debris pieces; it tested the app like a user and passed strict verification.",
+    "text": "We tasked Mistral Large 4 with creating a real-time, 3D tracker of the roughly 19,000 satellites and debris fragments orbiting Earth. \n\nThe model built a working app, tested it like a user, made it fast, and passed strict verification. \n\nPlease meet Orbital Trace : https://t.co/8XQuBNZKMO",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @MistralAI on X",
+        "url": "https://x.com/MistralAI/status/2117574509179900410"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2117559336541073409/img/yEltmRafN-tzzroY.jpg",
+        "link": "https://t.co/8XQuBNZKMO"
+      }
+    ]
+  },
+  {
+    "id": "2117637894315626719",
+    "url": "https://x.com/rasbt/status/2117637894315626719",
+    "author": {
+      "name": "Sebastian Raschka",
+      "handle": "rasbt"
+    },
+    "posted_at": "2026-11-03T15:19:52.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "evergreen",
+    "tldr": "Ten open LLM architectures from October, compared",
+    "summary": "Sebastian Raschka lists October's ten open-weight architecture releases, from Kolibri-1 to Mistral Large 4, and their attention designs such as GQA plus SWA, MLA and looped transformers.",
+    "text": "Catching up on the 10 (!) open LLM architecture releases from the past month. Quite a lot happened in October. \nI guess we can call it \"Open October\"!\n\n1. Kolibri-1 (78B): A notable model from Germany. Features classic Grouped Query Attention (GQA) and Sliding Window Attention (SWA) attention module.\n\n2. Ling 3.1 Flash (560B): Uses Kimi Delta Attention and the eighth uses gated Multi-head Latent Attention (MLA) inspired by DeepSeek.\n\n3. Muse Spark Open (816B): Besides Musse Glimmer, the first major open weight release from Meta (since Llama). Uses classic GQA + SWA but adds a LatentMoE.\n\n4. Nemotron 3.5 Super VL (120B): Combines Mamba-2 layers with just eight attention layers. Also LatentMoE \n\n5. Dory1.0 (4B): A looped transformer design.\n\n6. Reflection Beam (501B): GQA+SWA architecture.\n\n7. Recursive Flint (40B): Note that \"Recursive\" is the company name; the architecture is a fairly standard MoE with GQA and SWA.\n\n8. MiniMax M3.1-Flash (428B): Uses their own MiniMax Sparse Attention module.\n\n9. LFM3 (1.7B): Hybrid architecture that mixes short convolutions and attention.\n\n10. Mistral Large 4 (1T) combines MLA with sparse attention.\n\nWill probably cover/discuss things in more depth in the coming weeks!",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @rasbt on X",
+        "url": "https://x.com/rasbt/status/2117637894315626719"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWNcY1KXYAAC0Ge.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2117632356840357951",
+    "url": "https://x.com/scaling01/status/2117632356840357951",
+    "author": {
+      "name": "Lisan al Gaib",
+      "handle": "scaling01"
+    },
+    "posted_at": "2026-11-03T14:57:52.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "GDPx ranks models almost the same as ECI",
+    "summary": "A new benchmark, GDPx, uses different tasks and methods yet ranks models nearly the same as ECI, differing only where ECI has under 15 benchmarks.",
+    "text": "GDPx is incredible\n\nit produces pretty much the same ranking as ECI but with completely different methodology and tasks\n\nthey only disagree on the ordering in cases where ECI has fewer than 15 benchmarks https://t.co/XBdts9pwwq",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @scaling01 on X",
+        "url": "https://x.com/scaling01/status/2117632356840357951"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWNV7ZOWEAASSPn.jpg",
+        "link": "https://t.co/XBdts9pwwq"
+      }
+    ]
+  },
+  {
+    "id": "2117698780740952341",
+    "url": "https://x.com/mweinbach/status/2117698780740952341",
+    "author": {
+      "name": "Max Weinbach",
+      "handle": "mweinbach"
+    },
+    "posted_at": "2026-11-03T19:21:48.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Siri in iOS 27.3 can use any app intent",
+    "summary": "Max Weinbach says Siri AI in iOS 27.3 can use any App Intent in any app, a big step for Siri doing things with apps.",
+    "text": "Oh shit, with Siri AI in 27.3 it can use any app intent in any app\n\nBig update to Siri being able to do things with your apps https://t.co/fzWdjLvWbK",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post by @viticci",
+        "url": "https://x.com/viticci/status/2117698403282854199",
+        "short": "https://t.co/fzWdjLvWbK"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117622829873021130",
+    "url": "https://x.com/latestinspace/status/2117622829873021130",
+    "author": {
+      "name": "Latest in space",
+      "handle": "latestinspace"
+    },
+    "posted_at": "2026-11-03T14:20:00.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "NASA's Swift telescope is falling back to Earth",
+    "summary": "The 3,200-pound Swift observatory is reentering; a new map shows where debris could land.",
+    "text": "NEWS 🚨: The 3,200-pound NASA Swift telescope is currently falling back to Earth\n\nThis new map shows everywhere debris could land, as soon as tonight https://t.co/JoZdybWPnW",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @latestinspace on X",
+        "url": "https://x.com/latestinspace/status/2117622829873021130"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWNAYOyXwAAU1ZB.jpg",
+        "link": "https://t.co/JoZdybWPnW"
+      }
+    ]
+  },
+  {
+    "id": "2117745805369180322",
+    "url": "https://x.com/SpcPlcyOnline/status/2117745805369180322",
+    "author": {
+      "name": "Marcia Smith",
+      "handle": "SpcPlcyOnline"
+    },
+    "posted_at": "2026-11-03T22:28:40.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "Swift reentry predicted at 10:19 UTC on Nov 4, plus or minus 2 hours",
+    "summary": "Aerospace Corp narrowed Swift's reentry to 10:19 UTC on November 4, plus or minus 2 hours.",
+    "text": "Aerospace Corp continues to narrow the reentry window prediction for Swift. Now 10:19 UTC (5:19 am EST) plus or minus 2 hours tomorrow, Nov 4.   So between 3:19 am and 7:19 am EST. https://t.co/mfgNWT4hLz",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post by @aerospacecorp",
+        "url": "https://x.com/aerospacecorp/status/2117736512322474326",
+        "short": "https://t.co/mfgNWT4hLz"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117663177735360633",
+    "url": "https://x.com/MIT_CSAIL/status/2117663177735360633",
+    "author": {
+      "name": "MIT CSAIL",
+      "handle": "MIT_CSAIL"
+    },
+    "posted_at": "2026-11-03T17:00:20.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "The first Unix Programmer's Manual turned 55",
+    "summary": "Bell Labs released the first Unix Programmer's Manual on November 3, 1971; MIT CSAIL links a free PDF of the third edition.",
+    "text": "#otd in 1971 Bell Labs released the first Unix Programmer's Manual. \n\nDownload the free PDF here (third edition): https://t.co/uKGp5kkhPC\n\n(v/@CoolSWEng) https://t.co/KG7lkJEyA6",
+    "key_points": [],
+    "action": "Read the Unix manual PDF's intro tonight for the original tone of man pages.",
+    "links": [
+      {
+        "title": "shorturl.at",
+        "url": "https://shorturl.at/8NP0j",
+        "short": "https://t.co/uKGp5kkhPC"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWNzcBrW8AAxiAB.jpg",
+        "link": "https://t.co/KG7lkJEyA6"
+      }
+    ]
+  },
+  {
+    "id": "2117654916437295185",
+    "url": "https://x.com/PhysInHistory/status/2117654916437295185",
+    "author": {
+      "name": "Physics In History",
+      "handle": "PhysInHistory"
+    },
+    "posted_at": "2026-11-03T16:27:30.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "The shortest physics paper has twenty-seven words",
+    "summary": "Friedrich Lenz's 1951 paper on the proton-to-electron mass ratio has 27 words, one equation, one number and one reference.",
+    "text": "World's shortest Physics paper is titled The Ratio of Proton and Electron Mass published in the year 1951 by Friedrich Lenz. It contains just twenty-seven words, one equation, one number, and one reference. https://t.co/lUtdRDty46",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @PhysInHistory on X",
+        "url": "https://x.com/PhysInHistory/status/2117654916437295185"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWNr63eaMAATPKG.jpg",
+        "link": "https://t.co/lUtdRDty46"
+      }
+    ]
+  },
+  {
+    "id": "2117530457495712076",
+    "url": "https://x.com/latestinspace/status/2117530457495712076",
+    "author": {
+      "name": "Latest in space",
+      "handle": "latestinspace"
+    },
+    "posted_at": "2026-11-03T08:12:57.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "Perseverance finds Martian dust finer and riskier",
+    "summary": "NASA's Perseverance found Martian dust particles smaller than thought; ultrafine dust can cling to suits and may reach deep into lungs.",
+    "text": "NEWS 🚨: NASA's Perseverance rover has found that Martian dust is smaller and potentially more dangerous than previously thought:\n\n• Ultrafine particles can cling to spacesuits and potentially contaminate astronauts' living quarters\n\n• Particles this small could penetrate deep into the lungs and enter the bloodstream\n\n• Research on Earth suggests ultrafine particles may even reach the brain",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @latestinspace on X",
+        "url": "https://x.com/latestinspace/status/2117530457495712076"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWL56H9b0AAPwBI.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWL6Gqwb0AAZouv.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2117653860810740050",
+    "url": "https://x.com/EricTopol/status/2117653860810740050",
+    "author": {
+      "name": "Eric Topol",
+      "handle": "EricTopol"
+    },
+    "posted_at": "2026-11-03T16:23:19.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "health",
+    "shelf_life": "news",
+    "tldr": "Noninvasive vagus nerve stimulation helps in a Parkinson's model",
+    "summary": "Eric Topol highlights a Nature BME study where noninvasive vagus nerve modulation showed promise in an experimental Parkinson's model.",
+    "text": "We shouldn't underestimate the power of vagus nerve modulation. Today the potential for Parkinson's disease. Noninvasively. \nWork in the experimental model @natBME \nhttps://t.co/HHnEvPWXzl",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "www.nature.com",
+        "url": "https://www.nature.com/articles/s41551-026-01829-x",
+        "short": "https://t.co/HHnEvPWXzl"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117636137678496130",
+    "url": "https://x.com/CreesOnCBC/status/2117636137678496130",
+    "author": {
+      "name": "Creeson Agecoutay",
+      "handle": "CreesOnCBC"
+    },
+    "posted_at": "2026-11-03T15:12:53.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "culture",
+    "shelf_life": "news",
+    "tldr": "A 73-year-old Kanien'kéha speaker earns McGill's first such PhD",
+    "summary": "CBC Indigenous reports that a 73-year-old Kanien'kéha speaker became McGill's first PhD in Indigenous language revitalization.",
+    "text": "73-year-old Kanien’keha speaker is McGill’s 1st PhD in Indigenous language revitalization via CBC Indigenous’ Candace Maracle https://t.co/KMjrYJxwMg",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "73-year-old Kanien'kéha speaker is McGill’s 1st PhD in Indigenous l…",
+        "url": "https://www.cbc.ca/news/indigenous/mcgill-phd-indigenous-language-revitalization-9.7405927",
+        "image": "https://pbs.twimg.com/news_img/2117636139985362944/zWOZM_FS?format=jpg&name=orig",
+        "short": "https://t.co/KMjrYJxwMg"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117569002222322057",
+    "url": "https://x.com/straits_times/status/2117569002222322057",
+    "author": {
+      "name": "The Straits Times",
+      "handle": "straits_times"
+    },
+    "posted_at": "2026-11-03T10:46:07.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "culture",
+    "shelf_life": "news",
+    "tldr": "Mogging is Collins' word of the year",
+    "summary": "Collins named \"mogging\" its 2026 word of the year, ahead of \"firewave\".",
+    "text": "‘Mogging’ tops ‘firewave’ as Collins’ word of the year https://t.co/D4B6oegwE6",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "‘Mogging’ tops ‘firewave’ as Collins’ word of the year",
+        "url": "https://bit.ly/4iwnIRP",
+        "image": "https://pbs.twimg.com/news_img/2117569003820384256/hzFAYKkp?format=jpg&name=orig",
+        "short": "https://t.co/D4B6oegwE6"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117735070756749345",
+    "url": "https://x.com/QuantaMagazine/status/2117735070756749345",
+    "author": {
+      "name": "Quanta Magazine",
+      "handle": "QuantaMagazine"
+    },
+    "posted_at": "2026-11-03T21:46:01.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "Every voting system is mathematically flawed",
+    "summary": "Quanta's podcast explains why mathematicians argue over the best voting system: all of them are mathematically flawed.",
+    "text": "Mathematicians have heated disagreements over which is the best voting system. The reality is that all of them are mathematically flawed. Tune in to The Quanta Podcast to learn why the math of democracy never quite works out. https://t.co/dSdj90U3oG",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "The Math of Democracy Never Quite Works Out",
+        "url": "https://podcasts.apple.com/us/podcast/the-math-of-democracy-never-quite-works-out/id1021340531?i=1000799590857",
+        "image": "https://pbs.twimg.com/news_img/2117626675877863424/jJL3lP_Z?format=jpg&name=orig",
+        "short": "https://t.co/dSdj90U3oG"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117705409871954122",
+    "url": "https://x.com/PublicDomainRev/status/2117705409871954122",
+    "author": {
+      "name": "The Public Domain Review",
+      "handle": "PublicDomainRev"
+    },
+    "posted_at": "2026-11-03T19:48:09.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "A 1917 suffrage book with entirely blank pages",
+    "summary": "The Public Domain Review shows a 1917 book from the National Woman Suffrage Publishing Company whose pages are all blank: a joke on why women should not vote.",
+    "text": "Published by the National Woman Suffrage Publishing Company in 1917, this little book's pages are entirely blank. More on it here: https://t.co/YVfw0NMl6u https://t.co/XT3Yv6bB4x",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Why Women Should Not Vote (1917)",
+        "url": "https://publicdomainreview.org/collection/why-women-should-not-vote",
+        "image": "https://pbs.twimg.com/news_img/2117705459884773376/0mLE5K2m?format=jpg&name=orig",
+        "short": "https://t.co/YVfw0NMl6u"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWOZ11HWYAACJpm.jpg",
+        "link": "https://t.co/XT3Yv6bB4x"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWOZ2PHXMAEYVOC.jpg",
+        "link": "https://t.co/XT3Yv6bB4x"
+      }
+    ]
+  },
+  {
+    "id": "2117433296569470991",
+    "url": "https://x.com/lauriewired/status/2117433296569470991",
+    "author": {
+      "name": "LaurieWired",
+      "handle": "lauriewired"
+    },
+    "posted_at": "2026-11-03T01:46:52.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "SQLite can beat a traditional filesystem",
+    "summary": "LaurieWired notes SQLite is genuinely faster than most traditional filesystems and wishes more experimental operating systems used databases as their backend.",
+    "text": "It’s so funny that SQLite is genuinely faster than most traditional filesystems.\n\nI wish there were more experimental operating systems using dbs for the backend.  Not many people playing around in this space... https://t.co/lGzEKt6hNH",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @lauriewired on X",
+        "url": "https://x.com/lauriewired/status/2117433296569470991"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWKgufwaIAAECR0.png",
+        "link": "https://t.co/lGzEKt6hNH"
+      }
+    ]
+  },
+  {
+    "id": "2117676976513450370",
+    "url": "https://x.com/dieworkwear/status/2117676976513450370",
+    "author": {
+      "name": "derek guy",
+      "handle": "dieworkwear"
+    },
+    "posted_at": "2026-11-03T17:55:10.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "culture",
+    "shelf_life": "evergreen",
+    "tldr": "Why Japanese denim beats US-made denim",
+    "summary": "Derek Guy relays a denim-industry friend: US denim won't match Japanese denim because American makers value efficiency, scale and profit over a craft mindset.",
+    "text": "a friend who works in the denim industry once said that you'll never get US-made denim on the level of Japanese-made denim because Americans don't have a craft mindset; they have an industrial and entrepreneurial mindset, which values efficiency, scalability, and profits.",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @dieworkwear on X",
+        "url": "https://x.com/dieworkwear/status/2117676976513450370"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117447416580575628",
+    "url": "https://x.com/SchmidhuberAI/status/2117447416580575628",
+    "author": {
+      "name": "Jürgen Schmidhuber",
+      "handle": "SchmidhuberAI"
+    },
+    "posted_at": "2026-11-03T02:42:59.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "Schmidhuber: weight-writing networks date to 1991",
+    "summary": "Jürgen Schmidhuber says models that write other networks' weights are an old idea: the fast weight programmers of the 1990s, including the 1991 unnormalised linear Transformer.",
+    "text": "This is an old hat. That's exactly what the neural fast weight programmers did in the 1990s (including the 1991 unnormalised linear Transformer). Overview with links to the original papers: https://t.co/pJ1raBlXmh https://t.co/1zM1gkmgoK",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "2021: 30th anniversary of linear Transformer principle",
+        "url": "https://people.idsia.ch/~juergen/fast-weight-programmer-1991-transformer.html",
+        "image": "https://pbs.twimg.com/news_img/2117446872898166784/zdpO0xip?format=png&name=orig",
+        "short": "https://t.co/pJ1raBlXmh"
+      },
+      {
+        "title": "Quoted post by @rikiyatakehi",
+        "url": "https://x.com/rikiyatakehi/status/2117313742891327994",
+        "short": "https://t.co/1zM1gkmgoK"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117588845864575397",
+    "url": "https://x.com/mattpocockuk/status/2117588845864575397",
+    "author": {
+      "name": "Matt Pocock",
+      "handle": "mattpocockuk"
+    },
+    "posted_at": "2026-11-03T12:04:58.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "A paper studied Matt Pocock's retro skill",
+    "summary": "Matt Pocock got an issue report linking an arXiv paper that assesses how well his /retro skill works.",
+    "text": "This might be the greatest issue report in history\n\nSome folks wrote a paper about my /retro skill assessing its effectiveness\n\nIncredible\n\nhttps://t.co/IYo4rhz1Vp",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Paper assessing the /retro skill (arXiv)",
+        "url": "https://arxiv.org/pdf/2610.34938",
+        "short": "https://t.co/IYo4rhz1Vp"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117621595036344402",
+    "url": "https://x.com/AP/status/2117621595036344402",
+    "author": {
+      "name": "The Associated Press",
+      "handle": "AP"
+    },
+    "posted_at": "2026-11-03T14:15:06.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "world",
+    "shelf_life": "news",
+    "tldr": "Five rescued in Kiribati after three months adrift",
+    "summary": "AP: five people, including two children, were rescued in Kiribati after three months drifting in a 20-foot skiff.",
+    "text": "Authorities say five people, including two children, have been rescued in the South Pacific island nation of Kiribati after three months drifting at sea in a 20-foot skiff. https://t.co/DsR7STvaMJ",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "After months lost at sea on a small boat, 5 people are rescued in t…",
+        "url": "https://apnews.com/article/kiribati-rescue-boat-drift-micronesia-a1f054aa89811cf7512d5faaaf62cf31",
+        "image": "https://pbs.twimg.com/news_img/2117621595959169024/tFS0nfty?format=jpg&name=orig",
+        "short": "https://t.co/DsR7STvaMJ"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117671117339119779",
+    "url": "https://x.com/MerriamWebster/status/2117671117339119779",
+    "author": {
+      "name": "Merriam-Webster",
+      "handle": "MerriamWebster"
+    },
+    "posted_at": "2026-11-03T17:31:53.000Z",
+    "saved_at": "2026-11-04T08:30:00+09:00",
+    "topic": "culture",
+    "shelf_life": "evergreen",
+    "tldr": "Vote comes from the Latin votum, a vow or wish",
+    "summary": "Merriam-Webster notes that vote comes from the Latin votum, meaning vow or wish.",
+    "text": "'Vote' comes from the Latin 'votum' meaning \"vow\" or \"wish.\"\n\nNow we kind of want an \"I just wished!\" sticker....",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Post by @MerriamWebster on X",
+        "url": "https://x.com/MerriamWebster/status/2117671117339119779"
+      }
+    ],
+    "media": []
   }
 ]
