@@ -192,7 +192,7 @@
       "deck": "Agent reviewers lack your intent, chase nitpicks, and the author agent accepts them all.",
       "variant": "aside",
       "art": "saves-art.jpg",
-      "art_alt": "A pale grid of empty teal squares with one square filled gold",
+      "art_alt": "A pale grid of empty teal-outlined squares with one square filled gold, above a misty sea",
       "why": "Your save fits the day: run it, prove it, then review.",
       "tags": [
         "from-your-saves"
@@ -565,7 +565,7 @@
       "type": "image-of-the-day",
       "headline": "Checked, then trusted",
       "art": "iotd.jpg",
-      "art_alt": "One small gold light above a dark sea of pale points in rows",
+      "art_alt": "One small gold light above a dark night sea, its reflection scattered in points of light",
       "caption": "A proof is a light you can check from shore. Ask what it lights up.",
       "variant": "standard"
     },
