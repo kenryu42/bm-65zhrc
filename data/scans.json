@@ -16251,5 +16251,827 @@
       }
     ],
     "media": []
+  },
+  {
+    "id": "2118390190246879554",
+    "url": "https://x.com/OpenAI/status/2118390190246879554",
+    "author": {
+      "name": "OpenAI",
+      "handle": "OpenAI"
+    },
+    "posted_at": "2026-11-05T17:09:13.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "OpenAI launches GPT-6 Cyber for security research",
+    "summary": "OpenAI introduces GPT-6 Cyber, a security-specialized model with stronger alignment, aimed at vulnerability research through Daybreak Red access.",
+    "text": "Introducing GPT‑6 Cyber: a major advance in security research that pairs stronger capabilities with better model alignment.\n\nThe model powered the Linux kernel research we announced yesterday, and security teams at companies like Mozilla, Palo Alto Networks, Calif, and Cisco—alongside our own at OpenAI—are already putting it to work.\n\nGPT-6 Cyber is available to select Daybreak Red customers and we are expanding access over time.\n\nhttps://t.co/Nzab3Z1Td6",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "OpenAI: Introducing GPT-6 Cyber",
+        "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+        "short": "https://t.co/Nzab3Z1Td6"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2118387217588465664/img/N2grMUmP0O_EMvS2.jpg"
+      }
+    ],
+    "pick": true
+  },
+  {
+    "id": "2118119451401048497",
+    "url": "https://x.com/OpenAI/status/2118119451401048497",
+    "author": {
+      "name": "OpenAI",
+      "handle": "OpenAI"
+    },
+    "posted_at": "2026-11-04T23:13:24.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "OpenAI cyber pipeline found hundreds of Linux kernel LPEs",
+    "summary": "OpenAI says its autonomous discovery-exploit-patch pipeline, in one run, found many local privilege-escalation issues in the Linux kernel at about $1.2M in API cost.",
+    "text": "Our security researchers built an autonomous cyber vulnerability discovery, exploitation, and patching pipeline.\n\nIn a single run with an upcoming cyber model, it validated and generated patches for 948 local privilege escalation vulnerabilities in the Linux kernel at a total API cost of $1.2 million.",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "OpenAI: Introducing GPT-6 Cyber",
+        "url": "https://openai.com/index/introducing-gpt-6-cyber/"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWUQl7QbwAAkznq.png"
+      }
+    ],
+    "pick": true
+  },
+  {
+    "id": "2118402103907655903",
+    "url": "https://x.com/thsottiaux/status/2118402103907655903",
+    "author": {
+      "name": "Tibo",
+      "handle": "thsottiaux"
+    },
+    "posted_at": "2026-11-05T17:56:34.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "thsottiaux: cyber model in its own league via Daybreak",
+    "summary": "OpenAI cyber lead thsottiaux says the new cyber-specialized model leads on many cyber tasks and is available through Daybreak Red.",
+    "text": "Our latest cyber-specialized model is out. It's in its own league on many cyber-specific use cases. Available through Daybreak Red access. https://t.co/0QsViK8mMI",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "x.com/OpenAI/status/…",
+        "url": "https://twitter.com/OpenAI/status/2118390190246879554",
+        "short": "https://t.co/0QsViK8mMI"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2118063143167693011",
+    "url": "https://x.com/ClaudeDevs/status/2118063143167693011",
+    "author": {
+      "name": "ClaudeDevs",
+      "handle": "ClaudeDevs"
+    },
+    "posted_at": "2026-11-04T19:29:39.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Claude Code background subagents use less of the limit",
+    "summary": "ClaudeDevs says background subagents now update status every 30 seconds and sessions with them used about 5% less of the usage limit.",
+    "text": "Background subagents in Claude Code now use less of your usage limit.\n\nA running subagent updates its status line every 30 seconds, and each update used to re-read its whole conversation. Now Haiku 5.5 writes it from short notes instead, so each update costs about 99% less. https://t.co/u4maCuWq6A",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Claude Code",
+        "url": "https://claude.com/claude-code"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2118062835507040256/img/agkh_HQTXpNdQHFr.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2118795192090386454",
+    "url": "https://x.com/ClaudeDevs/status/2118795192090386454",
+    "author": {
+      "name": "ClaudeDevs",
+      "handle": "ClaudeDevs"
+    },
+    "posted_at": "2026-11-06T19:58:33.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Claude Code cloud sessions set up repos more easily",
+    "summary": "ClaudeDevs says Claude Code cloud sessions on Pro/Max/Ultra now figure out dependencies and get the repo running with less manual setup.",
+    "text": "We've made it easier to get your repo running in Claude Code cloud sessions on Pro, Max, and Ultra.\n\nClaude figures out what dependencies, network access, and API keys it needs, then saves the environment for next time. API keys are saved securely, so Claude never sees them. https://t.co/C3anyUAidY",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Claude Code cloud",
+        "url": "https://claude.com/claude-code"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2118794810983329792/img/dw_n0u2DijbOZmpL.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2118458629091426304",
+    "url": "https://x.com/cursor_ai/status/2118458629091426304",
+    "author": {
+      "name": "Cursor",
+      "handle": "cursor_ai"
+    },
+    "posted_at": "2026-11-05T21:41:10.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Cursor lets you build live apps and share a link",
+    "summary": "Cursor says you can now build live apps inside the editor and share them with a link, closing the gap between agent-written code and something others can try.",
+    "text": "You can now build live apps in Cursor and share them with a link.\n\nAgents have made it easier to write code, but most apps never make it off localhost. Describe the tool you want - Cursor will build it, set up a database, run deterministic and agentic security checks, and deploy. https://t.co/v09VJrLwHw",
+    "key_points": [],
+    "action": "Try sharing a tiny live app link from Cursor on a side project.",
+    "links": [
+      {
+        "title": "Cursor",
+        "url": "https://cursor.com"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2118458611320131584/img/uUJSIBl8QaDBnoAA.jpg"
+      }
+    ],
+    "pick": true
+  },
+  {
+    "id": "2118814753154064501",
+    "url": "https://x.com/AnthropicAI/status/2118814753154064501",
+    "author": {
+      "name": "Anthropic",
+      "handle": "AnthropicAI"
+    },
+    "posted_at": "2026-11-06T21:16:17.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Anthropic explains Claude “dreaming” for agent memory",
+    "summary": "Anthropic’s engineering blog describes how “dreaming” helps Claude organize experience into longer-term memory components.",
+    "text": "Memory is what allows Claude to learn from experience. In a new Engineering Blog post, we share how “dreaming” helps Claude organize what it’s learned, correct its mistakes, and find what it needs more easily the next time. https://t.co/uUEN4bNkr9",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "The components of agent memory",
+        "url": "https://www.anthropic.com/research/components-of-agent-memory",
+        "short": "https://t.co/uUEN4bNkr9",
+        "image": "https://pbs.twimg.com/news_img/2118814755137990656/LeHabGBF?format=jpg&name=orig"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2118124944928432327",
+    "url": "https://x.com/OpenAI/status/2118124944928432327",
+    "author": {
+      "name": "OpenAI",
+      "handle": "OpenAI"
+    },
+    "posted_at": "2026-11-04T23:35:14.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "ChatGPT Images 2.6 adds GIFs and reference images",
+    "summary": "OpenAI launches ChatGPT Images 2.6 with GIF generation, reference images, and two new developer image models.",
+    "text": "Images, upgraded—introducing ChatGPT Images 2.6.\n\nNow with GIFs and reference images.\n\nPlus, two new models are coming to the API with 50% faster image generation. https://t.co/kcuOhTipYR",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "ChatGPT Images",
+        "url": "https://openai.com"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2118124891572748288/img/ZSIlzNmSPQEK0Sfd.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2118830274431873379",
+    "url": "https://x.com/github/status/2118830274431873379",
+    "author": {
+      "name": "GitHub",
+      "handle": "github"
+    },
+    "posted_at": "2026-11-06T22:17:58.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "GitHub Git storage tested with 5,000 concurrent agents",
+    "summary": "GitHub says internal tests of a new Git storage architecture supported 5,000 concurrent agents on a single repository.",
+    "text": "Through internal testing, GitHub’s new Git storage architecture supported 5,000 concurrent agents working on a repo, sending 7,200 pushes per second, all while serving read traffic with consistently low latency. https://t.co/Lfi55duJ77",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "x.com/i/article/2118…",
+        "url": "https://x.com/i/article/2118827340377829376",
+        "short": "https://t.co/Lfi55duJ77"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2118605445543928166",
+    "url": "https://x.com/bunjavascript/status/2118605445543928166",
+    "author": {
+      "name": "Bun",
+      "handle": "bunjavascript"
+    },
+    "posted_at": "2026-11-06T07:24:34.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Bun crossed 50 million monthly downloads",
+    "summary": "Bun reports it crossed 50 million monthly downloads last month, with 1.5 teased as bigger than 1.4.",
+    "text": "Last month, Bun crossed 50 million monthly downloads https://t.co/40XJRCa3cf",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Bun",
+        "url": "https://bun.sh"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWbMbC2agAAjDq_.jpg",
+        "alt": "Line chart titled \"51.4M Monthly Bun downloads.\" Downloads grow from 7.2M in October 2025 to 51.4M in October 2026, climbing fastest in the last few months. Four events are marked: Bun 1.3 in October 2025, Joined Anthropic in December, Rust rewrite in May, and Bun 1.4 in August. A label reads \"+57% since 1.4.\""
+      }
+    ]
+  },
+  {
+    "id": "2118613050462728659",
+    "url": "https://x.com/poteto/status/2118613050462728659",
+    "author": {
+      "name": "lauren",
+      "handle": "poteto"
+    },
+    "posted_at": "2026-11-06T07:54:47.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "poteto: skip the software-factory branding, keep soft skills",
+    "summary": "poteto argues “software factory” is marketing; what you need is good software taste, review habits, and soft skills—not a factory slogan.",
+    "text": "hot take: you don't need a software factory, and i don't love the term. it's just marketing\n\nall you need is good software engineering and investing your tokens in the right places. the more deterministic the better (and token efficient) https://t.co/k2Mm4Jl106 https://t.co/MYZZHfulQt",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "x.com/i/status/21186…",
+        "url": "https://twitter.com/i/status/2118604739428426223",
+        "short": "https://t.co/MYZZHfulQt"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2118059907949690955",
+    "url": "https://x.com/thdxr/status/2118059907949690955",
+    "author": {
+      "name": "dax",
+      "handle": "thdxr"
+    },
+    "posted_at": "2026-11-04T19:16:48.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "thdxr tries DeepSeek Flash subagents with Opus on primary",
+    "summary": "thdxr says the team is experimenting with DeepSeek Flash for all subagents while keeping Opus 5.5 on the primary agent.",
+    "text": "the team is experimenting this week at switching all our subagents to deepseek flash and using opus 5.5 only on the primary subagent",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2118411953958010957",
+    "url": "https://x.com/kunchenguid/status/2118411953958010957",
+    "author": {
+      "name": "Kun Chen",
+      "handle": "kunchenguid"
+    },
+    "posted_at": "2026-11-05T18:35:42.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Ask agents to lint-cap file length before big coding runs",
+    "summary": "kunchenguid suggests creating a lint rule that caps lines per file before letting agents write a lot of code.",
+    "text": "before writing a lot of code with agents, first ask your agent to create a lint rule that caps how many lines a single code file can have. i typically go with 1000\n\nthis is the easiest win that has a lasting impact on the health of your codebase\n\nand do it as early as possible in",
+    "key_points": [],
+    "action": "Add a max-lines-per-file lint rule, then let the agent refactor to it.",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2118822238262853904",
+    "url": "https://x.com/trq212/status/2118822238262853904",
+    "author": {
+      "name": "Thariq",
+      "handle": "trq212"
+    },
+    "posted_at": "2026-11-06T21:46:02.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Creator apps shipping built-in MCPs for agents",
+    "summary": "trq212 likes creator tools such as Instagram Edits and Roblox Studio shipping with built-in MCPs so agents can drive them.",
+    "text": "a pattern I’m liking: creator apps like Instagram Edits and Roblox Studio shipping with built-in MCPs, so agents can do some of the work while power users can collaborate and continue the work in tools that they're used to",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2118687605776597482",
+    "url": "https://x.com/emilkowalski/status/2118687605776597482",
+    "author": {
+      "name": "Emil Kowalski",
+      "handle": "emilkowalski"
+    },
+    "posted_at": "2026-11-06T12:51:03.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "design",
+    "shelf_life": "evergreen",
+    "tldr": "emilkowalski: ease-out and instant UI feedback tricks",
+    "summary": "emilkowalski lists ways to make apps feel faster, starting with ease-out motion and keeping most UI updates instant.",
+    "text": "Here are a few ways to make your app feel faster:\n\n- Use ease-out instead of ease-in for instant feedback\n- Keep most UI animations under 300ms\n- Use custom easing curves for snappier interactions\n- Make your loading spinners spin faster https://t.co/AhnqOZ3nGE",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2118737314943754500",
+    "url": "https://x.com/levelsio/status/2118737314943754500",
+    "author": {
+      "name": "@levelsio",
+      "handle": "levelsio"
+    },
+    "posted_at": "2026-11-06T16:08:34.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "levelsio will publish 10,000+ AI spammer block accounts",
+    "summary": "levelsio plans to publish a full list of 10,000+ blocked AI spammer accounts so others can block them too.",
+    "text": "I will publish my full list of 10,000+ blocked AI spammer accounts soon so everyone can block them easily tooo\n\nIf you write AI replies under my tweets you will now permanently destroy your X account\n\nBecause you'll very quickly end up in a public data set of AI spammers that people will use to block them\n\nBetter turn those AI reply bots off today",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "x.com/i/status/21187…",
+        "url": "https://twitter.com/i/status/2118725702757339184"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2118116514700386439",
+    "url": "https://x.com/steipete/status/2118116514700386439",
+    "author": {
+      "name": "Peter Steinberger 🦞",
+      "handle": "steipete"
+    },
+    "posted_at": "2026-11-04T23:01:44.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "steipete asks if per-person agent limits still make sense",
+    "summary": "steipete questions individual usage limits as agent capability grows and one person may supervise many agents.",
+    "text": "Do individual limits still make sense? As capabilities increase you want to work with and support an agent that represents your project, that runs loops and evolves your codebase. The humans merely curate the automations. https://t.co/7A1dRKVtJk",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2118394240636215480",
+    "url": "https://x.com/rauchg/status/2118394240636215480",
+    "author": {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg"
+    },
+    "posted_at": "2026-11-05T17:25:19.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "rauchg: use AI to own knowledge, not outsource it",
+    "summary": "rauchg warns against “know nothing and be happy,” urging people to use AI to deepen ownership of knowledge.",
+    "text": "\"you will own nothing and be happy\"\n\"you will know nothing and be happy\"\n\n^ Gotta prevent this at all costs. \nUse AI to know and understand.",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2118653423679873530",
+    "url": "https://x.com/itmedia_news/status/2118653423679873530",
+    "author": {
+      "name": "ITmedia NEWS",
+      "handle": "itmedia_news"
+    },
+    "posted_at": "2026-11-06T10:35:13.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "ロート製薬、約280万人分の個人情報漏えい",
+    "summary": "ロート製薬への不正アクセスで約280万人分の個人情報が漏えいし、一部は通話音声やクレジットカード情報も含むとITmediaが報じた。",
+    "text": "ロート製薬、約280万人分の個人情報漏えい　9715件は通話音声データとクレカ情報が流出\nhttps://t.co/20LwYNon5a",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "ロート製薬、約280万人分の個人情報漏えい　9715件は通話音声データとクレカ情報が流出",
+        "url": "https://www.itmedia.co.jp/news/article/2611/06/2000002984/",
+        "short": "https://t.co/20LwYNon5a",
+        "image": "https://pbs.twimg.com/news_img/2118653429505720320/ZYA9c7uW?format=jpg&name=orig"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2118646084570673617",
+    "url": "https://x.com/nhk_news/status/2118646084570673617",
+    "author": {
+      "name": "NHKニュース",
+      "handle": "nhk_news"
+    },
+    "posted_at": "2026-11-06T10:06:03.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "パ・リーグ5球団でメール約2.5万件漏えい",
+    "summary": "NHKによると、パ・リーグ5球団でメールアドレス約2万5600件が漏えいした。",
+    "text": "パ・リーグ5球団 メールアドレス約2万5600件漏えい\nhttps://t.co/dLDE8ZoMTU #nhk_news",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "パ・リーグ5球団 メールアドレス約2万5600件漏えい | NHKニュース",
+        "url": "https://news.web.nhk/newsweb/na/nd-20261106de71746",
+        "short": "https://t.co/dLDE8ZoMTU",
+        "image": "https://pbs.twimg.com/news_img/2118646092833415168/2N2pCbJM?format=jpg&name=orig"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2118581413964657046",
+    "url": "https://x.com/nhk_news/status/2118581413964657046",
+    "author": {
+      "name": "NHKニュース",
+      "handle": "nhk_news"
+    },
+    "posted_at": "2026-11-06T05:49:05.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "西日本128信用金庫でATMなど全面障害",
+    "summary": "NHK速報：東海以西の128信用金庫で共同センターの通信障害により窓口・ATMなどが一時全面利用不可に。のちほぼ復旧。",
+    "text": "【NHKニュース速報】\n東海から西の１２８の信用金庫でシステム障害　窓口やＡＴＭなどの取引　全面的に利用できず(14:48)\n#nhk_news https://t.co/hvT0Uwuivd",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "NHKニュース 速報・最新情報",
+        "url": "https://news.web.nhk/newsweb",
+        "short": "https://t.co/hvT0Uwuivd",
+        "image": "https://pbs.twimg.com/news_img/2116403562335080448/wqzTBT7q?format=png&name=orig"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2118517168732320045",
+    "url": "https://x.com/wni_jp/status/2118517168732320045",
+    "author": {
+      "name": "ウェザーニュース",
+      "handle": "wni_jp"
+    },
+    "posted_at": "2026-11-06T01:33:47.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "world",
+    "shelf_life": "news",
+    "tldr": "32年ぶり台風32号発生の見込み",
+    "summary": "気象庁はマリアナ諸島の熱帯低気圧が台風に発達する見込みと発表。発生すれば1994年以来の台風32号になる。",
+    "text": "【台風発生予想】32年ぶりの32号か\n11月6日(金)9時現在、南鳥島近海で発達中の熱帯低気圧について、気象庁は「24時間以内にマリアナ諸島で台風に発達する見込み」と発表しました。\n次に台風が発生すると「台風32号」。32号が発生すれば今世紀初で、1994年以来32年ぶりです。\nhttps://t.co/4tdNvROuXX https://t.co/46b73VMwAw",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Weathernews",
+        "url": "https://weathernews.jp/",
+        "short": "https://t.co/4tdNvROuXX"
+      },
+      {
+        "title": "マリアナ諸島で新たな台風発生予想　次に発生すると「台風32号」　小笠原は影響注意 - ウェザーニュース",
+        "url": "https://weathernews.jp/news/202611/060091/",
+        "short": "https://t.co/4tdNvROuXX",
+        "image": "https://pbs.twimg.com/news_img/2118516934971211776/CHEO2JJ2?format=png&name=orig"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWZ8GzDbAAEVv2R.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2118621984699650270",
+    "url": "https://x.com/itmedia_news/status/2118621984699650270",
+    "author": {
+      "name": "ITmedia NEWS",
+      "handle": "itmedia_news"
+    },
+    "posted_at": "2026-11-06T08:30:17.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "セキュリティ啓発団体に不正アクセス、最大1.5万件か",
+    "summary": "ITmediaによると、セキュリティ啓発団体への不正アクセスで個人情報最大約1.5万件が漏えいした可能性がある。",
+    "text": "セキュリティ啓発団体に不正アクセス　個人情報最大1.5万件漏えいか\nhttps://t.co/4pT5T3ZSoz",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "セキュリティ啓発団体に不正アクセス　個人情報最大1.5万件漏えいか",
+        "url": "https://www.itmedia.co.jp/news/article/2611/06/2000002978/",
+        "short": "https://t.co/4pT5T3ZSoz",
+        "image": "https://pbs.twimg.com/news_img/2118621979750408192/UKH11V1g?format=jpg&name=orig"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2118587450243363246",
+    "url": "https://x.com/securityLab_jp/status/2118587450243363246",
+    "author": {
+      "name": "セキュリティ対策Lab",
+      "handle": "securityLab_jp"
+    },
+    "posted_at": "2026-11-06T06:13:04.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "ロート製薬279万人漏えい、電話認証情報が悪用か",
+    "summary": "セキュリティ対策Labは、ロート製薬の漏えいが電話システムの認証情報悪用によるとし、約279万人分と一部クレカ情報に触れた。",
+    "text": "ロート製薬、サイバー攻撃で279万7,545人の個人情報漏えい、クレカ番号も一部漏洩-電話システムの認証情報を悪用 \n https://t.co/EMnrT8o1M8 \n\n#セキュリティ対策Lab #security #securitynews #セキュリティ #セキュリティニュース",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "合同会社ロケットボーイズ",
+        "url": "https://rocket-boys.co.jp/security-measures-lab/rohto_2797545_9715_phone_account_data_breach_20261106/",
+        "short": "https://t.co/EMnrT8o1M8",
+        "image": "https://pbs.twimg.com/news_img/2118587454739615744/lBDIGJK1?format=png&name=orig"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2118755418675765656",
+    "url": "https://x.com/GoogleDeepMind/status/2118755418675765656",
+    "author": {
+      "name": "Google DeepMind",
+      "handle": "GoogleDeepMind"
+    },
+    "posted_at": "2026-11-06T17:20:31.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "DeepMind: AI agents speed stress-testing of old encryption",
+    "summary": "Google DeepMind shares research where human-guided AI agents accelerate finding weaknesses in outdated encryption schemes; modern key sizes remain out of scope.",
+    "text": "We’re sharing new research demonstrating how AI agents can accelerate the science of stress-testing encryption.\n\nGuided by humans, our models uncovered two major weaknesses in legacy 1024-bit RSA cryptosystems.\n\nOur VP Science @Pushmeet explains more ↓ https://t.co/SqNkBbkih2",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "x.com/pushmeet/statu…",
+        "url": "https://x.com/pushmeet/status/2118752095859794390",
+        "short": "https://t.co/SqNkBbkih2"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2118073665296228863",
+    "url": "https://x.com/AnthropicAI/status/2118073665296228863",
+    "author": {
+      "name": "Anthropic",
+      "handle": "AnthropicAI"
+    },
+    "posted_at": "2026-11-04T20:11:28.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "Anthropic: Claude helped map a bacterial vault particle",
+    "summary": "Anthropic’s biology team describes working with Claude to map the first 3D structure of a vault particle from bacterial life.",
+    "text": "We’re sharing how our biology research team worked with Claude to map the first 3D structure of a vault particle from bacterial life.\n\nVault particles are a longstanding mystery. They are barrel-shaped objects, among the largest protein structures found in our cells. They were first discovered by Leonard Rome and Nancy Kedersha in 1986, but their function remains unknown.\n\nWith Claude, we’ve found results that might bring us closer to solving that mystery.\n\nUntil now, vaults were only known in the cells of complex things like animals and plants. We have shown that similar proteins from bacteria (and the viruses that infect them) can also assemble into vaults. Finding the structures in these simpler forms of life may make it easier to investigate their function in our own cells.\n\nFor our life sciences team, the project was also a demonstration of the potential (and the limitations) of using AI to accelerate science.\n\nIn our full piece, we discuss how Claude was able to dramatically speed up some stages—manually determining the vault particle’s structure would have taken weeks to months of painstaking work, but here it took days. We also discuss how Claude made some simple mistakes along the way, and how we collaborated with our machine learning researchers to address them.\n\nRead more: https://t.co/KowVVCSPp8",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Anthropic science blog",
+        "url": "https://www.anthropic.com"
+      },
+      {
+        "title": "anthropic.com/research/inves…",
+        "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
+        "short": "https://t.co/KowVVCSPp8"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2118412183860351084",
+    "url": "https://x.com/METR_Evals/status/2118412183860351084",
+    "author": {
+      "name": "METR",
+      "handle": "METR_Evals"
+    },
+    "posted_at": "2026-11-05T18:36:37.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "METR assessed whether AI itself is speeding Anthropic R&D",
+    "summary": "METR says a team has worked since August with internal Anthropic information to assess whether AI is accelerating Anthropic’s own R&D risk profile.",
+    "text": "Since August, a team within METR has worked with internal Anthropic information to assess whether AI itself is accelerating AI development.\n\nWe are now publishing a report summarizing the results of this risk assessment.",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "METR risk assessment report",
+        "url": "https://metr.org"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2118498521712316782",
+    "url": "https://x.com/vista8/status/2118498521712316782",
+    "author": {
+      "name": "向阳乔木",
+      "handle": "vista8"
+    },
+    "posted_at": "2026-11-06T00:19:42.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "design",
+    "shelf_life": "evergreen",
+    "tldr": "中文开源字体合集 OSFCC，改录屏字幕用得上",
+    "summary": "vista8分享中文开源字体合集 OSFCC，改造开源录屏软件 Cap 时用来解决中文字幕字体难看的问题。",
+    "text": "中文开源字体合集，太棒了。\n\n改造 Cap 这个录屏软件，发现字幕中文字体很丑，搜了下果然有人已经整理好了。\n\nhttps://t.co/EiKOjrXuMr https://t.co/XkdGvKfDoO",
+    "key_points": [],
+    "action": "Browse OSFCC and pick one CJK font for a side project.",
+    "links": [
+      {
+        "title": "中文开源字体集 Open Source Fonts Collection for Chinese",
+        "url": "https://drxie.github.io/OSFCC/",
+        "short": "https://t.co/EiKOjrXuMr",
+        "image": "https://pbs.twimg.com/news_img/2118498526523183104/SFGHwf1D?format=png&name=orig"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2117987232674136470",
+    "url": "https://x.com/humantransit/status/2117987232674136470",
+    "author": {
+      "name": "Jarrett Walker",
+      "handle": "humantransit"
+    },
+    "posted_at": "2026-11-04T14:28:01.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "world",
+    "shelf_life": "news",
+    "tldr": "Bay Area Measure RTM passes, a US transit funding win",
+    "summary": "humantransit calls SF Bay Area Measure RTM a huge public-transit victory that will resonate across the US after voters funded the struggling system.",
+    "text": "A huge victory for public transit that will resonate across the US.  If Measure RTM in the SF Bay Area had failed, leaders across the country would have said “if transit can’t win in the most liberal metro area in the US, what chance do we have?” 1/. https://t.co/OBw5IFzctL",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "x.com/sfstandard/sta…",
+        "url": "https://twitter.com/sfstandard/status/2117876803389813000",
+        "short": "https://t.co/OBw5IFzctL"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2118692835939832125",
+    "url": "https://x.com/Math_files/status/2118692835939832125",
+    "author": {
+      "name": "Math Files",
+      "handle": "Math_files"
+    },
+    "posted_at": "2026-11-06T13:11:50.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "Moving sofa problem: largest sofa around a unit hallway",
+    "summary": "Math_files restates Leo Moser’s moving sofa problem: the largest shape that can turn a 90° corner in a hallway of width 1.",
+    "text": "What is the largest sofa that can turn a 90° corner in a hallway of width 1?\n\nThis is the moving sofa problem, posed by Leo Moser in 1966.\n\nMathematicians progressively improved the achievable area:\n\nSquare: 1\nSemicircle: π/2 ≈ 1.5708\n\nHammersley (1968): π/2 + 2/π ≈ 2.2074\n\nGerver (1992): ≈ 2.21953166\n\nGerver's intricate shape has 18 boundary sections: 15 curved and 3 straight.\n\nIn November 2024, Jineon Baek presented a 119-page proof that Gerver's sofa is optimal. The result was subsequently formalized in Lean.",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Moving sofa problem",
+        "url": "https://en.wikipedia.org/wiki/Moving_sofa_problem"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2118593245634760960",
+    "url": "https://x.com/Math_files/status/2118593245634760960",
+    "author": {
+      "name": "Math Files",
+      "handle": "Math_files"
+    },
+    "posted_at": "2026-11-06T06:36:05.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "Euler’s 1732 counterexample as centuries-old peer review",
+    "summary": "Math_files notes that in 1732 Euler demolished a Fermat conjecture with a counterexample—peer review, centuries early.",
+    "text": "Mathematics has had peer review for centuries.\n\nIn 1732, Euler demolished Fermat's conjecture with a counterexample. https://t.co/lMRVRqWl3c",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2118735826133635432",
+    "url": "https://x.com/RyanWeather/status/2118735826133635432",
+    "author": {
+      "name": "Ryan Maue",
+      "handle": "RyanWeather"
+    },
+    "posted_at": "2026-11-06T16:02:39.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "RyanWeather: Super El Niño may be strongest in 1,000 years",
+    "summary": "Meteorologist RyanWeather says a Super El Niño is raging across the equatorial Pacific and may be the strongest in about 1,000 years; treat the millennium claim as unverified.",
+    "text": "Super El Niño 🔥is raging across the Equatorial Pacific -- likely the strongest in 1,000 years, and you're alive to witness its magnitude and power.   Shields up!\n\nHowever, this stunning map shows \"cooler blue🟦\" over 2/3rds of the Lower 48 this winter for temperatures --&gt; due to https://t.co/IjjQhcY68o",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2118671172090880450",
+    "url": "https://x.com/PublicDomainRev/status/2118671172090880450",
+    "author": {
+      "name": "The Public Domain Review",
+      "handle": "PublicDomainRev"
+    },
+    "posted_at": "2026-11-06T11:45:45.000Z",
+    "saved_at": "2026-11-07T08:18:26+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "Top the wombat died 156 years ago today",
+    "summary": "Public Domain Review marks the death anniversary of Top, Dante Gabriel Rossetti’s pet wombat, and the Pre-Raphaelite wombat obsession.",
+    "text": "156 years ago #onthisday, Top the wombat died. He was the pet of the poet and artist Dante Gabriel Rossetti who, upon Top's passing, created this self-portrait in mourning. More on Rossetti and co’s curious but longstanding fixation with the #wombat here: https://t.co/LNxnLCcL0Z https://t.co/MESmGNIHmC",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "“O Uommibatto”: How the Pre-Raphaelites Became Obsessed with the Wombat",
+        "url": "https://publicdomainreview.org/essay/o-uommibatto-how-the-pre-raphaelites-became-obsessed-with-the-wombat",
+        "short": "https://t.co/LNxnLCcL0Z",
+        "image": "https://pbs.twimg.com/news_img/2118671222284201984/_xQmWkBb?format=jpg&name=orig"
+      }
+    ],
+    "media": []
   }
 ]

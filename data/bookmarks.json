@@ -1311,5 +1311,200 @@
       }
     ],
     "media": []
+  },
+  {
+    "id": "2118652676133015996",
+    "url": "https://x.com/dillon_mulroy/status/2118652676133015996",
+    "author": {
+      "name": "Dillon Mulroy",
+      "handle": "dillon_mulroy"
+    },
+    "posted_at": "2026-11-06T10:32:15.000Z",
+    "saved_at": "2026-11-07T08:14:42+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Synced AI slop posters list hits ~780 accounts to mute",
+    "summary": "dillon_mulroy says the AI slop posters list is synced with ryanvogel’s and covers about 780 accounts; points an agent at the list to mute and block them daily.",
+    "text": "the ai slop posters list is now fully synced with @ryanvogel’s list - we’re up to ~780 identified accounts making this app worse.\n\nif you haven’t yet, point your agent at the list and have it mute and block the accounts on it daily\n\n https://t.co/p3aL2EvoA2",
+    "key_points": [
+      "List now covers ~780 identified AI slop accounts.",
+      "Suggests having an agent mute and block the list daily."
+    ],
+    "action": "Point an agent at the X list and mute/block those accounts on a daily schedule.",
+    "links": [
+      {
+        "title": "X list: AI slop posters",
+        "url": "https://x.com/i/lists/2116659176894071283",
+        "image": "https://pbs.twimg.com/news_img/2117114183275937793/k65qNL8S?format=png&name=orig",
+        "short": "https://t.co/p3aL2EvoA2"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2118682619206566184",
+    "url": "https://x.com/yoku_deckcase/status/2118682619206566184",
+    "author": {
+      "name": "yoku.",
+      "handle": "yoku_deckcase"
+    },
+    "posted_at": "2026-11-06T12:31:14.000Z",
+    "saved_at": "2026-11-07T08:14:42+09:00",
+    "topic": "other",
+    "shelf_life": "news",
+    "tldr": "Live Pocket card lottery closes today via DeckCase",
+    "summary": "Japanese TCG lottery reminder: Live Pocket draws close today, with a DeckCase link for shops that still have entry forms.",
+    "text": "Live Pocket本日抽選締め切りのもです  \nお忘れなく！\n\nリンクをまだお持ちでない方はこちらから https://t.co/mffT3tnmjP \n\n#ポケカ #ポケカ抽選 \n#ワンピースカード #ワンピースカード抽選 #30thCELEBRATION #HeroinesEditionvol2 https://t.co/aHul1evEip",
+    "key_points": [
+      "Live Pocket lottery deadline is today.",
+      "DeckCase aggregates shop lottery links."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "DeckCase",
+        "url": "https://deckcase.jp",
+        "short": "https://t.co/mffT3tnmjP"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWcSmYBa4AARWH1.jpg",
+        "alt": "Live Pocket lottery reminder graphic",
+        "link": "https://t.co/aHul1evEip"
+      }
+    ]
+  },
+  {
+    "id": "2118676252387410262",
+    "url": "https://x.com/camsoft2000/status/2118676252387410262",
+    "author": {
+      "name": "camsoft2000",
+      "handle": "camsoft2000"
+    },
+    "posted_at": "2026-11-06T12:05:56.000Z",
+    "saved_at": "2026-11-07T08:14:42+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Build agent apps CLI-first so agents can verify behavior",
+    "summary": "camsoft2000 argues that agent-built apps should expose a CLI first so the agent can fully test behavior, logic, and state before any frontend work.",
+    "text": "If you're building an app using agents, build a CLI first, do the frontend last. Agent should be able to fully test and verify app behaviour, logic, and state using the CLI. Once the app is proven to work via the CLI then move onto building the app frontend.",
+    "key_points": [
+      "CLI lets an agent test behavior, logic, and state end to end.",
+      "Ship the frontend only after the CLI path is proven."
+    ],
+    "action": "On your next agent-built app, expose a CLI for the core flows before writing UI.",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2118357855782965560",
+    "url": "https://x.com/ZinkLu2/status/2118357855782965560",
+    "author": {
+      "name": "ZinkLu",
+      "handle": "ZinkLu2"
+    },
+    "posted_at": "2026-11-05T15:00:44.000Z",
+    "saved_at": "2026-11-07T08:14:42+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Handheld video of Ryo Lu's AIE Shanghai talk",
+    "summary": "ZinkLu2 posts handheld video of ryolu_'s AI Engineer 2026 Shanghai talk, calling it the best day-1 session and asking viewers to watch rather than read a summary.",
+    "text": "So here it is — @ryolu_ 's talk at @aiDotEngineer  2026 Shanghai.\n\nI shot it handheld on a Xiaomi 15 Ultra, so there's some shake; I fixed as much of it as I could in CapCut. Handheld footage just isn't going to be sharp or steady.\n\nStill, it's the best talk I saw on day 1 of AIE — which is why I'm not posting a text summary. Watch for yourself.\n\nI missed the first minute or so. Ryo opens with the excitement of what AI makes possible, and how seeing what others are building can quickly turn that excitement into anxiety about falling behind.",
+    "key_points": [
+      "Ryo Lu spoke at AI Engineer 2026 Shanghai.",
+      "Poster prefers raw talk video over a written summary."
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2118352504065060864/img/WqnFbRnZ3tWtOTKg.jpg",
+        "alt": "Handheld video of Ryo Lu talk at AI Engineer 2026 Shanghai"
+      }
+    ]
+  },
+  {
+    "id": "2118317430665613741",
+    "url": "https://x.com/EianLu/status/2118317430665613741",
+    "author": {
+      "name": "Eian",
+      "handle": "EianLu"
+    },
+    "posted_at": "2026-11-05T12:20:06.000Z",
+    "saved_at": "2026-11-07T08:14:42+09:00",
+    "topic": "other",
+    "shelf_life": "news",
+    "tldr": "EianLu shares an X article with huge engagement",
+    "summary": "EianLu posts a link-only X article that drew tens of thousands of likes; the article body was not readable from the box, so treat the claim as the link itself.",
+    "text": "https://t.co/IjmUF2hOCn",
+    "key_points": [
+      "Link-only post to an X article.",
+      "Full article body unavailable from the box."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "X article linked by EianLu",
+        "url": "https://x.com/i/article/2118298893238845441",
+        "short": "https://t.co/IjmUF2hOCn"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2118290984924856713",
+    "url": "https://x.com/yeko_L/status/2118290984924856713",
+    "author": {
+      "name": "yeko @LivLiv",
+      "handle": "yeko_L"
+    },
+    "posted_at": "2026-11-05T10:35:01.000Z",
+    "saved_at": "2026-11-07T08:14:42+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "LivLiv Player open-sourced: 2.5D web characters, 34KB",
+    "summary": "yeko_L open-sources LivLiv Player, a ~34 KB gzipped 2.5D web character player with lip sync and webcam face tracking, plus 21 featured characters.",
+    "text": "We open-sourced LivLiv Player, a 2.5D web character player, ~34 KB gzipped, with lip sync and webcam face tracking. Easy to embed in your site or app.\n\nWe also open-sourced our 21 featured characters, carefully made with @livliv_ai , are ready to use.\n\nhttps://t.co/wdB2VMIA6V",
+    "key_points": [
+      "Player is ~34 KB gzipped with lip sync and face tracking.",
+      "21 featured characters are open-sourced for embedding."
+    ],
+    "action": "Clone livliv-dev/player and embed one character on a test page.",
+    "links": [
+      {
+        "title": "GitHub: livliv-dev/player",
+        "url": "https://github.com/livliv-dev/player",
+        "short": "https://t.co/wdB2VMIA6V"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2118289613865545728/img/HszrhRlY3SB5Da1l.jpg",
+        "alt": "LivLiv Player demo with lip sync and face tracking"
+      }
+    ]
+  },
+  {
+    "id": "2118352452923912419",
+    "url": "https://x.com/patrickc/status/2118352452923912419",
+    "author": {
+      "name": "Patrick Collison",
+      "handle": "patrickc"
+    },
+    "posted_at": "2026-11-05T14:39:16.000Z",
+    "saved_at": "2026-11-07T08:14:42+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Models excel at custom spaced-repetition apps for you",
+    "summary": "patrickc notes models are strong at building personal spaced-repetition apps with domain-tuned schedulers and explanations for items you keep missing.",
+    "text": "The models are very good at creating custom spaced repetition apps with algorithms adapted to you and the problem domain (\"review my learning and improve the efficiency of your scheduler\") plus tailored explanations for anything that you consistently get wrong.",
+    "key_points": [
+      "Models can tailor SRS algorithms to you and the domain.",
+      "They can also explain items you consistently get wrong."
+    ],
+    "action": "Ask an agent to build a tiny SRS app for one topic you are learning.",
+    "links": [],
+    "media": []
   }
 ]

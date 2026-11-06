@@ -1,0 +1,427 @@
+{
+  "date": "2026-11-07",
+  "title": "The defender's window",
+  "subtitle": "GPT-6 Cyber hunts kernel bugs, builders demand proof, and Japan’s leak week keeps rolling",
+  "editor_note": "Agents attack and defend on the same day. Trust what you can check.",
+  "theme": {
+    "palette": "plum",
+    "fonts": "serif-sans",
+    "accent": "#7c3aed"
+  },
+  "sections": [
+    {
+      "type": "cover-story",
+      "scan": "2118390190246879554",
+      "kicker": "Security",
+      "headline": "GPT-6 Cyber opens a defender’s window",
+      "deck": "OpenAI’s security model powered a Linux kernel hunt and is rolling out via Daybreak Red.",
+      "variant": "split",
+      "why": "Primary-source security models are now part of the stack you run agents against.",
+      "source_label": "OpenAI"
+    },
+    {
+      "type": "corner",
+      "corner": "brief",
+      "deck": "What moved since Wednesday."
+    },
+    {
+      "type": "brief-grid",
+      "variant": "cards",
+      "headline": "Agents and memory",
+      "columns": 2,
+      "items": [
+        {
+          "scan": "2118063143167693011",
+          "headline": "Claude Code subagents cheaper",
+          "why": "Background agents stop burning the limit on status refreshes.",
+          "source_label": "ClaudeDevs"
+        },
+        {
+          "scan": "2118795192090386454",
+          "headline": "Cloud sessions set up repos",
+          "why": "Less yak-shaving before a Claude Code cloud run.",
+          "source_label": "ClaudeDevs"
+        },
+        {
+          "scan": "2118458629091426304",
+          "headline": "Cursor ships live app links",
+          "why": "Agent demos leave localhost with security checks.",
+          "source_label": "Cursor"
+        },
+        {
+          "scan": "2118814753154064501",
+          "headline": "Claude “dreaming” memory",
+          "why": "Anthropic documents how agents organize experience.",
+          "source_label": "Anthropic"
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "variant": "wide",
+      "art": "interlude-wide.jpg",
+      "art_alt": "A row of sealed cells with one mint glow",
+      "caption": "One open cell"
+    },
+    {
+      "type": "corner",
+      "corner": "lead",
+      "deck": "948 kernel LPEs, then a gated model."
+    },
+    {
+      "type": "feature",
+      "scan": "2118119451401048497",
+      "headline": "One run, 948 Linux privilege escalations",
+      "deck": "OpenAI’s discovery–exploit–patch pipeline burned about $1.2M in API credits.",
+      "why": "Treat the count as a research claim until you read the primary.",
+      "source_label": "OpenAI"
+    },
+    {
+      "type": "pull-quote",
+      "scan": "2118390190246879554",
+      "quote": "GPT-6 Cyber is available to select Daybreak Red customers and we are expanding access over time.",
+      "variant": "bar",
+      "span": "half"
+    },
+    {
+      "type": "sidebar-box",
+      "bookmark": "2118652676133015996",
+      "headline": "Try tonight",
+      "variant": "note",
+      "span": "half"
+    },
+    {
+      "type": "interlude",
+      "variant": "square",
+      "art": "interlude-square.jpg",
+      "art_alt": "Nested rounded seals with a gold core"
+    },
+    {
+      "type": "corner",
+      "corner": "your-saves",
+      "deck": "Every new bookmark since Wednesday."
+    },
+    {
+      "type": "numbered-list",
+      "variant": "compact",
+      "headline": "Saved this window",
+      "items": [
+        {
+          "bookmark": "2118652676133015996",
+          "why": "A mute list you can point an agent at daily.",
+          "tags": [
+            "from-your-saves"
+          ]
+        },
+        {
+          "bookmark": "2118676252387410262",
+          "why": "CLI-first so agents can prove the app before UI.",
+          "tags": [
+            "from-your-saves"
+          ]
+        },
+        {
+          "bookmark": "2118290984924856713",
+          "why": "Tiny embeddable 2.5D characters with lip sync.",
+          "tags": [
+            "from-your-saves"
+          ]
+        },
+        {
+          "bookmark": "2118352452923912419",
+          "why": "Personal SRS apps are a sweet spot for models.",
+          "tags": [
+            "from-your-saves"
+          ]
+        },
+        {
+          "bookmark": "2118357855782965560",
+          "why": "Handheld AIE Shanghai talk worth watching raw.",
+          "tags": [
+            "from-your-saves"
+          ]
+        },
+        {
+          "bookmark": "2118317430665613741",
+          "why": "Link-only X article; body unread from the box.",
+          "tags": [
+            "from-your-saves",
+            "unverified"
+          ]
+        },
+        {
+          "bookmark": "2118682619206566184",
+          "why": "TCG lottery reminder you actually bookmarked.",
+          "tags": [
+            "from-your-saves"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "bookmark": "2118676252387410262",
+      "variant": "aside",
+      "headline": "Build the CLI before the frontend",
+      "deck": "If an agent can’t verify state from a CLI, the UI is theater.",
+      "art": "cli-art.jpg",
+      "art_alt": "Dark panel with a gold verified cell",
+      "why": "Matches today’s prove-it mood without waiting on Cyber access.",
+      "tags": [
+        "from-your-saves"
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "field-notes",
+      "deck": "Builders arguing about factories, limits, and taste."
+    },
+    {
+      "type": "brief-grid",
+      "variant": "plain",
+      "headline": "From the timeline and scan",
+      "columns": 2,
+      "items": [
+        {
+          "scan": "2118613050462728659",
+          "headline": "No software factory needed",
+          "why": "Taste and review habits beat the slogan.",
+          "source_label": "poteto"
+        },
+        {
+          "scan": "2118059907949690955",
+          "headline": "DeepSeek Flash on subagents",
+          "why": "Cost split: cheap scouts, Opus on the primary.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "thdxr"
+        },
+        {
+          "scan": "2118411953958010957",
+          "headline": "Lint-cap files before agent runs",
+          "why": "Cheap constraint that shapes agent output.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "kunchenguid"
+        },
+        {
+          "scan": "2118822238262853904",
+          "headline": "Creator apps ship built-in MCPs",
+          "why": "Agents drive tools the host already trusts.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "trq212"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "scan": "2118613050462728659",
+      "variant": "aside",
+      "headline": "Soft skills survive the factory pitch",
+      "art": "taste-art.jpg",
+      "art_alt": "Soft field of dots with one gold point",
+      "why": "A useful counterweight to Cyber-scale automation talk.",
+      "source_label": "poteto"
+    },
+    {
+      "type": "interlude",
+      "variant": "quiet",
+      "art": "interlude-quiet.jpg",
+      "art_alt": "A thin night beam with one gold point"
+    },
+    {
+      "type": "corner",
+      "corner": "japan-desk",
+      "label": "日本から",
+      "deck": "漏えいと障害、そして立冬の寒気。"
+    },
+    {
+      "type": "numbered-list",
+      "variant": "compact",
+      "headline": "漏えい・障害・台風",
+      "items": [
+        {
+          "scan": "2118653423679873530",
+          "headline": "ロート製薬 約280万人",
+          "why": "通話音声やクレカ情報を含むとの報道。",
+          "source_label": "ITmedia"
+        },
+        {
+          "scan": "2118646084570673617",
+          "headline": "パ・リーグ5球団 メール約2.5万件",
+          "why": "球団メールの漏えいが続報。",
+          "source_label": "NHK"
+        },
+        {
+          "scan": "2118581413964657046",
+          "headline": "128信用金庫でATM障害",
+          "why": "共同センター通信障害。攻撃ではないと説明。",
+          "source_label": "NHK"
+        },
+        {
+          "scan": "2118517168732320045",
+          "headline": "台風32号発生の見込み",
+          "why": "1994年以来の32号になる可能性。",
+          "source_label": "WNI"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "adjacent",
+      "deck": "One step out: crypto research, biology, evals, type."
+    },
+    {
+      "type": "brief-grid",
+      "variant": "cards",
+      "headline": "Lab, runtime, craft",
+      "columns": 2,
+      "items": [
+        {
+          "scan": "2118402103907655903",
+          "headline": "thsottiaux: Cyber in its own league",
+          "why": "Cyber lead frames Daybreak Red access.",
+          "source_label": "OpenAI"
+        },
+        {
+          "scan": "2118755418675765656",
+          "headline": "DeepMind agents stress-test old RSA",
+          "why": "Human-guided agents on legacy 1024-bit crypto only.",
+          "source_label": "DeepMind"
+        },
+        {
+          "scan": "2118073665296228863",
+          "headline": "Claude maps a bacterial vault particle",
+          "why": "Biology team uses Claude on a decades-old mystery.",
+          "source_label": "Anthropic"
+        },
+        {
+          "scan": "2118412183860351084",
+          "headline": "METR: is AI speeding Anthropic R&D?",
+          "why": "Outside eval of automated R&D risk claims.",
+          "source_label": "METR"
+        },
+        {
+          "scan": "2118124944928432327",
+          "headline": "ChatGPT Images 2.6 + GIFs",
+          "why": "Image stack gets GIFs, refs, and faster API models.",
+          "source_label": "OpenAI"
+        },
+        {
+          "scan": "2118830274431873379",
+          "headline": "GitHub: 5,000 agents on one repo",
+          "why": "Storage claims matter if you parallelize agents.",
+          "source_label": "GitHub"
+        },
+        {
+          "scan": "2118605445543928166",
+          "headline": "Bun hits 50M monthly downloads",
+          "why": "Runtime momentum beside the agent wave.",
+          "source_label": "Bun"
+        },
+        {
+          "scan": "2118498521712316782",
+          "headline": "中文开源字体合集 OSFCC",
+          "why": "CJK font pack useful when agents ship UI.",
+          "source_label": "vista8",
+          "tags": [
+            "new-voice"
+          ]
+        },
+        {
+          "scan": "2118687605776597482",
+          "headline": "Make the UI feel faster",
+          "why": "ease-out and instant feedback, no new model required.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "emilkowalski"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "open-window",
+      "deck": "Cities, math, weather—chosen off your usual beat."
+    },
+    {
+      "type": "brief-grid",
+      "variant": "cards",
+      "headline": "Worth knowing anyway",
+      "columns": 2,
+      "items": [
+        {
+          "scan": "2117987232674136470",
+          "headline": "Bay Area Measure RTM passes",
+          "why": "A transit funding win with national echo.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "humantransit"
+        },
+        {
+          "scan": "2118692835939832125",
+          "headline": "The moving sofa problem",
+          "why": "A hallway corner puzzle still teaches shape.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "Math_files"
+        },
+        {
+          "scan": "2118593245634760960",
+          "headline": "Euler’s 1732 counterexample",
+          "why": "Peer review, centuries early.",
+          "tags": [
+            "new-to-you",
+            "unverified"
+          ],
+          "source_label": "Math_files"
+        },
+        {
+          "scan": "2118735826133635432",
+          "headline": "Super El Niño claim",
+          "why": "Strong Pacific event; the 1,000-year claim is unverified.",
+          "tags": [
+            "new-to-you",
+            "unverified"
+          ],
+          "source_label": "RyanWeather"
+        },
+        {
+          "scan": "2118621984699650270",
+          "headline": "Japan security-org breach claim",
+          "why": "Outside your stack, but shows defenders get hit too.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "ITmedia"
+        }
+      ]
+    },
+    {
+      "type": "image-of-the-day",
+      "art": "iotd.jpg",
+      "art_alt": "Night grid of sealed windows with one cell lit gold",
+      "headline": "One lit window",
+      "caption": "Find the crack, patch it, leave the rest sealed."
+    },
+    {
+      "type": "corner",
+      "corner": "kicker"
+    },
+    {
+      "type": "closer",
+      "scan": "2118671172090880450",
+      "variant": "text",
+      "headline": "Top the wombat, 156 years gone",
+      "note": "Rossetti’s pet still outranks most timelines.",
+      "why": "A Pre-Raphaelite pause after a week of exploits.",
+      "source_label": "Public Domain Review"
+    }
+  ]
+}
