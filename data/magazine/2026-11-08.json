@@ -1,0 +1,336 @@
+{
+  "date": "2026-11-08",
+  "title": "Agents take the browser",
+  "subtitle": "OpenCode Browse drives your signed-in tabs, builders ship generative UI, and Aichi wakes to a 5-strong quake",
+  "editor_note": "Agents left the IDE for your real Chrome. Keep the keys for login and 2FA.",
+  "theme": {
+    "palette": "ocean",
+    "fonts": "sans-serif",
+    "accent": "#0ea5e9"
+  },
+  "sections": [
+    {
+      "type": "cover-story",
+      "scan": "2118895128152621153",
+      "kicker": "Lead",
+      "headline": "Agents drive your real browser",
+      "deck": "OpenCode Browse pairs MCP with a Chromium extension so agents use your tabs, logins, and extensions—on device.",
+      "variant": "split",
+      "art": "lead-browse.jpg",
+      "art_alt": "Abstract browser panes with one shared key returning to a human hand silhouette made of shapes",
+      "why": "On-device browser control is the missing piece for agents that need real logins.",
+      "source_label": "OpenCode"
+    },
+    {
+      "type": "corner",
+      "corner": "brief",
+      "deck": "What moved overnight."
+    },
+    {
+      "type": "brief-grid",
+      "variant": "cards",
+      "headline": "Agents, secrets, and craft",
+      "columns": 2,
+      "items": [
+        {
+          "scan": "2118960196987080801",
+          "headline": "Claude Code can save secrets to GitHub",
+          "why": "“Don’t ask again” wrote passwords into settings.local.json—check your repos.",
+          "source_label": "The Hacker News"
+        },
+        {
+          "scan": "2119159746393731109",
+          "headline": "Theo points remote agents at Omarchy",
+          "why": "He says it already covers most of what t3os was chasing.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "theo"
+        },
+        {
+          "scan": "2118856239719608353",
+          "headline": "Generative UI for chat agents",
+          "why": "Typed cards stream from LLM to Slack and Teams.",
+          "source_label": "Vercel"
+        },
+        {
+          "scan": "2119114537442189652",
+          "headline": "TristanTube in three minutes",
+          "why": "Karpathy one-shotted a 47K-video nerd TV with Claude Code.",
+          "source_label": "karpathy"
+        },
+        {
+          "scan": "2118957088257056848",
+          "headline": "Claude ↔ Codex as Stack Overflow",
+          "why": "Multi-model copy-paste is the new everyday craft.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "theo"
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "variant": "wide",
+      "art": "interlude-wide.jpg",
+      "art_alt": "A band of soft ocean panes with one open tab glow",
+      "caption": "One open tab"
+    },
+    {
+      "type": "corner",
+      "corner": "lead",
+      "deck": "Your tabs, their hands—keys stay with you."
+    },
+    {
+      "type": "feature",
+      "scan": "2118895128152621153",
+      "headline": "Browse hands control back for 2FA",
+      "deck": "MCP plus a Chromium extension; agents work in background tabs and return the session for logins and payments.",
+      "why": "Useful when you refuse to wire accounts into a cloud browser agent.",
+      "source_label": "OpenCode"
+    },
+    {
+      "type": "interlude",
+      "variant": "square",
+      "art": "interlude-square.jpg",
+      "art_alt": "Nested soft rectangles like browser chrome around a calm center"
+    },
+    {
+      "type": "corner",
+      "corner": "your-saves",
+      "deck": "Bookmarked since yesterday."
+    },
+    {
+      "type": "feature",
+      "bookmark": "2118993073455698264",
+      "headline": "Components of agent memory",
+      "deck": "Anthropic’s research post on how agents store, dream, and reuse experience.",
+      "art": "save-memory.jpg",
+      "art_alt": "Soft layered cards drifting into a calm archive shelf of light",
+      "why": "Pairs with Browse: memory plus real-world tools.",
+      "tags": [
+        "from-your-saves"
+      ],
+      "source_label": "Anthropic"
+    },
+    {
+      "type": "sidebar-box",
+      "bookmark": "2118993073455698264",
+      "headline": "Try tonight",
+      "variant": "note"
+    },
+    {
+      "type": "corner",
+      "corner": "field-notes",
+      "deck": "From the timeline and the pack."
+    },
+    {
+      "type": "brief-grid",
+      "variant": "plain",
+      "headline": "On-device and remote",
+      "columns": 2,
+      "items": [
+        {
+          "scan": "2118895958305980490",
+          "headline": "Dax: must-have on-device Browse",
+          "why": "Keeps accounts off centralized cloud agents.",
+          "source_label": "thdxr"
+        },
+        {
+          "scan": "2118973784162238748",
+          "headline": "Agent and browsers on different machines",
+          "why": "Remote servers can still drive your laptop Chrome.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "thdxr"
+        },
+        {
+          "scan": "2119145535580012732",
+          "headline": "Rex: files between devices",
+          "why": "Timeline build post on cross-device agent-adjacent UX.",
+          "tags": [
+            "unverified",
+            "new-voice"
+          ],
+          "source_label": "almonk"
+        },
+        {
+          "scan": "2119111184528060576",
+          "headline": "Talk with your agent",
+          "why": "Collaborative tone over barked prompts.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "kentcdodds"
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "variant": "quiet",
+      "art": "interlude-quiet.jpg",
+      "art_alt": "A thin horizontal beam of light across a deep blue field",
+      "caption": "Quiet line"
+    },
+    {
+      "type": "corner",
+      "corner": "japan-desk",
+      "label": "日本から",
+      "deck": "地震と情報漏えい。"
+    },
+    {
+      "type": "numbered-list",
+      "variant": "compact",
+      "headline": "震度5強と漏えい",
+      "items": [
+        {
+          "scan": "2119099823324627117",
+          "headline": "愛知で震度5強",
+          "why": "午前1時すぎ、津波の心配なしとNHK。",
+          "source_label": "NHK"
+        },
+        {
+          "scan": "2119203551671185715",
+          "headline": "京セラ美術館・二条城チケット情報",
+          "why": "ARTPASSとアソビュー経由で流出の可能性。",
+          "source_label": "securityLab_jp"
+        },
+        {
+          "scan": "2119188541997822139",
+          "headline": "ウィル約10万件メール漏洩の恐れ",
+          "why": "アララ攻撃の二次被害として報じられた。",
+          "source_label": "securityLab_jp"
+        },
+        {
+          "scan": "2119188463891492948",
+          "headline": "科研費電子申請に不正アクセス",
+          "why": "10/29から停止、個人情報漏えいは未確認。",
+          "source_label": "securityLab_jp"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "adjacent",
+      "deck": "One step out."
+    },
+    {
+      "type": "brief-grid",
+      "variant": "cards",
+      "headline": "Terminal, design, proof",
+      "columns": 2,
+      "items": [
+        {
+          "scan": "2119179547468005432",
+          "headline": "Security architecture over toys",
+          "why": "Brockman flags fundamentals as agents spread.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "gdb"
+        },
+        {
+          "scan": "2119132202952798369",
+          "headline": "Claude Code builds a furniture BOM",
+          "why": "Agents leave code and hit FreeCAD and suppliers.",
+          "source_label": "levelsio",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2118996782390575175",
+          "headline": "Libghostty 1.0",
+          "why": "Embeddable Ghostty terminal library ships.",
+          "source_label": "jedisct1"
+        },
+        {
+          "scan": "2119031260404183158",
+          "headline": "AI raised the design floor",
+          "why": "Obvious mistakes got rarer; craft has to go deeper.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "emilkowalski"
+        },
+        {
+          "scan": "2119031868205003061",
+          "headline": "Quantum blow to Einstein’s reality",
+          "why": "Quanta on a theorem that undercuts everyday realism.",
+          "source_label": "Quanta"
+        },
+        {
+          "scan": "2119181347130618289",
+          "headline": "Four pieces to square a triangle",
+          "why": "124-year geometry question: three pieces aren’t enough.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Math_files"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "open-window",
+      "deck": "Worth knowing, whatever you work on."
+    },
+    {
+      "type": "brief-grid",
+      "variant": "cards",
+      "headline": "Law, energy, shape",
+      "columns": 2,
+      "items": [
+        {
+          "scan": "2119199972247720336",
+          "headline": "Condorcet’s paradox has a shape",
+          "why": "Voting loops meet topology—law’s math corner.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "Quanta"
+        },
+        {
+          "scan": "2118852220082880651",
+          "headline": "Bar exam scandal, now criminal",
+          "why": "US legal gatekeeping scandal escalates past civil penalties.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "Reuters"
+        },
+        {
+          "scan": "2119097734107918819",
+          "headline": "Coal growth is almost all China",
+          "why": "Rest-of-world coal flat since the late 1980s.",
+          "tags": [
+            "new-to-you",
+            "unverified"
+          ],
+          "source_label": "OurWorldInData"
+        }
+      ]
+    },
+    {
+      "type": "image-of-the-day",
+      "art": "iotd.jpg",
+      "art_alt": "Soft ocean-blue panes overlapping like browser tabs with one warm amber handoff key",
+      "headline": "Handoff",
+      "caption": "Agents take the tabs; you keep the keys."
+    },
+    {
+      "type": "corner",
+      "corner": "kicker",
+      "deck": "One odd close."
+    },
+    {
+      "type": "closer",
+      "scan": "2119154426749276275",
+      "headline": "Teeth by steam power, 1894",
+      "note": "An envelope for a Southampton dentist, with the day’s gentlest tech demo.",
+      "variant": "photo"
+    }
+  ]
+}

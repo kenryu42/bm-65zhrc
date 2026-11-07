@@ -17073,5 +17073,666 @@
       }
     ],
     "media": []
+  },
+  {
+    "id": "2118895128152621153",
+    "url": "https://x.com/opencode/status/2118895128152621153",
+    "author": {
+      "name": "OpenCode",
+      "handle": "opencode"
+    },
+    "posted_at": "2026-11-07T02:35:40.000Z",
+    "saved_at": "2026-11-08T08:11:27+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "OpenCode Browse lets agents drive your real browser",
+    "summary": "OpenCode shipped Browse: an MCP plus Chromium extension so agents can control your real tabs, logins, and extensions on-device, with handoffs for 2FA and payments.",
+    "text": "OpenCode Browse is now available\n\nit lets your agent control your real browser with your tabs and logins and extensions\n\nhttps://t.co/tJUu3TapR0",
+    "key_points": [
+      "Agents use your signed-in Chromium session instead of a blank cloud browser.",
+      "Handoffs return control for login, 2FA, and payments."
+    ],
+    "action": "Run npx @opencode/browse install and pair one agent with your Chrome profile.",
+    "links": [
+      {
+        "title": "OpenCode Browse product page",
+        "url": "https://opencode.ai/product/browse",
+        "short": "https://t.co/tJUu3TapR0"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2118895958305980490",
+    "url": "https://x.com/thdxr/status/2118895958305980490",
+    "author": {
+      "name": "dax",
+      "handle": "thdxr"
+    },
+    "posted_at": "2026-11-07T02:38:58.000Z",
+    "saved_at": "2026-11-08T08:11:27+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Dax: Browse is a must-have for on-device agents",
+    "summary": "OpenCode’s Dax says Browse lets any agent do real browser work on-device without wiring accounts into a cloud agent, and calls the stealth cat-and-mouse game underway.",
+    "text": "this is a must have at this point, it lets opencode (or any agent) pretty much do anything in your life\n\nall while keeping everything on device without connecting any of your accounts to some centralized cloud agent\n\nryan also made it stealthy af, cat and mouse game begins now https://t.co/k6BzFftR5P",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "OpenCode Browse announcement",
+        "url": "https://x.com/opencode/status/2118895128152621153",
+        "short": "https://t.co/k6BzFftR5P"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2118973784162238748",
+    "url": "https://x.com/thdxr/status/2118973784162238748",
+    "author": {
+      "name": "dax",
+      "handle": "thdxr"
+    },
+    "posted_at": "2026-11-07T07:48:13.000Z",
+    "saved_at": "2026-11-08T08:11:27+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Browse can run agent and browsers on different machines",
+    "summary": "OpenCode Browse supports a remote agent orchestrating browsers on a desktop or laptop, useful when the agent runs on a server.",
+    "text": "btw OpenCode Browse supports running an agent and your browsers on different machines\n\nhad to implement this since i use a remote server, it can still orchestrate browsers on my desktop and laptop",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2118856239719608353",
+    "url": "https://x.com/rauchg/status/2118856239719608353",
+    "author": {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg"
+    },
+    "posted_at": "2026-11-07T00:01:08.000Z",
+    "saved_at": "2026-11-08T08:11:27+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Vercel streams generative UI from Chat SDK agents",
+    "summary": "Rauch says combining AI SDK, Chat SDK, and json-render lets conversational agents stream typed UI cards to Slack, Teams, and other Chat SDK platforms.",
+    "text": "Generative UI for conversational agents.\n\nCombining @aisdk with Chat SDK and 𝚓𝚜𝚘𝚗-𝚛𝚎𝚗𝚍𝚎𝚛, you can go straight from LLM to UI on platforms like Slack and Teams.\n\nI believe this will become the dominant Human-Agent Interaction (HAI) paradigm:\nhttps://t.co/MHxtLyoy7t https://t.co/tRgxRi5Hey",
+    "key_points": [
+      "Typed catalogs render native cards on Slack and Teams from agent output."
+    ],
+    "action": "Read Vercel’s json-render + Chat SDK changelog and try one Slack card catalog.",
+    "links": [
+      {
+        "title": "Chat SDK agents stream generative UI with json-render",
+        "url": "https://vercel.com/changelog/json-render-and-chat-sdk-agents",
+        "short": "https://t.co/MHxtLyoy7t",
+        "image": "https://pbs.twimg.com/news_img/2118849240093114368/4dFcwrv5?format=png&name=orig"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2118855022205394944/img/n1xesw87UlaiDiUo.jpg",
+        "alt": "Demo of generative UI streaming to chat platforms",
+        "link": "https://t.co/tRgxRi5Hey"
+      }
+    ]
+  },
+  {
+    "id": "2119159746393731109",
+    "url": "https://x.com/theo/status/2119159746393731109",
+    "author": {
+      "name": "Theo - t3.gg",
+      "handle": "theo"
+    },
+    "posted_at": "2026-11-07T20:07:10.000Z",
+    "saved_at": "2026-11-08T08:11:27+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Theo points remote agents at Omarchy instead of t3os",
+    "summary": "Theo says Omarchy already covers most agent capabilities he wanted in t3os and recommends it for remote agents while t3os waits.",
+    "text": "Idk when I’ll have the time to finalize t3os. Sorry for those still waiting.\n\nThe more I benchmark, the more I realize Omarchy has almost all the agent capabilities I am trying to bake in. It’s a really good choice for remote agents, and you should probably use it.",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2119132202952798369",
+    "url": "https://x.com/levelsio/status/2119132202952798369",
+    "author": {
+      "name": "@levelsio",
+      "handle": "levelsio"
+    },
+    "posted_at": "2026-11-07T18:17:43.000Z",
+    "saved_at": "2026-11-08T08:11:27+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Claude Code designs furniture and a bill of materials",
+    "summary": "Levelsio shows Claude Code designing furniture part-by-part with a supplier BOM, arguing agents cut out brand markups for DIY builds.",
+    "text": "Claude Code can design furniture part by part and then give you a bill of materials to order each part and put it together yourself \n\nAnd way cheaper than big interior brands sell you their furniture\n\nFurnishing my house I discovered how absolutely insane prices are for the most basic cheap materials put together with a fancy brand tied to it\n\nOne shop had a sofa for $30,000 😂\n\nI think with Opus 5.5 and other models easily operating 3d programs like Blender and FreeCAD (both free) it makes more sense to cut out the middle man and go straight to suppliers and design and build your own furniture\n\nWhich in a way makes customers more powerful (they can get exactly what they want and usually for cheaper without the markup)\n\nAnyway @theannalux designed this table from scratch, she's not a furniture designer, not a coder, she just had an idea of a style and worked with Claude Code in the terminal (far superior to the app I will keep saying this)\n\nIf you design your own furniture and buy the raw materials directly, you can save 85% compared to premium brands like Poliform\n\nThat means the $30,000 sofa becomes $4,500! And the $8,000 dinner table becomes just $1,200!\n\nYou can see where the idea comes from that AI will make everything 5x to 20x cheaper, and it's already starting!",
+    "key_points": [
+      "Non-coders are driving FreeCAD/Blender through Claude Code for real builds."
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2119131991022972928/img/NrO-cEreJCncecoi.jpg",
+        "alt": "Video of Claude Code furniture design"
+      }
+    ]
+  },
+  {
+    "id": "2119114537442189652",
+    "url": "https://x.com/karpathy/status/2119114537442189652",
+    "author": {
+      "name": "Andrej Karpathy",
+      "handle": "karpathy"
+    },
+    "posted_at": "2026-11-07T17:07:31.000Z",
+    "saved_at": "2026-11-08T08:11:27+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Karpathy one-shots TristanTube with Claude Code",
+    "summary": "Karpathy turned Tristan Hume’s YouTube tier list into TristanTube—47K nerdy videos plus TV mode—one-shotted with Claude Code in three minutes.",
+    "text": "Earlier this week Tristan published his top YouTube channels:\nhttps://t.co/NZ3UCNo6cT\nWhich looked excellent so clearly I had to turn it into TristanTube:\nhttps://t.co/l0KyW1WdNH\n47K super nerdy videos +TV mode for laid back watching. (One-shotted with Claude Code in 3 minutes) https://t.co/FZU0ltwVxL",
+    "key_points": [],
+    "action": "Open TristanTube and skim one S-tier channel from Tristan’s list.",
+    "links": [
+      {
+        "title": "Tristan Hume YouTube tier list 2026",
+        "url": "https://thume.ca/2026/11/01/youtube-tier-list-2026/",
+        "short": "https://t.co/NZ3UCNo6cT",
+        "image": "https://pbs.twimg.com/news_img/2119114538713071616/70cdJzbD?format=jpg&name=orig"
+      },
+      {
+        "title": "TristanTube",
+        "url": "https://karpathy.ai/tristan-tube/",
+        "short": "https://t.co/l0KyW1WdNH"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119179547468005432",
+    "url": "https://x.com/gdb/status/2119179547468005432",
+    "author": {
+      "name": "Greg Brockman",
+      "handle": "gdb"
+    },
+    "posted_at": "2026-11-07T21:25:51.000Z",
+    "saved_at": "2026-11-08T08:11:27+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "Brockman: security architecture fundamentals matter more",
+    "summary": "OpenAI’s Greg Brockman highlights a post arguing security architecture fundamentals are more important than ever as agents and AI tooling spread.",
+    "text": "security architecture fundamentals are more important than ever before https://t.co/2YcJYI2fyM",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post on security architecture",
+        "url": "https://x.com/patopet/status/2119119940036800520",
+        "short": "https://t.co/2YcJYI2fyM"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119099823324627117",
+    "url": "https://x.com/nhk_news/status/2119099823324627117",
+    "author": {
+      "name": "NHKニュース",
+      "handle": "nhk_news"
+    },
+    "posted_at": "2026-11-07T16:09:03.000Z",
+    "saved_at": "2026-11-08T08:11:27+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "愛知県で震度5強、津波の心配なし",
+    "summary": "NHKが報じたところでは、11月8日午前1時すぎに愛知県で震度5強を観測。震源は静岡県西部、M5.7前後で津波の心配はないとされている。",
+    "text": "【地震速報】愛知県で震度5強\nhttps://t.co/RSBSjVv7Eu #nhk_news",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "NHK 愛知県で震度5強",
+        "url": "https://news.web.nhk/newsweb/na/nd-20261108de72252",
+        "short": "https://t.co/RSBSjVv7Eu"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119109071240650937",
+    "url": "https://x.com/mainichi/status/2119109071240650937",
+    "author": {
+      "name": "毎日新聞",
+      "handle": "mainichi"
+    },
+    "posted_at": "2026-11-07T16:45:48.000Z",
+    "saved_at": "2026-11-08T08:11:27+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "知多市で震度5強、静岡西部M5.7",
+    "summary": "毎日新聞によると、8日午前1時4分ごろ愛知県知多市などで震度5強。震源は静岡県西部、深さ約40キロ、M5.7推定で津波の心配はない。",
+    "text": "愛知県知多市で震度5強　震源は静岡県西部　M5・7\nhttps://t.co/Qfm57AjAOs\n\n8日午前1時4分ごろ、愛知県で震度5強を観測する地震がありました。震源地は静岡県西部で、震源の深さは約40キロ、地震の規模を示すマグニチュードは5・7と推定されます。この地震による津波の心配はありません。",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "毎日新聞 愛知県知多市で震度5強",
+        "url": "https://mainichi.jp/articles/20261108/k00/00m/040/002000c",
+        "short": "https://t.co/Qfm57AjAOs"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119203551671185715",
+    "url": "https://x.com/securityLab_jp/status/2119203551671185715",
+    "author": {
+      "name": "セキュリティ対策Lab",
+      "handle": "securityLab_jp"
+    },
+    "posted_at": "2026-11-07T23:01:14.000Z",
+    "saved_at": "2026-11-08T08:11:27+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "京セラ美術館・二条城チケット情報が流出の可能性",
+    "summary": "京都市が11月6日、ARTPASSとアソビュー経由の京セラ美術館・二条城チケット利用者情報に流出の可能性があると公表したとセキュリティ対策Labが報じた。",
+    "text": "京都市京セラ美術館・二条城、チケット利用者情報に流出の可能性　ARTPASSとアソビュー経由、京都市が11月6日公表 \n https://t.co/bJZVUrHkWi \n\n#セキュリティ対策Lab #security #securitynews #セキュリティ #セキュリティニュース",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "セキュリティ対策Lab 記事",
+        "url": "https://rocket-boys.co.jp/security-measures-lab/kyoto_kyocera_museum_nijo_castle_arara_20261106/",
+        "short": "https://t.co/bJZVUrHkWi"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119188541997822139",
+    "url": "https://x.com/securityLab_jp/status/2119188541997822139",
+    "author": {
+      "name": "セキュリティ対策Lab",
+      "handle": "securityLab_jp"
+    },
+    "posted_at": "2026-11-07T22:01:35.000Z",
+    "saved_at": "2026-11-08T08:11:27+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "ウィル経由でメール約10万件が漏洩の恐れ",
+    "summary": "不動産会社ウィルが、アララへのサイバー攻撃に伴いメールアドレス約10万2369件の情報漏洩の恐れがあると発表したと報じられた。",
+    "text": "不動産会社ウィル、メールアドレス 10万2,369件の情報漏洩の恐れ-アララへのサイバー攻撃で \n https://t.co/h8PlyDe4kE \n\n#セキュリティ対策Lab #security #securitynews #セキュリティ #セキュリティニュース",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "セキュリティ対策Lab ウィル漏洩",
+        "url": "https://rocket-boys.co.jp/security-measures-lab/will_real_estate_arara_102369_email_leak_third_report_20261106/",
+        "short": "https://t.co/h8PlyDe4kE"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119188463891492948",
+    "url": "https://x.com/securityLab_jp/status/2119188463891492948",
+    "author": {
+      "name": "セキュリティ対策Lab",
+      "handle": "securityLab_jp"
+    },
+    "posted_at": "2026-11-07T22:01:17.000Z",
+    "saved_at": "2026-11-08T08:11:27+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "科研費の電子申請システムに不正アクセス",
+    "summary": "日本学術振興会の科研費電子申請システムに不正アクセスがあり、10月29日から停止。個人情報の漏えいは確認されていないと報じられた。",
+    "text": "日本学術振興会（科研費）の電子申請システムに不正アクセス　10月29日から停止、個人情報の漏えいは確認されず \n https://t.co/2FTkxTE9Jc \n\n#セキュリティ対策Lab #security #securitynews #セキュリティ #セキュリティニュース",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "セキュリティ対策Lab 科研費",
+        "url": "https://rocket-boys.co.jp/security-measures-lab/jsps_kakenhi_electronic_application_unauthorized_access_20261107/",
+        "short": "https://t.co/2FTkxTE9Jc"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119199972247720336",
+    "url": "https://x.com/QuantaMagazine/status/2119199972247720336",
+    "author": {
+      "name": "Quanta Magazine",
+      "handle": "QuantaMagazine"
+    },
+    "posted_at": "2026-11-07T22:47:00.000Z",
+    "saved_at": "2026-11-08T08:11:27+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "Condorcet’s voting paradox gets a topological shape",
+    "summary": "Quanta covers how mathematicians found that Condorcet’s voting paradox has a strange topological shape, tying democracy’s circular majorities to geometry.",
+    "text": "Mathematician Nicolas de Condorcet was a passionate believer in democracy. He also discovered a frustrating paradox within it. Now, mathematicians have found that this voting paradox has a strange topological shape. Get the full story on The Quanta Podcast: https://t.co/3weOfNyd0S",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quanta Podcast: math of democracy",
+        "url": "https://podcasts.apple.com/us/podcast/the-math-of-democracy-never-quite-works-out/id1021340531?i=1000799590857",
+        "short": "https://t.co/3weOfNyd0S"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119031868205003061",
+    "url": "https://x.com/QuantaMagazine/status/2119031868205003061",
+    "author": {
+      "name": "Quanta Magazine",
+      "handle": "QuantaMagazine"
+    },
+    "posted_at": "2026-11-07T11:39:01.000Z",
+    "saved_at": "2026-11-08T08:11:27+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "A quantum theorem pushes against Einstein’s reality",
+    "summary": "Quanta profiles Matthew Pusey’s work that, without intending to, struck at Einstein’s everyday notion of reality via a strange quantum theorem.",
+    "text": "Matthew Pusey took on Einstein’s notion of reality and — without originally intending to — delivered a killing blow. https://t.co/N0F9C6x1NM https://t.co/ouOOaaOFuC",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "A Strange Quantum Theorem Has Killed Einstein’s Reality",
+        "url": "https://www.quantamagazine.org/a-strange-quantum-theorem-has-killed-einsteins-reality-20261106/",
+        "short": "https://t.co/N0F9C6x1NM",
+        "image": "https://pbs.twimg.com/news_img/2118734597026447360/QUGVwIED?format=jpg&name=orig"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWhQQRDXQAAQHWm.jpg",
+        "alt": "Portrait of Matthew Pusey outdoors",
+        "link": "https://t.co/ouOOaaOFuC"
+      }
+    ]
+  },
+  {
+    "id": "2118852220082880651",
+    "url": "https://x.com/Reuters/status/2118852220082880651",
+    "author": {
+      "name": "Reuters",
+      "handle": "Reuters"
+    },
+    "posted_at": "2026-11-06T23:45:10.000Z",
+    "saved_at": "2026-11-08T08:11:27+09:00",
+    "topic": "world",
+    "shelf_life": "news",
+    "tldr": "US bar exam scandal now includes criminal charges",
+    "summary": "Reuters reports the latest US bar exam cheating scandal has a new twist: criminal charges, not only civil or academic penalties.",
+    "text": "Latest US bar exam scandal brings a new twist: criminal charges https://t.co/OwUDKPRgFv",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Reuters: US bar exam scandal criminal charges",
+        "url": "https://www.reuters.com/legal/litigation/latest-us-bar-exam-scandal-brings-new-twist-criminal-charges-2026-11-06/",
+        "short": "https://t.co/OwUDKPRgFv",
+        "image": "https://pbs.twimg.com/news_img/2118852221840343041/NoD3pman?format=jpg&name=orig"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119154426749276275",
+    "url": "https://x.com/PublicDomainRev/status/2119154426749276275",
+    "author": {
+      "name": "The Public Domain Review",
+      "handle": "PublicDomainRev"
+    },
+    "posted_at": "2026-11-07T19:46:01.000Z",
+    "saved_at": "2026-11-08T08:11:27+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "1894 envelope sketches steam-powered tooth extraction",
+    "summary": "Public Domain Review shares an 1894 envelope sketch advertising teeth “painlessly extracted by steam power,” addressed to a Southampton dentist.",
+    "text": "Wonderful sketch of “teeth painlessly extracted by steam power” adorning an envelope addressed to a certain Dr J. Chapman of Totton, Southampton, and dated 1894. Was it sent in the mail like this? https://t.co/FKIsW4VdIs https://t.co/ybM5ABbRIX",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Steam-Powered Tooth Extraction on an Envelope (1894)",
+        "url": "https://publicdomainreview.org/collection/steam-powered-tooth-extraction-on-an-envelope-1894",
+        "short": "https://t.co/FKIsW4VdIs",
+        "image": "https://pbs.twimg.com/news_img/2119154432281608192/RKJcWOHm?format=jpg&name=orig"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWi_uLUWEAAsC4M.jpg",
+        "alt": "1894 envelope sketch of steam-powered dentistry",
+        "link": "https://t.co/ybM5ABbRIX"
+      }
+    ]
+  },
+  {
+    "id": "2119097734107918819",
+    "url": "https://x.com/OurWorldInData/status/2119097734107918819",
+    "author": {
+      "name": "Our World in Data",
+      "handle": "OurWorldInData"
+    },
+    "posted_at": "2026-11-07T16:00:45.000Z",
+    "saved_at": "2026-11-08T08:11:27+09:00",
+    "topic": "economics",
+    "shelf_life": "evergreen",
+    "tldr": "Almost all coal growth since the 1980s is China",
+    "summary": "Our World in Data notes that outside China, global coal use is almost flat since the late 1980s, while China now burns more than the rest of the world combined.",
+    "text": "Almost all the growth in global coal use since the late 1980s has come from China.\n\nOutside China, the world’s use of coal has barely changed since the late 1980s. It was just over 20,000 terawatt-hours back then, and almost four decades later, it is still the same.\n\nBut the country has increased the use of coal enormously, and today, China is burning more coal than the rest of the world combined.\n\nThe future of global coal use, and the emissions that come with it, depends heavily on what happens in China.\n\n(written by @MaxCRoser)",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWiMKNrWIAA2-xb.jpg",
+        "alt": "Chart of global coal use China vs rest of world"
+      }
+    ]
+  },
+  {
+    "id": "2119181347130618289",
+    "url": "https://x.com/Math_files/status/2119181347130618289",
+    "author": {
+      "name": "Math Files",
+      "handle": "Math_files"
+    },
+    "posted_at": "2026-11-07T21:33:00.000Z",
+    "saved_at": "2026-11-08T08:11:27+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "Four pieces is the minimum to square a triangle",
+    "summary": "A 2026 proof by Demaine, Kamata and Uehara shows four polygonal pieces without flipping is the minimum to dissect an equilateral triangle into a square, settling a 1902 puzzle.",
+    "text": "In 1902, a puzzle showed that an equilateral triangle could be cut into just four pieces and rearranged into a perfect square.\n\nCould three pieces suffice?\n\nA proof published in 2026 by Demaine, Kamata and Uehara established that four is the minimum for polygonal pieces rearranged without flipping.\n\nA 124-year-old geometric question, settled.",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWiTirraUAEkAxD.jpg",
+        "alt": "Illustration of triangle-to-square dissection"
+      }
+    ]
+  },
+  {
+    "id": "2118996782390575175",
+    "url": "https://x.com/jedisct1/status/2118996782390575175",
+    "author": {
+      "name": "Frank",
+      "handle": "jedisct1"
+    },
+    "posted_at": "2026-11-07T09:19:36.000Z",
+    "saved_at": "2026-11-08T08:11:27+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Libghostty 1.0 is out",
+    "summary": "Frank Denis points to Mitchell Hashimoto’s post announcing Libghostty 1.0, the embeddable terminal library from the Ghostty project.",
+    "text": "Libghostty 1.0 https://t.co/Vac9A6a6vF",
+    "key_points": [],
+    "action": "Read mitchellh.com/writing/libghostty-1-0 if you embed terminals.",
+    "links": [
+      {
+        "title": "Libghostty 1.0 — Mitchell Hashimoto",
+        "url": "https://mitchellh.com/writing/libghostty-1-0",
+        "short": "https://t.co/Vac9A6a6vF"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119031260404183158",
+    "url": "https://x.com/emilkowalski/status/2119031260404183158",
+    "author": {
+      "name": "Emil Kowalski",
+      "handle": "emilkowalski"
+    },
+    "posted_at": "2026-11-07T11:36:36.000Z",
+    "saved_at": "2026-11-08T08:11:27+09:00",
+    "topic": "design",
+    "shelf_life": "evergreen",
+    "tldr": "AI raised the floor of obvious design mistakes",
+    "summary": "Emil Kowalski argues AI raised the baseline so a decent-looking design means little—obvious design mistakes are rarer, and craft has to go deeper.",
+    "text": "I have not seen projects with lots of obvious design mistakes in a while, like the really obvious ones.\n\nAI has raised the floor. A decent looking design means nothing anymore, it’s the baseline.",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2118957088257056848",
+    "url": "https://x.com/theo/status/2118957088257056848",
+    "author": {
+      "name": "Theo - t3.gg",
+      "handle": "theo"
+    },
+    "posted_at": "2026-11-07T06:41:52.000Z",
+    "saved_at": "2026-11-08T08:11:27+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Copy-pasting Claude ↔ Codex is the new Stack Overflow",
+    "summary": "Theo compares copy-pasting between Claude and Codex to the old habit of copying from Stack Overflow—multi-model workflows as everyday craft.",
+    "text": "Copy pasting between Claude and Codex is the 2026 equivalent of copying pasting from Stack Overflow",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2119191237320384666",
+    "url": "https://x.com/theo/status/2119191237320384666",
+    "author": {
+      "name": "Theo - t3.gg",
+      "handle": "theo"
+    },
+    "posted_at": "2026-11-07T22:12:18.000Z",
+    "saved_at": "2026-11-08T08:13:24+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Theo: OpenAI’s disadvantage is no Claude",
+    "summary": "Theo quips that OpenAI’s biggest disadvantage may be that they can’t use Claude, reacting to a shipping bug he thinks Opus wouldn’t ship.",
+    "text": "Starting to think OpenAI’s biggest disadvantage is that they can’t use Claude. Like I cannot imagine Opus 5.5 shipping this bug https://t.co/34DB24EKME",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted bug report post",
+        "url": "https://x.com/_julianschiavo/status/2118918849538171263",
+        "short": "https://t.co/34DB24EKME"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119111184528060576",
+    "url": "https://x.com/kentcdodds/status/2119111184528060576",
+    "author": {
+      "name": "Kent C. Dodds 🐨",
+      "handle": "kentcdodds"
+    },
+    "posted_at": "2026-11-07T16:54:12.000Z",
+    "saved_at": "2026-11-08T08:13:24+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Talk with your agent, not at your agent",
+    "summary": "Kent C. Dodds argues you should talk with your agent, not at your agent—a push for collaborative agent UX.",
+    "text": "You should be talking with your agent, not at your agent.",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2119145535580012732",
+    "url": "https://x.com/almonk/status/2119145535580012732",
+    "author": {
+      "name": "almonk",
+      "handle": "almonk"
+    },
+    "posted_at": "2026-11-07T19:10:42.000Z",
+    "saved_at": "2026-11-08T08:13:24+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Rex adds drag-and-drop files between devices",
+    "summary": "Almonk says Rex can now drag-and-drop and copy/paste files between devices from the lock-screen flow.",
+    "text": "We just added the ability to drag and drop and copy/paste files between devices on Rex. It's amazing.\n\nI can build binaries on my Mac Studio then send them to any device for testing instantly. I can send screenshots to remote agents running on Linux, macOS or Windows.\n\nIt's built on top of our new Rex Data protocol which means not even thinking about ssh, or rsync or ftp.\n\nJust the start of making every machine feel local.",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2118960196987080801",
+    "url": "https://x.com/TheHackersNews/status/2118960196987080801",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-11-07T06:54:13.000Z",
+    "saved_at": "2026-11-08T08:14:26+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Claude Code “don’t ask again” leaks secrets on GitHub",
+    "summary": "Apiiro found thousands of secrets in public .claude/settings.local.json files after Claude Code’s “don’t ask again” saved full approved shell commands with passwords and keys.",
+    "text": "‼️ Claude Code's \"Don't Ask Again\" option can save passwords and API keys in plaintext.\n\nApiiro found 2,539 exposed secrets across 1,994 public GitHub repos, including database credentials, SSH logins, and cloud keys.\n\nDeleting files doesn't erase Git history.\n\nRead: https://t.co/Wez0PjQTZ7",
+    "key_points": [
+      "Approve-once rules can embed secrets in .claude/settings.local.json.",
+      "Rotate first; deleting the file does not scrub git history."
+    ],
+    "action": "Search repos for .claude/settings.local.json, rotate any secrets, then gitignore the file.",
+    "links": [
+      {
+        "title": "THN: Claude Code Don’t Ask Again file",
+        "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+        "short": "https://t.co/Wez0PjQTZ7",
+        "image": "https://pbs.twimg.com/news_img/2118960197238681601/gMQ6CBa5?format=jpg&name=orig"
+      },
+      {
+        "title": "Apiiro: Coding Agents Are Leaking Your Secrets",
+        "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWgPEIsb0AACJPI.jpg",
+        "alt": "The Hacker News card on Claude Code secrets"
+      }
+    ],
+    "pick": true
   }
 ]

@@ -1,5 +1,34 @@
 [
   {
+    "id": "2118993073455698264",
+    "url": "https://x.com/badlogicgames/status/2118993073455698264",
+    "author": {
+      "name": "Mario Zechner",
+      "handle": "badlogicgames"
+    },
+    "posted_at": "2026-11-07T09:04:52.000Z",
+    "saved_at": "2026-11-08T08:05:14+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Anthropic maps the components of agent memory",
+    "summary": "Mario Zechner recommends Anthropic’s research post on the components of agent memory, a practical breakdown of how agents store and reuse context.",
+    "text": "recommended reading.\n\nhttps://t.co/zcaLBqTfjR",
+    "key_points": [
+      "Anthropic published a research post on the parts that make agent memory work.",
+      "Useful reference when designing memory for coding agents and long-running sessions."
+    ],
+    "action": "Read Anthropic’s components-of-agent-memory post and note which pieces your agent stack already has.",
+    "links": [
+      {
+        "title": "Components of agent memory — Anthropic",
+        "url": "https://www.anthropic.com/research/components-of-agent-memory",
+        "short": "https://t.co/zcaLBqTfjR",
+        "image": "https://pbs.twimg.com/news_img/2118814755137990656/LeHabGBF?format=jpg&name=orig"
+      }
+    ],
+    "media": []
+  },
+  {
     "id": "2110149626133438732",
     "url": "https://x.com/poteto/status/2110149626133438732",
     "author": {
