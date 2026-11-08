@@ -1,0 +1,389 @@
+{
+  "date": "2026-11-09",
+  "title": "Drawing the line",
+  "subtitle": "Asahi bans AI code, agents learn to ask first, and a Senate bill makes data centers pay",
+  "editor_note": "Today is about boundaries. Licences, approvals and private networks each decide who gets in.",
+  "theme": {
+    "palette": "plum",
+    "fonts": "serif",
+    "accent": "#e4572e"
+  },
+  "sections": [
+    {
+      "type": "cover-story",
+      "scan": "2119402147083379052",
+      "kicker": "Lead",
+      "headline": "Asahi shuts the gate on AI",
+      "deck": "Asahi Linux relicenses to GPL and forbids generative AI. Omarchy says its patches are now turned away.",
+      "variant": "split",
+      "art": "lead-asahi.jpg",
+      "art_alt": "A dusk fence with one open gap and a warm path of light leading through it",
+      "why": "A flagship open-source project drew a hard line on AI-written code.",
+      "source_label": "DHH"
+    },
+    {
+      "type": "corner",
+      "corner": "brief",
+      "deck": "What moved overnight."
+    },
+    {
+      "type": "brief-grid",
+      "variant": "cards",
+      "headline": "Approval, review, and teasers",
+      "columns": 2,
+      "items": [
+        {
+          "scan": "2119268531678441646",
+          "headline": "Pinky asks before your agent pays",
+          "why": "Open-source phone control that stops for approval before payments and deletes.",
+          "source_label": "DIYgod"
+        },
+        {
+          "scan": "2119501958981857543",
+          "headline": "Hermes reviews code for security bugs",
+          "why": "It verifies each finding and can write a repro in a temporary copy.",
+          "source_label": "Nous Research",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2119296267545419987",
+          "headline": "Codex Pro has no 5-hour limits",
+          "why": "Pro tiers give 10x, 20x or 50x Plus usage, per OpenAI’s Codex lead.",
+          "source_label": "Codex",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2119521359185478140",
+          "headline": "OpenAI Devs: “Tomorrow.”",
+          "why": "A one-word video teaser with no details, so expect news today.",
+          "source_label": "OpenAI Devs",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2119327303511761382",
+          "headline": "Omarchy 4.5 installs beside macOS",
+          "why": "A native Mac installer for M1–M3 and MacBook Neo; M4+ not ready.",
+          "source_label": "twtayaan",
+          "tags": [
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "variant": "wide",
+      "art": "interlude-wide.jpg",
+      "art_alt": "A long dusk fence with one gap where warm light spills through",
+      "caption": "One gap in the fence"
+    },
+    {
+      "type": "corner",
+      "corner": "lead",
+      "deck": "Who may touch the code, and who decides."
+    },
+    {
+      "type": "feature",
+      "scan": "2119426809653596669",
+      "headline": "Asahi leaves MIT for the GPL",
+      "deck": "Lunduke Journal: the change is immediate, aimed at “bad faith actors” who would replace the project and monetize it.",
+      "why": "Anything built on Asahi’s MIT code now faces a different licence going forward.",
+      "source_label": "Lunduke Journal",
+      "tags": [
+        "unverified"
+      ]
+    },
+    {
+      "type": "compare",
+      "headline": "Same ban, two reactions",
+      "variant": "versus",
+      "verdict": "Both accept the legal risk of tainted clean-room work. They split on whether the ban helps developers or simply closes a door.",
+      "items": [
+        {
+          "scan": "2119362947629891891",
+          "label": "Omarchy (DHH)",
+          "note": "Says Asahi now refuses upstreaming of Omarchy’s Apple Silicon work.",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2119472961594007795",
+          "label": "A developer",
+          "note": "Calls the legal worry fair but rejects “for your own good.”",
+          "tags": [
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "variant": "square",
+      "art": "interlude-square.jpg",
+      "art_alt": "Nested arches in rose and mauve around a small warm light",
+      "caption": "Doorways within doorways"
+    },
+    {
+      "type": "corner",
+      "corner": "field-notes",
+      "deck": "From the timeline: trust, tools, and who gets in."
+    },
+    {
+      "type": "brief-grid",
+      "variant": "plain",
+      "headline": "High trust, plug-ins, skills",
+      "columns": 2,
+      "items": [
+        {
+          "scan": "2119330296558506291",
+          "headline": "Private networks allow riskier features",
+          "why": "tldraw designs for “high trust networks” where reckless public-web features become safe.",
+          "source_label": "steveruizok",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2119521036660314339",
+          "headline": "pstack adds verification skills",
+          "why": "Formal-verification and statechart skills for modeling state machines and flows.",
+          "source_label": "poteto"
+        },
+        {
+          "scan": "2119391742021754912",
+          "headline": "Amp set up a Pi without a login",
+          "why": "Flash, boot and SSH setup handled by the agent; scope the key.",
+          "source_label": "thorstenball",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2119433744671273441",
+          "headline": "DeepSeek Harness: everything is a plugin",
+          "why": "Built-ins can be replaced by third-party plug-ins, like phone-OS apps.",
+          "source_label": "tianyi",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2119263160247206139",
+          "headline": "Stripe: send a product critique to apply",
+          "why": "Agentic-commerce team got 500+ emails and wants a screenshot plus critique.",
+          "source_label": "jeff_weinstein",
+          "tags": [
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "japan-desk",
+      "label": "日本から",
+      "deck": "エージェント、データセンター、そして漏えい。"
+    },
+    {
+      "type": "numbered-list",
+      "variant": "compact",
+      "headline": "風向きと漏えい",
+      "items": [
+        {
+          "scan": "2119266616735355269",
+          "headline": "エージェント界隈の風向きは「コスパ」",
+          "why": "Grok Bot称賛からMuseへ、潮目はまた変わると見る。",
+          "source_label": "kinopee_ai",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2119420683528937780",
+          "headline": "SoftBankとデータセンター債権",
+          "why": "中間選挙後にING債権売り、CDS上昇という投稿者の解説。",
+          "source_label": "umiyuki_ai",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2119499840560435455",
+          "headline": "日経平均は弱気相場入りか",
+          "why": "信用買い残の高さとJT接収が弱気材料と指摘。",
+          "source_label": "大橋ひろこ"
+        },
+        {
+          "scan": "2119392741138612277",
+          "headline": "ハッカーが見た日本「更新を嫌がる」",
+          "why": "NHKが国際ハッカー集団から見た日本の弱点を取材。",
+          "source_label": "NHK"
+        },
+        {
+          "scan": "2119565927838892410",
+          "headline": "チームスピリットで2.8万件漏洩",
+          "why": "開発用サーバー攻撃、要配慮個人情報35件を含む。",
+          "source_label": "securityLab_jp",
+          "tags": [
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "variant": "quiet",
+      "art": "interlude-quiet.jpg",
+      "art_alt": "A thin rose line across a dark plum field with one small warm light",
+      "caption": "Quiet line"
+    },
+    {
+      "type": "corner",
+      "corner": "adjacent",
+      "deck": "One step out."
+    },
+    {
+      "type": "brief-grid",
+      "variant": "cards",
+      "headline": "Power, caps, and careers",
+      "columns": 2,
+      "items": [
+        {
+          "scan": "2119449283267371274",
+          "headline": "Apple’s CEO pushes Federighi on AI",
+          "why": "Bloomberg reports a closed-door push beyond Siri fixes.",
+          "source_label": "markgurman"
+        },
+        {
+          "scan": "2119471828058148992",
+          "headline": "Apple’s reported LLM cap per engineer",
+          "why": "Threepointone asks what the engineer’s job becomes; the cap is secondhand.",
+          "source_label": "threepointone",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2119546539869864024",
+          "headline": "NVIDIA board probes Jensen Huang targeting",
+          "why": "Independent investigation after reports of a foreign intelligence effort.",
+          "source_label": "theo"
+        },
+        {
+          "scan": "2119494913138237540",
+          "headline": "Senate bill: data centers pay for power",
+          "why": "Permitting bill with a reported Monday vote; costs shift to data centers.",
+          "source_label": "Unusual Whales",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2119495828683530519",
+          "headline": "Collison asks: what is the AI endgame?",
+          "why": "Positive AI scenarios read like ingredients, not an equilibrium.",
+          "source_label": "patrickc",
+          "tags": [
+            "unverified"
+          ]
+        },
+        {
+          "scan": "2119325068979470442",
+          "headline": "How to land Claude Code enablement",
+          "why": "Activate peers, write about it, build receipts: one self-reported success.",
+          "source_label": "brandon_galang",
+          "tags": [
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "open-window",
+      "deck": "Worth knowing, whatever you work on."
+    },
+    {
+      "type": "brief-grid",
+      "variant": "cards",
+      "headline": "Language, art, money, math, medicine",
+      "columns": 2,
+      "items": [
+        {
+          "scan": "2119378650017464386",
+          "headline": "Where Celtic and Germanic began",
+          "why": "4,700+ ancient genomes hint at the origins of two language families.",
+          "source_label": "Nature",
+          "tags": [
+            "new-to-you"
+          ]
+        },
+        {
+          "scan": "2119480328758640862",
+          "headline": "26,000-year-old art found in Catalonia",
+          "why": "Engravings turned up in a tourist spot in a region thought empty.",
+          "source_label": "Nature",
+          "tags": [
+            "new-to-you"
+          ]
+        },
+        {
+          "scan": "2119543111718240759",
+          "headline": "A bank collapse that toppled Paraguay’s president",
+          "why": "Reuters traces how a digital bank’s failure became a political crisis.",
+          "source_label": "Reuters",
+          "tags": [
+            "new-to-you"
+          ]
+        },
+        {
+          "scan": "2119377208510718089",
+          "headline": "A juggling conjecture falls after 55 years",
+          "why": "Young mathematicians solved it with randomness, WIRED reports.",
+          "source_label": "WIRED",
+          "tags": [
+            "new-to-you"
+          ]
+        },
+        {
+          "scan": "2119456158255636770",
+          "headline": "Brain gene therapy cut seizures over 90%",
+          "why": "Three people with drug-resistant epilepsy; very early evidence.",
+          "source_label": "Nature",
+          "tags": [
+            "new-to-you"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "image-of-the-day",
+      "art": "image-of-the-day.jpg",
+      "art_alt": "Faint golden arcs over a deep plum field around a glowing ember",
+      "headline": "Threshold",
+      "caption": "Every boundary is a choice about who comes in."
+    },
+    {
+      "type": "corner",
+      "corner": "kicker",
+      "deck": "One odd close."
+    },
+    {
+      "type": "closer",
+      "scan": "2119471566417273315",
+      "headline": "A 1705 maze to New Jerusalem",
+      "note": "A map of the path to heaven, with the dead ends marked.",
+      "variant": "photo",
+      "tags": [
+        "unverified"
+      ]
+    }
+  ]
+}

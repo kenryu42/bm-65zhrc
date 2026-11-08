@@ -17734,5 +17734,834 @@
       }
     ],
     "pick": true
+  },
+  {
+    "id": "2119402147083379052",
+    "url": "https://x.com/dhh/status/2119402147083379052",
+    "author": {
+      "name": "DHH",
+      "handle": "dhh"
+    },
+    "posted_at": "2026-11-08T12:10:23.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Asahi Linux bans generative AI contributions outright",
+    "summary": "Asahi Linux’s new policy says LLMs harm software freedom, the open internet, privacy and developers, and broadly forbids generative AI in the project. DHH quotes it with an eyeroll.",
+    "text": "\"LLMs engender harms to the pillars of Asahi Linux: software freedom, the open-source community, the open Internet, the environment, digital privacy, user consent, and software developers themselves... we broadly forbid the use of generative AI.\" 🙄 https://t.co/AxlIQTmGQ8",
+    "key_points": [
+      "The policy is a blanket ban, not a disclosure rule.",
+      "Reactions split between legal-contamination worries and objections to the moral framing."
+    ],
+    "action": "Read the policy before sending Asahi a patch, even a small one.",
+    "links": [
+      {
+        "title": "Generative AI Policy - Asahi Linux",
+        "url": "https://asahilinux.org/llm-policy/",
+        "image": "https://pbs.twimg.com/news_img/2119250581680463872/vbKrwieZ?format=png&name=150x150",
+        "short": "https://t.co/AxlIQTmGQ8"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2119362947629891891",
+    "url": "https://x.com/dhh/status/2119362947629891891",
+    "author": {
+      "name": "DHH",
+      "handle": "dhh"
+    },
+    "posted_at": "2026-11-08T09:34:37.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Omarchy says Asahi will no longer take its upstream patches",
+    "summary": "DHH says Omarchy has been extending Apple Silicon support (Touch ID, M3 GPU, DisplayPort over USB-C, deep sleep, MacBook Neo), but Asahi now rejects upstreaming because of agent-assisted work.",
+    "text": "I'm grateful for the work Asahi did on Apple Silicon, and in the best open source spirit, we've been expanding that with TouchID, M3 GPU, DisplayPort over USB-C, deep sleep, MacBook Neo. But thanks to agent acceleration, Asahi rejects upstreaming 🤷 https://t.co/GRpZQnM1Pl",
+    "key_points": [
+      "Omarchy’s Apple Silicon patches may now stay downstream.",
+      "This is DHH’s account; Asahi has not been heard in this thread."
+    ],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2119426809653596669",
+    "url": "https://x.com/LundukeJournal/status/2119426809653596669",
+    "author": {
+      "name": "The Lunduke Journal",
+      "handle": "LundukeJournal"
+    },
+    "posted_at": "2026-11-08T13:48:23.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Asahi Linux drops MIT for GPL and bars AI code",
+    "summary": "Lunduke Journal reports Asahi is moving from MIT to the GNU GPL immediately, citing bad-faith actors who would hijack the work and monetize Linux on Apple Silicon.",
+    "text": "Asahi Linux, which works to enable support for Apple Silicon Macs on Linux, is dropping the MIT license… and moving to the GNU GPL.\n\nWhy?  Because, according to their statement, of “bad faith actors” who “exploit” open source code by… using it in other open source code.\n\n“We were made aware of multiple attempts to exploit our permissive licensing to hijack our work, with a direct view to replacing the project and aggressively monetising Linux on Apple Silicon.”\n\nThis licensing change (MIT to GPL) is happening immediately following Omarchy adding support for Apple Silicon, building upon the Asahi work with the usage of LLMs.\n\nAnd Asahi does not approve of AI usage.  At all.\n\n“We broadly forbid the use of generative Al,” says the Asahi AI policy.  “A contributor using an LLM … may be issued with a first and final warning. A contributor found to have concealed extensive LLM use will be banned immediately.”",
+    "key_points": [
+      "The relicense takes effect right away.",
+      "Asahi frames permissive licensing as exploitable by projects that want to replace it."
+    ],
+    "action": "Check which Asahi code your Apple Silicon project reuses under MIT, and pin the last MIT commit if you rely on it.",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWm3c2_XcAAdfDh.jpg?format=jpg&name=large"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWm3c2aWUAAGVFE.jpg?format=jpg&name=large"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWm3c2lXYAAGN4F.jpg?format=jpg&name=large"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWm3c2hWQAEEWY9.jpg?format=jpg&name=large"
+      }
+    ]
+  },
+  {
+    "id": "2119472961594007795",
+    "url": "https://x.com/browndeveloper/status/2119472961594007795",
+    "author": {
+      "name": "Brown Developer",
+      "handle": "browndeveloper"
+    },
+    "posted_at": "2026-11-08T16:51:46.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "A fair legal worry in Asahi’s ban, a weak moral one",
+    "summary": "A developer says the clean-room concern is real, since an agent can taint reverse engineering without anyone noticing, but rejects the claim that LLMs harm the developers who use them.",
+    "text": "asahi's legal worry is fair. \nthey are clean room reverse engineering apple hardware and an agent can taint that without you knowing.\n\nbut \"llms harm software developers themselves\" ? well thats something i don't agree at all. \n\nban it for legal reasons if you have to. dont tell me its for my own good",
+    "key_points": [
+      "Clean-room work is legally fragile if model output enters the tree.",
+      "Ban it for legal reasons, he says, but don’t call it a favour to developers."
+    ],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2119268531678441646",
+    "url": "https://x.com/DIYgod/status/2119268531678441646",
+    "author": {
+      "name": "DIŸgöd ☀️",
+      "handle": "DIYgod"
+    },
+    "posted_at": "2026-11-08T03:19:26.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Pinky lets any agent drive your iPhone or Android, asking first",
+    "summary": "DIYgod open-sourced Pinky, a native app that lets AI agents use your phone from Mac, Windows or Linux. It pauses for approval before payments, can ask before sending or deleting, and records every step.",
+    "text": "做了个新项目 Pinky：让任何 AI Agent 用上你的 iPhone 和 Android 手机，Mac、Windows、Linux 都能跑，开源免费\n\n付款前会停下来等你点头，发消息、删除也可以设成先问，随时能接管，每一步都有录屏。原生应用，安装包十几 MB\n\nGitHub：https://t.co/k79map72UK\nDiscord：https://t.co/GCszL2vMIs https://t.co/IHGz3UwywU",
+    "key_points": [
+      "Approval gates cover payments, messages and deletions.",
+      "You can take over at any time and each step is screen-recorded."
+    ],
+    "action": "Try Pinky on a spare phone and set messages and deletes to ask first.",
+    "links": [
+      {
+        "title": "GitHub repo: DIYgod/pinky",
+        "url": "https://github.com/DIYgod/pinky",
+        "short": "https://t.co/k79map72UK"
+      },
+      {
+        "title": "Pinky Discord invite",
+        "url": "https://discord.gg/S27b7SHjng",
+        "short": "https://t.co/GCszL2vMIs"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2119268324106551296/img/GbD71abIiFLMxBYb.jpg",
+        "link": "https://t.co/IHGz3UwywU"
+      }
+    ],
+    "pick": true
+  },
+  {
+    "id": "2119501958981857543",
+    "url": "https://x.com/NousResearch/status/2119501958981857543",
+    "author": {
+      "name": "Nous Research",
+      "handle": "NousResearch"
+    },
+    "posted_at": "2026-11-08T18:47:00.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Hermes Agent gets an official security-review plugin",
+    "summary": "Nous Research says Hermes can map attacker-reachable code, split work across subagents, verify each candidate bug and optionally write and run a reproduction in a temporary repo copy.",
+    "text": "Hermes Agent can now review your codebase for security bugs with the new official Security plugin by @mark_s.\n\nHermes first maps what an attacker could reach and which inputs it trusts. It splits the code across parallel subagents, checks every candidate finding against the code, and traces whether an attacker can actually exploit it.\n\nTurn on test confirmation and Hermes writes a small reproduction for each finding and runs it in a temporary copy of the repo. Each report records the evidence and the findings Hermes ruled out, and exports to SARIF for your existing tools.\n\nRun it from chat, the CLI, or the Security page in Hermes Desktop.",
+    "key_points": [
+      "Findings are checked against the code before they are reported.",
+      "Test confirmation runs in a throwaway copy of the repo."
+    ],
+    "action": "Run the plugin on a small repo with test confirmation on and compare its findings with your own review.",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2119501177792376832/img/kd1t8r7sAPh7U_Wd.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2119492448200405110",
+    "url": "https://x.com/garrytan/status/2119492448200405110",
+    "author": {
+      "name": "Garry Tan",
+      "handle": "garrytan"
+    },
+    "posted_at": "2026-11-08T18:09:12.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Early open evals of agent harnesses on frontier models",
+    "summary": "Garry Tan says he is running open-source evaluations of agent harnesses with frontier models and posts a chart of early results.",
+    "text": "Out of curiosity I am doing some open source eval work on harnesses with frontier models and here’s what is coming back so far https://t.co/chXfmck26f",
+    "key_points": [
+      "Results are early and shown only as a chart."
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWnzJgvb0AAU7Bl.jpg?format=jpg&name=large",
+        "link": "https://t.co/chXfmck26f"
+      }
+    ]
+  },
+  {
+    "id": "2119296267545419987",
+    "url": "https://x.com/thsottiaux/status/2119296267545419987",
+    "author": {
+      "name": "Tibo",
+      "handle": "thsottiaux"
+    },
+    "posted_at": "2026-11-08T05:09:39.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "Codex Pro tiers drop the 5-hour limit",
+    "summary": "An OpenAI Codex lead clarifies that all Pro plans have no 5-hour limits and give 10x, 20x and 50x the usage of Plus; the 500 tier adds ultrafast access.",
+    "text": "Saw some confusions, but all Pro plans have no 5-hour limits, and give the following usage compared to Plus.\n\n✅ Pro 100 = 10X\n✅ Pro 200 = 20X\n✅ Pro 500 = 50X, access to ultrafast",
+    "key_points": [
+      "Pro 100, 200 and 500 map to 10x, 20x and 50x Plus usage.",
+      "Only the top tier gets the ultrafast option."
+    ],
+    "action": "Check which Pro tier matches your daily Codex use before upgrading.",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2119521359185478140",
+    "url": "https://x.com/OpenAIDevs/status/2119521359185478140",
+    "author": {
+      "name": "OpenAI Developers",
+      "handle": "OpenAIDevs"
+    },
+    "posted_at": "2026-11-08T20:04:05.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "OpenAI Devs post a one-word teaser: Tomorrow",
+    "summary": "OpenAI Devs posted a 15-second video with the single word “Tomorrow.” and no details.",
+    "text": "Tomorrow. https://t.co/ZWapS1LIST",
+    "key_points": [
+      "Nothing is announced yet."
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2119521329821216768/img/yyRYVpGRET_BHkwP.jpg",
+        "link": "https://t.co/ZWapS1LIST"
+      }
+    ]
+  },
+  {
+    "id": "2119330296558506291",
+    "url": "https://x.com/steveruizok/status/2119330296558506291",
+    "author": {
+      "name": "Steve Ruiz",
+      "handle": "steveruizok"
+    },
+    "posted_at": "2026-11-08T07:24:52.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "Private networks let you build features the public web can’t",
+    "summary": "tldraw’s Steve Ruizok argues Tailscale-style private networks allow product features that would be reckless on the open internet, from user scripts to agent prompts.",
+    "text": "There's a huge product opportunity downstream of Tailscale etc too. At @tldraw we've started designing for \"high trust networks\" and it's been a beautiful thing.\n\n1. Features that would be a nightmare on the internet are okay on my computer and mostly okay on private networks. Websites that execute user-generated scripts, control production systems, allow for users to send desktop notifications, spend tokens, or directly prompt my agent. Crazy stuff that would only make sense if everyone was in a committed polycule.\n\n2. When everyone on the server can be trusted to have _external_ reasons for good behavior (eg keeping their job, or maintaining friends, family, church, mafia org), the software can be designed in a default social way. Most apps default to isolation, low horizontal visibility, highly restricted collaboration. Makes sense if the social contracts are inside of the app, but if you can trust that they live outside of the app then you can get wild. Example being small group chat names as an emergent comedy phenomenon because anyone in the group can change the name.\n\n3. This can work for commercial products, too, not just internal stuff. Security matters more than ever but the way we've seen that manifest is that more companies are more confident in their own solutions than anything we could provide, to the point where owning data and access is a better value proposition than having it managed. Always has been true for big companies but now even small companies can get a good secure network set up pretty easily, and the hooks we need to build are easy enough.\n\ntldraw offline got us started down this road (and shout out to @pendev for first introducing me to the idea of desktop + mcp). We've been bringing that product to private networks and it's been exciting to see how much we can get away with. Keep an eye out",
+    "key_points": [
+      "Features that need trust become safe when everyone on the network is known.",
+      "Private networks open a product niche the public web cannot serve."
+    ],
+    "action": "List one feature you rejected as too risky for the public internet and sketch it for a tailnet.",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2119521036660314339",
+    "url": "https://x.com/poteto/status/2119521036660314339",
+    "author": {
+      "name": "lauren",
+      "handle": "poteto"
+    },
+    "posted_at": "2026-11-08T20:02:48.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Cursor’s pstack adds formal-verification and statechart skills",
+    "summary": "Poteto suggests two new pstack skills: /create-formal-verification-skill to model state machines, and /statechart to visualize user flows.",
+    "text": "try this next “use /create-formal-verification-skill to model these state machines, one skill per subsystem. and use /statechart to visualize my most important user flows”\n\nboth skills are in pstack\n\nhttps://t.co/SxilBe4Diu https://t.co/4arc9DYbjl",
+    "key_points": [
+      "One verification skill per subsystem models its state machines.",
+      "The statechart skill maps your most important user flows."
+    ],
+    "action": "Install pstack and run /statechart on your checkout flow.",
+    "links": [
+      {
+        "title": "plugins/pstack at main · cursor/plugins",
+        "url": "https://github.com/cursor/plugins/tree/main/pstack",
+        "image": "https://pbs.twimg.com/news_img/2119521081858117632/JHCl11Ob?format=png&name=150x150",
+        "short": "https://t.co/SxilBe4Diu"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119391742021754912",
+    "url": "https://x.com/thorstenball/status/2119391742021754912",
+    "author": {
+      "name": "Thorsten Ball",
+      "handle": "thorstenball"
+    },
+    "posted_at": "2026-11-08T11:29:02.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Amp flashed and set up a Raspberry Pi 5 without a login",
+    "summary": "Thorsten Ball says Amp flashed the SD card, then SSHed into the booted Pi 5 and configured it, with no manual login at all.",
+    "text": "Just set up a new Raspberry Pi 5.\n\nDidn't log in a single time.\n\nAmp flashed the SD card. I plugged it in and booted the machine.\n\nTold Amp to SSH into it and set everything up. It did.\n\nSome day will be the last day I interact directly with a computer.",
+    "key_points": [
+      "The agent handled imaging and remote setup end to end."
+    ],
+    "action": "Hand your next headless device setup to an agent and keep the SSH key scoped.",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2119433744671273441",
+    "url": "https://x.com/tianyi/status/2119433744671273441",
+    "author": {
+      "name": "Tianyi Cui",
+      "handle": "tianyi"
+    },
+    "posted_at": "2026-11-08T14:15:56.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "DeepSeek Harness wants to be the agent-era operating system",
+    "summary": "A DeepSeek Harness maintainer explains that core features ship built in but are replaceable, so third-party plugins can beat them, like alarm apps on a phone OS.",
+    "text": "很多 DeepSeek Harness 插件作者都有问过我，什么样的插件和功能官方会做成内置，如果一个功能官方会做，那第三方插件做还是否有意义。\n\n我们的希望是，DeepSeek Harness 可以作为 Agent 时代的操作系统。\n\n所以，也许可以用操作系统来举例。以智能手机操作系统为例，系统会内置一些通用的 App，例如闹铃与计算器，满足用户的基本需求。但做手机操作系统的厂商肯定更希望生态中能出现更多更广的 App 满足更广泛的需求，希望智能手机生态中出现更好的更适合用户的闹铃 App 与计算器 App 能够比内置功能做得更好，希望第三方开发者能够使用智能手机操作系统提供的 API 做出发明智能手机的人从来没想过的 App。\n\nDeepSeek Harness 对于第三方插件生态的想法会是类似的。我们会为用户提供稳定的基础能力，并内置大多数人都需要的通用功能。但在“一切皆插件”的设计下，内置功能同样可以被第三方插件替换，我们希望更多的社区作品成为用户的日常选择。",
+    "key_points": [
+      "“Everything is a plugin”: built-ins can be swapped out.",
+      "Third-party authors should feel free to rebuild even the basics."
+    ],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2119263160247206139",
+    "url": "https://x.com/jeff_weinstein/status/2119263160247206139",
+    "author": {
+      "name": "Jeff Weinstein",
+      "handle": "jeff_weinstein"
+    },
+    "posted_at": "2026-11-08T02:58:06.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "startups-business",
+    "shelf_life": "news",
+    "tldr": "Stripe agentic-commerce hiring: send a product critique",
+    "summary": "Stripe’s Jeff Weinstein says 500+ people applied to the agentic commerce team and asks applicants to send a screenshot of a Stripe product with a 3-5 sentence critique.",
+    "text": "🤯 500+ people (and a bunch of bots...) emailed me applying to @stripe's agentic commerce team—I'm through 1/2 of them.\n\nAn ask: If you'd like to *dramatically* increase your chances, please send me any screenshot of using a Stripe product and write 3-5 sentences critiquing it. https://t.co/eVOabL3a12",
+    "key_points": [
+      "A concrete product critique beats a resume pile.",
+      "Some applicants are bots, he notes."
+    ],
+    "action": "Write a 3-5 sentence critique of a Stripe screen and email it with your application.",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2119266616735355269",
+    "url": "https://x.com/kinopee_ai/status/2119266616735355269",
+    "author": {
+      "name": "Kinopee",
+      "handle": "kinopee_ai"
+    },
+    "posted_at": "2026-11-08T03:11:50.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "AIエージェント界隈の風向きは「コスパ」で変わる",
+    "summary": "kinopee_aiは、Grok Bot称賛から利用上限問題を経てMuseへ風が移ったと見る。Muse自体も持続性は不明で、潮目はまた変わると予測する。",
+    "text": "Grok Bot 礼賛の嵐から利用上限問題で、一気に Muse に風が吹いている X 界隈。Muse も現状の持続性がないことは明らかなので、また潮目が変わる時が来る。Duet も出てくるし。\nこの界隈は一週間先も予測困難だけど、トレンドの一番の要因はコスパ。ある意味シンプル。",
+    "key_points": [
+      "一番の要因はコスパだと見ている。",
+      "一週間先も予測しにくい界隈だという。"
+    ],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2119420683528937780",
+    "url": "https://x.com/umiyuki_ai/status/2119420683528937780",
+    "author": {
+      "name": "うみゆき@AI研究",
+      "handle": "umiyuki_ai"
+    },
+    "posted_at": "2026-11-08T13:24:02.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "startups-business",
+    "shelf_life": "news",
+    "tldr": "SoftBankのガスタービン未払いと、データセンター債権の売り",
+    "summary": "umiyuki_aiの解説：米中間選挙後にデータセンター事業の先行きが怪しくなり、INGが債権を売り始めた。ソフトバンクのCDSは466bpに上昇したという。",
+    "text": "イーロンが「ソフトバンクは注文したガスタービン代払ってない」と暴露。文脈としてはまず米国の中間選挙で民主党（データセンター反対らしい）が勝っちゃった事でデータセンター事業の先行きが怪しくなり、オランダ大手銀行INGがデータセンター事業の債権をオークションで5億ドル分大量投げ売りし始めた。その中の2500万ドル分がスターゲート計画だって事で計画の先行きが大いに危ぶまれてる。すでにオラクルも不可抗力通知出してて逃げの姿勢を感じる。ソフトバンクの資金繰りも危ぶまれてCDSスプレッドは466bp（推計デフォルト確率30%）に上昇。イーロンは当初から「ソフトバンクにそんな金ねーよ」と疑ってた。ガスタービンってのはSBエナジーがデータセンターと一緒に建てるつもりのガス発電所に使われるものか。そんでソフトバンクがヤバそうみたいな話になってるけど、僕が思うにソフトバンクが潰れるリスクは無さそう。だってARMを手放せばまだ何十兆円でも金作れるでしょ",
+    "key_points": [
+      "イーロン氏の発言が発端で、数字は投稿者の引用。",
+      "投稿者自身はソフトバンクの破綻リスクは低いと見ている。"
+    ],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2119392741138612277",
+    "url": "https://x.com/nhk_news/status/2119392741138612277",
+    "author": {
+      "name": "NHKニュース",
+      "handle": "nhk_news"
+    },
+    "posted_at": "2026-11-08T11:33:00.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "国際ハッカー集団が見た日本：「アップデートを嫌がる」",
+    "summary": "NHKが国際ハッカー集団への取材から、日本が狙われる理由とサイバー攻撃の生活への影響を伝えた。",
+    "text": "「日本のみなさんは本当にアップデートを嫌がる」\n　国際ハッカー集団から見た日本とは\nhttps://t.co/tMMrij2sJl",
+    "key_points": [
+      "見出しの言葉は「日本のみなさんは本当にアップデートを嫌がる」。"
+    ],
+    "action": "今日、自宅ルーターとスマホのアップデートを確認する。",
+    "links": [
+      {
+        "title": "日本はなぜ狙われる？サイバー攻撃 生活にも影響 | NHKニュース",
+        "url": "https://news.web.nhk/newsweb/na/nd-20261105de70851",
+        "image": "https://pbs.twimg.com/news_img/2119021760838606848/6VJW6_KI?format=jpg&name=150x150",
+        "short": "https://t.co/tMMrij2sJl"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119565927838892410",
+    "url": "https://x.com/securityLab_jp/status/2119565927838892410",
+    "author": {
+      "name": "セキュリティ対策Lab",
+      "handle": "securityLab_jp"
+    },
+    "posted_at": "2026-11-08T23:01:11.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "チームスピリットで2.8万件の個人情報漏洩",
+    "summary": "勤怠・工数管理のチームスピリットは、開発用サーバーへのサイバー攻撃で2万8,824件の個人情報が漏洩し、要配慮個人情報35件も含まれると報じられた。",
+    "text": "勤怠・工数管理クラウドサービスのチームスピリット、開発用サーバーへのサイバー攻撃で2万8,824件が個人情報漏洩　要配慮個人情報35件も対象 \n https://t.co/mGPmWbD98i \n\n#セキュリティ対策Lab #security #securitynews #セキュリティ #セキュリティニュース",
+    "key_points": [
+      "原因は開発用サーバーへの攻撃。",
+      "要配慮個人情報35件が対象。"
+    ],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2119499840560435455",
+    "url": "https://x.com/hirokoFR/status/2119499840560435455",
+    "author": {
+      "name": "大橋ひろこ",
+      "handle": "hirokoFR"
+    },
+    "posted_at": "2026-11-08T18:38:35.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "economics",
+    "shelf_life": "news",
+    "tldr": "日経平均は弱気相場入りか、信用買い残は歴史的高水準",
+    "summary": "大橋ひろこ氏のレポートは、日経平均が弱気相場入りの可能性と、信用買い残の高さ、JTロシア事業の接収を弱気材料として挙げる。",
+    "text": "日経平均は弱気相場入り？\n日本株は信用買い残高水準\nhttps://t.co/zLtj10K5OD \n・米国株市況、戻り鈍くも反発\n　～日経平均夜間取引は58000円台へ\n・雇用統計が予想を上回る好結果\n　～ダウ平均の下落が目立つ展開に\n・日経平均は弱気相場入り？\n　いったんは反発が期待されるが～\n・日本株の信用買い残は歴史的高水準\n・ロシアによるJT接収も心理的弱気材料",
+    "key_points": [
+      "夜間取引は58000円台。",
+      "いったんは反発が期待されるとする。"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "日経平均は弱気相場入り？日本株は信用買い残高水準｜大橋ひろこ",
+        "url": "https://note.com/hiroko_lounge/n/n97bd6c64c834?sub_rt=share_pb",
+        "image": "https://pbs.twimg.com/news_img/2119499842225594369/SQTJOD6s?format=jpg&name=150x150"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119449283267371274",
+    "url": "https://x.com/markgurman/status/2119449283267371274",
+    "author": {
+      "name": "Mark Gurman",
+      "handle": "markgurman"
+    },
+    "posted_at": "2026-11-08T15:17:41.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "startups-business",
+    "shelf_life": "news",
+    "tldr": "Apple’s new CEO presses Federighi to speed up AI",
+    "summary": "Bloomberg’s Mark Gurman reports Apple CEO John Ternus held a closed-door meeting with Craig Federighi pushing him to accelerate the AI road map beyond Siri fixes.",
+    "text": "NEW in Power On: Apple CEO John Ternus held a closed-door meeting with Craig Federighi in the last few weeks, pushing his software chief to accelerate Apple’s AI road map and move beyond Siri improvements amid concerns about falling behind rivals. https://t.co/54AqCqxZ7U",
+    "key_points": [
+      "The push comes from fear of falling behind rivals.",
+      "This is reporting from sources, not an Apple statement."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Bloomberg Power On: Apple explores turning Siri into agent",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-11-08/apple-explores-turning-siri-ai-into-chatgpt-dots-like-agent-ios-28-shake-up",
+        "short": "https://t.co/54AqCqxZ7U"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119471828058148992",
+    "url": "https://x.com/threepointone/status/2119471828058148992",
+    "author": {
+      "name": "sunil pai",
+      "handle": "threepointone"
+    },
+    "posted_at": "2026-11-08T16:47:16.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "startups-business",
+    "shelf_life": "evergreen",
+    "tldr": "If Apple caps LLM spend per engineer, what is the engineer?",
+    "summary": "Threepointone asks how to square Apple’s reported $200–300 a day LLM limit with an engineer’s role shifting to feeding roadmaps into machines.",
+    "text": "(voice note) spent a couple of days thinking about this. I'm finding it hard to reconcile what Apple did with its engineers where they're restricting them to 200, 300 dollars a day for using LLMs. Like, at this point, the engineer is actually kind of decoupled from the work they are doing. Like their job is mostly to feed and guide the product roadmap into machines that generate output and ostensibly the company has figured out a way to convert the roadmap into revenue and profit. And the engineer's job is to create systems of verification and safety. And that's what they're graded on, so to speak. And Apple seems like the perfect kind of company where their roadmap translates into revenue. And I've had people come up with reasons for why this might not be true, some more unkind than others regarding organizations. But I still don't have a clear answer for why software companies are doing this right now. Very puzzling.",
+    "key_points": [
+      "The cap is reported secondhand and unconfirmed here.",
+      "He questions what an engineer’s job is once output is generated."
+    ],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2119546539869864024",
+    "url": "https://x.com/theo/status/2119546539869864024",
+    "author": {
+      "name": "Theo - t3.gg",
+      "handle": "theo"
+    },
+    "posted_at": "2026-11-08T21:44:09.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "world",
+    "shelf_life": "news",
+    "tldr": "NVIDIA board opens an independent probe into Jensen Huang targeting",
+    "summary": "Theo quotes NVIDIA’s statement that its board is investigating reporting that CEO Jensen Huang was the target of a foreign intelligence effort.",
+    "text": "“The NVIDIA Board is initiating an independent investigation in light of recent reporting that founder and CEO Jensen Huang has been the target of a foreign intelligence effort.”\n\nOh boy https://t.co/xUFW73HOw0",
+    "key_points": [
+      "The quoted statement comes from NVIDIA’s newsroom.",
+      "Nikkei, per its headline, links the probe to a woman said to be a Chinese spy."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "NVIDIA Newsroom statement on X",
+        "url": "https://twitter.com/nvidianewsroom/status/2119520873577398695",
+        "short": "https://t.co/xUFW73HOw0"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119494913138237540",
+    "url": "https://x.com/unusual_whales/status/2119494913138237540",
+    "author": {
+      "name": "unusual_whales",
+      "handle": "unusual_whales"
+    },
+    "posted_at": "2026-11-08T18:19:00.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "economics",
+    "shelf_life": "news",
+    "tldr": "Senate may vote on permitting bill making data centers pay for power",
+    "summary": "Unusual Whales summarises a bipartisan bill that would shorten energy-project reviews, make data centers pay for grid upgrades and require upfront money for site closures.",
+    "text": "The Senate could vote as soon as this week on a bipartisan bill to speed up energy projects and make AI data centers pay their own way on the power grid.\n\nThe Bipartisan American Affordability and Jobs Act would:\n\nShorten environmental reviews for energy infrastructure, and the window to challenge projects in court\nRequire data centers to pay for the electricity and grid upgrades they need, instead of passing costs on to other customers\nMake large data center developers put up money upfront in case a facility closes before new power projects are paid off\n\nIt’s led by Sens. Shelley Moore Capito (R-WV), Sheldon Whitehouse (D-RI), Mike Lee (R-UT) and Martin Heinrich (D-NM).",
+    "key_points": [
+      "Cloture vote is reported for Monday.",
+      "The bill is the Bipartisan American Affordability and Jobs Act."
+    ],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2119495828683530519",
+    "url": "https://x.com/patrickc/status/2119495828683530519",
+    "author": {
+      "name": "Patrick Collison",
+      "handle": "patrickc"
+    },
+    "posted_at": "2026-11-08T18:22:38.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "startups-business",
+    "shelf_life": "evergreen",
+    "tldr": "What does the positive AI equilibrium look like?",
+    "summary": "Collison says the upside of AI is hard to picture beyond cured diseases and abundance, and asks whether people still work, and why.",
+    "text": "Two things I’ve been thinking about regarding AI:\n\n• People often highlight the risks involved in AI, which are surely very real. I’m struck, however, by how hard it is to understand the contours of the positive scenario. There are easy-to-perceive and frequently invoked elements of a positive vision — more diseases cured, more material abundance, etc. — which sound great, but these are by themselves just ingredients. I’m curious what the larger equilibrium is supposed to look like. Do people work? If so, why? What is their marginal contribution? If not, how are resources allocated? What is scarce? What is the ratio between humans and AIs? Are humans in control, whatever that means? One sometimes hears the Culture novels invoked as one scenario, but I’m not sure they depict a desirable outcome. (AI runs everything and humans compete in games? Iain Banks himself said that the humans in the Culture are “somewhere between passengers, pets and parasites.”) There is Richard Brautigan’s famous poem, but do we want to be “returned to our mammal brothers and sisters”? (Isn’t that rewinding Genesis?) We could say that it was hard to imagine the world of 1900 from the vantage point of 1700, and that’s assuredly true. But nobody in 1700 was trying to recast humanity itself within a couple of years — things necessarily unfolded slowly and by increments, and therefore with the possibility for error correction. Given how rapid the rate of progress in AI may be, it feels strange for the upside case to be so opaque.\n\n• There is increasing discussion of whether AIs are conscious or how we would know whether they are, with conclusions there often assumed to be relevant to matters of moral worth. At first blush, this seems a rather arcane, benign, or even absurd issue. (Remember the response to Blake Lemoine’s fears.) Setting aside the terms of the debate itself, or the relevant demarcation criteria, it seems to me a quite high-stakes question, for an affirmative answer — that is, granting moral worth to AIs — would presumably mean that the aggregate worth of AIs would soon outweigh that of humans in any utilitarian calculus. The AIs will be exceptionally wise and intelligent, and vastly more numerous (especially once one considers the imminent future and the AIs not yet born). As such, even epsilon of moral worth will multiply to a lot once one considers the quadrillions that could soon exist. (This is effectively a distributed version of the Nozick’s utility monster.) If this conclusion is unpalatable, I think one of three propositions needs to be rejected: the premise AIs can have moral worth; utilitarianism itself; or the belief that there is even a possibility that they will be far more numerous than humans.\n\nWith both of these matters (contours of future society; AI moral worth), there is the possibility of dramatic change. Today, people argue about datacenters. I’m curious how popular support for AI will evolve as more people come to understand these medium-term questions and the relevant stakes. What is the vision for AI that most people would be excited about?",
+    "key_points": [
+      "Benefits named are ingredients, not an equilibrium.",
+      "He is asking questions rather than predicting."
+    ],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2119325068979470442",
+    "url": "https://x.com/brandon_galang/status/2119325068979470442",
+    "author": {
+      "name": "brandon galang",
+      "handle": "brandon_galang"
+    },
+    "posted_at": "2026-11-08T07:04:06.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "startups-business",
+    "shelf_life": "evergreen",
+    "tldr": "To join Claude Code enablement, build the receipts",
+    "summary": "Galang says the way to land a Claude Code enablement role at Anthropic is to activate peers in Claude Code, write about it and build proof; he says it worked.",
+    "text": "do you want to work in claude code enablement at anthropic? go and activate your peers in claude code. write about it. build the receipts.\n\nadvice worked. https://t.co/vJadesk3WN",
+    "key_points": [
+      "Public receipts beat claims.",
+      "Single self-reported success story."
+    ],
+    "action": "Write one public post about a Claude Code workflow you taught a teammate.",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2119378650017464386",
+    "url": "https://x.com/Nature/status/2119378650017464386",
+    "author": {
+      "name": "nature",
+      "handle": "Nature"
+    },
+    "posted_at": "2026-11-08T10:37:00.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "history",
+    "shelf_life": "news",
+    "tldr": "Ancient genomes hint at where Celtic and Germanic languages began",
+    "summary": "Two studies of more than 4,700 ancient human genomes point to possible origins of Celtic and Germanic languages, Nature reports.",
+    "text": "A pair of studies analysing more than 4,700 ancient human genomes has identified the possible origins of Celtic and Germanic languages \n\nhttps://t.co/mAHLzSRvUl",
+    "key_points": [
+      "The data covers 4,700+ ancient individuals.",
+      "Origins are described as possible, not settled."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Rise of Germanic and Celtic languages is written in ancient DNA",
+        "url": "https://www.nature.com/articles/d41586-026-03581-3&linkId=64339136&error=cookies_not_supported&code=b4892cb9-cefd-466c-b421-dd602daaa8bc",
+        "image": "https://pbs.twimg.com/news_img/2119378654840926208/z6dMUfHD?format=jpg&name=150x150",
+        "short": "https://t.co/mAHLzSRvUl"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119480328758640862",
+    "url": "https://x.com/Nature/status/2119480328758640862",
+    "author": {
+      "name": "nature",
+      "handle": "Nature"
+    },
+    "posted_at": "2026-11-08T17:21:03.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "history",
+    "shelf_life": "news",
+    "tldr": "26,000-year-old cave engravings found in a Catalan tourist spot",
+    "summary": "Nature reports palaeolithic engravings in Catalonia, a region thought nearly empty of such art, found in a place many tourists visit.",
+    "text": "Catalonia was thought to be almost devoid of palaeolithic art, but these engravings dating back 26,000 years have been found in a tourist hotspot\n\nhttps://t.co/Ke8rvGZnwA",
+    "key_points": [
+      "Catalonia was thought almost devoid of palaeolithic art."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "The palaeo cave art that hid in plain sight for 26,000 years",
+        "url": "https://www.nature.com/articles/d41586-026-03585-z&linkId=64338875&error=cookies_not_supported&code=a05f23e4-d364-4e48-afae-ef180eff3519",
+        "image": "https://pbs.twimg.com/news_img/2119480334211272704/bEKIUTQX?format=jpg&name=150x150",
+        "short": "https://t.co/Ke8rvGZnwA"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119543111718240759",
+    "url": "https://x.com/Reuters/status/2119543111718240759",
+    "author": {
+      "name": "Reuters",
+      "handle": "Reuters"
+    },
+    "posted_at": "2026-11-08T21:30:31.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "economics",
+    "shelf_life": "news",
+    "tldr": "A digital bank’s collapse toppled Paraguay’s president",
+    "summary": "Reuters traces how a digital bank’s failure brought down Paraguay’s president.",
+    "text": "How a digital bank’s collapse toppled Paraguay’s president https://t.co/yUCK4D7V5O",
+    "key_points": [
+      "Headline only here; details are behind the Reuters link."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "How a digital bank’s collapse toppled Paraguay’s president",
+        "url": "https://www.reuters.com/business/finance/how-digital-banks-collapse-toppled-paraguays-president-2026-11-08/?taid=6af0e9f75609e00001422bb1",
+        "image": "https://pbs.twimg.com/news_img/2119543115157479424/MBW9tKgH?format=jpg&name=150x150",
+        "short": "https://t.co/yUCK4D7V5O"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119377208510718089",
+    "url": "https://x.com/WIRED/status/2119377208510718089",
+    "author": {
+      "name": "WIRED",
+      "handle": "WIRED"
+    },
+    "posted_at": "2026-11-08T10:31:17.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "Young mathematicians solved a 55-year-old problem by randomness and friendship",
+    "summary": "WIRED reports a group of young mathematicians solved a conjecture first inspired by juggling, using randomness.",
+    "text": "A group of young mathematicians found the solution to the long unanswered conjecture, first inspired by juggling, through randomness and friendship. https://t.co/QnIMFpSeYV",
+    "key_points": [
+      "The problem had stood for 55 years.",
+      "The title says humans solved it this time."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "A 55-Year-Old Math Problem Was Solved—This Time by Humans",
+        "url": "https://www.wired.com/story/a-55-year-old-math-problem-was-solved-this-time-by-humans/",
+        "image": "https://pbs.twimg.com/news_img/2119377212491112448/5RrXjuJ5?format=jpg&name=150x150",
+        "short": "https://t.co/QnIMFpSeYV"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119456158255636770",
+    "url": "https://x.com/Nature/status/2119456158255636770",
+    "author": {
+      "name": "nature",
+      "handle": "Nature"
+    },
+    "posted_at": "2026-11-08T15:45:00.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "health",
+    "shelf_life": "news",
+    "tldr": "Epilepsy seizures fall over 90% after brain gene therapy",
+    "summary": "Nature reports three people with drug-resistant epilepsy had monthly seizures fall by more than 90% after viruses carrying genes were infused into the brain.",
+    "text": "Three people with epilepsy resistant to drug treatment saw the number of seizures they had per month fall by more than 90%, after gene-laden viruses were infused directly into their brains \n\nhttps://t.co/iqNtN8iiZz",
+    "key_points": [
+      "Only three people were treated.",
+      "Results are early and not a general cure."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Epileptic seizures nearly vanish after people receive experimental gene therapy ",
+        "url": "https://www.nature.com/articles/d41586-026-03566-2&linkId=64339126&error=cookies_not_supported&code=6c870a32-c552-4781-ac94-651cd5e25943",
+        "image": "https://pbs.twimg.com/news_img/2119456163347501056/hRMDG9lM?format=jpg&name=150x150",
+        "short": "https://t.co/iqNtN8iiZz"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2119471566417273315",
+    "url": "https://x.com/PublicDomainRev/status/2119471566417273315",
+    "author": {
+      "name": "The Public Domain Review",
+      "handle": "PublicDomainRev"
+    },
+    "posted_at": "2026-11-08T16:46:13.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "A 1705 maze maps the path to New Jerusalem",
+    "summary": "Public Domain Review shares a 1705 maze that guides Christians along possible routes to New Jerusalem and dead ends to avoid.",
+    "text": "This 1705 maze instructs Christians on the possible pathways to New Jerusalem (and dead-ends to be avoided): https://t.co/EaZ8wlevAL https://t.co/m0xVNtG5l7",
+    "key_points": [
+      "The maze doubles as a moral diagram."
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWngJ7cWgAAwgVS.jpg?format=jpg&name=large",
+        "link": "https://t.co/m0xVNtG5l7"
+      }
+    ]
+  },
+  {
+    "id": "2119327303511761382",
+    "url": "https://x.com/twtayaan/status/2119327303511761382",
+    "author": {
+      "name": "Ayaan 🐧",
+      "handle": "twtayaan"
+    },
+    "posted_at": "2026-11-08T07:12:59.000Z",
+    "saved_at": "2026-11-09T08:20:19+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Omarchy 4.5 installs alongside macOS without a USB drive",
+    "summary": "twtayaan says Omarchy 4.5 adds a native Mac installer for M1–M3 and MacBook Neo, with M4+ still in development, plus floating windows, a dock and a launcher.",
+    "text": "You can now install Omarchy Linux alongside macOS on supported MacBooks without a USB drive.\n\nOmarchy 4.5 brings a native Mac installer. Download an app in macOS, and it installs Linux alongside it.\n\nIt supports M1, M2, M3 and MacBook Neo models. Support for M4, M5 and M6 is still being developed.\n\nThe release also adds floating windows, a dock and an app launcher, giving users a familiar alternative to its tiling desktop.\n\nBuilt on Asahi Linux’s work, it makes trying Linux on Apple hardware easier while keeping macOS available.\n\nSource: https://t.co/QiUjVwswnD",
+    "key_points": [
+      "Install by running an app in macOS.",
+      "M4, M5 and M6 support is not ready."
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWlcyOIbkAAq1qM.jpg?format=jpg&name=large"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWlc18JbYAAKzFt.jpg?format=jpg&name=large"
+      }
+    ]
   }
 ]
