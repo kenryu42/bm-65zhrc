@@ -1,0 +1,474 @@
+{
+  "date": "2026-11-10",
+  "title": "Bigger engines, closer brakes",
+  "subtitle": "Fable 5.2 ships with a twin, OpenAI builds a 35-second stop, and Japan’s leak flood keeps rising",
+  "editor_note": "The strongest models arrived with their brakes attached. Where nobody built one, the leaks kept coming.",
+  "theme": {
+    "palette": "sunset",
+    "fonts": "sans",
+    "accent": "#c2410c"
+  },
+  "sections": [
+    {
+      "type": "cover-story",
+      "scan": "2119867114450268322",
+      "kicker": "Cover story",
+      "headline": "Fable 5.2 arrives with a twin",
+      "deck": "Same model as Mythos 5.2, with stronger safeguards.",
+      "variant": "overlay",
+      "why": "Anthropic’s new top model is live in Claude Code at a lower price than 5.1.",
+      "source_label": "Claude"
+    },
+    {
+      "type": "corner",
+      "corner": "brief",
+      "deck": "What moved overnight."
+    },
+    {
+      "type": "brief-grid",
+      "variant": "cards",
+      "headline": "Patches, machines, resets",
+      "columns": 2,
+      "items": [
+        {
+          "scan": "2120041948019146966",
+          "headline": "SSHole is now on CISA’s exploited list",
+          "why": "Alpine and other musl images running sshd are the ones at risk.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "The Hacker News"
+        },
+        {
+          "scan": "2119846770591363472",
+          "headline": "bee-js 13.3.0 shipped a wallet stealer",
+          "why": "A poisoned npm release; updating alone won’t remove the backdoor.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "The Hacker News"
+        },
+        {
+          "scan": "2119978769335435699",
+          "headline": "Apple patches iOS 26.7.3, 27.2.1, 18.7.12",
+          "why": "Security fixes for every supported iPhone line; update today.",
+          "source_label": "国家サイバー統括室"
+        },
+        {
+          "scan": "2119883176726409645",
+          "headline": "One dot, many of your computers",
+          "why": "Builds and tests can now run on a second machine while you code.",
+          "source_label": "OpenAI Devs"
+        },
+        {
+          "scan": "2119871982946971659",
+          "headline": "Grok Bot resets weekly limits",
+          "why": "A free top-up for every user, the same day Fable landed.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Grok Bot"
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "variant": "wide",
+      "art": "interlude-wide.jpg",
+      "art_alt": "Long amber light trails over a dark road, easing into a soft glow"
+    },
+    {
+      "type": "corner",
+      "corner": "lead",
+      "deck": "A bigger engine, and who holds the brake."
+    },
+    {
+      "type": "feature",
+      "scan": "2119867136361316437",
+      "headline": "One model, two sets of brakes",
+      "deck": "Fable is guarded; Mythos goes to vetted cyber and bio teams.",
+      "span": "half",
+      "art": "lead-twin.jpg",
+      "art_alt": "Two identical glowing engines side by side, one wrapped in a ring of guard rails",
+      "why": "The safety line is drawn at access, not at the model itself.",
+      "source_label": "Claude"
+    },
+    {
+      "type": "pull-quote",
+      "scan": "2119867136361316437",
+      "span": "half",
+      "quote": "Fable and Mythos are the same underlying model. Fable has strong safeguards to guard against misuse."
+    },
+    {
+      "type": "feature",
+      "scan": "2119913172039868579",
+      "headline": "OpenAI’s 35-second stop",
+      "deck": "Control Room tracks every research job and can halt its output.",
+      "art": "lead-brake.jpg",
+      "art_alt": "A single lever on a warm control panel, with many small lights going dark in a row",
+      "why": "A concrete kill switch for agent fleets, with a number you can copy.",
+      "source_label": "OpenAI"
+    },
+    {
+      "type": "compare",
+      "variant": "versus",
+      "headline": "A step up, or careless?",
+      "verdict": "Both had real hours with it. It shines on big open work and still slips on small things.",
+      "items": [
+        {
+          "scan": "2119870150845599972",
+          "label": "Ethan Mollick",
+          "note": "Calls it a sort of “Jagged AGI.”",
+          "why": "Long hands-on test across business, research and hardware."
+        },
+        {
+          "scan": "2119988540708896897",
+          "label": "Theo",
+          "note": "Sees mistakes Opus wouldn’t make.",
+          "why": "A daily user’s early pushback.",
+          "tags": [
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "field-notes",
+      "deck": "Using Fable today, and the tools around it."
+    },
+    {
+      "type": "brief-grid",
+      "variant": "plain",
+      "headline": "Picking and prompting",
+      "columns": 2,
+      "items": [
+        {
+          "scan": "2119898687803621427",
+          "headline": "Which Claude model to build with",
+          "why": "Raise effort before switching models; put subagents on smaller ones.",
+          "source_label": "ClaudeDevs"
+        },
+        {
+          "scan": "2120029347948220500",
+          "headline": "“This codebase is yours”",
+          "why": "A prompting-guide line that makes Fable bolder with existing code.",
+          "source_label": "Simon Willison"
+        },
+        {
+          "scan": "2119868704544711108",
+          "headline": "Fable resets for long subscribers",
+          "why": "One to three resets by tenure, usable until March 8.",
+          "source_label": "ClaudeDevs"
+        },
+        {
+          "scan": "2119925633564463609",
+          "headline": "A whole game from one-shot prompts",
+          "why": "8 hours, about $550, models and sounds made from scratch.",
+          "source_label": "Felix Rieseberg"
+        }
+      ]
+    },
+    {
+      "type": "numbered-list",
+      "variant": "compact",
+      "headline": "Around the tools",
+      "items": [
+        {
+          "scan": "2119824409087348984",
+          "headline": "A golden age of testing and verification",
+          "why": "Cheap code makes checking it the craft that matters.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "poteto"
+        },
+        {
+          "scan": "2119921157801652245",
+          "headline": "herdr on your phone",
+          "why": "See which agents need you and answer from the real terminal.",
+          "source_label": "herdr"
+        },
+        {
+          "scan": "2119650353142747181",
+          "headline": "Fold AI PR text into <details>",
+          "why": "Reviewers see the point first, the slop only on request.",
+          "source_label": "Simon Willison"
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "variant": "square",
+      "art": "interlude-square.jpg",
+      "art_alt": "A round amber gauge with its needle resting low, on a dusk background"
+    },
+    {
+      "type": "corner",
+      "corner": "japan-desk",
+      "label": "日本から",
+      "deck": "漏えいの波は止まらない。"
+    },
+    {
+      "type": "numbered-list",
+      "variant": "compact",
+      "headline": "漏えい続報",
+      "items": [
+        {
+          "scan": "2119750512623145422",
+          "headline": "ニトリ、最大3762万件",
+          "why": "顧客情報が対象。会員なら通知を確認したい。",
+          "source_label": "日本経済新聞"
+        },
+        {
+          "scan": "2120092897047678996",
+          "headline": "シェアフル、最大750万アカウント",
+          "why": "給与振込用の口座情報も含むとされる。",
+          "source_label": "ITmedia NEWS"
+        },
+        {
+          "scan": "2120093576638111767",
+          "headline": "日本商工会議所、最大98万人",
+          "why": "検定のネット試験システムが狙われた。",
+          "source_label": "セキュリティ対策Lab"
+        },
+        {
+          "scan": "2119681909710307806",
+          "headline": "三井住友海上、22万8000件",
+          "why": "保険の契約者情報まで漏えい。",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "NHK"
+        },
+        {
+          "scan": "2119782169094865229",
+          "headline": "アララ続報：セガ219万件",
+          "why": "学研17社79万件、千葉興業銀行17万件も続いた。",
+          "source_label": "日本経済新聞"
+        },
+        {
+          "scan": "2120064667947262405",
+          "headline": "アイスタイル、別経路で約280万人",
+          "why": "@cosmeの約300万人とは別。委託先Cuenote経由で新たに判明。",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "セキュリティ対策Lab"
+        },
+        {
+          "scan": "2119934613883965791",
+          "headline": "ソフトバンク社長「疲れ切っている」",
+          "why": "攻撃は月7億件。人手のパッチ対応が限界と。",
+          "source_label": "ITmedia"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "adjacent",
+      "deck": "One step out: lab claims, local kit, and cold rooms."
+    },
+    {
+      "type": "numbered-list",
+      "variant": "large",
+      "headline": "What Anthropic says Fable did",
+      "items": [
+        {
+          "scan": "2119867129751056485",
+          "headline": "Fermat’s Last Theorem, formalized in 30 hours",
+          "why": "1,000 agents; Opus 5.5 reached 26% with the same setup.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Claude"
+        },
+        {
+          "scan": "2119899461983822264",
+          "headline": "Three working devices from one paragraph",
+          "why": "Specs, boards, enclosures and code, with no fixes after.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Claude"
+        },
+        {
+          "scan": "2119899484373369278",
+          "headline": "Two open black-hole problems solved",
+          "why": "One calculation had been stuck for 23 years.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Claude"
+        },
+        {
+          "scan": "2119867126613954736",
+          "headline": "Gene-therapy capsids predicted whole",
+          "why": "28 of 34 modeled accurately, by Mythos 5.2.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Claude"
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "variant": "cards",
+      "headline": "Same target, two governments",
+      "verdict": "Japan warns before an attack lands; France names a culprit after 700 sites were hit.",
+      "items": [
+        {
+          "scan": "2119750082677629438",
+          "label": "日本・国家サイバー統括室",
+          "note": "冷凍・冷蔵設備と委託先の対策を求める。",
+          "why": "Cold-chain controllers are now a named target in Japan."
+        },
+        {
+          "scan": "2120081425391386859",
+          "label": "France",
+          "note": "Blames Iran’s IRGC for sabotage at ~700 stores.",
+          "why": "Hijacked defrost settings caused fires and big food losses.",
+          "tags": [
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "brief-grid",
+      "variant": "cards",
+      "headline": "Small models, local kit, dense hosts",
+      "columns": 3,
+      "items": [
+        {
+          "scan": "2120000217827475623",
+          "headline": "Crouton-alpha was Muse Ember",
+          "why": "The mystery test model was Meta’s new small agent model.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Alexandr Wang"
+        },
+        {
+          "scan": "2119713641213915642",
+          "headline": "Omarchy 4.6 picks your local model",
+          "why": "Local AI set up for whatever hardware you have.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "DHH"
+        },
+        {
+          "scan": "2119799176125157596",
+          "headline": "Agent Sustrate and gVisor go to CNCF",
+          "why": "Google says 10x denser agent hosting on Kubernetes.",
+          "source_label": "Publickey"
+        },
+        {
+          "scan": "2119628109121229174",
+          "headline": "Libghostty 1.0",
+          "why": "Ghostty’s terminal core as a library, Windows next.",
+          "source_label": "Publickey"
+        },
+        {
+          "scan": "2119773878222549451",
+          "headline": "Easy to build, hard to sell",
+          "why": "The other side of cheap software.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "levelsio"
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "variant": "quiet",
+      "art": "interlude-quiet.jpg",
+      "art_alt": "A thin band of sunset colour fading into calm dark"
+    },
+    {
+      "type": "corner",
+      "corner": "open-window",
+      "deck": "Science, for no reason but curiosity."
+    },
+    {
+      "type": "brief-grid",
+      "variant": "cards",
+      "headline": "Origins, flashes, flavours",
+      "columns": 2,
+      "items": [
+        {
+          "scan": "2119858821875073026",
+          "headline": "Did life begin with RNA?",
+          "why": "The leading origin theory, and the gaps it still leaves.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "Quanta"
+        },
+        {
+          "scan": "2119855543401492727",
+          "headline": "Timing X-ray flashes in attoseconds",
+          "why": "Better rulers for the fastest pulses used to watch electrons.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "Nature"
+        },
+        {
+          "scan": "2119773610617208971",
+          "headline": "How brains learn which flavours feed them",
+          "why": "Why we come to love the taste of calories.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "Nature"
+        },
+        {
+          "scan": "2119938089938210992",
+          "headline": "A theorem that unsettles reality",
+          "why": "Quantum foundations, where physicists guard their sanity.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "Quanta"
+        },
+        {
+          "scan": "2119804633912955287",
+          "headline": "Where academic freedom swung hardest",
+          "why": "Five countries, sharp falls and rises.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "Nature"
+        }
+      ]
+    },
+    {
+      "type": "image-of-the-day",
+      "variant": "standard",
+      "art": "iotd.jpg",
+      "headline": "Hand on the brake",
+      "art_alt": "A long glowing engine trail at dusk, ending at a single soft red stop light",
+      "caption": "Power is only half the design. The other half is how fast you can stop."
+    },
+    {
+      "type": "corner",
+      "corner": "kicker"
+    },
+    {
+      "type": "closer",
+      "variant": "photo",
+      "scan": "2119811292693233986",
+      "headline": "London in 1957, imagined in 1857",
+      "note": "It guessed shopping from home, a century early.",
+      "why": "Forecasts age oddly; this one aged well.",
+      "source_label": "Public Domain Review",
+      "tags": [
+        "unverified"
+      ]
+    }
+  ]
+}

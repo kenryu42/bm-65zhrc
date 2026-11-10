@@ -18563,5 +18563,1032 @@
         "url": "https://pbs.twimg.com/media/HWlc18JbYAAKzFt.jpg?format=jpg&name=large"
       }
     ]
+  },
+  {
+    "id": "2119867114450268322",
+    "url": "https://x.com/claudeai/status/2119867114450268322",
+    "author": {
+      "name": "Claude",
+      "handle": "claudeai"
+    },
+    "posted_at": "2026-11-09T18:57:59.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "Anthropic releases Claude Fable 5.2 and Claude Mythos 5.2",
+    "summary": "Anthropic launched Fable 5.2 and Mythos 5.2 for its hardest technical work, claiming gains in coding, reasoning and vision.",
+    "text": "Introducing Claude Fable 5.2 and Claude Mythos 5.2, designed to tackle the most daunting technical challenges.\n\nThey’re capable collaborators on ambitious projects in many fields, and show improvements in areas like coding, reasoning, and vision. https://t.co/jP0AutLxXb",
+    "key_points": [
+      "Fable 5.2 is on all paid plans, the Claude Platform and major clouds.",
+      "Anthropic says it is up to 30% faster than 5.1 and costs $8/$40 per 1M tokens."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Anthropic: Claude Fable and Mythos 5.2",
+        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWtIJNLWUAAcc7I.jpg"
+      }
+    ],
+    "pick": true
+  },
+  {
+    "id": "2119867136361316437",
+    "url": "https://x.com/claudeai/status/2119867136361316437",
+    "author": {
+      "name": "Claude",
+      "handle": "claudeai"
+    },
+    "posted_at": "2026-11-09T18:58:05.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "Fable and Mythos share one model with different safeguards",
+    "summary": "Anthropic says Fable and Mythos are the same underlying model; Fable carries strong misuse safeguards, while Mythos goes to vetted cyber and life-science groups.",
+    "text": "Fable and Mythos are the same underlying model. Fable has strong safeguards to guard against misuse.\n\nOrganizations pursuing beneficial applications in cybersecurity or biomedical research can apply for Mythos through our Life Sciences and Cyber Verification Programs.",
+    "key_points": [
+      "Mythos access is by application through verification programs.",
+      "The split is in safeguards, not in the model."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Anthropic: Claude Fable and Mythos 5.2",
+        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119913172039868579",
+    "url": "https://x.com/OpenAI/status/2119913172039868579",
+    "author": {
+      "name": "OpenAI",
+      "handle": "OpenAI"
+    },
+    "posted_at": "2026-11-09T22:01:00.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "OpenAI can halt research model output within 35 seconds",
+    "summary": "OpenAI describes Control Room, a central system that tracks every research inference workload and stops model output within 35 seconds of a decision to intervene.",
+    "text": "We built Control Room, a central system to track model workloads across our research infrastructure and stop them quickly when safety or security concerns arise.\n\nIt connects every research inference workload, including agentic sampling for model training and evaluation, data processing, and more. This works together with our misalignment monitoring systems, and halts model output within 35 seconds of a decision to intervene to stop or pause a job.\n\nControl Room is just one part of our holistic approach for safe frontier model training and deployment.\n\nhttps://t.co/tc0lBqFdS5",
+    "key_points": [
+      "Every research workload, including agentic sampling, is registered.",
+      "It works with OpenAI’s misalignment monitoring."
+    ],
+    "action": "Write down how long it takes you to stop every agent job you run, and who can trigger it.",
+    "links": [
+      {
+        "title": "OpenAI: Control Room",
+        "url": "https://openai.com/index/control-room/"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2119870150845599972",
+    "url": "https://x.com/emollick/status/2119870150845599972",
+    "author": {
+      "name": "Ethan Mollick",
+      "handle": "emollick"
+    },
+    "posted_at": "2026-11-09T19:10:03.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "evergreen",
+    "tldr": "Fable 5.2 feels like a sort of Jagged AGI",
+    "summary": "Ethan Mollick had early access and says Fable 5.2 crosses into a \"Jagged AGI\": strong at business, research and hardware tasks, with uneven limits.",
+    "text": "I had early access to Fable 5.2 for a bit & I think  it crosses the line into being a sort of Jagged AGI. Here, I have it launch a business, do academic research, hack hardware, build 3D models & more. I think it is a good illustration of limits & powers: https://t.co/QiR0IFPrZY",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "One Useful Thing: Fable 5.2 and Jagged AGI",
+        "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119988540708896897",
+    "url": "https://x.com/theo/status/2119988540708896897",
+    "author": {
+      "name": "Theo - t3.gg",
+      "handle": "theo"
+    },
+    "posted_at": "2026-11-10T03:00:30.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "Fable 5.2 makes mistakes Opus would not",
+    "summary": "Theo says Fable 5.2 is making careless mistakes he did not expect, compared with Opus 5.5.",
+    "text": "Fable 5.2 is making a lot of stupid mistakes I would not have expected from Opus tbh",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2119883176726409645",
+    "url": "https://x.com/OpenAIDevs/status/2119883176726409645",
+    "author": {
+      "name": "OpenAI Developers",
+      "handle": "OpenAIDevs"
+    },
+    "posted_at": "2026-11-09T20:01:49.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "OpenAI dots can drive several of your own computers",
+    "summary": "OpenAI lets one dot connect to multiple local computers and pick which one runs a task, so builds and tests can run on a second machine.",
+    "text": "You can now connect multiple local computers to the same dot and choose which one it uses for a task.\n\nIt can build and test your app on a dedicated machine while you keep coding on your laptop. https://t.co/7NcrytEqHC\n\nA few things to try with your dot:\n\nBuilding an iOS app? You can ask your dot to test a change in Xcode on a second Mac and send you screenshots of how it looks.\n\nNeed to reproduce a bug? Ask your dot to run the same test on your laptop and on a machine with an older SDK. You can compare the two results without changing your everyday setup.\n\nTesting UI updates? Have your dot click through a flow on a second computer and capture where things break. That keeps your own screen and cursor free while you work on the fix.\n\nhttps://t.co/XkLqx8xdr8",
+    "key_points": [
+      "Test an iOS change in Xcode on a second Mac.",
+      "Reproduce a bug on two machines with different SDKs."
+    ],
+    "action": "Connect a spare Mac to your dot and have it run your test suite there.",
+    "links": [
+      {
+        "title": "ChatGPT docs: dots, computers and apps",
+        "url": "https://learn.chatgpt.com/docs/dots/computers-and-apps"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2119883144707047424/img/CxuDM2R-jRXJG53z.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2119846770591363472",
+    "url": "https://x.com/TheHackersNews/status/2119846770591363472",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-11-09T17:37:09.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "bee-js npm package and Swarm Desktop shipped a wallet stealer",
+    "summary": "The Hacker News reports that compromised releases of Ethersphere’s bee-js and Swarm Desktop delivered wallet-stealing malware and backdoors on Windows, macOS and Linux.",
+    "text": "‼️ Hackers compromised Ethersphere's bee-js npm package and Swarm Desktop app to deliver crypto wallet-stealing malware.\n\nThe malicious releases also install backdoors on Windows, macOS, and Linux.\n\nBoth versions are now withdrawn, but updating alone won't remove the backdoors.\n\nDetails: https://t.co/oKyHsdGi4P",
+    "key_points": [
+      "Both releases are withdrawn.",
+      "Updating does not remove the backdoor."
+    ],
+    "action": "Search your lockfiles for bee-js 13.3.0 and pin exact versions instead of caret ranges.",
+    "links": [
+      {
+        "title": "The Hacker News: bee-js compromise",
+        "url": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWs1ZfJakAAlEyN.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2120041948019146966",
+    "url": "https://x.com/TheHackersNews/status/2120041948019146966",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-11-10T06:32:43.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "CISA adds OpenSSH SSHole flaw to its exploited list",
+    "summary": "The Hacker News says CISA added four actively exploited flaws to KEV, including OpenSSH SSHole, already used for malware, botnets and cryptomining.",
+    "text": "🚨 CISA adds 4 actively exploited flaws to its KEV catalog, affecting OpenSSH, GPUStack, FreeSWITCH, and IBM Aspera Faspex.\n\nOpenSSH SSHole attacks have already involved TAC Agent malware deployment, botnet activity, and cryptomining.\n\nWhat we know → https://t.co/MQawUk2XOF",
+    "key_points": [],
+    "action": "Check any Alpine or musl containers running sshd and update OpenSSH.",
+    "links": [
+      {
+        "title": "The Hacker News: CISA KEV adds OpenSSH flaw",
+        "url": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119978769335435699",
+    "url": "https://x.com/cyber_forecast/status/2119978769335435699",
+    "author": {
+      "name": "国家サイバー統括室(注意・警戒情報)",
+      "handle": "cyber_forecast"
+    },
+    "posted_at": "2026-11-10T02:21:40.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Apple ships iOS and iPadOS 26.7.3 security updates",
+    "summary": "Japan’s national cyber office flags Apple’s November 9 security updates for iOS and iPadOS 26.7.3; 27.2.1 and 18.7.12 also shipped.",
+    "text": "【更新情報】\n米国時間2026年11月9日、AppleからiOSおよびiPadOSのセキュリティアップデートが公開されました（iOS 26.7.3 and iPadOS 26.7.3）。\n忘れずにアップデートしてください。\nhttps://t.co/QQOq5z9N4z",
+    "key_points": [],
+    "action": "Update iPhone and iPad to the latest iOS for your device.",
+    "links": [
+      {
+        "title": "Apple: iOS 26.7.3 security content",
+        "url": "https://support.apple.com/en-us/149716"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119871982946971659",
+    "url": "https://x.com/bot/status/2119871982946971659",
+    "author": {
+      "name": "Grok Bot",
+      "handle": "bot"
+    },
+    "posted_at": "2026-11-09T19:17:20.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Grok Bot resets weekly limits for every user",
+    "summary": "Grok Bot reset weekly usage limits for all users.",
+    "text": "We've reset weekly limits for all Grok Bot users.\n\nEnjoy!",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2120000217827475623",
+    "url": "https://x.com/alexandr_wang/status/2120000217827475623",
+    "author": {
+      "name": "Alexandr Wang",
+      "handle": "alexandr_wang"
+    },
+    "posted_at": "2026-11-10T03:46:54.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "Crouton-alpha was an early build of Meta’s Muse Ember",
+    "summary": "Alexandr Wang says the crouton-alpha test model was an early version of Muse Ember, Meta’s new smallest model, after more than 5T test tokens.",
+    "text": "surrrprisee!!\n\ncrouton-alpha 🥐 was an early version of muse ember 🔥 \n\nwe fixed a bunch of the issues before launch—thanks for all the testing!\n\nwe processed over 5T tokens in testing—excited to see where you all take this model next! https://t.co/PWEWHuAqy6",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2119898687803621427",
+    "url": "https://x.com/ClaudeDevs/status/2119898687803621427",
+    "author": {
+      "name": "ClaudeDevs",
+      "handle": "ClaudeDevs"
+    },
+    "posted_at": "2026-11-09T21:03:27.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Anthropic guide to choosing Fable, Opus, Sonnet or Haiku",
+    "summary": "Anthropic’s guide covers when to use each Claude model, when to raise effort instead of switching, and putting subagents on smaller models to save cost.",
+    "text": "Which Claude model should you build with? \n\nOur new guide breaks down when to use Fable 5.2, Opus 5.5, Sonnet or Haiku. It also covers when to adjust effort instead of switching models, and how to save cost by putting subagents on smaller models.\n\nhttps://t.co/1VmXqhkZB0",
+    "key_points": [
+      "Raise effort before switching to a bigger model.",
+      "Smaller models suit subagent grunt work."
+    ],
+    "action": "Move log-reading and file-search subagents to Haiku or Sonnet and compare cost per task.",
+    "links": [
+      {
+        "title": "Claude: Which model should you build with?",
+        "url": "https://claude.dev/blog/which-claude-model-should-you-build-with/"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2120029347948220500",
+    "url": "https://x.com/simonw/status/2120029347948220500",
+    "author": {
+      "name": "Simon Willison",
+      "handle": "simonw"
+    },
+    "posted_at": "2026-11-10T05:42:39.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Tell Fable 5.2 the codebase is yours",
+    "summary": "Simon Willison points to a tip in Anthropic’s Fable 5.2 prompting guide: saying \"This codebase is yours\" makes it less cautious about improving code.",
+    "text": "When Anthropic release a new model it's always worth taking a look at their updated prompting guide - here's an entertaining tip to make Fable 5.2 less likely to be cautious in how it improves existing code: tell it \"This codebase is yours\" https://t.co/mKjdw4QPxV https://t.co/KfHcJdItVc",
+    "key_points": [],
+    "action": "Add \"This codebase is yours\" to a Fable 5.2 refactor prompt and compare the diff.",
+    "links": [
+      {
+        "title": "Claude docs: Prompting Claude Fable 5.2",
+        "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-2#say-who-owns-the-code"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWvbWwFaAAAyY8_.jpg",
+        "alt": "Say who owns the code\nClaude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic’s testing on small coding tasks, when a prompt said nothing about ownership or presented the code base as someone else’s, the model tended to add to the existing structure, even when that repeated existing code. It also tended to report nearby problems instead of fixing them. When the prompt says the code base is the model’s own, the model often merges repeated code and makes related fixes without being asked.\nIf you want the model to improve the structure as it works, say that the code is its own:\nThis codebase is yours: what it's for and how it's built are your call, and you'll keep building on it.\nIn Anthropic’s testing on small coding tasks, the model merged repeated code in about half of the tries with this sentence, and in under a tenth of the tries without it. The rate varied by task. The result held when the sentence stood inside a long system prompt"
+      }
+    ]
+  },
+  {
+    "id": "2119868704544711108",
+    "url": "https://x.com/ClaudeDevs/status/2119868704544711108",
+    "author": {
+      "name": "ClaudeDevs",
+      "handle": "ClaudeDevs"
+    },
+    "posted_at": "2026-11-09T19:04:19.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Longer Claude subscribers get more Fable resets",
+    "summary": "Ultra and Team Premium users get one to three Fable resets by subscription length, usable until March 8; Pro and Team Standard get a week of Fable plus one reset.",
+    "text": "We're giving Ultra and Team Premium users Fable resets based on how long you've subscribed:\n\n<6 mo: 1\n6–12 mo: 2\n>12 mo: 3\n\nUse them anytime by March 8.\n\nPro and Team Standard get a week to try Fable 5.2, up to half your weekly limit, plus one reset. https://t.co/5qghe1jhxP",
+    "key_points": [],
+    "action": "Check your usage settings for Fable resets before March 8.",
+    "links": [
+      {
+        "title": "Claude support: Fable 5.2 launch offers",
+        "url": "https://support.claude.com/en/articles/17506494-claude-fable-5-2-launch-offers"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119925633564463609",
+    "url": "https://x.com/felixrieseberg/status/2119925633564463609",
+    "author": {
+      "name": "Felix Rieseberg",
+      "handle": "felixrieseberg"
+    },
+    "posted_at": "2026-11-09T22:50:32.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "A one-shot game made entirely by Fable 5.2",
+    "summary": "Felix Rieseberg had Fable 5.2 build a game from one-shot prompts, with models, sounds and textures from scratch, in 8 hours for about $550 at API prices.",
+    "text": "I wanted to test Fable 5.2's quality with one-shot prompts without human feedback.\n\nEverything in this game is from scratch: models, sounds, textures. ~$550 at API pricing, ~2.7M output and 445M input tokens, heavily cached. Took 8 hours!\n\nPlay it here: https://t.co/fazOCcyNIH https://t.co/GoCitQ9EVe",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Claude artifact: the game",
+        "url": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2119919821538447360/img/tuJ7YP9fTEVJK8C8.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2119824409087348984",
+    "url": "https://x.com/poteto/status/2119824409087348984",
+    "author": {
+      "name": "lauren",
+      "handle": "poteto"
+    },
+    "posted_at": "2026-11-09T16:08:18.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "A renaissance in languages, runtimes and verification",
+    "summary": "lauren (poteto) says programming language and runtime research is entering a renaissance, with a golden age of testing and verification.",
+    "text": "we are entering a renaissance in programming language and runtime research, and a golden age of software testing and verification\n\nit’s time to rewrite all software",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2119921157801652245",
+    "url": "https://x.com/herdrdev/status/2119921157801652245",
+    "author": {
+      "name": "herdr",
+      "handle": "herdrdev"
+    },
+    "posted_at": "2026-11-09T22:32:44.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "herdr ships mobile apps to answer your agents",
+    "summary": "herdr launched iPhone, iPad and Android apps that show which agents need you and open the real terminal to reply.",
+    "text": "okay okay. you want mobile, we get it.\n \nHERE IT IS: herdr for iphone, ipad and android.\n\nsee which agents need you, open the real terminal and answer. type, paste a screenshot, or just talk to it.\n\nworks with herdr-core. herdr tui isn't supported (yet) https://t.co/CTS3aFwhyJ\n\napp store: https://t.co/jaVVLSM2sU\ngoogle play: https://t.co/757xkW0Lge\nmore: https://t.co/9TRKB3OGxj",
+    "key_points": [
+      "Works with herdr-core; the TUI is not supported yet."
+    ],
+    "action": "Install the herdr app and pair it with herdr-core to answer agent prompts from your phone.",
+    "links": [
+      {
+        "title": "herdr on the App Store",
+        "url": "https://apps.apple.com/us/app/herdr/id6828898364"
+      },
+      {
+        "title": "herdr on Google Play",
+        "url": "https://play.google.com/store/apps/details?id=dev.herdr.app"
+      },
+      {
+        "title": "herdr mobile",
+        "url": "https://herdr.dev/mobile"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2119919552150515712/img/mhc2ZILEnNayrfn2.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2119650353142747181",
+    "url": "https://x.com/simonw/status/2119650353142747181",
+    "author": {
+      "name": "Simon Willison",
+      "handle": "simonw"
+    },
+    "posted_at": "2026-11-09T04:36:40.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "Hide AI-written PR descriptions in a details tag",
+    "summary": "Simon Willison folds the bulk of AI-generated PR descriptions into a collapsed details/summary block so reviewers are less worn down.",
+    "text": "I've recently started hiding the bulk of my AI-generated GitHub PR descriptions behind a collapsed <details><summary> HTML tag (thankfully supported by GitHub Markdown) and I think it's a useful pattern for making PR slop a little bit less exhausting https://t.co/JlFdAJovFt",
+    "key_points": [],
+    "action": "Wrap the long AI part of your next PR description in a <details><summary> block.",
+    "links": [
+      {
+        "title": "Simon Willison: details/summary for PRs",
+        "url": "https://simonwillison.net/2026/Nov/9/details-summary/"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119750512623145422",
+    "url": "https://x.com/4ki4/status/2119750512623145422",
+    "author": {
+      "name": "世界四季報",
+      "handle": "4ki4"
+    },
+    "posted_at": "2026-11-09T11:14:39.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "ニトリHD、顧客情報最大3762万件が流出の可能性",
+    "summary": "日経によると、ニトリHDが不正アクセスを受け、最大3762万件の顧客情報が流出した可能性がある。",
+    "text": "ニトリHD、最大で顧客情報3762万件流出の可能性　不正アクセスで - 日本経済新聞\n https://t.co/SPgGZFnSEs",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "日本経済新聞: ニトリHD 最大3762万件流出の可能性",
+        "url": "https://www.nikkei.com/article/DGXZQOUC097MY0Z01C26A1000000/"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2120092897047678996",
+    "url": "https://x.com/itmedia_news/status/2120092897047678996",
+    "author": {
+      "name": "ITmedia NEWS",
+      "handle": "itmedia_news"
+    },
+    "posted_at": "2026-11-10T09:55:10.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "シェアフルに不正アクセス、最大750万アカウント",
+    "summary": "スキマバイトのシェアフルが不正アクセスを受け、給与振込口座情報を含む最大750万アカウントが漏えいした可能性がある。",
+    "text": "スキマバイト「シェアフル」に不正アクセス　最大750万アカウント漏えいか　給与振込用の口座情報なども\nhttps://t.co/Wjg0VFKjUA",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "ITmedia NEWS: シェアフルに不正アクセス",
+        "url": "https://www.itmedia.co.jp/news/article/2611/10/2000003072/"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2120093576638111767",
+    "url": "https://x.com/securityLab_jp/status/2120093576638111767",
+    "author": {
+      "name": "セキュリティ対策Lab",
+      "handle": "securityLab_jp"
+    },
+    "posted_at": "2026-11-10T09:57:52.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "日本商工会議所のネット試験、最大98万人分漏えいの恐れ",
+    "summary": "日本商工会議所のネット試験管理システムがサイバー攻撃を受け、最大98万人分の個人情報が漏えいした恐れがある。",
+    "text": "日本商工会議所のネット試験管理システムへ不正アクセスによるサイバー攻撃、最大 98万人個人情報漏洩の恐れ \n https://t.co/fdZgOAKuWG \n\n#セキュリティ対策Lab #security #securitynews #セキュリティ #セキュリティニュース",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "セキュリティ対策Lab: 日本商工会議所 98万人",
+        "url": "https://rocket-boys.co.jp/security-measures-lab/jcci-network-exam-980000-candidate-data-exposure/"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119681909710307806",
+    "url": "https://x.com/nhk_news/status/2119681909710307806",
+    "author": {
+      "name": "NHKニュース",
+      "handle": "nhk_news"
+    },
+    "posted_at": "2026-11-09T06:42:03.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "三井住友海上、契約者情報など22万8000件漏えい",
+    "summary": "NHKによると、三井住友海上が不正アクセスを受け、契約者情報など22万8000件が漏えいした。",
+    "text": "三井住友海上 不正アクセスで契約者情報など22万8000件漏えい\nhttps://t.co/lNEMYxEckI #nhk_news",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2119782169094865229",
+    "url": "https://x.com/4ki4/status/2119782169094865229",
+    "author": {
+      "name": "世界四季報",
+      "handle": "4ki4"
+    },
+    "posted_at": "2026-11-09T13:20:27.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "セガ、アララ経由で個人情報219万件が漏洩",
+    "summary": "日経によると、セガとセガ系玩具メーカーの個人情報219万件が、アララへの不正アクセスで漏洩した。",
+    "text": "セガとセガ系玩具メーカー、個人情報219万件漏洩　アララ不正アクセス - 日本経済新聞 https://t.co/yxH4iThoRK",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "日本経済新聞: セガ 個人情報219万件漏洩",
+        "url": "https://www.nikkei.com/article/DGXZQOUC097QG0Z01C26A1000000/"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2120064667947262405",
+    "url": "https://x.com/securityLab_jp/status/2120064667947262405",
+    "author": {
+      "name": "セキュリティ対策Lab",
+      "handle": "securityLab_jp"
+    },
+    "posted_at": "2026-11-10T08:03:00.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "アイスタイル、@cosmeとは別に約280万人分が漏えい",
+    "summary": "アイスタイルは、委託先ユミルリンクのCuenote FCへの不正アクセスで、@cosmeの約300万人とは別に約280万人分のメールアドレス漏えいを確認した。",
+    "text": "【アイスタイルで2件の情報漏えい】@cosme約300万人とは別に、メール配信システムから約280万人の情報漏えいが判明。\n\nアイスタイルは11月9日、外部委託先ユミルリンクの「Cuenote FC」への不正アクセスにより、メールアドレス約280万人分の漏えいを確認したと発表しました。",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2119934613883965791",
+    "url": "https://x.com/GOROman/status/2119934613883965791",
+    "author": {
+      "name": "NULL=RUN",
+      "handle": "GOROman"
+    },
+    "posted_at": "2026-11-09T23:26:13.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "ソフトバンク宮川社長、サイバー攻撃に「疲れ切っている」",
+    "summary": "ソフトバンクの宮川社長が決算会見で、月7億件のサイバー攻撃と終わらないパッチ対応への危機感を語った。",
+    "text": "ソフトバンク宮川社長「正直もう疲れ切っている」　サイバー攻撃が月7億件、決算発表会で明かした危機感とは https://t.co/pOuBl8isl9",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "ITmedia ビジネス: ソフトバンク宮川社長",
+        "url": "https://www.itmedia.co.jp/business/articles/2611/09/news084.html"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119750082677629438",
+    "url": "https://x.com/cyber_forecast/status/2119750082677629438",
+    "author": {
+      "name": "国家サイバー統括室(注意・警戒情報)",
+      "handle": "cyber_forecast"
+    },
+    "posted_at": "2026-11-09T11:12:57.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "evergreen",
+    "tldr": "国家サイバー統括室、冷凍・冷蔵設備への攻撃に注意喚起",
+    "summary": "国家サイバー統括室が、冷凍・冷蔵設備やコールドチェーン監視システムを狙う攻撃について注意喚起し、委託先を含む設備への対策を求めた。",
+    "text": "冷凍・冷蔵設備やコールドチェーン監視システムを標的としたサイバー攻撃が国際的にも注目されており、国家サイバー統括室から注意喚起を発出しました。自組織及び委託先が管理・運用する設備等について、別添に記載した対策を速やかに実施することを強く推奨します。\nhttps://t.co/ntdxQRmo9u",
+    "key_points": [],
+    "action": "自社や委託先の冷凍・冷蔵設備の監視系がインターネットに露出していないか確認する。",
+    "links": [
+      {
+        "title": "国家サイバー統括室: 注意喚起（PDF）",
+        "url": "https://www.cyber.go.jp/pdf/press/261109_taiou.pdf"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119867129751056485",
+    "url": "https://x.com/claudeai/status/2119867129751056485",
+    "author": {
+      "name": "Claude",
+      "handle": "claudeai"
+    },
+    "posted_at": "2026-11-09T18:58:03.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "1,000 Fable agents formalized Fermat’s Last Theorem in 30 hours",
+    "summary": "Anthropic says 1,000 Fable 5.2 agents translated Fermat’s Last Theorem into machine-checkable form in 30 hours; Opus 5.5 reached 26% in 18 hours.",
+    "text": "A team of 1,000 Fable 5.2 agents fully formalized Fermat’s Last Theorem in 30 hours, translating the proof into a language a computer can check step by step.\n\nWith the same setup, Opus 5.5 completed only 26% in 18 hours, and barely made any more progress after 30 hours. https://t.co/Lqq8ZYXd52",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Anthropic: Claude Fable and Mythos 5.2",
+        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWtFZLnX0AApUdy.png"
+      }
+    ]
+  },
+  {
+    "id": "2119899461983822264",
+    "url": "https://x.com/claudeai/status/2119899461983822264",
+    "author": {
+      "name": "Claude",
+      "handle": "claudeai"
+    },
+    "posted_at": "2026-11-09T21:06:32.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "Fable 5.2 designed three working devices from one paragraph",
+    "summary": "Anthropic says Fable 5.2 wrote specs, picked parts, routed four-layer boards, designed enclosures and wrote software for three devices that worked unmodified.",
+    "text": "Fable 5.2 wrote its own specifications, selected the components, routed the four-layer circuit boards, designed enclosures for 3D printing, and programmed the software.\n\nEach board was ready for manufacture in under a day. All three devices work without any modifications. https://t.co/APkMguvaln",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Anthropic: Claude Fable and Mythos 5.2",
+        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWtcz7OWIAA8-nN.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2119899484373369278",
+    "url": "https://x.com/claudeai/status/2119899484373369278",
+    "author": {
+      "name": "Claude",
+      "handle": "claudeai"
+    },
+    "posted_at": "2026-11-09T21:06:37.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "Fable 5.2 solved two open black-hole physics problems",
+    "summary": "Anthropic says Fable 5.2 solved two open theoretical-physics problems about black holes, including a calculation unsolved for 23 years.",
+    "text": "Fable 5.2 solved two open problems in theoretical physics related to black holes.\n\nIn the first, Fable 5.2 completed a laborious calculation that had gone unsolved for 23 years. https://t.co/BdxZ7NkvhT",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Anthropic: Claude Fable and Mythos 5.2",
+        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWtdRS7W4AA0y49.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2119867126613954736",
+    "url": "https://x.com/claudeai/status/2119867126613954736",
+    "author": {
+      "name": "Claude",
+      "handle": "claudeai"
+    },
+    "posted_at": "2026-11-09T18:58:02.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "science",
+    "shelf_life": "news",
+    "tldr": "Mythos 5.2 predicted whole gene-therapy capsid structures",
+    "summary": "Anthropic says Mythos 5.2 found a new way to predict full capsid structures, modeling 28 of 34 accurately, which could speed gene-therapy design.",
+    "text": "Gene therapies can be delivered in a protein shell called a capsid. Mythos 5.2 found a new way to predict a whole capsid’s structure.\n\nIn our tests, it accurately modeled 28 of the 34 capsids it attempted. Biologists could use it to design capsids faster and more cheaply. https://t.co/4cIR2lEOtW",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Anthropic: Claude Fable and Mythos 5.2",
+        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2119864272045928448/img/zlHYo1yUuafoK0Cg.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2119713641213915642",
+    "url": "https://x.com/dhh/status/2119713641213915642",
+    "author": {
+      "name": "DHH",
+      "handle": "dhh"
+    },
+    "posted_at": "2026-11-09T08:48:09.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Omarchy 4.6 will pick the best local model for your machine",
+    "summary": "DHH says Omarchy 4.6 will recommend the best local AI model your hardware can run, showing Flash Next on an AMD 495.",
+    "text": "Local AI is getting really good. Omarchy 4.6 will make it trivial to get started by recommending the very best model that's available for your machine. This is Flash Next on the insane AMD 495 that @AnushElangovan gave me. Shockingly capable. https://t.co/qXbBjXihnP",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWq8EZwWEAAINma.png"
+      }
+    ]
+  },
+  {
+    "id": "2119773878222549451",
+    "url": "https://x.com/levelsio/status/2119773878222549451",
+    "author": {
+      "name": "@levelsio",
+      "handle": "levelsio"
+    },
+    "posted_at": "2026-11-09T12:47:30.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "evergreen",
+    "tldr": "Software has never been easier to build or harder to sell",
+    "summary": "Pieter Levels says building software has never been easier, and making money from it never harder.",
+    "text": "It's never been this easy to build software\n\nAnd never this hard to make money with it",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2119799176125157596",
+    "url": "https://x.com/publickey/status/2119799176125157596",
+    "author": {
+      "name": "Publickey",
+      "handle": "publickey"
+    },
+    "posted_at": "2026-11-09T14:28:02.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Google donates Agent Sustrate and gVisor to the CNCF",
+    "summary": "Publickey reports Google is donating Agent Sustrate and gVisor to the CNCF to run AI agents on Kubernetes at ten times the density.",
+    "text": "ブログ書きました： Google、Kubernetesで10倍高密度にAIエージェントを実行可能にする「Agent Sustrate」と「gVisor」、オープンソースとしてCNCFに寄贈と発表\nhttps://t.co/YmcSTqqEYl",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Publickey: Agent Sustrate と gVisor を CNCF に寄贈",
+        "url": "https://www.publickey1.jp/blog/26/googlekubernetes10aiagent_sustrategvisorcncf.html"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119628109121229174",
+    "url": "https://x.com/publickey/status/2119628109121229174",
+    "author": {
+      "name": "Publickey",
+      "handle": "publickey"
+    },
+    "posted_at": "2026-11-09T03:08:16.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Libghostty 1.0 ships, with Windows multiplexer Rex coming",
+    "summary": "Publickey reports the Libghostty 1.0 terminal library is out, with a Windows multiplexer called Rex due soon.",
+    "text": "ターミナル用ライブラリ［Libghostty 1.0」リリース。Windows版マルチプレクサ「Rex」もまもなく登場予定\nhttps://t.co/RpAJqmnJTk",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Publickey: Libghostty 1.0",
+        "url": "https://www.publickey1.jp/blog/26/libghostty_10windowsrex.html"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2120081425391386859",
+    "url": "https://x.com/TheHackersNews/status/2120081425391386859",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-11-10T09:09:35.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "world",
+    "shelf_life": "news",
+    "tldr": "France blames Iran’s IRGC for supermarket refrigeration sabotage",
+    "summary": "The Hacker News reports France blamed Iran’s IRGC for hijacking refrigeration controllers at about 700 retail sites, causing fires and tens of millions of euros in losses.",
+    "text": "⚠️ France blames Iran's IRGC for cyberattacks that caused fires at French retail sites.\n\nAttackers hijacked refrigeration controllers at about 700 sites, altered defrost settings and disabled temperature alerts, causing tens of millions of euros in food losses.\n\nRead - https://t.co/X30WtLhEtg",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "The Hacker News: France blames Iran for sabotage",
+        "url": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWwKzH9aAAE-T_0.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2119858821875073026",
+    "url": "https://x.com/QuantaMagazine/status/2119858821875073026",
+    "author": {
+      "name": "Quanta Magazine",
+      "handle": "QuantaMagazine"
+    },
+    "posted_at": "2026-11-09T18:25:02.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "Did life begin in an RNA world",
+    "summary": "Quanta looks at the theory that life started with self-replicating RNA, and the open questions it leaves.",
+    "text": "How did life first appear? It’s one of science’s biggest questions. One theory pins the start on self-replicating RNA. https://t.co/TmrCbJLVAD",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quanta: Did life begin in an RNA world?",
+        "url": "https://www.quantamagazine.org/did-life-begin-in-an-rna-world-20261109/"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119855543401492727",
+    "url": "https://x.com/Nature/status/2119855543401492727",
+    "author": {
+      "name": "nature",
+      "handle": "Nature"
+    },
+    "posted_at": "2026-11-09T18:12:01.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "Measuring attosecond pulses of hard X-rays",
+    "summary": "A Nature paper reports metrology for hard X-ray attosecond pulses, the fastest flashes used to watch electrons move.",
+    "text": "Nature research paper: Hard X-ray attosecond metrology\n\nhttps://t.co/9hfbKvIRvB",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Nature: Hard X-ray attosecond metrology",
+        "url": "https://www.nature.com/articles/s41586-026-11245-5"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119773610617208971",
+    "url": "https://x.com/Nature/status/2119773610617208971",
+    "author": {
+      "name": "nature",
+      "handle": "Nature"
+    },
+    "posted_at": "2026-11-09T12:46:26.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "How the brain learns which flavours carry nutrients",
+    "summary": "A Nature paper maps the neural basis of flavour–nutrient learning, how animals come to prefer flavours linked to calories.",
+    "text": "Nature research paper: The neural basis of flavour–nutrient learning\n\nhttps://t.co/kuMC8HIoxi",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Nature: The neural basis of flavour–nutrient learning",
+        "url": "https://www.nature.com/articles/s41586-026-11229-5"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119938089938210992",
+    "url": "https://x.com/QuantaMagazine/status/2119938089938210992",
+    "author": {
+      "name": "Quanta Magazine",
+      "handle": "QuantaMagazine"
+    },
+    "posted_at": "2026-11-09T23:40:01.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "A strange quantum theorem undercuts Einstein’s reality",
+    "summary": "Quanta reports on a quantum-foundations theorem that challenges Einstein’s view of an objective reality, quoting physicist Lucien Hardy.",
+    "text": "“You have to watch out for your sanity in a field like quantum foundations,” said Lucien Hardy, a physicist at the Perimeter Institute. https://t.co/N0F9C6x1NM",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Quanta: A strange quantum theorem",
+        "url": "https://www.quantamagazine.org/a-strange-quantum-theorem-has-killed-einsteins-reality-20261106/"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119804633912955287",
+    "url": "https://x.com/Nature/status/2119804633912955287",
+    "author": {
+      "name": "nature",
+      "handle": "Nature"
+    },
+    "posted_at": "2026-11-09T14:49:43.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "world",
+    "shelf_life": "evergreen",
+    "tldr": "Five countries where academic freedom swung hardest",
+    "summary": "Nature charts five countries where academic freedom plummeted or soared in recent years.",
+    "text": "In these five countries, academic freedom either plummeted or soared in recent years: https://t.co/jAp38EqcSO https://t.co/pAMERjeLcZ",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Nature: academic freedom in five countries",
+        "url": "https://www.nature.com/articles/d41586-026-02998-0"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWsO2puW8AE-kQe.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2119811292693233986",
+    "url": "https://x.com/PublicDomainRev/status/2119811292693233986",
+    "author": {
+      "name": "The Public Domain Review",
+      "handle": "PublicDomainRev"
+    },
+    "posted_at": "2026-11-09T15:16:11.000Z",
+    "saved_at": "2026-11-10T19:15:00+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "An 1857 vision of London that foresaw online shopping",
+    "summary": "The Public Domain Review shares London a Hundred Years Hence (1857), a forecast of the city in 1957 that anticipated internet shopping a little early.",
+    "text": "London a Hundred Years Hence (1857) — A vision of what London would look like 100 years in the future, including a remarkable anticipation (albeit a little too early for 1957) of internet shopping: https://t.co/RiXKqGByaF https://t.co/6jky2tm8Px",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWsVIyZW8AEIGgT.png"
+      }
+    ]
   }
 ]
