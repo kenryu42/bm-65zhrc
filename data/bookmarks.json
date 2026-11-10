@@ -1535,5 +1535,56 @@
     "action": "Ask an agent to build a tiny SRS app for one topic you are learning.",
     "links": [],
     "media": []
+  },
+  {
+    "id": "2119898687803621427",
+    "url": "https://x.com/ClaudeDevs/status/2119898687803621427",
+    "author": {
+      "name": "ClaudeDevs",
+      "handle": "ClaudeDevs"
+    },
+    "posted_at": "2026-11-09T21:03:27.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Guide to picking Fable, Opus, Sonnet or Haiku for builds",
+    "summary": "Claude's guide explains when to use Fable 5.2, Opus 5.5, Sonnet or Haiku, when to raise effort instead of switching models, and how subagents on smaller models cut cost.",
+    "text": "Which Claude model should you build with? \n\nOur new guide breaks down when to use Fable 5.2, Opus 5.5, Sonnet or Haiku. It also covers when to adjust effort instead of switching models, and how to save cost by putting subagents on smaller models.\n\nhttps://claude.dev/blog/which-claude-model-should-you-build-with",
+    "key_points": [
+      "Raise effort before switching to a bigger model.",
+      "Put subagents on smaller models to save cost.",
+      "Most coding and knowledge work starts on Opus; the hardest goes to Fable."
+    ],
+    "action": "Set your main agent on Opus and move its subagents to Sonnet or Haiku for one week.",
+    "links": [
+      {
+        "title": "Which Claude model should you build with? Fable, Opus,",
+        "url": "https://claude.dev/blog/which-claude-model-should-you-build-with/",
+        "image": "https://pbs.twimg.com/news_img/2119898688302768128/nq0a1W8f?format=png&name=orig"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2119884951550386671",
+    "url": "https://x.com/alexalbert__/status/2119884951550386671",
+    "author": {
+      "name": "Alex Albert",
+      "handle": "alexalbert__"
+    },
+    "posted_at": "2026-11-09T20:08:52.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "One prompt to clean every project when a new model lands",
+    "summary": "Alex Albert runs one prompt on all his projects with each new model: find what is broken, inconsistent, inefficient or unneeded, fix the sure things and list the rest.",
+    "text": "Every time we have a new model, I run the same simple prompt on all my projects:\n\n\"Read this entire project and find everything that’s broken, inconsistent, inefficient, or no longer needed. Fix what you’re sure about and list the rest for me to review.\"\n\nhighly recommend trying",
+    "key_points": [
+      "A new model is a good moment to audit old code.",
+      "Let it fix only what it is sure about; review the rest."
+    ],
+    "action": "Run the prompt on one repo with Fable 5.2 and review the list it leaves you.",
+    "links": [],
+    "media": []
   }
 ]

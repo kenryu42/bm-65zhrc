@@ -19590,5 +19590,1029 @@
         "url": "https://pbs.twimg.com/media/HWsVIyZW8AEIGgT.png"
       }
     ]
+  },
+  {
+    "id": "2120206365759094857",
+    "url": "https://x.com/claudeai/status/2120206365759094857",
+    "author": {
+      "name": "Claude",
+      "handle": "claudeai"
+    },
+    "posted_at": "2026-11-10T17:26:03.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Claude adds Whiteboards, Sheets and Data for team work",
+    "summary": "Anthropic is rolling out Claude Whiteboards and Claude Sheets, and renames Dashboards to Claude Data, so plans, trackers and data stories live inside Claude.",
+    "text": "Starting to roll out today: Claude Whiteboards, Claude Sheets and Claude Data.\n\nThink a plan through on a board, build a tracker in a sheet, and tell a story with your data. https://t.co/S8M32FMrce",
+    "key_points": [
+      "Whiteboards for planning, Sheets for trackers, Data for charts and stories.",
+      "Rolling out as a beta to paid plans."
+    ],
+    "action": "Open Claude and turn one recurring tracker you keep elsewhere into a Claude Sheet.",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWx89ZkXMAAqMO6.png",
+        "alt": "Video poster frame",
+        "link": "https://t.co/S8M32FMrce"
+      }
+    ]
+  },
+  {
+    "id": "2120275296637321476",
+    "url": "https://x.com/ClaudeDevs/status/2120275296637321476",
+    "author": {
+      "name": "ClaudeDevs",
+      "handle": "ClaudeDevs"
+    },
+    "posted_at": "2026-11-10T21:59:58.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Every paid Claude user gets one free full usage reset",
+    "summary": "Claude gave Pro, Max, Ultra and Team users one full reset across all models and limits, usable until December 10, after fixing bugs that used more limits than intended.",
+    "text": "We've given all Pro, Max, Ultra, and Team users one free full reset, across all models and limits. Use it anytime before December 10 at 2:00PM PT.\n\nWe recently fixed a few small issues that used more limits than intended, and the Fable resets didn't do much for those of you who'd already hit your weekly limits for all models. While these issues didn't affect everyone, we want to make up for the trouble.\n\nYou'll find it in Settings > Usage, or at https://t.co/5YRzheAZyQ.",
+    "key_points": [
+      "Resets all models and limits once, whenever you choose.",
+      "Expires December 10, 2:00 PM PT (Dec 11, 7:00 JST).",
+      "Found in Settings > Usage."
+    ],
+    "action": "Save the reset in Settings > Usage for a week when a long agent run hits the weekly cap.",
+    "links": [
+      {
+        "title": "Claude usage reset",
+        "url": "https://clau.de/reset",
+        "short": "https://t.co/5YRzheAZyQ"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2120187753329791341",
+    "url": "https://x.com/GoogleAI/status/2120187753329791341",
+    "author": {
+      "name": "Google AI",
+      "handle": "GoogleAI"
+    },
+    "posted_at": "2026-11-10T16:12:06.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "Gemini 4 Carbon is out for hard, long-horizon work",
+    "summary": "Google released Gemini 4 Carbon, its strongest model, for long agentic work in code, security and science, while Argon stays the default for most tasks.",
+    "text": "Our strongest frontier model, Gemini 4 Carbon, is now available.\n\nBuilt for deeply complex, long-horizon workflows that push a frontier model’s intelligence, Carbon delivers frontier performance in agentic workflows across complex knowledge work, software engineering and web development, cybersecurity, and scientific reasoning.\n\nWhile Gemini 4 Argon remains the ideal model for the majority of software engineering and knowledge work, Carbon steps in for your hardest tasks that push a model to its limits — from complex, multi-step debugging to open-ended scientific research.\n\nAvailable starting today:\n— Consumers: use it in the @GeminiApp and AI Mode in Search for Google AI Ultra subscribers\n— Developers and Enterprises: build via the API in @GoogleAIStudio and @AndroidStudio, Google @Antigravity for Google AI Ultra subscribers, and Gemini for business\n— Scientists and Researchers: apply for a chance to get 6 months free via @Antigravity\n— Cybersecurity Defenders: apply to join the Fairwind Program for access to Carbon for cyber\n\nWatch how Carbon brings reasoning and coding together, turning avian research into an interactive 3D simulation of a songbird’s vocal organ that synthesizes the sounds of six bird species live.",
+    "key_points": [
+      "Available in the API, AI Studio, Antigravity and Ultra plans.",
+      "Cybersecurity defenders can apply to the Fairwind Program."
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2120186886690115585/img/gsqEPeAFSz4qIDVG.jpg",
+        "alt": "Video poster frame"
+      }
+    ]
+  },
+  {
+    "id": "2120236175378284648",
+    "url": "https://x.com/TheHackersNews/status/2120236175378284648",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-11-10T19:24:30.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Git fixes a recursive-clone flaw that runs attacker code",
+    "summary": "Git released fixes for CVE-2026-111760, where a malicious repository can run code through submodule hooks during a recursive clone, plus five other flaws.",
+    "text": "‼️ A new Git flaw lets malicious repositories execute code on your machine during recursive clones.\n\nTracked as CVE-2026-111760, the flaw abuses submodule hooks to run attacker-controlled code.\n\nGit has released fixes for this and five other vulnerabilities.\n\nDetails - https://t.co/EqCOk9cQqk",
+    "key_points": [
+      "Recursive clones of untrusted repos are the risk.",
+      "Fixes are out for this and five other bugs."
+    ],
+    "action": "Update Git on every machine and agent sandbox, and avoid --recurse-submodules on repos you don't trust.",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWyXj2yaIAAEBhA.jpg",
+        "alt": "Image from the post",
+        "link": "https://t.co/EqCOk9cQqk"
+      }
+    ],
+    "pick": true
+  },
+  {
+    "id": "2120279511707386263",
+    "url": "https://x.com/bot/status/2120279511707386263",
+    "author": {
+      "name": "Grok Bot",
+      "handle": "bot"
+    },
+    "posted_at": "2026-11-10T22:16:43.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Grok Bot can now join Tailscale tailnets",
+    "summary": "Grok Bot can join personal or company tailnets on Tailscale to reach private MCP servers, internal tools and apps.",
+    "text": "Grok Bot can now join your personal or company tailnets on Tailscale.\n\nUse it to securely reach private MCP servers, internal tools, and apps on your network. https://t.co/kIZjEmvSMK",
+    "key_points": [
+      "A chat agent now becomes a node on your private network."
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWy-eg_bwAARy5W.jpg",
+        "alt": "Image from the post",
+        "link": "https://t.co/kIZjEmvSMK"
+      }
+    ]
+  },
+  {
+    "id": "2120178399868309517",
+    "url": "https://x.com/TheHackersNews/status/2120178399868309517",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-11-10T15:34:56.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Fireworks AI breach reached billing data, datasets and weights",
+    "summary": "Fireworks AI says attackers reached development machines through a third-party cloud provider and accessed billing data, datasets and incomplete model weights, more than first reported.",
+    "text": "🚨 Fireworks AI's breach has widened.\n\nAttackers accessed customer billing data, datasets, and incomplete model weights after reaching development machines through a third-party cloud provider.\n\nThe company initially reported exposure limited to secrets.\n\nFull details - https://t.co/ZLg2hF4m6v",
+    "key_points": [
+      "First reports said only secrets were exposed.",
+      "The path in was a third-party cloud provider."
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWxjAyPaQAEPDEA.jpg",
+        "alt": "Image from the post",
+        "link": "https://t.co/ZLg2hF4m6v"
+      }
+    ]
+  },
+  {
+    "id": "2120224129471361452",
+    "url": "https://x.com/TheHackersNews/status/2120224129471361452",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-11-10T18:36:38.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Notion confirms its AI chat transcripts were in the Fireworks breach",
+    "summary": "Notion says AI chat transcripts were among data exposed in the Fireworks AI breach; it disabled Insights and stopped using Fireworks for open-weight models.",
+    "text": "‼️ UPDATE: Notion confirms it was impacted by the Fireworks AI breach.\n\nNotion AI chat transcripts were among the exposed data, potentially involving customer information.\n\nNotion has disabled its Insights feature and stopped using Fireworks for open-weight models.\n\nFull details: https://t.co/GNKaX7v2Cc",
+    "key_points": [
+      "Customer chat data rode along with an inference vendor.",
+      "Notion paused the feature and the vendor."
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWyMbJObAAAvDtx.png",
+        "alt": "Image from the post",
+        "link": "https://t.co/GNKaX7v2Cc"
+      }
+    ]
+  },
+  {
+    "id": "2120235277268685225",
+    "url": "https://x.com/TheHackersNews/status/2120235277268685225",
+    "author": {
+      "name": "The Hacker News",
+      "handle": "TheHackersNews"
+    },
+    "posted_at": "2026-11-10T19:20:56.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "NEAR AI breached through an SGLang remote code execution flaw",
+    "summary": "An attacker used an SGLang RCE flaw to breach NEAR AI, taking data from 18 agents and about 100 accounts; requests on one server may have been visible.",
+    "text": "🚨 An attacker exploited an SGLang RCE flaw to breach NEAR AI.\n\nData stolen from 18 AI agents and about 100 user accounts. Confidential AI requests processed on one server may also have been visible to the attacker.\n\nWhat NEAR AI confirmed about the breach ↓ https://t.co/scaiuPctvW",
+    "key_points": [
+      "The hole was in the open-source serving engine.",
+      "Even confidential requests on one server may have leaked."
+    ],
+    "action": "Check whether any inference server you run uses SGLang and patch it.",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWyWqaLbEAAv71q.jpg",
+        "alt": "Image from the post",
+        "link": "https://t.co/scaiuPctvW"
+      }
+    ]
+  },
+  {
+    "id": "2120280489030246729",
+    "url": "https://x.com/BleepinComputer/status/2120280489030246729",
+    "author": {
+      "name": "BleepingComputer",
+      "handle": "BleepinComputer"
+    },
+    "posted_at": "2026-11-10T22:20:36.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "Railway breach led to 740,000 dollars in fraudulent AI charges",
+    "summary": "BleepingComputer reports Railway's October build-system breach let attackers take AI provider keys and run up about $740,000 in fraudulent charges.",
+    "text": "Railway breach leads to $740,000 in fraudulent AI charges\nhttps://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/\n\nhttps://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+    "key_points": [
+      "Stolen AI keys were the prize, used for LLMjacking.",
+      "Railway published a detailed postmortem on November 10."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "BleepingComputer: Railway breach, $740,000 AI charges",
+        "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2120217395377955323",
+    "url": "https://x.com/Yuchenj_UW/status/2120217395377955323",
+    "author": {
+      "name": "Yuchen Jin",
+      "handle": "Yuchenj_UW"
+    },
+    "posted_at": "2026-11-10T18:09:53.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Security paranoia at Databricks looks wise after inference breaches",
+    "summary": "A Databricks engineer says the company's strict security once felt slow, but recent breaches at AI inference providers changed their mind.",
+    "text": "I used to complain internally that Databricks was too paranoid about security. It can slow things down.\n\nBut after seeing all the crazy security incidents at other AI inference providers, I’m grateful we take security so seriously.\n\n(e.g. we don’t use GPUs from shitty neoclouds)",
+    "key_points": [
+      "Cheap GPU clouds are a weak link."
+    ],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2120260969750540327",
+    "url": "https://x.com/mattpocockuk/status/2120260969750540327",
+    "author": {
+      "name": "Matt Pocock",
+      "handle": "mattpocockuk"
+    },
+    "posted_at": "2026-11-10T21:03:02.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Run agents from one home repo that points to the others",
+    "summary": "Matt Pocock keeps skills, steering files and a wiki in one home repo, runs agents there, and lists other repos in AGENTS.md so agents can clone and change them.",
+    "text": "A lot of folks ask me \"how do you work with agents in multiple repos at once?\"\n\nI have a very simple solution - the Home Repo\n\nI have a single repo (the home) where all of my skills, steering files, wiki etc live.\n\nI run my agent in the home repo, and then inside AGENTS.md I have pointers to the other repos:\n\n```\nFor skills, clone mattpocock/skills to ~/repos/skills.\nFor Sandcastle, clone mattpocock/sandcastle to ~/repos/sandcastle\n```\n\nThis is extremely simple and incredibly effective. The home repo lets you:\n\n1. Put all your steering files and tooling in one place\n2. Have a single spot to run all your agents in\n3. Make sweeping changes over multiple repos\n\nTalked about this in the course yesterday and folks are loving it (see below).\n\nI'm sure you will too. Enjoy!",
+    "key_points": [
+      "One place for all steering files and tooling.",
+      "One spot to run every agent.",
+      "Sweeping changes across many repos become easy."
+    ],
+    "action": "Make a home repo with your skills and an AGENTS.md that tells the agent where to clone your other repos.",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWyuBkPXwAAPOF3.png",
+        "alt": "Image from the post"
+      }
+    ]
+  },
+  {
+    "id": "2120222008093151392",
+    "url": "https://x.com/thdxr/status/2120222008093151392",
+    "author": {
+      "name": "dax",
+      "handle": "thdxr"
+    },
+    "posted_at": "2026-11-10T18:28:13.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "evergreen",
+    "tldr": "Mix Gemini Carbon in as subagents for hard problems",
+    "summary": "Dax suggests keeping your main model and asking it to spawn Gemini Carbon subagents for tricky bugs or simplification work.",
+    "text": "more seriously, it's a model i think that's very useful to mix in with whatever model you're currently using\n\ntry it out that way. ask your primary model to spawn some carbon subagents when you have a tricky problem or you want to try to simplify some code https://t.co/ctp3E8EUuP",
+    "key_points": [
+      "Treat a new model as a second opinion, not a replacement."
+    ],
+    "action": "Next time a bug stalls, ask your main agent to spawn two Carbon subagents on it.",
+    "links": [
+      {
+        "title": "Quoted post on X",
+        "url": "https://twitter.com/thdxr/status/2120198768264200243",
+        "short": "https://t.co/ctp3E8EUuP"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2120279327589773639",
+    "url": "https://x.com/antigravity/status/2120279327589773639",
+    "author": {
+      "name": "Google Antigravity",
+      "handle": "antigravity"
+    },
+    "posted_at": "2026-11-10T22:15:59.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Antigravity adds /swarm to run agent teams in parallel",
+    "summary": "Google Antigravity's new /swarm command turns one prompt into a team of agents that plan, build and verify on a shared message board, each on its own model.",
+    "text": "Announcing /swarm, a new slash command in Google Antigravity for orchestrating specialized agents in parallel across the desktop app and CLI.\n\nTurn a single prompt into a coordinated multi-agent workflow where agents plan, build, and verify together on a live message board, with the flexibility to mix and match different models for each role.",
+    "key_points": [
+      "Different models can take different roles."
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2120279299131412480/img/-9Yv_Vs0vUcFbfF9.jpg",
+        "alt": "Video poster frame"
+      }
+    ]
+  },
+  {
+    "id": "2120227979041341943",
+    "url": "https://x.com/ClaudeDevs/status/2120227979041341943",
+    "author": {
+      "name": "ClaudeDevs",
+      "handle": "ClaudeDevs"
+    },
+    "posted_at": "2026-11-10T18:51:56.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Claude now runs more of the MCP Apps extension",
+    "summary": "Claude supports more of the MCP Apps extension, such as app tools and embedded sites, so a full app can run inside Claude.",
+    "text": "Claude now supports more of the MCP Apps extension, such as app tools and embedded sites, so your full app can run inside Claude.\n\nStart building: https://t.co/X4ioqGu3A1 https://t.co/Ff3BTwMUZo",
+    "key_points": [
+      "App tools and embedded sites now work in Claude."
+    ],
+    "action": "Read the MCP Apps getting-started guide and try embedding one of your tools.",
+    "links": [
+      {
+        "title": "Get started with MCP Apps - Claude.ai Documentation",
+        "url": "https://claude.com/docs/connectors/building/mcp-apps/getting-started",
+        "image": "https://pbs.twimg.com/news_img/2118969271942541312/BICrHIhr?format=jpg&name=orig",
+        "short": "https://t.co/X4ioqGu3A1"
+      },
+      {
+        "title": "Quoted post on X",
+        "url": "https://twitter.com/claudeai/status/2120206375137484875",
+        "short": "https://t.co/Ff3BTwMUZo"
+      }
+    ],
+    "media": [],
+    "pick": true
+  },
+  {
+    "id": "2120282633334583387",
+    "url": "https://x.com/santiagomed/status/2120282633334583387",
+    "author": {
+      "name": "Santiago",
+      "handle": "santiagomed"
+    },
+    "posted_at": "2026-11-10T22:29:07.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "X MCP read-only mode removes every write tool",
+    "summary": "Adding ?read_only=true to the X MCP URL gives agents only read tools; posting, DMs, bookmarks and blocks are refused even with write scopes.",
+    "text": "X MCP now has a read-only mode.\n\nAdd ?read_only=true to your MCP URL and your agent only gets tools that read data. Posting, DMs, bookmarks, blocks and every other write are gone, and the server refuses them even if your token has write scopes.\n\nWorks on both the X API and Ads",
+    "key_points": [
+      "The server refuses writes, not just the client.",
+      "Works on both the X API and Ads API MCP servers."
+    ],
+    "action": "Add ?read_only=true to any X MCP URL your agents use for reading.",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2120221231974900091",
+    "url": "https://x.com/thdxr/status/2120221231974900091",
+    "author": {
+      "name": "dax",
+      "handle": "thdxr"
+    },
+    "posted_at": "2026-11-10T18:25:08.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "The AUR needs stronger publisher auth before a supply chain hit",
+    "summary": "Dax warns that the Arch User Repository's publishing auth makes a critical supply chain attack likely, and wonders whether to stop publishing there.",
+    "text": "the AUR is going to have a critical supply chain attack at some point. they really need to provide a different auth mechanism\n\ni don't even know how to get in touch with them about this. do we just need to stop publishing there? that sucks",
+    "key_points": [
+      "Package registries with weak auth are an easy target."
+    ],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2120103631307645276",
+    "url": "https://x.com/theo/status/2120103631307645276",
+    "author": {
+      "name": "Theo - t3.gg",
+      "handle": "theo"
+    },
+    "posted_at": "2026-11-10T10:37:49.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "news",
+    "tldr": "A Claude Code bug doubled every key press in the input",
+    "summary": "Theo hit a Claude Code bug on camera that doubled every key press in the input box.",
+    "text": "New Claude Code bug I genuinely couldn't believe (happened live when filming!)\n\nIt DOUBLES EVERY SINGLE KEY PRESS IN THE INPUT BOX.\n\nIdk if I'm somehow special but I always find the wildest bullshit when I use these apps 🙃 https://t.co/FsJ0udSjcI",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2120103432329785344/img/0PJjvvdSocHp9UUy.jpg",
+        "alt": "Video poster frame",
+        "link": "https://t.co/FsJ0udSjcI"
+      }
+    ]
+  },
+  {
+    "id": "2120113139996086409",
+    "url": "https://x.com/sqs/status/2120113139996086409",
+    "author": {
+      "name": "Quinn Slack",
+      "handle": "sqs"
+    },
+    "posted_at": "2026-11-10T11:15:37.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "dev-tools",
+    "shelf_life": "evergreen",
+    "tldr": "Ask your agent to strip your machine down to what you use",
+    "summary": "Quinn Slack asked an agent to remove apps, permissions, login items, daemons, extensions and packages he does not use, and lists what he kept.",
+    "text": "It's a good day to ask your agent to lock down your machine: \"remove all the apps, tcc/permission grants, login items, daemons, kexts, browser exts, homebrew packages, etc., that I don't need and use.\"\n\nI kept only Chrome, Amp (orbs only, no more local dev for me), Ghostty, Flighty, CleanShot X, OBS, 1Password, and Slack, plus my own menubar app with various utilities for window tiling, VPN stuff, and mouse scroll inversion.",
+    "key_points": [
+      "Fewer apps and grants means less to attack."
+    ],
+    "action": "Ask your agent to list login items, daemons and browser extensions you no longer use, then review before removing.",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWwngnzagAESGZ5.png",
+        "alt": "Image from the post"
+      }
+    ]
+  },
+  {
+    "id": "2120099973065048436",
+    "url": "https://x.com/m_mizutani/status/2120099973065048436",
+    "author": {
+      "name": "mizutani",
+      "handle": "m_mizutani"
+    },
+    "posted_at": "2026-11-10T10:23:17.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "evergreen",
+    "tldr": "AIと始める監視基盤なしのセキュリティ監視（公開資料）",
+    "summary": "水谷正慶氏が BTCONJP で話した、SIEM などの監視基盤なしで AI と始めるセキュリティ監視の公開版資料。",
+    "text": "本日 #BTCONJP Insightで話させていただく「AIと始める監視基盤なしのセキュリティ監視」の公開版資料となります。\nhttps://speakerdeck.com/mizutani/ai-to-hajimeru-kanshi-kiban-nashi-no-sekyuriti-kanshi-2",
+    "key_points": [
+      "最小権限・短期間の認証で実行内容を記録する。",
+      "ログに入る攻撃者が操作できる値（プロンプトインジェクション）に注意。"
+    ],
+    "action": "スライドを読み、手元のログ1種類で AI にアラートを判定させる小さな監視を試す。",
+    "links": [
+      {
+        "title": "AIと始める監視基盤なしの セキュリティ監視 / secmon-without-a-siem",
+        "url": "https://speakerdeck.com/mizutani/ai-to-hajimeru-kanshi-kiban-nashi-no-sekyuriti-kanshi-2",
+        "image": "https://pbs.twimg.com/news_img/2120099978270158848/_1-956Xl?format=jpg&name=orig"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2120109013786632638",
+    "url": "https://x.com/nhk_news/status/2120109013786632638",
+    "author": {
+      "name": "NHKニュース",
+      "handle": "nhk_news"
+    },
+    "posted_at": "2026-11-10T10:59:13.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "AI利用料が月90万円に、企業のコスト管理",
+    "summary": "NHK が AI 利用コストの問題を取材。入社2年目の社員が作ったシステムで利用料が月90万円に跳ね上がった例も。",
+    "text": "ＡＩの利用が広がり、いま直面するのがコストの問題。\nある企業では入社２年目の社員が開発したシステムが原因で、利用料金が月９０万円に跳ね上がった事例も。\nどうやってＡＩのコストを管理していくのか、新たな動きを取材しました。\nhttps://t.co/enstqFCvlq",
+    "key_points": [
+      "小さな自動化でも使い方次第で請求が膨らむ。"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "NHK News",
+        "url": "https://news.web.nhk/newsweb/na/nd-20261109de72816",
+        "short": "https://t.co/enstqFCvlq"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2120119795291169185",
+    "url": "https://x.com/nhk_news/status/2120119795291169185",
+    "author": {
+      "name": "NHKニュース",
+      "handle": "nhk_news"
+    },
+    "posted_at": "2026-11-10T11:42:03.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "ソフト99、クレカ情報含む最大13万人分漏えいか",
+    "summary": "NHK によると、ソフト99で クレジットカード情報を含む最大約13万人分の個人情報が漏えいした可能性がある。",
+    "text": "ソフト99 クレカ情報含む 最大約13万人の個人情報漏えいか\nhttps://t.co/RCvgGp7lqW #nhk_news",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "NHK News",
+        "url": "https://news.web.nhk/newsweb/na/nd-20261110de73798",
+        "short": "https://t.co/RCvgGp7lqW"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2120288821623603241",
+    "url": "https://x.com/securityLab_jp/status/2120288821623603241",
+    "author": {
+      "name": "セキュリティ対策Lab",
+      "handle": "securityLab_jp"
+    },
+    "posted_at": "2026-11-10T22:53:42.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "GMOあおぞらネット銀行、API が不正通信で2度停止し再開",
+    "summary": "GMOあおぞらネット銀行の銀行 API が不正通信で2度停止し、11日6時25分に再開。JPYC EX も再メンテナンスに入った。",
+    "text": "GMOあおぞらネット銀行、銀行APIが11日6時25分に再開　不正通信で2度停止、JPYC EXも再メンテ \n https://rocket-boys.co.jp/security-measures-lab/gmo-aozora-bank-api-suspended-unauthorized-traffic/ \n\n#セキュリティ対策Lab #security #securitynews #セキュリティ #セキュリティニュース",
+    "key_points": [
+      "API 連携先のサービスにも影響が出た。"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "セキュリティ対策Lab",
+        "url": "https://rocket-boys.co.jp/security-measures-lab/gmo-aozora-bank-api-suspended-unauthorized-traffic/"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2120275542393897052",
+    "url": "https://x.com/nikkei/status/2120275542393897052",
+    "author": {
+      "name": "日本経済新聞 電子版（日経電子版）",
+      "handle": "nikkei"
+    },
+    "posted_at": "2026-11-10T22:00:56.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "japan-tech",
+    "shelf_life": "news",
+    "tldr": "NTT、NEC株を全株売却しAI投資へ",
+    "summary": "NTT が保有する NEC 株をすべて売却し、利益約1900億円を AI 投資に回す。「電電ファミリー」の終わり。",
+    "text": "NTT「電電ファミリー」に幕　NEC株売却、利益1900億円でAI投資重点\nhttps://www.nikkei.com/article/DGXZQOUC098LO0Z01C26A1000000/?n_cid=SNSTW005&n_tw=1794310405\n\nNTTが保有する全てのNEC株の売却を決めました。AIの急速な普及に対応するため、資金を確保して競争力の向上につなげます。",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Nikkei",
+        "url": "https://www.nikkei.com/article/DGXZQOUC098LO0Z01C26A1000000/"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2120117722230968385",
+    "url": "https://x.com/AnthropicAI/status/2120117722230968385",
+    "author": {
+      "name": "Anthropic",
+      "handle": "AnthropicAI"
+    },
+    "posted_at": "2026-11-10T11:33:49.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "news",
+    "tldr": "Anthropic launches the roadshow for its IPO",
+    "summary": "Anthropic has started the investor roadshow for its proposed initial public offering; the registration statement is filed but not yet effective.",
+    "text": "Anthropic has launched the roadshow for its proposed initial public offering: https://t.co/FhVRVuWN9X\n\nLegal disclaimer: A registration statement relating to these securities has been filed with the SEC but has not yet become effective. These securities may not be sold, nor may offers to buy be accepted, prior to the time the registration statement becomes effective. This post does not constitute an offer to sell or the solicitation of an offer to buy these securities, nor shall there be any sale of these securities in any state or jurisdiction in which such offer, solicitation or sale would be unlawful prior to registration or qualification under the securities laws of any such state or jurisdiction.",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "www.anthropic.com",
+        "url": "https://www.anthropic.com/news/roadshow-launch",
+        "short": "https://t.co/FhVRVuWN9X"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2120204075803500595",
+    "url": "https://x.com/DKokotajlo/status/2120204075803500595",
+    "author": {
+      "name": "Daniel Kokotajlo",
+      "handle": "DKokotajlo"
+    },
+    "posted_at": "2026-11-10T17:16:57.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "ai-agents",
+    "shelf_life": "news",
+    "tldr": "Kokotajlo says a new METR report points to a 2027 takeoff",
+    "summary": "Daniel Kokotajlo says the new METR report implies AI-driven acceleration about five months ahead of the AI 2027 scenario.",
+    "text": "Unfortunately, it seems like the intelligence explosion will be happening in 2027 after all. Most of this post analyzes the new METR report (though other sources of evidence are also important). If they’re right, that implies an AI-driven acceleration that is 5 months ahead of the AI 2027 scenario.  I am scared, sad, and angry.",
+    "key_points": [
+      "A forecaster moved his timeline earlier on new data."
+    ],
+    "action": "",
+    "links": [],
+    "media": []
+  },
+  {
+    "id": "2120186651741655428",
+    "url": "https://x.com/DrJimFan/status/2120186651741655428",
+    "author": {
+      "name": "Jim Fan",
+      "handle": "DrJimFan"
+    },
+    "posted_at": "2026-11-10T16:07:43.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "NVIDIA releases GR00T 2, an open on-robot model",
+    "summary": "Jim Fan introduces GR00T 2, an open robotics model that runs on the robot's own compute, released with framework, simulation, hardware design and 100K hours of training data.",
+    "text": "Introducing GR00T 2: our most advanced, open System One model for robotics. It runs entirely on your robot’s onboard compute, fully untethered, and you own every weight of it. GR00T 2 features: \n\n1. Long-horizon tasks: dexterous manipulation and whole-body control chained over 20+ steps and 5+ minutes, such as performing chemistry lab experiments or assembling model airplanes end to end.\n2. X-Adapt: adapting from easy data sources (human wearables and simulation) and deploying zero-shot to diverse real robots.\n3. Unified Cognition: native integrations with frontier agents for advanced physical reasoning, robust error recovery, and safety monitoring.\n\nIt's an open-source buffet! We are releasing not only the model weights and X-Adapt recipes (coming December), but also our agentic framework, simulation engine, annotation engine, hardware design, and even training data (100K hours, that's ~11 yrs of experience), all available today! \n\nEverything that moves will be autonomous. Anyone can become a roboticist. \n\nLock in, build with us! \n\nDeep dive in thread:",
+    "key_points": [
+      "Runs fully on board, no tether.",
+      "Weights, tools and data are open; X-Adapt recipes come in December."
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2120178947035889664/img/RaYA0DTAiAgCHYpW.jpg",
+        "alt": "Video poster frame"
+      }
+    ]
+  },
+  {
+    "id": "2120169787896525104",
+    "url": "https://x.com/GoogleDeepMind/status/2120169787896525104",
+    "author": {
+      "name": "Google DeepMind",
+      "handle": "GoogleDeepMind"
+    },
+    "posted_at": "2026-11-10T15:00:42.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "models-releases",
+    "shelf_life": "news",
+    "tldr": "Gemini Robotics 2.5 learns hundreds of everyday skills",
+    "summary": "Google DeepMind's Gemini Robotics 2.5 learns hundreds of skills, from folding laundry to sorting car parts on a factory floor.",
+    "text": "Gemini Robotics 2.5 is here. 🤖\n\nOur latest physical AI is able to learn hundreds of everyday skills - from folding laundry and serving pastries to autonomously sorting car parts on the factory floor.\n\nHere’s a snapshot of its capabilities 🧵 https://t.co/50WwnDudsH",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2120168800934830080/img/HnD54hYgcdKYFBN4.jpg",
+        "alt": "Video poster frame",
+        "link": "https://t.co/50WwnDudsH"
+      }
+    ]
+  },
+  {
+    "id": "2120241577649909899",
+    "url": "https://x.com/OpenRouter/status/2120241577649909899",
+    "author": {
+      "name": "OpenRouter",
+      "handle": "OpenRouter"
+    },
+    "posted_at": "2026-11-10T19:45:58.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "news",
+    "tldr": "OpenRouter is now part of Stripe",
+    "summary": "OpenRouter joined Stripe; it says it stays neutral across models and will build spend and data controls for teams faster.",
+    "text": "OpenRouter is officially part of @stripe today!\n\nMore than 10 million developers and companies use OpenRouter, and as they build with more models across more workloads, they need control over what it costs and where their data goes.\n\nOpenRouter has built that operating infrastructure to help run AI across every model and provider, with access to new models, uptime through outages, and enforced spend and data policies for each team.\n\nJoining Stripe, which has spent years running critical infrastructure for businesses around the world, means we can build it faster and support companies at every scale.\n\nOur commitment to neutrality stays the same. Models and providers compete on quality, reliability, and price. You decide what works for your business.",
+    "key_points": [
+      "10 million developers and companies use it.",
+      "Promises continued neutrality between providers."
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Quoted post on X",
+        "url": "https://twitter.com/stripe/status/2120240651778355306"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2120226054195577277",
+    "url": "https://x.com/dotey/status/2120226054195577277",
+    "author": {
+      "name": "宝玉",
+      "handle": "dotey"
+    },
+    "posted_at": "2026-11-10T18:44:17.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "evergreen",
+    "tldr": "Lenny 求职报告：PM 岗位最多，工程师停止增长",
+    "summary": "dotey 整理 Lenny Rachitsky 的2026下半年科技就业报告：PM 开放岗位四年最多，工程岗位首次停止增长，FDE 和安全工程师逆势上涨。",
+    "text": "Lenny 最新科技就业报告：产品经理岗位四年来最多，工程师岗位停止增长，设计岗位创新低\n\nLenny Rachitsky 11 月 10 日发布了 2026 年下半年的科技就业报告，这是他做的第五份。结论是：AI 时代产品经理需求最旺，工程师需求停滞，设计师处境最难。\n\n先说这些数字怎么读。报告用了两套口径不同的数据：\n\n• 开放岗位：来自 TrueUp，统计全球 9000 多家科技公司正在招的职位数，反映公司“想招多少人”。\n• 实际招聘：来自 Live Data Technologies，统计美国有多少人从别的公司跳槽入职某个岗位，雇主不限于科技公司，反映“真招进来多少人”。最近一两个月的入职记录还在补录，数字之后会往上修。\n\n两套数据经常对不上：招聘启事越来越多，真正入职的人却在变少。Lenny 的解读是，公司的需求在涨，但招到合适的人越来越难。\n\n【产品经理】\n\n开放岗位是近四年最多的：现在有 7303 个 PM 职位，比 2023 年 3 月的低点（4171 个）多 75%。从 2023 年初算起，PM 岗位涨了 56%，工程岗位涨 43%，数据分析涨 18%，产品设计和用户研究都在下降。\n\n实际招聘就平淡很多。过去 12 个月美国招了约 3.26 万名产品经理，和 2024 年初相比少了 4%。这已经是几个核心岗位里最好的成绩，同期工程师少 17%，设计师少 26%，用户研究少 36%。\n\nPM 在产品、工程、数据科学、设计、用户研究这五类岗位的招聘里，占比从 2021 年的 16% 升到 21%，是唯一占比上升的岗位。\n\n所以 PM 的“吃香”是相对的。机会比其他岗位多，但整体还没回到高峰：2025 年美国 PM 招聘人数比 2022 年少 35%。\n\n【工程师】\n\n这是报告做到第五期，工程开放岗位第一次停止增长。2024 年涨 29%，2025 年涨 15%，过去一年只涨 2.5%，现在的 65351 个比今年 3 月还少。\n\n实际招聘降得更多。过去 12 个月（2025 年 5 月到 2026 年 4 月）美国招了约 11.3 万名软件工程师，不到 2022 年高峰（23.9 万）的一半，从 2022 年起每年都在降。\n\n工程师内部分化明显。过去一年，前线部署工程师（FDE，派驻到客户那里、把产品接进客户业务的工程师）开放岗位涨到原来的 4.6 倍，现在约 1450 个；安全工程师涨 34%，平台工程师涨 30%。前端工程师少了 51%，Android 少 47%，iOS 少 46%。\n\nLenny 认为，AI 让小团队里每个工程师能管的范围更宽，前端、移动端这类细分岗位就被合并了。FDE 的暴涨里，也有一部分是“售前工程师”之类的老岗位换了名字。按 Live Data 的统计，今年美国招 FDE 最多的是 Palantir（至少 151 人）、Google（122 人）和埃森哲（50 人）。\n\n好消息有两个。一是科技公司的招聘专员岗位创了纪录，现有 2715 个，是 2023 年 6 月低点（688 个）的近 4 倍，Lenny 认为这可能预示工程招聘会重新加速。二是工程师仍是招人最多的岗位，2025 年美国招了 12.08 万名工程师，是产品经理（3.4 万）的三倍多。\n\n【我是设计师】\n\n全球科技公司现在只有 1924 个产品设计开放岗位，是有记录以来最低，比一年前少 28%，只比 FDE 岗位多几百个。实际招聘也一样，过去 12 个月美国招了约 1.26 万名产品设计师，不到 2022 年（2.76 万）的一半。\n\nPM 和设计的差距越拉越大。现在每 1 个设计岗位对应 3.8 个 PM 岗位，今年 3 月是 2.6 个，2023 年初是 1.9 个。按实际招聘算，过去 12 个月美国每招 1 名设计师，就招 2.9 名 PM。\n\n用户研究跌得更厉害。过去一年美国只招了约 1800 名用户研究员，比 2022 年的 5300 人少 66%，全球科技公司只剩 108 个开放岗位。Lenny 的推测是产品迭代越来越快，团队更愿意先上线再改；Listen Labs 这类 AI 工具也让非专职人员能自己做用户研究。\n\n【不管哪个岗位，招聘启事里都写着 AI】\n\n两年前，PM 招聘启事里最常提的技能是 SQL、Jira、AWS 和 Python。现在排第一的是“LLM”，出现在 11% 的 PM 启事里；SQL 9% 排第二，Claude 5% 排第三，Cursor、OpenAI、MCP 也进了前八。\n\n工程师启事里，Python 仍是第一（29%），LLM（12%）刚超过 Java（11%）。设计师启事里，Figma 仍是第一（37%），而且三年来还在涨；Claude 今年春天升到第二（现在 13%），超过了 CSS，Cursor 也超过了 CSS。\n\n【岗位往湾区集中，远程越来越少】\n\n全球科技公司的开放岗位里，14.9% 在旧金山湾区，约每 7 个就有 1 个，创下纪录；湾区开放岗位数比一年前多 43%。核心岗位更集中：PM 和设计约四分之一在湾区，工程约五分之一，占比都比 2022 年翻了近一倍。\n\n可以远程的岗位只剩 14.4%，也是最低纪录，2022 年底是 21%。工程的远程比例从 25% 降到 14%，设计从 34% 降到 19%，PM 两年来稳定在 21% 左右。\n\n2025 年起，湾区的 PM、工程、设计开放岗位已经多于全球的远程岗位，现在是 21.8% 对 14.5%。四年前，远程岗位数量是湾区的近两倍。\n\n报告的第七条结论是：科技行业整体就业增长很快，但增长主要在软件相关岗位之外。这部分只对付费订阅者开放，具体是哪些岗位，目前还看不到。\n\n原文：https://t.co/9L7mj25OM4\n招聘数据：https://t.co/tZZhjcBV1t",
+    "key_points": [
+      "FDE 开放岗位涨到4.6倍，安全工程师涨34%。",
+      "前端、移动端岗位大幅减少。",
+      "实际入职人数比招聘启事冷得多。"
+    ],
+    "action": "",
+    "links": [
+      {
+        "title": "Lenny's Newsletter: State of the tech job market",
+        "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+        "short": "https://t.co/9L7mj25OM4"
+      },
+      {
+        "title": "Live Data Technologies: US tech hiring 2026",
+        "url": "https://www.livedatatech.com/insights/us-tech-hiring-2026",
+        "short": "https://t.co/tZZhjcBV1t"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWyOGkoW4AA6-EV.jpg",
+        "alt": "Image from the post"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWyOIAfWMAANq1O.jpg",
+        "alt": "Image from the post"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWyOI90WkAA7j-t.jpg",
+        "alt": "Image from the post"
+      }
+    ]
+  },
+  {
+    "id": "2120186030611419370",
+    "url": "https://x.com/DeepLearningAI/status/2120186030611419370",
+    "author": {
+      "name": "DeepLearning.AI",
+      "handle": "DeepLearningAI"
+    },
+    "posted_at": "2026-11-10T16:05:15.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "news",
+    "tldr": "LinkedIn data: AI helped create 2 million jobs",
+    "summary": "DeepLearning.AI cites LinkedIn data that AI helped create 2 million jobs, with AI engineer among the fastest growing roles in seven economies.",
+    "text": "AI has helped create 2 million jobs, according to LinkedIn data. AI engineer is one of the fastest growing roles in 7 major economies.\n\nThis week, Andrew Ng explains why embedding AI-powered software engineers in marketing, HR, and finance now makes sense.\n\nRead Andrew’s full https://t.co/CzGwY69Tw9",
+    "key_points": [],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWxp9V8XEAE40uM.jpg",
+        "alt": "Image from the post",
+        "link": "https://t.co/CzGwY69Tw9"
+      }
+    ]
+  },
+  {
+    "id": "2120176641603244488",
+    "url": "https://x.com/dotey/status/2120176641603244488",
+    "author": {
+      "name": "宝玉",
+      "handle": "dotey"
+    },
+    "posted_at": "2026-11-10T15:27:56.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "startups-business",
+    "shelf_life": "evergreen",
+    "tldr": "Manus 面试：用 Manus 花四小时解决一个问题",
+    "summary": "Manus 联合创始人张涛说公司内部已不分前后端，面试改为用 Manus 四小时解决一个问题，再和面试官复盘完整的 AI 对话记录。",
+    "text": "Manus 的招聘页面上，现在还挂着前端工程师、后端工程师这类岗位。可按 Manus 联合创始人张涛在 Web Summit 上的说法，公司内部已经不分这些角色了：\n\n他手下的产品经理都在往代码库里提交代码，设计师也在写代码。招聘页还按老规矩写，是因为“外面的世界还没跟上”。\n\n变化从今年 3 月前后开始。他说，会做事的人已经不稀缺了，AI 本身就很会做事；Manus 现在要找的是能和 AI 一起干活的人。连工程师面试都跟着改了，不再考传统的编程题。\n\n面试题换成了：用 Manus 花四小时解决一个问题\n\n候选人拿到一个问题，用 Manus 在四小时内把它解决，然后把这次任务的完整记录带回来，也就是他和 AI 从头到尾的每一轮来回，和面试官一起复盘。面试官从记录里看的是，这个人是不是已经习惯和 AI 一起工作。张涛说这一点“超级重要”。\n\n具体出什么题、复盘时看哪些地方，他在这段采访里没有讲。\n\n主持人追问：招聘启事要怎么写，只写“愿意和 AI 一起干活”吗？这种人恐怕不好找。张涛说要分内外两面看。\n\n对外，官网上还是按前端、后端等岗位分别招人。对内，这些角色已经都拿掉了，理由是有了 AI，“每个人都能做所有事”。\n\n他用自己的团队举例：产品经理全都在提交代码，同时也在做设计；设计师也在写代码。在他看来，按岗位写的招聘启事只是写给外界看的。",
+    "key_points": [
+      "看的是候选人是否习惯和 AI 一起工作。",
+      "招聘页按岗位写，只是写给外界看。"
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2120176480634142720/img/S4a99d_GqFipuPBg.jpg",
+        "alt": "Video poster frame"
+      }
+    ]
+  },
+  {
+    "id": "2120209911527412081",
+    "url": "https://x.com/lauriewired/status/2120209911527412081",
+    "author": {
+      "name": "LaurieWired",
+      "handle": "lauriewired"
+    },
+    "posted_at": "2026-11-10T17:40:09.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "design",
+    "shelf_life": "evergreen",
+    "tldr": "Add a 400 ms Doherty threshold to your test suite",
+    "summary": "Laurie Wired argues UX latency barely improved in 50 years and urges developers to test against IBM's ~400 ms Doherty Threshold.",
+    "text": "UX latency is the most frustrating (lack of) advancement in computing over the last ~50 years.\n\nIBM, way back in the 80s, found that user productivity shot up *exponentially* as system response time dropped.  The \"Doherty Threshold\" was defined as ~400 milliseconds; the maximum amount of tolerable UX latency before interrupting user flow state.\n\nIt's unbelievable how many modern operating systems (*cough* win11) violate this threshold constantly.\n\nLiterally all you need to do as a Dev is pay attention.  Add a \"Doherty Threshold\" to your test suite.  There's so many different profiling tools, and especially with how good models are, really no excuse.  Sure, some stalls are unavoidable, but that's when you pull out other UX tricks to at least give the illusion of responsiveness.\n\nCrazy how much vintage computing hardware feels immeasurably more responsive despite having thousands of times less overall performance.",
+    "key_points": [
+      "IBM found productivity rose sharply as response time fell.",
+      "Old hardware often feels faster than new."
+    ],
+    "action": "Add a test that fails when a key interaction in your app takes longer than 400 ms.",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWx_mm4asAA0Q4j.jpg",
+        "alt": "Image from the post"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWx_oRSaQAArACu.jpg",
+        "alt": "Image from the post"
+      }
+    ]
+  },
+  {
+    "id": "2120250630010765799",
+    "url": "https://x.com/newscientist/status/2120250630010765799",
+    "author": {
+      "name": "New Scientist",
+      "handle": "newscientist"
+    },
+    "posted_at": "2026-11-10T20:21:57.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "science",
+    "shelf_life": "evergreen",
+    "tldr": "Quantum error correction may face more likely error types",
+    "summary": "New Scientist reports some quantum computer error types, and their complications, may be more common than thought.",
+    "text": "Correcting quantum computer errors is key for making the devices practical, but some types of errors, and the complications they could introduce, may be more likely to occur than we had thought https://www.newscientist.com/article/2598161-correcting-quantum-computer-errors-may-be-more-complicated-than-expected/?utm_term=Autofeed&utm_campaign=echobox&utm_medium=social&utm_source=Twitter#Echobox=1794341186",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Correcting quantum computer errors may be more complicated than",
+        "url": "https://www.newscientist.com/article/2598161-correcting-quantum-computer-errors-may-be-more-complicated-than-expected/",
+        "image": "https://pbs.twimg.com/news_img/2120250632846127105/4ajZQLk7?format=jpg&name=orig"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2120221613303931375",
+    "url": "https://x.com/newscientist/status/2120221613303931375",
+    "author": {
+      "name": "New Scientist",
+      "handle": "newscientist"
+    },
+    "posted_at": "2026-11-10T18:26:39.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "A Scythian hair shows cannabis used as a drug 2,800 years ago",
+    "summary": "Psychoactive compounds in a hair from a Scythian tomb in Siberia give the earliest direct evidence of cannabis used as a drug.",
+    "text": "Psychoactive compounds have been found in a hair from a Scythian tomb in Siberia, providing the earliest direct evidence of cannabis being used as a drug https://www.newscientist.com/article/2597653-tomb-in-siberia-reveals-humans-were-using-cannabis-2800-years-ago/?utm_term=Autofeed&utm_campaign=echobox&utm_medium=social&utm_source=Twitter#Echobox=1794334836",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Tomb in Siberia reveals humans were using cannabis 2800",
+        "url": "https://www.newscientist.com/article/2597653-tomb-in-siberia-reveals-humans-were-using-cannabis-2800-years-ago/",
+        "image": "https://pbs.twimg.com/news_img/2118484724263849984/g6XYw7xv?format=jpg&name=orig"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2120208867615449208",
+    "url": "https://x.com/Math_files/status/2120208867615449208",
+    "author": {
+      "name": "Math Files",
+      "handle": "Math_files"
+    },
+    "posted_at": "2026-11-10T17:36:00.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "How Rutherford told Kelvin his Earth age was wrong",
+    "summary": "In 1904 Rutherford, lecturing with Kelvin in the audience, pointed to radium as an unknown heat source that undid Kelvin's young-Earth cooling estimate.",
+    "text": "In 1904, Ernest Rutherford was giving a lecture on radioactivity at London's Royal Institution.\n\nSitting in the audience was Lord Kelvin, one of the most influential physicists of the nineteenth century.\n\nThere was a problem.\n\nKelvin had calculated that Earth was only tens of millions of years old, based on how long a hot planet would take to cool.\n\nBut Rutherford was about to explain something that challenged a central assumption behind that calculation.\n\nAccording to Rutherford's later recollection, he noticed Kelvin in the audience and became uneasy.\n\nThen something unexpected happened.\n\nKelvin fell asleep.\n\nRutherford continued his lecture. But just as he approached the question of Earth's age, Kelvin woke up and looked directly at him.\n\nRutherford needed to make his point without openly embarrassing the distinguished physicist.\n\nHe reminded the audience that Kelvin's calculation depended on no previously unknown source of heat being discovered inside Earth.\n\nThen came the decisive word:\n\nRadium.\n\nRadioactive decay could generate heat within the planet, changing the assumptions on which the cooling estimate depended.\n\nRutherford recalled that Kelvin immediately smiled.\n\nIt was a clever scientific argument delivered with equally clever diplomacy.\n\nToday, radiometric dating establishes Earth's age at approximately 4.54 billion years.",
+    "key_points": [
+      "Kelvin's estimate rested on no new heat source being found.",
+      "Radioactive decay was that source."
+    ],
+    "action": "",
+    "links": [],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWxi-o-awAARMJr.jpg",
+        "alt": "Image from the post"
+      }
+    ]
+  },
+  {
+    "id": "2120188676831314126",
+    "url": "https://x.com/newscientist/status/2120188676831314126",
+    "author": {
+      "name": "New Scientist",
+      "handle": "newscientist"
+    },
+    "posted_at": "2026-11-10T16:15:46.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "Finland's Onkalo is built to last 100,000 years",
+    "summary": "Onkalo, a nuclear waste repository deep under Finland and the first structure engineered to last 100,000 years, is about to begin operations.",
+    "text": "The first engineered structure built to last for 100,000 years is about to begin operations. The hope is that Onkalo, deep below ground in Finland, will offer a safe place for the country to store nuclear waste https://www.newscientist.com/article/2595321-the-nuclear-repository-in-finland-designed-to-outlast-modern-civilisation/?utm_term=Autofeed&utm_campaign=echobox&utm_medium=social&utm_source=Twitter#Echobox=1794285545",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "The nuclear waste repository in Finland designed to outlast",
+        "url": "https://www.newscientist.com/article/2595321-the-nuclear-repository-in-finland-designed-to-outlast-modern-civilisation/",
+        "image": "https://pbs.twimg.com/news_img/2117652939338629123/fxxrEl36?format=jpg&name=orig"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2120230073164857511",
+    "url": "https://x.com/sciam/status/2120230073164857511",
+    "author": {
+      "name": "Scientific American",
+      "handle": "sciam"
+    },
+    "posted_at": "2026-11-10T19:00:16.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "Was Newton's claim to calculus shared with a rival",
+    "summary": "Scientific American revisits the story that Newton invented infinitesimals, and the other mathematician working on the same idea at the same time.",
+    "text": "Isaac Newton invented infinitesimals, which gave birth to the field of calculus—or so they story goes. But there was another mathematician coming up with the same concept at the same time\n\nhttps://sciam.com/article/was-isaac-newtons-contribution-to-calculus-stolen/?utm_source=twitter&utm_medium=social&utm_campaign=buffer",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Was Isaac Newton's contribution to calculus stolen?",
+        "url": "https://www.scientificamerican.com/article/was-isaac-newtons-contribution-to-calculus-stolen/",
+        "image": "https://pbs.twimg.com/news_img/2120230079246503936/8u-Nl_8T?format=png&name=orig"
+      }
+    ],
+    "media": []
+  },
+  {
+    "id": "2120211617249927389",
+    "url": "https://x.com/PublicDomainRev/status/2120211617249927389",
+    "author": {
+      "name": "The Public Domain Review",
+      "handle": "PublicDomainRev"
+    },
+    "posted_at": "2026-11-10T17:46:55.000Z",
+    "saved_at": "2026-11-11T08:10:00+09:00",
+    "topic": "history",
+    "shelf_life": "evergreen",
+    "tldr": "An 1827 mushroom atlas sorted fungi into edible, poisonous, suspect",
+    "summary": "The Public Domain Review shares a plate from Descourtilz's Atlas des Champignons (1827), colour lithographs sorting mushrooms as edible, poisonous or suspect.",
+    "text": "Plate from M. E. Descourtilz’s Atlas des Champignons (1827), a delightful series of colour lithographs of mushrooms, divided into those that are edible, poisonous and “suspect” — https://t.co/fJiYV9QiiY https://t.co/lX4qyJY0rz",
+    "key_points": [],
+    "action": "",
+    "links": [
+      {
+        "title": "Public Domain Review: Atlas des Champignons",
+        "url": "https://publicdomainreview.org/collection/atlas-des-champignons",
+        "short": "https://t.co/fJiYV9QiiY"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWyBOueXcAAwBVk.jpg",
+        "alt": "Image from the post",
+        "link": "https://t.co/lX4qyJY0rz"
+      }
+    ]
   }
 ]

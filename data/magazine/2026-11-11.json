@@ -1,0 +1,494 @@
+{
+  "date": "2026-11-11",
+  "title": "Big suites, leaky seams",
+  "subtitle": "Claude becomes an office, Gemini 4 Carbon lands everywhere, and three AI vendors leak",
+  "editor_note": "Claude grew into an office suite and Gemini 4 Carbon landed in every tool at once. The breaches came in at the seams: an inference vendor, a serving engine, a build system.",
+  "theme": {
+    "palette": "forest",
+    "fonts": "mono-serif",
+    "accent": "#b7791f"
+  },
+  "sections": [
+    {
+      "type": "cover-story",
+      "scan": "2120206365759094857",
+      "kicker": "Cover story",
+      "headline": "Claude moves into the whole office",
+      "deck": "Whiteboards, Sheets and Data, inside one chat.",
+      "variant": "overlay",
+      "why": "Your plans, trackers and charts can now live where your agent already works.",
+      "tags": [
+        "unverified"
+      ],
+      "source_label": "Claude"
+    },
+    {
+      "type": "corner",
+      "corner": "brief",
+      "deck": "What moved overnight."
+    },
+    {
+      "type": "brief-grid",
+      "variant": "cards",
+      "headline": "Resets, models, patches",
+      "columns": 2,
+      "items": [
+        {
+          "scan": "2120275296637321476",
+          "headline": "One free full Claude reset",
+          "why": "All models and limits, once. Expires Dec 11, 7:00 JST.",
+          "source_label": "ClaudeDevs"
+        },
+        {
+          "scan": "2120187753329791341",
+          "headline": "Gemini 4 Carbon is out",
+          "why": "Google’s top model for long agent work; 60.4% on CursorBench at high effort.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Google AI"
+        },
+        {
+          "scan": "2120236175378284648",
+          "headline": "Git: recursive clone can run code",
+          "why": "CVE-2026-111760 via submodule hooks. Update Git in every sandbox.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "The Hacker News"
+        },
+        {
+          "scan": "2120279511707386263",
+          "headline": "Grok Bot joins your tailnet",
+          "why": "An outside agent can now sit on your Tailscale network. Scope its ACLs.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Grok Bot"
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "variant": "wide",
+      "art": "interlude-wide.jpg",
+      "art_alt": "Many green threads woven across, with one gold thread winding through"
+    },
+    {
+      "type": "corner",
+      "corner": "lead",
+      "deck": "The breaches came in through the vendors."
+    },
+    {
+      "type": "timeline",
+      "variant": "vertical",
+      "headline": "Three AI vendors, one weak seam",
+      "items": [
+        {
+          "scan": "2120178399868309517",
+          "label": "Fireworks AI",
+          "note": "Billing data, datasets and partial weights, via a cloud provider.",
+          "why": "First reported as secrets only; it grew.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "The Hacker News"
+        },
+        {
+          "scan": "2120224129471361452",
+          "label": "Notion",
+          "note": "AI chat transcripts exposed; Insights off, Fireworks dropped.",
+          "why": "Your SaaS data travels to vendors you never chose.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "The Hacker News"
+        },
+        {
+          "scan": "2120235277268685225",
+          "label": "NEAR AI",
+          "note": "An SGLang RCE gave access to 18 agents and ~100 accounts.",
+          "why": "The open-source serving engine was the door.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "The Hacker News"
+        },
+        {
+          "scan": "2120280489030246729",
+          "label": "Railway",
+          "note": "Postmortem: stolen AI keys ran up $740,000.",
+          "why": "New since October: the bill, and what was taken.",
+          "source_label": "BleepingComputer"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "scan": "2120217395377955323",
+      "headline": "Paranoia, in hindsight",
+      "deck": "Slow security looks cheap after a month like this.",
+      "span": "half",
+      "art": "lead-vault.jpg",
+      "art_alt": "A heavy sealed green vault in the middle, light panels around it leaking gold at their seams",
+      "why": "Ask where your inference provider rents its GPUs.",
+      "tags": [
+        "unverified"
+      ],
+      "source_label": "Yuchen Jin"
+    },
+    {
+      "type": "pull-quote",
+      "scan": "2120217395377955323",
+      "span": "half",
+      "variant": "bar",
+      "quote": "But after seeing all the crazy security incidents at other AI inference providers, I’m grateful we take security so seriously."
+    },
+    {
+      "type": "corner",
+      "corner": "your-saves",
+      "deck": "Two saves for a new model week."
+    },
+    {
+      "type": "numbered-list",
+      "variant": "large",
+      "headline": "Saved this week",
+      "items": [
+        {
+          "bookmark": "2119884951550386671",
+          "headline": "One clean-up prompt per new model",
+          "why": "Cheap way to use Fable 5.2 on every repo you own."
+        },
+        {
+          "bookmark": "2119898687803621427",
+          "headline": "Which Claude model to build with",
+          "why": "Raise effort first; push subagents to smaller models."
+        }
+      ]
+    },
+    {
+      "type": "sidebar-box",
+      "bookmark": "2119884951550386671",
+      "variant": "callout",
+      "headline": "Try tonight"
+    },
+    {
+      "type": "corner",
+      "corner": "field-notes",
+      "deck": "How builders are wiring agents today."
+    },
+    {
+      "type": "brief-grid",
+      "variant": "plain",
+      "headline": "Agents, repos, read-only",
+      "columns": 2,
+      "items": [
+        {
+          "scan": "2120260969750540327",
+          "headline": "The home repo",
+          "why": "One repo for skills and AGENTS.md pointers to all the others.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Matt Pocock"
+        },
+        {
+          "scan": "2120282633334583387",
+          "headline": "X MCP has a read-only mode",
+          "why": "Add ?read_only=true; the server refuses every write.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Santiago Medina"
+        },
+        {
+          "scan": "2120227979041341943",
+          "headline": "Full apps inside Claude",
+          "why": "MCP Apps now covers app tools and embedded sites.",
+          "source_label": "ClaudeDevs"
+        },
+        {
+          "scan": "2120222008093151392",
+          "headline": "Carbon as a subagent",
+          "why": "Keep your main model; spawn Carbon for the hard bug.",
+          "source_label": "dax"
+        },
+        {
+          "scan": "2120279327589773639",
+          "headline": "/swarm in Antigravity",
+          "why": "Plan, build, verify agents on one board, mixed models.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Antigravity"
+        },
+        {
+          "scan": "2120113139996086409",
+          "headline": "Let the agent strip your Mac",
+          "why": "Fewer apps, grants and daemons; less to break into.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Quinn Slack"
+        }
+      ]
+    },
+    {
+      "type": "numbered-list",
+      "variant": "compact",
+      "headline": "Sharp edges",
+      "items": [
+        {
+          "scan": "2120221231974900091",
+          "headline": "The AUR is next",
+          "why": "A packager fears weak publish auth invites a supply-chain hit.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "dax"
+        },
+        {
+          "scan": "2120103631307645276",
+          "headline": "Claude Code doubled every key",
+          "why": "A live input bug, caught on camera.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Theo"
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "variant": "square",
+      "art": "interlude-square.jpg",
+      "art_alt": "A small block of green panels, one seam at the top glowing gold"
+    },
+    {
+      "type": "corner",
+      "corner": "japan-desk",
+      "label": "日本から",
+      "deck": "監視、コスト、漏えい。"
+    },
+    {
+      "type": "numbered-list",
+      "variant": "compact",
+      "headline": "今日の日本",
+      "items": [
+        {
+          "scan": "2120099973065048436",
+          "headline": "監視基盤なしで始めるAIセキュリティ監視",
+          "why": "SIEMなしでも始められる。ログに入る攻撃者の文字列にも注意。",
+          "source_label": "水谷正慶"
+        },
+        {
+          "scan": "2120109013786632638",
+          "headline": "AI利用料が月90万円に",
+          "why": "2年目社員の仕組み一つで請求が跳ねた。上限設定の話。",
+          "source_label": "NHK"
+        },
+        {
+          "scan": "2120288821623603241",
+          "headline": "GMOあおぞら、銀行APIが2度停止",
+          "why": "不正通信で停止し再開。API連携先にも波及。",
+          "source_label": "セキュリティ対策Lab"
+        },
+        {
+          "scan": "2120119795291169185",
+          "headline": "ソフト99、最大13万人分漏えいか",
+          "why": "クレジットカード情報を含む可能性。",
+          "source_label": "NHK"
+        },
+        {
+          "scan": "2120275542393897052",
+          "headline": "NTT、NEC株を全株売却",
+          "why": "約1900億円をAIへ。「電電ファミリー」の終わり。",
+          "source_label": "日本経済新聞"
+        }
+      ]
+    },
+    {
+      "type": "corner",
+      "corner": "adjacent",
+      "deck": "One step out: money, robots, jobs."
+    },
+    {
+      "type": "brief-grid",
+      "variant": "cards",
+      "headline": "Markets and machines",
+      "columns": 3,
+      "items": [
+        {
+          "scan": "2120117722230968385",
+          "headline": "Anthropic starts its IPO roadshow",
+          "why": "The company behind your daily tools heads to public markets.",
+          "source_label": "Anthropic"
+        },
+        {
+          "scan": "2120241577649909899",
+          "headline": "OpenRouter joins Stripe",
+          "why": "Your model router now belongs to a payments giant.",
+          "source_label": "OpenRouter"
+        },
+        {
+          "scan": "2120204075803500595",
+          "headline": "“2027 after all”",
+          "why": "Kokotajlo reads the new METR report as five months ahead of AI 2027.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Daniel Kokotajlo"
+        },
+        {
+          "scan": "2120186651741655428",
+          "headline": "GR00T 2, open and on-board",
+          "why": "Weights, sim, hardware and 100K hours of data released.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Jim Fan"
+        },
+        {
+          "scan": "2120169787896525104",
+          "headline": "Gemini Robotics 2.5",
+          "why": "From folding laundry to sorting car parts.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "Google DeepMind"
+        },
+        {
+          "scan": "2120250630010765799",
+          "headline": "Quantum errors, worse than hoped",
+          "why": "Some error types may be more common than assumed.",
+          "source_label": "New Scientist"
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "variant": "cards",
+      "headline": "What hiring looks like now",
+      "verdict": "Generalists who work with agents win; frontend and mobile roles shrink, FDE and security grow.",
+      "items": [
+        {
+          "scan": "2120226054195577277",
+          "label": "Lenny 报告",
+          "note": "工程岗位首次停涨，FDE 4.6倍。",
+          "why": "For your Japan search: FDE and security roles are rising."
+        },
+        {
+          "scan": "2120176641603244488",
+          "label": "Manus 面试",
+          "note": "用 Manus 四小时解题，再复盘对话。",
+          "why": "Interviews now grade how you work with an agent.",
+          "tags": [
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "numbered-list",
+      "variant": "compact",
+      "headline": "Craft",
+      "items": [
+        {
+          "scan": "2120209911527412081",
+          "headline": "Test for 400 ms",
+          "why": "The Doherty threshold, as a check in your suite.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "LaurieWired"
+        },
+        {
+          "scan": "2120186030611419370",
+          "headline": "AI engineer is a top-growth role",
+          "why": "LinkedIn: 2 million jobs, AI engineers rising in seven economies.",
+          "tags": [
+            "unverified"
+          ],
+          "source_label": "DeepLearning.AI"
+        }
+      ]
+    },
+    {
+      "type": "interlude",
+      "variant": "quiet",
+      "art": "interlude-quiet.jpg",
+      "art_alt": "A single thin gold line across deep green"
+    },
+    {
+      "type": "corner",
+      "corner": "open-window",
+      "deck": "History, and things built to outlast us."
+    },
+    {
+      "type": "brief-grid",
+      "variant": "cards",
+      "headline": "Old heat, long storage",
+      "columns": 2,
+      "items": [
+        {
+          "scan": "2120208867615449208",
+          "headline": "Rutherford, Kelvin and radium",
+          "why": "How a sleeping critic’s Earth age fell, politely.",
+          "tags": [
+            "new-to-you",
+            "unverified"
+          ],
+          "source_label": "Math Files"
+        },
+        {
+          "scan": "2120221613303931375",
+          "headline": "Cannabis, 2,800 years ago",
+          "why": "A Scythian hair gives the earliest direct proof.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "New Scientist"
+        },
+        {
+          "scan": "2120188676831314126",
+          "headline": "Built for 100,000 years",
+          "why": "Finland’s Onkalo starts storing nuclear waste.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "New Scientist"
+        },
+        {
+          "scan": "2120230073164857511",
+          "headline": "Newton’s calculus, shared?",
+          "why": "The rival who had the same idea at the same time.",
+          "tags": [
+            "new-to-you"
+          ],
+          "source_label": "Scientific American"
+        }
+      ]
+    },
+    {
+      "type": "image-of-the-day",
+      "variant": "standard",
+      "art": "iotd.jpg",
+      "headline": "Light through the seams",
+      "art_alt": "Green patchwork fields at dusk, a gold river of light running between them toward a glowing horizon",
+      "caption": "The bigger the quilt, the more seams. Watch where the light gets through."
+    },
+    {
+      "type": "corner",
+      "corner": "kicker"
+    },
+    {
+      "type": "closer",
+      "variant": "photo",
+      "scan": "2120211617249927389",
+      "headline": "Edible, poisonous, suspect",
+      "note": "An 1827 mushroom atlas with a third category we still need.",
+      "why": "A vendor list could use the same three boxes.",
+      "source_label": "Public Domain Review"
+    }
+  ]
+}
